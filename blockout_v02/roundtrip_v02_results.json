@@ -1,0 +1,38 @@
+{
+  "source_blend": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_v02/sharkys_room_blockout_v02.blend",
+  "glb": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_v02/sharkys_room_blockout_v02.glb",
+  "roundtrip_pass": true,
+  "source_objects": 81,
+  "reimported_objects": 81,
+  "missing_objects": [],
+  "extra_objects": [],
+  "structure_errors": [],
+  "origin_errors": [],
+  "geometry_bounds_errors": [],
+  "triangle_count_errors": [],
+  "source_triangles": 6010,
+  "reimported_triangles": 6010,
+  "cameras": [
+    {
+      "name": "CAM_Hero",
+      "world_matrix_max_error": 5.960464477539063e-08,
+      "pass": true
+    },
+    {
+      "name": "CAM_Hero_45",
+      "world_matrix_max_error": 5.960464477539063e-08,
+      "pass": true
+    },
+    {
+      "name": "CAM_Hero_48",
+      "world_matrix_max_error": 2.384185791015625e-07,
+      "pass": true
+    },
+    {
+      "name": "CAM_Hero_52",
+      "world_matrix_max_error": 5.960464477539063e-08,
+      "pass": true
+    }
+  ],
+  "note": "Actual Blender glTF importer used in a fresh scene. glTF Y-up is converted back to Blender Z-up. Projection fields are separately checked against the exported JSON by validate_v02.py. No render, .blend save or GLB export occurs."
+}

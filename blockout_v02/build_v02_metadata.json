@@ -1,0 +1,1365 @@
+{
+  "source_blend": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_v01/sharkys_room_blockout_v01.blend",
+  "source_v01_sha256": "e849a0508e0913658286d280fa5fecfa7cf7f1fc8916f9171173bb007d2f0fa1",
+  "blender_version": "5.2.1 LTS",
+  "stage": "v0.2 Composition Lock — camera decision pending",
+  "final_camera_selected": false,
+  "saved_active_camera": "CAM_Hero",
+  "changes": {
+    "FUR_DisplayCabinet": {
+      "before": {
+        "location": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          0.5199999809265137,
+          3.0999999046325684,
+          2.5999999046325684
+        ]
+      },
+      "after": {
+        "location": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          0.6000000238418579,
+          3.7499998807907104,
+          2.5999999046325684
+        ]
+      },
+      "reason": "Cabinet width 3.10→3.75m, depth .52→.60m; nonuniform shelves preserve tall tower space."
+    },
+    "DSP_Falcon_Bounds": {
+      "before": {
+        "location": [
+          -3.240000009536743,
+          0.18000000715255737,
+          1.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.240000009536743,
+          0.18000000715255737,
+          1.0
+        ],
+        "local_geometry_dimensions": [
+          0.41999998688697815,
+          1.1200000047683716,
+          0.44999998807907104
+        ]
+      },
+      "after": {
+        "location": [
+          -3.2249999046325684,
+          -0.3100000023841858,
+          1.0149999856948853
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.2249999046325684,
+          -0.3100000023841858,
+          1.0149999856948853
+        ],
+        "local_geometry_dimensions": [
+          0.47999998927116394,
+          1.2799999713897705,
+          0.44999998807907104
+        ]
+      },
+      "reason": "Wide low Falcon bay; proxy only, no model details."
+    },
+    "DSP_EiffelTower_Bounds": {
+      "before": {
+        "location": [
+          -3.240000009536743,
+          1.5,
+          1.9600000381469727
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.240000009536743,
+          1.5,
+          1.9600000381469727
+        ],
+        "local_geometry_dimensions": [
+          0.41999998688697815,
+          0.6200000047683716,
+          1.1299999952316284
+        ]
+      },
+      "after": {
+        "location": [
+          -3.2249999046325684,
+          0.9950000047683716,
+          1.5499999523162842
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.2249999046325684,
+          0.9950000047683716,
+          1.5499999523162842
+        ],
+        "local_geometry_dimensions": [
+          0.5,
+          0.7200000286102295,
+          1.600000023841858
+        ]
+      },
+      "reason": "Tall narrow Eiffel bay; proxy only, no model details."
+    },
+    "DSP_TallRocket_Bounds": {
+      "before": {
+        "location": [
+          -3.240000009536743,
+          2.130000114440918,
+          1.9800000190734863
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.240000009536743,
+          2.130000114440918,
+          1.9800000190734863
+        ],
+        "local_geometry_dimensions": [
+          0.2800000011920929,
+          0.2800000011920929,
+          1.1699999570846558
+        ]
+      },
+      "after": {
+        "location": [
+          -3.2249999046325684,
+          1.7000000476837158,
+          1.4800000190734863
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.2249999046325684,
+          1.7000000476837158,
+          1.4800000190734863
+        ],
+        "local_geometry_dimensions": [
+          0.3199999928474426,
+          0.28999999165534973,
+          1.440000057220459
+        ]
+      },
+      "reason": "Tall narrow rocket bay; proxy only, no model details."
+    },
+    "DSP_Castle_Bounds": {
+      "before": {
+        "location": [
+          -3.240000009536743,
+          0.05000000074505806,
+          1.7200000286102295
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.240000009536743,
+          0.05000000074505806,
+          1.7200000286102295
+        ],
+        "local_geometry_dimensions": [
+          0.4300000071525574,
+          1.1200000047683716,
+          0.6499999761581421
+        ]
+      },
+      "after": {
+        "location": [
+          -3.2249999046325684,
+          -0.3100000023841858,
+          1.9149999618530273
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.2249999046325684,
+          -0.3100000023841858,
+          1.9149999618530273
+        ],
+        "local_geometry_dimensions": [
+          0.49000000953674316,
+          1.2999999523162842,
+          0.9700000286102295
+        ]
+      },
+      "reason": "Wide tall architecture bay; proxy only, no model details."
+    },
+    "DSP_Bridge_Bounds": {
+      "before": {
+        "location": [
+          -3.240000009536743,
+          1.7300000190734863,
+          1.0199999809265137
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.240000009536743,
+          1.7300000190734863,
+          1.0199999809265137
+        ],
+        "local_geometry_dimensions": [
+          0.41999998688697815,
+          1.149999976158142,
+          0.49000000953674316
+        ]
+      },
+      "after": {
+        "location": [
+          -3.2249999046325684,
+          1.5199999809265137,
+          0.3799999952316284
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.2249999046325684,
+          1.5199999809265137,
+          0.3799999952316284
+        ],
+        "local_geometry_dimensions": [
+          0.4699999988079071,
+          1.399999976158142,
+          0.47999998927116394
+        ]
+      },
+      "reason": "Long low bridge bay; proxy only, no model details."
+    },
+    "DSP_Architecture_Bounds": {
+      "before": {
+        "location": [
+          -3.240000009536743,
+          0.10000000149011612,
+          0.36000001430511475
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.240000009536743,
+          0.10000000149011612,
+          0.36000001430511475
+        ],
+        "local_geometry_dimensions": [
+          0.41999998688697815,
+          1.0,
+          0.49000000953674316
+        ]
+      },
+      "after": {
+        "location": [
+          -3.2249999046325684,
+          0.1899999976158142,
+          0.36500000953674316
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.2249999046325684,
+          0.1899999976158142,
+          0.36500000953674316
+        ],
+        "local_geometry_dimensions": [
+          0.4699999988079071,
+          0.5299999713897705,
+          0.44999998807907104
+        ]
+      },
+      "reason": "Small architecture bay; proxy only, no model details."
+    },
+    "DSP_Vehicle_Bounds": {
+      "before": {
+        "location": [
+          -3.240000009536743,
+          1.5,
+          0.2800000011920929
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.240000009536743,
+          1.5,
+          0.2800000011920929
+        ],
+        "local_geometry_dimensions": [
+          0.4000000059604645,
+          0.6800000071525574,
+          0.33000001311302185
+        ]
+      },
+      "after": {
+        "location": [
+          -3.2249999046325684,
+          -0.6600000262260437,
+          0.2750000059604645
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "origin_world": [
+          -3.2249999046325684,
+          -0.6600000262260437,
+          0.2750000059604645
+        ],
+        "local_geometry_dimensions": [
+          0.41999998688697815,
+          0.8100000023841858,
+          0.27000001072883606
+        ]
+      },
+      "reason": "Low racing car bay; proxy only, no model details."
+    },
+    "FUR_Desk": {
+      "before": {
+        "location": [
+          -0.6499999761581421,
+          1.9500000476837158,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          -0.6499999761581421,
+          1.9500000476837158,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          2.6500000953674316,
+          0.8199999928474426,
+          0.7400000095367432
+        ]
+      },
+      "after": {
+        "location": [
+          -0.6499999761581421,
+          1.9500000476837158,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          -0.6499999761581421,
+          1.9500000476837158,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          2.8000001907348633,
+          0.8199999928474426,
+          0.7400000095367432
+        ]
+      },
+      "reason": "Widen desk X 2.65→2.80m without altering its height or the piano movement envelope."
+    },
+    "TEC_MonitorBody": {
+      "before": {
+        "location": [
+          -0.41999998688697815,
+          2.119999885559082,
+          1.2000000476837158
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "TECH",
+        "origin_world": [
+          -0.41999998688697815,
+          2.119999885559082,
+          1.2000000476837158
+        ],
+        "local_geometry_dimensions": [
+          0.9399999976158142,
+          0.23999999463558197,
+          0.7199999690055847
+        ]
+      },
+      "after": {
+        "location": [
+          -0.41999998688697815,
+          2.119999885559082,
+          1.2000000476837158
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "TECH",
+        "origin_world": [
+          -0.41999998688697815,
+          2.119999885559082,
+          1.2000000476837158
+        ],
+        "local_geometry_dimensions": [
+          1.159999966621399,
+          0.23999999463558197,
+          0.7699999809265137
+        ]
+      },
+      "reason": "Monitor head .94×.52→1.16×.62m; stand/base and all object transforms preserved."
+    },
+    "TEC_MonitorScreen": {
+      "before": {
+        "location": [
+          -0.41999998688697815,
+          2.0840001106262207,
+          1.2000000476837158
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "TECH",
+        "origin_world": [
+          -0.41999998688697815,
+          2.0840001106262207,
+          1.2000000476837158
+        ],
+        "local_geometry_dimensions": [
+          0.8830000162124634,
+          0.00800000037997961,
+          0.460999995470047
+        ]
+      },
+      "after": {
+        "location": [
+          -0.41999998688697815,
+          2.0840001106262207,
+          1.2000000476837158
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "TECH",
+        "origin_world": [
+          -0.41999998688697815,
+          2.0840001106262207,
+          1.2000000476837158
+        ],
+        "local_geometry_dimensions": [
+          1.1050000190734863,
+          0.00800000037997961,
+          0.5600000023841858
+        ]
+      },
+      "reason": "Screen enlarged to 1.105×.56m in local geometry; required name, origin and target unchanged."
+    },
+    "FUR_Sofa": {
+      "before": {
+        "location": [
+          -2.1500000953674316,
+          -1.0499999523162842,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          75.99999983816295
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          -2.1500000953674316,
+          -1.0499999523162842,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          1.9700000286102295,
+          0.875,
+          0.8050000220537186
+        ]
+      },
+      "after": {
+        "location": [
+          -2.130000114440918,
+          -1.1200000047683716,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          97.999998173639
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          -2.130000114440918,
+          -1.1200000047683716,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          1.9700000286102295,
+          0.875,
+          0.8050000220537186
+        ]
+      },
+      "reason": "Rotate Z 76→98 degrees, lightly reposition toward the lounge-to-workstation flow."
+    },
+    "FUR_CoffeeTable": {
+      "before": {
+        "location": [
+          -0.5,
+          -1.1699999570846558,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          -9.99999970909292
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          -0.5,
+          -1.1699999570846558,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          1.100000023841858,
+          0.6499999761581421,
+          0.47999998927116394
+        ]
+      },
+      "after": {
+        "location": [
+          -0.8299999833106995,
+          -1.0199999809265137,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          -3.999999969014533
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          -0.8299999833106995,
+          -1.0199999809265137,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          1.100000023841858,
+          0.6499999761581421,
+          0.47999998927116394
+        ]
+      },
+      "reason": "Move closer to sofa and slightly toward workstation; leave TEC_iPad and TGT_iPad at their validated positions."
+    },
+    "DEC_Plant_CoffeeTable": {
+      "before": {
+        "location": [
+          -0.12999999523162842,
+          -1.100000023841858,
+          0.47999998927116394
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DECORATIONS",
+        "origin_world": [
+          -0.12999999523162842,
+          -1.100000023841858,
+          0.47999998927116394
+        ],
+        "local_geometry_dimensions": [
+          0.14880000054836273,
+          0.13920000195503235,
+          0.23880000412464142
+        ]
+      },
+      "after": {
+        "location": [
+          -0.5099999904632568,
+          -0.9200000166893005,
+          0.47999998927116394
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DECORATIONS",
+        "origin_world": [
+          -0.5099999904632568,
+          -0.9200000166893005,
+          0.47999998927116394
+        ],
+        "local_geometry_dimensions": [
+          0.14880000054836273,
+          0.13920000195503235,
+          0.23880000412464142
+        ]
+      },
+      "reason": "Keep supported on the relocated tabletop."
+    },
+    "DEC_Plant_Sofa": {
+      "before": {
+        "location": [
+          -2.630000114440918,
+          -2.2100000381469727,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DECORATIONS",
+        "origin_world": [
+          -2.630000114440918,
+          -2.2100000381469727,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          0.4959999918937683,
+          0.46399998664855957,
+          0.7960000038146973
+        ]
+      },
+      "after": {
+        "location": [
+          -2.799999952316284,
+          -2.2899999618530273,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "DECORATIONS",
+        "origin_world": [
+          -2.799999952316284,
+          -2.2899999618530273,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          0.4959999918937683,
+          0.46399998664855957,
+          0.7960000038146973
+        ]
+      },
+      "reason": "Small adjustment to clear the rotated sofa arm while keeping the door approach open."
+    },
+    "FUR_BeanBag": {
+      "before": {
+        "location": [
+          1.8300000429153442,
+          -1.840000033378601,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          1.8300000429153442,
+          -1.840000033378601,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          1.0,
+          1.0100000202655792,
+          1.0
+        ]
+      },
+      "after": {
+        "location": [
+          2.130000114440918,
+          -1.7599999904632568,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "parent": "FURNITURE",
+        "origin_world": [
+          2.130000114440918,
+          -1.7599999904632568,
+          0.0
+        ],
+        "local_geometry_dimensions": [
+          0.7799999713897705,
+          0.7877999842166901,
+          0.7799999713897705
+        ]
+      },
+      "reason": "Apply 78% proxy geometry size; move X +.30m and Y +.08m to reduce foreground dominance."
+    }
+  },
+  "cameras": {
+    "CAM_Hero": {
+      "name": "CAM_Hero",
+      "role": "Unchanged v0.1 baseline, not the final v0.2 selection",
+      "type": "PERSP",
+      "lens_mm": 48.0,
+      "sensor_width_mm": 36.0,
+      "sensor_height_mm": 24.0,
+      "sensor_fit": "AUTO",
+      "position_xyz_m": [
+        8.10947036743164,
+        -10.664599418640137,
+        7.74280309677124
+      ],
+      "rotation_xyz_degrees": [
+        62.80003771989884,
+        -3.7351676952648978e-06,
+        37.31555349254367
+      ],
+      "rotation_quaternion_wxyz": [
+        0.8086933493614197,
+        0.49362891912460327,
+        0.166678786277771,
+        0.2730635404586792
+      ],
+      "matrix_world": [
+        [
+          0.7953089475631714,
+          -0.27709442377090454,
+          0.5391681790351868,
+          8.10947036743164
+        ],
+        [
+          0.6062043309211731,
+          0.3635335862636566,
+          -0.7073610424995422,
+          -10.664599418640137
+        ],
+        [
+          6.519097439650068e-08,
+          0.8894166946411133,
+          0.4570973515510559,
+          7.74280309677124
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "target_xyz_m": [
+        -0.04044289514422417,
+        0.02767212875187397,
+        0.8334456086158752
+      ],
+      "shift_xy": [
+        0.0,
+        0.0
+      ],
+      "clip_start_m": 0.05000000074505806,
+      "clip_end_m": 100.0,
+      "resolution": [
+        1536,
+        1024
+      ],
+      "pixel_aspect": [
+        1.0,
+        1.0
+      ],
+      "horizontal_fov_degrees": 41.112090439166934,
+      "vertical_fov_degrees": 28.072486935852957,
+      "dof_enabled": false
+    },
+    "CAM_Hero_45": {
+      "name": "CAM_Hero_45",
+      "role": "A — closer perspective, more visible shelf/table tops",
+      "type": "PERSP",
+      "lens_mm": 45.0,
+      "sensor_width_mm": 36.0,
+      "sensor_height_mm": 24.0,
+      "sensor_fit": "AUTO",
+      "position_xyz_m": [
+        7.618861675262451,
+        -9.377877235412598,
+        7.585813999176025
+      ],
+      "rotation_xyz_degrees": [
+        60.65804941504782,
+        3.520284739208731e-07,
+        38.95373679893079
+      ],
+      "rotation_quaternion_wxyz": [
+        0.8137477040290833,
+        0.476068913936615,
+        0.16836857795715332,
+        0.28779348731040955
+      ],
+      "matrix_world": [
+        [
+          0.7776538729667664,
+          -0.3080725073814392,
+          0.5480381846427917,
+          7.618861675262451
+        ],
+        [
+          0.6286926865577698,
+          0.38106659054756165,
+          -0.6778892278671265,
+          -9.377877235412598
+        ],
+        [
+          -6.144055930690229e-09,
+          0.8717107176780701,
+          0.49002084136009216,
+          7.585813999176025
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "target_xyz_m": [
+        -0.0070097679272294044,
+        0.05485529452562332,
+        0.7672414183616638
+      ],
+      "shift_xy": [
+        0.0,
+        0.0
+      ],
+      "clip_start_m": 0.05000000074505806,
+      "clip_end_m": 100.0,
+      "resolution": [
+        1536,
+        1024
+      ],
+      "pixel_aspect": [
+        1.0,
+        1.0
+      ],
+      "horizontal_fov_degrees": 43.60281897270362,
+      "vertical_fov_degrees": 29.862834356275105,
+      "dof_enabled": false,
+      "projected_bounds_xy": [
+        0.0351560153067112,
+        0.9648447036743164,
+        0.09999939054250717,
+        0.969999372959137
+      ]
+    },
+    "CAM_Hero_48": {
+      "name": "CAM_Hero_48",
+      "role": "B — baseline-adjacent view, adjusted framing for v0.2 furniture",
+      "type": "PERSP",
+      "lens_mm": 48.0,
+      "sensor_width_mm": 36.0,
+      "sensor_height_mm": 24.0,
+      "sensor_fit": "AUTO",
+      "position_xyz_m": [
+        7.891778469085693,
+        -10.294089317321777,
+        7.609460353851318
+      ],
+      "rotation_xyz_degrees": [
+        62.335646328040504,
+        8.659552215704741e-07,
+        37.522180375314896
+      ],
+      "rotation_quaternion_wxyz": [
+        0.8101922869682312,
+        0.49004822969436646,
+        0.1664547473192215,
+        0.2751981317996979
+      ],
+      "matrix_world": [
+        [
+          0.7931176424026489,
+          -0.2827850878238678,
+          0.5394414067268372,
+          7.891778469085693
+        ],
+        [
+          0.6090685129165649,
+          0.3682374656200409,
+          -0.7024505138397217,
+          -10.294089317321777
+        ],
+        [
+          -1.5113769791241793e-08,
+          0.8856826424598694,
+          0.46429112553596497,
+          7.609460353851318
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "target_xyz_m": [
+        -0.04308895766735077,
+        0.03855033218860626,
+        0.780006468296051
+      ],
+      "shift_xy": [
+        0.0,
+        0.0
+      ],
+      "clip_start_m": 0.05000000074505806,
+      "clip_end_m": 100.0,
+      "resolution": [
+        1536,
+        1024
+      ],
+      "pixel_aspect": [
+        1.0,
+        1.0
+      ],
+      "horizontal_fov_degrees": 41.112090439166934,
+      "vertical_fov_degrees": 28.072486935852957,
+      "dof_enabled": false,
+      "projected_bounds_xy": [
+        0.03499998897314072,
+        0.9650000333786011,
+        0.10690620541572571,
+        0.963094174861908
+      ]
+    },
+    "CAM_Hero_52": {
+      "name": "CAM_Hero_52",
+      "role": "C — longer lens and lower angle, less foreground exaggeration",
+      "type": "PERSP",
+      "lens_mm": 52.0,
+      "sensor_width_mm": 36.0,
+      "sensor_height_mm": 24.0,
+      "sensor_fit": "AUTO",
+      "position_xyz_m": [
+        9.004548072814941,
+        -10.892281532287598,
+        7.714287757873535
+      ],
+      "rotation_xyz_degrees": [
+        64.11064173859756,
+        -3.399498976847975e-07,
+        39.41707292656236
+      ],
+      "rotation_quaternion_wxyz": [
+        0.7978876233100891,
+        0.4996473789215088,
+        0.1789836436510086,
+        0.28581926226615906
+      ],
+      "matrix_world": [
+        [
+          0.7725443840026855,
+          -0.2772459089756012,
+          0.5712353587150574,
+          9.004548072814941
+        ],
+        [
+          0.6349607706069946,
+          0.3373197019100189,
+          -0.6950110197067261,
+          -10.892281532287598
+        ],
+        [
+          5.9332450064175646e-09,
+          0.8996388912200928,
+          0.43663468956947327,
+          7.714287757873535
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "target_xyz_m": [
+        -0.017570139840245247,
+        0.08475781977176666,
+        0.8180537223815918
+      ],
+      "shift_xy": [
+        0.0,
+        0.0
+      ],
+      "clip_start_m": 0.05000000074505806,
+      "clip_end_m": 100.0,
+      "resolution": [
+        1536,
+        1024
+      ],
+      "pixel_aspect": [
+        1.0,
+        1.0
+      ],
+      "horizontal_fov_degrees": 38.18698400097123,
+      "vertical_fov_degrees": 25.989233583833013,
+      "dof_enabled": false,
+      "projected_bounds_xy": [
+        0.0350000336766243,
+        0.9649999141693115,
+        0.11533046513795853,
+        0.9546689391136169
+      ]
+    }
+  },
+  "display_proxies": {
+    "DSP_Falcon_Bounds": {
+      "position": [
+        -3.225,
+        -0.31,
+        1.015
+      ],
+      "dimensions_xyz_m": [
+        0.48,
+        1.28,
+        0.45
+      ],
+      "bay": "Wide low Falcon bay"
+    },
+    "DSP_EiffelTower_Bounds": {
+      "position": [
+        -3.225,
+        0.995,
+        1.55
+      ],
+      "dimensions_xyz_m": [
+        0.5,
+        0.72,
+        1.6
+      ],
+      "bay": "Tall narrow Eiffel bay"
+    },
+    "DSP_TallRocket_Bounds": {
+      "position": [
+        -3.225,
+        1.7,
+        1.48
+      ],
+      "dimensions_xyz_m": [
+        0.32,
+        0.29,
+        1.44
+      ],
+      "bay": "Tall narrow rocket bay"
+    },
+    "DSP_Castle_Bounds": {
+      "position": [
+        -3.225,
+        -0.31,
+        1.915
+      ],
+      "dimensions_xyz_m": [
+        0.49,
+        1.3,
+        0.97
+      ],
+      "bay": "Wide tall architecture bay"
+    },
+    "DSP_Bridge_Bounds": {
+      "position": [
+        -3.225,
+        1.52,
+        0.38
+      ],
+      "dimensions_xyz_m": [
+        0.47,
+        1.4,
+        0.48
+      ],
+      "bay": "Long low bridge bay"
+    },
+    "DSP_Architecture_Bounds": {
+      "position": [
+        -3.225,
+        0.19,
+        0.365
+      ],
+      "dimensions_xyz_m": [
+        0.47,
+        0.53,
+        0.45
+      ],
+      "bay": "Small architecture bay"
+    },
+    "DSP_Vehicle_Bounds": {
+      "position": [
+        -3.225,
+        -0.66,
+        0.275
+      ],
+      "dimensions_xyz_m": [
+        0.42,
+        0.81,
+        0.27
+      ],
+      "bay": "Low racing car bay"
+    }
+  },
+  "display_cabinet_overall_wdh_m": [
+    3.75,
+    0.6,
+    2.6
+  ],
+  "glb_bytes": 378160
+}

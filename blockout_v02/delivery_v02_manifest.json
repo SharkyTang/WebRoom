@@ -1,0 +1,26 @@
+{
+  "sharkys_room_blockout_v02.blend": {
+    "bytes": 704246,
+    "sha256": "cf4eb1f60e3ae1086eb8b534693499e33d397ce4521a039512978070d1e5be2e"
+  },
+  "sharkys_room_blockout_v02.glb": {
+    "bytes": 378160,
+    "sha256": "08a3eab24c26cfcb99c4bf2c2a41dc882f82b23b246def1737f6f04f3662eb3a"
+  },
+  "hero_45mm.png": {
+    "bytes": 1796841,
+    "sha256": "90e13329ff94933109392520cb0e18c7381a35bb6064c66c918d46de8ae9401b"
+  },
+  "hero_48mm.png": {
+    "bytes": 1793037,
+    "sha256": "d3fc52ec0fe08ae8b09744a6aa5dbd2a79bcf093d6c3770308b338893ee3dfeb"
+  },
+  "hero_52mm.png": {
+    "bytes": 1790113,
+    "sha256": "667c86d85e18676a051c18e29b723f2858bd06ddcdb5517b98190f49b650b350"
+  },
+  "BLOCKOUT_REPORT_v02.md": {
+    "bytes": 12938,
+    "sha256": "76d6bdc93867ed83bffed857ee09ce1956f29d711383e076ce63d62402db0124"
+  }
+}
