@@ -1,0 +1,11 @@
+{
+  "missing_objects": [],
+  "parent_errors": [],
+  "origin_errors": [],
+  "geometry_bounds_errors": [],
+  "source_objects": 78,
+  "reimported_objects": 78,
+  "camera_world_matrix_max_error": 5.960464477539063e-08,
+  "note": "glTF uses Y-up; importer restores Z-up. World background is restored for render comparison because glTF does not serialize the Blender World.",
+  "roundtrip_pass": true
+}

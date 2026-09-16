@@ -1,0 +1,2777 @@
+{
+  "validation_version": "1.0",
+  "timestamp_utc": "2026-09-15T17:54:01.187508+00:00",
+  "blend_path": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_v01/sharkys_room_blockout_v01.blend",
+  "blender_version": "5.2.1 LTS",
+  "overall_status": "pass",
+  "summary": {
+    "pass": 52,
+    "fail": 0,
+    "warning": 0
+  },
+  "checks": [
+    {
+      "check": "blend_metric_units",
+      "status": "pass",
+      "evidence": {
+        "system": "METRIC",
+        "scale_length": 1.0,
+        "up_axis": "Z (Blender)"
+      }
+    },
+    {
+      "check": "blend_required_collections",
+      "status": "pass",
+      "evidence": {
+        "required": [
+          "ENVIRONMENT",
+          "FURNITURE",
+          "TECH",
+          "INTERACTIVE",
+          "DISPLAY_MODELS",
+          "DECORATIONS",
+          "LIGHTING",
+          "CAMERAS_TARGETS"
+        ],
+        "missing": []
+      }
+    },
+    {
+      "check": "blend_required_exact_names",
+      "status": "pass",
+      "evidence": {
+        "required_count": 47,
+        "missing": []
+      }
+    },
+    {
+      "check": "blend_root_empty",
+      "status": "pass",
+      "evidence": {
+        "name": "SharkysRoom",
+        "type": "EMPTY"
+      }
+    },
+    {
+      "check": "blend_export_group_empties",
+      "status": "pass",
+      "evidence": {
+        "incorrect_groups": []
+      }
+    },
+    {
+      "check": "blend_required_hierarchy",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "blend_required_collection_membership",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "blend_nine_target_empties",
+      "status": "pass",
+      "evidence": [
+        {
+          "name": "TGT_Monitor",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_MacBook",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_iPad",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_Marshall",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_Piano",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_TrashCan",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_LightSwitch",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_Phone",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_Window",
+          "type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "check": "blend_interactive_independent_objects",
+      "status": "pass",
+      "evidence": [
+        {
+          "name": "TEC_MonitorBody",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_MonitorScreen",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_MacBookBase",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_MacBookScreen",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_iPad",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_Marshall",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_Phone",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "INT_PianoRail",
+          "type": "EMPTY",
+          "independent_object": true
+        },
+        {
+          "name": "INT_Piano",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "INT_TrashCanBody",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "INT_TrashCanLid",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "INT_LightSwitch",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "ENV_WindowFrame",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "ENV_WindowGlass",
+          "type": "MESH",
+          "independent_object": true
+        }
+      ]
+    },
+    {
+      "check": "blend_interactive_independent_mesh_data",
+      "status": "pass",
+      "evidence": {
+        "shared_mesh_datablocks": []
+      }
+    },
+    {
+      "check": "blend_piano_parent",
+      "status": "pass",
+      "evidence": {
+        "parent": "INT_PianoRail"
+      }
+    },
+    {
+      "check": "blend_applied_mesh_and_empty_scale",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "blend_hero_camera",
+      "status": "pass",
+      "evidence": {
+        "active_camera": "CAM_Hero",
+        "type": "PERSP"
+      }
+    },
+    {
+      "check": "blend_hero_perspective",
+      "status": "pass",
+      "evidence": {
+        "projection": "PERSP"
+      }
+    },
+    {
+      "check": "blend_low_complexity_geometry",
+      "status": "pass",
+      "evidence": {
+        "mesh_objects": 52,
+        "vertices": 2412,
+        "triangles": 4294,
+        "largest_meshes": [
+          {
+            "name": "DEC_DogBedProxy",
+            "vertices": 342,
+            "triangles": 672
+          },
+          {
+            "name": "FUR_BeanBag",
+            "vertices": 228,
+            "triangles": 448
+          },
+          {
+            "name": "FUR_OfficeChair",
+            "vertices": 188,
+            "triangles": 324
+          },
+          {
+            "name": "TEC_Mouse",
+            "vertices": 114,
+            "triangles": 224
+          },
+          {
+            "name": "DEC_Lamp_Bedside",
+            "vertices": 110,
+            "triangles": 208
+          },
+          {
+            "name": "DEC_Lamp_Lounge",
+            "vertices": 110,
+            "triangles": 208
+          },
+          {
+            "name": "DEC_Plant_Window",
+            "vertices": 102,
+            "triangles": 192
+          },
+          {
+            "name": "DEC_Plant_Sofa",
+            "vertices": 102,
+            "triangles": 192
+          },
+          {
+            "name": "DEC_Plant_Cabinet",
+            "vertices": 102,
+            "triangles": 192
+          },
+          {
+            "name": "DEC_Plant_Desk",
+            "vertices": 102,
+            "triangles": 192
+          },
+          {
+            "name": "DEC_Plant_CoffeeTable",
+            "vertices": 102,
+            "triangles": 192
+          },
+          {
+            "name": "INT_TrashCanBody",
+            "vertices": 80,
+            "triangles": 138
+          }
+        ]
+      }
+    },
+    {
+      "check": "blend_small_material_palette",
+      "status": "pass",
+      "evidence": {
+        "count": 6,
+        "names": [
+          "MAT_DarkTechnology_Greybox",
+          "MAT_Furniture_Greybox",
+          "MAT_GlassProxy_Greybox",
+          "MAT_RoomShell_Greybox",
+          "MAT_ScreenProxy_Greybox",
+          "MAT_SoftProxy_Greybox"
+        ]
+      }
+    },
+    {
+      "check": "blend_no_high_resolution_material_textures",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "TEC_MacBookScreen_pivot_geometry",
+      "status": "pass",
+      "evidence": {
+        "local_axis": "X",
+        "local_bounds": [
+          [
+            -0.17000000178813934,
+            -0.2240000069141388,
+            -0.002500000176951289
+          ],
+          [
+            0.17000000178813934,
+            0.0,
+            0.02500000037252903
+          ]
+        ],
+        "geometry_long_axis": "Y",
+        "edge_distance_m": 0.0,
+        "center_distance_m": 0.1120000034570694,
+        "tolerance_m": 0.015680000483989716,
+        "expected": "hinge at mesh edge"
+      }
+    },
+    {
+      "check": "TEC_MacBookScreen_pivot_motion",
+      "status": "pass",
+      "evidence": {
+        "axis": "X",
+        "closed_angle_deg": 0.0,
+        "open_angle_deg": -105.0,
+        "sample_count": 9,
+        "origin_drift_m": 0.0,
+        "free_edge_displacement_m": 0.35762896036617225
+      }
+    },
+    {
+      "check": "TEC_MacBookScreen_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "INT_TrashCanLid_pivot_geometry",
+      "status": "pass",
+      "evidence": {
+        "local_axis": "X",
+        "local_bounds": [
+          [
+            -0.19300000369548798,
+            -0.38600000739097595,
+            -0.012500000186264515
+          ],
+          [
+            0.19300000369548798,
+            0.0,
+            0.012500000186264515
+          ]
+        ],
+        "geometry_long_axis": "Y",
+        "edge_distance_m": 0.0,
+        "center_distance_m": 0.19300000369548798,
+        "tolerance_m": 0.02702000051736832,
+        "expected": "hinge at mesh edge"
+      }
+    },
+    {
+      "check": "INT_TrashCanLid_pivot_motion",
+      "status": "pass",
+      "evidence": {
+        "axis": "X",
+        "closed_angle_deg": 0.0,
+        "open_angle_deg": -100.0,
+        "sample_count": 9,
+        "origin_drift_m": 0.0,
+        "free_edge_displacement_m": 0.5916962994511198
+      }
+    },
+    {
+      "check": "INT_TrashCanLid_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "INT_LightSwitch_pivot_geometry",
+      "status": "pass",
+      "evidence": {
+        "local_axis": "Y",
+        "local_bounds": [
+          [
+            -0.010999999940395355,
+            -0.032499998807907104,
+            -0.04899999871850014
+          ],
+          [
+            0.010999999940395355,
+            0.032499998807907104,
+            0.04899999871850014
+          ]
+        ],
+        "geometry_long_axis": "Z",
+        "edge_distance_m": 0.04899999871850014,
+        "center_distance_m": 0.0,
+        "tolerance_m": 0.02939999923110008,
+        "expected": "centered toggle"
+      }
+    },
+    {
+      "check": "INT_LightSwitch_pivot_motion",
+      "status": "pass",
+      "evidence": {
+        "axis": "Y",
+        "closed_angle_deg": -8.0,
+        "open_angle_deg": 8.0,
+        "sample_count": 9,
+        "origin_drift_m": 0.0,
+        "free_edge_displacement_m": 0.01397843909057982
+      }
+    },
+    {
+      "check": "INT_LightSwitch_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "piano_slide_travel_range",
+      "status": "pass",
+      "evidence": {
+        "controller": "INT_PianoRail",
+        "axis": "Y",
+        "travel_m": -0.65
+      }
+    },
+    {
+      "check": "piano_slide_endpoints_match_travel",
+      "status": "pass",
+      "evidence": {
+        "retracted_local_m": 1.94,
+        "extended_local_m": 1.29,
+        "default_pose_local_m": 1.2899999618530273,
+        "signed_travel_m": -0.65
+      }
+    },
+    {
+      "check": "piano_slide_translation",
+      "status": "pass",
+      "evidence": {
+        "expected_m": 0.65,
+        "observed_m": 0.6500001027033798,
+        "controller": "INT_PianoRail"
+      }
+    },
+    {
+      "check": "piano_slide_mesh_collision_samples",
+      "status": "pass",
+      "evidence": {
+        "sample_count": 15,
+        "collisions": [],
+        "method": "world-space mesh BVH surface intersection, 15 evenly spaced poses; touching AABB faces excluded",
+        "limitation": "Surface intersections only; complete containment and continuous collision between samples need visual review."
+      }
+    },
+    {
+      "check": "piano_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "static_main_furniture_curtains_and_walls_no_surface_intersections",
+      "status": "pass",
+      "evidence": {
+        "checked_pairs": 60,
+        "intersections": [],
+        "method": "Main furniture pairs and each furniture versus rear walls/curtains, world BVH after non-touching AABB filter.",
+        "excluded_intentional_contacts": "Floor support, internal parts of the same furniture mesh, rugs, supported tabletop tech, cabinet display proxies.",
+        "limitation": "Surface intersection test cannot prove absence of a smaller enclosed solid entirely inside a larger solid."
+      }
+    },
+    {
+      "check": "TEC_MacBookScreen_sweep_collision_test",
+      "status": "pass",
+      "evidence": {
+        "sample_count": 106,
+        "closed_angle_deg": 0.0,
+        "open_angle_deg": -105.0,
+        "collisions": [],
+        "closed_stop_contacts_within_3mm": [],
+        "method": "World-space mesh BVH, at most 1 degree per step; all other scene mesh objects tested after broad phase.",
+        "contact_rule": "Only laptop screen/base contact up to 3 mm at the fully closed stop is classified as mechanical contact.",
+        "limitation": "Discrete sampled surface-intersection check, not analytic continuous or solid containment verification."
+      }
+    },
+    {
+      "check": "TEC_MacBookScreen_sweep_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "INT_TrashCanLid_sweep_collision_test",
+      "status": "pass",
+      "evidence": {
+        "sample_count": 101,
+        "closed_angle_deg": 0.0,
+        "open_angle_deg": -100.0,
+        "collisions": [],
+        "closed_stop_contacts_within_3mm": [],
+        "method": "World-space mesh BVH, at most 1 degree per step; all other scene mesh objects tested after broad phase.",
+        "contact_rule": "Only laptop screen/base contact up to 3 mm at the fully closed stop is classified as mechanical contact.",
+        "limitation": "Discrete sampled surface-intersection check, not analytic continuous or solid containment verification."
+      }
+    },
+    {
+      "check": "INT_TrashCanLid_sweep_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "INT_LightSwitch_sweep_collision_test",
+      "status": "pass",
+      "evidence": {
+        "sample_count": 33,
+        "closed_angle_deg": -8.0,
+        "open_angle_deg": 8.0,
+        "collisions": [],
+        "closed_stop_contacts_within_3mm": [],
+        "method": "World-space mesh BVH, at most 1 degree per step; all other scene mesh objects tested after broad phase.",
+        "contact_rule": "Only laptop screen/base contact up to 3 mm at the fully closed stop is classified as mechanical contact.",
+        "limitation": "Discrete sampled surface-intersection check, not analytic continuous or solid containment verification."
+      }
+    },
+    {
+      "check": "INT_LightSwitch_sweep_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "glb_exists",
+      "status": "pass",
+      "evidence": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_v01/sharkys_room_blockout_v01.glb"
+    },
+    {
+      "check": "glb_valid_container",
+      "status": "pass",
+      "evidence": {
+        "version": "2.0",
+        "size_bytes": 372980,
+        "binary_chunk_bytes": 319932
+      }
+    },
+    {
+      "check": "glb_under_5_MB",
+      "status": "pass",
+      "evidence": {
+        "bytes": 372980,
+        "decimal_MB": 0.37298,
+        "MiB": 0.355701
+      }
+    },
+    {
+      "check": "glb_required_exact_names",
+      "status": "pass",
+      "evidence": {
+        "missing": [],
+        "node_count": 78
+      }
+    },
+    {
+      "check": "glb_unique_node_names",
+      "status": "pass",
+      "evidence": {}
+    },
+    {
+      "check": "glb_hierarchy_preserved",
+      "status": "pass",
+      "evidence": {
+        "hierarchy_errors": [],
+        "multiple_parent_nodes": []
+      }
+    },
+    {
+      "check": "glb_interactive_independent_nodes",
+      "status": "pass",
+      "evidence": [
+        {
+          "name": "TEC_MonitorBody",
+          "node": 72,
+          "mesh": 48,
+          "valid": true
+        },
+        {
+          "name": "TEC_MonitorScreen",
+          "node": 73,
+          "mesh": 49,
+          "valid": true
+        },
+        {
+          "name": "TEC_MacBookBase",
+          "node": 69,
+          "mesh": 45,
+          "valid": true
+        },
+        {
+          "name": "TEC_MacBookScreen",
+          "node": 70,
+          "mesh": 46,
+          "valid": true
+        },
+        {
+          "name": "TEC_iPad",
+          "node": 67,
+          "mesh": 43,
+          "valid": true
+        },
+        {
+          "name": "TEC_Marshall",
+          "node": 71,
+          "mesh": 47,
+          "valid": true
+        },
+        {
+          "name": "TEC_Phone",
+          "node": 75,
+          "mesh": 51,
+          "valid": true
+        },
+        {
+          "name": "INT_PianoRail",
+          "node": 56,
+          "mesh": null,
+          "valid": true
+        },
+        {
+          "name": "INT_Piano",
+          "node": 55,
+          "mesh": 39,
+          "valid": true
+        },
+        {
+          "name": "INT_TrashCanBody",
+          "node": 57,
+          "mesh": 40,
+          "valid": true
+        },
+        {
+          "name": "INT_TrashCanLid",
+          "node": 58,
+          "mesh": 41,
+          "valid": true
+        },
+        {
+          "name": "INT_LightSwitch",
+          "node": 54,
+          "mesh": 38,
+          "valid": true
+        },
+        {
+          "name": "ENV_WindowFrame",
+          "node": 41,
+          "mesh": 27,
+          "valid": true
+        },
+        {
+          "name": "ENV_WindowGlass",
+          "node": 42,
+          "mesh": 28,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "check": "glb_interactive_and_target_world_origins_preserved",
+      "status": "pass",
+      "evidence": [
+        {
+          "name": "TEC_MonitorBody",
+          "exported_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.12
+          ],
+          "expected_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.12
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_MonitorScreen",
+          "exported_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.084
+          ],
+          "expected_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.084
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_MacBookBase",
+          "exported_world_origin_Y_up": [
+            -1.5,
+            0.757,
+            -1.86
+          ],
+          "expected_world_origin_Y_up": [
+            -1.5,
+            0.757,
+            -1.86
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_MacBookScreen",
+          "exported_world_origin_Y_up": [
+            -1.5,
+            0.776,
+            -1.9775
+          ],
+          "expected_world_origin_Y_up": [
+            -1.5,
+            0.776,
+            -1.9775
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_iPad",
+          "exported_world_origin_Y_up": [
+            -0.66,
+            0.49,
+            1.18
+          ],
+          "expected_world_origin_Y_up": [
+            -0.66,
+            0.49,
+            1.18
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_Marshall",
+          "exported_world_origin_Y_up": [
+            0.39,
+            0.885,
+            -2.06
+          ],
+          "expected_world_origin_Y_up": [
+            0.39,
+            0.885,
+            -2.06
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_Phone",
+          "exported_world_origin_Y_up": [
+            0.16,
+            0.84,
+            -1.75
+          ],
+          "expected_world_origin_Y_up": [
+            0.16,
+            0.84,
+            -1.75
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_PianoRail",
+          "exported_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "expected_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_Piano",
+          "exported_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "expected_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_TrashCanBody",
+          "exported_world_origin_Y_up": [
+            1.12,
+            0.225,
+            -1.8
+          ],
+          "expected_world_origin_Y_up": [
+            1.12,
+            0.225,
+            -1.8
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_TrashCanLid",
+          "exported_world_origin_Y_up": [
+            1.12,
+            0.474,
+            -1.993
+          ],
+          "expected_world_origin_Y_up": [
+            1.12,
+            0.474,
+            -1.993
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_LightSwitch",
+          "exported_world_origin_Y_up": [
+            -3.539,
+            1.2,
+            1.47
+          ],
+          "expected_world_origin_Y_up": [
+            -3.539,
+            1.2,
+            1.47
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "ENV_WindowFrame",
+          "exported_world_origin_Y_up": [
+            0.0,
+            0.0,
+            -2.895
+          ],
+          "expected_world_origin_Y_up": [
+            0.0,
+            0.0,
+            -2.895
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "ENV_WindowGlass",
+          "exported_world_origin_Y_up": [
+            -0.675,
+            1.84,
+            -2.955
+          ],
+          "expected_world_origin_Y_up": [
+            -0.675,
+            1.84,
+            -2.955
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Monitor",
+          "exported_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.08
+          ],
+          "expected_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.08
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_MacBook",
+          "exported_world_origin_Y_up": [
+            -1.5,
+            0.94,
+            -1.97
+          ],
+          "expected_world_origin_Y_up": [
+            -1.5,
+            0.94,
+            -1.97
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_iPad",
+          "exported_world_origin_Y_up": [
+            -0.66,
+            0.5,
+            1.18
+          ],
+          "expected_world_origin_Y_up": [
+            -0.66,
+            0.5,
+            1.18
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Marshall",
+          "exported_world_origin_Y_up": [
+            0.39,
+            0.885,
+            -2.06
+          ],
+          "expected_world_origin_Y_up": [
+            0.39,
+            0.885,
+            -2.06
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Piano",
+          "exported_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "expected_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_TrashCan",
+          "exported_world_origin_Y_up": [
+            1.12,
+            0.46,
+            -1.8
+          ],
+          "expected_world_origin_Y_up": [
+            1.12,
+            0.46,
+            -1.8
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_LightSwitch",
+          "exported_world_origin_Y_up": [
+            -3.54,
+            1.2,
+            1.47
+          ],
+          "expected_world_origin_Y_up": [
+            -3.54,
+            1.2,
+            1.47
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Phone",
+          "exported_world_origin_Y_up": [
+            0.16,
+            0.84,
+            -1.75
+          ],
+          "expected_world_origin_Y_up": [
+            0.16,
+            0.84,
+            -1.75
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Window",
+          "exported_world_origin_Y_up": [
+            -0.675,
+            1.84,
+            -2.9
+          ],
+          "expected_world_origin_Y_up": [
+            -0.675,
+            1.84,
+            -2.9
+          ],
+          "error_m": 0.0
+        }
+      ]
+    },
+    {
+      "check": "glb_nine_targets",
+      "status": "pass",
+      "evidence": {
+        "exported": [
+          "TGT_Monitor",
+          "TGT_MacBook",
+          "TGT_iPad",
+          "TGT_Marshall",
+          "TGT_Piano",
+          "TGT_TrashCan",
+          "TGT_LightSwitch",
+          "TGT_Phone",
+          "TGT_Window"
+        ]
+      }
+    },
+    {
+      "check": "glb_hero_camera_exported",
+      "status": "pass",
+      "evidence": {
+        "camera_index": 0,
+        "camera_count": 1
+      }
+    },
+    {
+      "check": "glb_hero_camera_projection_matches_blend",
+      "status": "pass",
+      "evidence": {
+        "expected_vertical_fov_rad": 0.4899573262537283,
+        "exported_vertical_fov_rad": 0.48995732372885886,
+        "expected_aspect_ratio": 1.5,
+        "exported_aspect_ratio": 1.5,
+        "blender_sensor_shift": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "glb_low_complexity_geometry",
+      "status": "pass",
+      "evidence": {
+        "triangles": 5974,
+        "vertices": 12354
+      }
+    },
+    {
+      "check": "glb_small_material_palette",
+      "status": "pass",
+      "evidence": {
+        "count": 6,
+        "names": [
+          "MAT_SoftProxy_Greybox",
+          "MAT_Furniture_Greybox",
+          "MAT_DarkTechnology_Greybox",
+          "MAT_ScreenProxy_Greybox",
+          "MAT_GlassProxy_Greybox",
+          "MAT_RoomShell_Greybox"
+        ]
+      }
+    },
+    {
+      "check": "glb_no_texture_payload",
+      "status": "pass",
+      "evidence": {
+        "images": 0
+      }
+    }
+  ],
+  "details": {
+    "hero_camera": {
+      "projection": "PERSP",
+      "lens_mm": 48.0,
+      "location": [
+        8.10947,
+        -10.664599,
+        7.742803
+      ],
+      "rotation_euler_deg": [
+        62.8,
+        -0.0,
+        37.3156
+      ],
+      "clip_start_m": 0.05000000074505806,
+      "clip_end_m": 100.0,
+      "render_resolution": [
+        1536,
+        1024
+      ],
+      "render_percentage": 100
+    },
+    "blend_geometry": {
+      "mesh_objects": 52,
+      "vertices": 2412,
+      "triangles": 4294,
+      "largest_meshes": [
+        {
+          "name": "DEC_DogBedProxy",
+          "vertices": 342,
+          "triangles": 672
+        },
+        {
+          "name": "FUR_BeanBag",
+          "vertices": 228,
+          "triangles": 448
+        },
+        {
+          "name": "FUR_OfficeChair",
+          "vertices": 188,
+          "triangles": 324
+        },
+        {
+          "name": "TEC_Mouse",
+          "vertices": 114,
+          "triangles": 224
+        },
+        {
+          "name": "DEC_Lamp_Bedside",
+          "vertices": 110,
+          "triangles": 208
+        },
+        {
+          "name": "DEC_Lamp_Lounge",
+          "vertices": 110,
+          "triangles": 208
+        },
+        {
+          "name": "DEC_Plant_Window",
+          "vertices": 102,
+          "triangles": 192
+        },
+        {
+          "name": "DEC_Plant_Sofa",
+          "vertices": 102,
+          "triangles": 192
+        },
+        {
+          "name": "DEC_Plant_Cabinet",
+          "vertices": 102,
+          "triangles": 192
+        },
+        {
+          "name": "DEC_Plant_Desk",
+          "vertices": 102,
+          "triangles": 192
+        },
+        {
+          "name": "DEC_Plant_CoffeeTable",
+          "vertices": 102,
+          "triangles": 192
+        },
+        {
+          "name": "INT_TrashCanBody",
+          "vertices": 80,
+          "triangles": 138
+        }
+      ]
+    },
+    "reference_images_allowed_as_documentation": [
+      {
+        "name": "REFERENCE_RoomMaster_DO_NOT_MODEL_DETAILS",
+        "width": 1536,
+        "height": 1024,
+        "packed": true,
+        "fake_user": true
+      }
+    ],
+    "main_dimensions_m": {
+      "ENV_Floor": [
+        7.38,
+        5.98,
+        0.12
+      ],
+      "FUR_Desk": [
+        2.65,
+        0.82,
+        0.74
+      ],
+      "FUR_Bed": [
+        1.7,
+        2.12,
+        1.02
+      ],
+      "FUR_Sofa": [
+        1.97,
+        0.875,
+        0.805
+      ],
+      "FUR_CoffeeTable": [
+        1.1,
+        0.65,
+        0.48
+      ],
+      "FUR_DisplayCabinet": [
+        0.52,
+        3.1,
+        2.6
+      ],
+      "INT_Piano": [
+        1.34,
+        0.36,
+        0.104
+      ]
+    },
+    "hinge_motion_samples": {
+      "TEC_MacBookScreen": [
+        {
+          "angle_deg": 0.0,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.7535,
+            0.801
+          ]
+        },
+        {
+          "angle_deg": -13.125,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.765028,
+            0.851212
+          ]
+        },
+        {
+          "angle_deg": -26.25,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.787658,
+            0.897494
+          ]
+        },
+        {
+          "angle_deg": -39.375,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.820205,
+            0.937429
+          ]
+        },
+        {
+          "angle_deg": -52.5,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.860971,
+            0.96893
+          ]
+        },
+        {
+          "angle_deg": -65.625,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.907825,
+            0.990351
+          ]
+        },
+        {
+          "angle_deg": -78.75,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.958319,
+            1.000573
+          ]
+        },
+        {
+          "angle_deg": -91.875,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            2.009816,
+            0.999062
+          ]
+        },
+        {
+          "angle_deg": -105.0,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            2.059623,
+            0.985897
+          ]
+        }
+      ],
+      "INT_TrashCanLid": [
+        {
+          "angle_deg": 0.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.607,
+            0.4615
+          ]
+        },
+        {
+          "angle_deg": -12.5,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.613444,
+            0.545342
+          ]
+        },
+        {
+          "angle_deg": -25.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.637882,
+            0.625802
+          ]
+        },
+        {
+          "angle_deg": -37.5,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.679156,
+            0.699065
+          ]
+        },
+        {
+          "angle_deg": -50.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.735308,
+            0.761658
+          ]
+        },
+        {
+          "angle_deg": -62.5,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.803677,
+            0.810614
+          ]
+        },
+        {
+          "angle_deg": -75.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.881022,
+            0.843612
+          ]
+        },
+        {
+          "angle_deg": -87.5,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.963675,
+            0.859087
+          ]
+        },
+        {
+          "angle_deg": -100.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            2.047718,
+            0.856306
+          ]
+        }
+      ],
+      "INT_LightSwitch": [
+        {
+          "angle_deg": -8.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.543073,
+            -1.5025,
+            1.149946
+          ]
+        },
+        {
+          "angle_deg": -6.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.544818,
+            -1.5025,
+            1.150119
+          ]
+        },
+        {
+          "angle_deg": -4.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.546555,
+            -1.5025,
+            1.150352
+          ]
+        },
+        {
+          "angle_deg": -2.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.548283,
+            -1.5025,
+            1.150646
+          ]
+        },
+        {
+          "angle_deg": 0.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.55,
+            -1.5025,
+            1.151
+          ]
+        },
+        {
+          "angle_deg": 2.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.551703,
+            -1.5025,
+            1.151414
+          ]
+        },
+        {
+          "angle_deg": 4.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.553391,
+            -1.5025,
+            1.151887
+          ]
+        },
+        {
+          "angle_deg": 6.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.555062,
+            -1.5025,
+            1.152418
+          ]
+        },
+        {
+          "angle_deg": 8.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.556712,
+            -1.5025,
+            1.153008
+          ]
+        }
+      ]
+    },
+    "piano_motion_samples": [
+      {
+        "travel_fraction": 0.0,
+        "position_world": [
+          -0.65,
+          1.94,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.7599999904632568,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            2.120000123977661,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.071429,
+        "position_world": [
+          -0.65,
+          1.893571,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.713571310043335,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            2.0735714435577393,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.142857,
+        "position_world": [
+          -0.65,
+          1.847143,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.6671428680419922,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            2.0271427631378174,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.214286,
+        "position_world": [
+          -0.65,
+          1.800714,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.6207141876220703,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.9807143211364746,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.285714,
+        "position_world": [
+          -0.65,
+          1.754286,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.5742857456207275,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.9342856407165527,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.357143,
+        "position_world": [
+          -0.65,
+          1.707857,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.5278570652008057,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.88785719871521,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.428571,
+        "position_world": [
+          -0.65,
+          1.661429,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.481428623199463,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.841428518295288,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.5,
+        "position_world": [
+          -0.65,
+          1.615,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.434999942779541,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.7950000762939453,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.571429,
+        "position_world": [
+          -0.65,
+          1.568571,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.3885715007781982,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.7485713958740234,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.642857,
+        "position_world": [
+          -0.65,
+          1.522143,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.3421428203582764,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.7021429538726807,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.714286,
+        "position_world": [
+          -0.65,
+          1.475714,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.2957143783569336,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.6557142734527588,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.785714,
+        "position_world": [
+          -0.65,
+          1.429286,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.2492856979370117,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.609285831451416,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.857143,
+        "position_world": [
+          -0.65,
+          1.382857,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.2028570175170898,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.5628571510314941,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.928571,
+        "position_world": [
+          -0.65,
+          1.336429,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.156428575515747,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.5164284706115723,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 1.0,
+        "position_world": [
+          -0.65,
+          1.29,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.1099998950958252,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.4700000286102295,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      }
+    ],
+    "static_furniture_pair_clearances": [
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_OfficeChair"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.65327,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.65327,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_Bed"
+        ],
+        "positive_axis_gaps_m": [
+          0.925,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.925,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_BedsideTable"
+        ],
+        "positive_axis_gaps_m": [
+          1.975,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.975,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_Sofa"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          1.527813,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.527813,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          2.294431,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.294431,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          1.015,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.015,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          0.655,
+          2.845,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.919427,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_Bed"
+        ],
+        "positive_axis_gaps_m": [
+          2.340781,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.340781,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_BedsideTable"
+        ],
+        "positive_axis_gaps_m": [
+          3.390781,
+          1.368271,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.656441,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_Sofa"
+        ],
+        "positive_axis_gaps_m": [
+          0.169628,
+          0.281083,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.328301,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          1.047701,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.047701,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          1.67,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.67,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          2.070781,
+          1.59827,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.615837,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_BedsideTable"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.025,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.025,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_Sofa"
+        ],
+        "positive_axis_gaps_m": [
+          3.089628,
+          0.097813,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.091176,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          1.50192,
+          0.864431,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.732918,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          4.59,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.59,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          1.415,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.415,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "FUR_Sofa"
+        ],
+        "positive_axis_gaps_m": [
+          4.139628,
+          2.242813,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.708156,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          2.55192,
+          3.009431,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.945754,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          5.64,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 5.64,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          0.32,
+          3.56,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.574353,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          0.391548,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.391548,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          0.174777,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.174777,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          2.819628,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.819628,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          1.89192,
+          0.104431,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.8948,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          1.23192,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.23192,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          4.32,
+          0.655,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.369374,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.555,
+          0.28,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.621631,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.505,
+          0.28,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.57743,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          1.625,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.625,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.54,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.54,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          1.21,
+          1.753271,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.130272,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          1.920781,
+          1.753271,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.600646,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          2.28,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.28,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          2.01327,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.01327,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          4.13,
+          0.41,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.150301,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.12,
+          0.41,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.4272,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          5.2,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 5.2,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.67,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.67,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          5.18,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 5.18,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          1.17,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.17,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          6.25,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 6.25,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.115,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.115,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          2.627813,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.627813,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          2.669628,
+          2.627813,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.745974,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.784777,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.784777,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          2.887813,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.887813,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          1.43192,
+          3.394431,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.684095,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          1.08192,
+          3.394431,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.562683,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          2.50192,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.50192,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          3.654431,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.654431,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.16,
+          0.19,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.248395,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          4.17,
+          0.19,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.174326,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.09,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.09,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.45,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.45,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BeanBag",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          3.86,
+          3.945,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 5.519296,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BeanBag",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          3.945,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.945,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BeanBag",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          4.93,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.93,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BeanBag",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          4.205,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.205,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      }
+    ],
+    "glb": {
+      "path": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_v01/sharkys_room_blockout_v01.glb",
+      "size_bytes": 372980,
+      "nodes": 78,
+      "meshes": 52,
+      "triangles": 5974,
+      "vertices": 12354,
+      "materials": [
+        "MAT_SoftProxy_Greybox",
+        "MAT_Furniture_Greybox",
+        "MAT_DarkTechnology_Greybox",
+        "MAT_ScreenProxy_Greybox",
+        "MAT_GlassProxy_Greybox",
+        "MAT_RoomShell_Greybox"
+      ],
+      "textures": 0,
+      "images": 0,
+      "cameras": [
+        {
+          "name": "CAM_Hero_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.48995732372885886,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        }
+      ],
+      "extensions_used": [
+        "KHR_lights_punctual"
+      ],
+      "root_scene_nodes": [
+        "SharkysRoom"
+      ]
+    }
+  },
+  "verification_scope": {
+    "automated": "Required names, collections, hierarchy, independent interactive meshes, target empties, local pivot geometry, transform restoration, sampled piano mesh collisions, GLB container/nodes/materials/triangles/camera/size.",
+    "requires_visual_review": "Reference resemblance, comfortable proportions, furniture relationships, full hinge sweep collisions and visual realism are not automatically certified.",
+    "file_preservation": "Audit does not call save or export; tested object transforms are restored in memory.",
+    "initial_blend_dirty_flag": false
+  }
+}

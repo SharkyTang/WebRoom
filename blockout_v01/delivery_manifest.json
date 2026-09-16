@@ -1,0 +1,18 @@
+{
+  "sharkys_room_blockout_v01.blend": {
+    "bytes": 704759,
+    "sha256": "e849a0508e0913658286d280fa5fecfa7cf7f1fc8916f9171173bb007d2f0fa1"
+  },
+  "sharkys_room_blockout_v01.glb": {
+    "bytes": 372980,
+    "sha256": "61a9cbf246c03f1668a0c657d10e4276dca390815768e78e57234908d54d1985"
+  },
+  "hero_camera_preview.png": {
+    "bytes": 1785309,
+    "sha256": "f3cd49ef0b7c05a41831968e06e94694aaff5c50e8d2022a552392bb923e6ba6"
+  },
+  "BLOCKOUT_REPORT.md": {
+    "bytes": 8489,
+    "sha256": "14ff8ad278d2c77a273e758770c58921ce41c2d0d448f994040a17f1468e7fe6"
+  }
+}

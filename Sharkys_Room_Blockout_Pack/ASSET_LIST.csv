@@ -1,0 +1,23 @@
+﻿asset_id,name,category,blockout_required,interactive,animation_requirement,priority,notes
+ENV-01,Room Shell,Environment,yes,no,none,medium,Open/cutaway hero composition
+ENV-02,Window,Environment,yes,yes,environment state,high,Frame and glass separate
+FUR-01,Display Cabinet,Furniture,yes,no,none,medium,Deep/wide shelves for large future models
+FUR-02,Desk,Furniture,yes,no,none,medium,Reserve piano clearance
+FUR-03,Office Chair,Furniture,yes,no,none,low,Simple proxy
+FUR-04,Bed,Furniture,yes,no,none,medium,Right zone
+FUR-05,Sofa,Furniture,yes,no,none,medium,Left-front
+FUR-06,Coffee Table,Furniture,yes,no,none,medium,Holds iPad
+FUR-07,Beanbag,Furniture,yes,no,none,low,Front-right
+TEC-01,Monitor,Technology,yes,yes,screen state,high,Body/screen separate
+TEC-02,MacBook,Technology,yes,yes,hinged screen,high,Base/screen separate
+TEC-03,iPad,Technology,yes,yes,screen state,high,Memories
+TEC-04,Marshall Speaker,Technology,yes,yes,power state,high,Music
+TEC-05,Phone,Technology,yes,yes,screen state,high,Contact
+TEC-06,Keyboard,Technology,yes,no,none,low,Proxy
+TEC-07,Mouse,Technology,yes,no,none,low,Proxy
+TEC-08,Headphones,Technology,yes,no,none,low,Proxy
+INT-01,Pull-out Piano,Interactive,yes,yes,translation,high,Rail parent
+INT-02,Trash Can,Interactive,yes,yes,lid rotation,high,Body/lid separate
+INT-03,Light Switch,Interactive,yes,yes,toggle rotation,high,Controls room lights later
+DSP-01,Display Models,Display,bounding boxes,no,none,later,No LEGO detail in blockout
+DEC-01,Plants / Decor,Decoration,minimal,no,none,later,Only composition proxies
