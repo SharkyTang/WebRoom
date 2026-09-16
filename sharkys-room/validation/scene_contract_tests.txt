@@ -1,0 +1,51 @@
+▶ real frozen GLB loaded by Three.js
+  ✔ preserves geometry statistics, all required nodes, independent targets and Hero projection (2.037625ms)
+  ✔ reports native Y-up world positions without applying Blender conversion twice (0.91225ms)
+  ✔ allows the loader scene and application wrappers while retaining 85 source nodes (0.797792ms)
+  ✔ does not change frozen local transforms or parents while collecting diagnostics (1.359208ms)
+✔ real frozen GLB loaded by Three.js (14.462833ms)
+▶ semantic interaction contract
+  ✔ resolves each of the nine semantics from every hit-testable primitive (1.032083ms)
+  ✔ does not treat frozen furniture, camera targets or unrelated scene objects as interactive (0.447791ms)
+✔ semantic interaction contract (1.5545ms)
+▶ explicit contract failures
+  ✔ fails clearly when required node TEC_MonitorBody is absent (0.574875ms)
+  ✔ fails clearly when required node TEC_MonitorScreen is absent (0.436958ms)
+  ✔ fails clearly when required node TEC_MacBookBase is absent (0.485208ms)
+  ✔ fails clearly when required node TEC_MacBookScreen is absent (0.555833ms)
+  ✔ fails clearly when required node TEC_iPad is absent (0.495792ms)
+  ✔ fails clearly when required node TEC_Marshall is absent (0.422458ms)
+  ✔ fails clearly when required node INT_PianoRail is absent (0.528333ms)
+  ✔ fails clearly when required node INT_Piano is absent (0.326333ms)
+  ✔ fails clearly when required node INT_TrashCanBody is absent (0.329916ms)
+  ✔ fails clearly when required node INT_TrashCanLid is absent (0.343958ms)
+  ✔ fails clearly when required node INT_LightSwitch is absent (0.326ms)
+  ✔ fails clearly when required node TEC_Phone is absent (0.327084ms)
+  ✔ fails clearly when required node ENV_WindowFrame is absent (0.333208ms)
+  ✔ fails clearly when required node ENV_WindowGlass is absent (0.302625ms)
+  ✔ fails clearly when focus target TGT_Monitor is absent (0.537625ms)
+  ✔ fails clearly when focus target TGT_MacBook is absent (0.323875ms)
+  ✔ fails clearly when focus target TGT_iPad is absent (0.329458ms)
+  ✔ fails clearly when focus target TGT_Marshall is absent (0.315291ms)
+  ✔ fails clearly when focus target TGT_Piano is absent (0.320083ms)
+  ✔ fails clearly when focus target TGT_TrashCan is absent (0.331208ms)
+  ✔ fails clearly when focus target TGT_LightSwitch is absent (0.31ms)
+  ✔ fails clearly when focus target TGT_Phone is absent (0.283666ms)
+  ✔ fails clearly when focus target TGT_Window is absent (0.448417ms)
+  ✔ rejects a broken PianoRail → Piano parent relationship (0.343ms)
+  ✔ rejects a moved frozen pivot: TEC_MacBookScreen (0.345625ms)
+  ✔ rejects a moved frozen pivot: INT_PianoRail (0.297708ms)
+  ✔ rejects a moved frozen pivot: INT_TrashCanLid (0.291625ms)
+  ✔ rejects a moved frozen pivot: INT_LightSwitch (0.359917ms)
+  ✔ rejects a missing Hero camera (0.301375ms)
+  ✔ rejects a changed source Hero projection (0.308833ms)
+  ✔ rejects a duplicate named required node (0.296458ms)
+✔ explicit contract failures (11.774ms)
+ℹ tests 37
+ℹ suites 3
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 228.458917

@@ -1,0 +1,719 @@
+{
+  "version": "v0.2.1",
+  "source_blend": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_v02/sharkys_room_blockout_v02.blend",
+  "source_v02_sha256": "cf4eb1f60e3ae1086eb8b534693499e33d397ce4521a039512978070d1e5be2e",
+  "validation_status": "FINAL_LOCKED_VALIDATION_PASSED",
+  "freeze_status": "COMPOSITION_LOCKED",
+  "selected_camera": "CAM_Hero_48",
+  "final_camera": "CAM_Hero_FINAL",
+  "changes": {
+    "FUR_DisplayCabinet": {
+      "before": {
+        "origin_world": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "location": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parent": "FURNITURE",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_bounds": [
+          [
+            -0.30000001192092896,
+            -2.0999999046325684,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            1.649999976158142,
+            2.5999999046325684
+          ]
+        ]
+      },
+      "after": {
+        "origin_world": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "location": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parent": "FURNITURE",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_bounds": [
+          [
+            -0.30000001192092896,
+            -2.0999999046325684,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            1.649999976158142,
+            2.5999999046325684
+          ]
+        ]
+      }
+    },
+    "FUR_SideTable": {
+      "before": {
+        "origin_world": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.27000001072883606
+        ],
+        "location": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.27000001072883606
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parent": "FURNITURE",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_bounds": [
+          [
+            -0.2199999988079071,
+            -0.2199999988079071,
+            -0.27000001072883606
+          ],
+          [
+            0.2199999988079071,
+            0.2199999988079071,
+            0.27000001072883606
+          ]
+        ]
+      },
+      "after": {
+        "origin_world": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.27000001072883606
+        ],
+        "location": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.27000001072883606
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parent": "FURNITURE",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_bounds": [
+          [
+            -0.23999999463558197,
+            -0.23999999463558197,
+            -0.27000001072883606
+          ],
+          [
+            0.23999999463558197,
+            0.23999999463558197,
+            0.27000001072883606
+          ]
+        ]
+      }
+    },
+    "DSP_Architecture_Bounds": {
+      "before": {
+        "origin_world": [
+          -3.2249999046325684,
+          0.1899999976158142,
+          0.36500000953674316
+        ],
+        "location": [
+          -3.2249999046325684,
+          0.1899999976158142,
+          0.36500000953674316
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_bounds": [
+          [
+            -0.23499999940395355,
+            -0.26499998569488525,
+            -0.22499999403953552
+          ],
+          [
+            0.23499999940395355,
+            0.26499998569488525,
+            0.22499999403953552
+          ]
+        ]
+      },
+      "after": {
+        "origin_world": [
+          -3.2249999046325684,
+          2.1962499618530273,
+          0.9975000023841858
+        ],
+        "location": [
+          -3.2249999046325684,
+          2.1962499618530273,
+          0.9975000023841858
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_bounds": [
+          [
+            -0.23499999940395355,
+            -0.25,
+            -0.22499999403953552
+          ],
+          [
+            0.23499999940395355,
+            0.25,
+            0.22499999403953552
+          ]
+        ]
+      }
+    },
+    "DSP_Vehicle_Bounds": {
+      "before": {
+        "origin_world": [
+          -3.2249999046325684,
+          -0.6600000262260437,
+          0.2750000059604645
+        ],
+        "location": [
+          -3.2249999046325684,
+          -0.6600000262260437,
+          0.2750000059604645
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_bounds": [
+          [
+            -0.20999999344348907,
+            -0.4050000011920929,
+            -0.13500000536441803
+          ],
+          [
+            0.20999999344348907,
+            0.4050000011920929,
+            0.13500000536441803
+          ]
+        ]
+      },
+      "after": {
+        "origin_world": [
+          -3.2249999046325684,
+          -0.7149999737739563,
+          0.2750000059604645
+        ],
+        "location": [
+          -3.2249999046325684,
+          -0.7149999737739563,
+          0.2750000059604645
+        ],
+        "rotation_degrees": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "parent": "DISPLAY_MODELS",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "local_bounds": [
+          [
+            -0.20999999344348907,
+            -0.3799999952316284,
+            -0.13500000536441803
+          ],
+          [
+            0.20999999344348907,
+            0.3799999952316284,
+            0.13500000536441803
+          ]
+        ]
+      }
+    }
+  },
+  "new_proxies": {
+    "DSP_MercedesAMGF1_Bounds": [
+      [
+        -3.225,
+        0.135,
+        0.275
+      ],
+      [
+        0.42,
+        0.76,
+        0.27
+      ],
+      "Mercedes-AMG F1"
+    ],
+    "DSP_MediumModel_Bounds": [
+      [
+        -3.225,
+        2.19625,
+        1.59
+      ],
+      [
+        0.39,
+        0.36,
+        0.38
+      ],
+      "Medium collectible"
+    ],
+    "DSP_SmallModel_Bounds": [
+      [
+        -3.225,
+        2.19625,
+        2.2225
+      ],
+      [
+        0.34,
+        0.29,
+        0.35
+      ],
+      "Small collectible"
+    ]
+  },
+  "cabinet_compartments": [
+    {
+      "name": "Hogwarts / large architecture",
+      "bounds_local": [
+        [
+          -0.27,
+          -2.02,
+          1.385
+        ],
+        [
+          0.3,
+          -0.36,
+          2.525
+        ]
+      ],
+      "proxies": [
+        "DSP_Castle_Bounds"
+      ]
+    },
+    {
+      "name": "Millennium Falcon",
+      "bounds_local": [
+        [
+          -0.27,
+          -2.02,
+          0.735
+        ],
+        [
+          0.3,
+          -0.36,
+          1.315
+        ]
+      ],
+      "proxies": [
+        "DSP_Falcon_Bounds"
+      ]
+    },
+    {
+      "name": "Eiffel Tower",
+      "bounds_local": [
+        [
+          -0.27,
+          -0.30000000000000004,
+          0.735
+        ],
+        [
+          0.3,
+          0.49749999999999994,
+          2.525
+        ]
+      ],
+      "proxies": [
+        "DSP_EiffelTower_Bounds"
+      ]
+    },
+    {
+      "name": "SLS",
+      "bounds_local": [
+        [
+          -0.27,
+          0.5424999999999999,
+          0.735
+        ],
+        [
+          0.3,
+          0.9774999999999999,
+          2.525
+        ]
+      ],
+      "proxies": [
+        "DSP_TallRocket_Bounds"
+      ]
+    },
+    {
+      "name": "Ferrari F1",
+      "bounds_local": [
+        [
+          -0.27,
+          -2.02,
+          0.095
+        ],
+        [
+          0.3,
+          -1.21,
+          0.665
+        ]
+      ],
+      "proxies": [
+        "DSP_Vehicle_Bounds"
+      ]
+    },
+    {
+      "name": "Mercedes-AMG F1",
+      "bounds_local": [
+        [
+          -0.27,
+          -1.17,
+          0.095
+        ],
+        [
+          0.3,
+          -0.36,
+          0.665
+        ]
+      ],
+      "proxies": [
+        "DSP_MercedesAMGF1_Bounds"
+      ]
+    },
+    {
+      "name": "Tower Bridge",
+      "bounds_local": [
+        [
+          -0.27,
+          -0.30000000000000004,
+          0.095
+        ],
+        [
+          0.3,
+          1.5700000000000003,
+          0.665
+        ]
+      ],
+      "proxies": [
+        "DSP_Bridge_Bounds"
+      ]
+    },
+    {
+      "name": "Medium architecture",
+      "bounds_local": [
+        [
+          -0.27,
+          1.0225,
+          0.735
+        ],
+        [
+          0.3,
+          1.5700000000000003,
+          1.26
+        ]
+      ],
+      "proxies": [
+        "DSP_Architecture_Bounds"
+      ]
+    },
+    {
+      "name": "Medium collectible",
+      "bounds_local": [
+        [
+          -0.27,
+          1.0225,
+          1.32
+        ],
+        [
+          0.3,
+          1.5700000000000003,
+          1.86
+        ]
+      ],
+      "proxies": [
+        "DSP_MediumModel_Bounds"
+      ]
+    },
+    {
+      "name": "Small collectible",
+      "bounds_local": [
+        [
+          -0.27,
+          1.0225,
+          1.92
+        ],
+        [
+          0.3,
+          1.5700000000000003,
+          2.525
+        ]
+      ],
+      "proxies": [
+        "DSP_SmallModel_Bounds"
+      ]
+    }
+  ],
+  "asset_labels": {
+    "DSP_EiffelTower_Bounds": "Eiffel Tower",
+    "DSP_Falcon_Bounds": "Millennium Falcon",
+    "DSP_Castle_Bounds": "Hogwarts / large architecture",
+    "DSP_Bridge_Bounds": "Tower Bridge",
+    "DSP_TallRocket_Bounds": "SLS",
+    "DSP_Vehicle_Bounds": "Ferrari F1",
+    "DSP_Architecture_Bounds": "Medium architecture / collectible",
+    "DSP_MercedesAMGF1_Bounds": "Mercedes-AMG F1",
+    "DSP_MediumModel_Bounds": "Medium collectible",
+    "DSP_SmallModel_Bounds": "Small collectible"
+  },
+  "source_camera_parameters": {
+    "name": "CAM_Hero_48",
+    "role": "B — baseline-adjacent view, adjusted framing for v0.2 furniture",
+    "type": "PERSP",
+    "lens_mm": 48.0,
+    "sensor_width_mm": 36.0,
+    "sensor_height_mm": 24.0,
+    "sensor_fit": "AUTO",
+    "position_xyz_m": [
+      7.891778469085693,
+      -10.294089317321777,
+      7.609460353851318
+    ],
+    "rotation_xyz_degrees": [
+      62.335646328040504,
+      8.659552215704741e-07,
+      37.522180375314896
+    ],
+    "rotation_quaternion_wxyz": [
+      0.8101922869682312,
+      0.49004822969436646,
+      0.1664547473192215,
+      0.2751981317996979
+    ],
+    "matrix_world": [
+      [
+        0.7931176424026489,
+        -0.2827850878238678,
+        0.5394414067268372,
+        7.891778469085693
+      ],
+      [
+        0.6090685129165649,
+        0.3682374656200409,
+        -0.7024505138397217,
+        -10.294089317321777
+      ],
+      [
+        -1.5113769791241793e-08,
+        0.8856826424598694,
+        0.46429112553596497,
+        7.609460353851318
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "target_xyz_m": [
+      -0.04308895766735077,
+      0.03855033218860626,
+      0.780006468296051
+    ],
+    "shift_xy": [
+      0.0,
+      0.0
+    ],
+    "clip_start_m": 0.05000000074505806,
+    "clip_end_m": 100.0,
+    "resolution": [
+      1536,
+      1024
+    ],
+    "pixel_aspect": [
+      1.0,
+      1.0
+    ],
+    "horizontal_fov_degrees": 41.112090439166934,
+    "vertical_fov_degrees": 28.072486935852957,
+    "dof_enabled": false,
+    "projected_bounds_xy": [
+      0.03499998897314072,
+      0.9650000333786011,
+      0.10690620541572571,
+      0.963094174861908
+    ]
+  },
+  "side_table": {
+    "diameter_m": 0.48,
+    "tabletop_thickness_m": 0.03,
+    "top_world_z_m": 0.54,
+    "leg_count": 3,
+    "leg_diameter_m": 0.028,
+    "leg_center_radius_m": 0.16,
+    "origin_world": [
+      0.9800000190734863,
+      -2.190000057220459,
+      0.27000001072883606
+    ],
+    "dependencies_preserved": true
+  },
+  "scene_units": "meters, Blender Z-up; standard glTF Y-up export",
+  "blockout_status": "SHARKY'S ROOM — BLOCKOUT FINAL / COMPOSITION LOCKED",
+  "pre_freeze_validation_summary": {
+    "pass": 107,
+    "fail": 0,
+    "warning": 0
+  },
+  "final_camera_parameters": {
+    "name": "CAM_Hero_FINAL",
+    "role": "User selected FINAL; no camera parameters changed",
+    "type": "PERSP",
+    "lens_mm": 48.0,
+    "sensor_width_mm": 36.0,
+    "sensor_height_mm": 24.0,
+    "sensor_fit": "AUTO",
+    "position_xyz_m": [
+      7.891778469085693,
+      -10.294089317321777,
+      7.609460353851318
+    ],
+    "rotation_xyz_degrees": [
+      62.335646328040504,
+      8.659552215704741e-07,
+      37.522180375314896
+    ],
+    "rotation_quaternion_wxyz": [
+      0.8101922869682312,
+      0.49004822969436646,
+      0.1664547473192215,
+      0.2751981317996979
+    ],
+    "matrix_world": [
+      [
+        0.7931176424026489,
+        -0.2827850878238678,
+        0.5394414067268372,
+        7.891778469085693
+      ],
+      [
+        0.6090685129165649,
+        0.3682374656200409,
+        -0.7024505138397217,
+        -10.294089317321777
+      ],
+      [
+        -1.5113769791241793e-08,
+        0.8856826424598694,
+        0.46429112553596497,
+        7.609460353851318
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "target_xyz_m": [
+      -0.04308895766735077,
+      0.03855033218860626,
+      0.780006468296051
+    ],
+    "shift_xy": [
+      0.0,
+      0.0
+    ],
+    "clip_start_m": 0.05000000074505806,
+    "clip_end_m": 100.0,
+    "resolution": [
+      1536,
+      1024
+    ],
+    "pixel_aspect": [
+      1.0,
+      1.0
+    ],
+    "horizontal_fov_degrees": 41.112090439166934,
+    "vertical_fov_degrees": 28.072486935852957,
+    "dof_enabled": false,
+    "projected_bounds_xy": [
+      0.03499998897314072,
+      0.9650000333786011,
+      0.10690620541572571,
+      0.963094174861908
+    ]
+  },
+  "glb_bytes": 411892,
+  "final_validation_summary": {
+    "pass": 109,
+    "fail": 0,
+    "warning": 0
+  }
+}

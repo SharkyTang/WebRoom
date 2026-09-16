@@ -1,10 +1,36 @@
 # WebRoom · Sharky's Room
 
-个人交互式 3D 房间项目。目前已完成 **Blender Blockout v0.2 — Composition Lock 候选**，等待确认最终构图和 Hero Camera。尚未进入 v0.3 Interaction Prototype 或精模。
+个人交互式 3D 房间项目。目前为 **v0.3 — WEB FOUNDATION COMPLETE**。冻结的 FINAL GLB 已接入本地 Next.js + React Three Fiber 页面，保持 48mm Hero 构图和原始场景结构，完成 9 项悬停／点击／触屏识别。已停止在 v0.3，等待 review；尚未进入正式交互动画或精模。
 
-## v0.2 镜头 review
+## v0.3 本地网页
 
-三个候选使用相同的家具、灯光与灰盒材质；原 v0.1 `CAM_Hero` 保留为基准，尚未选定最终镜头。
+- [Web 项目与启动说明](sharkys-room/README.md)
+- [Web Foundation 验收报告](sharkys-room/WEB_FOUNDATION_REPORT.md)
+- [桌面截图](sharkys-room/validation/web_desktop_1440.png) · [手机截图](sharkys-room/validation/web_mobile_390.png)
+
+```bash
+cd sharkys-room
+npm install
+npm run dev
+```
+
+打开 http://127.0.0.1:3000 ，悬停／点击物件后查看页脚 semantic ID。当前只验证识别。37 项契约测试、361 项资产检查与 39 项浏览器检查通过。
+
+## 最终 Blockout
+
+![Final Hero Camera](blockout_FINAL/hero_FINAL.png)
+
+- [FINAL Blender 场景](blockout_FINAL/sharkys_room_blockout_FINAL.blend)
+- [FINAL GLB 模型](blockout_FINAL/sharkys_room_blockout_FINAL.glb)
+- [最终报告](blockout_FINAL/BLOCKOUT_FINAL_REPORT.md)
+- [四项交付包](blockout_FINAL/sharkys_room_blockout_FINAL_delivery.zip)
+- [空间冻结快照](blockout_FINAL/spatial_freeze_manifest.json)
+
+默认相机为 `CAM_Hero_FINAL`，精确复制已选定的 `CAM_Hero_48`。109 项检查通过，GLB 0.412 MB、6,566 三角面。v0.1 / v0.2 历史交付保持不变。
+
+## 历史：v0.2 镜头候选
+
+以下为 v0.2 的三个历史候选；其中 48mm 已在 v0.2.1 正式选定并复制为 FINAL。旧相机保留作历史记录，不作为默认相机。
 
 | A · 45mm | B · 48mm | C · 52mm |
 | --- | --- | --- |
@@ -23,7 +49,7 @@ v0.2 保留已验证的节点、层级、9 个交互目标和机械轴心；84 �
 - 独立交互节点、焦点目标，以及钢琴抽拉、屏幕与垃圾桶盖铰链的轴心设置。
 - 可编辑 Blender 源文件、GLB 导出、预览图和验收记录。
 
-当前尚未实现网页界面与浏览器交互，也未进入精细建模和最终材质阶段。
+v0.1 为历史建模阶段；网页基础已在 v0.3 实现。当前未进入精细建模和最终材质阶段。
 
 ## 文件导航
 
@@ -38,6 +64,6 @@ v0.2 保留已验证的节点、层级、9 个交互目标和机械轴心；84 �
 
 ## 查看方式
 
-下载项目后，使用 Blender 打开 `blockout_v02/sharkys_room_blockout_v02.blend`；仅查看构图可直接打开上方三张预览图。场景默认仍使用原基准 `CAM_Hero`；新候选为 `CAM_Hero_45`、`CAM_Hero_48`、`CAM_Hero_52`。
+下载项目后，使用 Blender 打开 `blockout_FINAL/sharkys_room_blockout_FINAL.blend`；仅查看构图可直接打开 `blockout_FINAL/hero_FINAL.png`。场景默认使用 `CAM_Hero_FINAL`，历史文件仅供对照。
 
 模型细节、检查范围及后续需要人工确认的内容见制作与验收报告。

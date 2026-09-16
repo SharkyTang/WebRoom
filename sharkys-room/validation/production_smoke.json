@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-09-16T17:11:10.430Z",
+  "origin": "http://localhost:3001",
+  "browser": "Installed Google Chrome, Playwright headless, ANGLE SwiftShader",
+  "summary": {
+    "passed": 5,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Production desktop starts, loads GLB, and renders the ready state",
+      "passed": true,
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "canvas": {
+        "x": 176.6875,
+        "y": 98,
+        "width": 1086.609375,
+        "height": 724.40625
+      },
+      "hasDebugApi": false,
+      "text": "A ROOM IN PROGRESS\nSharky’s Room.\nWEB FOUNDATION\nv0.3 / GREYBOX\n\n悬停或轻点房间里的小物件\n本阶段仅显示识别结果\n\nHovered: —\nSelected: —"
+    },
+    {
+      "name": "Production ignores ?debug=1 and exposes no developer-only API/panel",
+      "passed": true,
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "canvas": {
+        "x": 176.6875,
+        "y": 98,
+        "width": 1086.609375,
+        "height": 724.40625
+      },
+      "hasDebugApi": false,
+      "text": "A ROOM IN PROGRESS\nSharky’s Room.\nWEB FOUNDATION\nv0.3 / GREYBOX\n\n悬停或轻点房间里的小物件\n本阶段仅显示识别结果\n\nHovered: —\nSelected: —"
+    },
+    {
+      "name": "Production desktop remains fixed after drag, wheel, and WASD input",
+      "passed": true,
+      "comparedCanvasBytes": 188488,
+      "identical": true
+    },
+    {
+      "name": "Production 390px mobile displays the room without overflow or diagnostics",
+      "passed": true,
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "canvas": {
+        "x": 15,
+        "y": 294.203125,
+        "width": 360,
+        "height": 240
+      },
+      "hasDebugApi": false,
+      "text": "A ROOM IN PROGRESS\nSharky’s Room.\nWEB FOUNDATION\nv0.3 / GREYBOX\n\n悬停或轻点房间里的小物件\n本阶段仅显示识别结果\n\nHovered: —\nSelected: —"
+    },
+    {
+      "name": "Production has successful asset responses and no browser runtime errors",
+      "passed": true,
+      "glbResponses": [
+        {
+          "phase": "production-desktop",
+          "status": 200,
+          "url": "http://localhost:3001/models/sharkys_room_blockout_FINAL.glb"
+        },
+        {
+          "phase": "production-desktop",
+          "status": 200,
+          "url": "http://localhost:3001/models/sharkys_room_blockout_FINAL.glb"
+        },
+        {
+          "phase": "production-mobile",
+          "status": 200,
+          "url": "http://localhost:3001/models/sharkys_room_blockout_FINAL.glb"
+        }
+      ],
+      "consoleErrors": 0,
+      "failedRequests": 0
+    }
+  ],
+  "consoleMessages": [
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x114000e4a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x114000e4a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x114000e4a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x114000e4a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "production-mobile",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    }
+  ],
+  "failedRequests": [],
+  "glbResponses": [
+    {
+      "phase": "production-desktop",
+      "status": 200,
+      "url": "http://localhost:3001/models/sharkys_room_blockout_FINAL.glb"
+    },
+    {
+      "phase": "production-desktop",
+      "status": 200,
+      "url": "http://localhost:3001/models/sharkys_room_blockout_FINAL.glb"
+    },
+    {
+      "phase": "production-mobile",
+      "status": 200,
+      "url": "http://localhost:3001/models/sharkys_room_blockout_FINAL.glb"
+    }
+  ]
+}

@@ -1,0 +1,1742 @@
+{
+  "source": "sharkys_room_blockout_FINAL.glb",
+  "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "byteLength": 411892,
+  "nodeCount": 85,
+  "meshCount": 55,
+  "primitiveCount": 72,
+  "triangleCount": 6566,
+  "materialCount": 6,
+  "nodes": [
+    {
+      "name": "CAM_Hero",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        8.10947036743164,
+        7.74280309677124,
+        10.664599418640137
+      ],
+      "rotation": [
+        -0.22278423607349396,
+        0.3109448254108429,
+        0.07522537559270859,
+        0.920880913734436
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "camera": {
+        "aspectRatio": 1.5,
+        "yfov": 0.48995732372885886,
+        "zfar": 100,
+        "znear": 0.05000000074505806
+      }
+    },
+    {
+      "name": "CAM_Hero_45",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        7.618861675262451,
+        7.585813999176025,
+        9.377877235412598
+      ],
+      "rotation": [
+        -0.23877495527267456,
+        0.3225553035736084,
+        0.08444616943597794,
+        0.9120380878448486
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "camera": {
+        "aspectRatio": 1.5,
+        "yfov": 0.5212047681580663,
+        "zfar": 100,
+        "znear": 0.05000000074505806
+      }
+    },
+    {
+      "name": "CAM_Hero_48",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        7.891778469085693,
+        7.609460353851318,
+        10.294089317321777
+      ],
+      "rotation": [
+        -0.22637604176998138,
+        0.31229573488235474,
+        0.0768931582570076,
+        0.919408917427063
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "camera": {
+        "aspectRatio": 1.5,
+        "yfov": 0.48995732372885886,
+        "zfar": 100,
+        "znear": 0.05000000074505806
+      }
+    },
+    {
+      "name": "CAM_Hero_52",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        9.004548072814941,
+        7.714287757873535,
+        10.892281532287598
+      ],
+      "rotation": [
+        -0.21088770031929016,
+        0.32866525650024414,
+        0.07554417848587036,
+        0.917495846748352
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "camera": {
+        "aspectRatio": 1.5,
+        "yfov": 0.4535976859243833,
+        "zfar": 100,
+        "znear": 0.05000000074505806
+      }
+    },
+    {
+      "name": "CAM_Hero_FINAL",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        7.891778469085693,
+        7.609460353851318,
+        10.294089317321777
+      ],
+      "rotation": [
+        -0.22637604176998138,
+        0.31229573488235474,
+        0.0768931582570076,
+        0.919408917427063
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "camera": {
+        "aspectRatio": 1.5,
+        "yfov": 0.48995732372885886,
+        "zfar": 100,
+        "znear": 0.05000000074505806
+      }
+    },
+    {
+      "name": "TGT_iPad",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        -0.6600000262260437,
+        0.5,
+        1.1799999475479126
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TGT_LightSwitch",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        -3.5399999618530273,
+        1.2000000476837158,
+        1.4700000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TGT_MacBook",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        -1.5,
+        0.9399999976158142,
+        -1.9700000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TGT_Marshall",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        0.38999998569488525,
+        0.8849999904632568,
+        -2.059999942779541
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TGT_Monitor",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        -0.41999998688697815,
+        1.2000000476837158,
+        -2.0799999237060547
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TGT_Phone",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        0.1599999964237213,
+        0.8399999737739563,
+        -1.75
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TGT_Piano",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        -0.6499999761581421,
+        0.6000000238418579,
+        -1.2899999618530273
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TGT_TrashCan",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        1.1200000047683716,
+        0.46000000834465027,
+        -1.7999999523162842
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TGT_Window",
+      "parent": "CAMERAS_TARGETS",
+      "translation": [
+        -0.675000011920929,
+        1.840000033378601,
+        -2.9000000953674316
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "CAMERAS_TARGETS",
+      "parent": "SharkysRoom",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_DogBedProxy",
+      "parent": "DECORATIONS",
+      "translation": [
+        -0.30000001192092896,
+        0,
+        2.4000000953674316
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_DoorHandle",
+      "parent": "DECORATIONS",
+      "translation": [
+        -3.5250000953674316,
+        1.0199999809265137,
+        1.850000023841858
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_Lamp_Bedside",
+      "parent": "DECORATIONS",
+      "translation": [
+        2.9700000286102295,
+        0.5799999833106995,
+        -2.5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_Lamp_Lounge",
+      "parent": "DECORATIONS",
+      "translation": [
+        0.9800000190734863,
+        0.5400000214576721,
+        2.190000057220459
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_LightSwitchPlate",
+      "parent": "DECORATIONS",
+      "translation": [
+        -3.5769999027252197,
+        1.2000000476837158,
+        1.4700000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_Plant_Cabinet",
+      "parent": "DECORATIONS",
+      "translation": [
+        -3.200000047683716,
+        2.609999895095825,
+        -1.2000000476837158
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_Plant_CoffeeTable",
+      "parent": "DECORATIONS",
+      "translation": [
+        -0.5099999904632568,
+        0.47999998927116394,
+        0.9200000166893005
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_Plant_Desk",
+      "parent": "DECORATIONS",
+      "translation": [
+        -1.7799999713897705,
+        0.7400000095367432,
+        -2.140000104904175
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_Plant_Sofa",
+      "parent": "DECORATIONS",
+      "translation": [
+        -2.799999952316284,
+        0,
+        2.2899999618530273
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_Plant_Window",
+      "parent": "DECORATIONS",
+      "translation": [
+        1.3300000429153442,
+        0,
+        -2.5299999713897705
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_Rug_Lounge",
+      "parent": "DECORATIONS",
+      "translation": [
+        -1.1200000047683716,
+        0.012000000104308128,
+        1.2200000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_Rug_Workstation",
+      "parent": "DECORATIONS",
+      "translation": [
+        -0.47999998927116394,
+        0.00800000037997961,
+        -0.7099999785423279
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DEC_WallArt",
+      "parent": "DECORATIONS",
+      "translation": [
+        2.450000047683716,
+        1.8700000047683716,
+        -2.877000093460083
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DECORATIONS",
+      "parent": "SharkysRoom",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_Architecture_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        0.9975000023841858,
+        -2.1962499618530273
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_Bridge_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        0.3799999952316284,
+        -1.5199999809265137
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_Castle_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        1.9149999618530273,
+        0.3100000023841858
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_EiffelTower_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        1.5499999523162842,
+        -0.9950000047683716
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_Falcon_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        1.0149999856948853,
+        0.3100000023841858
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_MediumModel_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        1.590000033378601,
+        -2.1962499618530273
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_MercedesAMGF1_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        0.2750000059604645,
+        -0.13500000536441803
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_SmallModel_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        2.2225000858306885,
+        -2.1962499618530273
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_TallRocket_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        1.4800000190734863,
+        -1.7000000476837158
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DSP_Vehicle_Bounds",
+      "parent": "DISPLAY_MODELS",
+      "translation": [
+        -3.2249999046325684,
+        0.2750000059604645,
+        0.7149999737739563
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "DISPLAY_MODELS",
+      "parent": "SharkysRoom",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_CityBackground",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        -0.675000011920929,
+        1.840000033378601,
+        -3.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_Curtain_Left",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        -2.680000066757202,
+        1.4800000190734863,
+        -2.7300000190734863
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_Curtain_Right",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        1.3300000429153442,
+        1.4800000190734863,
+        -2.7300000190734863
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_Door",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        -3.5899999141693115,
+        1.065000057220459,
+        2.174999952316284
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_Floor",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_RoomShell",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_Wall_Left",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        -3.690000057220459,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_Wall_Right",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        0,
+        0,
+        -2.990000009536743
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_WindowFrame",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        0,
+        0,
+        -2.8949999809265137
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENV_WindowGlass",
+      "parent": "ENVIRONMENT",
+      "translation": [
+        -0.675000011920929,
+        1.840000033378601,
+        -2.9549999237060547
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "ENVIRONMENT",
+      "parent": "SharkysRoom",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FUR_BeanBag",
+      "parent": "FURNITURE",
+      "translation": [
+        2.130000114440918,
+        0,
+        1.7599999904632568
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FUR_Bed",
+      "parent": "FURNITURE",
+      "translation": [
+        2.450000047683716,
+        0,
+        -1.1299999952316284
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FUR_BedsideTable",
+      "parent": "FURNITURE",
+      "translation": [
+        2.950000047683716,
+        0.28999999165534973,
+        -2.5199999809265137
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FUR_CoffeeTable",
+      "parent": "FURNITURE",
+      "translation": [
+        -0.8299999833106995,
+        0,
+        1.0199999809265137
+      ],
+      "rotation": [
+        0,
+        -0.03489949554204941,
+        0,
+        0.9993908405303955
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FUR_Desk",
+      "parent": "FURNITURE",
+      "translation": [
+        -0.6499999761581421,
+        0,
+        -1.9500000476837158
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FUR_DisplayCabinet",
+      "parent": "FURNITURE",
+      "translation": [
+        -3.25,
+        0,
+        -0.8999999761581421
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FUR_OfficeChair",
+      "parent": "FURNITURE",
+      "translation": [
+        -1.0499999523162842,
+        0,
+        -0.5899999737739563
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FUR_SideTable",
+      "parent": "FURNITURE",
+      "translation": [
+        0.9800000190734863,
+        0.27000001072883606,
+        2.190000057220459
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FUR_Sofa",
+      "parent": "FURNITURE",
+      "translation": [
+        -2.130000114440918,
+        0,
+        1.1200000047683716
+      ],
+      "rotation": [
+        0,
+        0.7547095417976379,
+        0,
+        0.6560591459274292
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "FURNITURE",
+      "parent": "SharkysRoom",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "INT_LightSwitch",
+      "parent": "INTERACTIVE",
+      "translation": [
+        -3.5390000343322754,
+        1.2000000476837158,
+        1.4700000286102295
+      ],
+      "rotation": [
+        0,
+        0,
+        0.06975648552179337,
+        0.9975640773773193
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "INT_Piano",
+      "parent": "INT_PianoRail",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "INT_PianoRail",
+      "parent": "INTERACTIVE",
+      "translation": [
+        -0.6499999761581421,
+        0.6000000238418579,
+        -1.2899999618530273
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "INT_TrashCanBody",
+      "parent": "INTERACTIVE",
+      "translation": [
+        1.1200000047683716,
+        0.22499999403953552,
+        -1.7999999523162842
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "INT_TrashCanLid",
+      "parent": "INTERACTIVE",
+      "translation": [
+        1.1200000047683716,
+        0.4740000069141388,
+        -1.9930000305175781
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "INTERACTIVE",
+      "parent": "SharkysRoom",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "LGT_Ambient",
+      "parent": "LIGHTING",
+      "translation": [
+        1,
+        7,
+        4
+      ],
+      "rotation": [
+        -0.451233446598053,
+        0.08782527595758438,
+        0.044680897146463394,
+        0.8869491219520569
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "LGT_BedProxy",
+      "parent": "LIGHTING",
+      "translation": [
+        2.9700000286102295,
+        0.8399999737739563,
+        -2.5
+      ],
+      "rotation": [
+        -0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "LGT_CabinetProxy",
+      "parent": "LIGHTING",
+      "translation": [
+        -2.700000047683716,
+        2.25,
+        -0.699999988079071
+      ],
+      "rotation": [
+        -0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "LGT_DeskProxy",
+      "parent": "LIGHTING",
+      "translation": [
+        -1.850000023841858,
+        1.2400000095367432,
+        -1.9500000476837158
+      ],
+      "rotation": [
+        -0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "LGT_WindowKey",
+      "parent": "LIGHTING",
+      "translation": [
+        -0.5,
+        2.5,
+        -2.5199999809265137
+      ],
+      "rotation": [
+        -0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "LIGHTING",
+      "parent": "SharkysRoom",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_Headphones",
+      "parent": "TECH",
+      "translation": [
+        0.5099999904632568,
+        0.7549999952316284,
+        -1.6200000047683716
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_iPad",
+      "parent": "TECH",
+      "translation": [
+        -0.6600000262260437,
+        0.49000000953674316,
+        1.1799999475479126
+      ],
+      "rotation": [
+        0,
+        -0.08715575188398361,
+        0,
+        0.9961947202682495
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_Keyboard",
+      "parent": "TECH",
+      "translation": [
+        -0.41999998688697815,
+        0.765999972820282,
+        -1.6799999475479126
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_MacBookBase",
+      "parent": "TECH",
+      "translation": [
+        -1.5,
+        0.7570000290870667,
+        -1.8600000143051147
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_MacBookScreen",
+      "parent": "TECH",
+      "translation": [
+        -1.5,
+        0.7760000228881836,
+        -1.9774999618530273
+      ],
+      "rotation": [
+        -0.7933533787727356,
+        0,
+        0,
+        0.6087614297866821
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_Marshall",
+      "parent": "TECH",
+      "translation": [
+        0.38999998569488525,
+        0.8849999904632568,
+        -2.059999942779541
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_MonitorBody",
+      "parent": "TECH",
+      "translation": [
+        -0.41999998688697815,
+        1.2000000476837158,
+        -2.119999885559082
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_MonitorScreen",
+      "parent": "TECH",
+      "translation": [
+        -0.41999998688697815,
+        1.2000000476837158,
+        -2.0840001106262207
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_Mouse",
+      "parent": "TECH",
+      "translation": [
+        -0.06499999761581421,
+        0.765999972820282,
+        -1.6200000047683716
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TEC_Phone",
+      "parent": "TECH",
+      "translation": [
+        0.1599999964237213,
+        0.8399999737739563,
+        -1.75
+      ],
+      "rotation": [
+        -0.10452848672866821,
+        0,
+        0,
+        0.994521975517273
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "TECH",
+      "parent": "SharkysRoom",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "SharkysRoom",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

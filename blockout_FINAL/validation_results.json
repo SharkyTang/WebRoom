@@ -1,0 +1,6677 @@
+{
+  "validation_version": "2.1_FINAL",
+  "timestamp_utc": "2026-09-16T16:29:23.443163+00:00",
+  "blend_path": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_FINAL/sharkys_room_blockout_FINAL.blend",
+  "baseline_blend_path": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_v02/sharkys_room_blockout_v02.blend",
+  "blender_version": "5.2.1 LTS",
+  "overall_status": "pass",
+  "summary": {
+    "pass": 109,
+    "fail": 0,
+    "warning": 0
+  },
+  "checks": [
+    {
+      "check": "final_all_v02_objects_retained",
+      "status": "pass",
+      "evidence": {
+        "baseline_count": 81,
+        "final_count": 85,
+        "missing": [],
+        "added": [
+          "CAM_Hero_FINAL",
+          "DSP_MediumModel_Bounds",
+          "DSP_MercedesAMGF1_Bounds",
+          "DSP_SmallModel_Bounds"
+        ]
+      }
+    },
+    {
+      "check": "final_only_authorized_new_objects",
+      "status": "pass",
+      "evidence": [
+        "CAM_Hero_FINAL",
+        "DSP_MediumModel_Bounds",
+        "DSP_MercedesAMGF1_Bounds",
+        "DSP_SmallModel_Bounds"
+      ]
+    },
+    {
+      "check": "final_v02_all_object_type_preserved",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "final_v02_all_object_parent_preserved",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "final_v02_all_object_collections_preserved",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "final_collection_hierarchy_unchanged",
+      "status": "pass",
+      "evidence": {
+        "before": {
+          "CAMERAS_TARGETS": [],
+          "DECORATIONS": [],
+          "DISPLAY_MODELS": [],
+          "ENVIRONMENT": [],
+          "FURNITURE": [],
+          "INTERACTIVE": [],
+          "LIGHTING": [],
+          "SharkysRoom": [
+            "CAMERAS_TARGETS",
+            "DECORATIONS",
+            "DISPLAY_MODELS",
+            "ENVIRONMENT",
+            "FURNITURE",
+            "INTERACTIVE",
+            "LIGHTING",
+            "TECH"
+          ],
+          "TECH": []
+        },
+        "after": {
+          "CAMERAS_TARGETS": [],
+          "DECORATIONS": [],
+          "DISPLAY_MODELS": [],
+          "ENVIRONMENT": [],
+          "FURNITURE": [],
+          "INTERACTIVE": [],
+          "LIGHTING": [],
+          "SharkysRoom": [
+            "CAMERAS_TARGETS",
+            "DECORATIONS",
+            "DISPLAY_MODELS",
+            "ENVIRONMENT",
+            "FURNITURE",
+            "INTERACTIVE",
+            "LIGHTING",
+            "TECH"
+          ],
+          "TECH": []
+        }
+      }
+    },
+    {
+      "check": "final_frozen_matrix_world_exactly_preserved",
+      "status": "pass",
+      "evidence": {
+        "changed_frozen_objects": []
+      }
+    },
+    {
+      "check": "final_frozen_matrix_basis_exactly_preserved",
+      "status": "pass",
+      "evidence": {
+        "changed_frozen_objects": []
+      }
+    },
+    {
+      "check": "final_frozen_matrix_parent_inverse_exactly_preserved",
+      "status": "pass",
+      "evidence": {
+        "changed_frozen_objects": []
+      }
+    },
+    {
+      "check": "final_frozen_rotation_mode_exactly_preserved",
+      "status": "pass",
+      "evidence": {
+        "changed_frozen_objects": []
+      }
+    },
+    {
+      "check": "final_frozen_local_geometry_sha256_exactly_preserved",
+      "status": "pass",
+      "evidence": {
+        "changed_frozen_objects": []
+      }
+    },
+    {
+      "check": "final_frozen_modifiers_exactly_preserved",
+      "status": "pass",
+      "evidence": {
+        "changed_frozen_objects": []
+      }
+    },
+    {
+      "check": "final_frozen_properties_exactly_preserved",
+      "status": "pass",
+      "evidence": {
+        "changed_frozen_objects": []
+      }
+    },
+    {
+      "check": "final_cabinet_outer_bounds_and_origin_unchanged",
+      "status": "pass",
+      "evidence": {
+        "old_origin": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "new_origin": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "old_local_bounds": [
+          [
+            -0.30000001192092896,
+            -2.0999999046325684,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            1.649999976158142,
+            2.5999999046325684
+          ]
+        ],
+        "new_local_bounds": [
+          [
+            -0.30000001192092896,
+            -2.0999999046325684,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            1.649999976158142,
+            2.5999999046325684
+          ]
+        ]
+      }
+    },
+    {
+      "check": "CAM_Hero_historic_camera_exactly_unchanged",
+      "status": "pass",
+      "evidence": {
+        "type": "PERSP",
+        "lens_mm": 48.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7953089475631714,
+            -0.27709442377090454,
+            0.5391681790351868,
+            8.10947036743164
+          ],
+          [
+            0.6062043309211731,
+            0.3635335862636566,
+            -0.7073610424995422,
+            -10.664599418640137
+          ],
+          [
+            6.519097439650068e-08,
+            0.8894166946411133,
+            0.4570973515510559,
+            7.74280309677124
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          8.10947036743164,
+          -10.664599418640137,
+          7.74280309677124
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          62.80003771989884,
+          -3.7351676952648978e-06,
+          37.31555349254367
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette"
+        }
+      }
+    },
+    {
+      "check": "CAM_Hero_45_historic_camera_exactly_unchanged",
+      "status": "pass",
+      "evidence": {
+        "type": "PERSP",
+        "lens_mm": 45.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7776538729667664,
+            -0.3080725073814392,
+            0.5480381846427917,
+            7.618861675262451
+          ],
+          [
+            0.6286926865577698,
+            0.38106659054756165,
+            -0.6778892278671265,
+            -9.377877235412598
+          ],
+          [
+            -6.144055930690229e-09,
+            0.8717107176780701,
+            0.49002084136009216,
+            7.585813999176025
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          7.618861675262451,
+          -9.377877235412598,
+          7.585813999176025
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          60.65804941504782,
+          3.520284739208731e-07,
+          38.95373679893079
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "UNREVIEWED — user to select; no final Hero chosen",
+          "composition_target_xyz_m": [
+            -0.0070097679272294044,
+            0.05485529452562332,
+            0.7672414183616638
+          ],
+          "candidate_description": "A — closer perspective, more visible shelf/table tops"
+        }
+      }
+    },
+    {
+      "check": "CAM_Hero_48_historic_camera_exactly_unchanged",
+      "status": "pass",
+      "evidence": {
+        "type": "PERSP",
+        "lens_mm": 48.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7931176424026489,
+            -0.2827850878238678,
+            0.5394414067268372,
+            7.891778469085693
+          ],
+          [
+            0.6090685129165649,
+            0.3682374656200409,
+            -0.7024505138397217,
+            -10.294089317321777
+          ],
+          [
+            -1.5113769791241793e-08,
+            0.8856826424598694,
+            0.46429112553596497,
+            7.609460353851318
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          7.891778469085693,
+          -10.294089317321777,
+          7.609460353851318
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          62.335646328040504,
+          8.659552215704741e-07,
+          37.522180375314896
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "UNREVIEWED — user to select; no final Hero chosen",
+          "composition_target_xyz_m": [
+            -0.04308895766735077,
+            0.03855033218860626,
+            0.780006468296051
+          ],
+          "candidate_description": "B — baseline-adjacent view, adjusted framing for v0.2 furniture"
+        }
+      }
+    },
+    {
+      "check": "CAM_Hero_52_historic_camera_exactly_unchanged",
+      "status": "pass",
+      "evidence": {
+        "type": "PERSP",
+        "lens_mm": 52.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7725443840026855,
+            -0.2772459089756012,
+            0.5712353587150574,
+            9.004548072814941
+          ],
+          [
+            0.6349607706069946,
+            0.3373197019100189,
+            -0.6950110197067261,
+            -10.892281532287598
+          ],
+          [
+            5.9332450064175646e-09,
+            0.8996388912200928,
+            0.43663468956947327,
+            7.714287757873535
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          9.004548072814941,
+          -10.892281532287598,
+          7.714287757873535
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          64.11064173859756,
+          -3.399498976847975e-07,
+          39.41707292656236
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "UNREVIEWED — user to select; no final Hero chosen",
+          "composition_target_xyz_m": [
+            -0.017570139840245247,
+            0.08475781977176666,
+            0.8180537223815918
+          ],
+          "candidate_description": "C — longer lens and lower angle, less foreground exaggeration"
+        }
+      }
+    },
+    {
+      "check": "final_camera_exact_copy_of_selected_v02_48",
+      "status": "pass",
+      "evidence": {
+        "matching_transform_lens_sensor_clip": true,
+        "target_preserved": true,
+        "expected_target": [
+          -0.04308895766735077,
+          0.03855033218860626,
+          0.780006468296051
+        ],
+        "parameters": {
+          "type": "PERSP",
+          "lens_mm": 48.0,
+          "sensor_width_mm": 36.0,
+          "sensor_height_mm": 24.0,
+          "sensor_fit": "AUTO",
+          "clip_start_m": 0.05000000074505806,
+          "clip_end_m": 100.0,
+          "shift": [
+            0.0,
+            0.0
+          ],
+          "world_matrix": [
+            [
+              0.7931176424026489,
+              -0.2827850878238678,
+              0.5394414067268372,
+              7.891778469085693
+            ],
+            [
+              0.6090685129165649,
+              0.3682374656200409,
+              -0.7024505138397217,
+              -10.294089317321777
+            ],
+            [
+              -1.5113769791241793e-08,
+              0.8856826424598694,
+              0.46429112553596497,
+              7.609460353851318
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_location": [
+            7.891778469085693,
+            -10.294089317321777,
+            7.609460353851318
+          ],
+          "rotation_mode": "XYZ",
+          "local_rotation_degrees": [
+            62.335646328040504,
+            8.659552215704741e-07,
+            37.522180375314896
+          ],
+          "local_scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "custom_properties": {
+            "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+            "candidate_status": "FINAL — user selected CAM_Hero_48",
+            "composition_target_xyz_m": [
+              -0.04308895766735077,
+              0.03855033218860626,
+              0.780006468296051
+            ],
+            "candidate_description": "Exact copy of validated CAM_Hero_48; no new framing",
+            "locked_source_camera": "CAM_Hero_48"
+          }
+        }
+      }
+    },
+    {
+      "check": "final_active_camera_is_CAM_Hero_FINAL",
+      "status": "pass",
+      "evidence": "CAM_Hero_FINAL"
+    },
+    {
+      "check": "final_render_aspect_resolution_preserved",
+      "status": "pass",
+      "evidence": [
+        1536,
+        1024,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "check": "final_piano_exact_0_65m_travel_preserved",
+      "status": "pass",
+      "evidence": -0.65
+    },
+    {
+      "check": "final_side_table_dependencies_preserved",
+      "status": "pass",
+      "evidence": {
+        "changed_fields": [],
+        "before": {
+          "exists": true,
+          "name": "FUR_SideTable",
+          "type": "MESH",
+          "parent": "FURNITURE",
+          "collections": [
+            "FURNITURE"
+          ],
+          "children": [],
+          "constraints": [],
+          "modifiers": [
+            {
+              "name": "Blockout_Edge_Softening",
+              "type": "BEVEL"
+            }
+          ],
+          "animation_data_present": false,
+          "incoming_references": [],
+          "incoming_drivers": [],
+          "mesh_data_users": 1,
+          "own_custom_properties": {},
+          "world_origin": [
+            0.9800000190734863,
+            -2.190000057220459,
+            0.27000001072883606
+          ],
+          "local_bounds": [
+            [
+              -0.2199999988079071,
+              -0.2199999988079071,
+              -0.27000001072883606
+            ],
+            [
+              -0.2199999988079071,
+              -0.2199999988079071,
+              0.27000001072883606
+            ],
+            [
+              -0.2199999988079071,
+              0.2199999988079071,
+              0.27000001072883606
+            ],
+            [
+              -0.2199999988079071,
+              0.2199999988079071,
+              -0.27000001072883606
+            ],
+            [
+              0.2199999988079071,
+              -0.2199999988079071,
+              -0.27000001072883606
+            ],
+            [
+              0.2199999988079071,
+              -0.2199999988079071,
+              0.27000001072883606
+            ],
+            [
+              0.2199999988079071,
+              0.2199999988079071,
+              0.27000001072883606
+            ],
+            [
+              0.2199999988079071,
+              0.2199999988079071,
+              -0.27000001072883606
+            ]
+          ]
+        },
+        "after": {
+          "exists": true,
+          "name": "FUR_SideTable",
+          "type": "MESH",
+          "parent": "FURNITURE",
+          "collections": [
+            "FURNITURE"
+          ],
+          "children": [],
+          "constraints": [],
+          "modifiers": [
+            {
+              "name": "Blockout_Edge_Softening",
+              "type": "BEVEL"
+            }
+          ],
+          "animation_data_present": false,
+          "incoming_references": [],
+          "incoming_drivers": [],
+          "mesh_data_users": 1,
+          "own_custom_properties": {},
+          "world_origin": [
+            0.9800000190734863,
+            -2.190000057220459,
+            0.27000001072883606
+          ],
+          "local_bounds": [
+            [
+              -0.23999999463558197,
+              -0.23999999463558197,
+              -0.27000001072883606
+            ],
+            [
+              -0.23999999463558197,
+              -0.23999999463558197,
+              0.27000001072883606
+            ],
+            [
+              -0.23999999463558197,
+              0.23999999463558197,
+              0.27000001072883606
+            ],
+            [
+              -0.23999999463558197,
+              0.23999999463558197,
+              -0.27000001072883606
+            ],
+            [
+              0.23999999463558197,
+              -0.23999999463558197,
+              -0.27000001072883606
+            ],
+            [
+              0.23999999463558197,
+              -0.23999999463558197,
+              0.27000001072883606
+            ],
+            [
+              0.23999999463558197,
+              0.23999999463558197,
+              0.27000001072883606
+            ],
+            [
+              0.23999999463558197,
+              0.23999999463558197,
+              -0.27000001072883606
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "check": "blend_metric_units",
+      "status": "pass",
+      "evidence": {
+        "system": "METRIC",
+        "scale_length": 1.0,
+        "up_axis": "Z (Blender)"
+      }
+    },
+    {
+      "check": "blend_required_collections",
+      "status": "pass",
+      "evidence": {
+        "required": [
+          "ENVIRONMENT",
+          "FURNITURE",
+          "TECH",
+          "INTERACTIVE",
+          "DISPLAY_MODELS",
+          "DECORATIONS",
+          "LIGHTING",
+          "CAMERAS_TARGETS"
+        ],
+        "missing": []
+      }
+    },
+    {
+      "check": "blend_required_exact_names",
+      "status": "pass",
+      "evidence": {
+        "required_count": 47,
+        "missing": []
+      }
+    },
+    {
+      "check": "blend_root_empty",
+      "status": "pass",
+      "evidence": {
+        "name": "SharkysRoom",
+        "type": "EMPTY"
+      }
+    },
+    {
+      "check": "blend_export_group_empties",
+      "status": "pass",
+      "evidence": {
+        "incorrect_groups": []
+      }
+    },
+    {
+      "check": "blend_required_hierarchy",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "blend_required_collection_membership",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "blend_nine_target_empties",
+      "status": "pass",
+      "evidence": [
+        {
+          "name": "TGT_Monitor",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_MacBook",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_iPad",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_Marshall",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_Piano",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_TrashCan",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_LightSwitch",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_Phone",
+          "type": "EMPTY"
+        },
+        {
+          "name": "TGT_Window",
+          "type": "EMPTY"
+        }
+      ]
+    },
+    {
+      "check": "blend_interactive_independent_objects",
+      "status": "pass",
+      "evidence": [
+        {
+          "name": "TEC_MonitorBody",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_MonitorScreen",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_MacBookBase",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_MacBookScreen",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_iPad",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_Marshall",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "TEC_Phone",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "INT_PianoRail",
+          "type": "EMPTY",
+          "independent_object": true
+        },
+        {
+          "name": "INT_Piano",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "INT_TrashCanBody",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "INT_TrashCanLid",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "INT_LightSwitch",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "ENV_WindowFrame",
+          "type": "MESH",
+          "independent_object": true
+        },
+        {
+          "name": "ENV_WindowGlass",
+          "type": "MESH",
+          "independent_object": true
+        }
+      ]
+    },
+    {
+      "check": "blend_interactive_independent_mesh_data",
+      "status": "pass",
+      "evidence": {
+        "shared_mesh_datablocks": []
+      }
+    },
+    {
+      "check": "blend_piano_parent",
+      "status": "pass",
+      "evidence": {
+        "parent": "INT_PianoRail"
+      }
+    },
+    {
+      "check": "blend_applied_mesh_and_empty_scale",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "blend_final_hero_camera",
+      "status": "pass",
+      "evidence": {
+        "active_camera": "CAM_Hero_FINAL"
+      }
+    },
+    {
+      "check": "blend_hero_perspective",
+      "status": "pass",
+      "evidence": {
+        "projection": "PERSP"
+      }
+    },
+    {
+      "check": "blend_low_complexity_geometry",
+      "status": "pass",
+      "evidence": {
+        "mesh_objects": 55,
+        "vertices": 2588,
+        "triangles": 4602,
+        "largest_meshes": [
+          {
+            "name": "DEC_DogBedProxy",
+            "vertices": 342,
+            "triangles": 672
+          },
+          {
+            "name": "FUR_BeanBag",
+            "vertices": 228,
+            "triangles": 448
+          },
+          {
+            "name": "FUR_OfficeChair",
+            "vertices": 188,
+            "triangles": 324
+          },
+          {
+            "name": "FUR_SideTable",
+            "vertices": 120,
+            "triangles": 224
+          },
+          {
+            "name": "TEC_Mouse",
+            "vertices": 114,
+            "triangles": 224
+          },
+          {
+            "name": "DEC_Lamp_Bedside",
+            "vertices": 110,
+            "triangles": 208
+          },
+          {
+            "name": "DEC_Lamp_Lounge",
+            "vertices": 110,
+            "triangles": 208
+          },
+          {
+            "name": "DEC_Plant_Window",
+            "vertices": 102,
+            "triangles": 192
+          },
+          {
+            "name": "DEC_Plant_Sofa",
+            "vertices": 102,
+            "triangles": 192
+          },
+          {
+            "name": "DEC_Plant_Cabinet",
+            "vertices": 102,
+            "triangles": 192
+          },
+          {
+            "name": "DEC_Plant_Desk",
+            "vertices": 102,
+            "triangles": 192
+          },
+          {
+            "name": "DEC_Plant_CoffeeTable",
+            "vertices": 102,
+            "triangles": 192
+          }
+        ]
+      }
+    },
+    {
+      "check": "blend_small_material_palette",
+      "status": "pass",
+      "evidence": {
+        "count": 6,
+        "names": [
+          "MAT_DarkTechnology_Greybox",
+          "MAT_Furniture_Greybox",
+          "MAT_GlassProxy_Greybox",
+          "MAT_RoomShell_Greybox",
+          "MAT_ScreenProxy_Greybox",
+          "MAT_SoftProxy_Greybox"
+        ]
+      }
+    },
+    {
+      "check": "blend_no_high_resolution_material_textures",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "TEC_MacBookScreen_pivot_geometry",
+      "status": "pass",
+      "evidence": {
+        "local_axis": "X",
+        "local_bounds": [
+          [
+            -0.17000000178813934,
+            -0.2240000069141388,
+            -0.002500000176951289
+          ],
+          [
+            0.17000000178813934,
+            0.0,
+            0.02500000037252903
+          ]
+        ],
+        "geometry_long_axis": "Y",
+        "edge_distance_m": 0.0,
+        "center_distance_m": 0.1120000034570694,
+        "tolerance_m": 0.015680000483989716,
+        "expected": "hinge at mesh edge"
+      }
+    },
+    {
+      "check": "TEC_MacBookScreen_pivot_motion",
+      "status": "pass",
+      "evidence": {
+        "axis": "X",
+        "closed_angle_deg": 0.0,
+        "open_angle_deg": -105.0,
+        "sample_count": 9,
+        "origin_drift_m": 0.0,
+        "free_edge_displacement_m": 0.35762896036617225
+      }
+    },
+    {
+      "check": "TEC_MacBookScreen_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "INT_TrashCanLid_pivot_geometry",
+      "status": "pass",
+      "evidence": {
+        "local_axis": "X",
+        "local_bounds": [
+          [
+            -0.19300000369548798,
+            -0.38600000739097595,
+            -0.012500000186264515
+          ],
+          [
+            0.19300000369548798,
+            0.0,
+            0.012500000186264515
+          ]
+        ],
+        "geometry_long_axis": "Y",
+        "edge_distance_m": 0.0,
+        "center_distance_m": 0.19300000369548798,
+        "tolerance_m": 0.02702000051736832,
+        "expected": "hinge at mesh edge"
+      }
+    },
+    {
+      "check": "INT_TrashCanLid_pivot_motion",
+      "status": "pass",
+      "evidence": {
+        "axis": "X",
+        "closed_angle_deg": 0.0,
+        "open_angle_deg": -100.0,
+        "sample_count": 9,
+        "origin_drift_m": 0.0,
+        "free_edge_displacement_m": 0.5916962994511198
+      }
+    },
+    {
+      "check": "INT_TrashCanLid_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "INT_LightSwitch_pivot_geometry",
+      "status": "pass",
+      "evidence": {
+        "local_axis": "Y",
+        "local_bounds": [
+          [
+            -0.010999999940395355,
+            -0.032499998807907104,
+            -0.04899999871850014
+          ],
+          [
+            0.010999999940395355,
+            0.032499998807907104,
+            0.04899999871850014
+          ]
+        ],
+        "geometry_long_axis": "Z",
+        "edge_distance_m": 0.04899999871850014,
+        "center_distance_m": 0.0,
+        "tolerance_m": 0.02939999923110008,
+        "expected": "centered toggle"
+      }
+    },
+    {
+      "check": "INT_LightSwitch_pivot_motion",
+      "status": "pass",
+      "evidence": {
+        "axis": "Y",
+        "closed_angle_deg": -8.0,
+        "open_angle_deg": 8.0,
+        "sample_count": 9,
+        "origin_drift_m": 0.0,
+        "free_edge_displacement_m": 0.01397843909057982
+      }
+    },
+    {
+      "check": "INT_LightSwitch_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "piano_slide_travel_range",
+      "status": "pass",
+      "evidence": {
+        "controller": "INT_PianoRail",
+        "axis": "Y",
+        "travel_m": -0.65
+      }
+    },
+    {
+      "check": "piano_slide_endpoints_match_travel",
+      "status": "pass",
+      "evidence": {
+        "retracted_local_m": 1.94,
+        "extended_local_m": 1.29,
+        "default_pose_local_m": 1.2899999618530273,
+        "signed_travel_m": -0.65
+      }
+    },
+    {
+      "check": "piano_slide_translation",
+      "status": "pass",
+      "evidence": {
+        "expected_m": 0.65,
+        "observed_m": 0.6500001027033798,
+        "controller": "INT_PianoRail"
+      }
+    },
+    {
+      "check": "piano_slide_mesh_collision_samples",
+      "status": "pass",
+      "evidence": {
+        "sample_count": 15,
+        "collisions": [],
+        "method": "world-space mesh BVH surface intersection, 15 evenly spaced poses; touching AABB faces excluded",
+        "limitation": "Surface intersections only; complete containment and continuous collision between samples need visual review."
+      }
+    },
+    {
+      "check": "piano_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "static_main_furniture_curtains_and_walls_no_surface_intersections",
+      "status": "pass",
+      "evidence": {
+        "checked_pairs": 60,
+        "intersections": [],
+        "method": "Main furniture pairs and each furniture versus rear walls/curtains, world BVH after non-touching AABB filter.",
+        "excluded_intentional_contacts": "Floor support, internal parts of the same furniture mesh, rugs, supported tabletop tech, cabinet display proxies.",
+        "limitation": "Surface intersection test cannot prove absence of a smaller enclosed solid entirely inside a larger solid."
+      }
+    },
+    {
+      "check": "TEC_MacBookScreen_sweep_collision_test",
+      "status": "pass",
+      "evidence": {
+        "sample_count": 106,
+        "closed_angle_deg": 0.0,
+        "open_angle_deg": -105.0,
+        "collisions": [],
+        "closed_stop_contacts_within_3mm": [],
+        "method": "World-space mesh BVH, at most 1 degree per step; all other scene mesh objects tested after broad phase.",
+        "contact_rule": "Only laptop screen/base contact up to 3 mm at the fully closed stop is classified as mechanical contact.",
+        "limitation": "Discrete sampled surface-intersection check, not analytic continuous or solid containment verification."
+      }
+    },
+    {
+      "check": "TEC_MacBookScreen_sweep_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "INT_TrashCanLid_sweep_collision_test",
+      "status": "pass",
+      "evidence": {
+        "sample_count": 101,
+        "closed_angle_deg": 0.0,
+        "open_angle_deg": -100.0,
+        "collisions": [],
+        "closed_stop_contacts_within_3mm": [],
+        "method": "World-space mesh BVH, at most 1 degree per step; all other scene mesh objects tested after broad phase.",
+        "contact_rule": "Only laptop screen/base contact up to 3 mm at the fully closed stop is classified as mechanical contact.",
+        "limitation": "Discrete sampled surface-intersection check, not analytic continuous or solid containment verification."
+      }
+    },
+    {
+      "check": "INT_TrashCanLid_sweep_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "INT_LightSwitch_sweep_collision_test",
+      "status": "pass",
+      "evidence": {
+        "sample_count": 33,
+        "closed_angle_deg": -8.0,
+        "open_angle_deg": 8.0,
+        "collisions": [],
+        "closed_stop_contacts_within_3mm": [],
+        "method": "World-space mesh BVH, at most 1 degree per step; all other scene mesh objects tested after broad phase.",
+        "contact_rule": "Only laptop screen/base contact up to 3 mm at the fully closed stop is classified as mechanical contact.",
+        "limitation": "Discrete sampled surface-intersection check, not analytic continuous or solid containment verification."
+      }
+    },
+    {
+      "check": "INT_LightSwitch_sweep_transform_restored",
+      "status": "pass",
+      "evidence": null
+    },
+    {
+      "check": "glb_exists",
+      "status": "pass",
+      "evidence": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_FINAL/sharkys_room_blockout_FINAL.glb"
+    },
+    {
+      "check": "glb_valid_container",
+      "status": "pass",
+      "evidence": {
+        "version": "2.0",
+        "size_bytes": 411892,
+        "binary_chunk_bytes": 350556
+      }
+    },
+    {
+      "check": "glb_under_5_MB",
+      "status": "pass",
+      "evidence": {
+        "bytes": 411892,
+        "decimal_MB": 0.411892,
+        "MiB": 0.392811
+      }
+    },
+    {
+      "check": "glb_required_exact_names",
+      "status": "pass",
+      "evidence": {
+        "missing": [],
+        "node_count": 85
+      }
+    },
+    {
+      "check": "glb_unique_node_names",
+      "status": "pass",
+      "evidence": {}
+    },
+    {
+      "check": "glb_hierarchy_preserved",
+      "status": "pass",
+      "evidence": {
+        "hierarchy_errors": [],
+        "multiple_parent_nodes": []
+      }
+    },
+    {
+      "check": "glb_interactive_independent_nodes",
+      "status": "pass",
+      "evidence": [
+        {
+          "name": "TEC_MonitorBody",
+          "node": 79,
+          "mesh": 51,
+          "valid": true
+        },
+        {
+          "name": "TEC_MonitorScreen",
+          "node": 80,
+          "mesh": 52,
+          "valid": true
+        },
+        {
+          "name": "TEC_MacBookBase",
+          "node": 76,
+          "mesh": 48,
+          "valid": true
+        },
+        {
+          "name": "TEC_MacBookScreen",
+          "node": 77,
+          "mesh": 49,
+          "valid": true
+        },
+        {
+          "name": "TEC_iPad",
+          "node": 74,
+          "mesh": 46,
+          "valid": true
+        },
+        {
+          "name": "TEC_Marshall",
+          "node": 78,
+          "mesh": 50,
+          "valid": true
+        },
+        {
+          "name": "TEC_Phone",
+          "node": 82,
+          "mesh": 54,
+          "valid": true
+        },
+        {
+          "name": "INT_PianoRail",
+          "node": 63,
+          "mesh": null,
+          "valid": true
+        },
+        {
+          "name": "INT_Piano",
+          "node": 62,
+          "mesh": 42,
+          "valid": true
+        },
+        {
+          "name": "INT_TrashCanBody",
+          "node": 64,
+          "mesh": 43,
+          "valid": true
+        },
+        {
+          "name": "INT_TrashCanLid",
+          "node": 65,
+          "mesh": 44,
+          "valid": true
+        },
+        {
+          "name": "INT_LightSwitch",
+          "node": 61,
+          "mesh": 41,
+          "valid": true
+        },
+        {
+          "name": "ENV_WindowFrame",
+          "node": 48,
+          "mesh": 30,
+          "valid": true
+        },
+        {
+          "name": "ENV_WindowGlass",
+          "node": 49,
+          "mesh": 31,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "check": "glb_interactive_and_target_world_origins_preserved",
+      "status": "pass",
+      "evidence": [
+        {
+          "name": "TEC_MonitorBody",
+          "exported_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.12
+          ],
+          "expected_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.12
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_MonitorScreen",
+          "exported_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.084
+          ],
+          "expected_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.084
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_MacBookBase",
+          "exported_world_origin_Y_up": [
+            -1.5,
+            0.757,
+            -1.86
+          ],
+          "expected_world_origin_Y_up": [
+            -1.5,
+            0.757,
+            -1.86
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_MacBookScreen",
+          "exported_world_origin_Y_up": [
+            -1.5,
+            0.776,
+            -1.9775
+          ],
+          "expected_world_origin_Y_up": [
+            -1.5,
+            0.776,
+            -1.9775
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_iPad",
+          "exported_world_origin_Y_up": [
+            -0.66,
+            0.49,
+            1.18
+          ],
+          "expected_world_origin_Y_up": [
+            -0.66,
+            0.49,
+            1.18
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_Marshall",
+          "exported_world_origin_Y_up": [
+            0.39,
+            0.885,
+            -2.06
+          ],
+          "expected_world_origin_Y_up": [
+            0.39,
+            0.885,
+            -2.06
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TEC_Phone",
+          "exported_world_origin_Y_up": [
+            0.16,
+            0.84,
+            -1.75
+          ],
+          "expected_world_origin_Y_up": [
+            0.16,
+            0.84,
+            -1.75
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_PianoRail",
+          "exported_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "expected_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_Piano",
+          "exported_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "expected_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_TrashCanBody",
+          "exported_world_origin_Y_up": [
+            1.12,
+            0.225,
+            -1.8
+          ],
+          "expected_world_origin_Y_up": [
+            1.12,
+            0.225,
+            -1.8
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_TrashCanLid",
+          "exported_world_origin_Y_up": [
+            1.12,
+            0.474,
+            -1.993
+          ],
+          "expected_world_origin_Y_up": [
+            1.12,
+            0.474,
+            -1.993
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "INT_LightSwitch",
+          "exported_world_origin_Y_up": [
+            -3.539,
+            1.2,
+            1.47
+          ],
+          "expected_world_origin_Y_up": [
+            -3.539,
+            1.2,
+            1.47
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "ENV_WindowFrame",
+          "exported_world_origin_Y_up": [
+            0.0,
+            0.0,
+            -2.895
+          ],
+          "expected_world_origin_Y_up": [
+            0.0,
+            0.0,
+            -2.895
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "ENV_WindowGlass",
+          "exported_world_origin_Y_up": [
+            -0.675,
+            1.84,
+            -2.955
+          ],
+          "expected_world_origin_Y_up": [
+            -0.675,
+            1.84,
+            -2.955
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Monitor",
+          "exported_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.08
+          ],
+          "expected_world_origin_Y_up": [
+            -0.42,
+            1.2,
+            -2.08
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_MacBook",
+          "exported_world_origin_Y_up": [
+            -1.5,
+            0.94,
+            -1.97
+          ],
+          "expected_world_origin_Y_up": [
+            -1.5,
+            0.94,
+            -1.97
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_iPad",
+          "exported_world_origin_Y_up": [
+            -0.66,
+            0.5,
+            1.18
+          ],
+          "expected_world_origin_Y_up": [
+            -0.66,
+            0.5,
+            1.18
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Marshall",
+          "exported_world_origin_Y_up": [
+            0.39,
+            0.885,
+            -2.06
+          ],
+          "expected_world_origin_Y_up": [
+            0.39,
+            0.885,
+            -2.06
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Piano",
+          "exported_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "expected_world_origin_Y_up": [
+            -0.65,
+            0.6,
+            -1.29
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_TrashCan",
+          "exported_world_origin_Y_up": [
+            1.12,
+            0.46,
+            -1.8
+          ],
+          "expected_world_origin_Y_up": [
+            1.12,
+            0.46,
+            -1.8
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_LightSwitch",
+          "exported_world_origin_Y_up": [
+            -3.54,
+            1.2,
+            1.47
+          ],
+          "expected_world_origin_Y_up": [
+            -3.54,
+            1.2,
+            1.47
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Phone",
+          "exported_world_origin_Y_up": [
+            0.16,
+            0.84,
+            -1.75
+          ],
+          "expected_world_origin_Y_up": [
+            0.16,
+            0.84,
+            -1.75
+          ],
+          "error_m": 0.0
+        },
+        {
+          "name": "TGT_Window",
+          "exported_world_origin_Y_up": [
+            -0.675,
+            1.84,
+            -2.9
+          ],
+          "expected_world_origin_Y_up": [
+            -0.675,
+            1.84,
+            -2.9
+          ],
+          "error_m": 0.0
+        }
+      ]
+    },
+    {
+      "check": "glb_nine_targets",
+      "status": "pass",
+      "evidence": {
+        "exported": [
+          "TGT_Monitor",
+          "TGT_MacBook",
+          "TGT_iPad",
+          "TGT_Marshall",
+          "TGT_Piano",
+          "TGT_TrashCan",
+          "TGT_LightSwitch",
+          "TGT_Phone",
+          "TGT_Window"
+        ]
+      }
+    },
+    {
+      "check": "glb_hero_camera_exported",
+      "status": "pass",
+      "evidence": {
+        "camera_index": 0,
+        "camera_count": 5
+      }
+    },
+    {
+      "check": "glb_hero_camera_projection_matches_blend",
+      "status": "pass",
+      "evidence": {
+        "expected_vertical_fov_rad": 0.4899573262537283,
+        "exported_vertical_fov_rad": 0.48995732372885886,
+        "expected_aspect_ratio": 1.5,
+        "exported_aspect_ratio": 1.5,
+        "blender_sensor_shift": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "glb_low_complexity_geometry",
+      "status": "pass",
+      "evidence": {
+        "triangles": 6566,
+        "vertices": 13480
+      }
+    },
+    {
+      "check": "glb_small_material_palette",
+      "status": "pass",
+      "evidence": {
+        "count": 6,
+        "names": [
+          "MAT_SoftProxy_Greybox",
+          "MAT_Furniture_Greybox",
+          "MAT_DarkTechnology_Greybox",
+          "MAT_ScreenProxy_Greybox",
+          "MAT_GlassProxy_Greybox",
+          "MAT_RoomShell_Greybox"
+        ]
+      }
+    },
+    {
+      "check": "glb_no_texture_payload",
+      "status": "pass",
+      "evidence": {
+        "images": 0
+      }
+    },
+    {
+      "check": "CAM_Hero_45_candidate_lens_hierarchy",
+      "status": "pass",
+      "evidence": {
+        "type": "PERSP",
+        "lens_mm": 45.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7776538729667664,
+            -0.3080725073814392,
+            0.5480381846427917,
+            7.618861675262451
+          ],
+          [
+            0.6286926865577698,
+            0.38106659054756165,
+            -0.6778892278671265,
+            -9.377877235412598
+          ],
+          [
+            -6.144055930690229e-09,
+            0.8717107176780701,
+            0.49002084136009216,
+            7.585813999176025
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          7.618861675262451,
+          -9.377877235412598,
+          7.585813999176025
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          60.65804941504782,
+          3.520284739208731e-07,
+          38.95373679893079
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "UNREVIEWED — user to select; no final Hero chosen",
+          "composition_target_xyz_m": [
+            -0.0070097679272294044,
+            0.05485529452562332,
+            0.7672414183616638
+          ],
+          "candidate_description": "A — closer perspective, more visible shelf/table tops"
+        }
+      }
+    },
+    {
+      "check": "CAM_Hero_48_candidate_lens_hierarchy",
+      "status": "pass",
+      "evidence": {
+        "type": "PERSP",
+        "lens_mm": 48.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7931176424026489,
+            -0.2827850878238678,
+            0.5394414067268372,
+            7.891778469085693
+          ],
+          [
+            0.6090685129165649,
+            0.3682374656200409,
+            -0.7024505138397217,
+            -10.294089317321777
+          ],
+          [
+            -1.5113769791241793e-08,
+            0.8856826424598694,
+            0.46429112553596497,
+            7.609460353851318
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          7.891778469085693,
+          -10.294089317321777,
+          7.609460353851318
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          62.335646328040504,
+          8.659552215704741e-07,
+          37.522180375314896
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "UNREVIEWED — user to select; no final Hero chosen",
+          "composition_target_xyz_m": [
+            -0.04308895766735077,
+            0.03855033218860626,
+            0.780006468296051
+          ],
+          "candidate_description": "B — baseline-adjacent view, adjusted framing for v0.2 furniture"
+        }
+      }
+    },
+    {
+      "check": "CAM_Hero_52_candidate_lens_hierarchy",
+      "status": "pass",
+      "evidence": {
+        "type": "PERSP",
+        "lens_mm": 52.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7725443840026855,
+            -0.2772459089756012,
+            0.5712353587150574,
+            9.004548072814941
+          ],
+          [
+            0.6349607706069946,
+            0.3373197019100189,
+            -0.6950110197067261,
+            -10.892281532287598
+          ],
+          [
+            5.9332450064175646e-09,
+            0.8996388912200928,
+            0.43663468956947327,
+            7.714287757873535
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          9.004548072814941,
+          -10.892281532287598,
+          7.714287757873535
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          64.11064173859756,
+          -3.399498976847975e-07,
+          39.41707292656236
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "UNREVIEWED — user to select; no final Hero chosen",
+          "composition_target_xyz_m": [
+            -0.017570139840245247,
+            0.08475781977176666,
+            0.8180537223815918
+          ],
+          "candidate_description": "C — longer lens and lower angle, less foreground exaggeration"
+        }
+      }
+    },
+    {
+      "check": "CAM_Hero_FINAL_candidate_lens_hierarchy",
+      "status": "pass",
+      "evidence": {
+        "type": "PERSP",
+        "lens_mm": 48.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7931176424026489,
+            -0.2827850878238678,
+            0.5394414067268372,
+            7.891778469085693
+          ],
+          [
+            0.6090685129165649,
+            0.3682374656200409,
+            -0.7024505138397217,
+            -10.294089317321777
+          ],
+          [
+            -1.5113769791241793e-08,
+            0.8856826424598694,
+            0.46429112553596497,
+            7.609460353851318
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          7.891778469085693,
+          -10.294089317321777,
+          7.609460353851318
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          62.335646328040504,
+          8.659552215704741e-07,
+          37.522180375314896
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "FINAL — user selected CAM_Hero_48",
+          "composition_target_xyz_m": [
+            -0.04308895766735077,
+            0.03855033218860626,
+            0.780006468296051
+          ],
+          "candidate_description": "Exact copy of validated CAM_Hero_48; no new framing",
+          "locked_source_camera": "CAM_Hero_48"
+        }
+      }
+    },
+    {
+      "check": "final_four_additional_cameras_have_independent_data",
+      "status": "pass",
+      "evidence": {
+        "CAM_Hero_45": "CAM_Hero_45_Data",
+        "CAM_Hero_48": "CAM_Hero_48_Data",
+        "CAM_Hero_52": "CAM_Hero_52_Data",
+        "CAM_Hero_FINAL": "CAM_Hero_FINAL_Data"
+      }
+    },
+    {
+      "check": "CAM_Hero_glb_camera_exported",
+      "status": "pass",
+      "evidence": {
+        "node_index": 0,
+        "camera_index": 0
+      }
+    },
+    {
+      "check": "CAM_Hero_glb_world_matrix_preserved",
+      "status": "pass",
+      "evidence": {
+        "max_abs_matrix_error": 5.960464477539063e-08
+      }
+    },
+    {
+      "check": "CAM_Hero_glb_projection_clip_preserved",
+      "status": "pass",
+      "evidence": {
+        "lens_mm": 48.0,
+        "expected_yfov": 0.4899573262537283,
+        "exported": {
+          "name": "CAM_Hero_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.48995732372885886,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        },
+        "sensor_shift": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "CAM_Hero_45_glb_camera_exported",
+      "status": "pass",
+      "evidence": {
+        "node_index": 1,
+        "camera_index": 1
+      }
+    },
+    {
+      "check": "CAM_Hero_45_glb_world_matrix_preserved",
+      "status": "pass",
+      "evidence": {
+        "max_abs_matrix_error": 5.960464477539063e-08
+      }
+    },
+    {
+      "check": "CAM_Hero_45_glb_projection_clip_preserved",
+      "status": "pass",
+      "evidence": {
+        "lens_mm": 45.0,
+        "expected_yfov": 0.5212047834946819,
+        "exported": {
+          "name": "CAM_Hero_45_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.5212047681580663,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        },
+        "sensor_shift": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "CAM_Hero_48_glb_camera_exported",
+      "status": "pass",
+      "evidence": {
+        "node_index": 2,
+        "camera_index": 2
+      }
+    },
+    {
+      "check": "CAM_Hero_48_glb_world_matrix_preserved",
+      "status": "pass",
+      "evidence": {
+        "max_abs_matrix_error": 2.9802322387695312e-08
+      }
+    },
+    {
+      "check": "CAM_Hero_48_glb_projection_clip_preserved",
+      "status": "pass",
+      "evidence": {
+        "lens_mm": 48.0,
+        "expected_yfov": 0.4899573262537283,
+        "exported": {
+          "name": "CAM_Hero_48_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.48995732372885886,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        },
+        "sensor_shift": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "CAM_Hero_52_glb_camera_exported",
+      "status": "pass",
+      "evidence": {
+        "node_index": 3,
+        "camera_index": 3
+      }
+    },
+    {
+      "check": "CAM_Hero_52_glb_world_matrix_preserved",
+      "status": "pass",
+      "evidence": {
+        "max_abs_matrix_error": 5.960464477539063e-08
+      }
+    },
+    {
+      "check": "CAM_Hero_52_glb_projection_clip_preserved",
+      "status": "pass",
+      "evidence": {
+        "lens_mm": 52.0,
+        "expected_yfov": 0.4535976961077718,
+        "exported": {
+          "name": "CAM_Hero_52_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.4535976859243833,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        },
+        "sensor_shift": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "CAM_Hero_FINAL_glb_camera_exported",
+      "status": "pass",
+      "evidence": {
+        "node_index": 4,
+        "camera_index": 4
+      }
+    },
+    {
+      "check": "CAM_Hero_FINAL_glb_world_matrix_preserved",
+      "status": "pass",
+      "evidence": {
+        "max_abs_matrix_error": 2.9802322387695312e-08
+      }
+    },
+    {
+      "check": "CAM_Hero_FINAL_glb_projection_clip_preserved",
+      "status": "pass",
+      "evidence": {
+        "lens_mm": 48.0,
+        "expected_yfov": 0.4899573262537283,
+        "exported": {
+          "name": "CAM_Hero_FINAL_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.48995732372885886,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        },
+        "sensor_shift": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "v02_glb_all_v01_nodes_parent_and_node_types_preserved",
+      "status": "pass",
+      "evidence": {
+        "baseline_nodes": 81,
+        "current_nodes": 85,
+        "errors": []
+      }
+    },
+    {
+      "check": "v02_glb_v01_interaction_extras_preserved",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "final_all_display_proxies_keep_display_hierarchy",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "final_display_proxies_do_not_cross_cabinet_surfaces",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "final_display_proxies_do_not_penetrate_solid_box_panels",
+      "status": "pass",
+      "evidence": {
+        "cabinet_connected_panels": 13,
+        "penetrations": []
+      }
+    },
+    {
+      "check": "final_display_proxies_do_not_overlap_one_another",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "final_every_proxy_assigned_to_one_compartment",
+      "status": "pass",
+      "evidence": {
+        "assigned": [
+          "DSP_Castle_Bounds",
+          "DSP_Falcon_Bounds",
+          "DSP_EiffelTower_Bounds",
+          "DSP_TallRocket_Bounds",
+          "DSP_Vehicle_Bounds",
+          "DSP_MercedesAMGF1_Bounds",
+          "DSP_Bridge_Bounds",
+          "DSP_Architecture_Bounds",
+          "DSP_MediumModel_Bounds",
+          "DSP_SmallModel_Bounds"
+        ],
+        "scene_proxies": [
+          "DSP_Architecture_Bounds",
+          "DSP_Bridge_Bounds",
+          "DSP_Castle_Bounds",
+          "DSP_EiffelTower_Bounds",
+          "DSP_Falcon_Bounds",
+          "DSP_MediumModel_Bounds",
+          "DSP_MercedesAMGF1_Bounds",
+          "DSP_SmallModel_Bounds",
+          "DSP_TallRocket_Bounds",
+          "DSP_Vehicle_Bounds"
+        ]
+      }
+    },
+    {
+      "check": "final_all_proxies_contained_in_reserved_clear_space",
+      "status": "pass",
+      "evidence": [
+        {
+          "proxy": "DSP_Castle_Bounds",
+          "compartment": "Hogwarts / large architecture",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.21999990940093994,
+              -1.8600000143051147,
+              1.4299999475479126
+            ],
+            [
+              0.2700001001358032,
+              -0.5600000619888306,
+              2.4000000953674316
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              -2.02,
+              1.385
+            ],
+            [
+              0.3,
+              -0.36,
+              2.525
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.050000090599060076,
+            0.15999998569488527,
+            0.04499994754791259
+          ],
+          "upper_clearance_xyz_m": [
+            0.029999899864196766,
+            0.20000006198883058,
+            0.12499990463256827
+          ]
+        },
+        {
+          "proxy": "DSP_Falcon_Bounds",
+          "compartment": "Millennium Falcon",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.21499989926815033,
+              -1.850000023841858,
+              0.7899999618530273
+            ],
+            [
+              0.2650001049041748,
+              -0.5700000524520874,
+              1.2400000095367432
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              -2.02,
+              0.735
+            ],
+            [
+              0.3,
+              -0.36,
+              1.315
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.05500010073184969,
+            0.1699999761581421,
+            0.05499996185302736
+          ],
+          "upper_clearance_xyz_m": [
+            0.034999895095825184,
+            0.21000005245208742,
+            0.07499999046325678
+          ]
+        },
+        {
+          "proxy": "DSP_EiffelTower_Bounds",
+          "compartment": "Eiffel Tower",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.22499990463256836,
+              -0.26499998569488525,
+              0.7499999403953552
+            ],
+            [
+              0.27500009536743164,
+              0.45500004291534424,
+              2.3499999046325684
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              -0.30000000000000004,
+              0.735
+            ],
+            [
+              0.3,
+              0.49749999999999994,
+              2.525
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.04500009536743166,
+            0.03500001430511479,
+            0.014999940395355238
+          ],
+          "upper_clearance_xyz_m": [
+            0.02499990463256835,
+            0.042499957084655704,
+            0.17500009536743155
+          ]
+        },
+        {
+          "proxy": "DSP_TallRocket_Bounds",
+          "compartment": "SLS",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.13499990105628967,
+              0.6550000905990601,
+              0.7599999904632568
+            ],
+            [
+              0.18500009179115295,
+              0.9450000524520874,
+              2.200000047683716
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              0.5424999999999999,
+              0.735
+            ],
+            [
+              0.3,
+              0.9774999999999999,
+              2.525
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.13500009894371034,
+            0.11250009059906019,
+            0.02499999046325685
+          ],
+          "upper_clearance_xyz_m": [
+            0.11499990820884703,
+            0.03249994754791252,
+            0.3249999523162841
+          ]
+        },
+        {
+          "proxy": "DSP_Vehicle_Bounds",
+          "compartment": "Ferrari F1",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.18499989807605743,
+              -1.9950000047683716,
+              0.14000000059604645
+            ],
+            [
+              0.23500008881092072,
+              -1.2350000143051147,
+              0.4100000262260437
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              -2.02,
+              0.095
+            ],
+            [
+              0.3,
+              -1.21,
+              0.665
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.08500010192394258,
+            0.024999995231628436,
+            0.04500000059604645
+          ],
+          "upper_clearance_xyz_m": [
+            0.06499991118907927,
+            0.02500001430511478,
+            0.25499997377395633
+          ]
+        },
+        {
+          "proxy": "DSP_MercedesAMGF1_Bounds",
+          "compartment": "Mercedes-AMG F1",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.18499989807605743,
+              -1.1449999809265137,
+              0.14000000059604645
+            ],
+            [
+              0.23500008881092072,
+              -0.38499999046325684,
+              0.4100000262260437
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              -1.17,
+              0.095
+            ],
+            [
+              0.3,
+              -0.36,
+              0.665
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.08500010192394258,
+            0.025000019073486257,
+            0.04500000059604645
+          ],
+          "upper_clearance_xyz_m": [
+            0.06499991118907927,
+            0.02499999046325685,
+            0.25499997377395633
+          ]
+        },
+        {
+          "proxy": "DSP_Bridge_Bounds",
+          "compartment": "Tower Bridge",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.2099999040365219,
+              -0.07999998331069946,
+              0.14000000059604645
+            ],
+            [
+              0.2600001096725464,
+              1.3199999332427979,
+              0.6200000047683716
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              -0.30000000000000004,
+              0.095
+            ],
+            [
+              0.3,
+              1.5700000000000003,
+              0.665
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.060000095963478106,
+            0.22000001668930058,
+            0.04500000059604645
+          ],
+          "upper_clearance_xyz_m": [
+            0.0399998903274536,
+            0.25000006675720243,
+            0.044999995231628453
+          ]
+        },
+        {
+          "proxy": "DSP_Architecture_Bounds",
+          "compartment": "Medium architecture",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.2099999040365219,
+              1.0462499856948853,
+              0.7725000381469727
+            ],
+            [
+              0.2600001096725464,
+              1.5462499856948853,
+              1.222499966621399
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              1.0225,
+              0.735
+            ],
+            [
+              0.3,
+              1.5700000000000003,
+              1.26
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.060000095963478106,
+            0.02374998569488529,
+            0.03750003814697267
+          ],
+          "upper_clearance_xyz_m": [
+            0.0399998903274536,
+            0.02375001430511503,
+            0.03750003337860108
+          ]
+        },
+        {
+          "proxy": "DSP_MediumModel_Bounds",
+          "compartment": "Medium collectible",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.169999897480011,
+              1.1162500381469727,
+              1.4000000953674316
+            ],
+            [
+              0.22000008821487427,
+              1.4762499332427979,
+              1.7799999713897705
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              1.0225,
+              1.32
+            ],
+            [
+              0.3,
+              1.5700000000000003,
+              1.86
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.10000010251998903,
+            0.09375003814697269,
+            0.08000009536743158
+          ],
+          "upper_clearance_xyz_m": [
+            0.07999991178512572,
+            0.09375006675720243,
+            0.08000002861022959
+          ]
+        },
+        {
+          "proxy": "DSP_SmallModel_Bounds",
+          "compartment": "Small collectible",
+          "contained": true,
+          "proxy_bounds_cabinet_local": [
+            [
+              -0.1449999064207077,
+              1.1512500047683716,
+              2.0475001335144043
+            ],
+            [
+              0.19500009715557098,
+              1.441249966621399,
+              2.3975000381469727
+            ]
+          ],
+          "compartment_bounds_local": [
+            [
+              -0.27,
+              1.0225,
+              1.92
+            ],
+            [
+              0.3,
+              1.5700000000000003,
+              2.525
+            ]
+          ],
+          "lower_clearance_xyz_m": [
+            0.12500009357929232,
+            0.12875000476837162,
+            0.12750013351440437
+          ],
+          "upper_clearance_xyz_m": [
+            0.104999902844429,
+            0.12875003337860136,
+            0.12749996185302725
+          ]
+        }
+      ]
+    },
+    {
+      "check": "final_compartments_keep_cabinet_outer_envelope",
+      "status": "pass",
+      "evidence": [
+        {
+          "name": "Hogwarts / large architecture",
+          "bounds_local": [
+            [
+              -0.27,
+              -2.02,
+              1.385
+            ],
+            [
+              0.3,
+              -0.36,
+              2.525
+            ]
+          ],
+          "proxies": [
+            "DSP_Castle_Bounds"
+          ]
+        },
+        {
+          "name": "Millennium Falcon",
+          "bounds_local": [
+            [
+              -0.27,
+              -2.02,
+              0.735
+            ],
+            [
+              0.3,
+              -0.36,
+              1.315
+            ]
+          ],
+          "proxies": [
+            "DSP_Falcon_Bounds"
+          ]
+        },
+        {
+          "name": "Eiffel Tower",
+          "bounds_local": [
+            [
+              -0.27,
+              -0.30000000000000004,
+              0.735
+            ],
+            [
+              0.3,
+              0.49749999999999994,
+              2.525
+            ]
+          ],
+          "proxies": [
+            "DSP_EiffelTower_Bounds"
+          ]
+        },
+        {
+          "name": "SLS",
+          "bounds_local": [
+            [
+              -0.27,
+              0.5424999999999999,
+              0.735
+            ],
+            [
+              0.3,
+              0.9774999999999999,
+              2.525
+            ]
+          ],
+          "proxies": [
+            "DSP_TallRocket_Bounds"
+          ]
+        },
+        {
+          "name": "Ferrari F1",
+          "bounds_local": [
+            [
+              -0.27,
+              -2.02,
+              0.095
+            ],
+            [
+              0.3,
+              -1.21,
+              0.665
+            ]
+          ],
+          "proxies": [
+            "DSP_Vehicle_Bounds"
+          ]
+        },
+        {
+          "name": "Mercedes-AMG F1",
+          "bounds_local": [
+            [
+              -0.27,
+              -1.17,
+              0.095
+            ],
+            [
+              0.3,
+              -0.36,
+              0.665
+            ]
+          ],
+          "proxies": [
+            "DSP_MercedesAMGF1_Bounds"
+          ]
+        },
+        {
+          "name": "Tower Bridge",
+          "bounds_local": [
+            [
+              -0.27,
+              -0.30000000000000004,
+              0.095
+            ],
+            [
+              0.3,
+              1.5700000000000003,
+              0.665
+            ]
+          ],
+          "proxies": [
+            "DSP_Bridge_Bounds"
+          ]
+        },
+        {
+          "name": "Medium architecture",
+          "bounds_local": [
+            [
+              -0.27,
+              1.0225,
+              0.735
+            ],
+            [
+              0.3,
+              1.5700000000000003,
+              1.26
+            ]
+          ],
+          "proxies": [
+            "DSP_Architecture_Bounds"
+          ]
+        },
+        {
+          "name": "Medium collectible",
+          "bounds_local": [
+            [
+              -0.27,
+              1.0225,
+              1.32
+            ],
+            [
+              0.3,
+              1.5700000000000003,
+              1.86
+            ]
+          ],
+          "proxies": [
+            "DSP_MediumModel_Bounds"
+          ]
+        },
+        {
+          "name": "Small collectible",
+          "bounds_local": [
+            [
+              -0.27,
+              1.0225,
+              1.92
+            ],
+            [
+              0.3,
+              1.5700000000000003,
+              2.525
+            ]
+          ],
+          "proxies": [
+            "DSP_SmallModel_Bounds"
+          ]
+        }
+      ]
+    },
+    {
+      "check": "final_side_table_no_static_mesh_intersections",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "check": "final_lamp_supported_by_round_tabletop",
+      "status": "pass",
+      "evidence": [
+        {
+          "lamp_foot": [
+            1.0800000429153442,
+            -2.190000057220459,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            1.0800000429153442,
+            -2.190000057220459,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            1.072387933731079,
+            -2.1517317295074463,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            1.072387933731079,
+            -2.1517317295074463,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            1.050710678100586,
+            -2.1192893981933594,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            1.050710678100586,
+            -2.1192893981933594,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            1.018268346786499,
+            -2.097612142562866,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            1.018268346786499,
+            -2.097612142562866,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.9800000190734863,
+            -2.0900001525878906,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.9800000190734863,
+            -2.0900001525878906,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.9417316913604736,
+            -2.097612142562866,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.9417316913604736,
+            -2.097612142562866,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.9092893600463867,
+            -2.1192893981933594,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.9092893600463867,
+            -2.1192893981933594,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.8876120448112488,
+            -2.1517317295074463,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.8876120448112488,
+            -2.1517317295074463,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.8799999952316284,
+            -2.190000057220459,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.8799999952316284,
+            -2.190000057220459,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.8876120448112488,
+            -2.2282683849334717,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.8876120448112488,
+            -2.2282683849334717,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.9092893600463867,
+            -2.2607107162475586,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.9092893600463867,
+            -2.2607107162475586,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.9417316913604736,
+            -2.2823879718780518,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.9417316913604736,
+            -2.2823879718780518,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.9800000190734863,
+            -2.2899999618530273,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.9800000190734863,
+            -2.2899999618530273,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            1.018268346786499,
+            -2.2823879718780518,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            1.018268346786499,
+            -2.2823879718780518,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            1.050710678100586,
+            -2.2607107162475586,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            1.050710678100586,
+            -2.2607107162475586,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            1.072387933731079,
+            -2.2282683849334717,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            1.072387933731079,
+            -2.2282683849334717,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        },
+        {
+          "lamp_foot": [
+            0.9800000190734863,
+            -2.190000057220459,
+            0.5400000214576721
+          ],
+          "table_hit": [
+            0.9800000190734863,
+            -2.190000057220459,
+            0.5400000214576721
+          ],
+          "height_error_m": 0.0,
+          "supported": true
+        }
+      ]
+    },
+    {
+      "check": "final_side_table_round_lightweight_proxy",
+      "status": "pass",
+      "evidence": {
+        "top_perimeter_vertices": 24,
+        "min_radius": 0.23999999284725698,
+        "max_radius": 0.24000000263607071,
+        "dimensions": [
+          0.47999998927116394,
+          0.47999998927116394,
+          0.5400000214576721
+        ]
+      }
+    },
+    {
+      "check": "final_freeze_declaration_complete",
+      "status": "pass",
+      "evidence": {
+        "scene": {
+          "freeze_status": "COMPOSITION_LOCKED",
+          "blockout_version": "v0.2.1",
+          "blockout_status": "SHARKY'S ROOM — BLOCKOUT FINAL / COMPOSITION LOCKED",
+          "final_hero_camera": "CAM_Hero_FINAL",
+          "spatial_source_of_truth": null
+        },
+        "root": {
+          "freeze_status": "COMPOSITION_LOCKED",
+          "blockout_version": "v0.2.1",
+          "blockout_status": "SHARKY'S ROOM — BLOCKOUT FINAL / COMPOSITION LOCKED",
+          "final_hero_camera": "CAM_Hero_FINAL",
+          "spatial_source_of_truth": true
+        },
+        "stage": "SHARKY'S ROOM — BLOCKOUT FINAL / COMPOSITION LOCKED",
+        "final_hero_camera_selected": true
+      }
+    },
+    {
+      "check": "final_glb_freeze_declaration_preserved",
+      "status": "pass",
+      "evidence": {
+        "freeze_status": "COMPOSITION_LOCKED",
+        "blockout_version": "v0.2.1",
+        "blockout_status": "SHARKY'S ROOM — BLOCKOUT FINAL / COMPOSITION LOCKED",
+        "final_hero_camera": "CAM_Hero_FINAL",
+        "spatial_source_of_truth": true
+      }
+    }
+  ],
+  "details": {
+    "v02_to_final_changes": {
+      "SharkysRoom": {
+        "changed_fields": [
+          "properties"
+        ],
+        "before_origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "before_dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after_dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "FUR_DisplayCabinet": {
+        "changed_fields": [
+          "local_geometry_sha256"
+        ],
+        "before_origin": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "after_origin": [
+          -3.25,
+          0.8999999761581421,
+          0.0
+        ],
+        "before_dimensions": [
+          0.6000000238418579,
+          3.75,
+          2.5999999046325684
+        ],
+        "after_dimensions": [
+          0.6000000238418579,
+          3.75,
+          2.5999999046325684
+        ]
+      },
+      "FUR_SideTable": {
+        "changed_fields": [
+          "local_geometry_sha256",
+          "dimensions"
+        ],
+        "before_origin": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.27000001072883606
+        ],
+        "after_origin": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.27000001072883606
+        ],
+        "before_dimensions": [
+          0.4399999976158142,
+          0.4399999976158142,
+          0.5400000214576721
+        ],
+        "after_dimensions": [
+          0.47999998927116394,
+          0.47999998927116394,
+          0.5400000214576721
+        ]
+      },
+      "DSP_Falcon_Bounds": {
+        "changed_fields": [
+          "properties"
+        ],
+        "before_origin": [
+          -3.2249999046325684,
+          -0.3100000023841858,
+          1.0149999856948853
+        ],
+        "after_origin": [
+          -3.2249999046325684,
+          -0.3100000023841858,
+          1.0149999856948853
+        ],
+        "before_dimensions": [
+          0.47999998927116394,
+          1.2799999713897705,
+          0.44999998807907104
+        ],
+        "after_dimensions": [
+          0.47999998927116394,
+          1.2799999713897705,
+          0.44999998807907104
+        ]
+      },
+      "DSP_EiffelTower_Bounds": {
+        "changed_fields": [
+          "properties"
+        ],
+        "before_origin": [
+          -3.2249999046325684,
+          0.9950000047683716,
+          1.5499999523162842
+        ],
+        "after_origin": [
+          -3.2249999046325684,
+          0.9950000047683716,
+          1.5499999523162842
+        ],
+        "before_dimensions": [
+          0.5,
+          0.7200000286102295,
+          1.600000023841858
+        ],
+        "after_dimensions": [
+          0.5,
+          0.7200000286102295,
+          1.600000023841858
+        ]
+      },
+      "DSP_TallRocket_Bounds": {
+        "changed_fields": [
+          "properties"
+        ],
+        "before_origin": [
+          -3.2249999046325684,
+          1.7000000476837158,
+          1.4800000190734863
+        ],
+        "after_origin": [
+          -3.2249999046325684,
+          1.7000000476837158,
+          1.4800000190734863
+        ],
+        "before_dimensions": [
+          0.3199999928474426,
+          0.28999999165534973,
+          1.440000057220459
+        ],
+        "after_dimensions": [
+          0.3199999928474426,
+          0.28999999165534973,
+          1.440000057220459
+        ]
+      },
+      "DSP_Castle_Bounds": {
+        "changed_fields": [
+          "properties"
+        ],
+        "before_origin": [
+          -3.2249999046325684,
+          -0.3100000023841858,
+          1.9149999618530273
+        ],
+        "after_origin": [
+          -3.2249999046325684,
+          -0.3100000023841858,
+          1.9149999618530273
+        ],
+        "before_dimensions": [
+          0.49000000953674316,
+          1.2999999523162842,
+          0.9700000286102295
+        ],
+        "after_dimensions": [
+          0.49000000953674316,
+          1.2999999523162842,
+          0.9700000286102295
+        ]
+      },
+      "DSP_Bridge_Bounds": {
+        "changed_fields": [
+          "properties"
+        ],
+        "before_origin": [
+          -3.2249999046325684,
+          1.5199999809265137,
+          0.3799999952316284
+        ],
+        "after_origin": [
+          -3.2249999046325684,
+          1.5199999809265137,
+          0.3799999952316284
+        ],
+        "before_dimensions": [
+          0.4699999988079071,
+          1.399999976158142,
+          0.47999998927116394
+        ],
+        "after_dimensions": [
+          0.4699999988079071,
+          1.399999976158142,
+          0.47999998927116394
+        ]
+      },
+      "DSP_Architecture_Bounds": {
+        "changed_fields": [
+          "matrix_world",
+          "local_geometry_sha256",
+          "dimensions",
+          "properties"
+        ],
+        "before_origin": [
+          -3.2249999046325684,
+          0.1899999976158142,
+          0.36500000953674316
+        ],
+        "after_origin": [
+          -3.2249999046325684,
+          2.1962499618530273,
+          0.9975000023841858
+        ],
+        "before_dimensions": [
+          0.4699999988079071,
+          0.5299999713897705,
+          0.44999998807907104
+        ],
+        "after_dimensions": [
+          0.4699999988079071,
+          0.5,
+          0.44999998807907104
+        ]
+      },
+      "DSP_Vehicle_Bounds": {
+        "changed_fields": [
+          "matrix_world",
+          "local_geometry_sha256",
+          "dimensions",
+          "properties"
+        ],
+        "before_origin": [
+          -3.2249999046325684,
+          -0.6600000262260437,
+          0.2750000059604645
+        ],
+        "after_origin": [
+          -3.2249999046325684,
+          -0.7149999737739563,
+          0.2750000059604645
+        ],
+        "before_dimensions": [
+          0.41999998688697815,
+          0.8100000023841858,
+          0.27000001072883606
+        ],
+        "after_dimensions": [
+          0.41999998688697815,
+          0.7599999904632568,
+          0.27000001072883606
+        ]
+      }
+    },
+    "active_final_camera": {
+      "type": "PERSP",
+      "lens_mm": 48.0,
+      "sensor_width_mm": 36.0,
+      "sensor_height_mm": 24.0,
+      "sensor_fit": "AUTO",
+      "clip_start_m": 0.05000000074505806,
+      "clip_end_m": 100.0,
+      "shift": [
+        0.0,
+        0.0
+      ],
+      "world_matrix": [
+        [
+          0.7931176424026489,
+          -0.2827850878238678,
+          0.5394414067268372,
+          7.891778469085693
+        ],
+        [
+          0.6090685129165649,
+          0.3682374656200409,
+          -0.7024505138397217,
+          -10.294089317321777
+        ],
+        [
+          -1.5113769791241793e-08,
+          0.8856826424598694,
+          0.46429112553596497,
+          7.609460353851318
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_location": [
+        7.891778469085693,
+        -10.294089317321777,
+        7.609460353851318
+      ],
+      "rotation_mode": "XYZ",
+      "local_rotation_degrees": [
+        62.335646328040504,
+        8.659552215704741e-07,
+        37.522180375314896
+      ],
+      "local_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "custom_properties": {
+        "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+        "candidate_status": "FINAL — user selected CAM_Hero_48",
+        "composition_target_xyz_m": [
+          -0.04308895766735077,
+          0.03855033218860626,
+          0.780006468296051
+        ],
+        "candidate_description": "Exact copy of validated CAM_Hero_48; no new framing",
+        "locked_source_camera": "CAM_Hero_48"
+      }
+    },
+    "side_table_dependency_audit": {
+      "before": {
+        "exists": true,
+        "name": "FUR_SideTable",
+        "type": "MESH",
+        "parent": "FURNITURE",
+        "collections": [
+          "FURNITURE"
+        ],
+        "children": [],
+        "constraints": [],
+        "modifiers": [
+          {
+            "name": "Blockout_Edge_Softening",
+            "type": "BEVEL"
+          }
+        ],
+        "animation_data_present": false,
+        "incoming_references": [],
+        "incoming_drivers": [],
+        "mesh_data_users": 1,
+        "own_custom_properties": {},
+        "world_origin": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.27000001072883606
+        ],
+        "local_bounds": [
+          [
+            -0.2199999988079071,
+            -0.2199999988079071,
+            -0.27000001072883606
+          ],
+          [
+            -0.2199999988079071,
+            -0.2199999988079071,
+            0.27000001072883606
+          ],
+          [
+            -0.2199999988079071,
+            0.2199999988079071,
+            0.27000001072883606
+          ],
+          [
+            -0.2199999988079071,
+            0.2199999988079071,
+            -0.27000001072883606
+          ],
+          [
+            0.2199999988079071,
+            -0.2199999988079071,
+            -0.27000001072883606
+          ],
+          [
+            0.2199999988079071,
+            -0.2199999988079071,
+            0.27000001072883606
+          ],
+          [
+            0.2199999988079071,
+            0.2199999988079071,
+            0.27000001072883606
+          ],
+          [
+            0.2199999988079071,
+            0.2199999988079071,
+            -0.27000001072883606
+          ]
+        ]
+      },
+      "after": {
+        "exists": true,
+        "name": "FUR_SideTable",
+        "type": "MESH",
+        "parent": "FURNITURE",
+        "collections": [
+          "FURNITURE"
+        ],
+        "children": [],
+        "constraints": [],
+        "modifiers": [
+          {
+            "name": "Blockout_Edge_Softening",
+            "type": "BEVEL"
+          }
+        ],
+        "animation_data_present": false,
+        "incoming_references": [],
+        "incoming_drivers": [],
+        "mesh_data_users": 1,
+        "own_custom_properties": {},
+        "world_origin": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.27000001072883606
+        ],
+        "local_bounds": [
+          [
+            -0.23999999463558197,
+            -0.23999999463558197,
+            -0.27000001072883606
+          ],
+          [
+            -0.23999999463558197,
+            -0.23999999463558197,
+            0.27000001072883606
+          ],
+          [
+            -0.23999999463558197,
+            0.23999999463558197,
+            0.27000001072883606
+          ],
+          [
+            -0.23999999463558197,
+            0.23999999463558197,
+            -0.27000001072883606
+          ],
+          [
+            0.23999999463558197,
+            -0.23999999463558197,
+            -0.27000001072883606
+          ],
+          [
+            0.23999999463558197,
+            -0.23999999463558197,
+            0.27000001072883606
+          ],
+          [
+            0.23999999463558197,
+            0.23999999463558197,
+            0.27000001072883606
+          ],
+          [
+            0.23999999463558197,
+            0.23999999463558197,
+            -0.27000001072883606
+          ]
+        ]
+      }
+    },
+    "hero_camera": {
+      "projection": "PERSP",
+      "lens_mm": 48.0,
+      "location": [
+        8.10947,
+        -10.664599,
+        7.742803
+      ],
+      "rotation_euler_deg": [
+        62.8,
+        -0.0,
+        37.3156
+      ],
+      "clip_start_m": 0.05000000074505806,
+      "clip_end_m": 100.0,
+      "render_resolution": [
+        1536,
+        1024
+      ],
+      "render_percentage": 100
+    },
+    "blend_geometry": {
+      "mesh_objects": 55,
+      "vertices": 2588,
+      "triangles": 4602,
+      "largest_meshes": [
+        {
+          "name": "DEC_DogBedProxy",
+          "vertices": 342,
+          "triangles": 672
+        },
+        {
+          "name": "FUR_BeanBag",
+          "vertices": 228,
+          "triangles": 448
+        },
+        {
+          "name": "FUR_OfficeChair",
+          "vertices": 188,
+          "triangles": 324
+        },
+        {
+          "name": "FUR_SideTable",
+          "vertices": 120,
+          "triangles": 224
+        },
+        {
+          "name": "TEC_Mouse",
+          "vertices": 114,
+          "triangles": 224
+        },
+        {
+          "name": "DEC_Lamp_Bedside",
+          "vertices": 110,
+          "triangles": 208
+        },
+        {
+          "name": "DEC_Lamp_Lounge",
+          "vertices": 110,
+          "triangles": 208
+        },
+        {
+          "name": "DEC_Plant_Window",
+          "vertices": 102,
+          "triangles": 192
+        },
+        {
+          "name": "DEC_Plant_Sofa",
+          "vertices": 102,
+          "triangles": 192
+        },
+        {
+          "name": "DEC_Plant_Cabinet",
+          "vertices": 102,
+          "triangles": 192
+        },
+        {
+          "name": "DEC_Plant_Desk",
+          "vertices": 102,
+          "triangles": 192
+        },
+        {
+          "name": "DEC_Plant_CoffeeTable",
+          "vertices": 102,
+          "triangles": 192
+        }
+      ]
+    },
+    "reference_images_allowed_as_documentation": [
+      {
+        "name": "REFERENCE_RoomMaster_DO_NOT_MODEL_DETAILS",
+        "width": 1536,
+        "height": 1024,
+        "packed": true,
+        "fake_user": true
+      }
+    ],
+    "main_dimensions_m": {
+      "ENV_Floor": [
+        7.38,
+        5.98,
+        0.12
+      ],
+      "FUR_Desk": [
+        2.8,
+        0.82,
+        0.74
+      ],
+      "FUR_Bed": [
+        1.7,
+        2.12,
+        1.02
+      ],
+      "FUR_Sofa": [
+        1.97,
+        0.875,
+        0.805
+      ],
+      "FUR_CoffeeTable": [
+        1.1,
+        0.65,
+        0.48
+      ],
+      "FUR_DisplayCabinet": [
+        0.6,
+        3.75,
+        2.6
+      ],
+      "INT_Piano": [
+        1.34,
+        0.36,
+        0.104
+      ]
+    },
+    "hinge_motion_samples": {
+      "TEC_MacBookScreen": [
+        {
+          "angle_deg": 0.0,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.7535,
+            0.801
+          ]
+        },
+        {
+          "angle_deg": -13.125,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.765028,
+            0.851212
+          ]
+        },
+        {
+          "angle_deg": -26.25,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.787658,
+            0.897494
+          ]
+        },
+        {
+          "angle_deg": -39.375,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.820205,
+            0.937429
+          ]
+        },
+        {
+          "angle_deg": -52.5,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.860971,
+            0.96893
+          ]
+        },
+        {
+          "angle_deg": -65.625,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.907825,
+            0.990351
+          ]
+        },
+        {
+          "angle_deg": -78.75,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            1.958319,
+            1.000573
+          ]
+        },
+        {
+          "angle_deg": -91.875,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            2.009816,
+            0.999062
+          ]
+        },
+        {
+          "angle_deg": -105.0,
+          "origin_world": [
+            -1.5,
+            1.9775,
+            0.776
+          ],
+          "free_edge_world": [
+            -1.67,
+            2.059623,
+            0.985897
+          ]
+        }
+      ],
+      "INT_TrashCanLid": [
+        {
+          "angle_deg": 0.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.607,
+            0.4615
+          ]
+        },
+        {
+          "angle_deg": -12.5,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.613444,
+            0.545342
+          ]
+        },
+        {
+          "angle_deg": -25.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.637882,
+            0.625802
+          ]
+        },
+        {
+          "angle_deg": -37.5,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.679156,
+            0.699065
+          ]
+        },
+        {
+          "angle_deg": -50.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.735308,
+            0.761658
+          ]
+        },
+        {
+          "angle_deg": -62.5,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.803677,
+            0.810614
+          ]
+        },
+        {
+          "angle_deg": -75.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.881022,
+            0.843612
+          ]
+        },
+        {
+          "angle_deg": -87.5,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            1.963675,
+            0.859087
+          ]
+        },
+        {
+          "angle_deg": -100.0,
+          "origin_world": [
+            1.12,
+            1.993,
+            0.474
+          ],
+          "free_edge_world": [
+            1.12,
+            2.047718,
+            0.856306
+          ]
+        }
+      ],
+      "INT_LightSwitch": [
+        {
+          "angle_deg": -8.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.543073,
+            -1.5025,
+            1.149946
+          ]
+        },
+        {
+          "angle_deg": -6.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.544818,
+            -1.5025,
+            1.150119
+          ]
+        },
+        {
+          "angle_deg": -4.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.546555,
+            -1.5025,
+            1.150352
+          ]
+        },
+        {
+          "angle_deg": -2.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.548283,
+            -1.5025,
+            1.150646
+          ]
+        },
+        {
+          "angle_deg": 0.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.55,
+            -1.5025,
+            1.151
+          ]
+        },
+        {
+          "angle_deg": 2.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.551703,
+            -1.5025,
+            1.151414
+          ]
+        },
+        {
+          "angle_deg": 4.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.553391,
+            -1.5025,
+            1.151887
+          ]
+        },
+        {
+          "angle_deg": 6.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.555062,
+            -1.5025,
+            1.152418
+          ]
+        },
+        {
+          "angle_deg": 8.0,
+          "origin_world": [
+            -3.539,
+            -1.47,
+            1.2
+          ],
+          "free_edge_world": [
+            -3.556712,
+            -1.5025,
+            1.153008
+          ]
+        }
+      ]
+    },
+    "piano_motion_samples": [
+      {
+        "travel_fraction": 0.0,
+        "position_world": [
+          -0.65,
+          1.94,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.7599999904632568,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            2.120000123977661,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.071429,
+        "position_world": [
+          -0.65,
+          1.893571,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.713571310043335,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            2.0735714435577393,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.142857,
+        "position_world": [
+          -0.65,
+          1.847143,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.6671428680419922,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            2.0271427631378174,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.214286,
+        "position_world": [
+          -0.65,
+          1.800714,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.6207141876220703,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.9807143211364746,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.285714,
+        "position_world": [
+          -0.65,
+          1.754286,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.5742857456207275,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.9342856407165527,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.357143,
+        "position_world": [
+          -0.65,
+          1.707857,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.5278570652008057,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.88785719871521,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.428571,
+        "position_world": [
+          -0.65,
+          1.661429,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.481428623199463,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.841428518295288,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.5,
+        "position_world": [
+          -0.65,
+          1.615,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.434999942779541,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.7950000762939453,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.571429,
+        "position_world": [
+          -0.65,
+          1.568571,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.3885715007781982,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.7485713958740234,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.642857,
+        "position_world": [
+          -0.65,
+          1.522143,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.3421428203582764,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.7021429538726807,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.714286,
+        "position_world": [
+          -0.65,
+          1.475714,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.2957143783569336,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.6557142734527588,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.785714,
+        "position_world": [
+          -0.65,
+          1.429286,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.2492856979370117,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.609285831451416,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.857143,
+        "position_world": [
+          -0.65,
+          1.382857,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.2028570175170898,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.5628571510314941,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 0.928571,
+        "position_world": [
+          -0.65,
+          1.336429,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.156428575515747,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.5164284706115723,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      },
+      {
+        "travel_fraction": 1.0,
+        "position_world": [
+          -0.65,
+          1.29,
+          0.6
+        ],
+        "bounds_world": [
+          [
+            -1.3199999332427979,
+            1.1099998950958252,
+            0.550000011920929
+          ],
+          [
+            0.020000040531158447,
+            1.4700000286102295,
+            0.6540000438690186
+          ]
+        ],
+        "surface_intersections": []
+      }
+    ],
+    "static_furniture_pair_clearances": [
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_OfficeChair"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.65327,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.65327,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_Bed"
+        ],
+        "positive_axis_gaps_m": [
+          0.85,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.85,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_BedsideTable"
+        ],
+        "positive_axis_gaps_m": [
+          1.9,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.9,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_Sofa"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          1.624046,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.624046,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          2.197426,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.197426,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          0.9,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.9,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          0.99,
+          2.8827,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.04796,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_Bed"
+        ],
+        "positive_axis_gaps_m": [
+          2.340781,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.340781,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_BedsideTable"
+        ],
+        "positive_axis_gaps_m": [
+          3.390781,
+          1.368271,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.656441,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_Sofa"
+        ],
+        "positive_axis_gaps_m": [
+          0.242148,
+          0.377316,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.448334,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.950696,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.950696,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          1.63,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.63,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          2.480781,
+          1.63597,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.971645,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_BedsideTable"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.025,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.025,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_Sofa"
+        ],
+        "positive_axis_gaps_m": [
+          3.162148,
+          0.194046,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.168096,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          1.858669,
+          0.767426,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.010868,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          4.55,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.55,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          1.4527,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.4527,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "FUR_Sofa"
+        ],
+        "positive_axis_gaps_m": [
+          4.212148,
+          2.339046,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.818021,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          2.908669,
+          2.912426,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.116136,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          5.6,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 5.6,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          0.13,
+          3.5977,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.600048,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "FUR_CoffeeTable"
+        ],
+        "positive_axis_gaps_m": [
+          0.160817,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.160817,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          0.247196,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.247196,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          3.302148,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.302148,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "FUR_DisplayCabinet"
+        ],
+        "positive_axis_gaps_m": [
+          1.548669,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.548669,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          1.998669,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.998669,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "FUR_BeanBag"
+        ],
+        "positive_axis_gaps_m": [
+          4.69,
+          0.1427,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.692171,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.48,
+          0.28,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.555698,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.43,
+          0.28,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.513128,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          1.55,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.55,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Desk",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.54,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.54,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          1.21,
+          1.753271,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.130272,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          1.920781,
+          1.753271,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.600646,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          2.28,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.28,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_OfficeChair",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          2.01327,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.01327,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          4.13,
+          0.41,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.150301,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.12,
+          0.41,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.4272,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          5.2,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 5.2,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Bed",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.67,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.67,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          5.18,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 5.18,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          1.17,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 1.17,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          6.25,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 6.25,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BedsideTable",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.115,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.115,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          2.724046,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.724046,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          2.742148,
+          2.724046,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.865204,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.897197,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.897197,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_Sofa",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          2.984046,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.984046,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          1.128669,
+          3.297426,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.485242,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          1.438669,
+          3.297426,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.597608,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          2.198669,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 2.198669,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_CoffeeTable",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          3.557426,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.557426,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.12,
+          0.09,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.15,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          4.13,
+          0.09,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.130981,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          0.05,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.05,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_DisplayCabinet",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          0.35,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 0.35,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BeanBag",
+          "ENV_Curtain_Left"
+        ],
+        "positive_axis_gaps_m": [
+          4.27,
+          3.9827,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 5.839075,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BeanBag",
+          "ENV_Curtain_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.26,
+          3.9827,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 3.991178,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BeanBag",
+          "ENV_Wall_Left"
+        ],
+        "positive_axis_gaps_m": [
+          5.34,
+          0.0,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 5.34,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      },
+      {
+        "objects": [
+          "FUR_BeanBag",
+          "ENV_Wall_Right"
+        ],
+        "positive_axis_gaps_m": [
+          0.0,
+          4.2427,
+          0.0
+        ],
+        "aabb_separation_lower_bound_m": 4.2427,
+        "aabb_overlap": false,
+        "surface_intersection_pairs": 0
+      }
+    ],
+    "glb": {
+      "path": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/blockout_FINAL/sharkys_room_blockout_FINAL.glb",
+      "size_bytes": 411892,
+      "nodes": 85,
+      "meshes": 55,
+      "triangles": 6566,
+      "vertices": 13480,
+      "materials": [
+        "MAT_SoftProxy_Greybox",
+        "MAT_Furniture_Greybox",
+        "MAT_DarkTechnology_Greybox",
+        "MAT_ScreenProxy_Greybox",
+        "MAT_GlassProxy_Greybox",
+        "MAT_RoomShell_Greybox"
+      ],
+      "textures": 0,
+      "images": 0,
+      "cameras": [
+        {
+          "name": "CAM_Hero_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.48995732372885886,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        },
+        {
+          "name": "CAM_Hero_45_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.5212047681580663,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        },
+        {
+          "name": "CAM_Hero_48_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.48995732372885886,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        },
+        {
+          "name": "CAM_Hero_52_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.4535976859243833,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        },
+        {
+          "name": "CAM_Hero_FINAL_Data",
+          "perspective": {
+            "aspectRatio": 1.5,
+            "yfov": 0.48995732372885886,
+            "zfar": 100,
+            "znear": 0.05000000074505806
+          },
+          "type": "perspective"
+        }
+      ],
+      "extensions_used": [
+        "KHR_lights_punctual"
+      ],
+      "root_scene_nodes": [
+        "SharkysRoom"
+      ]
+    },
+    "candidate_cameras": {
+      "CAM_Hero_45": {
+        "type": "PERSP",
+        "lens_mm": 45.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7776538729667664,
+            -0.3080725073814392,
+            0.5480381846427917,
+            7.618861675262451
+          ],
+          [
+            0.6286926865577698,
+            0.38106659054756165,
+            -0.6778892278671265,
+            -9.377877235412598
+          ],
+          [
+            -6.144055930690229e-09,
+            0.8717107176780701,
+            0.49002084136009216,
+            7.585813999176025
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          7.618861675262451,
+          -9.377877235412598,
+          7.585813999176025
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          60.65804941504782,
+          3.520284739208731e-07,
+          38.95373679893079
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "UNREVIEWED — user to select; no final Hero chosen",
+          "composition_target_xyz_m": [
+            -0.0070097679272294044,
+            0.05485529452562332,
+            0.7672414183616638
+          ],
+          "candidate_description": "A — closer perspective, more visible shelf/table tops"
+        }
+      },
+      "CAM_Hero_48": {
+        "type": "PERSP",
+        "lens_mm": 48.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7931176424026489,
+            -0.2827850878238678,
+            0.5394414067268372,
+            7.891778469085693
+          ],
+          [
+            0.6090685129165649,
+            0.3682374656200409,
+            -0.7024505138397217,
+            -10.294089317321777
+          ],
+          [
+            -1.5113769791241793e-08,
+            0.8856826424598694,
+            0.46429112553596497,
+            7.609460353851318
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          7.891778469085693,
+          -10.294089317321777,
+          7.609460353851318
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          62.335646328040504,
+          8.659552215704741e-07,
+          37.522180375314896
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "UNREVIEWED — user to select; no final Hero chosen",
+          "composition_target_xyz_m": [
+            -0.04308895766735077,
+            0.03855033218860626,
+            0.780006468296051
+          ],
+          "candidate_description": "B — baseline-adjacent view, adjusted framing for v0.2 furniture"
+        }
+      },
+      "CAM_Hero_52": {
+        "type": "PERSP",
+        "lens_mm": 52.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7725443840026855,
+            -0.2772459089756012,
+            0.5712353587150574,
+            9.004548072814941
+          ],
+          [
+            0.6349607706069946,
+            0.3373197019100189,
+            -0.6950110197067261,
+            -10.892281532287598
+          ],
+          [
+            5.9332450064175646e-09,
+            0.8996388912200928,
+            0.43663468956947327,
+            7.714287757873535
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          9.004548072814941,
+          -10.892281532287598,
+          7.714287757873535
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          64.11064173859756,
+          -3.399498976847975e-07,
+          39.41707292656236
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "UNREVIEWED — user to select; no final Hero chosen",
+          "composition_target_xyz_m": [
+            -0.017570139840245247,
+            0.08475781977176666,
+            0.8180537223815918
+          ],
+          "candidate_description": "C — longer lens and lower angle, less foreground exaggeration"
+        }
+      },
+      "CAM_Hero_FINAL": {
+        "type": "PERSP",
+        "lens_mm": 48.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "clip_start_m": 0.05000000074505806,
+        "clip_end_m": 100.0,
+        "shift": [
+          0.0,
+          0.0
+        ],
+        "world_matrix": [
+          [
+            0.7931176424026489,
+            -0.2827850878238678,
+            0.5394414067268372,
+            7.891778469085693
+          ],
+          [
+            0.6090685129165649,
+            0.3682374656200409,
+            -0.7024505138397217,
+            -10.294089317321777
+          ],
+          [
+            -1.5113769791241793e-08,
+            0.8856826424598694,
+            0.46429112553596497,
+            7.609460353851318
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "local_location": [
+          7.891778469085693,
+          -10.294089317321777,
+          7.609460353851318
+        ],
+        "rotation_mode": "XYZ",
+        "local_rotation_degrees": [
+          62.335646328040504,
+          8.659552215704741e-07,
+          37.522180375314896
+        ],
+        "local_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "custom_properties": {
+          "composition": "Elevated three-quarter cutaway, reference-led furniture silhouette",
+          "candidate_status": "FINAL — user selected CAM_Hero_48",
+          "composition_target_xyz_m": [
+            -0.04308895766735077,
+            0.03855033218860626,
+            0.780006468296051
+          ],
+          "candidate_description": "Exact copy of validated CAM_Hero_48; no new framing",
+          "locked_source_camera": "CAM_Hero_48"
+        }
+      }
+    },
+    "cabinet_compartments": [
+      {
+        "name": "Hogwarts / large architecture",
+        "bounds_local": [
+          [
+            -0.27,
+            -2.02,
+            1.385
+          ],
+          [
+            0.3,
+            -0.36,
+            2.525
+          ]
+        ],
+        "proxies": [
+          "DSP_Castle_Bounds"
+        ]
+      },
+      {
+        "name": "Millennium Falcon",
+        "bounds_local": [
+          [
+            -0.27,
+            -2.02,
+            0.735
+          ],
+          [
+            0.3,
+            -0.36,
+            1.315
+          ]
+        ],
+        "proxies": [
+          "DSP_Falcon_Bounds"
+        ]
+      },
+      {
+        "name": "Eiffel Tower",
+        "bounds_local": [
+          [
+            -0.27,
+            -0.30000000000000004,
+            0.735
+          ],
+          [
+            0.3,
+            0.49749999999999994,
+            2.525
+          ]
+        ],
+        "proxies": [
+          "DSP_EiffelTower_Bounds"
+        ]
+      },
+      {
+        "name": "SLS",
+        "bounds_local": [
+          [
+            -0.27,
+            0.5424999999999999,
+            0.735
+          ],
+          [
+            0.3,
+            0.9774999999999999,
+            2.525
+          ]
+        ],
+        "proxies": [
+          "DSP_TallRocket_Bounds"
+        ]
+      },
+      {
+        "name": "Ferrari F1",
+        "bounds_local": [
+          [
+            -0.27,
+            -2.02,
+            0.095
+          ],
+          [
+            0.3,
+            -1.21,
+            0.665
+          ]
+        ],
+        "proxies": [
+          "DSP_Vehicle_Bounds"
+        ]
+      },
+      {
+        "name": "Mercedes-AMG F1",
+        "bounds_local": [
+          [
+            -0.27,
+            -1.17,
+            0.095
+          ],
+          [
+            0.3,
+            -0.36,
+            0.665
+          ]
+        ],
+        "proxies": [
+          "DSP_MercedesAMGF1_Bounds"
+        ]
+      },
+      {
+        "name": "Tower Bridge",
+        "bounds_local": [
+          [
+            -0.27,
+            -0.30000000000000004,
+            0.095
+          ],
+          [
+            0.3,
+            1.5700000000000003,
+            0.665
+          ]
+        ],
+        "proxies": [
+          "DSP_Bridge_Bounds"
+        ]
+      },
+      {
+        "name": "Medium architecture",
+        "bounds_local": [
+          [
+            -0.27,
+            1.0225,
+            0.735
+          ],
+          [
+            0.3,
+            1.5700000000000003,
+            1.26
+          ]
+        ],
+        "proxies": [
+          "DSP_Architecture_Bounds"
+        ]
+      },
+      {
+        "name": "Medium collectible",
+        "bounds_local": [
+          [
+            -0.27,
+            1.0225,
+            1.32
+          ],
+          [
+            0.3,
+            1.5700000000000003,
+            1.86
+          ]
+        ],
+        "proxies": [
+          "DSP_MediumModel_Bounds"
+        ]
+      },
+      {
+        "name": "Small collectible",
+        "bounds_local": [
+          [
+            -0.27,
+            1.0225,
+            1.92
+          ],
+          [
+            0.3,
+            1.5700000000000003,
+            2.525
+          ]
+        ],
+        "proxies": [
+          "DSP_SmallModel_Bounds"
+        ]
+      }
+    ],
+    "display_proxy_containment": [
+      {
+        "proxy": "DSP_Castle_Bounds",
+        "compartment": "Hogwarts / large architecture",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.21999990940093994,
+            -1.8600000143051147,
+            1.4299999475479126
+          ],
+          [
+            0.2700001001358032,
+            -0.5600000619888306,
+            2.4000000953674316
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            -2.02,
+            1.385
+          ],
+          [
+            0.3,
+            -0.36,
+            2.525
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.050000090599060076,
+          0.15999998569488527,
+          0.04499994754791259
+        ],
+        "upper_clearance_xyz_m": [
+          0.029999899864196766,
+          0.20000006198883058,
+          0.12499990463256827
+        ]
+      },
+      {
+        "proxy": "DSP_Falcon_Bounds",
+        "compartment": "Millennium Falcon",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.21499989926815033,
+            -1.850000023841858,
+            0.7899999618530273
+          ],
+          [
+            0.2650001049041748,
+            -0.5700000524520874,
+            1.2400000095367432
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            -2.02,
+            0.735
+          ],
+          [
+            0.3,
+            -0.36,
+            1.315
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.05500010073184969,
+          0.1699999761581421,
+          0.05499996185302736
+        ],
+        "upper_clearance_xyz_m": [
+          0.034999895095825184,
+          0.21000005245208742,
+          0.07499999046325678
+        ]
+      },
+      {
+        "proxy": "DSP_EiffelTower_Bounds",
+        "compartment": "Eiffel Tower",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.22499990463256836,
+            -0.26499998569488525,
+            0.7499999403953552
+          ],
+          [
+            0.27500009536743164,
+            0.45500004291534424,
+            2.3499999046325684
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            -0.30000000000000004,
+            0.735
+          ],
+          [
+            0.3,
+            0.49749999999999994,
+            2.525
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.04500009536743166,
+          0.03500001430511479,
+          0.014999940395355238
+        ],
+        "upper_clearance_xyz_m": [
+          0.02499990463256835,
+          0.042499957084655704,
+          0.17500009536743155
+        ]
+      },
+      {
+        "proxy": "DSP_TallRocket_Bounds",
+        "compartment": "SLS",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.13499990105628967,
+            0.6550000905990601,
+            0.7599999904632568
+          ],
+          [
+            0.18500009179115295,
+            0.9450000524520874,
+            2.200000047683716
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            0.5424999999999999,
+            0.735
+          ],
+          [
+            0.3,
+            0.9774999999999999,
+            2.525
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.13500009894371034,
+          0.11250009059906019,
+          0.02499999046325685
+        ],
+        "upper_clearance_xyz_m": [
+          0.11499990820884703,
+          0.03249994754791252,
+          0.3249999523162841
+        ]
+      },
+      {
+        "proxy": "DSP_Vehicle_Bounds",
+        "compartment": "Ferrari F1",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.18499989807605743,
+            -1.9950000047683716,
+            0.14000000059604645
+          ],
+          [
+            0.23500008881092072,
+            -1.2350000143051147,
+            0.4100000262260437
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            -2.02,
+            0.095
+          ],
+          [
+            0.3,
+            -1.21,
+            0.665
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.08500010192394258,
+          0.024999995231628436,
+          0.04500000059604645
+        ],
+        "upper_clearance_xyz_m": [
+          0.06499991118907927,
+          0.02500001430511478,
+          0.25499997377395633
+        ]
+      },
+      {
+        "proxy": "DSP_MercedesAMGF1_Bounds",
+        "compartment": "Mercedes-AMG F1",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.18499989807605743,
+            -1.1449999809265137,
+            0.14000000059604645
+          ],
+          [
+            0.23500008881092072,
+            -0.38499999046325684,
+            0.4100000262260437
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            -1.17,
+            0.095
+          ],
+          [
+            0.3,
+            -0.36,
+            0.665
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.08500010192394258,
+          0.025000019073486257,
+          0.04500000059604645
+        ],
+        "upper_clearance_xyz_m": [
+          0.06499991118907927,
+          0.02499999046325685,
+          0.25499997377395633
+        ]
+      },
+      {
+        "proxy": "DSP_Bridge_Bounds",
+        "compartment": "Tower Bridge",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.2099999040365219,
+            -0.07999998331069946,
+            0.14000000059604645
+          ],
+          [
+            0.2600001096725464,
+            1.3199999332427979,
+            0.6200000047683716
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            -0.30000000000000004,
+            0.095
+          ],
+          [
+            0.3,
+            1.5700000000000003,
+            0.665
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.060000095963478106,
+          0.22000001668930058,
+          0.04500000059604645
+        ],
+        "upper_clearance_xyz_m": [
+          0.0399998903274536,
+          0.25000006675720243,
+          0.044999995231628453
+        ]
+      },
+      {
+        "proxy": "DSP_Architecture_Bounds",
+        "compartment": "Medium architecture",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.2099999040365219,
+            1.0462499856948853,
+            0.7725000381469727
+          ],
+          [
+            0.2600001096725464,
+            1.5462499856948853,
+            1.222499966621399
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            1.0225,
+            0.735
+          ],
+          [
+            0.3,
+            1.5700000000000003,
+            1.26
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.060000095963478106,
+          0.02374998569488529,
+          0.03750003814697267
+        ],
+        "upper_clearance_xyz_m": [
+          0.0399998903274536,
+          0.02375001430511503,
+          0.03750003337860108
+        ]
+      },
+      {
+        "proxy": "DSP_MediumModel_Bounds",
+        "compartment": "Medium collectible",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.169999897480011,
+            1.1162500381469727,
+            1.4000000953674316
+          ],
+          [
+            0.22000008821487427,
+            1.4762499332427979,
+            1.7799999713897705
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            1.0225,
+            1.32
+          ],
+          [
+            0.3,
+            1.5700000000000003,
+            1.86
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.10000010251998903,
+          0.09375003814697269,
+          0.08000009536743158
+        ],
+        "upper_clearance_xyz_m": [
+          0.07999991178512572,
+          0.09375006675720243,
+          0.08000002861022959
+        ]
+      },
+      {
+        "proxy": "DSP_SmallModel_Bounds",
+        "compartment": "Small collectible",
+        "contained": true,
+        "proxy_bounds_cabinet_local": [
+          [
+            -0.1449999064207077,
+            1.1512500047683716,
+            2.0475001335144043
+          ],
+          [
+            0.19500009715557098,
+            1.441249966621399,
+            2.3975000381469727
+          ]
+        ],
+        "compartment_bounds_local": [
+          [
+            -0.27,
+            1.0225,
+            1.92
+          ],
+          [
+            0.3,
+            1.5700000000000003,
+            2.525
+          ]
+        ],
+        "lower_clearance_xyz_m": [
+          0.12500009357929232,
+          0.12875000476837162,
+          0.12750013351440437
+        ],
+        "upper_clearance_xyz_m": [
+          0.104999902844429,
+          0.12875003337860136,
+          0.12749996185302725
+        ]
+      }
+    ],
+    "cabinet_solid_panel_bounds": [
+      {
+        "bounds": [
+          [
+            -0.29999998211860657,
+            -2.0999999046325684,
+            0.0
+          ],
+          [
+            -0.27000001072883606,
+            1.649999976158142,
+            2.5999999046325684
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            -2.0999999046325684,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            -2.0199999809265137,
+            2.5999999046325684
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            1.5700000524520874,
+            0.0
+          ],
+          [
+            0.30000001192092896,
+            1.649999976158142,
+            2.5999999046325684
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            -2.0999999046325684,
+            0.02499999850988388
+          ],
+          [
+            0.30000001192092896,
+            1.649999976158142,
+            0.0949999988079071
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            -2.0999999046325684,
+            0.6649999618530273
+          ],
+          [
+            0.30000001192092896,
+            1.649999976158142,
+            0.7350000143051147
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            -2.0999999046325684,
+            2.5249998569488525
+          ],
+          [
+            0.30000001192092896,
+            1.649999976158142,
+            2.5950000286102295
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            -2.059999942779541,
+            1.315000057220459
+          ],
+          [
+            0.30000001192092896,
+            -0.2799999713897705,
+            1.3849999904632568
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            -0.36000001430511475,
+            0.0700000524520874
+          ],
+          [
+            0.30000001192092896,
+            -0.30000001192092896,
+            2.570000171661377
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            0.4974999725818634,
+            0.7649999856948853
+          ],
+          [
+            0.30000001192092896,
+            0.5424999594688416,
+            2.5349998474121094
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            0.9774999618530273,
+            0.7649999856948853
+          ],
+          [
+            0.30000001192092896,
+            1.0225000381469727,
+            2.5349998474121094
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            -1.209999918937683,
+            0.10999998450279236
+          ],
+          [
+            0.30000001192092896,
+            -1.1699999570846558,
+            0.6599999666213989
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            1.003749966621399,
+            1.2599999904632568
+          ],
+          [
+            0.30000001192092896,
+            1.5887500047683716,
+            1.3199999332427979
+          ]
+        ],
+        "vertices": 8
+      },
+      {
+        "bounds": [
+          [
+            -0.30000001192092896,
+            1.003749966621399,
+            1.8600000143051147
+          ],
+          [
+            0.30000001192092896,
+            1.5887500047683716,
+            1.9199999570846558
+          ]
+        ],
+        "vertices": 8
+      }
+    ],
+    "side_table_lamp_support": [
+      {
+        "lamp_foot": [
+          1.0800000429153442,
+          -2.190000057220459,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          1.0800000429153442,
+          -2.190000057220459,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          1.072387933731079,
+          -2.1517317295074463,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          1.072387933731079,
+          -2.1517317295074463,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          1.050710678100586,
+          -2.1192893981933594,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          1.050710678100586,
+          -2.1192893981933594,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          1.018268346786499,
+          -2.097612142562866,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          1.018268346786499,
+          -2.097612142562866,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.9800000190734863,
+          -2.0900001525878906,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.9800000190734863,
+          -2.0900001525878906,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.9417316913604736,
+          -2.097612142562866,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.9417316913604736,
+          -2.097612142562866,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.9092893600463867,
+          -2.1192893981933594,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.9092893600463867,
+          -2.1192893981933594,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.8876120448112488,
+          -2.1517317295074463,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.8876120448112488,
+          -2.1517317295074463,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.8799999952316284,
+          -2.190000057220459,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.8799999952316284,
+          -2.190000057220459,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.8876120448112488,
+          -2.2282683849334717,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.8876120448112488,
+          -2.2282683849334717,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.9092893600463867,
+          -2.2607107162475586,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.9092893600463867,
+          -2.2607107162475586,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.9417316913604736,
+          -2.2823879718780518,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.9417316913604736,
+          -2.2823879718780518,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.9800000190734863,
+          -2.2899999618530273,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.9800000190734863,
+          -2.2899999618530273,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          1.018268346786499,
+          -2.2823879718780518,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          1.018268346786499,
+          -2.2823879718780518,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          1.050710678100586,
+          -2.2607107162475586,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          1.050710678100586,
+          -2.2607107162475586,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          1.072387933731079,
+          -2.2282683849334717,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          1.072387933731079,
+          -2.2282683849334717,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      },
+      {
+        "lamp_foot": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.5400000214576721
+        ],
+        "table_hit": [
+          0.9800000190734863,
+          -2.190000057220459,
+          0.5400000214576721
+        ],
+        "height_error_m": 0.0,
+        "supported": true
+      }
+    ],
+    "final_freeze_markers": {
+      "scene": {
+        "freeze_status": "COMPOSITION_LOCKED",
+        "blockout_version": "v0.2.1",
+        "blockout_status": "SHARKY'S ROOM — BLOCKOUT FINAL / COMPOSITION LOCKED",
+        "final_hero_camera": "CAM_Hero_FINAL",
+        "spatial_source_of_truth": null
+      },
+      "root": {
+        "freeze_status": "COMPOSITION_LOCKED",
+        "blockout_version": "v0.2.1",
+        "blockout_status": "SHARKY'S ROOM — BLOCKOUT FINAL / COMPOSITION LOCKED",
+        "final_hero_camera": "CAM_Hero_FINAL",
+        "spatial_source_of_truth": true
+      },
+      "stage": "SHARKY'S ROOM — BLOCKOUT FINAL / COMPOSITION LOCKED",
+      "final_hero_camera_selected": true
+    }
+  },
+  "verification_scope": {
+    "automated": "Frozen v02 structure, transforms and geometry; selected camera exact copy and all five camera exports; full v01 motion/static checks; cabinet solid slab/proxy and clear-space checks; side-table dependency and lamp support.",
+    "limitations": "Composition preference requires visual review. Motion collision checks are discrete surface intersections; cabinet panel checks add axis-aligned solid-overlap detection."
+  }
+}
