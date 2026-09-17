@@ -1,0 +1,106 @@
+{
+  "version": "0.5.0",
+  "family": "monitor",
+  "triangles": 3348,
+  "meshCount": 4,
+  "materialCount": 4,
+  "materials": [
+    "MAT_Monitor_CharcoalPolymer",
+    "MAT_Monitor_Display",
+    "MAT_Monitor_Recesses",
+    "MAT_Monitor_SatinGraphite"
+  ],
+  "textureCount": 0,
+  "roots": {
+    "VIS_MonitorBody": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "anchor": "TEC_MonitorBody",
+      "localBoxYUp": {
+        "min": [
+          -0.5799999833106995,
+          -0.4599999785423279,
+          -0.0949999988079071
+        ],
+        "max": [
+          0.5799999833106995,
+          0.3100000023841858,
+          0.14499999582767487
+        ]
+      }
+    },
+    "VIS_MonitorDisplaySurface": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "anchor": "TEC_MonitorScreen",
+      "localBoxYUp": {
+        "min": [
+          -0.5509999990463257,
+          -0.27799999713897705,
+          0.0020000000949949026
+        ],
+        "max": [
+          0.5509999990463257,
+          0.27799999713897705,
+          0.0020000000949949026
+        ]
+      }
+    }
+  },
+  "uvMeshes": 4,
+  "textureDecodedBytesEstimate": 0,
+  "textureDecodedBytesWithMipmapsEstimate": 0,
+  "glbBytes": 95904,
+  "blendBytes": 153805,
+  "glbSHA256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+  "gltfPrimitives": 4,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_MonitorBody": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_MonitorDisplaySurface": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_MonitorBody_bounds": true,
+    "VIS_MonitorDisplaySurface_bounds": true
+  }
+}

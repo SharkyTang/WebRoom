@@ -1,4 +1,5 @@
 import { gsap } from 'gsap';
+import { getAssetStateBinding } from './assets/assetAssembly';
 import { Light, Material, Mesh, MeshStandardMaterial, Object3D, Quaternion, Vector3 } from 'three';
 import { interactiveObjects, type InteractionId } from './interactiveObjects';
 import { animationDurations, animationEase, mechanicalEndpoints, practicalLightNames } from './animationConstants';
@@ -115,23 +116,26 @@ export function createMechanisms(room: Object3D, invalidate: () => void): Mechan
     const name = id === 'marshall' ? interactiveObjects.marshall.nodes[0] : screenNodes[id as keyof typeof screenNodes];
     if (!name) return [];
     const created: ActiveSurface[] = [];
-    required(name).traverse(node => {
-      if (!(node instanceof Mesh)) return;
+    const binding = getAssetStateBinding(room, id);
+    const candidates: Mesh[] = [];
+    if (binding) candidates.push(...binding.meshes);
+    else required(name).traverse(node => { if (node instanceof Mesh && !node.userData.roomProxySuppressed) candidates.push(node); });
+    for (const node of candidates) {
       const original = originalMaterials.get(node)!;
       const materials = Array.isArray(original) ? original : [original];
       const clones: MeshStandardMaterial[] = [];
       const replacements = materials.map(material => {
-        if (!(material instanceof MeshStandardMaterial) || (id !== 'marshall' && material.name !== 'MAT_ScreenProxy_Greybox')) return material;
+        if (!(material instanceof MeshStandardMaterial) || (!binding && id !== 'marshall' && material.name !== 'MAT_ScreenProxy_Greybox')) return material;
         const copy = material.clone();
-        if (id === 'marshall') { copy.emissive.set('#699080'); copy.emissiveIntensity = 0; }
+        if (id === 'marshall') { if (!binding) copy.emissive.set('#699080'); copy.emissiveIntensity = 0; }
         clones.push(copy);
         return copy;
       });
-      if (!clones.length) return;
+      if (!clones.length) continue;
       const replacement = Array.isArray(original) ? replacements : replacements[0];
       created.push({ mesh: node, original, replacements: replacement, clones });
       node.material = replacement;
-    });
+    }
     activeSurfaces.set(id, created);
     return created;
   }
@@ -145,6 +149,7 @@ export function createMechanisms(room: Object3D, invalidate: () => void): Mechan
   }
   async function setScreen(id: InteractionId, active: boolean, reduced: boolean) {
     if (!(id in screenNodes)) return;
+    getAssetStateBinding(room, id)?.screen?.setActive(active);
     const owned = active ? surfaces(id) : activeSurfaces.get(id) ?? [];
     const values = owned.flatMap(surface => surface.clones.map(material => ({material, start: material.emissiveIntensity})));
     await animate(duration(animationDurations.power, reduced), progress => values.forEach(({material, start}) => { material.emissiveIntensity = start + ((active ? 3 : 1) - start) * progress; }));
@@ -166,7 +171,7 @@ export function createMechanisms(room: Object3D, invalidate: () => void): Mechan
     marshallPower = on ? 'on' : 'off';
     notify();
     const values = surfaces('marshall').flatMap(surface => surface.clones.map(material => ({material, start: material.emissiveIntensity})));
-    await animate(duration(animationDurations.power, reduced), progress => values.forEach(({material, start}) => {material.emissiveIntensity = start + ((on ? .28 : 0) - start) * progress;}));
+    await animate(duration(animationDurations.power, reduced), progress => values.forEach(({material, start}) => {material.emissiveIntensity = start + ((on ? getAssetStateBinding(room, 'marshall') ? 2.4 : .28 : 0) - start) * progress;}));
     if (!on && !disposed) releaseSurfaces('marshall');
   }
   async function movePiano(extend: boolean, reduced: boolean) {

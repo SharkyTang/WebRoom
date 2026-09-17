@@ -1,3 +1,4 @@
 node_modules/
 .next/
 *.tsbuildinfo
+validation/v05/raw-video/

@@ -1,0 +1,108 @@
+{
+  "version": "0.5.0",
+  "family": "macbook",
+  "triangles": 14780,
+  "meshCount": 9,
+  "materialCount": 6,
+  "materials": [
+    "MAT_MacBook_BlackGlassBezel",
+    "MAT_MacBook_Display",
+    "MAT_MacBook_GraphiteKeys",
+    "MAT_MacBook_MachinedEdge",
+    "MAT_MacBook_SatinAluminum",
+    "MAT_MacBook_Trackpad"
+  ],
+  "textureCount": 0,
+  "roots": {
+    "VIS_MacBookBase": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "anchor": "TEC_MacBookBase",
+      "localBoxYUp": {
+        "min": [
+          -0.17000000178813934,
+          -0.0139999995008111,
+          -0.11749999970197678
+        ],
+        "max": [
+          0.17000000178813934,
+          0.014000005088746548,
+          0.11749999970197678
+        ]
+      }
+    },
+    "VIS_MacBookLid": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "anchor": "TEC_MacBookScreen",
+      "localBoxYUp": {
+        "min": [
+          -0.17000000178813934,
+          -0.001500000013038516,
+          -0.0
+        ],
+        "max": [
+          0.17000000178813934,
+          0.013000000268220901,
+          0.2240000069141388
+        ]
+      }
+    }
+  },
+  "uvMeshes": 9,
+  "textureDecodedBytesEstimate": 0,
+  "textureDecodedBytesWithMipmapsEstimate": 0,
+  "glbBytes": 445776,
+  "blendBytes": 283600,
+  "glbSHA256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+  "gltfPrimitives": 9,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_MacBookBase": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_MacBookLid": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_MacBookBase_bounds": true,
+    "VIS_MacBookLid_bounds": true
+  }
+}

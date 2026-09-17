@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 // All changes use native mouse/touch/keyboard input. Diagnostics only observe.
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const output = path.join(root, 'validation/v041');
+const output = process.env.ROOM_TEST_OUTPUT ?? path.join(root, 'validation/v041');
 const production = process.env.ROOM_TEST_PRODUCTION === '1';
 const origin = process.env.ROOM_TEST_URL ?? (production ? 'http://127.0.0.1:3001' : 'http://127.0.0.1:3000');
 const checks = [], errors = [], observations = {};

@@ -1,0 +1,70 @@
+{
+  "version": "0.5.0",
+  "family": "marshall",
+  "triangles": 4464,
+  "meshCount": 5,
+  "materialCount": 5,
+  "materials": [
+    "MAT_Marshall_BrushedBrass",
+    "MAT_Marshall_ControlAndFeet",
+    "MAT_Marshall_PowerIndicator",
+    "MAT_Marshall_WarmCharcoal",
+    "MAT_Marshall_WovenGrille"
+  ],
+  "textureCount": 1,
+  "roots": {
+    "VIS_MarshallBody": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "anchor": "TEC_Marshall",
+      "localBoxYUp": {
+        "min": [
+          -0.18000000715255737,
+          -0.14499999582767487,
+          -0.09450000524520874
+        ],
+        "max": [
+          0.18000000715255737,
+          0.14500001072883606,
+          0.09449999779462814
+        ]
+      }
+    }
+  },
+  "uvMeshes": 5,
+  "textureDecodedBytesEstimate": 1048576,
+  "textureDecodedBytesWithMipmapsEstimate": 1398101,
+  "glbBytes": 577608,
+  "blendBytes": 599495,
+  "glbSHA256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+  "gltfPrimitives": 5,
+  "embeddedImageBytes": 430084,
+  "exportRootTransforms": {
+    "VIS_MarshallBody": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_MarshallBody_bounds": true
+  }
+}

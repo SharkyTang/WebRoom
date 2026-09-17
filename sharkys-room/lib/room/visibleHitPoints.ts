@@ -6,7 +6,7 @@ export type VisibleHitPoints=Partial<Record<InteractionId|'__noninteractive',Hit
 export function visibleHitPoints(scene:Object3D,camera:Camera,canvas:HTMLCanvasElement):VisibleHitPoints {
   scene.updateWorldMatrix(true,true); camera.updateMatrixWorld();
   const rect=canvas.getBoundingClientRect(); const meshes:Mesh[]=[];
-  scene.traverse(object=>{if(object instanceof Mesh) meshes.push(object);});
+  scene.traverse(object=>{if(object instanceof Mesh && !object.userData.roomProxySuppressed) meshes.push(object);});
   const ray=new Raycaster();const ndc=new Vector2();const a=new Vector3();const b=new Vector3();const c=new Vector3();
   const result:VisibleHitPoints={};
   const desired=[...interactionIds,'__noninteractive'] as const;

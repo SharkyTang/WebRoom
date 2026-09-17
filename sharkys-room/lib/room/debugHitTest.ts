@@ -11,9 +11,12 @@ export function debugHitTest(scene: Object3D, camera: Camera, canvas: HTMLCanvas
   const hit = ray.intersectObject(scene, true)[0];
   if (!hit) return null;
   const ancestors: string[] = [];
+  let assetFamily: string | null = null;
+  for (let node: Object3D | null = hit.object; node; node = node.parent) if (node.userData.roomAssetFamily) { assetFamily = node.userData.roomAssetFamily; break; }
   for (let node: Object3D | null = hit.object; node; node = node.parent) ancestors.push(node.name);
   return {
     node: hit.object.name,
+    assetFamily,
     semanticId: resolveInteraction(hit.object),
     runtimeTarget: ancestors.find(name => name in runtimeInteractionTargets) ?? null,
     ancestors,

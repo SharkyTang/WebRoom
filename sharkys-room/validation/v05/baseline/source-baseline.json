@@ -1,0 +1,47 @@
+{
+  "recordedAt": "2026-09-17T15:34:57.813Z",
+  "head": "7dfed76ec317ecfabc229826fb85255bb2051fc5",
+  "gitStatus": "",
+  "hashes": [
+    {
+      "path": "../blockout_FINAL/sharkys_room_blockout_FINAL.blend",
+      "bytes": 713580,
+      "sha256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720"
+    },
+    {
+      "path": "../blockout_FINAL/sharkys_room_blockout_FINAL.glb",
+      "bytes": 411892,
+      "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2"
+    },
+    {
+      "path": "public/models/sharkys_room_blockout_FINAL.glb",
+      "bytes": 411892,
+      "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2"
+    },
+    {
+      "path": "lib/room/frozenSceneManifest.json",
+      "bytes": 27894,
+      "sha256": "84b793cdaba786d647ccde41e4c653ef64a4bcf3d0afd9d693f49a0064521f53"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1110,
+      "sha256": "55e3e2baa5d48dc45e9e684ea3ebb869fbb8a2b8384c7912b896328b51243388"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 77324,
+      "sha256": "afe3baf7ba7a81ef8e5a687d1733f79888c43d95342080b39a1bf22e01c41d69"
+    }
+  ],
+  "dependencies": {
+    "@react-three/drei": "10.7.8",
+    "@react-three/fiber": "9.7.0",
+    "gsap": "3.15.0",
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "0.186.0"
+  },
+  "node": "v26.0.0"
+}

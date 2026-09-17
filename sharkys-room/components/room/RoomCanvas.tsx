@@ -4,8 +4,10 @@ import { Canvas } from '@react-three/fiber';
 import { AgXToneMapping, SRGBColorSpace } from 'three';
 import type { InteractionId, RoomLoadStatus, RoomPerformance, RoomValidation } from '@/types/room';
 import { RoomScene } from './RoomScene';
+import type { AssetLoadReport } from '@/lib/room/assets/assetManifest';
 import type { InteractionState, InteractionStore } from '@/lib/room/interactionState';
 export type RoomCanvasProps = {
+  assets: AssetLoadReport; onAssets: (report: AssetLoadReport) => void;
   interaction: InteractionState; store: InteractionStore; visualizeHitAreas: boolean;
   debug: boolean; demandDiagnostics: boolean; status: RoomLoadStatus; validation: RoomValidation | null; hovered: InteractionId | null; selected: InteractionId | null; performance: RoomPerformance | null;
   onProgress:(value:number)=>void; onValidation:(value:RoomValidation)=>void; onReady:()=>void; onError:(message:string)=>void; onHover:(id:InteractionId|null)=>void; onSelect:(id:InteractionId|null)=>void; onPerformance:(value:RoomPerformance)=>void;

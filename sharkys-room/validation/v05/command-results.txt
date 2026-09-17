@@ -1,0 +1,19 @@
+Final verification recorded: 2026-09-17T16:09:16.984Z
+Baseline: 7dfed76ec317ecfabc229826fb85255bb2051fc5; working tree was clean before v0.5
+npm run verify:asset — 361 passed; 0 failed; exit 0
+npm run typecheck — exit 0
+npm test — 100 passed; 0 failed; exit 0
+npm run build — exit 0; production process restarted on 3001
+v03-regression/browser_validation.json — 34 passed; 0 failed; exit 0
+v04-regression/interaction_browser.json — 37 passed; 0 failed; exit 0
+piano/piano-browser.json — 10 passed; 0 failed; exit 0
+production/production_smoke.json — 7 passed; 0 failed; exit 0
+piano/piano-production.json — 3 passed; 0 failed; exit 0
+production-assets-browser.json — 18 passed; 0 failed; exit 0
+production-assets-production.json — 8 passed; 0 failed; exit 0
+performance/production-assets-browser.json — 3 passed; 0 failed; exit 0
+node scripts/assets/inspect_export_contract.mjs — upright screen UVs; exit 0
+node --check scripts/assets/build-assets.mjs — exit 0
+git diff --check — exit 0
+One piano development attempt timed out during code hot updates; final full dev and production reruns passed.
+Read verification-summary.json for hashes, payloads and isolated performance; frameMs is not GPU time.

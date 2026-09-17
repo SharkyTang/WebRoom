@@ -1,0 +1,2544 @@
+{
+  "generatedAt": "2026-09-17T15:40:14.453Z",
+  "origin": "http://127.0.0.1:3000",
+  "browser": "Installed Google Chrome; Playwright headless; ANGLE SwiftShader (software WebGL)",
+  "note": "Debug bridge is read-only. All state changes use real browser input; no fixture mutates frozen scene assets.",
+  "summary": {
+    "passed": 37,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Initial state preserves the validated frozen room and all nine visible raycast paths",
+      "passed": true,
+      "screenshot": "v04_hero.png",
+      "initial": {
+        "status": "ready",
+        "validation": {
+          "ok": true,
+          "missingNodes": [],
+          "missingTargets": [],
+          "errors": [],
+          "nodeCount": 85,
+          "meshCount": 72,
+          "sourceMeshCount": 55,
+          "triangleCount": 6566,
+          "materialCount": 6,
+          "mappings": [
+            {
+              "id": "monitor",
+              "label": "Monitor",
+              "nodeNames": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen"
+              ],
+              "targetName": "TGT_Monitor",
+              "targetPosition": [
+                -0.41999998688697815,
+                1.2000000476837158,
+                -2.0799999237060547
+              ]
+            },
+            {
+              "id": "macbook",
+              "label": "MacBook",
+              "nodeNames": [
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen"
+              ],
+              "targetName": "TGT_MacBook",
+              "targetPosition": [
+                -1.5,
+                0.9399999976158142,
+                -1.9700000286102295
+              ]
+            },
+            {
+              "id": "ipad",
+              "label": "iPad",
+              "nodeNames": [
+                "TEC_iPad"
+              ],
+              "targetName": "TGT_iPad",
+              "targetPosition": [
+                -0.6600000262260437,
+                0.5,
+                1.1799999475479126
+              ]
+            },
+            {
+              "id": "marshall",
+              "label": "Marshall",
+              "nodeNames": [
+                "TEC_Marshall"
+              ],
+              "targetName": "TGT_Marshall",
+              "targetPosition": [
+                0.38999998569488525,
+                0.8849999904632568,
+                -2.059999942779541
+              ]
+            },
+            {
+              "id": "piano",
+              "label": "Piano",
+              "nodeNames": [
+                "INT_PianoRail",
+                "INT_Piano"
+              ],
+              "targetName": "TGT_Piano",
+              "targetPosition": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ]
+            },
+            {
+              "id": "trashcan",
+              "label": "Trash can",
+              "nodeNames": [
+                "INT_TrashCanBody",
+                "INT_TrashCanLid"
+              ],
+              "targetName": "TGT_TrashCan",
+              "targetPosition": [
+                1.1200000047683716,
+                0.46000000834465027,
+                -1.7999999523162842
+              ]
+            },
+            {
+              "id": "lightswitch",
+              "label": "Light switch",
+              "nodeNames": [
+                "INT_LightSwitch"
+              ],
+              "targetName": "TGT_LightSwitch",
+              "targetPosition": [
+                -3.5399999618530273,
+                1.2000000476837158,
+                1.4700000286102295
+              ]
+            },
+            {
+              "id": "phone",
+              "label": "Phone",
+              "nodeNames": [
+                "TEC_Phone"
+              ],
+              "targetName": "TGT_Phone",
+              "targetPosition": [
+                0.1599999964237213,
+                0.8399999737739563,
+                -1.75
+              ]
+            },
+            {
+              "id": "window",
+              "label": "Window",
+              "nodeNames": [
+                "ENV_WindowFrame",
+                "ENV_WindowGlass"
+              ],
+              "targetName": "TGT_Window",
+              "targetPosition": [
+                -0.675000011920929,
+                1.840000033378601,
+                -2.9000000953674316
+              ]
+            }
+          ]
+        },
+        "hovered": null,
+        "selected": null,
+        "performance": null,
+        "interaction": {
+          "activeObject": null,
+          "hoveredObject": null,
+          "interactionPhase": "idle",
+          "isCameraBusy": false,
+          "pianoState": "extended",
+          "macbookState": "open",
+          "trashState": "closed",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "time": 12,
+          "weather": "Sunny",
+          "reducedMotion": false,
+          "returnRequested": false,
+          "error": null
+        },
+        "pianoRetractedHitAreaActive": false,
+        "mechanical": {
+          "macbookState": "open",
+          "trashState": "closed",
+          "pianoState": "extended",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "transforms": {
+            "macbook": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "trash": {
+              "position": [
+                1.1200000047683716,
+                0.4740000069141388,
+                -1.9930000305175781
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "piano": {
+              "position": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "switch": {
+              "position": [
+                -3.5390000343322754,
+                1.2000000476837158,
+                1.4700000286102295
+              ],
+              "quaternion": [
+                0,
+                0,
+                0.06975648552179337,
+                0.9975640773773193
+              ],
+              "rotation": [
+                0,
+                0,
+                0.13962636763260747
+              ]
+            }
+          },
+          "lightValues": {
+            "LGT_CabinetProxy": 5.172535650486599,
+            "LGT_DeskProxy": 0.716197243913529,
+            "LGT_BedProxy": 0.954929658551372
+          },
+          "baseLightValues": {
+            "LGT_Ambient": 1,
+            "LGT_WindowKey": 15.915494309189532
+          },
+          "screenValues": {},
+          "sourceEndpoints": {
+            "macbookOpenX": -1.8325958201049855,
+            "trashOpenX": -1.7453292519943295,
+            "switchOnZ": 0.13962636763260747,
+            "switchOffZ": -0.13962636763260747,
+            "pianoRetractedZ": -1.9399999618530273,
+            "pianoExtendedZ": -1.2899999618530273,
+            "pianoTravel": 0.65
+          }
+        },
+        "cameraAnimation": {
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100,
+          "zoom": 1,
+          "hero": {
+            "position": [
+              7.891778469085693,
+              7.609460353851318,
+              10.294089317321777
+            ],
+            "quaternion": [
+              -0.22637604716554904,
+              0.31229574177456654,
+              0.07689316051044089,
+              0.9194088848550981
+            ],
+            "fov": 28.072486791188595,
+            "aspect": 1.5,
+            "near": 0.05000000074505806,
+            "far": 100,
+            "zoom": 1
+          },
+          "focusedObject": null,
+          "busy": false
+        },
+        "renderFrames": 4,
+        "camera": {
+          "name": "CAM_Hero_FINAL",
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100
+        }
+      }
+    },
+    {
+      "name": "Hero → Monitor Projects focus → visible Back restores the exact Hero camera",
+      "passed": true,
+      "focused": {
+        "status": "ready",
+        "validation": {
+          "ok": true,
+          "missingNodes": [],
+          "missingTargets": [],
+          "errors": [],
+          "nodeCount": 85,
+          "meshCount": 72,
+          "sourceMeshCount": 55,
+          "triangleCount": 6566,
+          "materialCount": 6,
+          "mappings": [
+            {
+              "id": "monitor",
+              "label": "Monitor",
+              "nodeNames": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen"
+              ],
+              "targetName": "TGT_Monitor",
+              "targetPosition": [
+                -0.41999998688697815,
+                1.2000000476837158,
+                -2.0799999237060547
+              ]
+            },
+            {
+              "id": "macbook",
+              "label": "MacBook",
+              "nodeNames": [
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen"
+              ],
+              "targetName": "TGT_MacBook",
+              "targetPosition": [
+                -1.5,
+                0.9399999976158142,
+                -1.9700000286102295
+              ]
+            },
+            {
+              "id": "ipad",
+              "label": "iPad",
+              "nodeNames": [
+                "TEC_iPad"
+              ],
+              "targetName": "TGT_iPad",
+              "targetPosition": [
+                -0.6600000262260437,
+                0.5,
+                1.1799999475479126
+              ]
+            },
+            {
+              "id": "marshall",
+              "label": "Marshall",
+              "nodeNames": [
+                "TEC_Marshall"
+              ],
+              "targetName": "TGT_Marshall",
+              "targetPosition": [
+                0.38999998569488525,
+                0.8849999904632568,
+                -2.059999942779541
+              ]
+            },
+            {
+              "id": "piano",
+              "label": "Piano",
+              "nodeNames": [
+                "INT_PianoRail",
+                "INT_Piano"
+              ],
+              "targetName": "TGT_Piano",
+              "targetPosition": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ]
+            },
+            {
+              "id": "trashcan",
+              "label": "Trash can",
+              "nodeNames": [
+                "INT_TrashCanBody",
+                "INT_TrashCanLid"
+              ],
+              "targetName": "TGT_TrashCan",
+              "targetPosition": [
+                1.1200000047683716,
+                0.46000000834465027,
+                -1.7999999523162842
+              ]
+            },
+            {
+              "id": "lightswitch",
+              "label": "Light switch",
+              "nodeNames": [
+                "INT_LightSwitch"
+              ],
+              "targetName": "TGT_LightSwitch",
+              "targetPosition": [
+                -3.5399999618530273,
+                1.2000000476837158,
+                1.4700000286102295
+              ]
+            },
+            {
+              "id": "phone",
+              "label": "Phone",
+              "nodeNames": [
+                "TEC_Phone"
+              ],
+              "targetName": "TGT_Phone",
+              "targetPosition": [
+                0.1599999964237213,
+                0.8399999737739563,
+                -1.75
+              ]
+            },
+            {
+              "id": "window",
+              "label": "Window",
+              "nodeNames": [
+                "ENV_WindowFrame",
+                "ENV_WindowGlass"
+              ],
+              "targetName": "TGT_Window",
+              "targetPosition": [
+                -0.675000011920929,
+                1.840000033378601,
+                -2.9000000953674316
+              ]
+            }
+          ]
+        },
+        "hovered": null,
+        "selected": "monitor",
+        "performance": {
+          "fps": 48.30441640492081,
+          "frameMs": 20.702040815839965,
+          "calls": 40,
+          "triangles": 3358
+        },
+        "interaction": {
+          "activeObject": "monitor",
+          "hoveredObject": null,
+          "interactionPhase": "focused",
+          "isCameraBusy": false,
+          "pianoState": "extended",
+          "macbookState": "open",
+          "trashState": "closed",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "time": 12,
+          "weather": "Sunny",
+          "reducedMotion": false,
+          "returnRequested": false,
+          "error": null
+        },
+        "pianoRetractedHitAreaActive": false,
+        "mechanical": {
+          "macbookState": "open",
+          "trashState": "closed",
+          "pianoState": "extended",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "transforms": {
+            "macbook": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "trash": {
+              "position": [
+                1.1200000047683716,
+                0.4740000069141388,
+                -1.9930000305175781
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "piano": {
+              "position": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "switch": {
+              "position": [
+                -3.5390000343322754,
+                1.2000000476837158,
+                1.4700000286102295
+              ],
+              "quaternion": [
+                0,
+                0,
+                0.06975648552179337,
+                0.9975640773773193
+              ],
+              "rotation": [
+                0,
+                0,
+                0.13962636763260747
+              ]
+            }
+          },
+          "lightValues": {
+            "LGT_CabinetProxy": 5.172535650486599,
+            "LGT_DeskProxy": 0.716197243913529,
+            "LGT_BedProxy": 0.954929658551372
+          },
+          "baseLightValues": {
+            "LGT_Ambient": 1,
+            "LGT_WindowKey": 15.915494309189532
+          },
+          "screenValues": {
+            "monitor": [
+              3
+            ]
+          },
+          "sourceEndpoints": {
+            "macbookOpenX": -1.8325958201049855,
+            "trashOpenX": -1.7453292519943295,
+            "switchOnZ": 0.13962636763260747,
+            "switchOffZ": -0.13962636763260747,
+            "pianoRetractedZ": -1.9399999618530273,
+            "pianoExtendedZ": -1.2899999618530273,
+            "pianoTravel": 0.65
+          }
+        },
+        "cameraAnimation": {
+          "position": [
+            -0.2699999868869781,
+            1.5200000476837159,
+            -0.029999923706054865
+          ],
+          "quaternion": [
+            -0.0770926423217634,
+            0.03640335725944106,
+            0.0028166974382430703,
+            0.9963551506845496
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100,
+          "zoom": 1,
+          "hero": {
+            "position": [
+              7.891778469085693,
+              7.609460353851318,
+              10.294089317321777
+            ],
+            "quaternion": [
+              -0.22637604716554904,
+              0.31229574177456654,
+              0.07689316051044089,
+              0.9194088848550981
+            ],
+            "fov": 28.072486791188595,
+            "aspect": 1.5,
+            "near": 0.05000000074505806,
+            "far": 100,
+            "zoom": 1
+          },
+          "focusedObject": "monitor",
+          "busy": false
+        },
+        "renderFrames": 82,
+        "camera": {
+          "name": "CAM_Hero_FINAL",
+          "position": [
+            -0.2699999868869781,
+            1.5200000476837159,
+            -0.029999923706054865
+          ],
+          "quaternion": [
+            -0.0770926423217634,
+            0.03640335725944106,
+            0.0028166974382430703,
+            0.9963551506845496
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100
+        }
+      },
+      "returned": {
+        "status": "ready",
+        "validation": {
+          "ok": true,
+          "missingNodes": [],
+          "missingTargets": [],
+          "errors": [],
+          "nodeCount": 85,
+          "meshCount": 72,
+          "sourceMeshCount": 55,
+          "triangleCount": 6566,
+          "materialCount": 6,
+          "mappings": [
+            {
+              "id": "monitor",
+              "label": "Monitor",
+              "nodeNames": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen"
+              ],
+              "targetName": "TGT_Monitor",
+              "targetPosition": [
+                -0.41999998688697815,
+                1.2000000476837158,
+                -2.0799999237060547
+              ]
+            },
+            {
+              "id": "macbook",
+              "label": "MacBook",
+              "nodeNames": [
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen"
+              ],
+              "targetName": "TGT_MacBook",
+              "targetPosition": [
+                -1.5,
+                0.9399999976158142,
+                -1.9700000286102295
+              ]
+            },
+            {
+              "id": "ipad",
+              "label": "iPad",
+              "nodeNames": [
+                "TEC_iPad"
+              ],
+              "targetName": "TGT_iPad",
+              "targetPosition": [
+                -0.6600000262260437,
+                0.5,
+                1.1799999475479126
+              ]
+            },
+            {
+              "id": "marshall",
+              "label": "Marshall",
+              "nodeNames": [
+                "TEC_Marshall"
+              ],
+              "targetName": "TGT_Marshall",
+              "targetPosition": [
+                0.38999998569488525,
+                0.8849999904632568,
+                -2.059999942779541
+              ]
+            },
+            {
+              "id": "piano",
+              "label": "Piano",
+              "nodeNames": [
+                "INT_PianoRail",
+                "INT_Piano"
+              ],
+              "targetName": "TGT_Piano",
+              "targetPosition": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ]
+            },
+            {
+              "id": "trashcan",
+              "label": "Trash can",
+              "nodeNames": [
+                "INT_TrashCanBody",
+                "INT_TrashCanLid"
+              ],
+              "targetName": "TGT_TrashCan",
+              "targetPosition": [
+                1.1200000047683716,
+                0.46000000834465027,
+                -1.7999999523162842
+              ]
+            },
+            {
+              "id": "lightswitch",
+              "label": "Light switch",
+              "nodeNames": [
+                "INT_LightSwitch"
+              ],
+              "targetName": "TGT_LightSwitch",
+              "targetPosition": [
+                -3.5399999618530273,
+                1.2000000476837158,
+                1.4700000286102295
+              ]
+            },
+            {
+              "id": "phone",
+              "label": "Phone",
+              "nodeNames": [
+                "TEC_Phone"
+              ],
+              "targetName": "TGT_Phone",
+              "targetPosition": [
+                0.1599999964237213,
+                0.8399999737739563,
+                -1.75
+              ]
+            },
+            {
+              "id": "window",
+              "label": "Window",
+              "nodeNames": [
+                "ENV_WindowFrame",
+                "ENV_WindowGlass"
+              ],
+              "targetName": "TGT_Window",
+              "targetPosition": [
+                -0.675000011920929,
+                1.840000033378601,
+                -2.9000000953674316
+              ]
+            }
+          ]
+        },
+        "hovered": null,
+        "selected": null,
+        "performance": {
+          "fps": 47.30462205633578,
+          "frameMs": 21.13958333308498,
+          "calls": 72,
+          "triangles": 6566
+        },
+        "interaction": {
+          "activeObject": null,
+          "hoveredObject": null,
+          "interactionPhase": "idle",
+          "isCameraBusy": false,
+          "pianoState": "extended",
+          "macbookState": "open",
+          "trashState": "closed",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "time": 12,
+          "weather": "Sunny",
+          "reducedMotion": false,
+          "returnRequested": false,
+          "error": null
+        },
+        "pianoRetractedHitAreaActive": false,
+        "mechanical": {
+          "macbookState": "open",
+          "trashState": "closed",
+          "pianoState": "extended",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "transforms": {
+            "macbook": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "trash": {
+              "position": [
+                1.1200000047683716,
+                0.4740000069141388,
+                -1.9930000305175781
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "piano": {
+              "position": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "switch": {
+              "position": [
+                -3.5390000343322754,
+                1.2000000476837158,
+                1.4700000286102295
+              ],
+              "quaternion": [
+                0,
+                0,
+                0.06975648552179337,
+                0.9975640773773193
+              ],
+              "rotation": [
+                0,
+                0,
+                0.13962636763260747
+              ]
+            }
+          },
+          "lightValues": {
+            "LGT_CabinetProxy": 5.172535650486599,
+            "LGT_DeskProxy": 0.716197243913529,
+            "LGT_BedProxy": 0.954929658551372
+          },
+          "baseLightValues": {
+            "LGT_Ambient": 1,
+            "LGT_WindowKey": 15.915494309189532
+          },
+          "screenValues": {},
+          "sourceEndpoints": {
+            "macbookOpenX": -1.8325958201049855,
+            "trashOpenX": -1.7453292519943295,
+            "switchOnZ": 0.13962636763260747,
+            "switchOffZ": -0.13962636763260747,
+            "pianoRetractedZ": -1.9399999618530273,
+            "pianoExtendedZ": -1.2899999618530273,
+            "pianoTravel": 0.65
+          }
+        },
+        "cameraAnimation": {
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100,
+          "zoom": 1,
+          "hero": {
+            "position": [
+              7.891778469085693,
+              7.609460353851318,
+              10.294089317321777
+            ],
+            "quaternion": [
+              -0.22637604716554904,
+              0.31229574177456654,
+              0.07689316051044089,
+              0.9194088848550981
+            ],
+            "fov": 28.072486791188595,
+            "aspect": 1.5,
+            "near": 0.05000000074505806,
+            "far": 100,
+            "zoom": 1
+          },
+          "focusedObject": null,
+          "busy": false
+        },
+        "renderFrames": 155,
+        "camera": {
+          "name": "CAM_Hero_FINAL",
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100
+        }
+      },
+      "screenshot": "v04_monitor_focus.png"
+    },
+    {
+      "name": "MacBook hinge reaches its exact open endpoint and closes before returning to Hero",
+      "passed": true,
+      "opened": {
+        "position": [
+          -1.5,
+          0.7760000228881836,
+          -1.9774999618530273
+        ],
+        "quaternion": [
+          -0.7933533787727356,
+          0,
+          0,
+          0.6087614297866821
+        ],
+        "rotation": [
+          -1.8325958201049855,
+          0,
+          0
+        ]
+      },
+      "closed": {
+        "position": [
+          -1.5,
+          0.7760000228881836,
+          -1.9774999618530273
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "screenshot": "v04_macbook_open.png"
+    },
+    {
+      "name": "iPad activates the Memories prototype and ESC returns exactly to Hero",
+      "passed": true,
+      "focused": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          -0.2600000262260437,
+          1.5,
+          2.0799999475479125
+        ],
+        "quaternion": [
+          -0.3777850032097256,
+          0.19148568198232022,
+          0.08017143684403552,
+          0.9023215976911759
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      },
+      "returned": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "Marshall powers on, toggles Off/On with native controls, and persists after Back",
+      "passed": true,
+      "persistedPower": "on"
+    },
+    {
+      "name": "Marshall explicitly switched Off stays Off after returning and refocusing",
+      "passed": true,
+      "explicitOffPersisted": true
+    },
+    {
+      "name": "Piano moves exactly 0.65 m along the loaded rail axis and reaches both exact endpoints",
+      "passed": true,
+      "point": {
+        "x": 759,
+        "y": 427
+      },
+      "extended": {
+        "macbookState": "closed",
+        "trashState": "closed",
+        "pianoState": "extended",
+        "lightsState": "on",
+        "marshallPower": "on",
+        "transforms": {
+          "macbook": {
+            "position": [
+              -1.5,
+              0.7760000228881836,
+              -1.9774999618530273
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "trash": {
+            "position": [
+              1.1200000047683716,
+              0.4740000069141388,
+              -1.9930000305175781
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "piano": {
+            "position": [
+              -0.6499999761581421,
+              0.6000000238418579,
+              -1.2899999618530273
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "switch": {
+            "position": [
+              -3.5390000343322754,
+              1.2000000476837158,
+              1.4700000286102295
+            ],
+            "quaternion": [
+              0,
+              0,
+              0.06975648552179337,
+              0.9975640773773193
+            ],
+            "rotation": [
+              0,
+              0,
+              0.13962636763260747
+            ]
+          }
+        },
+        "lightValues": {
+          "LGT_CabinetProxy": 5.172535650486599,
+          "LGT_DeskProxy": 0.716197243913529,
+          "LGT_BedProxy": 0.954929658551372
+        },
+        "baseLightValues": {
+          "LGT_Ambient": 1,
+          "LGT_WindowKey": 15.915494309189532
+        },
+        "screenValues": {},
+        "sourceEndpoints": {
+          "macbookOpenX": -1.8325958201049855,
+          "trashOpenX": -1.7453292519943295,
+          "switchOnZ": 0.13962636763260747,
+          "switchOffZ": -0.13962636763260747,
+          "pianoRetractedZ": -1.9399999618530273,
+          "pianoExtendedZ": -1.2899999618530273,
+          "pianoTravel": 0.65
+        }
+      },
+      "retracted": {
+        "position": [
+          -0.6499999761581421,
+          0.6000000238418579,
+          -1.9399999618530273
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "screenshot": "v04_piano_extended.png"
+    },
+    {
+      "name": "Trash lid opens to its exact hinge endpoint; Back closes it before exact Hero return",
+      "passed": true,
+      "opened": {
+        "position": [
+          1.1200000047683716,
+          0.4740000069141388,
+          -1.9930000305175781
+        ],
+        "quaternion": [
+          -0.766044443118978,
+          0,
+          0,
+          0.6427876096865394
+        ],
+        "rotation": [
+          -1.7453292519943295,
+          0,
+          0
+        ]
+      },
+      "closed": {
+        "position": [
+          1.1200000047683716,
+          0.4740000069141388,
+          -1.9930000305175781
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Light Switch ON → OFF → ON changes only practical light intensities and exact switch endpoints",
+      "passed": true,
+      "point": {
+        "x": 373,
+        "y": 381
+      },
+      "off": {
+        "macbookState": "closed",
+        "trashState": "closed",
+        "pianoState": "retracted",
+        "lightsState": "off",
+        "marshallPower": "on",
+        "transforms": {
+          "macbook": {
+            "position": [
+              -1.5,
+              0.7760000228881836,
+              -1.9774999618530273
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "trash": {
+            "position": [
+              1.1200000047683716,
+              0.4740000069141388,
+              -1.9930000305175781
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "piano": {
+            "position": [
+              -0.6499999761581421,
+              0.6000000238418579,
+              -1.9399999618530273
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "switch": {
+            "position": [
+              -3.5390000343322754,
+              1.2000000476837158,
+              1.4700000286102295
+            ],
+            "quaternion": [
+              0,
+              0,
+              -0.06975648744719434,
+              0.9975640493016122
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.13962636763260747
+            ]
+          }
+        },
+        "lightValues": {
+          "LGT_CabinetProxy": 0,
+          "LGT_DeskProxy": 0,
+          "LGT_BedProxy": 0
+        },
+        "baseLightValues": {
+          "LGT_Ambient": 1,
+          "LGT_WindowKey": 15.915494309189532
+        },
+        "screenValues": {},
+        "sourceEndpoints": {
+          "macbookOpenX": -1.8325958201049855,
+          "trashOpenX": -1.7453292519943295,
+          "switchOnZ": 0.13962636763260747,
+          "switchOffZ": -0.13962636763260747,
+          "pianoRetractedZ": -1.9399999618530273,
+          "pianoExtendedZ": -1.2899999618530273,
+          "pianoTravel": 0.65
+        }
+      },
+      "on": {
+        "macbookState": "closed",
+        "trashState": "closed",
+        "pianoState": "retracted",
+        "lightsState": "on",
+        "marshallPower": "on",
+        "transforms": {
+          "macbook": {
+            "position": [
+              -1.5,
+              0.7760000228881836,
+              -1.9774999618530273
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "trash": {
+            "position": [
+              1.1200000047683716,
+              0.4740000069141388,
+              -1.9930000305175781
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "piano": {
+            "position": [
+              -0.6499999761581421,
+              0.6000000238418579,
+              -1.9399999618530273
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "switch": {
+            "position": [
+              -3.5390000343322754,
+              1.2000000476837158,
+              1.4700000286102295
+            ],
+            "quaternion": [
+              0,
+              0,
+              0.06975648552179337,
+              0.9975640773773193
+            ],
+            "rotation": [
+              0,
+              0,
+              0.13962636763260747
+            ]
+          }
+        },
+        "lightValues": {
+          "LGT_CabinetProxy": 5.172535650486599,
+          "LGT_DeskProxy": 0.716197243913529,
+          "LGT_BedProxy": 0.954929658551372
+        },
+        "baseLightValues": {
+          "LGT_Ambient": 1,
+          "LGT_WindowKey": 15.915494309189532
+        },
+        "screenValues": {},
+        "sourceEndpoints": {
+          "macbookOpenX": -1.8325958201049855,
+          "trashOpenX": -1.7453292519943295,
+          "switchOnZ": 0.13962636763260747,
+          "switchOffZ": -0.13962636763260747,
+          "pianoRetractedZ": -1.9399999618530273,
+          "pianoExtendedZ": -1.2899999618530273,
+          "pianoTravel": 0.65
+        }
+      },
+      "screenshot": "v04_lights_off.png"
+    },
+    {
+      "name": "Phone focuses Contact placeholders without external navigation",
+      "passed": true,
+      "focused": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          0.3999999964237213,
+          1.1999999737739562,
+          -0.93
+        ],
+        "quaternion": [
+          -0.19606440663243366,
+          0.13907381184819947,
+          0.028102870918756913,
+          0.9702718443590987
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "Practical lights can remain OFF while Monitor screen stays active and the room stays navigable",
+      "passed": true,
+      "practicalLights": {
+        "LGT_CabinetProxy": 0,
+        "LGT_DeskProxy": 0,
+        "LGT_BedProxy": 0
+      },
+      "baseLights": {
+        "LGT_Ambient": 1,
+        "LGT_WindowKey": 15.915494309189532
+      },
+      "screens": {
+        "monitor": [
+          3
+        ]
+      }
+    },
+    {
+      "name": "Window native Time slider spans 00:00 through 24:00 and updates centralized state",
+      "passed": true,
+      "min": 0,
+      "max": 24,
+      "changed": 23.75,
+      "state": 23.75
+    },
+    {
+      "name": "Window selects Sunny with a native button and updates application state only",
+      "passed": true,
+      "weather": "Sunny"
+    },
+    {
+      "name": "Window selects Cloudy with a native button and updates application state only",
+      "passed": true,
+      "weather": "Cloudy"
+    },
+    {
+      "name": "Window selects Overcast with a native button and updates application state only",
+      "passed": true,
+      "weather": "Overcast"
+    },
+    {
+      "name": "Window selects Rainy with a native button and updates application state only",
+      "passed": true,
+      "weather": "Rainy"
+    },
+    {
+      "name": "Window selects Snowy with a native button and updates application state only",
+      "passed": true,
+      "weather": "Snowy"
+    },
+    {
+      "name": "Window state persists after Back without adding weather rendering",
+      "passed": true,
+      "time": 23.75,
+      "weather": "Snowy",
+      "screenshot": "v04_window_panel.png"
+    },
+    {
+      "name": "Non-interactive visible geometry does not start a semantic action or camera fly",
+      "passed": true,
+      "point": {
+        "x": 822,
+        "y": 534
+      },
+      "state": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "retracted",
+        "macbookState": "closed",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "on",
+        "time": 23.75,
+        "weather": "Snowy",
+        "reducedMotion": false,
+        "returnRequested": false,
+        "error": null
+      }
+    },
+    {
+      "name": "Rapid competing object clicks preserve one focus and exact mechanical/return transforms",
+      "passed": true,
+      "firstPhase": "focusing",
+      "state": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "retracted",
+        "macbookState": "closed",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "on",
+        "time": 23.75,
+        "weather": "Snowy",
+        "reducedMotion": false,
+        "returnRequested": false,
+        "error": null
+      }
+    },
+    {
+      "name": "Rapid Piano control clicks remain safe and repeated extend/retract cycles have no drift",
+      "passed": true,
+      "rapidState": "retracted",
+      "exactCycles": 4
+    },
+    {
+      "name": "Back and ESC remain deterministic through repeated complete interaction sessions",
+      "passed": true,
+      "sessions": [
+        "monitor",
+        "macbook",
+        "trashcan",
+        "ipad",
+        "phone"
+      ],
+      "exactHeroReturns": 5
+    },
+    {
+      "name": "Back requested during focus queues a safe return instead of leaving a stuck animation",
+      "passed": true,
+      "after": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "retracted",
+        "macbookState": "closed",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "on",
+        "time": 23.75,
+        "weather": "Snowy",
+        "reducedMotion": false,
+        "returnRequested": false,
+        "error": null
+      }
+    },
+    {
+      "name": "Keyboard-accessible object selector provides a non-hover path and restores keyboard focus after Back",
+      "passed": true,
+      "selection": "phone",
+      "focusRestored": true
+    },
+    {
+      "name": "390×844 real touchscreen monitor focus and visible Back path",
+      "passed": true,
+      "point": {
+        "x": 228,
+        "y": 368
+      },
+      "back": {
+        "x": 285.984375,
+        "y": 588.625,
+        "width": 74.015625,
+        "height": 44
+      },
+      "focusedCamera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          -0.2699999868869781,
+          1.5200000476837159,
+          -0.029999923706054865
+        ],
+        "quaternion": [
+          -0.0770926423217634,
+          0.03640335725944106,
+          0.0028166974382430703,
+          0.9963551506845496
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "390×844 real touchscreen macbook focus and visible Back path",
+      "passed": true,
+      "point": {
+        "x": 198,
+        "y": 365
+      },
+      "back": {
+        "x": 285.984375,
+        "y": 588.625,
+        "width": 74.015625,
+        "height": 44
+      },
+      "focusedCamera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          -1.25,
+          1.4199999976158142,
+          -0.9200000286102294
+        ],
+        "quaternion": [
+          -0.22830172042068828,
+          0.11348317489181813,
+          0.026804135385973198,
+          0.9665823461017883
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "390×844 real touchscreen ipad focus and visible Back path",
+      "passed": true,
+      "point": {
+        "x": 154,
+        "y": 419
+      },
+      "back": {
+        "x": 285.984375,
+        "y": 588.625,
+        "width": 74.015625,
+        "height": 44
+      },
+      "focusedCamera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          -0.2600000262260437,
+          1.5,
+          2.0799999475479125
+        ],
+        "quaternion": [
+          -0.3777850032097256,
+          0.19148568198232022,
+          0.08017143684403552,
+          0.9023215976911759
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "390×844 real touchscreen marshall focus and visible Back path",
+      "passed": true,
+      "point": {
+        "x": 243,
+        "y": 381
+      },
+      "back": {
+        "x": 285.984375,
+        "y": 560.71875,
+        "width": 74.015625,
+        "height": 44
+      },
+      "focusedCamera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          0.7399999856948852,
+          1.234999990463257,
+          -0.9599999427795409
+        ],
+        "quaternion": [
+          -0.14492937216141064,
+          0.1517590436368663,
+          0.022501170364955206,
+          0.9774755071568444
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "390×844 real touchscreen piano focus and visible Back path",
+      "passed": true,
+      "point": {
+        "x": 208,
+        "y": 390
+      },
+      "back": {
+        "x": 285.984375,
+        "y": 565.015625,
+        "width": 74.015625,
+        "height": 44
+      },
+      "focusedCamera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          0.25000002384185793,
+          1.3000000238418579,
+          0.31000003814697275
+        ],
+        "quaternion": [
+          -0.1621345911598854,
+          0.2265423698381341,
+          0.03827478501786943,
+          0.9596488784182341
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "390×844 real touchscreen trashcan focus and visible Back path",
+      "passed": true,
+      "point": {
+        "x": 257,
+        "y": 399
+      },
+      "back": {
+        "x": 285.984375,
+        "y": 609.015625,
+        "width": 74.015625,
+        "height": 44
+      },
+      "focusedCamera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          1.3200000047683715,
+          1.1400000083446504,
+          -0.6499999523162843
+        ],
+        "quaternion": [
+          -0.2892266039378636,
+          0.08228597484757505,
+          0.024962790980717728,
+          0.9533907116100973
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "390×844 real touchscreen lightswitch focus and visible Back path",
+      "passed": true,
+      "point": {
+        "x": 79,
+        "y": 375
+      },
+      "back": {
+        "x": 285.984375,
+        "y": 560.71875,
+        "width": 74.015625,
+        "height": 44
+      },
+      "focusedCamera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          -2.6399999618530274,
+          1.3800000476837158,
+          1.8200000286102296
+        ],
+        "quaternion": [
+          -0.07594379860958242,
+          0.5622081455409862,
+          0.05195065456653083,
+          0.8218611014217801
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "390×844 real touchscreen phone focus and visible Back path",
+      "passed": true,
+      "point": {
+        "x": 231,
+        "y": 380
+      },
+      "back": {
+        "x": 285.984375,
+        "y": 615.015625,
+        "width": 74.015625,
+        "height": 44
+      },
+      "focusedCamera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          0.3999999964237213,
+          1.1999999737739562,
+          -0.93
+        ],
+        "quaternion": [
+          -0.19606440663243366,
+          0.13907381184819947,
+          0.028102870918756913,
+          0.9702718443590987
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "390×844 real touchscreen window focus and visible Back path",
+      "passed": true,
+      "point": {
+        "x": 251,
+        "y": 349
+      },
+      "back": {
+        "x": 285.984375,
+        "y": 505.40625,
+        "width": 74.015625,
+        "height": 44
+      },
+      "focusedCamera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          -0.22500001192092894,
+          2.140000033378601,
+          0.8999999046325682
+        ],
+        "quaternion": [
+          -0.039041881828207586,
+          0.05885687415727832,
+          0.0023036421813573023,
+          0.9975000215841836
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "name": "Mobile Window slider, weather, and Marshall controls work with native touch controls",
+      "passed": true,
+      "sliderBefore": 12,
+      "sliderAfter": 19.5,
+      "weather": "Rainy",
+      "power": "off"
+    },
+    {
+      "name": "Reduced-motion preference keeps focus, hinge, piano and Back functional at exact endpoints",
+      "passed": true,
+      "elapsedMs": 806,
+      "note": "Elapsed includes browser automation and software rendering; endpoint correctness is deterministic."
+    },
+    {
+      "name": "Demand rendering stops while idle, advances during GSAP focus and stops after animation",
+      "passed": true,
+      "idleStart": 2,
+      "idleEnd": 2,
+      "animated": 26,
+      "focusedIdle": 26,
+      "returnEnd": 48
+    },
+    {
+      "name": "All interaction sessions finish without critical console errors, React warnings or failed assets",
+      "passed": true,
+      "consoleErrors": 0,
+      "reactWarnings": 0,
+      "failedRequests": 0
+    }
+  ],
+  "observations": {
+    "initial": {
+      "status": "ready",
+      "validation": {
+        "ok": true,
+        "missingNodes": [],
+        "missingTargets": [],
+        "errors": [],
+        "nodeCount": 85,
+        "meshCount": 72,
+        "sourceMeshCount": 55,
+        "triangleCount": 6566,
+        "materialCount": 6,
+        "mappings": [
+          {
+            "id": "monitor",
+            "label": "Monitor",
+            "nodeNames": [
+              "TEC_MonitorBody",
+              "TEC_MonitorScreen"
+            ],
+            "targetName": "TGT_Monitor",
+            "targetPosition": [
+              -0.41999998688697815,
+              1.2000000476837158,
+              -2.0799999237060547
+            ]
+          },
+          {
+            "id": "macbook",
+            "label": "MacBook",
+            "nodeNames": [
+              "TEC_MacBookBase",
+              "TEC_MacBookScreen"
+            ],
+            "targetName": "TGT_MacBook",
+            "targetPosition": [
+              -1.5,
+              0.9399999976158142,
+              -1.9700000286102295
+            ]
+          },
+          {
+            "id": "ipad",
+            "label": "iPad",
+            "nodeNames": [
+              "TEC_iPad"
+            ],
+            "targetName": "TGT_iPad",
+            "targetPosition": [
+              -0.6600000262260437,
+              0.5,
+              1.1799999475479126
+            ]
+          },
+          {
+            "id": "marshall",
+            "label": "Marshall",
+            "nodeNames": [
+              "TEC_Marshall"
+            ],
+            "targetName": "TGT_Marshall",
+            "targetPosition": [
+              0.38999998569488525,
+              0.8849999904632568,
+              -2.059999942779541
+            ]
+          },
+          {
+            "id": "piano",
+            "label": "Piano",
+            "nodeNames": [
+              "INT_PianoRail",
+              "INT_Piano"
+            ],
+            "targetName": "TGT_Piano",
+            "targetPosition": [
+              -0.6499999761581421,
+              0.6000000238418579,
+              -1.2899999618530273
+            ]
+          },
+          {
+            "id": "trashcan",
+            "label": "Trash can",
+            "nodeNames": [
+              "INT_TrashCanBody",
+              "INT_TrashCanLid"
+            ],
+            "targetName": "TGT_TrashCan",
+            "targetPosition": [
+              1.1200000047683716,
+              0.46000000834465027,
+              -1.7999999523162842
+            ]
+          },
+          {
+            "id": "lightswitch",
+            "label": "Light switch",
+            "nodeNames": [
+              "INT_LightSwitch"
+            ],
+            "targetName": "TGT_LightSwitch",
+            "targetPosition": [
+              -3.5399999618530273,
+              1.2000000476837158,
+              1.4700000286102295
+            ]
+          },
+          {
+            "id": "phone",
+            "label": "Phone",
+            "nodeNames": [
+              "TEC_Phone"
+            ],
+            "targetName": "TGT_Phone",
+            "targetPosition": [
+              0.1599999964237213,
+              0.8399999737739563,
+              -1.75
+            ]
+          },
+          {
+            "id": "window",
+            "label": "Window",
+            "nodeNames": [
+              "ENV_WindowFrame",
+              "ENV_WindowGlass"
+            ],
+            "targetName": "TGT_Window",
+            "targetPosition": [
+              -0.675000011920929,
+              1.840000033378601,
+              -2.9000000953674316
+            ]
+          }
+        ]
+      },
+      "hovered": null,
+      "selected": null,
+      "performance": null,
+      "interaction": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "extended",
+        "macbookState": "open",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "time": 12,
+        "weather": "Sunny",
+        "reducedMotion": false,
+        "returnRequested": false,
+        "error": null
+      },
+      "pianoRetractedHitAreaActive": false,
+      "mechanical": {
+        "macbookState": "open",
+        "trashState": "closed",
+        "pianoState": "extended",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "transforms": {
+          "macbook": {
+            "position": [
+              -1.5,
+              0.7760000228881836,
+              -1.9774999618530273
+            ],
+            "quaternion": [
+              -0.7933533787727356,
+              0,
+              0,
+              0.6087614297866821
+            ],
+            "rotation": [
+              -1.8325958201049855,
+              0,
+              0
+            ]
+          },
+          "trash": {
+            "position": [
+              1.1200000047683716,
+              0.4740000069141388,
+              -1.9930000305175781
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "piano": {
+            "position": [
+              -0.6499999761581421,
+              0.6000000238418579,
+              -1.2899999618530273
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "switch": {
+            "position": [
+              -3.5390000343322754,
+              1.2000000476837158,
+              1.4700000286102295
+            ],
+            "quaternion": [
+              0,
+              0,
+              0.06975648552179337,
+              0.9975640773773193
+            ],
+            "rotation": [
+              0,
+              0,
+              0.13962636763260747
+            ]
+          }
+        },
+        "lightValues": {
+          "LGT_CabinetProxy": 5.172535650486599,
+          "LGT_DeskProxy": 0.716197243913529,
+          "LGT_BedProxy": 0.954929658551372
+        },
+        "baseLightValues": {
+          "LGT_Ambient": 1,
+          "LGT_WindowKey": 15.915494309189532
+        },
+        "screenValues": {},
+        "sourceEndpoints": {
+          "macbookOpenX": -1.8325958201049855,
+          "trashOpenX": -1.7453292519943295,
+          "switchOnZ": 0.13962636763260747,
+          "switchOffZ": -0.13962636763260747,
+          "pianoRetractedZ": -1.9399999618530273,
+          "pianoExtendedZ": -1.2899999618530273,
+          "pianoTravel": 0.65
+        }
+      },
+      "cameraAnimation": {
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100,
+        "zoom": 1,
+        "hero": {
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100,
+          "zoom": 1
+        },
+        "focusedObject": null,
+        "busy": false
+      },
+      "renderFrames": 4,
+      "camera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    "heroPose": {
+      "position": [
+        7.891778469085693,
+        7.609460353851318,
+        10.294089317321777
+      ],
+      "quaternion": [
+        -0.22637604716554904,
+        0.31229574177456654,
+        0.07689316051044089,
+        0.9194088848550981
+      ],
+      "fov": 28.072486791188595,
+      "aspect": 1.5,
+      "near": 0.05000000074505806,
+      "far": 100
+    },
+    "heroHitPoints": {
+      "monitor": {
+        "x": 819,
+        "y": 360
+      },
+      "macbook": {
+        "x": 728,
+        "y": 351
+      },
+      "ipad": {
+        "x": 596,
+        "y": 515
+      },
+      "marshall": {
+        "x": 863,
+        "y": 401
+      },
+      "piano": {
+        "x": 759,
+        "y": 427
+      },
+      "trashcan": {
+        "x": 906,
+        "y": 454
+      },
+      "lightswitch": {
+        "x": 373,
+        "y": 381
+      },
+      "phone": {
+        "x": 829,
+        "y": 398
+      },
+      "window": {
+        "x": 888,
+        "y": 304
+      },
+      "__noninteractive": {
+        "x": 822,
+        "y": 534
+      }
+    },
+    "heroCanvas": {
+      "x": 180,
+      "y": 98,
+      "width": 1080,
+      "height": 720
+    },
+    "windowTime": {
+      "min": 0,
+      "max": 24,
+      "changed": 23.75,
+      "state": 23.75
+    },
+    "mobile": {
+      "hero": {
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      },
+      "touches": [
+        {
+          "id": "monitor",
+          "point": {
+            "x": 228,
+            "y": 368
+          },
+          "back": {
+            "x": 285.984375,
+            "y": 588.625,
+            "width": 74.015625,
+            "height": 44
+          }
+        },
+        {
+          "id": "macbook",
+          "point": {
+            "x": 198,
+            "y": 365
+          },
+          "back": {
+            "x": 285.984375,
+            "y": 588.625,
+            "width": 74.015625,
+            "height": 44
+          }
+        },
+        {
+          "id": "ipad",
+          "point": {
+            "x": 154,
+            "y": 419
+          },
+          "back": {
+            "x": 285.984375,
+            "y": 588.625,
+            "width": 74.015625,
+            "height": 44
+          }
+        },
+        {
+          "id": "marshall",
+          "point": {
+            "x": 243,
+            "y": 381
+          },
+          "back": {
+            "x": 285.984375,
+            "y": 560.71875,
+            "width": 74.015625,
+            "height": 44
+          }
+        },
+        {
+          "id": "piano",
+          "point": {
+            "x": 208,
+            "y": 390
+          },
+          "back": {
+            "x": 285.984375,
+            "y": 565.015625,
+            "width": 74.015625,
+            "height": 44
+          }
+        },
+        {
+          "id": "trashcan",
+          "point": {
+            "x": 257,
+            "y": 399
+          },
+          "back": {
+            "x": 285.984375,
+            "y": 609.015625,
+            "width": 74.015625,
+            "height": 44
+          }
+        },
+        {
+          "id": "lightswitch",
+          "point": {
+            "x": 79,
+            "y": 375
+          },
+          "back": {
+            "x": 285.984375,
+            "y": 560.71875,
+            "width": 74.015625,
+            "height": 44
+          }
+        },
+        {
+          "id": "phone",
+          "point": {
+            "x": 231,
+            "y": 380
+          },
+          "back": {
+            "x": 285.984375,
+            "y": 615.015625,
+            "width": 74.015625,
+            "height": 44
+          }
+        },
+        {
+          "id": "window",
+          "point": {
+            "x": 251,
+            "y": 349
+          },
+          "back": {
+            "x": 285.984375,
+            "y": 505.40625,
+            "width": 74.015625,
+            "height": 44
+          }
+        }
+      ]
+    }
+  },
+  "runtime": [
+    {
+      "phase": "desktop-interactions",
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "phase": "desktop-interactions",
+      "type": "log",
+      "text": "[HMR] connected"
+    },
+    {
+      "phase": "desktop-interactions",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "desktop-interactions",
+      "type": "warning",
+      "text": "[.WebGL-0x13c000e2c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "desktop-interactions",
+      "type": "warning",
+      "text": "[.WebGL-0x13c000e2c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "desktop-interactions",
+      "type": "warning",
+      "text": "[.WebGL-0x13c000e2c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "desktop-interactions",
+      "type": "warning",
+      "text": "[.WebGL-0x13c000e2c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "phase": "mobile-interactions",
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "phase": "mobile-interactions",
+      "type": "log",
+      "text": "[HMR] connected"
+    },
+    {
+      "phase": "mobile-interactions",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "reduced-motion",
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "phase": "reduced-motion",
+      "type": "log",
+      "text": "[HMR] connected"
+    },
+    {
+      "phase": "reduced-motion",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "demand-rendering",
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "phase": "demand-rendering",
+      "type": "log",
+      "text": "[HMR] connected"
+    },
+    {
+      "phase": "demand-rendering",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    }
+  ],
+  "failedRequests": []
+}

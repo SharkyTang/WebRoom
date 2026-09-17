@@ -1,0 +1,27 @@
+[
+  {
+    "name": "browser",
+    "script": "tests/browser-validation.mjs",
+    "exitCode": 0
+  },
+  {
+    "name": "interactions",
+    "script": "tests/interaction-browser.mjs",
+    "exitCode": 0
+  },
+  {
+    "name": "piano-development",
+    "script": "tests/.v05-baseline-piano.mjs",
+    "exitCode": 0
+  },
+  {
+    "name": "production",
+    "script": "tests/production-smoke.mjs",
+    "exitCode": 0
+  },
+  {
+    "name": "piano-production",
+    "script": "tests/.v05-baseline-piano.mjs",
+    "exitCode": 0
+  }
+]

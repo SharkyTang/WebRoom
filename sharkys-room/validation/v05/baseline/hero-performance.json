@@ -1,0 +1,674 @@
+{
+  "recordedAt": "2026-09-17T15:37:05.441Z",
+  "browserVersion": "152.0.7977.83",
+  "samples": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "renderer": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "canvasWidth": 1080,
+        "canvasHeight": 720,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+      },
+      "snapshot": {
+        "status": "ready",
+        "validation": {
+          "ok": true,
+          "missingNodes": [],
+          "missingTargets": [],
+          "errors": [],
+          "nodeCount": 85,
+          "meshCount": 72,
+          "sourceMeshCount": 55,
+          "triangleCount": 6566,
+          "materialCount": 6,
+          "mappings": [
+            {
+              "id": "monitor",
+              "label": "Monitor",
+              "nodeNames": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen"
+              ],
+              "targetName": "TGT_Monitor",
+              "targetPosition": [
+                -0.41999998688697815,
+                1.2000000476837158,
+                -2.0799999237060547
+              ]
+            },
+            {
+              "id": "macbook",
+              "label": "MacBook",
+              "nodeNames": [
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen"
+              ],
+              "targetName": "TGT_MacBook",
+              "targetPosition": [
+                -1.5,
+                0.9399999976158142,
+                -1.9700000286102295
+              ]
+            },
+            {
+              "id": "ipad",
+              "label": "iPad",
+              "nodeNames": [
+                "TEC_iPad"
+              ],
+              "targetName": "TGT_iPad",
+              "targetPosition": [
+                -0.6600000262260437,
+                0.5,
+                1.1799999475479126
+              ]
+            },
+            {
+              "id": "marshall",
+              "label": "Marshall",
+              "nodeNames": [
+                "TEC_Marshall"
+              ],
+              "targetName": "TGT_Marshall",
+              "targetPosition": [
+                0.38999998569488525,
+                0.8849999904632568,
+                -2.059999942779541
+              ]
+            },
+            {
+              "id": "piano",
+              "label": "Piano",
+              "nodeNames": [
+                "INT_PianoRail",
+                "INT_Piano"
+              ],
+              "targetName": "TGT_Piano",
+              "targetPosition": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ]
+            },
+            {
+              "id": "trashcan",
+              "label": "Trash can",
+              "nodeNames": [
+                "INT_TrashCanBody",
+                "INT_TrashCanLid"
+              ],
+              "targetName": "TGT_TrashCan",
+              "targetPosition": [
+                1.1200000047683716,
+                0.46000000834465027,
+                -1.7999999523162842
+              ]
+            },
+            {
+              "id": "lightswitch",
+              "label": "Light switch",
+              "nodeNames": [
+                "INT_LightSwitch"
+              ],
+              "targetName": "TGT_LightSwitch",
+              "targetPosition": [
+                -3.5399999618530273,
+                1.2000000476837158,
+                1.4700000286102295
+              ]
+            },
+            {
+              "id": "phone",
+              "label": "Phone",
+              "nodeNames": [
+                "TEC_Phone"
+              ],
+              "targetName": "TGT_Phone",
+              "targetPosition": [
+                0.1599999964237213,
+                0.8399999737739563,
+                -1.75
+              ]
+            },
+            {
+              "id": "window",
+              "label": "Window",
+              "nodeNames": [
+                "ENV_WindowFrame",
+                "ENV_WindowGlass"
+              ],
+              "targetName": "TGT_Window",
+              "targetPosition": [
+                -0.675000011920929,
+                1.840000033378601,
+                -2.9000000953674316
+              ]
+            }
+          ]
+        },
+        "hovered": null,
+        "selected": null,
+        "performance": {
+          "fps": 60.003934684593425,
+          "frameMs": 16.665573770394086,
+          "calls": 72,
+          "triangles": 6566
+        },
+        "interaction": {
+          "activeObject": null,
+          "hoveredObject": null,
+          "interactionPhase": "idle",
+          "isCameraBusy": false,
+          "pianoState": "extended",
+          "macbookState": "open",
+          "trashState": "closed",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "time": 12,
+          "weather": "Sunny",
+          "reducedMotion": false,
+          "returnRequested": false,
+          "error": null
+        },
+        "pianoRetractedHitAreaActive": false,
+        "mechanical": {
+          "macbookState": "open",
+          "trashState": "closed",
+          "pianoState": "extended",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "transforms": {
+            "macbook": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "trash": {
+              "position": [
+                1.1200000047683716,
+                0.4740000069141388,
+                -1.9930000305175781
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "piano": {
+              "position": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "switch": {
+              "position": [
+                -3.5390000343322754,
+                1.2000000476837158,
+                1.4700000286102295
+              ],
+              "quaternion": [
+                0,
+                0,
+                0.06975648552179337,
+                0.9975640773773193
+              ],
+              "rotation": [
+                0,
+                0,
+                0.13962636763260747
+              ]
+            }
+          },
+          "lightValues": {
+            "LGT_CabinetProxy": 5.172535650486599,
+            "LGT_DeskProxy": 0.716197243913529,
+            "LGT_BedProxy": 0.954929658551372
+          },
+          "baseLightValues": {
+            "LGT_Ambient": 1,
+            "LGT_WindowKey": 15.915494309189532
+          },
+          "screenValues": {},
+          "sourceEndpoints": {
+            "macbookOpenX": -1.8325958201049855,
+            "trashOpenX": -1.7453292519943295,
+            "switchOnZ": 0.13962636763260747,
+            "switchOffZ": -0.13962636763260747,
+            "pianoRetractedZ": -1.9399999618530273,
+            "pianoExtendedZ": -1.2899999618530273,
+            "pianoTravel": 0.65
+          }
+        },
+        "cameraAnimation": {
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100,
+          "zoom": 1,
+          "hero": {
+            "position": [
+              7.891778469085693,
+              7.609460353851318,
+              10.294089317321777
+            ],
+            "quaternion": [
+              -0.22637604716554904,
+              0.31229574177456654,
+              0.07689316051044089,
+              0.9194088848550981
+            ],
+            "fov": 28.072486791188595,
+            "aspect": 1.5,
+            "near": 0.05000000074505806,
+            "far": 100,
+            "zoom": 1
+          },
+          "focusedObject": null,
+          "busy": false
+        },
+        "renderFrames": 149,
+        "camera": {
+          "name": "CAM_Hero_FINAL",
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100
+        }
+      },
+      "note": "Initial unchanged v0.4.1 Hero; development debug sampling mode; frameMs is delta-based observed frame interval, not isolated GPU time; headless SwiftShader."
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "renderer": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+        "dpr": 1,
+        "canvasWidth": 360,
+        "canvasHeight": 240,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+      },
+      "snapshot": {
+        "status": "ready",
+        "validation": {
+          "ok": true,
+          "missingNodes": [],
+          "missingTargets": [],
+          "errors": [],
+          "nodeCount": 85,
+          "meshCount": 72,
+          "sourceMeshCount": 55,
+          "triangleCount": 6566,
+          "materialCount": 6,
+          "mappings": [
+            {
+              "id": "monitor",
+              "label": "Monitor",
+              "nodeNames": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen"
+              ],
+              "targetName": "TGT_Monitor",
+              "targetPosition": [
+                -0.41999998688697815,
+                1.2000000476837158,
+                -2.0799999237060547
+              ]
+            },
+            {
+              "id": "macbook",
+              "label": "MacBook",
+              "nodeNames": [
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen"
+              ],
+              "targetName": "TGT_MacBook",
+              "targetPosition": [
+                -1.5,
+                0.9399999976158142,
+                -1.9700000286102295
+              ]
+            },
+            {
+              "id": "ipad",
+              "label": "iPad",
+              "nodeNames": [
+                "TEC_iPad"
+              ],
+              "targetName": "TGT_iPad",
+              "targetPosition": [
+                -0.6600000262260437,
+                0.5,
+                1.1799999475479126
+              ]
+            },
+            {
+              "id": "marshall",
+              "label": "Marshall",
+              "nodeNames": [
+                "TEC_Marshall"
+              ],
+              "targetName": "TGT_Marshall",
+              "targetPosition": [
+                0.38999998569488525,
+                0.8849999904632568,
+                -2.059999942779541
+              ]
+            },
+            {
+              "id": "piano",
+              "label": "Piano",
+              "nodeNames": [
+                "INT_PianoRail",
+                "INT_Piano"
+              ],
+              "targetName": "TGT_Piano",
+              "targetPosition": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ]
+            },
+            {
+              "id": "trashcan",
+              "label": "Trash can",
+              "nodeNames": [
+                "INT_TrashCanBody",
+                "INT_TrashCanLid"
+              ],
+              "targetName": "TGT_TrashCan",
+              "targetPosition": [
+                1.1200000047683716,
+                0.46000000834465027,
+                -1.7999999523162842
+              ]
+            },
+            {
+              "id": "lightswitch",
+              "label": "Light switch",
+              "nodeNames": [
+                "INT_LightSwitch"
+              ],
+              "targetName": "TGT_LightSwitch",
+              "targetPosition": [
+                -3.5399999618530273,
+                1.2000000476837158,
+                1.4700000286102295
+              ]
+            },
+            {
+              "id": "phone",
+              "label": "Phone",
+              "nodeNames": [
+                "TEC_Phone"
+              ],
+              "targetName": "TGT_Phone",
+              "targetPosition": [
+                0.1599999964237213,
+                0.8399999737739563,
+                -1.75
+              ]
+            },
+            {
+              "id": "window",
+              "label": "Window",
+              "nodeNames": [
+                "ENV_WindowFrame",
+                "ENV_WindowGlass"
+              ],
+              "targetName": "TGT_Window",
+              "targetPosition": [
+                -0.675000011920929,
+                1.840000033378601,
+                -2.9000000953674316
+              ]
+            }
+          ]
+        },
+        "hovered": null,
+        "selected": null,
+        "performance": {
+          "fps": 59.99213217868299,
+          "frameMs": 16.66885245921181,
+          "calls": 72,
+          "triangles": 6566
+        },
+        "interaction": {
+          "activeObject": null,
+          "hoveredObject": null,
+          "interactionPhase": "idle",
+          "isCameraBusy": false,
+          "pianoState": "extended",
+          "macbookState": "open",
+          "trashState": "closed",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "time": 12,
+          "weather": "Sunny",
+          "reducedMotion": false,
+          "returnRequested": false,
+          "error": null
+        },
+        "pianoRetractedHitAreaActive": false,
+        "mechanical": {
+          "macbookState": "open",
+          "trashState": "closed",
+          "pianoState": "extended",
+          "lightsState": "on",
+          "marshallPower": "off",
+          "transforms": {
+            "macbook": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "trash": {
+              "position": [
+                1.1200000047683716,
+                0.4740000069141388,
+                -1.9930000305175781
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "piano": {
+              "position": [
+                -0.6499999761581421,
+                0.6000000238418579,
+                -1.2899999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "switch": {
+              "position": [
+                -3.5390000343322754,
+                1.2000000476837158,
+                1.4700000286102295
+              ],
+              "quaternion": [
+                0,
+                0,
+                0.06975648552179337,
+                0.9975640773773193
+              ],
+              "rotation": [
+                0,
+                0,
+                0.13962636763260747
+              ]
+            }
+          },
+          "lightValues": {
+            "LGT_CabinetProxy": 5.172535650486599,
+            "LGT_DeskProxy": 0.716197243913529,
+            "LGT_BedProxy": 0.954929658551372
+          },
+          "baseLightValues": {
+            "LGT_Ambient": 1,
+            "LGT_WindowKey": 15.915494309189532
+          },
+          "screenValues": {},
+          "sourceEndpoints": {
+            "macbookOpenX": -1.8325958201049855,
+            "trashOpenX": -1.7453292519943295,
+            "switchOnZ": 0.13962636763260747,
+            "switchOffZ": -0.13962636763260747,
+            "pianoRetractedZ": -1.9399999618530273,
+            "pianoExtendedZ": -1.2899999618530273,
+            "pianoTravel": 0.65
+          }
+        },
+        "cameraAnimation": {
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100,
+          "zoom": 1,
+          "hero": {
+            "position": [
+              7.891778469085693,
+              7.609460353851318,
+              10.294089317321777
+            ],
+            "quaternion": [
+              -0.22637604716554904,
+              0.31229574177456654,
+              0.07689316051044089,
+              0.9194088848550981
+            ],
+            "fov": 28.072486791188595,
+            "aspect": 1.5,
+            "near": 0.05000000074505806,
+            "far": 100,
+            "zoom": 1
+          },
+          "focusedObject": null,
+          "busy": false
+        },
+        "renderFrames": 150,
+        "camera": {
+          "name": "CAM_Hero_FINAL",
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100
+        }
+      },
+      "note": "Initial unchanged v0.4.1 Hero; development debug sampling mode; frameMs is delta-based observed frame interval, not isolated GPU time; headless SwiftShader."
+    }
+  ]
+}

@@ -1,0 +1,6556 @@
+{
+  "generatedAt": "2026-09-17T16:00:30.110Z",
+  "origin": "http://127.0.0.1:3000",
+  "mode": "development",
+  "browser": "Installed Chrome, Playwright headless, ANGLE SwiftShader, DPR1",
+  "limitation": "Touch emulation, not a physical phone. Safari and real GPU not tested.",
+  "summary": {
+    "passed": 18,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Three complete production families install atomically under the original anchors",
+      "passed": true,
+      "assembly": {
+        "ok": true,
+        "errors": [],
+        "sourceNodeCount": 85,
+        "runtimeNodeCount": 142,
+        "installedFamilies": [
+          "monitor",
+          "macbook",
+          "marshall"
+        ],
+        "suppressedProxyMeshes": [
+          "TEC_MonitorBody",
+          "TEC_MonitorScreen",
+          "TEC_MacBookBase",
+          "TEC_MacBookScreen_Mesh",
+          "TEC_MacBookScreen_Mesh_1",
+          "TEC_Marshall"
+        ]
+      },
+      "assetVisuals": {
+        "monitor": {
+          "meshes": 4,
+          "triangles": 3348,
+          "materials": 4,
+          "textures": [
+            {
+              "name": "Runtime_monitor_CanvasScreen",
+              "width": 1024,
+              "height": 512,
+              "colorSpace": "srgb",
+              "estimatedRGBABytesWithMipmaps": 2796203
+            }
+          ],
+          "stateSurfaces": [
+            {
+              "name": "VIS_MonitorDisplaySurface",
+              "material": "Runtime_monitor_screen",
+              "emissiveIntensity": 1,
+              "mapName": "Runtime_monitor_CanvasScreen",
+              "textureUpdates": 1
+            }
+          ],
+          "materialState": [
+            {
+              "mesh": "VIS_MonitorHousing",
+              "name": "MAT_Monitor_CharcoalPolymer",
+              "color": "424a4f",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MonitorRecessDetails",
+              "name": "MAT_Monitor_Recesses",
+              "color": "181e22",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MonitorStand",
+              "name": "MAT_Monitor_SatinGraphite",
+              "color": "798185",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MonitorDisplaySurface",
+              "name": "Runtime_monitor_screen",
+              "color": "ffffff",
+              "emissive": "ffffff",
+              "emissiveIntensity": 1
+            }
+          ]
+        },
+        "macbook": {
+          "meshes": 9,
+          "triangles": 14780,
+          "materials": 6,
+          "textures": [
+            {
+              "name": "Runtime_macbook_CanvasScreen",
+              "width": 512,
+              "height": 320,
+              "colorSpace": "srgb",
+              "estimatedRGBABytesWithMipmaps": 873814
+            }
+          ],
+          "stateSurfaces": [
+            {
+              "name": "VIS_MacBookDisplaySurface",
+              "material": "Runtime_macbook_screen",
+              "emissiveIntensity": 1,
+              "mapName": "Runtime_macbook_CanvasScreen",
+              "textureUpdates": 1
+            }
+          ],
+          "materialState": [
+            {
+              "mesh": "VIS_MacBookChassis",
+              "name": "MAT_MacBook_SatinAluminum",
+              "color": "c2c9ce",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookKeyboardWell",
+              "name": "MAT_MacBook_BlackGlassBezel",
+              "color": "14191f",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookKeysAndPorts",
+              "name": "MAT_MacBook_GraphiteKeys",
+              "color": "2e3338",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookMachinedDetails",
+              "name": "MAT_MacBook_MachinedEdge",
+              "color": "d4dade",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookTrackpad",
+              "name": "MAT_MacBook_Trackpad",
+              "color": "afb7bd",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookCamera",
+              "name": "MAT_MacBook_GraphiteKeys",
+              "color": "2e3338",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookDisplaySurface",
+              "name": "Runtime_macbook_screen",
+              "color": "ffffff",
+              "emissive": "ffffff",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookLidBezel",
+              "name": "MAT_MacBook_BlackGlassBezel",
+              "color": "14191f",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookLidHousing",
+              "name": "MAT_MacBook_SatinAluminum",
+              "color": "c2c9ce",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            }
+          ]
+        },
+        "marshall": {
+          "meshes": 5,
+          "triangles": 4464,
+          "materials": 5,
+          "textures": [
+            {
+              "name": "woven_grille_basecolor_512",
+              "width": 512,
+              "height": 512,
+              "colorSpace": "srgb",
+              "estimatedRGBABytesWithMipmaps": 1398102
+            }
+          ],
+          "stateSurfaces": [
+            {
+              "name": "VIS_MarshallPowerIndicator",
+              "material": "Runtime_marshall_indicator",
+              "emissiveIntensity": 0,
+              "mapName": null,
+              "textureUpdates": 0
+            }
+          ],
+          "materialState": [
+            {
+              "mesh": "VIS_MarshallBrassTrimAndDials",
+              "name": "MAT_Marshall_BrushedBrass",
+              "color": "cdaa6f",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MarshallCabinet",
+              "name": "MAT_Marshall_WarmCharcoal",
+              "color": "45403a",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MarshallControlAndFeet",
+              "name": "MAT_Marshall_ControlAndFeet",
+              "color": "242826",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MarshallGrille",
+              "name": "MAT_Marshall_WovenGrille",
+              "color": "ffffff",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MarshallPowerIndicator",
+              "name": "Runtime_marshall_indicator",
+              "color": "395746",
+              "emissive": "87dcad",
+              "emissiveIntensity": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Monitor visible production geometry activates only its independent Canvas screen",
+      "passed": true,
+      "target": {
+        "point": {
+          "x": 819,
+          "y": 344
+        },
+        "hit": {
+          "node": "VIS_MonitorDisplaySurface",
+          "assetFamily": "monitor",
+          "semanticId": "monitor",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MonitorDisplaySurface",
+            "TEC_MonitorScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "active": {
+        "meshes": 4,
+        "triangles": 3348,
+        "materials": 4,
+        "textures": [
+          {
+            "name": "Runtime_monitor_CanvasScreen",
+            "width": 1024,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 2796203
+          }
+        ],
+        "stateSurfaces": [
+          {
+            "name": "VIS_MonitorDisplaySurface",
+            "material": "Runtime_monitor_screen",
+            "emissiveIntensity": 3,
+            "mapName": "Runtime_monitor_CanvasScreen",
+            "textureUpdates": 2
+          }
+        ],
+        "materialState": [
+          {
+            "mesh": "VIS_MonitorHousing",
+            "name": "MAT_Monitor_CharcoalPolymer",
+            "color": "424a4f",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorRecessDetails",
+            "name": "MAT_Monitor_Recesses",
+            "color": "181e22",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorStand",
+            "name": "MAT_Monitor_SatinGraphite",
+            "color": "798185",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorDisplaySurface",
+            "name": "Runtime_monitor_screen",
+            "color": "ffffff",
+            "emissive": "ffffff",
+            "emissiveIntensity": 3
+          }
+        ]
+      },
+      "returned": {
+        "meshes": 4,
+        "triangles": 3348,
+        "materials": 4,
+        "textures": [
+          {
+            "name": "Runtime_monitor_CanvasScreen",
+            "width": 1024,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 2796203
+          }
+        ],
+        "stateSurfaces": [
+          {
+            "name": "VIS_MonitorDisplaySurface",
+            "material": "Runtime_monitor_screen",
+            "emissiveIntensity": 1,
+            "mapName": "Runtime_monitor_CanvasScreen",
+            "textureUpdates": 3
+          }
+        ],
+        "materialState": [
+          {
+            "mesh": "VIS_MonitorHousing",
+            "name": "MAT_Monitor_CharcoalPolymer",
+            "color": "424a4f",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorRecessDetails",
+            "name": "MAT_Monitor_Recesses",
+            "color": "181e22",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorStand",
+            "name": "MAT_Monitor_SatinGraphite",
+            "color": "798185",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorDisplaySurface",
+            "name": "Runtime_monitor_screen",
+            "color": "ffffff",
+            "emissive": "ffffff",
+            "emissiveIntensity": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "MacBook normal-speed open, half-close and closed preserve original pivot and endpoints",
+      "passed": true,
+      "target": {
+        "point": {
+          "x": 729,
+          "y": 351
+        },
+        "hit": {
+          "node": "VIS_MacBookDisplaySurface",
+          "assetFamily": "macbook",
+          "semanticId": "macbook",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MacBookDisplaySurface",
+            "VIS_MacBookLid",
+            "TEC_MacBookScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "sampledFrames": 66,
+      "halfCaptureAngles": [
+        -1.2460753658726536,
+        -0.20891408908241163
+      ],
+      "closed": {
+        "position": [
+          -1.5,
+          0.7760000228881836,
+          -1.9774999618530273
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Marshall power affects its small indicator, persists after Back and preserves the shell",
+      "passed": true,
+      "target": {
+        "point": {
+          "x": 863,
+          "y": 394
+        },
+        "hit": {
+          "node": "VIS_MarshallGrille",
+          "assetFamily": "marshall",
+          "semanticId": "marshall",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MarshallGrille",
+            "VIS_MarshallBody",
+            "TEC_Marshall",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "activeIndicator": [
+        {
+          "name": "VIS_MarshallPowerIndicator",
+          "material": "Runtime_marshall_indicator",
+          "emissiveIntensity": 2.4,
+          "mapName": null,
+          "textureUpdates": 0
+        }
+      ],
+      "offIndicator": [
+        {
+          "name": "VIS_MarshallPowerIndicator",
+          "material": "Runtime_marshall_indicator",
+          "emissiveIntensity": 0,
+          "mapName": null,
+          "textureUpdates": 0
+        }
+      ],
+      "persistedPower": "on"
+    },
+    {
+      "name": "Hovering the focused Marshall before Power On preserves the mechanism material and persistent 2.4 indicator",
+      "passed": true,
+      "hoveredProductionTarget": {
+        "point": {
+          "x": 759,
+          "y": 449
+        },
+        "hit": {
+          "node": "VIS_MarshallGrille",
+          "assetFamily": "marshall",
+          "semanticId": "marshall",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MarshallGrille",
+            "VIS_MarshallBody",
+            "TEC_Marshall",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "focusedIndicator": [
+        {
+          "name": "VIS_MarshallPowerIndicator",
+          "material": "Runtime_marshall_indicator",
+          "emissiveIntensity": 2.4,
+          "mapName": null,
+          "textureUpdates": 0
+        }
+      ],
+      "returnedIndicator": [
+        {
+          "name": "VIS_MarshallPowerIndicator",
+          "material": "Runtime_marshall_indicator",
+          "emissiveIntensity": 2.4,
+          "mapName": null,
+          "textureUpdates": 0
+        }
+      ]
+    },
+    {
+      "name": "Recorded walkthrough reopens the retracted piano through its undertray without Explore objects",
+      "passed": true,
+      "target": {
+        "point": {
+          "x": 757,
+          "y": 437
+        },
+        "hit": {
+          "node": "PianoRetractedHitArea",
+          "assetFamily": null,
+          "semanticId": "piano",
+          "runtimeTarget": "PianoRetractedHitArea",
+          "ancestors": [
+            "PianoRetractedHitArea",
+            "",
+            ""
+          ]
+        }
+      },
+      "usesExploreObjects": false,
+      "travel": 0.65
+    },
+    {
+      "name": "Production asset demand rendering stops at rest and Canvas content remains unchanged",
+      "passed": true,
+      "beforeFrames": 490,
+      "afterFrames": 490
+    },
+    {
+      "name": "Competing visible production clicks and Back during focus finish one exact safe return",
+      "passed": true,
+      "targets": {
+        "macbook": {
+          "point": {
+            "x": 718,
+            "y": 368
+          },
+          "hit": {
+            "node": "VIS_MacBookLidHousing",
+            "assetFamily": "macbook",
+            "semanticId": "macbook",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MacBookLidHousing",
+              "VIS_MacBookLid",
+              "TEC_MacBookScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        },
+        "monitor": {
+          "point": {
+            "x": 819,
+            "y": 344
+          },
+          "hit": {
+            "node": "VIS_MonitorDisplaySurface",
+            "assetFamily": "monitor",
+            "semanticId": "monitor",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MonitorDisplaySurface",
+              "TEC_MonitorScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      },
+      "exactHero": true,
+      "closedAfterQueuedBack": true
+    },
+    {
+      "name": "Twenty native production-MacBook open/Back-close cycles keep exact endpoint, pivot and Hero",
+      "passed": true,
+      "cycles": 20,
+      "nativeInput": true,
+      "reducedMotion": true
+    },
+    {
+      "name": "390×844 native touchscreen hits visible monitor production geometry and returns",
+      "passed": true,
+      "target": {
+        "point": {
+          "x": 228,
+          "y": 362
+        },
+        "hit": {
+          "node": "VIS_MonitorDisplaySurface",
+          "assetFamily": "monitor",
+          "semanticId": "monitor",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MonitorDisplaySurface",
+            "TEC_MonitorScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "backButton": {
+        "x": 285.984375,
+        "y": 588.625,
+        "width": 74.015625,
+        "height": 44
+      }
+    },
+    {
+      "name": "390×844 native touchscreen hits visible macbook production geometry and returns",
+      "passed": true,
+      "target": {
+        "point": {
+          "x": 198,
+          "y": 365
+        },
+        "hit": {
+          "node": "VIS_MacBookDisplaySurface",
+          "assetFamily": "macbook",
+          "semanticId": "macbook",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MacBookDisplaySurface",
+            "VIS_MacBookLid",
+            "TEC_MacBookScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "backButton": {
+        "x": 285.984375,
+        "y": 588.625,
+        "width": 74.015625,
+        "height": 44
+      }
+    },
+    {
+      "name": "390×844 native touchscreen hits visible marshall production geometry and returns",
+      "passed": true,
+      "target": {
+        "point": {
+          "x": 243,
+          "y": 379
+        },
+        "hit": {
+          "node": "VIS_MarshallGrille",
+          "assetFamily": "marshall",
+          "semanticId": "marshall",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MarshallGrille",
+            "VIS_MarshallBody",
+            "TEC_Marshall",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "backButton": {
+        "x": 285.984375,
+        "y": 560.71875,
+        "width": 74.015625,
+        "height": 44
+      }
+    },
+    {
+      "name": "monitor GLB404 keeps its usable proxy and the other two complete production families",
+      "passed": true,
+      "expectedFallback": true,
+      "productionPass": false,
+      "family": "monitor",
+      "error": "Monitor model HTTP 404",
+      "retryInstalled": true,
+      "assembly": {
+        "ok": true,
+        "errors": [],
+        "sourceNodeCount": 85,
+        "runtimeNodeCount": 137,
+        "installedFamilies": [
+          "macbook",
+          "marshall"
+        ],
+        "suppressedProxyMeshes": [
+          "TEC_MacBookBase",
+          "TEC_MacBookScreen_Mesh",
+          "TEC_MacBookScreen_Mesh_1",
+          "TEC_Marshall"
+        ]
+      }
+    },
+    {
+      "name": "macbook GLB404 keeps its usable proxy and the other two complete production families",
+      "passed": true,
+      "expectedFallback": true,
+      "productionPass": false,
+      "family": "macbook",
+      "error": "MacBook model HTTP 404",
+      "retryInstalled": true,
+      "assembly": {
+        "ok": true,
+        "errors": [],
+        "sourceNodeCount": 85,
+        "runtimeNodeCount": 131,
+        "installedFamilies": [
+          "monitor",
+          "marshall"
+        ],
+        "suppressedProxyMeshes": [
+          "TEC_MonitorBody",
+          "TEC_MonitorScreen",
+          "TEC_Marshall"
+        ]
+      }
+    },
+    {
+      "name": "marshall GLB404 keeps its usable proxy and the other two complete production families",
+      "passed": true,
+      "expectedFallback": true,
+      "productionPass": false,
+      "family": "marshall",
+      "error": "Marshall model HTTP 404",
+      "retryInstalled": true,
+      "assembly": {
+        "ok": true,
+        "errors": [],
+        "sourceNodeCount": 85,
+        "runtimeNodeCount": 136,
+        "installedFamilies": [
+          "monitor",
+          "macbook"
+        ],
+        "suppressedProxyMeshes": [
+          "TEC_MonitorBody",
+          "TEC_MonitorScreen",
+          "TEC_MacBookBase",
+          "TEC_MacBookScreen_Mesh",
+          "TEC_MacBookScreen_Mesh_1"
+        ]
+      }
+    },
+    {
+      "name": "Embedded Marshall texture decode failure rolls back the entire family without a partial install",
+      "passed": true,
+      "expectedFallback": true,
+      "productionPass": false,
+      "error": "Marshall texture could not load",
+      "corruptedTexture": {
+        "mimeType": "image/png",
+        "bytes": 430084
+      },
+      "retryInstalled": true
+    },
+    {
+      "name": "Navigating away during a delayed family load cancels late work; re-entry installs once",
+      "passed": true,
+      "cancelledWhileLoading": true,
+      "reentries": [
+        {
+          "runtimeNodeCount": 142,
+          "suppressedProxyMeshes": [
+            "TEC_MonitorBody",
+            "TEC_MonitorScreen",
+            "TEC_MacBookBase",
+            "TEC_MacBookScreen_Mesh",
+            "TEC_MacBookScreen_Mesh_1",
+            "TEC_Marshall"
+          ]
+        },
+        {
+          "runtimeNodeCount": 142,
+          "suppressedProxyMeshes": [
+            "TEC_MonitorBody",
+            "TEC_MonitorScreen",
+            "TEC_MacBookBase",
+            "TEC_MacBookScreen_Mesh",
+            "TEC_MacBookScreen_Mesh_1",
+            "TEC_Marshall"
+          ]
+        },
+        {
+          "runtimeNodeCount": 142,
+          "suppressedProxyMeshes": [
+            "TEC_MonitorBody",
+            "TEC_MonitorScreen",
+            "TEC_MacBookBase",
+            "TEC_MacBookScreen_Mesh",
+            "TEC_MacBookScreen_Mesh_1",
+            "TEC_Marshall"
+          ]
+        }
+      ],
+      "noDuplicateAssembly": true
+    },
+    {
+      "name": "Normal asset sessions have no browser runtime errors or failed requests",
+      "passed": true,
+      "normalErrors": 0,
+      "expectedFaultPhasesRetainedInLog": true
+    }
+  ],
+  "observations": {
+    "initial": {
+      "assets": {
+        "monitor": {
+          "status": "installed",
+          "error": null
+        },
+        "macbook": {
+          "status": "installed",
+          "error": null
+        },
+        "marshall": {
+          "status": "installed",
+          "error": null
+        }
+      },
+      "assembly": {
+        "ok": true,
+        "errors": [],
+        "sourceNodeCount": 85,
+        "runtimeNodeCount": 142,
+        "installedFamilies": [
+          "monitor",
+          "macbook",
+          "marshall"
+        ],
+        "suppressedProxyMeshes": [
+          "TEC_MonitorBody",
+          "TEC_MonitorScreen",
+          "TEC_MacBookBase",
+          "TEC_MacBookScreen_Mesh",
+          "TEC_MacBookScreen_Mesh_1",
+          "TEC_Marshall"
+        ]
+      },
+      "assetVisuals": {
+        "monitor": {
+          "meshes": 4,
+          "triangles": 3348,
+          "materials": 4,
+          "textures": [
+            {
+              "name": "Runtime_monitor_CanvasScreen",
+              "width": 1024,
+              "height": 512,
+              "colorSpace": "srgb",
+              "estimatedRGBABytesWithMipmaps": 2796203
+            }
+          ],
+          "stateSurfaces": [
+            {
+              "name": "VIS_MonitorDisplaySurface",
+              "material": "Runtime_monitor_screen",
+              "emissiveIntensity": 1,
+              "mapName": "Runtime_monitor_CanvasScreen",
+              "textureUpdates": 1
+            }
+          ],
+          "materialState": [
+            {
+              "mesh": "VIS_MonitorHousing",
+              "name": "MAT_Monitor_CharcoalPolymer",
+              "color": "424a4f",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MonitorRecessDetails",
+              "name": "MAT_Monitor_Recesses",
+              "color": "181e22",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MonitorStand",
+              "name": "MAT_Monitor_SatinGraphite",
+              "color": "798185",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MonitorDisplaySurface",
+              "name": "Runtime_monitor_screen",
+              "color": "ffffff",
+              "emissive": "ffffff",
+              "emissiveIntensity": 1
+            }
+          ]
+        },
+        "macbook": {
+          "meshes": 9,
+          "triangles": 14780,
+          "materials": 6,
+          "textures": [
+            {
+              "name": "Runtime_macbook_CanvasScreen",
+              "width": 512,
+              "height": 320,
+              "colorSpace": "srgb",
+              "estimatedRGBABytesWithMipmaps": 873814
+            }
+          ],
+          "stateSurfaces": [
+            {
+              "name": "VIS_MacBookDisplaySurface",
+              "material": "Runtime_macbook_screen",
+              "emissiveIntensity": 1,
+              "mapName": "Runtime_macbook_CanvasScreen",
+              "textureUpdates": 1
+            }
+          ],
+          "materialState": [
+            {
+              "mesh": "VIS_MacBookChassis",
+              "name": "MAT_MacBook_SatinAluminum",
+              "color": "c2c9ce",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookKeyboardWell",
+              "name": "MAT_MacBook_BlackGlassBezel",
+              "color": "14191f",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookKeysAndPorts",
+              "name": "MAT_MacBook_GraphiteKeys",
+              "color": "2e3338",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookMachinedDetails",
+              "name": "MAT_MacBook_MachinedEdge",
+              "color": "d4dade",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookTrackpad",
+              "name": "MAT_MacBook_Trackpad",
+              "color": "afb7bd",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookCamera",
+              "name": "MAT_MacBook_GraphiteKeys",
+              "color": "2e3338",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookDisplaySurface",
+              "name": "Runtime_macbook_screen",
+              "color": "ffffff",
+              "emissive": "ffffff",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookLidBezel",
+              "name": "MAT_MacBook_BlackGlassBezel",
+              "color": "14191f",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MacBookLidHousing",
+              "name": "MAT_MacBook_SatinAluminum",
+              "color": "c2c9ce",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            }
+          ]
+        },
+        "marshall": {
+          "meshes": 5,
+          "triangles": 4464,
+          "materials": 5,
+          "textures": [
+            {
+              "name": "woven_grille_basecolor_512",
+              "width": 512,
+              "height": 512,
+              "colorSpace": "srgb",
+              "estimatedRGBABytesWithMipmaps": 1398102
+            }
+          ],
+          "stateSurfaces": [
+            {
+              "name": "VIS_MarshallPowerIndicator",
+              "material": "Runtime_marshall_indicator",
+              "emissiveIntensity": 0,
+              "mapName": null,
+              "textureUpdates": 0
+            }
+          ],
+          "materialState": [
+            {
+              "mesh": "VIS_MarshallBrassTrimAndDials",
+              "name": "MAT_Marshall_BrushedBrass",
+              "color": "cdaa6f",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MarshallCabinet",
+              "name": "MAT_Marshall_WarmCharcoal",
+              "color": "45403a",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MarshallControlAndFeet",
+              "name": "MAT_Marshall_ControlAndFeet",
+              "color": "242826",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MarshallGrille",
+              "name": "MAT_Marshall_WovenGrille",
+              "color": "ffffff",
+              "emissive": "000000",
+              "emissiveIntensity": 1
+            },
+            {
+              "mesh": "VIS_MarshallPowerIndicator",
+              "name": "Runtime_marshall_indicator",
+              "color": "395746",
+              "emissive": "87dcad",
+              "emissiveIntensity": 0
+            }
+          ]
+        }
+      },
+      "status": "ready",
+      "validation": {
+        "ok": true,
+        "missingNodes": [],
+        "missingTargets": [],
+        "errors": [],
+        "nodeCount": 85,
+        "meshCount": 72,
+        "sourceMeshCount": 55,
+        "triangleCount": 6566,
+        "materialCount": 6,
+        "mappings": [
+          {
+            "id": "monitor",
+            "label": "Monitor",
+            "nodeNames": [
+              "TEC_MonitorBody",
+              "TEC_MonitorScreen"
+            ],
+            "targetName": "TGT_Monitor",
+            "targetPosition": [
+              -0.41999998688697815,
+              1.2000000476837158,
+              -2.0799999237060547
+            ]
+          },
+          {
+            "id": "macbook",
+            "label": "MacBook",
+            "nodeNames": [
+              "TEC_MacBookBase",
+              "TEC_MacBookScreen"
+            ],
+            "targetName": "TGT_MacBook",
+            "targetPosition": [
+              -1.5,
+              0.9399999976158142,
+              -1.9700000286102295
+            ]
+          },
+          {
+            "id": "ipad",
+            "label": "iPad",
+            "nodeNames": [
+              "TEC_iPad"
+            ],
+            "targetName": "TGT_iPad",
+            "targetPosition": [
+              -0.6600000262260437,
+              0.5,
+              1.1799999475479126
+            ]
+          },
+          {
+            "id": "marshall",
+            "label": "Marshall",
+            "nodeNames": [
+              "TEC_Marshall"
+            ],
+            "targetName": "TGT_Marshall",
+            "targetPosition": [
+              0.38999998569488525,
+              0.8849999904632568,
+              -2.059999942779541
+            ]
+          },
+          {
+            "id": "piano",
+            "label": "Piano",
+            "nodeNames": [
+              "INT_PianoRail",
+              "INT_Piano"
+            ],
+            "targetName": "TGT_Piano",
+            "targetPosition": [
+              -0.6499999761581421,
+              0.6000000238418579,
+              -1.2899999618530273
+            ]
+          },
+          {
+            "id": "trashcan",
+            "label": "Trash can",
+            "nodeNames": [
+              "INT_TrashCanBody",
+              "INT_TrashCanLid"
+            ],
+            "targetName": "TGT_TrashCan",
+            "targetPosition": [
+              1.1200000047683716,
+              0.46000000834465027,
+              -1.7999999523162842
+            ]
+          },
+          {
+            "id": "lightswitch",
+            "label": "Light switch",
+            "nodeNames": [
+              "INT_LightSwitch"
+            ],
+            "targetName": "TGT_LightSwitch",
+            "targetPosition": [
+              -3.5399999618530273,
+              1.2000000476837158,
+              1.4700000286102295
+            ]
+          },
+          {
+            "id": "phone",
+            "label": "Phone",
+            "nodeNames": [
+              "TEC_Phone"
+            ],
+            "targetName": "TGT_Phone",
+            "targetPosition": [
+              0.1599999964237213,
+              0.8399999737739563,
+              -1.75
+            ]
+          },
+          {
+            "id": "window",
+            "label": "Window",
+            "nodeNames": [
+              "ENV_WindowFrame",
+              "ENV_WindowGlass"
+            ],
+            "targetName": "TGT_Window",
+            "targetPosition": [
+              -0.675000011920929,
+              1.840000033378601,
+              -2.9000000953674316
+            ]
+          }
+        ]
+      },
+      "hovered": null,
+      "selected": null,
+      "performance": null,
+      "interaction": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "extended",
+        "macbookState": "open",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "time": 12,
+        "weather": "Sunny",
+        "reducedMotion": false,
+        "returnRequested": false,
+        "error": null
+      },
+      "pianoRetractedHitAreaActive": false,
+      "mechanical": {
+        "macbookState": "open",
+        "trashState": "closed",
+        "pianoState": "extended",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "transforms": {
+          "macbook": {
+            "position": [
+              -1.5,
+              0.7760000228881836,
+              -1.9774999618530273
+            ],
+            "quaternion": [
+              -0.7933533787727356,
+              0,
+              0,
+              0.6087614297866821
+            ],
+            "rotation": [
+              -1.8325958201049855,
+              0,
+              0
+            ]
+          },
+          "trash": {
+            "position": [
+              1.1200000047683716,
+              0.4740000069141388,
+              -1.9930000305175781
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "piano": {
+            "position": [
+              -0.6499999761581421,
+              0.6000000238418579,
+              -1.2899999618530273
+            ],
+            "quaternion": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          "switch": {
+            "position": [
+              -3.5390000343322754,
+              1.2000000476837158,
+              1.4700000286102295
+            ],
+            "quaternion": [
+              0,
+              0,
+              0.06975648552179337,
+              0.9975640773773193
+            ],
+            "rotation": [
+              0,
+              0,
+              0.13962636763260747
+            ]
+          }
+        },
+        "lightValues": {
+          "LGT_CabinetProxy": 5.172535650486599,
+          "LGT_DeskProxy": 0.716197243913529,
+          "LGT_BedProxy": 0.954929658551372
+        },
+        "baseLightValues": {
+          "LGT_Ambient": 1,
+          "LGT_WindowKey": 15.915494309189532
+        },
+        "screenValues": {},
+        "sourceEndpoints": {
+          "macbookOpenX": -1.8325958201049855,
+          "trashOpenX": -1.7453292519943295,
+          "switchOnZ": 0.13962636763260747,
+          "switchOffZ": -0.13962636763260747,
+          "pianoRetractedZ": -1.9399999618530273,
+          "pianoExtendedZ": -1.2899999618530273,
+          "pianoTravel": 0.65
+        }
+      },
+      "cameraAnimation": {
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100,
+        "zoom": 1,
+        "hero": {
+          "position": [
+            7.891778469085693,
+            7.609460353851318,
+            10.294089317321777
+          ],
+          "quaternion": [
+            -0.22637604716554904,
+            0.31229574177456654,
+            0.07689316051044089,
+            0.9194088848550981
+          ],
+          "fov": 28.072486791188595,
+          "aspect": 1.5,
+          "near": 0.05000000074505806,
+          "far": 100,
+          "zoom": 1
+        },
+        "focusedObject": null,
+        "busy": false
+      },
+      "renderFrames": 3,
+      "camera": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    "productionHitPoints": {
+      "monitor": {
+        "point": {
+          "x": 819,
+          "y": 344
+        },
+        "hit": {
+          "node": "VIS_MonitorDisplaySurface",
+          "assetFamily": "monitor",
+          "semanticId": "monitor",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MonitorDisplaySurface",
+            "TEC_MonitorScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "macbook": {
+        "point": {
+          "x": 729,
+          "y": 351
+        },
+        "hit": {
+          "node": "VIS_MacBookDisplaySurface",
+          "assetFamily": "macbook",
+          "semanticId": "macbook",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MacBookDisplaySurface",
+            "VIS_MacBookLid",
+            "TEC_MacBookScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "marshall": {
+        "point": {
+          "x": 863,
+          "y": 394
+        },
+        "hit": {
+          "node": "VIS_MarshallGrille",
+          "assetFamily": "marshall",
+          "semanticId": "marshall",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MarshallGrille",
+            "VIS_MarshallBody",
+            "TEC_Marshall",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      }
+    },
+    "monitor": {
+      "target": {
+        "point": {
+          "x": 819,
+          "y": 344
+        },
+        "hit": {
+          "node": "VIS_MonitorDisplaySurface",
+          "assetFamily": "monitor",
+          "semanticId": "monitor",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MonitorDisplaySurface",
+            "TEC_MonitorScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "active": {
+        "meshes": 4,
+        "triangles": 3348,
+        "materials": 4,
+        "textures": [
+          {
+            "name": "Runtime_monitor_CanvasScreen",
+            "width": 1024,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 2796203
+          }
+        ],
+        "stateSurfaces": [
+          {
+            "name": "VIS_MonitorDisplaySurface",
+            "material": "Runtime_monitor_screen",
+            "emissiveIntensity": 3,
+            "mapName": "Runtime_monitor_CanvasScreen",
+            "textureUpdates": 2
+          }
+        ],
+        "materialState": [
+          {
+            "mesh": "VIS_MonitorHousing",
+            "name": "MAT_Monitor_CharcoalPolymer",
+            "color": "424a4f",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorRecessDetails",
+            "name": "MAT_Monitor_Recesses",
+            "color": "181e22",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorStand",
+            "name": "MAT_Monitor_SatinGraphite",
+            "color": "798185",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorDisplaySurface",
+            "name": "Runtime_monitor_screen",
+            "color": "ffffff",
+            "emissive": "ffffff",
+            "emissiveIntensity": 3
+          }
+        ]
+      },
+      "returned": {
+        "meshes": 4,
+        "triangles": 3348,
+        "materials": 4,
+        "textures": [
+          {
+            "name": "Runtime_monitor_CanvasScreen",
+            "width": 1024,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 2796203
+          }
+        ],
+        "stateSurfaces": [
+          {
+            "name": "VIS_MonitorDisplaySurface",
+            "material": "Runtime_monitor_screen",
+            "emissiveIntensity": 1,
+            "mapName": "Runtime_monitor_CanvasScreen",
+            "textureUpdates": 3
+          }
+        ],
+        "materialState": [
+          {
+            "mesh": "VIS_MonitorHousing",
+            "name": "MAT_Monitor_CharcoalPolymer",
+            "color": "424a4f",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorRecessDetails",
+            "name": "MAT_Monitor_Recesses",
+            "color": "181e22",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorStand",
+            "name": "MAT_Monitor_SatinGraphite",
+            "color": "798185",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorDisplaySurface",
+            "name": "Runtime_monitor_screen",
+            "color": "ffffff",
+            "emissive": "ffffff",
+            "emissiveIntensity": 1
+          }
+        ]
+      }
+    },
+    "macbook": {
+      "target": {
+        "point": {
+          "x": 729,
+          "y": 351
+        },
+        "hit": {
+          "node": "VIS_MacBookDisplaySurface",
+          "assetFamily": "macbook",
+          "semanticId": "macbook",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MacBookDisplaySurface",
+            "VIS_MacBookLid",
+            "TEC_MacBookScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "motion": {
+        "halfBefore": {
+          "assets": {
+            "monitor": {
+              "status": "installed",
+              "error": null
+            },
+            "macbook": {
+              "status": "installed",
+              "error": null
+            },
+            "marshall": {
+              "status": "installed",
+              "error": null
+            }
+          },
+          "assembly": {
+            "ok": true,
+            "errors": [],
+            "sourceNodeCount": 85,
+            "runtimeNodeCount": 142,
+            "installedFamilies": [
+              "monitor",
+              "macbook",
+              "marshall"
+            ],
+            "suppressedProxyMeshes": [
+              "TEC_MonitorBody",
+              "TEC_MonitorScreen",
+              "TEC_MacBookBase",
+              "TEC_MacBookScreen_Mesh",
+              "TEC_MacBookScreen_Mesh_1",
+              "TEC_Marshall"
+            ]
+          },
+          "assetVisuals": {
+            "monitor": {
+              "meshes": 4,
+              "triangles": 3348,
+              "materials": 4,
+              "textures": [
+                {
+                  "name": "Runtime_monitor_CanvasScreen",
+                  "width": 1024,
+                  "height": 512,
+                  "colorSpace": "srgb",
+                  "estimatedRGBABytesWithMipmaps": 2796203
+                }
+              ],
+              "stateSurfaces": [
+                {
+                  "name": "VIS_MonitorDisplaySurface",
+                  "material": "Runtime_monitor_screen",
+                  "emissiveIntensity": 1,
+                  "mapName": "Runtime_monitor_CanvasScreen",
+                  "textureUpdates": 3
+                }
+              ],
+              "materialState": [
+                {
+                  "mesh": "VIS_MonitorHousing",
+                  "name": "MAT_Monitor_CharcoalPolymer",
+                  "color": "424a4f",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MonitorRecessDetails",
+                  "name": "MAT_Monitor_Recesses",
+                  "color": "181e22",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MonitorStand",
+                  "name": "MAT_Monitor_SatinGraphite",
+                  "color": "798185",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MonitorDisplaySurface",
+                  "name": "Runtime_monitor_screen",
+                  "color": "ffffff",
+                  "emissive": "ffffff",
+                  "emissiveIntensity": 1
+                }
+              ]
+            },
+            "macbook": {
+              "meshes": 9,
+              "triangles": 14780,
+              "materials": 6,
+              "textures": [
+                {
+                  "name": "Runtime_macbook_CanvasScreen",
+                  "width": 512,
+                  "height": 320,
+                  "colorSpace": "srgb",
+                  "estimatedRGBABytesWithMipmaps": 873814
+                }
+              ],
+              "stateSurfaces": [
+                {
+                  "name": "VIS_MacBookDisplaySurface",
+                  "material": "Runtime_macbook_screen",
+                  "emissiveIntensity": 1,
+                  "mapName": "Runtime_macbook_CanvasScreen",
+                  "textureUpdates": 3
+                }
+              ],
+              "materialState": [
+                {
+                  "mesh": "VIS_MacBookChassis",
+                  "name": "MAT_MacBook_SatinAluminum",
+                  "color": "c2c9ce",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookKeyboardWell",
+                  "name": "MAT_MacBook_BlackGlassBezel",
+                  "color": "14191f",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookKeysAndPorts",
+                  "name": "MAT_MacBook_GraphiteKeys",
+                  "color": "2e3338",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookMachinedDetails",
+                  "name": "MAT_MacBook_MachinedEdge",
+                  "color": "d4dade",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookTrackpad",
+                  "name": "MAT_MacBook_Trackpad",
+                  "color": "afb7bd",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookCamera",
+                  "name": "MAT_MacBook_GraphiteKeys",
+                  "color": "2e3338",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookDisplaySurface",
+                  "name": "Runtime_macbook_screen",
+                  "color": "ffffff",
+                  "emissive": "ffffff",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookLidBezel",
+                  "name": "MAT_MacBook_BlackGlassBezel",
+                  "color": "14191f",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookLidHousing",
+                  "name": "MAT_MacBook_SatinAluminum",
+                  "color": "c2c9ce",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                }
+              ]
+            },
+            "marshall": {
+              "meshes": 5,
+              "triangles": 4464,
+              "materials": 5,
+              "textures": [
+                {
+                  "name": "woven_grille_basecolor_512",
+                  "width": 512,
+                  "height": 512,
+                  "colorSpace": "srgb",
+                  "estimatedRGBABytesWithMipmaps": 1398102
+                }
+              ],
+              "stateSurfaces": [
+                {
+                  "name": "VIS_MarshallPowerIndicator",
+                  "material": "Runtime_marshall_indicator",
+                  "emissiveIntensity": 0,
+                  "mapName": null,
+                  "textureUpdates": 0
+                }
+              ],
+              "materialState": [
+                {
+                  "mesh": "VIS_MarshallBrassTrimAndDials",
+                  "name": "MAT_Marshall_BrushedBrass",
+                  "color": "cdaa6f",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MarshallCabinet",
+                  "name": "MAT_Marshall_WarmCharcoal",
+                  "color": "45403a",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MarshallControlAndFeet",
+                  "name": "MAT_Marshall_ControlAndFeet",
+                  "color": "242826",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MarshallGrille",
+                  "name": "MAT_Marshall_WovenGrille",
+                  "color": "ffffff",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MarshallPowerIndicator",
+                  "name": "Runtime_marshall_indicator",
+                  "color": "395746",
+                  "emissive": "87dcad",
+                  "emissiveIntensity": 0
+                }
+              ]
+            }
+          },
+          "status": "ready",
+          "validation": {
+            "ok": true,
+            "missingNodes": [],
+            "missingTargets": [],
+            "errors": [],
+            "nodeCount": 85,
+            "meshCount": 72,
+            "sourceMeshCount": 55,
+            "triangleCount": 6566,
+            "materialCount": 6,
+            "mappings": [
+              {
+                "id": "monitor",
+                "label": "Monitor",
+                "nodeNames": [
+                  "TEC_MonitorBody",
+                  "TEC_MonitorScreen"
+                ],
+                "targetName": "TGT_Monitor",
+                "targetPosition": [
+                  -0.41999998688697815,
+                  1.2000000476837158,
+                  -2.0799999237060547
+                ]
+              },
+              {
+                "id": "macbook",
+                "label": "MacBook",
+                "nodeNames": [
+                  "TEC_MacBookBase",
+                  "TEC_MacBookScreen"
+                ],
+                "targetName": "TGT_MacBook",
+                "targetPosition": [
+                  -1.5,
+                  0.9399999976158142,
+                  -1.9700000286102295
+                ]
+              },
+              {
+                "id": "ipad",
+                "label": "iPad",
+                "nodeNames": [
+                  "TEC_iPad"
+                ],
+                "targetName": "TGT_iPad",
+                "targetPosition": [
+                  -0.6600000262260437,
+                  0.5,
+                  1.1799999475479126
+                ]
+              },
+              {
+                "id": "marshall",
+                "label": "Marshall",
+                "nodeNames": [
+                  "TEC_Marshall"
+                ],
+                "targetName": "TGT_Marshall",
+                "targetPosition": [
+                  0.38999998569488525,
+                  0.8849999904632568,
+                  -2.059999942779541
+                ]
+              },
+              {
+                "id": "piano",
+                "label": "Piano",
+                "nodeNames": [
+                  "INT_PianoRail",
+                  "INT_Piano"
+                ],
+                "targetName": "TGT_Piano",
+                "targetPosition": [
+                  -0.6499999761581421,
+                  0.6000000238418579,
+                  -1.2899999618530273
+                ]
+              },
+              {
+                "id": "trashcan",
+                "label": "Trash can",
+                "nodeNames": [
+                  "INT_TrashCanBody",
+                  "INT_TrashCanLid"
+                ],
+                "targetName": "TGT_TrashCan",
+                "targetPosition": [
+                  1.1200000047683716,
+                  0.46000000834465027,
+                  -1.7999999523162842
+                ]
+              },
+              {
+                "id": "lightswitch",
+                "label": "Light switch",
+                "nodeNames": [
+                  "INT_LightSwitch"
+                ],
+                "targetName": "TGT_LightSwitch",
+                "targetPosition": [
+                  -3.5399999618530273,
+                  1.2000000476837158,
+                  1.4700000286102295
+                ]
+              },
+              {
+                "id": "phone",
+                "label": "Phone",
+                "nodeNames": [
+                  "TEC_Phone"
+                ],
+                "targetName": "TGT_Phone",
+                "targetPosition": [
+                  0.1599999964237213,
+                  0.8399999737739563,
+                  -1.75
+                ]
+              },
+              {
+                "id": "window",
+                "label": "Window",
+                "nodeNames": [
+                  "ENV_WindowFrame",
+                  "ENV_WindowGlass"
+                ],
+                "targetName": "TGT_Window",
+                "targetPosition": [
+                  -0.675000011920929,
+                  1.840000033378601,
+                  -2.9000000953674316
+                ]
+              }
+            ]
+          },
+          "hovered": null,
+          "selected": "macbook",
+          "performance": {
+            "fps": 14.895294839062851,
+            "frameMs": 67.1352941183483,
+            "calls": 23,
+            "triangles": 15548
+          },
+          "interaction": {
+            "activeObject": "macbook",
+            "hoveredObject": null,
+            "interactionPhase": "returning",
+            "isCameraBusy": true,
+            "pianoState": "extended",
+            "macbookState": "closing",
+            "trashState": "closed",
+            "lightsState": "on",
+            "marshallPower": "off",
+            "time": 12,
+            "weather": "Sunny",
+            "reducedMotion": false,
+            "returnRequested": false,
+            "error": null
+          },
+          "pianoRetractedHitAreaActive": false,
+          "mechanical": {
+            "macbookState": "closing",
+            "trashState": "closed",
+            "pianoState": "extended",
+            "lightsState": "on",
+            "marshallPower": "off",
+            "transforms": {
+              "macbook": {
+                "position": [
+                  -1.5,
+                  0.7760000228881836,
+                  -1.9774999618530273
+                ],
+                "quaternion": [
+                  -0.5835047775589604,
+                  0,
+                  0,
+                  0.8121097266428403
+                ],
+                "rotation": [
+                  -1.2460753658726536,
+                  0,
+                  0
+                ]
+              },
+              "trash": {
+                "position": [
+                  1.1200000047683716,
+                  0.4740000069141388,
+                  -1.9930000305175781
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "piano": {
+                "position": [
+                  -0.6499999761581421,
+                  0.6000000238418579,
+                  -1.2899999618530273
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "switch": {
+                "position": [
+                  -3.5390000343322754,
+                  1.2000000476837158,
+                  1.4700000286102295
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  0.06975648552179337,
+                  0.9975640773773193
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0.13962636763260747
+                ]
+              }
+            },
+            "lightValues": {
+              "LGT_CabinetProxy": 5.172535650486599,
+              "LGT_DeskProxy": 0.716197243913529,
+              "LGT_BedProxy": 0.954929658551372
+            },
+            "baseLightValues": {
+              "LGT_Ambient": 1,
+              "LGT_WindowKey": 15.915494309189532
+            },
+            "screenValues": {},
+            "sourceEndpoints": {
+              "macbookOpenX": -1.8325958201049855,
+              "trashOpenX": -1.7453292519943295,
+              "switchOnZ": 0.13962636763260747,
+              "switchOffZ": -0.13962636763260747,
+              "pianoRetractedZ": -1.9399999618530273,
+              "pianoExtendedZ": -1.2899999618530273,
+              "pianoTravel": 0.65
+            }
+          },
+          "cameraAnimation": {
+            "position": [
+              -1.25,
+              1.4199999976158142,
+              -0.9200000286102294
+            ],
+            "quaternion": [
+              -0.22830172042068828,
+              0.11348317489181813,
+              0.026804135385973198,
+              0.9665823461017883
+            ],
+            "fov": 28.072486791188595,
+            "aspect": 1.5,
+            "near": 0.05000000074505806,
+            "far": 100,
+            "zoom": 1,
+            "hero": {
+              "position": [
+                7.891778469085693,
+                7.609460353851318,
+                10.294089317321777
+              ],
+              "quaternion": [
+                -0.22637604716554904,
+                0.31229574177456654,
+                0.07689316051044089,
+                0.9194088848550981
+              ],
+              "fov": 28.072486791188595,
+              "aspect": 1.5,
+              "near": 0.05000000074505806,
+              "far": 100,
+              "zoom": 1
+            },
+            "focusedObject": "macbook",
+            "busy": false
+          },
+          "renderFrames": 111,
+          "camera": {
+            "name": "CAM_Hero_FINAL",
+            "position": [
+              -1.25,
+              1.4199999976158142,
+              -0.9200000286102294
+            ],
+            "quaternion": [
+              -0.22830172042068828,
+              0.11348317489181813,
+              0.026804135385973198,
+              0.9665823461017883
+            ],
+            "fov": 28.072486791188595,
+            "aspect": 1.5,
+            "near": 0.05000000074505806,
+            "far": 100
+          }
+        },
+        "halfAfter": {
+          "assets": {
+            "monitor": {
+              "status": "installed",
+              "error": null
+            },
+            "macbook": {
+              "status": "installed",
+              "error": null
+            },
+            "marshall": {
+              "status": "installed",
+              "error": null
+            }
+          },
+          "assembly": {
+            "ok": true,
+            "errors": [],
+            "sourceNodeCount": 85,
+            "runtimeNodeCount": 142,
+            "installedFamilies": [
+              "monitor",
+              "macbook",
+              "marshall"
+            ],
+            "suppressedProxyMeshes": [
+              "TEC_MonitorBody",
+              "TEC_MonitorScreen",
+              "TEC_MacBookBase",
+              "TEC_MacBookScreen_Mesh",
+              "TEC_MacBookScreen_Mesh_1",
+              "TEC_Marshall"
+            ]
+          },
+          "assetVisuals": {
+            "monitor": {
+              "meshes": 4,
+              "triangles": 3348,
+              "materials": 4,
+              "textures": [
+                {
+                  "name": "Runtime_monitor_CanvasScreen",
+                  "width": 1024,
+                  "height": 512,
+                  "colorSpace": "srgb",
+                  "estimatedRGBABytesWithMipmaps": 2796203
+                }
+              ],
+              "stateSurfaces": [
+                {
+                  "name": "VIS_MonitorDisplaySurface",
+                  "material": "Runtime_monitor_screen",
+                  "emissiveIntensity": 1,
+                  "mapName": "Runtime_monitor_CanvasScreen",
+                  "textureUpdates": 3
+                }
+              ],
+              "materialState": [
+                {
+                  "mesh": "VIS_MonitorHousing",
+                  "name": "MAT_Monitor_CharcoalPolymer",
+                  "color": "424a4f",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MonitorRecessDetails",
+                  "name": "MAT_Monitor_Recesses",
+                  "color": "181e22",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MonitorStand",
+                  "name": "MAT_Monitor_SatinGraphite",
+                  "color": "798185",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MonitorDisplaySurface",
+                  "name": "Runtime_monitor_screen",
+                  "color": "ffffff",
+                  "emissive": "ffffff",
+                  "emissiveIntensity": 1
+                }
+              ]
+            },
+            "macbook": {
+              "meshes": 9,
+              "triangles": 14780,
+              "materials": 6,
+              "textures": [
+                {
+                  "name": "Runtime_macbook_CanvasScreen",
+                  "width": 512,
+                  "height": 320,
+                  "colorSpace": "srgb",
+                  "estimatedRGBABytesWithMipmaps": 873814
+                }
+              ],
+              "stateSurfaces": [
+                {
+                  "name": "VIS_MacBookDisplaySurface",
+                  "material": "Runtime_macbook_screen",
+                  "emissiveIntensity": 1,
+                  "mapName": "Runtime_macbook_CanvasScreen",
+                  "textureUpdates": 3
+                }
+              ],
+              "materialState": [
+                {
+                  "mesh": "VIS_MacBookChassis",
+                  "name": "MAT_MacBook_SatinAluminum",
+                  "color": "c2c9ce",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookKeyboardWell",
+                  "name": "MAT_MacBook_BlackGlassBezel",
+                  "color": "14191f",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookKeysAndPorts",
+                  "name": "MAT_MacBook_GraphiteKeys",
+                  "color": "2e3338",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookMachinedDetails",
+                  "name": "MAT_MacBook_MachinedEdge",
+                  "color": "d4dade",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookTrackpad",
+                  "name": "MAT_MacBook_Trackpad",
+                  "color": "afb7bd",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookCamera",
+                  "name": "MAT_MacBook_GraphiteKeys",
+                  "color": "2e3338",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookDisplaySurface",
+                  "name": "Runtime_macbook_screen",
+                  "color": "ffffff",
+                  "emissive": "ffffff",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookLidBezel",
+                  "name": "MAT_MacBook_BlackGlassBezel",
+                  "color": "14191f",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MacBookLidHousing",
+                  "name": "MAT_MacBook_SatinAluminum",
+                  "color": "c2c9ce",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                }
+              ]
+            },
+            "marshall": {
+              "meshes": 5,
+              "triangles": 4464,
+              "materials": 5,
+              "textures": [
+                {
+                  "name": "woven_grille_basecolor_512",
+                  "width": 512,
+                  "height": 512,
+                  "colorSpace": "srgb",
+                  "estimatedRGBABytesWithMipmaps": 1398102
+                }
+              ],
+              "stateSurfaces": [
+                {
+                  "name": "VIS_MarshallPowerIndicator",
+                  "material": "Runtime_marshall_indicator",
+                  "emissiveIntensity": 0,
+                  "mapName": null,
+                  "textureUpdates": 0
+                }
+              ],
+              "materialState": [
+                {
+                  "mesh": "VIS_MarshallBrassTrimAndDials",
+                  "name": "MAT_Marshall_BrushedBrass",
+                  "color": "cdaa6f",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MarshallCabinet",
+                  "name": "MAT_Marshall_WarmCharcoal",
+                  "color": "45403a",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MarshallControlAndFeet",
+                  "name": "MAT_Marshall_ControlAndFeet",
+                  "color": "242826",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MarshallGrille",
+                  "name": "MAT_Marshall_WovenGrille",
+                  "color": "ffffff",
+                  "emissive": "000000",
+                  "emissiveIntensity": 1
+                },
+                {
+                  "mesh": "VIS_MarshallPowerIndicator",
+                  "name": "Runtime_marshall_indicator",
+                  "color": "395746",
+                  "emissive": "87dcad",
+                  "emissiveIntensity": 0
+                }
+              ]
+            }
+          },
+          "status": "ready",
+          "validation": {
+            "ok": true,
+            "missingNodes": [],
+            "missingTargets": [],
+            "errors": [],
+            "nodeCount": 85,
+            "meshCount": 72,
+            "sourceMeshCount": 55,
+            "triangleCount": 6566,
+            "materialCount": 6,
+            "mappings": [
+              {
+                "id": "monitor",
+                "label": "Monitor",
+                "nodeNames": [
+                  "TEC_MonitorBody",
+                  "TEC_MonitorScreen"
+                ],
+                "targetName": "TGT_Monitor",
+                "targetPosition": [
+                  -0.41999998688697815,
+                  1.2000000476837158,
+                  -2.0799999237060547
+                ]
+              },
+              {
+                "id": "macbook",
+                "label": "MacBook",
+                "nodeNames": [
+                  "TEC_MacBookBase",
+                  "TEC_MacBookScreen"
+                ],
+                "targetName": "TGT_MacBook",
+                "targetPosition": [
+                  -1.5,
+                  0.9399999976158142,
+                  -1.9700000286102295
+                ]
+              },
+              {
+                "id": "ipad",
+                "label": "iPad",
+                "nodeNames": [
+                  "TEC_iPad"
+                ],
+                "targetName": "TGT_iPad",
+                "targetPosition": [
+                  -0.6600000262260437,
+                  0.5,
+                  1.1799999475479126
+                ]
+              },
+              {
+                "id": "marshall",
+                "label": "Marshall",
+                "nodeNames": [
+                  "TEC_Marshall"
+                ],
+                "targetName": "TGT_Marshall",
+                "targetPosition": [
+                  0.38999998569488525,
+                  0.8849999904632568,
+                  -2.059999942779541
+                ]
+              },
+              {
+                "id": "piano",
+                "label": "Piano",
+                "nodeNames": [
+                  "INT_PianoRail",
+                  "INT_Piano"
+                ],
+                "targetName": "TGT_Piano",
+                "targetPosition": [
+                  -0.6499999761581421,
+                  0.6000000238418579,
+                  -1.2899999618530273
+                ]
+              },
+              {
+                "id": "trashcan",
+                "label": "Trash can",
+                "nodeNames": [
+                  "INT_TrashCanBody",
+                  "INT_TrashCanLid"
+                ],
+                "targetName": "TGT_TrashCan",
+                "targetPosition": [
+                  1.1200000047683716,
+                  0.46000000834465027,
+                  -1.7999999523162842
+                ]
+              },
+              {
+                "id": "lightswitch",
+                "label": "Light switch",
+                "nodeNames": [
+                  "INT_LightSwitch"
+                ],
+                "targetName": "TGT_LightSwitch",
+                "targetPosition": [
+                  -3.5399999618530273,
+                  1.2000000476837158,
+                  1.4700000286102295
+                ]
+              },
+              {
+                "id": "phone",
+                "label": "Phone",
+                "nodeNames": [
+                  "TEC_Phone"
+                ],
+                "targetName": "TGT_Phone",
+                "targetPosition": [
+                  0.1599999964237213,
+                  0.8399999737739563,
+                  -1.75
+                ]
+              },
+              {
+                "id": "window",
+                "label": "Window",
+                "nodeNames": [
+                  "ENV_WindowFrame",
+                  "ENV_WindowGlass"
+                ],
+                "targetName": "TGT_Window",
+                "targetPosition": [
+                  -0.675000011920929,
+                  1.840000033378601,
+                  -2.9000000953674316
+                ]
+              }
+            ]
+          },
+          "hovered": null,
+          "selected": "macbook",
+          "performance": {
+            "fps": 14.895294839062851,
+            "frameMs": 67.1352941183483,
+            "calls": 23,
+            "triangles": 15548
+          },
+          "interaction": {
+            "activeObject": "macbook",
+            "hoveredObject": null,
+            "interactionPhase": "returning",
+            "isCameraBusy": true,
+            "pianoState": "extended",
+            "macbookState": "closing",
+            "trashState": "closed",
+            "lightsState": "on",
+            "marshallPower": "off",
+            "time": 12,
+            "weather": "Sunny",
+            "reducedMotion": false,
+            "returnRequested": false,
+            "error": null
+          },
+          "pianoRetractedHitAreaActive": false,
+          "mechanical": {
+            "macbookState": "closing",
+            "trashState": "closed",
+            "pianoState": "extended",
+            "lightsState": "on",
+            "marshallPower": "off",
+            "transforms": {
+              "macbook": {
+                "position": [
+                  -1.5,
+                  0.7760000228881836,
+                  -1.9774999618530273
+                ],
+                "quaternion": [
+                  -0.10426718818650714,
+                  0,
+                  0,
+                  0.9945493223257936
+                ],
+                "rotation": [
+                  -0.20891408908241163,
+                  0,
+                  0
+                ]
+              },
+              "trash": {
+                "position": [
+                  1.1200000047683716,
+                  0.4740000069141388,
+                  -1.9930000305175781
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "piano": {
+                "position": [
+                  -0.6499999761581421,
+                  0.6000000238418579,
+                  -1.2899999618530273
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "switch": {
+                "position": [
+                  -3.5390000343322754,
+                  1.2000000476837158,
+                  1.4700000286102295
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  0.06975648552179337,
+                  0.9975640773773193
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0.13962636763260747
+                ]
+              }
+            },
+            "lightValues": {
+              "LGT_CabinetProxy": 5.172535650486599,
+              "LGT_DeskProxy": 0.716197243913529,
+              "LGT_BedProxy": 0.954929658551372
+            },
+            "baseLightValues": {
+              "LGT_Ambient": 1,
+              "LGT_WindowKey": 15.915494309189532
+            },
+            "screenValues": {},
+            "sourceEndpoints": {
+              "macbookOpenX": -1.8325958201049855,
+              "trashOpenX": -1.7453292519943295,
+              "switchOnZ": 0.13962636763260747,
+              "switchOffZ": -0.13962636763260747,
+              "pianoRetractedZ": -1.9399999618530273,
+              "pianoExtendedZ": -1.2899999618530273,
+              "pianoTravel": 0.65
+            }
+          },
+          "cameraAnimation": {
+            "position": [
+              -1.25,
+              1.4199999976158142,
+              -0.9200000286102294
+            ],
+            "quaternion": [
+              -0.22830172042068828,
+              0.11348317489181813,
+              0.026804135385973198,
+              0.9665823461017883
+            ],
+            "fov": 28.072486791188595,
+            "aspect": 1.5,
+            "near": 0.05000000074505806,
+            "far": 100,
+            "zoom": 1,
+            "hero": {
+              "position": [
+                7.891778469085693,
+                7.609460353851318,
+                10.294089317321777
+              ],
+              "quaternion": [
+                -0.22637604716554904,
+                0.31229574177456654,
+                0.07689316051044089,
+                0.9194088848550981
+              ],
+              "fov": 28.072486791188595,
+              "aspect": 1.5,
+              "near": 0.05000000074505806,
+              "far": 100,
+              "zoom": 1
+            },
+            "focusedObject": "macbook",
+            "busy": false
+          },
+          "renderFrames": 113,
+          "camera": {
+            "name": "CAM_Hero_FINAL",
+            "position": [
+              -1.25,
+              1.4199999976158142,
+              -0.9200000286102294
+            ],
+            "quaternion": [
+              -0.22830172042068828,
+              0.11348317489181813,
+              0.026804135385973198,
+              0.9665823461017883
+            ],
+            "fov": 28.072486791188595,
+            "aspect": 1.5,
+            "near": 0.05000000074505806,
+            "far": 100
+          }
+        },
+        "samples": [
+          {
+            "timestamp": 8917.09999999404,
+            "state": "open",
+            "phase": "focused",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 8928.09999999404,
+            "state": "open",
+            "phase": "focused",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 8944.699999988079,
+            "state": "open",
+            "phase": "focused",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 8961.40000000596,
+            "state": "open",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 8978.09999999404,
+            "state": "open",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 8995,
+            "state": "open",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9021,
+            "state": "open",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9028.199999988079,
+            "state": "open",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9080.09999999404,
+            "state": "open",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9094.799999982119,
+            "state": "open",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9135.40000000596,
+            "state": "open",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9147,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7933533787727356,
+                0,
+                0,
+                0.6087614297866821
+              ],
+              "rotation": [
+                -1.8325958201049855,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9192.199999988079,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7919590192535924,
+                0,
+                0,
+                0.6105742981907797
+              ],
+              "rotation": [
+                -1.82802166112625,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9251.59999999404,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7766373919282774,
+                0,
+                0,
+                0.6299479509288622
+              ],
+              "rotation": [
+                -1.7786203774480973,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9261.59999999404,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.771955706451865,
+                0,
+                0,
+                0.6356763689038611
+              ],
+              "rotation": [
+                -1.763823999283468,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9278.09999999404,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7607515557841704,
+                0,
+                0,
+                0.6490432399976134
+              ],
+              "rotation": [
+                -1.7289405388807086,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9320.699999988079,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7161238406821007,
+                0,
+                0,
+                0.6979732769442515
+              ],
+              "rotation": [
+                -1.5964658548061197,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9328,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.7041950222006882,
+                0,
+                0,
+                0.7100066334621427
+              ],
+              "rotation": [
+                -1.5625774932485645,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9382.199999988079,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.5835047775589604,
+                0,
+                0,
+                0.8121097266428403
+              ],
+              "rotation": [
+                -1.2460753658726536,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9394.799999982119,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.5413855521610219,
+                0,
+                0,
+                0.8407744720112358
+              ],
+              "rotation": [
+                -1.1441683761408628,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9442.09999999404,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.34923548388827336,
+                0,
+                0,
+                0.9370349987106672
+              ],
+              "rotation": [
+                -0.713510185241789,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9498.09999999404,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.16763046853879343,
+                0,
+                0,
+                0.9858499017526565
+              ],
+              "rotation": [
+                -0.3368512677300881,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9511.59999999404,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.13680358422415392,
+                0,
+                0,
+                0.9905981936118939
+              ],
+              "rotation": [
+                -0.27446787373117726,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9527.199999988079,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.10426718818650714,
+                0,
+                0,
+                0.9945493223257936
+              ],
+              "rotation": [
+                -0.20891408908241163,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9570,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.04301332601444334,
+                0,
+                0,
+                0.9990744987073995
+              ],
+              "rotation": [
+                -0.08605320112728544,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9577.199999988079,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.036187696783073514,
+                0,
+                0,
+                0.9993450108598863
+              ],
+              "rotation": [
+                -0.07239119941243582,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9628.09999999404,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.006625701646473145,
+                0,
+                0,
+                0.9999780498001026
+              ],
+              "rotation": [
+                -0.013251500250819526,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9628.40000000596,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.006625701646473145,
+                0,
+                0,
+                0.9999780498001026
+              ],
+              "rotation": [
+                -0.013251500250819526,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9644.59999999404,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.002753471714558299,
+                0,
+                0,
+                0.9999962091899469
+              ],
+              "rotation": [
+                -0.005506950387722064,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9684.299999982119,
+            "state": "closing",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                -0.00002932153284225311,
+                0,
+                0,
+                0.9999999995701238
+              ],
+              "rotation": [
+                -0.000058643065692909304,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9698.90000000596,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9747.5,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9805.90000000596,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9811.59999999404,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9828.09999999404,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9884.5,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9893.799999982119,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9939.09999999404,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9945,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9961.5,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 9998.199999988079,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10011.59999999404,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10073.59999999404,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10133.199999988079,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10144.90000000596,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10199.799999982119,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10211.59999999404,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10261.09999999404,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10278.299999982119,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10328.199999988079,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10344.90000000596,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10390.699999988079,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10394.799999982119,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10455.90000000596,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10461.5,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10517,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10528.199999988079,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10582.40000000596,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10595,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10641.59999999404,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10644.799999982119,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10706.90000000596,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10711.5,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10762.59999999404,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10778.40000000596,
+            "state": "closed",
+            "phase": "returning",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          },
+          {
+            "timestamp": 10803.799999982119,
+            "state": "closed",
+            "phase": "idle",
+            "transform": {
+              "position": [
+                -1.5,
+                0.7760000228881836,
+                -1.9774999618530273
+              ],
+              "quaternion": [
+                0,
+                0,
+                0,
+                1
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "assembly": {
+              "ok": true,
+              "errors": [],
+              "sourceNodeCount": 85,
+              "runtimeNodeCount": 142,
+              "installedFamilies": [
+                "monitor",
+                "macbook",
+                "marshall"
+              ],
+              "suppressedProxyMeshes": [
+                "TEC_MonitorBody",
+                "TEC_MonitorScreen",
+                "TEC_MacBookBase",
+                "TEC_MacBookScreen_Mesh",
+                "TEC_MacBookScreen_Mesh_1",
+                "TEC_Marshall"
+              ]
+            }
+          }
+        ]
+      },
+      "closed": {
+        "position": [
+          -1.5,
+          0.7760000228881836,
+          -1.9774999618530273
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "macbookCycles": [
+      {
+        "cycle": 1,
+        "point": {
+          "x": 729,
+          "y": 351
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 2,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 3,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 4,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 5,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 6,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 7,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 8,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 9,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 10,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 11,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 12,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 13,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 14,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 15,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 16,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 17,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 18,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 19,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "cycle": 20,
+        "point": {
+          "x": 718,
+          "y": 368
+        },
+        "open": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "closed": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "mobileProductionHitPoints": {
+      "monitor": {
+        "point": {
+          "x": 228,
+          "y": 362
+        },
+        "hit": {
+          "node": "VIS_MonitorDisplaySurface",
+          "assetFamily": "monitor",
+          "semanticId": "monitor",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MonitorDisplaySurface",
+            "TEC_MonitorScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "macbook": {
+        "point": {
+          "x": 198,
+          "y": 365
+        },
+        "hit": {
+          "node": "VIS_MacBookDisplaySurface",
+          "assetFamily": "macbook",
+          "semanticId": "macbook",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MacBookDisplaySurface",
+            "VIS_MacBookLid",
+            "TEC_MacBookScreen",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      },
+      "marshall": {
+        "point": {
+          "x": 243,
+          "y": 379
+        },
+        "hit": {
+          "node": "VIS_MarshallGrille",
+          "assetFamily": "marshall",
+          "semanticId": "marshall",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_MarshallGrille",
+            "VIS_MarshallBody",
+            "TEC_Marshall",
+            "TECH",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        }
+      }
+    },
+    "video": {
+      "source": "validation/v05/raw-video/page@e200483b150e5b8880181485dd949455.webm",
+      "mp4": "validation/v05/v05_interactions.mp4",
+      "conversionExitCode": 0,
+      "error": null
+    }
+  },
+  "runtime": [
+    {
+      "phase": "normal",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "normal",
+      "type": "warning",
+      "text": "[.WebGL-0x11c000e7a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "normal",
+      "type": "warning",
+      "text": "[.WebGL-0x11c000e7a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "normal",
+      "type": "warning",
+      "text": "[.WebGL-0x11c000e7a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "normal",
+      "type": "warning",
+      "text": "[.WebGL-0x11c000e7a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "phase": "reduced-motion",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "mobile-touch",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fallback-404-monitor",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fallback-404-monitor",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fallback-404-monitor",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fallback-404-macbook",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fallback-404-macbook",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fallback-404-macbook",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fallback-404-marshall",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fallback-404-marshall",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fallback-404-marshall",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fallback-corrupt-texture",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fallback-corrupt-texture",
+      "type": "error",
+      "text": "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3000/aa3480f1-b136-4cbf-a295-d53177e3bd67"
+    },
+    {
+      "phase": "fallback-corrupt-texture",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "navigation-cancel",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "navigation-cancel",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "navigation-cancel",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "navigation-cancel",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    }
+  ],
+  "requests": []
+}

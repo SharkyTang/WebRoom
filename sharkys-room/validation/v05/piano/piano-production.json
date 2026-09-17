@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-17T16:01:43.466Z",
+  "origin": "http://127.0.0.1:3001",
+  "mode": "production",
+  "summary": {
+    "passed": 3,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Production desktop reopens Piano at the recorded undertray pixel; debug remains absent",
+      "passed": true,
+      "point": {
+        "x": 757,
+        "y": 437
+      },
+      "noDiagnostics": true
+    },
+    {
+      "name": "Production 390×844 touch reopens Piano at the recorded undertray pixel; debug remains absent",
+      "passed": true,
+      "point": {
+        "x": 207,
+        "y": 393
+      },
+      "noDiagnostics": true
+    },
+    {
+      "name": "No browser runtime or asset errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "observations": {}
+}

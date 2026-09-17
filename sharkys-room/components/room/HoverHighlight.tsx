@@ -7,9 +7,10 @@ export function HoverHighlight({ room, hovered }: { room: Group; hovered: Intera
   useEffect(() => {
     if (!hovered) return;
     const originals = new Map<Mesh, Material | Material[]>();
+    const highlights = new Map<Mesh, Material | Material[]>();
     const temporary: Material[] = [];
     room.traverse(object => {
-      if (!(object instanceof Mesh) || resolveInteraction(object) !== hovered) return;
+      if (!(object instanceof Mesh) || object.userData.roomProxySuppressed || resolveInteraction(object) !== hovered) return;
       originals.set(object, object.material);
       const tint = (original: Material) => {
         const clone = original.clone();
@@ -17,9 +18,18 @@ export function HoverHighlight({ room, hovered }: { room: Group; hovered: Intera
         temporary.push(clone); return clone;
       };
       object.material = Array.isArray(object.material) ? object.material.map(tint) : tint(object.material);
+      highlights.set(object, object.material);
     });
     invalidate();
-    return () => { originals.forEach((material, object) => { object.material = material; }); temporary.forEach(material => material.dispose()); invalidate(); };
+    return () => {
+      originals.forEach((material, object) => {
+        // A power toggle or mechanism teardown may already own a newer material.
+        // Restore only the highlight installed by this effect.
+        if (object.material === highlights.get(object)) object.material = material;
+      });
+      temporary.forEach(material => material.dispose());
+      invalidate();
+    };
   }, [room, hovered, invalidate]);
   return null;
 }

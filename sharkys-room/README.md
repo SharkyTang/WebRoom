@@ -1,6 +1,6 @@
-# Sharky's Room — v0.4.1 Piano Discoverability Fix
+# Sharky's Room — v0.5 Final Asset Pipeline Pilot
 
-在已验收的 v0.4 交互原型内修复钢琴收回后难以再次发现的问题。直接加载冻结 FINAL GLB，保留 48mm Hero、3:2 contain 和真实模型射线检测。
+在 v0.4.1 基础上接入 Monitor、MacBook、Marshall 三件独立正式资产，提供可编辑 Blender 源与可复现导出脚本。保留冻结 FINAL、48mm Hero、3:2 contain、九项交互和钢琴桌下重新打开入口。
 
 ## 启动
 
@@ -25,7 +25,7 @@ npm start -- --port 3001
 
 鼠标悬停轻微高亮，点击／触屏轻点聚焦。也可用页脚 **Explore objects** 原生选择器打开全部 9 个物件；键盘可直接操作选择器与面板控件。聚焦后点击 **Back** 或按 **ESC** 返回精确 Hero Camera。移动端使用可见 Back，不依赖 hover。
 
-| 物件 | v0.4 行为 |
+| 物件 | 当前行为 |
 | --- | --- |
 | Monitor | 屏幕激活，Projects 占位 |
 | MacBook | 铰链打开，About / Education；退出关闭 |
@@ -56,15 +56,32 @@ npm run build
 npm run test:browser
 npm run test:interactions
 npm run test:piano
+npm run test:assets
 ```
 
 另开终端启动生产服务器（3001）后：
 
 ```bash
 npm run test:production
+ROOM_TEST_OUTPUT=validation/v05/piano ROOM_TEST_PRODUCTION=1 npm run test:piano
+ROOM_TEST_PRODUCTION=1 npm run test:assets
 ```
 
 浏览器测试默认使用 macOS Chrome；其他路径可设置 `CHROME_PATH`，服务地址可设置 `ROOM_TEST_URL`。Playwright 使用 ANGLE SwiftShader 软件 WebGL，触屏为浏览器模拟，不等同于真实手机性能验收。
+
+生产钢琴专项需要先运行 `ROOM_TEST_OUTPUT=validation/v05/piano npm run test:piano` 生成坐标；正式资产生产专项需要先运行开发版 `npm run test:assets`。性能独立采样使用 `ROOM_ASSET_PERFORMANCE_ONLY=1 ROOM_TEST_OUTPUT=validation/v05/performance npm run test:assets`，避免与其他浏览器/构建并行。
+
+## 正式资产
+
+三件 `.blend` 在 `blender-assets/`，网页 GLB 在 `public/models/production/`，尺寸、材质、授权与统计在 `assets-source/`。两块屏幕使用运行时 CanvasTexture，Marshall 使用独立小指示灯。
+
+```sh
+npm run assets:build                # 需要 Blender，重建源文件及 GLB
+npm run assets:build -- monitor     # 只重建一个家族
+node scripts/assets/inspect_export_contract.mjs
+```
+
+生成会覆盖所选家族的生成文件，手工编辑前先另存副本。加载/贴图失败时按家族保留完整灰盒，页脚显示原因提示及“刷新重试”；重试从初始状态重新加载。正式模型成功后旧灰盒不渲染也不接收点击，原语义与机械锚点继续保留。详见 [ASSET_PIPELINE_GUIDE.md](ASSET_PIPELINE_GUIDE.md)。
 
 ## 开发诊断
 
@@ -84,12 +101,14 @@ npm run test:production
 - `lib/room/interactionState.ts`：集中状态、动作互斥、Back 排队、环境状态。
 - `lib/room/focusViews.ts` / `cameraAnimation.ts`：9 个相对 target 偏移与可复用相机动画。
 - `lib/room/animationConstants.ts` / `mechanisms.ts`：精确机构端点、GSAP、独立材质和 practical lights。
+- `lib/room/assets/`：家族登记、装配校验、Canvas 屏幕、原子回退与资源所有权。
 - `public/models/`：FINAL GLB 的逐字节副本。
 - `tests/`：保留的 v0.3 契约／浏览器覆盖，加相机、机构、状态机与完整交互测试。
 - `validation/v041/`：钢琴专项截图、回归结果、构建日志与冻结资产完整性证据；v0.4 历史结果仍在 `validation/v04/`。
+- `validation/v05/`：v0.4.1 实测基线、新资产截图/录像、20轮开合、故障回退与性能记录。
 
 浏览器回归可设置 `ROOM_TEST_OUTPUT` 将结果保存到指定目录。生产钢琴专项使用 `ROOM_TEST_PRODUCTION=1 npm run test:piano`（先运行开发专项生成坐标记录）。
 
-本次交付见 [V0.4.1_PIANO_DISCOVERABILITY_REPORT.md](V0.4.1_PIANO_DISCOVERABILITY_REPORT.md)。v0.4 报告保留在 [INTERACTION_PROTOTYPE_REPORT.md](INTERACTION_PROTOTYPE_REPORT.md)，v0.3 报告保留在 [WEB_FOUNDATION_REPORT.md](WEB_FOUNDATION_REPORT.md)。
+本次交付见 [FINAL_ASSET_PIPELINE_REPORT.md](FINAL_ASSET_PIPELINE_REPORT.md)。历史报告保留：[v0.4.1 钢琴修复](V0.4.1_PIANO_DISCOVERABILITY_REPORT.md)、[v0.4 交互](INTERACTION_PROTOTYPE_REPORT.md)、[v0.3 基础](WEB_FOUNDATION_REPORT.md)。
 
-本轮停在 v0.4.1，不自动进入 v0.5。
+本轮停在 v0.5 技术交付，视觉效果待用户确认，不自动进入 v0.6。
