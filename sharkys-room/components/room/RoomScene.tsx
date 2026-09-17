@@ -8,6 +8,7 @@ import { HeroCamera } from './HeroCamera';
 import { CameraController } from './CameraController';
 import { HoverHighlight } from './HoverHighlight';
 import { DebugBridge } from './DebugBridge';
+import { isPianoRetractedHitAreaActive } from '@/lib/room/pianoInteraction';
 import type { RoomCanvasProps } from './RoomCanvas';
 function disposeScene(scene: Group) {
   const materials = new Set<Material>();
@@ -44,7 +45,7 @@ export function RoomScene(props: RoomCanvasProps) {
   }, [onError,onProgress,onValidation]);
   const camera=room?.getObjectByName(HERO_CAMERA_NAME);
   return <><hemisphereLight args={['#ecf2ff','#656875',1.6]} />
-    {room && camera instanceof PerspectiveCamera && <><HeroCamera source={camera} /><CameraController room={room} store={props.store} onReady={props.onReady}/><HoverHighlight room={room} hovered={props.hovered}/><RoomModel scene={room} hovered={props.hovered} onHover={props.onHover} onSelect={props.onSelect}/></>}
+    {room && camera instanceof PerspectiveCamera && <><HeroCamera source={camera} /><CameraController room={room} store={props.store} onReady={props.onReady}/><HoverHighlight room={room} hovered={props.hovered}/><RoomModel scene={room} hovered={props.hovered} onHover={props.onHover} onSelect={props.onSelect} pianoHitAreaActive={props.status === 'ready' && isPianoRetractedHitAreaActive(props.interaction)} visualizeHitAreas={props.debug && props.visualizeHitAreas}/></>}
     {props.debug && <DebugBridge room={room} {...props} />}
   </>;
 }

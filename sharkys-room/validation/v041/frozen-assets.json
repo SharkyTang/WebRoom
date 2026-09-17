@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-09-17T15:10:25.709Z",
+  "algorithm": "SHA-256",
+  "entries": [
+    {
+      "file": "../blockout_FINAL/sharkys_room_blockout_FINAL.blend",
+      "before": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "after": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "unchanged": true
+    },
+    {
+      "file": "../blockout_FINAL/sharkys_room_blockout_FINAL.glb",
+      "before": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "after": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "unchanged": true
+    },
+    {
+      "file": "public/models/sharkys_room_blockout_FINAL.glb",
+      "before": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "after": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "unchanged": true
+    }
+  ]
+}

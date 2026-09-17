@@ -6,7 +6,7 @@ type InteractionDefinition = {
   target: string;
 };
 
-// The only semantic-to-node mapping. Mesh primitives inherit their owning node's ID.
+// Frozen GLB mapping. Mesh primitives inherit their owning node's ID.
 export const interactiveObjects = {
   monitor: {
     label: 'Monitor',
@@ -40,8 +40,16 @@ export const interactionIds = Object.keys(interactiveObjects) as InteractionId[]
 export const requiredNodeNames = Object.values(interactiveObjects).flatMap(({ nodes }) => [...nodes]);
 export const requiredTargetNames = Object.values(interactiveObjects).map(({ target }) => target);
 
+/** Web-owned raycast targets, never part of requiredNodeNames or the frozen GLB. */
+export const runtimeInteractionTargets = {
+  PianoRetractedHitArea: 'piano',
+} as const satisfies Record<string, InteractionId>;
+
 const semanticIdByNode = new Map<string, InteractionId>(
-  interactionIds.flatMap((id) => interactiveObjects[id].nodes.map((name) => [name, id] as const)),
+  [
+    ...interactionIds.flatMap((id) => interactiveObjects[id].nodes.map((name) => [name, id] as const)),
+    ...Object.entries(runtimeInteractionTargets),
+  ],
 );
 
 /** GLTFLoader can wrap a multi-material node in a Group of primitive meshes. */

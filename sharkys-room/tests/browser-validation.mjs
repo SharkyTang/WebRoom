@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 // Tests only observe the debug API. Interactions are native browser pointer/touch input.
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const output = path.join(root, 'validation', 'v04', 'v03-regression');
+const output = process.env.ROOM_TEST_OUTPUT ?? path.join(root, 'validation', 'v04', 'v03-regression');
 const origin = process.env.ROOM_TEST_URL ?? 'http://localhost:3000';
 const semanticIds = ['monitor', 'macbook', 'ipad', 'marshall', 'piano', 'trashcan', 'lightswitch', 'phone', 'window'];
 const glbPath = '**/models/sharkys_room_blockout_FINAL.glb';

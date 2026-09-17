@@ -6,7 +6,7 @@ import type { InteractionId, RoomLoadStatus, RoomPerformance, RoomValidation } f
 import { RoomScene } from './RoomScene';
 import type { InteractionState, InteractionStore } from '@/lib/room/interactionState';
 export type RoomCanvasProps = {
-  interaction: InteractionState; store: InteractionStore;
+  interaction: InteractionState; store: InteractionStore; visualizeHitAreas: boolean;
   debug: boolean; demandDiagnostics: boolean; status: RoomLoadStatus; validation: RoomValidation | null; hovered: InteractionId | null; selected: InteractionId | null; performance: RoomPerformance | null;
   onProgress:(value:number)=>void; onValidation:(value:RoomValidation)=>void; onReady:()=>void; onError:(message:string)=>void; onHover:(id:InteractionId|null)=>void; onSelect:(id:InteractionId|null)=>void; onPerformance:(value:RoomPerformance)=>void;
 };

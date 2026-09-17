@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 // The debug bridge is observation-only. Every state change below comes from real
 // mouse, touchscreen or keyboard input; this test never calls an app controller.
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const output = path.join(root, 'validation', 'v04');
+const output = process.env.ROOM_TEST_OUTPUT ?? path.join(root, 'validation', 'v04');
 const origin = process.env.ROOM_TEST_URL ?? 'http://127.0.0.1:3000';
 const ids = ['monitor', 'macbook', 'ipad', 'marshall', 'piano', 'trashcan', 'lightswitch', 'phone', 'window'];
 const checks = [];

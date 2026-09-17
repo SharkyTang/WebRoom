@@ -1,11 +1,12 @@
 # WebRoom · Sharky's Room
 
-个人交互式 3D 房间项目。目前为 **v0.4 — INTERACTION PROTOTYPE COMPLETE**。在已验收的 v0.3 网页基础内实现了 9 项交互、GSAP 相机与机构动作、Back / ESC、移动触屏与减少动态效果。FINAL GLB 和空间冻结源文件保持不变。已停止在 v0.4，等待 review，不自动进入 v0.5。
+个人交互式 3D 房间项目。目前为 **v0.4.1 — PIANO DISCOVERABILITY FIX**。钢琴收回后，可直接点击／轻点桌前下方重新抽出。保留 v0.4 的 9 项交互、GSAP 相机与机构动作、Back / ESC、移动触屏与减少动态效果。FINAL GLB 和空间冻结源文件保持不变。本轮停在 v0.4.1，等待 review，不自动进入 v0.5。
 
-## v0.4 本地交互原型
+## v0.4.1 本地交互原型
 
 - [项目与启动／操作说明](sharkys-room/README.md)
-- [Interaction Prototype 验收报告](sharkys-room/INTERACTION_PROTOTYPE_REPORT.md)
+- [v0.4.1 钢琴发现性修复报告](sharkys-room/V0.4.1_PIANO_DISCOVERABILITY_REPORT.md)
+- [v0.4 Interaction Prototype 验收报告](sharkys-room/INTERACTION_PROTOTYPE_REPORT.md)
 - [Hero](sharkys-room/validation/v04/v04_hero.png) · [MacBook](sharkys-room/validation/v04/v04_macbook_open.png) · [手机交互](sharkys-room/validation/v04/v04_mobile_focus.png)
 - [历史：v0.3 Web Foundation 报告](sharkys-room/WEB_FOUNDATION_REPORT.md)
 
@@ -15,7 +16,7 @@ npm install
 npm run dev
 ```
 
-打开 http://127.0.0.1:3000 ，点击／轻点物件聚焦，Back 或 ESC 返回；也可使用页脚 Explore objects 选择器。62 项单元／契约测试、361 项资产检查和 78 项浏览器检查全部通过。
+打开 http://127.0.0.1:3000 ，点击／轻点物件聚焦，Back 或 ESC 返回；也可使用页脚 Explore objects 选择器。v0.4 历史验收结果保留；v0.4.1 验收结果见本次钢琴修复报告。
 
 ## 最终 Blockout
 

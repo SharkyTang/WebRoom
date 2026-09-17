@@ -109,7 +109,13 @@ export function createInteractionStore() {
       return () => { if (runtime === value) { generation++; runtime = null; unsubscribe(); value.camera.dispose(); value.mechanisms.dispose(); } };
     },
     hover: (id: InteractionId | null) => {
-      if (state.activeObject || state.isCameraBusy || state.hoveredObject === id) return;
+      if (state.isCameraBusy) return;
+      if (state.activeObject) {
+        const hoveredObject = state.interactionPhase === 'focused' && id === state.activeObject ? id : null;
+        if (state.hoveredObject !== hoveredObject) publish({ hoveredObject });
+        return;
+      }
+      if (state.hoveredObject === id) return;
       publish({ hoveredObject: id, interactionPhase: id ? 'hovering' : 'idle' });
     },
     activate, back: returnHome, toggle,

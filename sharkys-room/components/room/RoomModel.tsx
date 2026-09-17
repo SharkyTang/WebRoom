@@ -1,7 +1,11 @@
 import type { Group } from 'three';
 import type { InteractionId } from '@/types/room';
 import { useRoomInteractions } from './InteractionManager';
-export function RoomModel({scene,hovered,onHover,onSelect}:{scene:Group;hovered:InteractionId|null;onHover:(id:InteractionId|null)=>void;onSelect:(id:InteractionId|null)=>void}) {
+import { PianoRetractedHitArea } from './PianoRetractedHitArea';
+export function RoomModel({scene,hovered,onHover,onSelect,pianoHitAreaActive,visualizeHitAreas}:{scene:Group;hovered:InteractionId|null;onHover:(id:InteractionId|null)=>void;onSelect:(id:InteractionId|null)=>void;pianoHitAreaActive:boolean;visualizeHitAreas:boolean}) {
   const handlers=useRoomInteractions(hovered,onHover,onSelect);
-  return <primitive object={scene} dispose={null} {...handlers}/>;
+  return <group {...handlers}>
+    <primitive object={scene} dispose={null}/>
+    <PianoRetractedHitArea active={pianoHitAreaActive} visualize={visualizeHitAreas}/>
+  </group>;
 }

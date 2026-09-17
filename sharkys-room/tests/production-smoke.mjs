@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const output = path.join(root, 'validation', 'v04', 'production');
+const output = process.env.ROOM_TEST_OUTPUT ?? path.join(root, 'validation', 'v04', 'production');
 const origin = process.env.ROOM_TEST_URL ?? 'http://localhost:3001';
 const checks = [];
 const consoleMessages = [];

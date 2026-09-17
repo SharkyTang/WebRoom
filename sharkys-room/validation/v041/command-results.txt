@@ -1,0 +1,160 @@
+# v0.4.1 command results
+
+## asset-verification.log
+
+
+> sharkys-room@0.4.1 verify:asset
+> node scripts/verify-asset.mjs
+
+{
+  "ok": true,
+  "asset": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/public/models/sharkys_room_blockout_FINAL.glb",
+  "originalStatus": "byte-identical to original FINAL GLB",
+  "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "bytes": 411892,
+  "nodes": 85,
+  "meshDefinitions": 55,
+  "primitiveMeshes": 72,
+  "triangles": 6566,
+  "materials": 6,
+  "passedChecks": 361,
+  "failedChecks": []
+}
+
+## typecheck.log
+
+
+> sharkys-room@0.4.1 typecheck
+> tsc --noEmit
+
+
+## unit-tests.log
+
+
+> sharkys-room@0.4.1 test
+> node --import tsx --test tests/*.test.ts
+
+▶ focus views derived from the real frozen targets
+  ✔ covers all nine semantic IDs and keeps endpoints inside the open room (1.153708ms)
+  ✔ keeps the entire Hero-to-focus camera path clear of furniture and walls (2.617209ms)
+  ✔ has an unobscured centre ray to each semantic object from its focused view (1.312125ms)
+  ✔ frames every real MacBook base and open-screen vertex with a visible bottom margin (0.259959ms)
+✔ focus views derived from the real frozen targets (16.104833ms)
+▶ GSAP render-camera animation
+  ✔ restores the exact Hero pose/projection after every reduced-motion focus (1473.1905ms)
+  ✔ settles replaced, cancelled and disposed promises without competing tweens (83.728208ms)
+✔ GSAP render-camera animation (1557.489541ms)
+▶ central interaction state serialization
+  ✔ allows hover only when idle, and rapid object activations start one camera operation (0.927583ms)
+  ✔ queues Back during camera focus, completes mechanical exit, and restores idle once (3.734709ms)
+  ✔ ignores repeated toggles and queues Back while a mechanical animation is active (0.290875ms)
+  ✔ restricts environment state to focused Window and supports all five weather states and endpoints (0.184917ms)
+  ✔ propagates the reduced-motion preference through focus, mechanics, toggle and return (0.132375ms)
+  ✔ does not write state after unmount with pending focus (0.632541ms)
+  ✔ does not write state after unmount with pending enter (0.27425ms)
+  ✔ does not write state after unmount with pending home (0.299125ms)
+  ✔ an old detached operation cannot overwrite a newly attached runtime (0.154084ms)
+✔ central interaction state serialization (7.302584ms)
+▶ v0.4 mechanisms against the actual frozen FINAL GLB
+  ✔ preserves the authored open laptop / extended piano Hero on initialization (3.814625ms)
+  ✔ demonstrates the first MacBook close/open cycle at its loaded X hinge and closes on exit (2.063708ms)
+  ✔ prepares then pulls out on first Piano activation, and uses exact absolute endpoints thereafter (2.657958ms)
+  ✔ opens the Trash lid on local X and returns to exact closed quaternion without moving its pivot (0.807583ms)
+  ✔ toggles only the three practical lights and the converted local Z switch, preserving readable base lights (0.981792ms)
+  ✔ activates isolated screen clones without leaking to other shared greybox materials, then restores references (1.056125ms)
+  ✔ powers Marshall on, persists after Back, and toggles off without audio or unrelated material changes (0.992458ms)
+  ✔ coalesces rapid repeated GSAP rail requests, invalidates during motion, then stops rendering at idle (691.550834ms)
+  ✔ kills pending tweens safely on dispose, resolves awaiting callers, and restores all source TRS/materials/lights (33.801708ms)
+  ✔ reduced motion completes functional endpoints immediately and subscriptions can be removed (1.196208ms)
+✔ v0.4 mechanisms against the actual frozen FINAL GLB (749.607958ms)
+▶ Piano retracted interaction eligibility
+  ✔ only enables settled retraction across all phases (retracted) (0.29775ms)
+  ✔ only enables settled retraction across all phases (extending) (0.038708ms)
+  ✔ only enables settled retraction across all phases (extended) (0.032208ms)
+  ✔ only enables settled retraction across all phases (retracting) (0.024333ms)
+✔ Piano retracted interaction eligibility (10.41425ms)
+▶ Web-only Piano hit geometry against the real frozen room
+  ✔ shares the piano semantic without entering the frozen node contract (0.129708ms)
+  ✔ offers a broad mobile raycast region without covering the desktop, chair or other semantic objects (526.987417ms)
+✔ Web-only Piano hit geometry against the real frozen room (527.194083ms)
+▶ real frozen GLB loaded by Three.js
+  ✔ preserves geometry statistics, all required nodes, independent targets and Hero projection (3.123416ms)
+  ✔ reports native Y-up world positions without applying Blender conversion twice (1.021375ms)
+  ✔ allows the loader scene and application wrappers while retaining 85 source nodes (0.810125ms)
+  ✔ does not change frozen local transforms or parents while collecting diagnostics (1.331791ms)
+✔ real frozen GLB loaded by Three.js (16.85725ms)
+▶ semantic interaction contract
+  ✔ resolves each of the nine semantics from every hit-testable primitive (0.75575ms)
+  ✔ does not treat frozen furniture, camera targets or unrelated scene objects as interactive (0.527ms)
+✔ semantic interaction contract (1.382333ms)
+▶ explicit contract failures
+  ✔ fails clearly when required node TEC_MonitorBody is absent (1.36475ms)
+  ✔ fails clearly when required node TEC_MonitorScreen is absent (0.881833ms)
+  ✔ fails clearly when required node TEC_MacBookBase is absent (0.5065ms)
+  ✔ fails clearly when required node TEC_MacBookScreen is absent (0.447ms)
+  ✔ fails clearly when required node TEC_iPad is absent (0.491458ms)
+  ✔ fails clearly when required node TEC_Marshall is absent (0.507083ms)
+  ✔ fails clearly when required node INT_PianoRail is absent (0.437708ms)
+  ✔ fails clearly when required node INT_Piano is absent (0.447958ms)
+  ✔ fails clearly when required node INT_TrashCanBody is absent (0.635375ms)
+  ✔ fails clearly when required node INT_TrashCanLid is absent (0.38325ms)
+  ✔ fails clearly when required node INT_LightSwitch is absent (0.355167ms)
+  ✔ fails clearly when required node TEC_Phone is absent (0.347ms)
+  ✔ fails clearly when required node ENV_WindowFrame is absent (0.3295ms)
+  ✔ fails clearly when required node ENV_WindowGlass is absent (0.325209ms)
+  ✔ fails clearly when focus target TGT_Monitor is absent (0.356042ms)
+  ✔ fails clearly when focus target TGT_MacBook is absent (0.3375ms)
+  ✔ fails clearly when focus target TGT_iPad is absent (0.587208ms)
+  ✔ fails clearly when focus target TGT_Marshall is absent (0.348542ms)
+  ✔ fails clearly when focus target TGT_Piano is absent (0.539167ms)
+  ✔ fails clearly when focus target TGT_TrashCan is absent (0.357291ms)
+  ✔ fails clearly when focus target TGT_LightSwitch is absent (0.33275ms)
+  ✔ fails clearly when focus target TGT_Phone is absent (0.317ms)
+  ✔ fails clearly when focus target TGT_Window is absent (0.328583ms)
+  ✔ rejects a broken PianoRail → Piano parent relationship (0.378333ms)
+  ✔ rejects a moved frozen pivot: TEC_MacBookScreen (0.371583ms)
+  ✔ rejects a moved frozen pivot: INT_PianoRail (0.618167ms)
+  ✔ rejects a moved frozen pivot: INT_TrashCanLid (0.3185ms)
+  ✔ rejects a moved frozen pivot: INT_LightSwitch (0.332375ms)
+  ✔ rejects a missing Hero camera (0.377583ms)
+  ✔ rejects a changed source Hero projection (0.336958ms)
+  ✔ rejects a duplicate named required node (0.345708ms)
+✔ explicit contract failures (14.380708ms)
+ℹ tests 68
+ℹ suites 9
+ℹ pass 68
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1802.235375
+
+## build.log
+
+
+> sharkys-room@0.4.1 build
+> next build
+
+▲ Next.js 16.3.5 (Turbopack)
+✓ Running next.config.ts took 9ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 93ms
+  Running TypeScript ...
+  Finished TypeScript in 817ms ...
+  Collecting page data using 5 workers ...
+  Generating static pages using 5 workers (0/4) ...
+  Generating static pages using 5 workers (1/4) 
+  Generating static pages using 5 workers (2/4) 
+  Generating static pages using 5 workers (3/4) 
+✓ Generating static pages using 5 workers (4/4) in 186ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+└ ○ /icon.svg
+
+
+○  (Static)  prerendered as static content
+

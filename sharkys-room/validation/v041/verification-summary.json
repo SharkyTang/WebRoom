@@ -1,0 +1,49 @@
+{
+  "milestone": "SHARKY'S ROOM --- v0.4.1 PIANO DISCOVERABILITY FIX COMPLETE",
+  "verifiedAt": "2026-09-17T15:16:02.157Z",
+  "unitTests": {
+    "passed": 68,
+    "failed": 0,
+    "newRegressionTests": 6
+  },
+  "assetChecks": {
+    "passed": 361,
+    "failed": 0
+  },
+  "browserChecks": [
+    {
+      "file": "v03-regression/browser_validation.json",
+      "passed": 34,
+      "failed": 0
+    },
+    {
+      "file": "v04-regression/interaction_browser.json",
+      "passed": 37,
+      "failed": 0
+    },
+    {
+      "file": "production/production_smoke.json",
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "file": "piano-browser.json",
+      "passed": 10,
+      "failed": 0
+    },
+    {
+      "file": "piano-production.json",
+      "passed": 3,
+      "failed": 0
+    }
+  ],
+  "browserTotal": {
+    "passed": 91,
+    "failed": 0
+  },
+  "typecheck": "PASS",
+  "productionBuild": "PASS",
+  "frozenAssets": "3 SHA-256 before/after matches",
+  "sourceChanges": "Web/R3F only; no mechanical endpoints or camera changes",
+  "limitations": "Chrome software WebGL and emulated 390x844 touch; no physical-device performance claim"
+}

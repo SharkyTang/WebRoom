@@ -1,6 +1,6 @@
-# Sharky's Room — v0.4 Interaction Prototype
+# Sharky's Room — v0.4.1 Piano Discoverability Fix
 
-在已验收的 v0.3 项目内扩展的本地灰盒交互原型。直接加载冻结 FINAL GLB，保留 48mm Hero、3:2 contain 和真实模型射线检测。
+在已验收的 v0.4 交互原型内修复钢琴收回后难以再次发现的问题。直接加载冻结 FINAL GLB，保留 48mm Hero、3:2 contain 和真实模型射线检测。
 
 ## 启动
 
@@ -31,13 +31,13 @@ npm start -- --port 3001
 | MacBook | 铰链打开，About / Education；退出关闭 |
 | iPad | 屏幕激活，Memories 占位 |
 | Marshall | 首次电源开启，Power 控件切换；返回后保留状态，无音频 |
-| Piano | 0.65m 抽拉，Toggle piano 切换；返回保留姿态 |
+| Piano | 0.65m 抽拉；收回后悬停桌前下方显示 Pull-out Piano，点击／轻点重新抽出；Toggle piano 与选择器仍可用 |
 | Trash Can | 开盖、Deleted ideas live here.；退出关盖 |
 | Light Switch | 物理开关与 Cabinet / Desk / Bed 灯切换；保留状态 |
 | Phone | 屏幕激活，Contact / GitHub / LinkedIn / Email 占位 |
 | Window | Time 00:00–24:00 与五种天气状态；只更新状态与文字 |
 
-冻结 GLB 的初始 MacBook 已打开、钢琴已抽出。为了保留初次 Hero，首次聚焦这两件物体时会**先收起再展开**，随后按实际状态切换。钢琴收回后可能被桌子／椅子挡住，请使用 Explore objects 再次打开。没有添加会与其他物体重叠的隐形点击代理。
+冻结 GLB 的初始 MacBook 已打开、钢琴已抽出。为了保留初次 Hero，首次聚焦这两件物体时会**先收起再展开**，随后按实际状态切换。钢琴完全收回后，桌前下方启用 Web 专用的隐形点击区；悬停显示 **Pull-out Piano**，点击／触屏轻点即可重新抽出。抽出状态使用钢琴实体，悬停显示 **Put away Piano**。相机或机构运动期间点击区停用，普通桌面、椅子及其他物件保持原有命中规则。Explore objects 保留为键盘／辅助入口。
 
 动画期间重复点击不会创建第二条相机动画；Back 会等待当前机构动作完成再返回。系统开启“减少动态效果”时，相机缩短为 80ms、机械动作立即完成。
 
@@ -55,6 +55,7 @@ npm run build
 ```bash
 npm run test:browser
 npm run test:interactions
+npm run test:piano
 ```
 
 另开终端启动生产服务器（3001）后：
@@ -69,21 +70,26 @@ npm run test:production
 
 - `http://127.0.0.1:3000/?debug=1`：节点、targets、交互状态、相机和性能面板。
 - `http://127.0.0.1:3000/?debug=1&demand=1`：保留只读诊断 API，但使用按需渲染，验证动画后停止绘帧。
-- 生产环境忽略 debug 参数，不暴露开发 API。
+- `?debug=1&hitareas=1`：仅开发环境显示已启用的钢琴点击区线框。
+- 诊断提供 `pianoState` 与 `pianoRetractedHitAreaActive`；点击区只在收回且可操作时启用。
+- 生产环境忽略 debug / hitareas 参数，不暴露开发 API。
 
 普通模式始终按需渲染，GSAP `onUpdate` 才触发动画帧；开发 FPS 面板可使用持续采样。
 
 ## 结构
 
 - `components/room/`：保留 v0.3 加载、Canvas、模型、Hero、诊断拆分；新增 CameraController、InteractionOverlay、HoverHighlight。
-- `lib/room/interactiveObjects.ts`：唯一语义节点／target 映射。
+- `lib/room/interactiveObjects.ts`：唯一语义映射；冻结 GLB 节点与 Web runtime targets 分开声明。
+- `lib/room/pianoInteraction.ts` / `components/room/PianoRetractedHitArea.tsx`：桌前下方的 Web 点击区和状态门槛，不修改模型。
 - `lib/room/interactionState.ts`：集中状态、动作互斥、Back 排队、环境状态。
 - `lib/room/focusViews.ts` / `cameraAnimation.ts`：9 个相对 target 偏移与可复用相机动画。
 - `lib/room/animationConstants.ts` / `mechanisms.ts`：精确机构端点、GSAP、独立材质和 practical lights。
 - `public/models/`：FINAL GLB 的逐字节副本。
 - `tests/`：保留的 v0.3 契约／浏览器覆盖，加相机、机构、状态机与完整交互测试。
-- `validation/v04/`：本轮截图、测试结果、构建日志与源文件完整性证据。
+- `validation/v041/`：钢琴专项截图、回归结果、构建日志与冻结资产完整性证据；v0.4 历史结果仍在 `validation/v04/`。
 
-完整交付见 [INTERACTION_PROTOTYPE_REPORT.md](INTERACTION_PROTOTYPE_REPORT.md)。历史技术基础报告保留在 [WEB_FOUNDATION_REPORT.md](WEB_FOUNDATION_REPORT.md)。
+浏览器回归可设置 `ROOM_TEST_OUTPUT` 将结果保存到指定目录。生产钢琴专项使用 `ROOM_TEST_PRODUCTION=1 npm run test:piano`（先运行开发专项生成坐标记录）。
 
-本轮停在 v0.4，不自动进入 v0.5。
+本次交付见 [V0.4.1_PIANO_DISCOVERABILITY_REPORT.md](V0.4.1_PIANO_DISCOVERABILITY_REPORT.md)。v0.4 报告保留在 [INTERACTION_PROTOTYPE_REPORT.md](INTERACTION_PROTOTYPE_REPORT.md)，v0.3 报告保留在 [WEB_FOUNDATION_REPORT.md](WEB_FOUNDATION_REPORT.md)。
+
+本轮停在 v0.4.1，不自动进入 v0.5。

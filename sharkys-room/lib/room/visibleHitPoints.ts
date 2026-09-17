@@ -2,7 +2,7 @@ import { Mesh, Raycaster, Vector2, Vector3, type Camera, type Object3D } from 't
 import { interactionIds, resolveInteraction, type InteractionId } from './interactiveObjects';
 export type HitPoint={x:number;y:number};
 export type VisibleHitPoints=Partial<Record<InteractionId|'__noninteractive',HitPoint>>;
-/** Read-only test aid: each returned CSS point raycasts to the real visible geometry. */
+/** Read-only test aid: each CSS point raycasts to the nearest active semantic target. */
 export function visibleHitPoints(scene:Object3D,camera:Camera,canvas:HTMLCanvasElement):VisibleHitPoints {
   scene.updateWorldMatrix(true,true); camera.updateMatrixWorld();
   const rect=canvas.getBoundingClientRect(); const meshes:Mesh[]=[];
