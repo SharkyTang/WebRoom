@@ -1,12 +1,13 @@
 # WebRoom · Sharky's Room
 
-个人交互式 3D 房间项目。目前为 **v0.3 — WEB FOUNDATION COMPLETE**。冻结的 FINAL GLB 已接入本地 Next.js + React Three Fiber 页面，保持 48mm Hero 构图和原始场景结构，完成 9 项悬停／点击／触屏识别。已停止在 v0.3，等待 review；尚未进入正式交互动画或精模。
+个人交互式 3D 房间项目。目前为 **v0.4 — INTERACTION PROTOTYPE COMPLETE**。在已验收的 v0.3 网页基础内实现了 9 项交互、GSAP 相机与机构动作、Back / ESC、移动触屏与减少动态效果。FINAL GLB 和空间冻结源文件保持不变。已停止在 v0.4，等待 review，不自动进入 v0.5。
 
-## v0.3 本地网页
+## v0.4 本地交互原型
 
-- [Web 项目与启动说明](sharkys-room/README.md)
-- [Web Foundation 验收报告](sharkys-room/WEB_FOUNDATION_REPORT.md)
-- [桌面截图](sharkys-room/validation/web_desktop_1440.png) · [手机截图](sharkys-room/validation/web_mobile_390.png)
+- [项目与启动／操作说明](sharkys-room/README.md)
+- [Interaction Prototype 验收报告](sharkys-room/INTERACTION_PROTOTYPE_REPORT.md)
+- [Hero](sharkys-room/validation/v04/v04_hero.png) · [MacBook](sharkys-room/validation/v04/v04_macbook_open.png) · [手机交互](sharkys-room/validation/v04/v04_mobile_focus.png)
+- [历史：v0.3 Web Foundation 报告](sharkys-room/WEB_FOUNDATION_REPORT.md)
 
 ```bash
 cd sharkys-room
@@ -14,7 +15,7 @@ npm install
 npm run dev
 ```
 
-打开 http://127.0.0.1:3000 ，悬停／点击物件后查看页脚 semantic ID。当前只验证识别。37 项契约测试、361 项资产检查与 39 项浏览器检查通过。
+打开 http://127.0.0.1:3000 ，点击／轻点物件聚焦，Back 或 ESC 返回；也可使用页脚 Explore objects 选择器。62 项单元／契约测试、361 项资产检查和 78 项浏览器检查全部通过。
 
 ## 最终 Blockout
 

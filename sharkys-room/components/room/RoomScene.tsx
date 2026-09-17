@@ -5,6 +5,8 @@ import { MODEL_URL, HERO_CAMERA_NAME } from '@/lib/room/sceneConstants';
 import { validateScene } from '@/lib/room/diagnostics';
 import { RoomModel } from './RoomModel';
 import { HeroCamera } from './HeroCamera';
+import { CameraController } from './CameraController';
+import { HoverHighlight } from './HoverHighlight';
 import { DebugBridge } from './DebugBridge';
 import type { RoomCanvasProps } from './RoomCanvas';
 function disposeScene(scene: Group) {
@@ -42,7 +44,7 @@ export function RoomScene(props: RoomCanvasProps) {
   }, [onError,onProgress,onValidation]);
   const camera=room?.getObjectByName(HERO_CAMERA_NAME);
   return <><hemisphereLight args={['#ecf2ff','#656875',1.6]} />
-    {room && camera instanceof PerspectiveCamera && <><HeroCamera source={camera} onReady={props.onReady} /><RoomModel scene={room} hovered={props.hovered} onHover={props.onHover} onSelect={props.onSelect}/></>}
+    {room && camera instanceof PerspectiveCamera && <><HeroCamera source={camera} /><CameraController room={room} store={props.store} onReady={props.onReady}/><HoverHighlight room={room} hovered={props.hovered}/><RoomModel scene={room} hovered={props.hovered} onHover={props.onHover} onSelect={props.onSelect}/></>}
     {props.debug && <DebugBridge room={room} {...props} />}
   </>;
 }

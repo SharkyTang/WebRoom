@@ -1,10 +1,10 @@
-# Sharky's Room — v0.3 Web Foundation
+# Sharky's Room — v0.4 Interaction Prototype
 
-基于冻结的 FINAL GLB 的本地 Next.js + React Three Fiber 灰盒页面。
+在已验收的 v0.3 项目内扩展的本地灰盒交互原型。直接加载冻结 FINAL GLB，保留 48mm Hero、3:2 contain 和真实模型射线检测。
 
-## 运行
+## 启动
 
-需要 Node.js ≥ 20.9 和 npm。首次运行：
+需要 Node.js ≥20.9 与 npm。
 
 ```bash
 cd "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room"
@@ -12,47 +12,78 @@ npm install
 npm run dev
 ```
 
-打开 http://127.0.0.1:3000 。在房间的小物件上悬停／点击，页面下方会显示 `Hovered` / `Selected` 语义 ID。手机或触屏使用轻点。本轮仅验证识别，不播放机械动作、相机动画或内容面板。
-
-开发诊断地址：http://127.0.0.1:3000/?debug=1 。展开左上角 DEV 面板查看节点、targets、FPS、frame time、draw calls。只在开发环境启用；生产即使带 `?debug=1` 也禁用。没有自由旋转／WASD 控制。
-
-## 检查与生产运行
+打开 http://127.0.0.1:3000 。生产预览：
 
 ```bash
-npm run verify:asset
-npm test
-npm run typecheck
 npm run build
 npm start -- --port 3001
 ```
 
-生产预览：http://127.0.0.1:3001 。服务器仅监听本机；没有部署至外网。
+打开 http://127.0.0.1:3001 。仅监听本机，没有公开部署。
 
-真实 Chrome 验收（需先分别启动 dev / production server）：
+## 操作
+
+鼠标悬停轻微高亮，点击／触屏轻点聚焦。也可用页脚 **Explore objects** 原生选择器打开全部 9 个物件；键盘可直接操作选择器与面板控件。聚焦后点击 **Back** 或按 **ESC** 返回精确 Hero Camera。移动端使用可见 Back，不依赖 hover。
+
+| 物件 | v0.4 行为 |
+| --- | --- |
+| Monitor | 屏幕激活，Projects 占位 |
+| MacBook | 铰链打开，About / Education；退出关闭 |
+| iPad | 屏幕激活，Memories 占位 |
+| Marshall | 首次电源开启，Power 控件切换；返回后保留状态，无音频 |
+| Piano | 0.65m 抽拉，Toggle piano 切换；返回保留姿态 |
+| Trash Can | 开盖、Deleted ideas live here.；退出关盖 |
+| Light Switch | 物理开关与 Cabinet / Desk / Bed 灯切换；保留状态 |
+| Phone | 屏幕激活，Contact / GitHub / LinkedIn / Email 占位 |
+| Window | Time 00:00–24:00 与五种天气状态；只更新状态与文字 |
+
+冻结 GLB 的初始 MacBook 已打开、钢琴已抽出。为了保留初次 Hero，首次聚焦这两件物体时会**先收起再展开**，随后按实际状态切换。钢琴收回后可能被桌子／椅子挡住，请使用 Explore objects 再次打开。没有添加会与其他物体重叠的隐形点击代理。
+
+动画期间重复点击不会创建第二条相机动画；Back 会等待当前机构动作完成再返回。系统开启“减少动态效果”时，相机缩短为 80ms、机械动作立即完成。
+
+## 验证命令
+
+```bash
+npm run verify:asset
+npm run typecheck
+npm test
+npm run build
+```
+
+另开终端启动开发服务器后：
 
 ```bash
 npm run test:browser
+npm run test:interactions
+```
+
+另开终端启动生产服务器（3001）后：
+
+```bash
 npm run test:production
 ```
 
-默认使用 macOS 已安装的 Google Chrome。其他路径使用 `CHROME_PATH` 环境变量；测试地址用 `ROOM_TEST_URL` 覆盖。测试脚本的 SwiftShader 是软件 WebGL，性能数字不能替代真实手机或 GPU 基准。
+浏览器测试默认使用 macOS Chrome；其他路径可设置 `CHROME_PATH`，服务地址可设置 `ROOM_TEST_URL`。Playwright 使用 ANGLE SwiftShader 软件 WebGL，触屏为浏览器模拟，不等同于真实手机性能验收。
+
+## 开发诊断
+
+- `http://127.0.0.1:3000/?debug=1`：节点、targets、交互状态、相机和性能面板。
+- `http://127.0.0.1:3000/?debug=1&demand=1`：保留只读诊断 API，但使用按需渲染，验证动画后停止绘帧。
+- 生产环境忽略 debug 参数，不暴露开发 API。
+
+普通模式始终按需渲染，GSAP `onUpdate` 才触发动画帧；开发 FPS 面板可使用持续采样。
 
 ## 结构
 
-- `app/`：页面入口、布局、基础响应式样式。
-- `components/room/`：Canvas、模型、冻结相机、事件识别、加载／错误提示、开发诊断。
-- `lib/room/interactiveObjects.ts`：唯一的 9 语义 → 14 节点 → 9 targets 配置。
-- `lib/room/diagnostics.ts`：GLTFLoader 结果与冻结结构的只读比对。
-- `lib/room/frozenSceneManifest.json`：85 个原始节点和相机的冻结快照。
+- `components/room/`：保留 v0.3 加载、Canvas、模型、Hero、诊断拆分；新增 CameraController、InteractionOverlay、HoverHighlight。
+- `lib/room/interactiveObjects.ts`：唯一语义节点／target 映射。
+- `lib/room/interactionState.ts`：集中状态、动作互斥、Back 排队、环境状态。
+- `lib/room/focusViews.ts` / `cameraAnimation.ts`：9 个相对 target 偏移与可复用相机动画。
+- `lib/room/animationConstants.ts` / `mechanisms.ts`：精确机构端点、GSAP、独立材质和 practical lights。
 - `public/models/`：FINAL GLB 的逐字节副本。
-- `scripts/verify-asset.mjs`：资产 SHA256、尺寸、hierarchy、transform 检查。
-- `tests/`：真实资产契约测试和浏览器鼠标／触屏／生产验证。
-- `validation/`：截图、验收结果和构建日志。
+- `tests/`：保留的 v0.3 契约／浏览器覆盖，加相机、机构、状态机与完整交互测试。
+- `validation/v04/`：本轮截图、测试结果、构建日志与源文件完整性证据。
 
-## 冻结与显示
+完整交付见 [INTERACTION_PROTOTYPE_REPORT.md](INTERACTION_PROTOTYPE_REPORT.md)。历史技术基础报告保留在 [WEB_FOUNDATION_REPORT.md](WEB_FOUNDATION_REPORT.md)。
 
-直接加载 GLB，使用 `CAM_Hero_FINAL` 的独立相机副本。Three.js 使用导出的 Y-up 坐标；不再二次旋转模型。所有屏幕尺寸均以固定 3:2 画幅 contain，保留完整 Hero 构图。窄屏留白多、手机与开关等物件的触摸面积很小，最终移动 UX 留待后续规格。
-
-几何、节点名、父子关系、pivots、targets 和 `.blend` 均未修改。仅对 Web 灯光强度做统一换算并添加基础半球补光；不包含 Blender 的软阴影／AO。普通模式按需渲染；开发诊断模式持续渲染以采样 FPS。
-
-完整验收、依赖版本和限制见 [WEB_FOUNDATION_REPORT.md](WEB_FOUNDATION_REPORT.md)。完成本轮后停在 v0.3，等待下一阶段指令。
+本轮停在 v0.4，不自动进入 v0.5。

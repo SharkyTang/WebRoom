@@ -1,0 +1,88 @@
+
+> sharkys-room@0.4.0 test
+> node --import tsx --test tests/*.test.ts
+
+▶ focus views derived from the real frozen targets
+  ✔ covers all nine semantic IDs and keeps endpoints inside the open room (1.426ms)
+  ✔ keeps the entire Hero-to-focus camera path clear of furniture and walls (2.407041ms)
+  ✔ has an unobscured centre ray to each semantic object from its focused view (1.241458ms)
+  ✔ frames every real MacBook base and open-screen vertex with a visible bottom margin (0.242458ms)
+✔ focus views derived from the real frozen targets (15.968917ms)
+▶ GSAP render-camera animation
+  ✔ restores the exact Hero pose/projection after every reduced-motion focus (1476.0905ms)
+  ✔ settles replaced, cancelled and disposed promises without competing tweens (80.458875ms)
+✔ GSAP render-camera animation (1556.904833ms)
+▶ central interaction state serialization
+  ✔ allows hover only when idle, and rapid object activations start one camera operation (0.942083ms)
+  ✔ queues Back during camera focus, completes mechanical exit, and restores idle once (3.73425ms)
+  ✔ ignores repeated toggles and queues Back while a mechanical animation is active (0.298875ms)
+  ✔ restricts environment state to focused Window and supports all five weather states and endpoints (0.211958ms)
+  ✔ propagates the reduced-motion preference through focus, mechanics, toggle and return (0.133083ms)
+  ✔ does not write state after unmount with pending focus (0.616375ms)
+  ✔ does not write state after unmount with pending enter (0.296583ms)
+  ✔ does not write state after unmount with pending home (0.354791ms)
+  ✔ an old detached operation cannot overwrite a newly attached runtime (0.185ms)
+✔ central interaction state serialization (7.737ms)
+▶ v0.4 mechanisms against the actual frozen FINAL GLB
+  ✔ preserves the authored open laptop / extended piano Hero on initialization (3.739041ms)
+  ✔ demonstrates the first MacBook close/open cycle at its loaded X hinge and closes on exit (1.921667ms)
+  ✔ prepares then pulls out on first Piano activation, and uses exact absolute endpoints thereafter (3.213208ms)
+  ✔ opens the Trash lid on local X and returns to exact closed quaternion without moving its pivot (1.144958ms)
+  ✔ toggles only the three practical lights and the converted local Z switch, preserving readable base lights (0.983166ms)
+  ✔ activates isolated screen clones without leaking to other shared greybox materials, then restores references (0.878542ms)
+  ✔ powers Marshall on, persists after Back, and toggles off without audio or unrelated material changes (0.978292ms)
+  ✔ coalesces rapid repeated GSAP rail requests, invalidates during motion, then stops rendering at idle (692.578041ms)
+  ✔ kills pending tweens safely on dispose, resolves awaiting callers, and restores all source TRS/materials/lights (32.080916ms)
+  ✔ reduced motion completes functional endpoints immediately and subscriptions can be removed (0.844708ms)
+✔ v0.4 mechanisms against the actual frozen FINAL GLB (749.017083ms)
+▶ real frozen GLB loaded by Three.js
+  ✔ preserves geometry statistics, all required nodes, independent targets and Hero projection (2.348334ms)
+  ✔ reports native Y-up world positions without applying Blender conversion twice (0.858083ms)
+  ✔ allows the loader scene and application wrappers while retaining 85 source nodes (0.7475ms)
+  ✔ does not change frozen local transforms or parents while collecting diagnostics (1.445167ms)
+✔ real frozen GLB loaded by Three.js (15.662208ms)
+▶ semantic interaction contract
+  ✔ resolves each of the nine semantics from every hit-testable primitive (1.075375ms)
+  ✔ does not treat frozen furniture, camera targets or unrelated scene objects as interactive (0.638666ms)
+✔ semantic interaction contract (1.795459ms)
+▶ explicit contract failures
+  ✔ fails clearly when required node TEC_MonitorBody is absent (1.128667ms)
+  ✔ fails clearly when required node TEC_MonitorScreen is absent (0.480333ms)
+  ✔ fails clearly when required node TEC_MacBookBase is absent (0.405833ms)
+  ✔ fails clearly when required node TEC_MacBookScreen is absent (0.420166ms)
+  ✔ fails clearly when required node TEC_iPad is absent (0.47175ms)
+  ✔ fails clearly when required node TEC_Marshall is absent (0.460875ms)
+  ✔ fails clearly when required node INT_PianoRail is absent (0.485959ms)
+  ✔ fails clearly when required node INT_Piano is absent (0.773959ms)
+  ✔ fails clearly when required node INT_TrashCanBody is absent (0.443625ms)
+  ✔ fails clearly when required node INT_TrashCanLid is absent (0.377208ms)
+  ✔ fails clearly when required node INT_LightSwitch is absent (0.378542ms)
+  ✔ fails clearly when required node TEC_Phone is absent (0.458ms)
+  ✔ fails clearly when required node ENV_WindowFrame is absent (0.4ms)
+  ✔ fails clearly when required node ENV_WindowGlass is absent (0.342042ms)
+  ✔ fails clearly when focus target TGT_Monitor is absent (0.388417ms)
+  ✔ fails clearly when focus target TGT_MacBook is absent (0.790125ms)
+  ✔ fails clearly when focus target TGT_iPad is absent (0.440458ms)
+  ✔ fails clearly when focus target TGT_Marshall is absent (0.34875ms)
+  ✔ fails clearly when focus target TGT_Piano is absent (0.339ms)
+  ✔ fails clearly when focus target TGT_TrashCan is absent (0.361167ms)
+  ✔ fails clearly when focus target TGT_LightSwitch is absent (0.332208ms)
+  ✔ fails clearly when focus target TGT_Phone is absent (0.312208ms)
+  ✔ fails clearly when focus target TGT_Window is absent (0.338375ms)
+  ✔ rejects a broken PianoRail → Piano parent relationship (0.357542ms)
+  ✔ rejects a moved frozen pivot: TEC_MacBookScreen (0.567083ms)
+  ✔ rejects a moved frozen pivot: INT_PianoRail (0.344375ms)
+  ✔ rejects a moved frozen pivot: INT_TrashCanLid (0.329417ms)
+  ✔ rejects a moved frozen pivot: INT_LightSwitch (0.401458ms)
+  ✔ rejects a missing Hero camera (0.332416ms)
+  ✔ rejects a changed source Hero projection (0.334291ms)
+  ✔ rejects a duplicate named required node (0.335542ms)
+✔ explicit contract failures (14.006125ms)
+ℹ tests 62
+ℹ suites 7
+ℹ pass 62
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1803.158375

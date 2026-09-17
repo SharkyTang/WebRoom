@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 // Tests only observe the debug API. Interactions are native browser pointer/touch input.
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const output = path.join(root, 'validation');
+const output = path.join(root, 'validation', 'v04', 'v03-regression');
 const origin = process.env.ROOM_TEST_URL ?? 'http://localhost:3000';
 const semanticIds = ['monitor', 'macbook', 'ipad', 'marshall', 'piano', 'trashcan', 'lightswitch', 'phone', 'window'];
 const glbPath = '**/models/sharkys_room_blockout_FINAL.glb';
@@ -71,6 +71,22 @@ async function stateEquals(page, key, value) {
     const state = typeof debug.snapshot === 'function' ? debug.snapshot() : debug.snapshot;
     return state?.[key] === value;
   }, { key, value }, { timeout: 7_000 });
+}
+
+// v0.4 preserves detection while a click now focuses the camera. Return through
+// the real semantic Back button before the next v0.3 Hero-space assertion.
+async function returnToHero(page) {
+  const state = await snapshot(page);
+  if (!state?.interaction?.activeObject) return;
+  await page.waitForFunction(() => {
+    const state = window.__ROOM_DEBUG__?.snapshot().interaction;
+    return state?.interactionPhase === 'focused' && !state.isCameraBusy;
+  }, undefined, { timeout: 15_000 });
+  await page.getByRole('button', { name: 'Back', exact: true }).click();
+  await page.waitForFunction(() => {
+    const state = window.__ROOM_DEBUG__?.snapshot().interaction;
+    return state && state.activeObject === null && !state.isCameraBusy && ['idle', 'hovering'].includes(state.interactionPhase);
+  }, undefined, { timeout: 15_000 });
 }
 
 async function validateViewport(page, width, height) {
@@ -177,7 +193,9 @@ try {
         assert.equal(cursor, 'pointer');
         await page.mouse.click(point.x, point.y);
         await stateEquals(page, 'selected', id);
-        return { point, cursor, state: await snapshot(page) };
+        const state = await snapshot(page);
+        await returnToHero(page);
+        return { point, cursor, state };
       });
     }
 
@@ -212,7 +230,7 @@ try {
       await page.screenshot({ path: path.join(output, 'web_desktop_1440.png') });
       const hasDebugApi = await page.evaluate(() => Boolean(window.__ROOM_DEBUG__));
       assert.equal(hasDebugApi, false, 'Read-only diagnostics should require the debug query flag');
-      return { screenshot: 'validation/web_desktop_1440.png' };
+      return { screenshot: 'validation/v04/v03-regression/web_desktop_1440.png' };
     });
   }
 
@@ -242,6 +260,7 @@ try {
         } finally {
           detail.state = await snapshot(mobile);
         }
+        await returnToHero(mobile);
         return detail;
       });
     }
@@ -250,7 +269,7 @@ try {
     await mobile.goto(origin, { waitUntil: 'domcontentloaded' });
     await mobile.waitForSelector('[data-room-status="ready"]', { timeout: 60_000 });
     await mobile.screenshot({ path: path.join(output, 'web_mobile_390.png') });
-    return { screenshot: 'validation/web_mobile_390.png' };
+    return { screenshot: 'validation/v04/v03-regression/web_mobile_390.png' };
   });
 
   const loadingContext = await browser.newContext({ viewport: { width: 1280, height: 720 } });
@@ -267,7 +286,7 @@ try {
     await loadingPage.screenshot({ path: path.join(output, 'web_loading.png') });
     releaseDownload();
     await ready(loadingPage);
-    return { screenshot: 'validation/web_loading.png', recoversToReady: true };
+    return { screenshot: 'validation/v04/v03-regression/web_loading.png', recoversToReady: true };
   });
   releaseDownload();
 
@@ -283,7 +302,7 @@ try {
     const text = await alert.innerText();
     assert(text.length > 15, 'Error must explain the failure');
     await errorPage.screenshot({ path: path.join(output, 'web_glb_404.png') });
-    return { text, screenshot: 'validation/web_glb_404.png' };
+    return { text, screenshot: 'validation/v04/v03-regression/web_glb_404.png' };
   });
 
   const missingContext = await browser.newContext({ viewport: { width: 1280, height: 720 } });
@@ -302,7 +321,7 @@ try {
     const text = await alert.innerText();
     assert(text.includes('TEC_MonitorBody'), `Missing node must be named in error: ${text}`);
     await missingPage.screenshot({ path: path.join(output, 'web_missing_node.png') });
-    return { text, screenshot: 'validation/web_missing_node.png' };
+    return { text, screenshot: 'validation/v04/v03-regression/web_missing_node.png' };
   });
 
   await check('Normal desktop/mobile runtime has no critical console errors or missing assets', async () => {
@@ -326,13 +345,14 @@ try {
   };
   await fs.writeFile(path.join(output, 'browser_validation.json'), JSON.stringify(result, null, 2) + '\n');
   await fs.writeFile(path.join(output, 'BROWSER_VALIDATION.md'), [
-    '# v0.3 Browser Validation', '',
+    '# v0.3 Browser Regression Validation on v0.4', '',
     `- Generated: ${result.generatedAt}`,
     `- URL: ${origin}`,
     `- Browser: ${result.browser}`,
     `- Result: ${result.summary.passed} passed; ${result.summary.failed} failed`,
     '- Performance readings are local software-renderer observations, not a hardware performance benchmark.',
-    '- Pointer/touch tests use real browser input. Frozen assets are never edited.', '',
+    '- Pointer/touch tests use real browser input. Frozen assets are never edited.',
+    '- v0.4 compatibility adaptation: each original semantic click/tap assertion is followed by the visible Back control before the next Hero-space assertion. No original checks were removed.', '',
     '## Observations', '',
     `- Performance sample: ${observations.performance ? `${observations.performance.fps.toFixed(2)} FPS; ${observations.performance.frameMs.toFixed(2)} ms; ${observations.performance.calls} renderer calls; ${observations.performance.triangles} rendered triangles` : 'unavailable'}.`,
     '- The controlled GLB-404 scenario intentionally generates one browser resource error; it is not a normal-mode failure.',

@@ -1,0 +1,222 @@
+{
+  "gsapVersion": "3.15.0",
+  "focusViews": {
+    "monitor": {
+      "offset": [
+        0.15,
+        0.32,
+        2.05
+      ],
+      "lookOffset": [
+        0,
+        0,
+        0
+      ],
+      "note": "Front workstation view, above the keyboard and chair."
+    },
+    "macbook": {
+      "offset": [
+        0.25,
+        0.48,
+        1.05
+      ],
+      "lookOffset": [
+        0,
+        -0.06,
+        0
+      ],
+      "note": "Raised front view keeps the base and opened screen readable."
+    },
+    "ipad": {
+      "offset": [
+        0.4,
+        1,
+        0.9
+      ],
+      "lookOffset": [
+        0,
+        0,
+        0
+      ],
+      "note": "Oblique top view of the tablet, clear of the coffee table."
+    },
+    "marshall": {
+      "offset": [
+        0.35,
+        0.35,
+        1.1
+      ],
+      "lookOffset": [
+        0,
+        0,
+        0
+      ],
+      "note": "Front right view of the independent speaker proxy."
+    },
+    "piano": {
+      "offset": [
+        0.9,
+        0.7,
+        1.6
+      ],
+      "lookOffset": [
+        0,
+        0,
+        -0.2
+      ],
+      "note": "Raised front right view includes both rail endpoints without entering the chair."
+    },
+    "trashcan": {
+      "offset": [
+        0.2,
+        0.68,
+        1.15
+      ],
+      "lookOffset": [
+        0,
+        -0.1,
+        0
+      ],
+      "note": "Approach from the aisle between desk and bed, looking down at the lid."
+    },
+    "lightswitch": {
+      "offset": [
+        0.9,
+        0.18,
+        0.35
+      ],
+      "lookOffset": [
+        0,
+        0,
+        0
+      ],
+      "note": "Face the left wall from inside the room, above the sofa arm."
+    },
+    "phone": {
+      "offset": [
+        0.24,
+        0.36,
+        0.82
+      ],
+      "lookOffset": [
+        0,
+        0,
+        0
+      ],
+      "note": "Close front right view, above the desktop and mouse."
+    },
+    "window": {
+      "offset": [
+        0.45,
+        0.3,
+        3.8
+      ],
+      "lookOffset": [
+        0,
+        0,
+        0
+      ],
+      "note": "Wider window overview above the workstation; no move through the window wall."
+    }
+  },
+  "initial": {
+    "macbookState": "open",
+    "trashState": "closed",
+    "pianoState": "extended",
+    "lightsState": "on",
+    "marshallPower": "off",
+    "transforms": {
+      "macbook": {
+        "position": [
+          -1.5,
+          0.7760000228881836,
+          -1.9774999618530273
+        ],
+        "quaternion": [
+          -0.7933533787727356,
+          0,
+          0,
+          0.6087614297866821
+        ],
+        "rotation": [
+          -1.8325958201049857,
+          0,
+          0
+        ]
+      },
+      "trash": {
+        "position": [
+          1.1200000047683716,
+          0.4740000069141388,
+          -1.9930000305175781
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "piano": {
+        "position": [
+          -0.6499999761581421,
+          0.6000000238418579,
+          -1.2899999618530273
+        ],
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "switch": {
+        "position": [
+          -3.5390000343322754,
+          1.2000000476837158,
+          1.4700000286102295
+        ],
+        "quaternion": [
+          0,
+          0,
+          0.06975648552179337,
+          0.9975640773773193
+        ],
+        "rotation": [
+          0,
+          0,
+          0.13962636763260744
+        ]
+      }
+    },
+    "lightValues": {
+      "LGT_CabinetProxy": 5.172535650486599,
+      "LGT_DeskProxy": 0.716197243913529,
+      "LGT_BedProxy": 0.954929658551372
+    },
+    "baseLightValues": {
+      "LGT_Ambient": 1,
+      "LGT_WindowKey": 15.915494309189532
+    },
+    "screenValues": {},
+    "sourceEndpoints": {
+      "macbookOpenX": -1.8325958201049857,
+      "trashOpenX": -1.7453292519943295,
+      "switchOnZ": 0.13962636763260744,
+      "switchOffZ": -0.13962636763260744,
+      "pianoRetractedZ": -1.9399999618530273,
+      "pianoExtendedZ": -1.2899999618530273,
+      "pianoTravel": 0.65
+    }
+  }
+}

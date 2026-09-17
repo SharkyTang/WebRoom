@@ -1,0 +1,18 @@
+
+> sharkys-room@0.4.0 verify:asset
+> node scripts/verify-asset.mjs
+
+{
+  "ok": true,
+  "asset": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/public/models/sharkys_room_blockout_FINAL.glb",
+  "originalStatus": "byte-identical to original FINAL GLB",
+  "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "bytes": 411892,
+  "nodes": 85,
+  "meshDefinitions": 55,
+  "primitiveMeshes": 72,
+  "triangles": 6566,
+  "materials": 6,
+  "passedChecks": 361,
+  "failedChecks": []
+}

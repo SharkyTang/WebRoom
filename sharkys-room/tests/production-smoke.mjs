@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const output = path.join(root, 'validation');
+const output = path.join(root, 'validation', 'v04', 'production');
 const origin = process.env.ROOM_TEST_URL ?? 'http://localhost:3001';
 const checks = [];
 const consoleMessages = [];
@@ -105,6 +105,18 @@ try {
     return { comparedCanvasBytes: before.length, identical: true };
   });
 
+  await check('Production desktop supports native Monitor focus and Back without a diagnostic API', async () => {
+    await page.getByRole('combobox', { name: 'Explore objects', exact: true }).selectOption('monitor');
+    await page.waitForSelector('[data-interaction-phase="focused"]', { timeout: 15_000 });
+    assert(await page.getByRole('heading', { name: 'Projects', exact: true }).isVisible());
+    assert.equal(await page.evaluate(() => Boolean(window.__ROOM_DEBUG__)), false);
+    await page.screenshot({ path: path.join(output, 'v04_production_monitor.png') });
+    await page.getByRole('button', { name: 'Back', exact: true }).click();
+    await page.waitForSelector('[data-interaction-phase="idle"]', { timeout: 15_000 });
+    assert.equal(await page.getByRole('button', { name: 'Back', exact: true }).count(), 0);
+    return { focusedTitle: 'Projects', returned: true };
+  });
+
   const mobileContext = await browser.newContext({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true, deviceScaleFactor: 1 });
   const mobile = await mobileContext.newPage();
   observe(mobile, 'production-mobile');
@@ -119,6 +131,24 @@ try {
     assert.equal(result.hasDebugApi, false);
     await mobile.screenshot({ path: path.join(output, 'web_production_390.png') });
     return result;
+  });
+
+  await check('Production mobile exposes all nine non-hover choices, native Window controls and visible Back', async () => {
+    const select = mobile.getByRole('combobox', { name: 'Explore objects', exact: true });
+    const values = await select.locator('option').evaluateAll((options) => options.map((option) => option.value).filter(Boolean));
+    assert.deepEqual(values.sort(), ['monitor', 'macbook', 'ipad', 'marshall', 'piano', 'trashcan', 'lightswitch', 'phone', 'window'].sort());
+    await select.selectOption('window');
+    await mobile.waitForSelector('[data-interaction-phase="focused"]', { timeout: 15_000 });
+    await mobile.getByRole('button', { name: 'Snowy', exact: true }).tap();
+    assert.equal(await mobile.getByRole('button', { name: 'Snowy', exact: true }).getAttribute('aria-pressed'), 'true');
+    const slider = mobile.getByRole('slider', { name: 'Time', exact: true });
+    assert(await slider.isEnabled());
+    const back = mobile.getByRole('button', { name: 'Back', exact: true });
+    assert(await back.isVisible());
+    await back.tap();
+    await mobile.waitForSelector('[data-interaction-phase="idle"]', { timeout: 15_000 });
+    assert.equal(await mobile.evaluate(() => Boolean(window.__ROOM_DEBUG__)), false);
+    return { choices: values, selectedWeather: 'Snowy', returned: true };
   });
 
   await check('Production has successful asset responses and no browser runtime errors', async () => {
