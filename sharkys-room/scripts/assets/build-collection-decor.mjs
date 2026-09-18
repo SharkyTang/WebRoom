@@ -1,0 +1,12 @@
+import {existsSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const allowed=['eiffel','hogwarts','minastirith','falcon','bridge','sls','ferrari','mercedes','plants','cola','dog','fixtures','wallart','minastirith-preview'];
+const selected=process.argv.slice(2);
+if(selected.some(id=>!allowed.includes(id)))throw new Error(`Expected C family: ${allowed.join(', ')}`);
+const blender=process.env.BLENDER_BIN??(existsSync('/Applications/Blender.app/Contents/MacOS/Blender')?'/Applications/Blender.app/Contents/MacOS/Blender':'blender');
+const result=spawnSync(blender,['--background','--factory-startup','--python-exit-code','1','--python',path.join(project,'scripts/assets/build_collection_decor.py'),'--',...(selected.length?selected:allowed.filter(id=>id!=='minastirith-preview'))],{cwd:project,stdio:'inherit'});
+if(result.error)throw result.error;
+process.exitCode=result.status??1;

@@ -1,0 +1,2571 @@
+{
+  "reviewedAt": "2026-09-18T13:36:13.347064+00:00",
+  "scope": "Post-cleanup current actual GLB/JSON/accessor counts, C13 statistics/spec and editable source hashes, and current 181 strict protected inputs. Read-only review; no archive rehash, no browser/Blender/model/product changes. Prior reviews and ledger remain historical pre-cleanup evidence.",
+  "baseline": "validation/v06c/planning/protected-inputs-baseline.json",
+  "optimizedLedger": "validation/v06c/final/asset-budget-ledger-optimized.json",
+  "priorLedger": "validation/v06c/final/asset-budget-ledger.json",
+  "strictFileCount": 181,
+  "strictUnchanged": 181,
+  "strictChangedOrMissing": [],
+  "strictInputs": [
+    {
+      "path": "blockout_FINAL/sharkys_room_blockout_FINAL.blend",
+      "category": "frozen-editable-and-exported-source",
+      "expectedSHA256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "actualSHA256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "expectedBytes": 713580,
+      "actualBytes": 713580,
+      "unchanged": true
+    },
+    {
+      "path": "blockout_FINAL/sharkys_room_blockout_FINAL.glb",
+      "category": "frozen-editable-and-exported-source",
+      "expectedSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "actualSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "expectedBytes": 411892,
+      "actualBytes": 411892,
+      "unchanged": true
+    },
+    {
+      "path": "blockout_FINAL/spatial_freeze_manifest.json",
+      "category": "frozen-editable-and-exported-source",
+      "expectedSHA256": "6a57ff0ff4dfbb71127ddeb540edd97aa0d78ed3fe86ff2829b7de695f267f1f",
+      "actualSHA256": "6a57ff0ff4dfbb71127ddeb540edd97aa0d78ed3fe86ff2829b7de695f267f1f",
+      "expectedBytes": 104396,
+      "actualBytes": 104396,
+      "unchanged": true
+    },
+    {
+      "path": "blockout_FINAL/sharkys_room_blockout_FINAL_delivery/sharkys_room_blockout_FINAL.blend",
+      "category": "frozen-editable-and-exported-source",
+      "expectedSHA256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "actualSHA256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "expectedBytes": 713580,
+      "actualBytes": 713580,
+      "unchanged": true
+    },
+    {
+      "path": "blockout_FINAL/sharkys_room_blockout_FINAL_delivery/sharkys_room_blockout_FINAL.glb",
+      "category": "frozen-editable-and-exported-source",
+      "expectedSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "actualSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "expectedBytes": 411892,
+      "actualBytes": 411892,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/POST_V06_INTEGRATION_AUDIT.md",
+      "category": "historical-reports",
+      "expectedSHA256": "0de879f88c65403d6444c54254b33d9dd84cf9e9514e4e6a5b7b5b02d4c80da0",
+      "actualSHA256": "0de879f88c65403d6444c54254b33d9dd84cf9e9514e4e6a5b7b5b02d4c80da0",
+      "expectedBytes": 26945,
+      "actualBytes": 26945,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/V06A_ROOM_FURNITURE_REPORT.md",
+      "category": "historical-reports",
+      "expectedSHA256": "0a0d27cdf0233797ccfdeb6cc256dab0299838dd48a15584b5190c1ceb4be236",
+      "actualSHA256": "0a0d27cdf0233797ccfdeb6cc256dab0299838dd48a15584b5190c1ceb4be236",
+      "expectedBytes": 13736,
+      "actualBytes": 13736,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/V06B_INTERACTIVE_ASSETS_REPORT.md",
+      "category": "historical-reports",
+      "expectedSHA256": "2789babee69dad1ebbd38b93d2c755041678d30f4afeff650c6b1becb52ba7f5",
+      "actualSHA256": "2789babee69dad1ebbd38b93d2c755041678d30f4afeff650c6b1becb52ba7f5",
+      "expectedBytes": 28980,
+      "actualBytes": 28980,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/package-lock.json",
+      "category": "dependencies-and-package",
+      "expectedSHA256": "a6a6bf4ad9ed74bf14f56db1feb2223f5c30723dca176c0576bb4b5b4a5237be",
+      "actualSHA256": "a6a6bf4ad9ed74bf14f56db1feb2223f5c30723dca176c0576bb4b5b4a5237be",
+      "expectedBytes": 77332,
+      "actualBytes": 77332,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/package.json",
+      "category": "dependencies-and-package",
+      "expectedSHA256": "2f35018805732a465ad212b85eacdbacaa23cde167ca98ddee6b43d34d428175",
+      "actualSHA256": "2f35018805732a465ad212b85eacdbacaa23cde167ca98ddee6b43d34d428175",
+      "expectedBytes": 1365,
+      "actualBytes": 1365,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/app/globals.css",
+      "category": "protected-product-source",
+      "expectedSHA256": "1280f3334ed83eb015b379477939dc3c1786349ddb2a745b4a6e3adf9acc98f2",
+      "actualSHA256": "1280f3334ed83eb015b379477939dc3c1786349ddb2a745b4a6e3adf9acc98f2",
+      "expectedBytes": 5134,
+      "actualBytes": 5134,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/app/icon.svg",
+      "category": "protected-product-source",
+      "expectedSHA256": "44220e85ed569e24330b1ca44169270ca1aa1436ba8eac03ed7c36b84e20f0c2",
+      "actualSHA256": "44220e85ed569e24330b1ca44169270ca1aa1436ba8eac03ed7c36b84e20f0c2",
+      "expectedBytes": 212,
+      "actualBytes": 212,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/app/layout.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "af7915cb3316095531447714011c35318a819b93e6b0c008c0a3269b17125c48",
+      "actualSHA256": "af7915cb3316095531447714011c35318a819b93e6b0c008c0a3269b17125c48",
+      "expectedBytes": 378,
+      "actualBytes": 378,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/app/page.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "c1b0a5d73b0f9dadc4c8ce513c16fe27339b7822671cee0d1f4e9a44c2c6ab81",
+      "actualSHA256": "c1b0a5d73b0f9dadc4c8ce513c16fe27339b7822671cee0d1f4e9a44c2c6ab81",
+      "expectedBytes": 104,
+      "actualBytes": 104,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/macbook/ASSET_SPEC.md",
+      "category": "old3-source-assets-specs-statistics",
+      "expectedSHA256": "0cc8a58a758501ea244ed472d2a473f917148d34e1ca657c2c1ab8b2701c1ce3",
+      "actualSHA256": "0cc8a58a758501ea244ed472d2a473f917148d34e1ca657c2c1ab8b2701c1ce3",
+      "expectedBytes": 4839,
+      "actualBytes": 4839,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/macbook/asset-statistics.json",
+      "category": "old3-source-assets-specs-statistics",
+      "expectedSHA256": "6bb79e1654bb9eb0d4b569146a6640439216b61b4ff7a96312efd2689fcc49b8",
+      "actualSHA256": "6bb79e1654bb9eb0d4b569146a6640439216b61b4ff7a96312efd2689fcc49b8",
+      "expectedBytes": 2170,
+      "actualBytes": 2170,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/macbook/screen-uv-contract.json",
+      "category": "old3-source-assets-specs-statistics",
+      "expectedSHA256": "a4b300b5e0f3664d4ea6fd85381fff077f5169d99a25a086ac6d2fb06aba7aed",
+      "actualSHA256": "a4b300b5e0f3664d4ea6fd85381fff077f5169d99a25a086ac6d2fb06aba7aed",
+      "expectedBytes": 13109,
+      "actualBytes": 13109,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/marshall/ASSET_SPEC.md",
+      "category": "old3-source-assets-specs-statistics",
+      "expectedSHA256": "a35bb2a52b9f10faa588d33b5507308066d43d9aa05aaf6d28191d7db4e36d65",
+      "actualSHA256": "a35bb2a52b9f10faa588d33b5507308066d43d9aa05aaf6d28191d7db4e36d65",
+      "expectedBytes": 4491,
+      "actualBytes": 4491,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/marshall/asset-statistics.json",
+      "category": "old3-source-assets-specs-statistics",
+      "expectedSHA256": "d3847fe67c73ab2a6c4b3d72186821a8b6f8da3552a2337a34ddffe10f1e1d60",
+      "actualSHA256": "d3847fe67c73ab2a6c4b3d72186821a8b6f8da3552a2337a34ddffe10f1e1d60",
+      "expectedBytes": 1485,
+      "actualBytes": 1485,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/marshall/woven_grille_basecolor_512.png",
+      "category": "old3-source-assets-specs-statistics",
+      "expectedSHA256": "3b4f85955e41daecb59969f9e52f3452bbf04d593ecfe9e1fbf6f37579bfcb57",
+      "actualSHA256": "3b4f85955e41daecb59969f9e52f3452bbf04d593ecfe9e1fbf6f37579bfcb57",
+      "expectedBytes": 430084,
+      "actualBytes": 430084,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/monitor/ASSET_SPEC.md",
+      "category": "old3-source-assets-specs-statistics",
+      "expectedSHA256": "6ced75430f76b1fd3bf7745e58f4e71d6f81eb26e1f36ad37d8cec29b9652ccb",
+      "actualSHA256": "6ced75430f76b1fd3bf7745e58f4e71d6f81eb26e1f36ad37d8cec29b9652ccb",
+      "expectedBytes": 4371,
+      "actualBytes": 4371,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/monitor/asset-statistics.json",
+      "category": "old3-source-assets-specs-statistics",
+      "expectedSHA256": "880b19a720bd757160efadc1152fb00b87a3d2178ba46669b855a1a4442bacd3",
+      "actualSHA256": "880b19a720bd757160efadc1152fb00b87a3d2178ba46669b855a1a4442bacd3",
+      "expectedBytes": 2148,
+      "actualBytes": 2148,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/monitor/screen-uv-contract.json",
+      "category": "old3-source-assets-specs-statistics",
+      "expectedSHA256": "790a042d85a0e1008dfce52573a5a92d4525ff8db52c6921985194aa98467b10",
+      "actualSHA256": "790a042d85a0e1008dfce52573a5a92d4525ff8db52c6921985194aa98467b10",
+      "expectedBytes": 8917,
+      "actualBytes": 8917,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/A_ARCHITECTURE_PLAN.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "c8afd2cb70741ea8e317fdd8adba90f05ada17c82d0a857b9bf633d854a63658",
+      "actualSHA256": "c8afd2cb70741ea8e317fdd8adba90f05ada17c82d0a857b9bf633d854a63658",
+      "expectedBytes": 9245,
+      "actualBytes": 9245,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/architecture-export-audit.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "6027eb7e974d3df1b5a45f50fe4305ad66f3d6f92c2961cacd520ab9c83a19c0",
+      "actualSHA256": "6027eb7e974d3df1b5a45f50fe4305ad66f3d6f92c2961cacd520ab9c83a19c0",
+      "expectedBytes": 15409,
+      "actualBytes": 15409,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/beanbag/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "1e521328202b69684d46766d33e984aac4c3785ddf623867f528dd02ea0d6700",
+      "actualSHA256": "1e521328202b69684d46766d33e984aac4c3785ddf623867f528dd02ea0d6700",
+      "expectedBytes": 1405,
+      "actualBytes": 1405,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/beanbag/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "1b973e36bfcc8db05e19e26ba33724ac5ff368fca37a27c3c56ed0ca3a182a59",
+      "actualSHA256": "1b973e36bfcc8db05e19e26ba33724ac5ff368fca37a27c3c56ed0ca3a182a59",
+      "expectedBytes": 1617,
+      "actualBytes": 1617,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/bed/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "2d78c0209db8c207c09833517d789f43c52f48cee18c7c3b4ad41ebccc479d8e",
+      "actualSHA256": "2d78c0209db8c207c09833517d789f43c52f48cee18c7c3b4ad41ebccc479d8e",
+      "expectedBytes": 1704,
+      "actualBytes": 1704,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/bed/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "afe7a4783c6bc45621b49a248f1d6afab4bb71ba301a7c4ac17ecbc9ac1b42ab",
+      "actualSHA256": "afe7a4783c6bc45621b49a248f1d6afab4bb71ba301a7c4ac17ecbc9ac1b42ab",
+      "expectedBytes": 1975,
+      "actualBytes": 1975,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/bedside/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "2120849814aa0410dbc9d234de8060772a66318074fc418b25458f287cd6903c",
+      "actualSHA256": "2120849814aa0410dbc9d234de8060772a66318074fc418b25458f287cd6903c",
+      "expectedBytes": 1023,
+      "actualBytes": 1023,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/bedside/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "41ec2de0b37e3a41ca6de226f49f0a96d5353537bada38968ab74d992c283f1b",
+      "actualSHA256": "41ec2de0b37e3a41ca6de226f49f0a96d5353537bada38968ab74d992c283f1b",
+      "expectedBytes": 1640,
+      "actualBytes": 1640,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/cabinet/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "aa99fa8691990821f5f51f0c49846edd0f9c9a12ee7d9d7be5fa9e1eb77b8d60",
+      "actualSHA256": "aa99fa8691990821f5f51f0c49846edd0f9c9a12ee7d9d7be5fa9e1eb77b8d60",
+      "expectedBytes": 4280,
+      "actualBytes": 4280,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/cabinet/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "62cf9fe748303eb8fcc6de3be121832d630e4002a3d88929e466e0ac0aeec011",
+      "actualSHA256": "62cf9fe748303eb8fcc6de3be121832d630e4002a3d88929e466e0ac0aeec011",
+      "expectedBytes": 9092,
+      "actualBytes": 9092,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/chair/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "700d586f3af2e5fcc91cde673ba1f1f10a2496f149295b26a164b0628d679e06",
+      "actualSHA256": "700d586f3af2e5fcc91cde673ba1f1f10a2496f149295b26a164b0628d679e06",
+      "expectedBytes": 1128,
+      "actualBytes": 1128,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/chair/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "112f729b29f6f009a61954374e1c4a1b7cbe9c247b5adab061176d221f234a28",
+      "actualSHA256": "112f729b29f6f009a61954374e1c4a1b7cbe9c247b5adab061176d221f234a28",
+      "expectedBytes": 1660,
+      "actualBytes": 1660,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/coffee/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "1c5e3cc2b14c7ae2c1b7de72d5fc37ee81d2b8ecf244bdb92b38173c950a97cf",
+      "actualSHA256": "1c5e3cc2b14c7ae2c1b7de72d5fc37ee81d2b8ecf244bdb92b38173c950a97cf",
+      "expectedBytes": 926,
+      "actualBytes": 926,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/coffee/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "a0be1fc96a063c53e96f09360df9b594d13b222c1e507dc718bd4667e044a0b0",
+      "actualSHA256": "a0be1fc96a063c53e96f09360df9b594d13b222c1e507dc718bd4667e044a0b0",
+      "expectedBytes": 1630,
+      "actualBytes": 1630,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/curtains/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "b1527031e31e12816768a9222f7c589825c6db247d57374dc7a7aad3c168d1ae",
+      "actualSHA256": "b1527031e31e12816768a9222f7c589825c6db247d57374dc7a7aad3c168d1ae",
+      "expectedBytes": 4089,
+      "actualBytes": 4089,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/curtains/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "f55d8667681835900448b163e8b0c2547686491896819b025cf2fc9da8175c5e",
+      "actualSHA256": "f55d8667681835900448b163e8b0c2547686491896819b025cf2fc9da8175c5e",
+      "expectedBytes": 2190,
+      "actualBytes": 2190,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/desk/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "fb9908a7ebd3f7fdf47d1699fa824a501acdb787319ec2207f087a673d8e9f89",
+      "actualSHA256": "fb9908a7ebd3f7fdf47d1699fa824a501acdb787319ec2207f087a673d8e9f89",
+      "expectedBytes": 3817,
+      "actualBytes": 3817,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/desk/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "38b32b4f75fab58da86e506f3b283cfc202c65647fcaffabb8816f992a9c95e9",
+      "actualSHA256": "38b32b4f75fab58da86e506f3b283cfc202c65647fcaffabb8816f992a9c95e9",
+      "expectedBytes": 3871,
+      "actualBytes": 3871,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/dogbed/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "bfdb04805d52882f841826ad8bf0e0777a674fd8cb2e01e426397a29f8b3d9bb",
+      "actualSHA256": "bfdb04805d52882f841826ad8bf0e0777a674fd8cb2e01e426397a29f8b3d9bb",
+      "expectedBytes": 1092,
+      "actualBytes": 1092,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/dogbed/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "faa7543645a946bbfc134cc26537aa7bfbe29d13cc13b722e833c857950ec57a",
+      "actualSHA256": "faa7543645a946bbfc134cc26537aa7bfbe29d13cc13b722e833c857950ec57a",
+      "expectedBytes": 1783,
+      "actualBytes": 1783,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/door/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "8f131b0d7497f8376b85b333108f37fc4fdbc2a75681c021ea2cb8a43c74438d",
+      "actualSHA256": "8f131b0d7497f8376b85b333108f37fc4fdbc2a75681c021ea2cb8a43c74438d",
+      "expectedBytes": 3677,
+      "actualBytes": 3677,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/door/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "299f4d418fb61188ca55fce5c2093fa42eeecd760945236dce3f713a31af9b3a",
+      "actualSHA256": "299f4d418fb61188ca55fce5c2093fa42eeecd760945236dce3f713a31af9b3a",
+      "expectedBytes": 2328,
+      "actualBytes": 2328,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/floor/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "7bae5a33787df515e7335fc77c30fad4b70ca2f72058e14ece102fe029a774e2",
+      "actualSHA256": "7bae5a33787df515e7335fc77c30fad4b70ca2f72058e14ece102fe029a774e2",
+      "expectedBytes": 3244,
+      "actualBytes": 3244,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/floor/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "f2934ee935c681c227e8589ffa60f92e70998f1b2d838191a1d17f65689c955b",
+      "actualSHA256": "f2934ee935c681c227e8589ffa60f92e70998f1b2d838191a1d17f65689c955b",
+      "expectedBytes": 1632,
+      "actualBytes": 1632,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/rugs/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "89ad53d904644fb8d97e4e5591d020c4a750661b595804869bc47e75aaefd34c",
+      "actualSHA256": "89ad53d904644fb8d97e4e5591d020c4a750661b595804869bc47e75aaefd34c",
+      "expectedBytes": 1074,
+      "actualBytes": 1074,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/rugs/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "1f8c087685fd95c5be77e485cc42976064adc2fb72dc58c77f8374c65261f463",
+      "actualSHA256": "1f8c087685fd95c5be77e485cc42976064adc2fb72dc58c77f8374c65261f463",
+      "expectedBytes": 2462,
+      "actualBytes": 2462,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/TEXTURE_SOURCES.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "91281d4a5fc9756f3da223eb86fcc5b1f2d43a072983f99e3159554f76ce0f32",
+      "actualSHA256": "91281d4a5fc9756f3da223eb86fcc5b1f2d43a072983f99e3159554f76ce0f32",
+      "expectedBytes": 3974,
+      "actualBytes": 3974,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/beanbagweave_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "4f2a56eb1a08eaf624357857e8e707db8e49415340716c92976d7e40b056d9ce",
+      "actualSHA256": "4f2a56eb1a08eaf624357857e8e707db8e49415340716c92976d7e40b056d9ce",
+      "expectedBytes": 5487,
+      "actualBytes": 5487,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/bluegreybedding_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "ec96eae1e4096d17a378d8e8a3a374505f9926b208ea70082adb50980e070142",
+      "actualSHA256": "ec96eae1e4096d17a378d8e8a3a374505f9926b208ea70082adb50980e070142",
+      "expectedBytes": 5580,
+      "actualBytes": 5580,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/chairfabric_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "1ffdf135362b3d70af1460af65bd140bf03c06c765e3c540180b4f1a6bbccc0e",
+      "actualSHA256": "1ffdf135362b3d70af1460af65bd140bf03c06c765e3c540180b4f1a6bbccc0e",
+      "expectedBytes": 5269,
+      "actualBytes": 5269,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/dogbedcushion_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "74f9f6096c0e0d33e58b6b9af41b20139a0091a539d1d05789c9e05a3c48e33d",
+      "actualSHA256": "74f9f6096c0e0d33e58b6b9af41b20139a0091a539d1d05789c9e05a3c48e33d",
+      "expectedBytes": 6621,
+      "actualBytes": 6621,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/dogbedupholstery_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "0837dc01ed2ed5d594b4a10aff7165f67ba27bb0fa59f30349619d9d0d29c856",
+      "actualSHA256": "0837dc01ed2ed5d594b4a10aff7165f67ba27bb0fa59f30349619d9d0d29c856",
+      "expectedBytes": 5410,
+      "actualBytes": 5410,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/linen_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "4aa3363f53fd74eb46b39b3f24276141af71eafbacdbd4c4c17c561cb11d7b95",
+      "actualSHA256": "4aa3363f53fd74eb46b39b3f24276141af71eafbacdbd4c4c17c561cb11d7b95",
+      "expectedBytes": 5611,
+      "actualBytes": 5611,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/rugborder_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "9a20caabf3bf927a5675a05f058f27fac68947081823e4a562752984af348290",
+      "actualSHA256": "9a20caabf3bf927a5675a05f058f27fac68947081823e4a562752984af348290",
+      "expectedBytes": 5276,
+      "actualBytes": 5276,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/rugweave_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "63dd9a9ae3c5dd243cc754ed0b1a9755a7637198fa752e9d1dae38e9c13cf49d",
+      "actualSHA256": "63dd9a9ae3c5dd243cc754ed0b1a9755a7637198fa752e9d1dae38e9c13cf49d",
+      "expectedBytes": 5302,
+      "actualBytes": 5302,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/taupeupholstery_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "ab7696a2df3a7c5b324af96c745f49b0aac0b4968a747a1d22d8a2d45719d5f4",
+      "actualSHA256": "ab7696a2df3a7c5b324af96c745f49b0aac0b4968a747a1d22d8a2d45719d5f4",
+      "expectedBytes": 5352,
+      "actualBytes": 5352,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/warm_oak_basecolor_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+      "actualSHA256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+      "expectedBytes": 49211,
+      "actualBytes": 49211,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/sidetable/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "e990b71f35fd52fae58d5f5efeedd81a8debaaf6a720064b83ad53dfc446f1e8",
+      "actualSHA256": "e990b71f35fd52fae58d5f5efeedd81a8debaaf6a720064b83ad53dfc446f1e8",
+      "expectedBytes": 980,
+      "actualBytes": 980,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/sidetable/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "e6d8a2fc3a46fda8241316d5fa1bf59f56fa31db7563fd3e46c3f2681f3e1f21",
+      "actualSHA256": "e6d8a2fc3a46fda8241316d5fa1bf59f56fa31db7563fd3e46c3f2681f3e1f21",
+      "expectedBytes": 1644,
+      "actualBytes": 1644,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/sofa/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "751ea966d8bb83c3080bba59c0da1753ba2ebb86a755bd9b2e64879fe8abd006",
+      "actualSHA256": "751ea966d8bb83c3080bba59c0da1753ba2ebb86a755bd9b2e64879fe8abd006",
+      "expectedBytes": 1308,
+      "actualBytes": 1308,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/sofa/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "55b8b3bcbb9a0f3367217a45c2c1ca1e6d30c36eee730a308116dd7070f46082",
+      "actualSHA256": "55b8b3bcbb9a0f3367217a45c2c1ca1e6d30c36eee730a308116dd7070f46082",
+      "expectedBytes": 1651,
+      "actualBytes": 1651,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/walls/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "7bb3a78483f8f919fd16f4e3f800b381e3e2693f565a5ee61af25689bfe3b751",
+      "actualSHA256": "7bb3a78483f8f919fd16f4e3f800b381e3e2693f565a5ee61af25689bfe3b751",
+      "expectedBytes": 3616,
+      "actualBytes": 3616,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/walls/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "cb4cbc816c35c571fc9d7489f4fcc2ba471c02a23c3fc8da227edc6a14143897",
+      "actualSHA256": "cb4cbc816c35c571fc9d7489f4fcc2ba471c02a23c3fc8da227edc6a14143897",
+      "expectedBytes": 2095,
+      "actualBytes": 2095,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/window/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "a6221dbb2fb1abf2c1c2bccdf9f37f07a4e69321a0fbe65543ad030e33eff2d8",
+      "actualSHA256": "a6221dbb2fb1abf2c1c2bccdf9f37f07a4e69321a0fbe65543ad030e33eff2d8",
+      "expectedBytes": 3511,
+      "actualBytes": 3511,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/window/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "9416fa20d78afc847ca112299085616bc86e366523d84b6a126b1ccab7cbd63f",
+      "actualSHA256": "9416fa20d78afc847ca112299085616bc86e366523d84b6a126b1ccab7cbd63f",
+      "expectedBytes": 1485,
+      "actualBytes": 1485,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/PRODUCTION_PLAN.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "aff7660a6ac1af449dcbfb5bf4d089fb992ea9fc5c2015f8637dc9660b77da66",
+      "actualSHA256": "aff7660a6ac1af449dcbfb5bf4d089fb992ea9fc5c2015f8637dc9660b77da66",
+      "expectedBytes": 1371,
+      "actualBytes": 1371,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/headphones/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "48690902a33745c7d2d23c5852f41567ff0080ed0a300fcee74dd7b255216ea1",
+      "actualSHA256": "48690902a33745c7d2d23c5852f41567ff0080ed0a300fcee74dd7b255216ea1",
+      "expectedBytes": 1144,
+      "actualBytes": 1144,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/headphones/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "158fb3bf02aa74b602610687a44c9051ff6db6d5c7b4688227ed493c004a1fac",
+      "actualSHA256": "158fb3bf02aa74b602610687a44c9051ff6db6d5c7b4688227ed493c004a1fac",
+      "expectedBytes": 1412,
+      "actualBytes": 1412,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/ipad/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "ff92429c252083dcd1b53fc26168bc9c0eb4d10bc8f5b88c011697bb4e1e9706",
+      "actualSHA256": "ff92429c252083dcd1b53fc26168bc9c0eb4d10bc8f5b88c011697bb4e1e9706",
+      "expectedBytes": 1419,
+      "actualBytes": 1419,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/ipad/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "3a9ee3b6c5953d73cf34181a812c257d602684a2e2534fbeae5a2b053d885b90",
+      "actualSHA256": "3a9ee3b6c5953d73cf34181a812c257d602684a2e2534fbeae5a2b053d885b90",
+      "expectedBytes": 1375,
+      "actualBytes": 1375,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/keyboard/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "41bf48d3d2b28b3ae172c7ffcadc085bb89067d3b68bf48125a71d000ff7f2c0",
+      "actualSHA256": "41bf48d3d2b28b3ae172c7ffcadc085bb89067d3b68bf48125a71d000ff7f2c0",
+      "expectedBytes": 1507,
+      "actualBytes": 1507,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/keyboard/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "6edee6d7803fc4f9a263b17258cf3c1de4d285cc04919bf9bc770c685da9ab26",
+      "actualSHA256": "6edee6d7803fc4f9a263b17258cf3c1de4d285cc04919bf9bc770c685da9ab26",
+      "expectedBytes": 1398,
+      "actualBytes": 1398,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/lightswitch/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "6e2bb809a2afc54e4d16a48ee68c0e72b7e15e29a6d42c77ec1209fa53a9891e",
+      "actualSHA256": "6e2bb809a2afc54e4d16a48ee68c0e72b7e15e29a6d42c77ec1209fa53a9891e",
+      "expectedBytes": 1319,
+      "actualBytes": 1319,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/lightswitch/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "699ade1b067ab90a55138cdf6c638b4599571fab4e757ba657e95205b5a624fa",
+      "actualSHA256": "699ade1b067ab90a55138cdf6c638b4599571fab4e757ba657e95205b5a624fa",
+      "expectedBytes": 2125,
+      "actualBytes": 2125,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/mouse/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "1ae144b8741794b27b332cdf155fa45f1d5ccbe809599259359b58ee014296f2",
+      "actualSHA256": "1ae144b8741794b27b332cdf155fa45f1d5ccbe809599259359b58ee014296f2",
+      "expectedBytes": 1272,
+      "actualBytes": 1272,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/mouse/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "f0afd0aafaa92282cac110a4fe65ba7b48d6c42c66565a8d4d6f1f853ed98d9d",
+      "actualSHA256": "f0afd0aafaa92282cac110a4fe65ba7b48d6c42c66565a8d4d6f1f853ed98d9d",
+      "expectedBytes": 1383,
+      "actualBytes": 1383,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/phone/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "24954d29f389408ef31acad38eacd4896d9494009a35d3f1eb93cde629672a16",
+      "actualSHA256": "24954d29f389408ef31acad38eacd4896d9494009a35d3f1eb93cde629672a16",
+      "expectedBytes": 1629,
+      "actualBytes": 1629,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/phone/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "2e1e7e1c74620d6b95c905b5c99a335157c5266161d3feedcd276fd164e06e84",
+      "actualSHA256": "2e1e7e1c74620d6b95c905b5c99a335157c5266161d3feedcd276fd164e06e84",
+      "expectedBytes": 1393,
+      "actualBytes": 1393,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/piano/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "38cf13d3b2c2f35993e00bdfa08db6a38741613400097952d38b74be6f93138d",
+      "actualSHA256": "38cf13d3b2c2f35993e00bdfa08db6a38741613400097952d38b74be6f93138d",
+      "expectedBytes": 2038,
+      "actualBytes": 2038,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/piano/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "8a71ed202d3cfbadc8d32524f2f5b8fce992ab8255cde86fde3e6442b836bc56",
+      "actualSHA256": "8a71ed202d3cfbadc8d32524f2f5b8fce992ab8255cde86fde3e6442b836bc56",
+      "expectedBytes": 2100,
+      "actualBytes": 2100,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/trashcan/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "8a9e3b4561c46cd3bce698362f8365bf1e0f38233e4dc832a8957e02b805c51f",
+      "actualSHA256": "8a9e3b4561c46cd3bce698362f8365bf1e0f38233e4dc832a8957e02b805c51f",
+      "expectedBytes": 1171,
+      "actualBytes": 1171,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/trashcan/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "expectedSHA256": "04435c3df7f9fce4d9b320f895462b6270822026c08c4eae536c1ed48635a930",
+      "actualSHA256": "04435c3df7f9fce4d9b320f895462b6270822026c08c4eae536c1ed48635a930",
+      "expectedBytes": 2056,
+      "actualBytes": 2056,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/beanbag_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "caf2d7786410a7757bebd856dee0e229c9b42cf1b6958f3c3749da4378312711",
+      "actualSHA256": "caf2d7786410a7757bebd856dee0e229c9b42cf1b6958f3c3749da4378312711",
+      "expectedBytes": 116602,
+      "actualBytes": 116602,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/bed_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "a4a8c0d496f3cd1353dbda3277326c31ac9cd71e374b0dcad0a86cb82ba77036",
+      "actualSHA256": "a4a8c0d496f3cd1353dbda3277326c31ac9cd71e374b0dcad0a86cb82ba77036",
+      "expectedBytes": 260641,
+      "actualBytes": 260641,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/bedside_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "ad8293e76f74a9e52c771ad6eeda92c72357c2fb04b09b40531de4b009c0a3c2",
+      "actualSHA256": "ad8293e76f74a9e52c771ad6eeda92c72357c2fb04b09b40531de4b009c0a3c2",
+      "expectedBytes": 173249,
+      "actualBytes": 173249,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/cabinet_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "d0ff6bce668902aed3435dbfab2c4ed0c0dd68b192430804f6c9f9e86d73ef5d",
+      "actualSHA256": "d0ff6bce668902aed3435dbfab2c4ed0c0dd68b192430804f6c9f9e86d73ef5d",
+      "expectedBytes": 212011,
+      "actualBytes": 212011,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/chair_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "9ae9a1f44676e374f0fb86067649b40ee04bf7e427c5381bea527543cd7172c9",
+      "actualSHA256": "9ae9a1f44676e374f0fb86067649b40ee04bf7e427c5381bea527543cd7172c9",
+      "expectedBytes": 186584,
+      "actualBytes": 186584,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/coffee_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "ef304bf634d17eb023fd460a94122a3b3ec4d2fa0cffb52502e62f59d9ad0c17",
+      "actualSHA256": "ef304bf634d17eb023fd460a94122a3b3ec4d2fa0cffb52502e62f59d9ad0c17",
+      "expectedBytes": 160975,
+      "actualBytes": 160975,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/curtains_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "8f3e3dc1c83eea03e31dc2d2d80f1cb16d1ec82958d203186418deff102ac7d2",
+      "actualSHA256": "8f3e3dc1c83eea03e31dc2d2d80f1cb16d1ec82958d203186418deff102ac7d2",
+      "expectedBytes": 144144,
+      "actualBytes": 144144,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/desk_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "f82bbbc93e30cf673552ca66ffea79ff96b513340c1b9aaa10e8dc58cab93a66",
+      "actualSHA256": "f82bbbc93e30cf673552ca66ffea79ff96b513340c1b9aaa10e8dc58cab93a66",
+      "expectedBytes": 204810,
+      "actualBytes": 204810,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/dogbed_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "e98d4498738ada9bf76fb36de4f9b34561656267f5c391383a44a4c47d818216",
+      "actualSHA256": "e98d4498738ada9bf76fb36de4f9b34561656267f5c391383a44a4c47d818216",
+      "expectedBytes": 125702,
+      "actualBytes": 125702,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/door_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "860b74a4f055659f85ca706a6bbfe5ab31e22fd0bcc6ab5bd3afcce3b2c6de5e",
+      "actualSHA256": "860b74a4f055659f85ca706a6bbfe5ab31e22fd0bcc6ab5bd3afcce3b2c6de5e",
+      "expectedBytes": 180174,
+      "actualBytes": 180174,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/floor_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "cee4f2e65ef1e926d058a23505d06205502b4e79d2c78a14e4d7512de04b40f3",
+      "actualSHA256": "cee4f2e65ef1e926d058a23505d06205502b4e79d2c78a14e4d7512de04b40f3",
+      "expectedBytes": 283532,
+      "actualBytes": 283532,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/headphones_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "7f6771d0dc81435b93ddeb266ae3d0e4fd32e630757cc065e470fdfb2900abf9",
+      "actualSHA256": "7f6771d0dc81435b93ddeb266ae3d0e4fd32e630757cc065e470fdfb2900abf9",
+      "expectedBytes": 131793,
+      "actualBytes": 131793,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/ipad_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "0ec8a7d39a645d72188066777a41dab0128ba563618686d66d0a293b4272085a",
+      "actualSHA256": "0ec8a7d39a645d72188066777a41dab0128ba563618686d66d0a293b4272085a",
+      "expectedBytes": 111267,
+      "actualBytes": 111267,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/keyboard_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "d8845bc70f989e40d161c079c1398081017fe0178b6f20bb04c6f4fb86f124e7",
+      "actualSHA256": "d8845bc70f989e40d161c079c1398081017fe0178b6f20bb04c6f4fb86f124e7",
+      "expectedBytes": 148778,
+      "actualBytes": 148778,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/lightswitch_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "3cb4e2d557719902f26737e495f381993486b416ada1b1ea1e497309f2ce587b",
+      "actualSHA256": "3cb4e2d557719902f26737e495f381993486b416ada1b1ea1e497309f2ce587b",
+      "expectedBytes": 108992,
+      "actualBytes": 108992,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/macbook_pilot.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "5622096fcc53bf675e30f24ac0a6ba968fa1a577a3740150e5822cd61fa14261",
+      "actualSHA256": "5622096fcc53bf675e30f24ac0a6ba968fa1a577a3740150e5822cd61fa14261",
+      "expectedBytes": 283600,
+      "actualBytes": 283600,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/marshall_pilot.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "b66e3236c6ffa064cc45343f74afbe4c20bc390ed0388f6735cd0221d5ab935f",
+      "actualSHA256": "b66e3236c6ffa064cc45343f74afbe4c20bc390ed0388f6735cd0221d5ab935f",
+      "expectedBytes": 599495,
+      "actualBytes": 599495,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/monitor_pilot.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "c1d55f0366ea1d8027b9031d32d1b076bca4b0d553a261270a7fb101d43ca6ac",
+      "actualSHA256": "c1d55f0366ea1d8027b9031d32d1b076bca4b0d553a261270a7fb101d43ca6ac",
+      "expectedBytes": 153805,
+      "actualBytes": 153805,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/mouse_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "852e52f9adfccf9b013d2240378198fd9bac575a02f7a03b39484f808d05e5b8",
+      "actualSHA256": "852e52f9adfccf9b013d2240378198fd9bac575a02f7a03b39484f808d05e5b8",
+      "expectedBytes": 127341,
+      "actualBytes": 127341,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/phone_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "36ca8ca6c352e9bb5958ae5e9bc1892bea06d95436ecb3a15bdb0855679f0199",
+      "actualSHA256": "36ca8ca6c352e9bb5958ae5e9bc1892bea06d95436ecb3a15bdb0855679f0199",
+      "expectedBytes": 120622,
+      "actualBytes": 120622,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/piano_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "85ecbbb60d1fb114e27336f0e782e3e8eef9938723763e5d25c66b88f992b527",
+      "actualSHA256": "85ecbbb60d1fb114e27336f0e782e3e8eef9938723763e5d25c66b88f992b527",
+      "expectedBytes": 162210,
+      "actualBytes": 162210,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/rugs_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "4e84dc4f36904acae552908d237088392f03ece760ec4b66f5cc3cc2b0c62e24",
+      "actualSHA256": "4e84dc4f36904acae552908d237088392f03ece760ec4b66f5cc3cc2b0c62e24",
+      "expectedBytes": 115570,
+      "actualBytes": 115570,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/sidetable_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "95b4ab9cb752088abe96994c8c3a645534909b634f2b32c01fab978c606ca98b",
+      "actualSHA256": "95b4ab9cb752088abe96994c8c3a645534909b634f2b32c01fab978c606ca98b",
+      "expectedBytes": 164899,
+      "actualBytes": 164899,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/sofa_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "a753addc7e76260b73b0f0db43377beba31b72e63b9f30410a70ed4452258bfb",
+      "actualSHA256": "a753addc7e76260b73b0f0db43377beba31b72e63b9f30410a70ed4452258bfb",
+      "expectedBytes": 186283,
+      "actualBytes": 186283,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/trashcan_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "d1853da0b978c9fb3ad0ddc255219a4a55f07fb89fc79e7422733e83f4a0544c",
+      "actualSHA256": "d1853da0b978c9fb3ad0ddc255219a4a55f07fb89fc79e7422733e83f4a0544c",
+      "expectedBytes": 123049,
+      "actualBytes": 123049,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/walls_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "073f64812fcbf154747e0fb381105ee9782038291172bcd04d321539da34c552",
+      "actualSHA256": "073f64812fcbf154747e0fb381105ee9782038291172bcd04d321539da34c552",
+      "expectedBytes": 113708,
+      "actualBytes": 113708,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/window_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "39ec2ad7dea0c9ef4209a40909cb14d829c0ef0ed4a705676e0e084a73a11216",
+      "actualSHA256": "39ec2ad7dea0c9ef4209a40909cb14d829c0ef0ed4a705676e0e084a73a11216",
+      "expectedBytes": 128553,
+      "actualBytes": 128553,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/CameraController.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "84b03a96361bc11afe3a37783d5dc050c818498f5d2a657019b48af3fe6dd820",
+      "actualSHA256": "84b03a96361bc11afe3a37783d5dc050c818498f5d2a657019b48af3fe6dd820",
+      "expectedBytes": 1302,
+      "actualBytes": 1302,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/DebugPanel.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "0c6c58701eba5123a9230f1fac78cf7915307a88114eef585536524edef0486e",
+      "actualSHA256": "0c6c58701eba5123a9230f1fac78cf7915307a88114eef585536524edef0486e",
+      "expectedBytes": 1986,
+      "actualBytes": 1986,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/HeroCamera.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "1782252fc9facbafec82497b7f3a81b9e1aaba055ea986de5947c5506ac9b35b",
+      "actualSHA256": "1782252fc9facbafec82497b7f3a81b9e1aaba055ea986de5947c5506ac9b35b",
+      "expectedBytes": 855,
+      "actualBytes": 855,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/HoverHighlight.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "213de681315bb19e40dfa34e4050850a643d09ee899561847a947c57487af208",
+      "actualSHA256": "213de681315bb19e40dfa34e4050850a643d09ee899561847a947c57487af208",
+      "expectedBytes": 1700,
+      "actualBytes": 1700,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/InteractionManager.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "024415e50d67e1f3002688a4289f4c13cb9c58ce48bfac42fca1cffa1d5939a1",
+      "actualSHA256": "024415e50d67e1f3002688a4289f4c13cb9c58ce48bfac42fca1cffa1d5939a1",
+      "expectedBytes": 876,
+      "actualBytes": 876,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/InteractionOverlay.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "81eed1e9e83a38ecc9cd05892f4a2820ad011c2b440c5d4a69173a5f3a3bee8b",
+      "actualSHA256": "81eed1e9e83a38ecc9cd05892f4a2820ad011c2b440c5d4a69173a5f3a3bee8b",
+      "expectedBytes": 3586,
+      "actualBytes": 3586,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/LoadingScreen.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "5fc0469cb5cc7d039b36846a71da8ab778a7d81a8b6ea25d8f4201af092b54d4",
+      "actualSHA256": "5fc0469cb5cc7d039b36846a71da8ab778a7d81a8b6ea25d8f4201af092b54d4",
+      "expectedBytes": 574,
+      "actualBytes": 574,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/PianoRetractedHitArea.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "7b8030ebcf58578dc2efcc14aa9b59a544b22c0b7f5fa4f299b987ee0a4980ae",
+      "actualSHA256": "7b8030ebcf58578dc2efcc14aa9b59a544b22c0b7f5fa4f299b987ee0a4980ae",
+      "expectedBytes": 665,
+      "actualBytes": 665,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/RoomApp.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "4ff87b8b1c726862b3fabb08278937ce9ad89df22f2d1cd35e30590a46e318c3",
+      "actualSHA256": "4ff87b8b1c726862b3fabb08278937ce9ad89df22f2d1cd35e30590a46e318c3",
+      "expectedBytes": 5594,
+      "actualBytes": 5594,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/RoomCanvas.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "b46a8ca278d2c1bcd2b1d4c437ee8fb80619b7e069c4e3f25e94e2a876ed885d",
+      "actualSHA256": "b46a8ca278d2c1bcd2b1d4c437ee8fb80619b7e069c4e3f25e94e2a876ed885d",
+      "expectedBytes": 2082,
+      "actualBytes": 2082,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/components/room/RoomScene.tsx",
+      "category": "protected-product-source",
+      "expectedSHA256": "fada704dcb614a81b3a8baec4c47708ccb762c84852473cc3fa3a4aa9fc0e6e1",
+      "actualSHA256": "fada704dcb614a81b3a8baec4c47708ccb762c84852473cc3fa3a4aa9fc0e6e1",
+      "expectedBytes": 4218,
+      "actualBytes": 4218,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/animationConstants.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "16518a245a20eeb1e21cb89ee53f0098490c953c5764583103738c4a25bdaee2",
+      "actualSHA256": "16518a245a20eeb1e21cb89ee53f0098490c953c5764583103738c4a25bdaee2",
+      "expectedBytes": 875,
+      "actualBytes": 875,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/cameraAnimation.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "198fc2b4a69954bd247f91f3028316808b30b3288e45a12f9a5d0aa0e9a32bd4",
+      "actualSHA256": "198fc2b4a69954bd247f91f3028316808b30b3288e45a12f9a5d0aa0e9a32bd4",
+      "expectedBytes": 4098,
+      "actualBytes": 4098,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/debugHitTest.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "fdf4f5ab3c40653cc204503299a945327a38f3ee3226797b23661211f143ab5b",
+      "actualSHA256": "fdf4f5ab3c40653cc204503299a945327a38f3ee3226797b23661211f143ab5b",
+      "expectedBytes": 1241,
+      "actualBytes": 1241,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/diagnostics.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "c0ef461369ee95678c0977e87cde157fd91244893c657bb3eed23c835859b438",
+      "actualSHA256": "c0ef461369ee95678c0977e87cde157fd91244893c657bb3eed23c835859b438",
+      "expectedBytes": 5041,
+      "actualBytes": 5041,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/focusViews.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "8eb938d0fe9420a52374f293378b8fff37526b8522c71ba0fd48b6614dd0bdaf",
+      "actualSHA256": "8eb938d0fe9420a52374f293378b8fff37526b8522c71ba0fd48b6614dd0bdaf",
+      "expectedBytes": 2766,
+      "actualBytes": 2766,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/frozenSceneManifest.json",
+      "category": "frozen-web-source",
+      "expectedSHA256": "84b793cdaba786d647ccde41e4c653ef64a4bcf3d0afd9d693f49a0064521f53",
+      "actualSHA256": "84b793cdaba786d647ccde41e4c653ef64a4bcf3d0afd9d693f49a0064521f53",
+      "expectedBytes": 27894,
+      "actualBytes": 27894,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/interactionState.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "ad490e983cafbe51b76172c1ef3a956ae66d17bf9ccc1bfa81084ddea21cbfa1",
+      "actualSHA256": "ad490e983cafbe51b76172c1ef3a956ae66d17bf9ccc1bfa81084ddea21cbfa1",
+      "expectedBytes": 7058,
+      "actualBytes": 7058,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/interactiveObjects.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "6ce9b8f83b27e2a681c854cbab5e7bc530056557c1d250a1be11259915e536c5",
+      "actualSHA256": "6ce9b8f83b27e2a681c854cbab5e7bc530056557c1d250a1be11259915e536c5",
+      "expectedBytes": 2322,
+      "actualBytes": 2322,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/mechanisms.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "4ce8537211d7dd28d1c11deb8ac6297cc22971b68c650c6daae58923026abd56",
+      "actualSHA256": "4ce8537211d7dd28d1c11deb8ac6297cc22971b68c650c6daae58923026abd56",
+      "expectedBytes": 14850,
+      "actualBytes": 14850,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/pianoInteraction.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "c87f22e59d153fb49d2972acf4387c3c10b88b5a593657c322aa0da1b995c757",
+      "actualSHA256": "c87f22e59d153fb49d2972acf4387c3c10b88b5a593657c322aa0da1b995c757",
+      "expectedBytes": 727,
+      "actualBytes": 727,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/sceneConstants.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "4218f7cf600663a773cf3fcadba4795510c1e896ee3da67c63c1af13457d449c",
+      "actualSHA256": "4218f7cf600663a773cf3fcadba4795510c1e896ee3da67c63c1af13457d449c",
+      "expectedBytes": 787,
+      "actualBytes": 787,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/visibleHitPoints.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "cb47b7fe0c22c4a4bfc6952abeddc44352dce8298093f1082f4c8938b01fc3fd",
+      "actualSHA256": "cb47b7fe0c22c4a4bfc6952abeddc44352dce8298093f1082f4c8938b01fc3fd",
+      "expectedBytes": 2751,
+      "actualBytes": 2751,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/screenTextures.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "3471ac453d483c21ec9813c570722250b844dc09404f26da7e187466cf7cf307",
+      "actualSHA256": "3471ac453d483c21ec9813c570722250b844dc09404f26da7e187466cf7cf307",
+      "expectedBytes": 3921,
+      "actualBytes": 3921,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/sharkys_room_blockout_FINAL.glb",
+      "category": "frozen-web-source",
+      "expectedSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "actualSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "expectedBytes": 411892,
+      "actualBytes": 411892,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/beanbag_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "actualSHA256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "expectedBytes": 30256,
+      "actualBytes": 30256,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/bed_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "actualSHA256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "expectedBytes": 251988,
+      "actualBytes": 251988,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/bedside_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "actualSHA256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "expectedBytes": 108108,
+      "actualBytes": 108108,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/cabinet_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "actualSHA256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "expectedBytes": 220208,
+      "actualBytes": 220208,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/chair_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "actualSHA256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "expectedBytes": 170448,
+      "actualBytes": 170448,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/coffee_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "actualSHA256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "expectedBytes": 83120,
+      "actualBytes": 83120,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/curtains_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "actualSHA256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "expectedBytes": 131452,
+      "actualBytes": 131452,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/desk_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "actualSHA256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "expectedBytes": 203880,
+      "actualBytes": 203880,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/dogbed_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "actualSHA256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "expectedBytes": 61560,
+      "actualBytes": 61560,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/door_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "actualSHA256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "expectedBytes": 125612,
+      "actualBytes": 125612,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/floor_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "actualSHA256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "expectedBytes": 563360,
+      "actualBytes": 563360,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/headphones_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+      "actualSHA256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+      "expectedBytes": 81196,
+      "actualBytes": 81196,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/ipad_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "actualSHA256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "expectedBytes": 25776,
+      "actualBytes": 25776,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/keyboard_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "actualSHA256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "expectedBytes": 206320,
+      "actualBytes": 206320,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/lightswitch_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "actualSHA256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "expectedBytes": 27244,
+      "actualBytes": 27244,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/macbook_pilot.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "actualSHA256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "expectedBytes": 445776,
+      "actualBytes": 445776,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/marshall_pilot.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "actualSHA256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "expectedBytes": 577608,
+      "actualBytes": 577608,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/monitor_pilot.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "actualSHA256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "expectedBytes": 95904,
+      "actualBytes": 95904,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/mouse_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "actualSHA256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "expectedBytes": 49428,
+      "actualBytes": 49428,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/phone_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "actualSHA256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "expectedBytes": 39068,
+      "actualBytes": 39068,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/piano_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "actualSHA256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "expectedBytes": 269144,
+      "actualBytes": 269144,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/rugs_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "actualSHA256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "expectedBytes": 50264,
+      "actualBytes": 50264,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/sidetable_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "actualSHA256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "expectedBytes": 92312,
+      "actualBytes": 92312,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/sofa_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "actualSHA256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "expectedBytes": 173668,
+      "actualBytes": 173668,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/trashcan_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+      "actualSHA256": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+      "expectedBytes": 57508,
+      "actualBytes": 57508,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/walls_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "actualSHA256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "expectedBytes": 39828,
+      "actualBytes": 39828,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/window_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "expectedSHA256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "actualSHA256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "expectedBytes": 69628,
+      "actualBytes": 69628,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build-assets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "1f48d7865169e5739d43c08dfa1d2a616311b44c47d4bda4639f635c46cd739b",
+      "actualSHA256": "1f48d7865169e5739d43c08dfa1d2a616311b44c47d4bda4639f635c46cd739b",
+      "expectedBytes": 901,
+      "actualBytes": 901,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build-interactive-assets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "fd683961ececb4c46d7b75d8b367af089d1c0140c891440e9bbfa250907a4c52",
+      "actualSHA256": "fd683961ececb4c46d7b75d8b367af089d1c0140c891440e9bbfa250907a4c52",
+      "expectedBytes": 954,
+      "actualBytes": 954,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build-room-assets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "933e0939d8858082ff7438cdd101f0b53ebfaa53ce42a9b11f464fbeb58ba43f",
+      "actualSHA256": "933e0939d8858082ff7438cdd101f0b53ebfaa53ce42a9b11f464fbeb58ba43f",
+      "expectedBytes": 1409,
+      "actualBytes": 1409,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build_architecture_assets.py",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "be315c8bd84ec5cb8cecd8713f30e51e0efc94db7769ca297fa27649a4c689e0",
+      "actualSHA256": "be315c8bd84ec5cb8cecd8713f30e51e0efc94db7769ca297fa27649a4c689e0",
+      "expectedBytes": 12388,
+      "actualBytes": 12388,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build_furniture_assets.py",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "40d3fd0b3821bfb204a8063ccab5efc7348a52385daa553ecb6e5e9b8f4d3627",
+      "actualSHA256": "40d3fd0b3821bfb204a8063ccab5efc7348a52385daa553ecb6e5e9b8f4d3627",
+      "expectedBytes": 20262,
+      "actualBytes": 20262,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build_interactive_assets.py",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "6b97318d64f3b6f19877ff94df49468e9ca92dc752de1476072641e8f177b80f",
+      "actualSHA256": "6b97318d64f3b6f19877ff94df49468e9ca92dc752de1476072641e8f177b80f",
+      "expectedBytes": 18932,
+      "actualBytes": 18932,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build_production_assets.py",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "7e7301be4aa46b31a7d38beb7f1b79e65884a2680810835361e38d89ae5a0369",
+      "actualSHA256": "7e7301be4aa46b31a7d38beb7f1b79e65884a2680810835361e38d89ae5a0369",
+      "expectedBytes": 17820,
+      "actualBytes": 17820,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/inspect-interactive-budgets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "f60401101264bc4e576a4db84abb8894873035d29899e435f988ea94a612bad6",
+      "actualSHA256": "f60401101264bc4e576a4db84abb8894873035d29899e435f988ea94a612bad6",
+      "expectedBytes": 19038,
+      "actualBytes": 19038,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/inspect-room-budgets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "e87addd56bfb27a30116e3b9a12d941b30b8202ad399cece5c6e64ffcce71625",
+      "actualSHA256": "e87addd56bfb27a30116e3b9a12d941b30b8202ad399cece5c6e64ffcce71625",
+      "expectedBytes": 3471,
+      "actualBytes": 3471,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/inspect_architecture_export.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "939aa4611f1783265060feb38476fb61cf5ee9f2e7b62d873953798e450e5e4e",
+      "actualSHA256": "939aa4611f1783265060feb38476fb61cf5ee9f2e7b62d873953798e450e5e4e",
+      "expectedBytes": 6306,
+      "actualBytes": 6306,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/inspect_export_contract.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "7d4fc9efd4baf07833f71012723dd8d8839136a85fe21d45c062cb193c6adaa0",
+      "actualSHA256": "7d4fc9efd4baf07833f71012723dd8d8839136a85fe21d45c062cb193c6adaa0",
+      "expectedBytes": 4060,
+      "actualBytes": 4060,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/v06a_blender_common.py",
+      "category": "existing-generators-and-budget-scripts",
+      "expectedSHA256": "b3e270ef769488178d810ecb06f7a9e5ecb16cc4e60c0f1e91a0932e09fe5eda",
+      "actualSHA256": "b3e270ef769488178d810ecb06f7a9e5ecb16cc4e60c0f1e91a0932e09fe5eda",
+      "expectedBytes": 10042,
+      "actualBytes": 10042,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/types/room.ts",
+      "category": "protected-product-source",
+      "expectedSHA256": "2fa0e2196bb8f2aa1d1f047d3a8e17aaf40728e62d2fd30f352e5b0442e63831",
+      "actualSHA256": "2fa0e2196bb8f2aa1d1f047d3a8e17aaf40728e62d2fd30f352e5b0442e63831",
+      "expectedBytes": 912,
+      "actualBytes": 912,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/validation/v06b/protected-inputs-review.json",
+      "category": "B-delivery-ledgers-and-protection-proof",
+      "expectedSHA256": "5347d7b766b02c47bd991bb94977bd0be16fea2b514f8e6d5c5857dcecf61b86",
+      "actualSHA256": "5347d7b766b02c47bd991bb94977bd0be16fea2b514f8e6d5c5857dcecf61b86",
+      "expectedBytes": 68253,
+      "actualBytes": 68253,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/validation/v06b/final/PERFORMANCE_COMPARISON.md",
+      "category": "B-delivery-ledgers-and-protection-proof",
+      "expectedSHA256": "18f00474746f50131e33f71fc979af758fda2f39b0e1da88f2400fe6b0d2ec31",
+      "actualSHA256": "18f00474746f50131e33f71fc979af758fda2f39b0e1da88f2400fe6b0d2ec31",
+      "expectedBytes": 3465,
+      "actualBytes": 3465,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/validation/v06b/final/asset-budget-ledger-optimized.json",
+      "category": "B-delivery-ledgers-and-protection-proof",
+      "expectedSHA256": "e141a0dc1c6bf18b10601f3786bc3515ce95484fbb568352eba217afe095971a",
+      "actualSHA256": "e141a0dc1c6bf18b10601f3786bc3515ce95484fbb568352eba217afe095971a",
+      "expectedBytes": 69992,
+      "actualBytes": 69992,
+      "unchanged": true
+    },
+    {
+      "path": "sharkys-room/validation/v06b/final/asset-budget-ledger.json",
+      "category": "B-delivery-ledgers-and-protection-proof",
+      "expectedSHA256": "569b62e5bd5c394ea174bfb152dc6f2e31dbe55406a3792f46b69e59e578f1c7",
+      "actualSHA256": "569b62e5bd5c394ea174bfb152dc6f2e31dbe55406a3792f46b69e59e578f1c7",
+      "expectedBytes": 69992,
+      "actualBytes": 69992,
+      "unchanged": true
+    }
+  ],
+  "archiveRehashed": false,
+  "previousArchiveVerification": "validation/v06c/final/protected-review.json",
+  "sharedPipelineReviewCount": 7,
+  "sharedPipelineChanged": [
+    {
+      "path": "sharkys-room/lib/room/assets/assetAssembly.ts",
+      "category": "shared-C-pipeline-review",
+      "expectedSHA256": "37c8b1183f406f692fe2beefcfd2570779bfbb96cef7c4c25685f8943951d18e",
+      "actualSHA256": "b7e7cc9775103fb5f82f949771e2455bae236044c3d221bfbcd38a241a6b0f3f",
+      "expectedBytes": 14611,
+      "actualBytes": 15261,
+      "unchanged": false
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/assetManifest.ts",
+      "category": "shared-C-pipeline-review",
+      "expectedSHA256": "7f5e78fa47bb58e459436fedb6d9b19022d3576d6595d0c2000f57cd3c1794fb",
+      "actualSHA256": "11e762c9ccea7d980e2f7b466d9bc34a7ed4a8204b74d9427e7b7405c3f50123",
+      "expectedBytes": 7950,
+      "actualBytes": 10923,
+      "unchanged": false
+    }
+  ],
+  "newProductFilesNotCoveredByHistoricalHashComparison": [
+    "sharkys-room/lib/room/assets/fixtureRegistry.ts"
+  ],
+  "ignoredOSMetadata": [
+    "sharkys-room/components/.DS_Store"
+  ],
+  "ignoredOSMetadataNote": "Excluded by baseline snapshot policy, not evidence of newly added product code. Metadata file was not modified or deleted.",
+  "cSpecChecks": [
+    {
+      "family": "eiffel",
+      "actual": {
+        "bytes": 364112,
+        "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+        "triangles": 5996,
+        "meshes": 3,
+        "primitives": 3,
+        "materials": 3,
+        "images": 0
+      },
+      "sourceTriangles": 5996,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "hogwarts",
+      "actual": {
+        "bytes": 135060,
+        "sha256": "934f91ddf9e9e6bb2b3650aa3042c7b1a978105aa1b012082da455a90a88c4a6",
+        "triangles": 2950,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "sourceTriangles": 3552,
+      "exportCleanup": {
+        "sourceTriangles": 3552,
+        "exportedTriangles": 2950,
+        "removedZeroAreaTriangles": 602,
+        "removedUnreferencedVertices": 60,
+        "beforeBytes": 140536,
+        "afterBytes": 135060,
+        "primitives": [
+          {
+            "mesh": "Cone.001",
+            "meshIndex": 0,
+            "primitiveIndex": 0,
+            "material": 0,
+            "sourceTriangles": 392,
+            "exportedTriangles": 392,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 648,
+            "exportedVertices": 648,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "Cube",
+            "meshIndex": 1,
+            "primitiveIndex": 0,
+            "material": 1,
+            "sourceTriangles": 644,
+            "exportedTriangles": 644,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 876,
+            "exportedVertices": 876,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "Cube.002",
+            "meshIndex": 2,
+            "primitiveIndex": 0,
+            "material": 2,
+            "sourceTriangles": 2472,
+            "exportedTriangles": 1870,
+            "removedZeroAreaTriangles": 602,
+            "sourceVertices": 1980,
+            "exportedVertices": 1920,
+            "removedUnreferencedVertices": 60
+          },
+          {
+            "mesh": "Cube.035",
+            "meshIndex": 3,
+            "primitiveIndex": 0,
+            "material": 3,
+            "sourceTriangles": 44,
+            "exportedTriangles": 44,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 57,
+            "exportedVertices": 57,
+            "removedUnreferencedVertices": 0
+          }
+        ]
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "sourceTriangleAccounting": true,
+        "cleanupActualExportAccounting": true,
+        "specSeparatesEditableSourceAndFinalExport": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "minastirith",
+      "actual": {
+        "bytes": 307428,
+        "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+        "triangles": 5280,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "sourceTriangles": 5280,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "falcon",
+      "actual": {
+        "bytes": 113052,
+        "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+        "triangles": 1916,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "sourceTriangles": 1916,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "bridge",
+      "actual": {
+        "bytes": 297804,
+        "sha256": "606b8012f1aa52f9b9be0a380e3adea31424b46d53bdeb42a5d302e10e399ae9",
+        "triangles": 4888,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "sourceTriangles": 5016,
+      "exportCleanup": {
+        "sourceTriangles": 5016,
+        "exportedTriangles": 4888,
+        "removedZeroAreaTriangles": 128,
+        "removedUnreferencedVertices": 40,
+        "beforeBytes": 299792,
+        "afterBytes": 297804,
+        "primitives": [
+          {
+            "mesh": "Cylinder.077",
+            "meshIndex": 0,
+            "primitiveIndex": 0,
+            "material": 0,
+            "sourceTriangles": 3980,
+            "exportedTriangles": 3980,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 6813,
+            "exportedVertices": 6813,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "Cube",
+            "meshIndex": 1,
+            "primitiveIndex": 0,
+            "material": 1,
+            "sourceTriangles": 440,
+            "exportedTriangles": 312,
+            "removedZeroAreaTriangles": 128,
+            "sourceVertices": 570,
+            "exportedVertices": 530,
+            "removedUnreferencedVertices": 40
+          },
+          {
+            "mesh": "Cone",
+            "meshIndex": 2,
+            "primitiveIndex": 0,
+            "material": 2,
+            "sourceTriangles": 552,
+            "exportedTriangles": 552,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 822,
+            "exportedVertices": 822,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "Cube.017",
+            "meshIndex": 3,
+            "primitiveIndex": 0,
+            "material": 3,
+            "sourceTriangles": 44,
+            "exportedTriangles": 44,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 57,
+            "exportedVertices": 57,
+            "removedUnreferencedVertices": 0
+          }
+        ]
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "sourceTriangleAccounting": true,
+        "cleanupActualExportAccounting": true,
+        "specSeparatesEditableSourceAndFinalExport": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "sls",
+      "actual": {
+        "bytes": 128244,
+        "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+        "triangles": 2176,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "sourceTriangles": 2176,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "ferrari",
+      "actual": {
+        "bytes": 119244,
+        "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+        "triangles": 2396,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "sourceTriangles": 2396,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "mercedes",
+      "actual": {
+        "bytes": 119264,
+        "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+        "triangles": 2396,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "sourceTriangles": 2396,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "plants",
+      "actual": {
+        "bytes": 429400,
+        "sha256": "4575c8c7f98e7e8736fb7e2e4734e52e6ac9e5dfa02d028192c6e5c860a3abcb",
+        "triangles": 7308,
+        "meshes": 15,
+        "primitives": 15,
+        "materials": 3,
+        "images": 0
+      },
+      "sourceTriangles": 7944,
+      "exportCleanup": {
+        "sourceTriangles": 7944,
+        "exportedTriangles": 7308,
+        "removedZeroAreaTriangles": 636,
+        "removedUnreferencedVertices": 954,
+        "beforeBytes": 454456,
+        "afterBytes": 429400,
+        "primitives": [
+          {
+            "mesh": "VIS_PlantCabinetCrown_Geometry",
+            "meshIndex": 0,
+            "primitiveIndex": 0,
+            "material": 0,
+            "sourceTriangles": 728,
+            "exportedTriangles": 620,
+            "removedZeroAreaTriangles": 108,
+            "sourceVertices": 1456,
+            "exportedVertices": 1294,
+            "removedUnreferencedVertices": 162
+          },
+          {
+            "mesh": "VIS_PlantCabinetPot_Geometry",
+            "meshIndex": 1,
+            "primitiveIndex": 0,
+            "material": 1,
+            "sourceTriangles": 336,
+            "exportedTriangles": 336,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 170,
+            "exportedVertices": 170,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "Cone",
+            "meshIndex": 2,
+            "primitiveIndex": 0,
+            "material": 2,
+            "sourceTriangles": 352,
+            "exportedTriangles": 352,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 612,
+            "exportedVertices": 612,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "VIS_PlantCoffeeTableCrown_Geometry",
+            "meshIndex": 3,
+            "primitiveIndex": 0,
+            "material": 0,
+            "sourceTriangles": 728,
+            "exportedTriangles": 620,
+            "removedZeroAreaTriangles": 108,
+            "sourceVertices": 1456,
+            "exportedVertices": 1294,
+            "removedUnreferencedVertices": 162
+          },
+          {
+            "mesh": "VIS_PlantCoffeeTablePot_Geometry",
+            "meshIndex": 4,
+            "primitiveIndex": 0,
+            "material": 1,
+            "sourceTriangles": 336,
+            "exportedTriangles": 336,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 170,
+            "exportedVertices": 170,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "Cone.001",
+            "meshIndex": 5,
+            "primitiveIndex": 0,
+            "material": 2,
+            "sourceTriangles": 352,
+            "exportedTriangles": 352,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 612,
+            "exportedVertices": 612,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "VIS_PlantDeskCrown_Geometry",
+            "meshIndex": 6,
+            "primitiveIndex": 0,
+            "material": 0,
+            "sourceTriangles": 728,
+            "exportedTriangles": 620,
+            "removedZeroAreaTriangles": 108,
+            "sourceVertices": 1456,
+            "exportedVertices": 1294,
+            "removedUnreferencedVertices": 162
+          },
+          {
+            "mesh": "VIS_PlantDeskPot_Geometry",
+            "meshIndex": 7,
+            "primitiveIndex": 0,
+            "material": 1,
+            "sourceTriangles": 336,
+            "exportedTriangles": 336,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 170,
+            "exportedVertices": 170,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "Cone.002",
+            "meshIndex": 8,
+            "primitiveIndex": 0,
+            "material": 2,
+            "sourceTriangles": 352,
+            "exportedTriangles": 352,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 612,
+            "exportedVertices": 612,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "VIS_PlantSofaCrown_Geometry",
+            "meshIndex": 9,
+            "primitiveIndex": 0,
+            "material": 0,
+            "sourceTriangles": 1040,
+            "exportedTriangles": 884,
+            "removedZeroAreaTriangles": 156,
+            "sourceVertices": 2080,
+            "exportedVertices": 1846,
+            "removedUnreferencedVertices": 234
+          },
+          {
+            "mesh": "VIS_PlantSofaPot_Geometry",
+            "meshIndex": 10,
+            "primitiveIndex": 0,
+            "material": 1,
+            "sourceTriangles": 336,
+            "exportedTriangles": 336,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 170,
+            "exportedVertices": 170,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "Cone.003",
+            "meshIndex": 11,
+            "primitiveIndex": 0,
+            "material": 2,
+            "sourceTriangles": 472,
+            "exportedTriangles": 472,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 828,
+            "exportedVertices": 828,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "VIS_PlantWindowCrown_Geometry",
+            "meshIndex": 12,
+            "primitiveIndex": 0,
+            "material": 0,
+            "sourceTriangles": 1040,
+            "exportedTriangles": 884,
+            "removedZeroAreaTriangles": 156,
+            "sourceVertices": 2080,
+            "exportedVertices": 1846,
+            "removedUnreferencedVertices": 234
+          },
+          {
+            "mesh": "VIS_PlantWindowPot_Geometry",
+            "meshIndex": 13,
+            "primitiveIndex": 0,
+            "material": 1,
+            "sourceTriangles": 336,
+            "exportedTriangles": 336,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 170,
+            "exportedVertices": 170,
+            "removedUnreferencedVertices": 0
+          },
+          {
+            "mesh": "Cone.004",
+            "meshIndex": 14,
+            "primitiveIndex": 0,
+            "material": 2,
+            "sourceTriangles": 472,
+            "exportedTriangles": 472,
+            "removedZeroAreaTriangles": 0,
+            "sourceVertices": 828,
+            "exportedVertices": 828,
+            "removedUnreferencedVertices": 0
+          }
+        ]
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "sourceTriangleAccounting": true,
+        "cleanupActualExportAccounting": true,
+        "specSeparatesEditableSourceAndFinalExport": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "cola",
+      "actual": {
+        "bytes": 29352,
+        "sha256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+        "triangles": 896,
+        "meshes": 3,
+        "primitives": 3,
+        "materials": 3,
+        "images": 0
+      },
+      "sourceTriangles": 896,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "dog",
+      "actual": {
+        "bytes": 142356,
+        "sha256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+        "triangles": 4796,
+        "meshes": 3,
+        "primitives": 3,
+        "materials": 3,
+        "images": 0
+      },
+      "sourceTriangles": 4796,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "fixtures",
+      "actual": {
+        "bytes": 120244,
+        "sha256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+        "triangles": 1992,
+        "meshes": 8,
+        "primitives": 8,
+        "materials": 5,
+        "images": 0
+      },
+      "sourceTriangles": 1992,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "wallart",
+      "actual": {
+        "bytes": 30808,
+        "sha256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772",
+        "triangles": 452,
+        "meshes": 6,
+        "primitives": 6,
+        "materials": 6,
+        "images": 0
+      },
+      "sourceTriangles": 452,
+      "exportCleanup": null,
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "optimizedLedgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "optimizedLedgerBlendHashMatchesActual": true,
+        "specContainsFinalExportedTriangles": true,
+        "visualApprovalExplicitlyPending": true,
+        "noFullTechnicalApprovalClaim": true,
+        "postCleanupSurfaceEvidenceReferencesCurrentGLB": true,
+        "noStrictZeroAreaTriangles": true,
+        "nonCleanupFamilyWholeGLBUnchanged": true
+      },
+      "allChecksPass": true
+    }
+  ],
+  "all13CurrentExportsStatisticsAndSpecsSynchronized": true,
+  "allStrictProtectedInputsUnchanged": true,
+  "surfaceEquivalenceEvidence": "validation/v06c/final/post-cleanup-visible-geometry.json",
+  "allRetainedSurfacesExactlyUnchanged": true,
+  "normalToleranceUsed": 0,
+  "currentResourceTotals": {
+    "frozen": {
+      "files": 1,
+      "bytes": 411892,
+      "triangles": 6566,
+      "meshDefinitions": 55,
+      "primitives": 72,
+      "sceneTriangleInstances": 6566,
+      "scenePrimitiveInstances": 72,
+      "materialDefinitionsAcrossFiles": 6,
+      "imageReferences": 0,
+      "embeddedImageBytes": 0,
+      "otherBytes": 411892,
+      "jsonChunkBytes": 61308
+    },
+    "v05": {
+      "files": 3,
+      "bytes": 1119288,
+      "triangles": 22592,
+      "meshDefinitions": 18,
+      "primitives": 18,
+      "sceneTriangleInstances": 22592,
+      "scenePrimitiveInstances": 18,
+      "materialDefinitionsAcrossFiles": 15,
+      "imageReferences": 1,
+      "embeddedImageBytes": 430084,
+      "otherBytes": 689204,
+      "jsonChunkBytes": 21200
+    },
+    "v06A": {
+      "files": 16,
+      "bytes": 2375692,
+      "triangles": 55444,
+      "meshDefinitions": 62,
+      "primitives": 62,
+      "sceneTriangleInstances": 55444,
+      "scenePrimitiveInstances": 62,
+      "materialDefinitionsAcrossFiles": 39,
+      "imageReferences": 17,
+      "embeddedImageBytes": 443596,
+      "otherBytes": 1932096,
+      "jsonChunkBytes": 78424
+    },
+    "v06B": {
+      "files": 8,
+      "bytes": 755684,
+      "triangles": 20240,
+      "meshDefinitions": 28,
+      "primitives": 29,
+      "sceneTriangleInstances": 20240,
+      "scenePrimitiveInstances": 29,
+      "materialDefinitionsAcrossFiles": 23,
+      "imageReferences": 0,
+      "embeddedImageBytes": 0,
+      "otherBytes": 755684,
+      "jsonChunkBytes": 34524
+    },
+    "v06C": {
+      "files": 13,
+      "bytes": 2336368,
+      "triangles": 43442,
+      "meshDefinitions": 66,
+      "primitives": 66,
+      "sceneTriangleInstances": 43442,
+      "scenePrimitiveInstances": 66,
+      "materialDefinitionsAcrossFiles": 51,
+      "imageReferences": 0,
+      "embeddedImageBytes": 0,
+      "otherBytes": 2336368,
+      "jsonChunkBytes": 78104
+    },
+    "beforeCInitialGlbPayload": {
+      "files": 28,
+      "bytes": 4662556,
+      "triangles": 104842,
+      "meshDefinitions": 163,
+      "primitives": 181,
+      "sceneTriangleInstances": 104842,
+      "scenePrimitiveInstances": 181,
+      "materialDefinitionsAcrossFiles": 83,
+      "imageReferences": 18,
+      "embeddedImageBytes": 873680,
+      "otherBytes": 3788876,
+      "jsonChunkBytes": 195456
+    },
+    "afterCInitialGlbPayload": {
+      "files": 41,
+      "bytes": 6998924,
+      "triangles": 148284,
+      "meshDefinitions": 229,
+      "primitives": 247,
+      "sceneTriangleInstances": 148284,
+      "scenePrimitiveInstances": 247,
+      "materialDefinitionsAcrossFiles": 134,
+      "imageReferences": 18,
+      "embeddedImageBytes": 873680,
+      "otherBytes": 6125244,
+      "jsonChunkBytes": 273560
+    },
+    "initialGlbByteIncrease": 2336368,
+    "initialGlbByteIncreasePercent": 50.109167589622515,
+    "cSourcePngBytesNotAdditionalWhenEmbeddedInGlb": 0
+  },
+  "performanceStatus": "Final exclusive optimized measurement complete (21/21 protocol checks); no-material-performance-regression acceptance failed.",
+  "performanceEvidence": {
+    "baseline": "validation/v06c/baseline/performance.json",
+    "preCleanupC": "validation/v06c/performance/performance.json",
+    "optimizedFinal": "validation/v06c/performance-optimized/performance.json",
+    "comparison": "validation/v06c/final/PERFORMANCE_COMPARISON.md"
+  },
+  "performanceSummary": {
+    "baseline": "validation/v06c/baseline/performance.json",
+    "preCleanup": "validation/v06c/performance/performance.json",
+    "final": "validation/v06c/performance-optimized/performance.json",
+    "measuredAt": "2026-09-18T13:40:04.825Z",
+    "finalModelsMatchOptimizedLedger": true,
+    "heroCalls": {
+      "baseline": 137,
+      "preCleanup": 177,
+      "final": 177,
+      "finalIncrease": 40
+    },
+    "heroTriangles": {
+      "baseline": 100256,
+      "preCleanup": 143108,
+      "final": 141742,
+      "finalIncrease": 41486
+    },
+    "heroFrameMs": [
+      {
+        "width": 1440,
+        "baseline": 57.933333330684256,
+        "preCleanup": 76.96153846153847,
+        "final": 75.30714285373686,
+        "finalVsBaselinePercent": 29.989314483050133
+      },
+      {
+        "width": 768,
+        "baseline": 50.11499999761583,
+        "preCleanup": 68.82000000079474,
+        "final": 68.21999999682109,
+        "finalVsBaselinePercent": 36.126908111476766
+      },
+      {
+        "width": 390,
+        "baseline": 44.73478260765905,
+        "preCleanup": 65.29375000298023,
+        "final": 64.00000000000001,
+        "finalVsBaselinePercent": 43.06540966411796
+      }
+    ],
+    "activityEqualMean": [
+      {
+        "viewportWidth": 1440,
+        "baseline": 42.786445709028754,
+        "preCleanup": 47.0495118568408,
+        "final": 47.07350735240447,
+        "finalVsBaselinePercent": 10.019672287177306,
+        "finalVsPreCleanupPercent": 0.05100051970077235
+      },
+      {
+        "viewportWidth": 390,
+        "baseline": 25.09498929273247,
+        "preCleanup": 28.284355122389645,
+        "final": 27.900855692833982,
+        "finalVsBaselinePercent": 11.180982655027849,
+        "finalVsPreCleanupPercent": -1.3558712153634689
+      }
+    ],
+    "networkModels": {
+      "baseline": {
+        "transferSize": 1952443,
+        "encodedBodySize": 1944043,
+        "decodedBodySize": 4662556
+      },
+      "preCleanup": {
+        "transferSize": 2474243,
+        "encodedBodySize": 2461943,
+        "decodedBodySize": 7030820
+      },
+      "final": {
+        "transferSize": 2469673,
+        "encodedBodySize": 2457373,
+        "decodedBodySize": 6998924
+      }
+    },
+    "functionalMeasurementChecks": {
+      "passed": 21,
+      "failed": 0
+    },
+    "performanceNoMaterialRegressionPassed": false,
+    "reason": "Final observed Hero and activity intervals remain above pre-C baseline. Single software-rendering samples do not support causal claims about cleanup frame-time improvement.",
+    "report": "validation/v06c/final/PERFORMANCE_COMPARISON.md"
+  }
+}

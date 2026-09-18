@@ -1,0 +1,42 @@
+{
+  "recordedAt": "2026-09-18T13:48:10.454228+00:00",
+  "note": "Actual durations from ffprobe; short clip is 14.68 seconds, approximately 15, not padded or retimed",
+  "media": [
+    {
+      "file": "production-optimized/v06c-all-interaction.mp4",
+      "sha256": "747d215b1cc094b0f69805351eee3deac32855d8658b8d162f13eaf1ca5e25f5",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 900,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "45.640000",
+        "size": "10090191"
+      }
+    },
+    {
+      "file": "piano-short-optimized/v06c-piano-underdesk-reopen.mp4",
+      "sha256": "a2c8e8eabbbd0bca386765b5123796428cee71a2c346c0b692ee38b84d57a176",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 900,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "14.680000",
+        "size": "2525513"
+      }
+    }
+  ]
+}

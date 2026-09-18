@@ -1,0 +1,63 @@
+{
+  "startedAt": "2026-09-18T11:29:25.183Z",
+  "finishedAt": "2026-09-18T11:29:25.599Z",
+  "command": "node --import tsx --test --test-reporter=tap tests/collection-decor-geometry.test.ts",
+  "exitCode": 0,
+  "tests": 36,
+  "pass": 36,
+  "fail": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "scope": "CPU actual GLB; 8 C collection families, no Blender/browser",
+  "inputs": [
+    {
+      "family": "eiffel",
+      "file": "public/models/production/eiffel_v06c.glb",
+      "bytes": 364112,
+      "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864"
+    },
+    {
+      "family": "hogwarts",
+      "file": "public/models/production/hogwarts_v06c.glb",
+      "bytes": 140328,
+      "sha256": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb"
+    },
+    {
+      "family": "minastirith",
+      "file": "public/models/production/minastirith_v06c.glb",
+      "bytes": 307428,
+      "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d"
+    },
+    {
+      "family": "falcon",
+      "file": "public/models/production/falcon_v06c.glb",
+      "bytes": 113052,
+      "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833"
+    },
+    {
+      "family": "bridge",
+      "file": "public/models/production/bridge_v06c.glb",
+      "bytes": 299584,
+      "sha256": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2"
+    },
+    {
+      "family": "sls",
+      "file": "public/models/production/sls_v06c.glb",
+      "bytes": 128244,
+      "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d"
+    },
+    {
+      "family": "ferrari",
+      "file": "public/models/production/ferrari_v06c.glb",
+      "bytes": 119244,
+      "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa"
+    },
+    {
+      "family": "mercedes",
+      "file": "public/models/production/mercedes_v06c.glb",
+      "bytes": 119264,
+      "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b"
+    }
+  ],
+  "log": "validation/v06c/stages/02-geometry.log"
+}

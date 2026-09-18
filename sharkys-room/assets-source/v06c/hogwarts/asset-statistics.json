@@ -1,0 +1,184 @@
+{
+  "version": "0.6C",
+  "family": "hogwarts",
+  "triangles": 2950,
+  "meshCount": 4,
+  "uvMeshes": 4,
+  "materialCount": 4,
+  "materials": [
+    "MAT_V06C_Hogwarts_DisplayPlinth",
+    "MAT_V06C_Hogwarts_Limestone",
+    "MAT_V06C_Hogwarts_Recesses",
+    "MAT_V06C_Hogwarts_SlateRoofs"
+  ],
+  "roots": {
+    "VIS_Hogwarts": {
+      "anchor": "DSP_Castle_Bounds",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.2410000115633011,
+          -0.5296499729156494,
+          -0.6178333759307861
+        ],
+        "max": [
+          0.2410000115633011,
+          0.28949999809265137,
+          0.6178333759307861
+        ]
+      }
+    }
+  },
+  "placement": {
+    "originalAnchor": "DSP_Castle_Bounds",
+    "originalParent": "DISPLAY_MODELS",
+    "nominalWorldBounds": {
+      "min": [
+        -3.46999990940094,
+        1.4299999475479126,
+        -0.3399999737739563
+      ],
+      "max": [
+        -2.9799998998641968,
+        2.399999976158142,
+        0.9599999785423279
+      ],
+      "size": [
+        0.49000000953674316,
+        0.9700000286102295,
+        1.2999999523162842
+      ]
+    },
+    "compartmentWorldBounds": {
+      "min": [
+        -3.52,
+        1.385,
+        -0.5399999761581421
+      ],
+      "max": [
+        -2.95,
+        2.525,
+        1.120000023841858
+      ],
+      "size": [
+        0.5699999999999998,
+        1.14,
+        1.6600000000000001
+      ]
+    },
+    "canonicalBox": {
+      "min": [
+        -1.2400000095367432,
+        0.0,
+        -0.48249998688697815
+      ],
+      "max": [
+        1.2400000095367432,
+        1.559999942779541,
+        0.47749999165534973
+      ]
+    },
+    "uniformScale": 0.4958333543501799,
+    "bakedRotationYDegrees": 90,
+    "bodyLocalBottom": -0.48400001430511475,
+    "supportLocalBottom": -0.5296499618530274,
+    "supportExtensionM": 0.04564994754791263,
+    "supportClearanceM": 0.00035,
+    "previewOnly": false,
+    "provisionalSlot": false
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "sourceTriangles": 3552,
+  "exportCleanup": {
+    "sourceTriangles": 3552,
+    "exportedTriangles": 2950,
+    "removedZeroAreaTriangles": 602,
+    "removedUnreferencedVertices": 60,
+    "beforeBytes": 140536,
+    "afterBytes": 135060,
+    "primitives": [
+      {
+        "mesh": "Cone.001",
+        "meshIndex": 0,
+        "primitiveIndex": 0,
+        "material": 0,
+        "sourceTriangles": 392,
+        "exportedTriangles": 392,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 648,
+        "exportedVertices": 648,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "Cube",
+        "meshIndex": 1,
+        "primitiveIndex": 0,
+        "material": 1,
+        "sourceTriangles": 644,
+        "exportedTriangles": 644,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 876,
+        "exportedVertices": 876,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "Cube.002",
+        "meshIndex": 2,
+        "primitiveIndex": 0,
+        "material": 2,
+        "sourceTriangles": 2472,
+        "exportedTriangles": 1870,
+        "removedZeroAreaTriangles": 602,
+        "sourceVertices": 1980,
+        "exportedVertices": 1920,
+        "removedUnreferencedVertices": 60
+      },
+      {
+        "mesh": "Cube.035",
+        "meshIndex": 3,
+        "primitiveIndex": 0,
+        "material": 3,
+        "sourceTriangles": 44,
+        "exportedTriangles": 44,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 57,
+        "exportedVertices": 57,
+        "removedUnreferencedVertices": 0
+      }
+    ]
+  },
+  "glbBytes": 135060,
+  "blendBytes": 148368,
+  "glbSHA256": "934f91ddf9e9e6bb2b3650aa3042c7b1a978105aa1b012082da455a90a88c4a6",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_Hogwarts": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Hogwarts_bounds": true
+  }
+}

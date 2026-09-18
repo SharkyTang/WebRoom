@@ -1,0 +1,16 @@
+{
+  "recordedAt": "2026-09-18T13:49:11.150147+00:00",
+  "files": [
+    "V06C_COLLECTION_DECOR_REPORT.md",
+    "V06C_COLLECTION_SLOT_MAP.md",
+    "V06C_LIGHT_FIXTURE_MAPPING.md",
+    "V06_ASSET_STATUS.md",
+    "ASSET_BUDGETS.md",
+    "README.md",
+    "ASSET_PIPELINE_GUIDE.md",
+    "assets-source/v06c/README.md",
+    "validation/v06c/EVIDENCE_INDEX.md"
+  ],
+  "checkedLocalLinks": 75,
+  "missing": []
+}

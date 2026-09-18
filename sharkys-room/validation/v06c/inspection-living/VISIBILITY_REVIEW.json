@@ -1,0 +1,80 @@
+{
+  "technicalSummaryFromOriginalRun": {
+    "passed": 15,
+    "failed": 0
+  },
+  "overallVisualEvidenceStatus": "blocked; original technical pass did not detect invisible formal Cola materials",
+  "userVisualConfirmation": "pending",
+  "findings": [
+    {
+      "item": "Cola",
+      "type": "product arrival-order resource suppression",
+      "status": "failed",
+      "evidence": [
+        {
+          "mesh": "VIS_Cola_Material_0",
+          "materials": [
+            {
+              "uuid": "4841d59d-b660-4b15-949f-f1ef6bbb94bf",
+              "name": "WebOnly_Suppressed_coffee_Proxy",
+              "color": null,
+              "emissive": null,
+              "emissiveIntensity": null
+            }
+          ]
+        },
+        {
+          "mesh": "VIS_Cola_Material_1",
+          "materials": [
+            {
+              "uuid": "4841d59d-b660-4b15-949f-f1ef6bbb94bf",
+              "name": "WebOnly_Suppressed_coffee_Proxy",
+              "color": null,
+              "emissive": null,
+              "emissiveIntensity": null
+            }
+          ]
+        },
+        {
+          "mesh": "VIS_Cola_Material_2",
+          "materials": [
+            {
+              "uuid": "4841d59d-b660-4b15-949f-f1ef6bbb94bf",
+              "name": "WebOnly_Suppressed_coffee_Proxy",
+              "color": null,
+              "emissive": null,
+              "emissiveIntensity": null
+            }
+          ]
+        }
+      ],
+      "observation": "All three material slots are WebOnly_Suppressed_coffee_Proxy. Cup absent from both closeup and coffee context. Root implementing assembly fix; no camera workaround attempted."
+    },
+    {
+      "item": "Cabinet/CoffeeTable/Sofa plants",
+      "type": "agent screenshot visibility review",
+      "status": "visible",
+      "observation": "Viewed individual screenshots: pot, stems and leaves clearly visible."
+    },
+    {
+      "item": "Desk plant",
+      "type": "test-camera occlusion",
+      "status": "supplement needed",
+      "observation": "Unchanged MacBook display blocks right half. Test approach moved to left for a later run."
+    },
+    {
+      "item": "Window plant",
+      "type": "test-camera occlusion",
+      "status": "supplement needed",
+      "observation": "Unchanged bed headboard/pillow blocks lower half. Test approach moved to left for a later run."
+    },
+    {
+      "item": "Dog and A bed",
+      "type": "test-camera height",
+      "status": "higher view needed",
+      "observation": "Both present, but unchanged bed rim obscures muzzle at the low angle. Planned higher test view; no model judgment inferred yet."
+    }
+  ],
+  "newTestGate": "Subsequent runs require every installed C mesh to retain a PBR material and reject WebOnly_Suppressed material names; the new gate rejects this retained sample.",
+  "sceneChanges": "No product/model/layout/visibility changes by this subagent."
+}

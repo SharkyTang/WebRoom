@@ -1,0 +1,2491 @@
+{
+  "generatedAt": "2026-09-18T12:16:32.809Z",
+  "stage": "all",
+  "mode": "production",
+  "origin": "http://127.0.0.1:3004",
+  "families": [
+    "monitor",
+    "macbook",
+    "marshall",
+    "floor",
+    "walls",
+    "door",
+    "window",
+    "curtains",
+    "desk",
+    "cabinet",
+    "bed",
+    "bedside",
+    "sofa",
+    "chair",
+    "coffee",
+    "sidetable",
+    "beanbag",
+    "rugs",
+    "dogbed",
+    "piano",
+    "ipad",
+    "phone",
+    "trashcan",
+    "lightswitch",
+    "keyboard",
+    "mouse",
+    "headphones",
+    "eiffel",
+    "hogwarts",
+    "minastirith",
+    "falcon",
+    "bridge",
+    "sls",
+    "ferrari",
+    "mercedes",
+    "plants",
+    "cola",
+    "dog",
+    "fixtures",
+    "wallart"
+  ],
+  "selectedFamilies": [
+    "eiffel",
+    "hogwarts",
+    "minastirith",
+    "falcon",
+    "bridge",
+    "sls",
+    "ferrari",
+    "mercedes",
+    "plants",
+    "cola",
+    "dog",
+    "fixtures",
+    "wallart"
+  ],
+  "summary": {
+    "passed": 51,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Production 1440px complete installation without debug or inspection APIs",
+      "passed": true,
+      "detail": {
+        "installedFamilies": [
+          "monitor",
+          "macbook",
+          "marshall",
+          "floor",
+          "walls",
+          "door",
+          "window",
+          "curtains",
+          "desk",
+          "cabinet",
+          "bed",
+          "bedside",
+          "sofa",
+          "chair",
+          "coffee",
+          "sidetable",
+          "beanbag",
+          "rugs",
+          "dogbed",
+          "piano",
+          "ipad",
+          "phone",
+          "trashcan",
+          "lightswitch",
+          "keyboard",
+          "mouse",
+          "headphones",
+          "eiffel",
+          "hogwarts",
+          "minastirith",
+          "falcon",
+          "bridge",
+          "sls",
+          "ferrari",
+          "mercedes",
+          "plants",
+          "cola",
+          "dog",
+          "fixtures",
+          "wallart"
+        ]
+      }
+    },
+    {
+      "name": "Production 1440px native monitor replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 819,
+            "y": 344
+          },
+          "hit": {
+            "node": "VIS_MonitorDisplaySurface",
+            "assetFamily": "monitor",
+            "semanticId": "monitor",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MonitorDisplaySurface",
+              "TEC_MonitorScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native macbook replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 729,
+            "y": 351
+          },
+          "hit": {
+            "node": "VIS_MacBookDisplaySurface",
+            "assetFamily": "macbook",
+            "semanticId": "macbook",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MacBookDisplaySurface",
+              "VIS_MacBookLid",
+              "TEC_MacBookScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native ipad replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 596,
+            "y": 513
+          },
+          "hit": {
+            "node": "VIS_iPadDisplaySurface",
+            "assetFamily": "ipad",
+            "semanticId": "ipad",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_iPadDisplaySurface",
+              "VIS_iPadBody",
+              "TEC_iPad",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native marshall replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 863,
+            "y": 394
+          },
+          "hit": {
+            "node": "VIS_MarshallGrille",
+            "assetFamily": "marshall",
+            "semanticId": "marshall",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MarshallGrille",
+              "VIS_MarshallBody",
+              "TEC_Marshall",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native piano replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 759,
+            "y": 427
+          },
+          "hit": {
+            "node": "VIS_PianoCaseAndKeys_0",
+            "assetFamily": "piano",
+            "semanticId": "piano",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PianoCaseAndKeys_0",
+              "VIS_PianoBody",
+              "INT_Piano",
+              "INT_PianoRail",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native trashcan replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 906,
+            "y": 454
+          },
+          "hit": {
+            "node": "VIS_TrashCanLidShell",
+            "assetFamily": "trashcan",
+            "semanticId": "trashcan",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_TrashCanLidShell",
+              "VIS_TrashCanLid",
+              "INT_TrashCanLid",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native lightswitch replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 372,
+            "y": 381
+          },
+          "hit": {
+            "node": "VIS_LightSwitchMovingPaddle",
+            "assetFamily": "lightswitch",
+            "semanticId": "lightswitch",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_LightSwitchMovingPaddle",
+              "VIS_LightSwitchRocker",
+              "INT_LightSwitch",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native phone replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 831,
+            "y": 399
+          },
+          "hit": {
+            "node": "VIS_PhoneDisplaySurface",
+            "assetFamily": "phone",
+            "semanticId": "phone",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PhoneDisplaySurface",
+              "VIS_PhoneBody",
+              "TEC_Phone",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native window replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 701,
+            "y": 163
+          },
+          "hit": {
+            "node": "VIS_WindowInsetFaces",
+            "assetFamily": "window",
+            "semanticId": "window",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_WindowInsetFaces",
+              "VIS_WindowFrame",
+              "ENV_WindowFrame",
+              "ENVIRONMENT",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px recorded static C pixels do not open actions",
+      "passed": true,
+      "detail": {
+        "actualPixels": {
+          "plants": {
+            "point": {
+              "x": 564,
+              "y": 192
+            },
+            "hit": {
+              "node": "VIS_PlantCabinet_Material_1",
+              "assetFamily": "plants",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_PlantCabinet_Material_1",
+                "VIS_PlantCabinet",
+                "DEC_Plant_Cabinet",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "eiffel": {
+            "point": {
+              "x": 554,
+              "y": 262
+            },
+            "hit": {
+              "node": "VIS_Eiffel_Material_0",
+              "assetFamily": "eiffel",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Eiffel_Material_0",
+                "VIS_Eiffel",
+                "DSP_EiffelTower_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "hogwarts": {
+            "point": {
+              "x": 454,
+              "y": 282
+            },
+            "hit": {
+              "node": "VIS_Hogwarts_Material_0",
+              "assetFamily": "hogwarts",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Hogwarts_Material_0",
+                "VIS_Hogwarts",
+                "DSP_Castle_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "wallart": {
+            "point": {
+              "x": 1054,
+              "y": 292
+            },
+            "hit": {
+              "node": "VIS_WallArt_Material_5",
+              "assetFamily": "wallart",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_WallArt_Material_5",
+                "VIS_WallArt",
+                "DEC_WallArt",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "minastirith": {
+            "point": {
+              "x": 634,
+              "y": 322
+            },
+            "hit": {
+              "node": "VIS_MinasTirithPlinth",
+              "assetFamily": "minastirith",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MinasTirithPlinth",
+                "VIS_MinasTirith",
+                "DSP_Architecture_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "sls": {
+            "point": {
+              "x": 604,
+              "y": 332
+            },
+            "hit": {
+              "node": "VIS_SLS_Material_1",
+              "assetFamily": "sls",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_SLS_Material_1",
+                "VIS_SLS",
+                "DSP_TallRocket_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "bridge": {
+            "point": {
+              "x": 594,
+              "y": 362
+            },
+            "hit": {
+              "node": "VIS_TowerBridge_Material_0",
+              "assetFamily": "bridge",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_TowerBridge_Material_0",
+                "VIS_TowerBridge",
+                "DSP_Bridge_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "falcon": {
+            "point": {
+              "x": 474,
+              "y": 372
+            },
+            "hit": {
+              "node": "VIS_Falcon_Material_1",
+              "assetFamily": "falcon",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Falcon_Material_1",
+                "VIS_Falcon",
+                "DSP_Falcon_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "fixtures": {
+            "point": {
+              "x": 1104,
+              "y": 442
+            },
+            "hit": {
+              "node": "VIS_FixtureBedsideSurface",
+              "assetFamily": "fixtures",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_FixtureBedsideSurface",
+                "VIS_FixtureBedside",
+                "DEC_Lamp_Bedside",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "dog": {
+            "point": {
+              "x": 524,
+              "y": 592
+            },
+            "hit": {
+              "node": "VIS_SleepingDog_Material_0",
+              "assetFamily": "dog",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_SleepingDog_Material_0",
+                "VIS_SleepingDog",
+                "DEC_DogBedProxy",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        },
+        "heroOccludedFamilies": [
+          "ferrari",
+          "mercedes",
+          "cola"
+        ]
+      }
+    },
+    {
+      "name": "Production 1440px retract / Back / natural underdesk reopen",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 757,
+            "y": 437
+          },
+          "hit": {
+            "node": "PianoRetractedHitArea",
+            "assetFamily": null,
+            "semanticId": "piano",
+            "runtimeTarget": "PianoRetractedHitArea",
+            "ancestors": [
+              "PianoRetractedHitArea",
+              "",
+              ""
+            ]
+          }
+        },
+        "noSelectorSubstitution": true
+      }
+    },
+    {
+      "name": "Production 768px complete installation without debug or inspection APIs",
+      "passed": true,
+      "detail": {
+        "installedFamilies": [
+          "monitor",
+          "macbook",
+          "marshall",
+          "floor",
+          "walls",
+          "door",
+          "window",
+          "curtains",
+          "desk",
+          "cabinet",
+          "bed",
+          "bedside",
+          "sofa",
+          "chair",
+          "coffee",
+          "sidetable",
+          "beanbag",
+          "rugs",
+          "dogbed",
+          "piano",
+          "ipad",
+          "phone",
+          "trashcan",
+          "lightswitch",
+          "keyboard",
+          "mouse",
+          "headphones",
+          "eiffel",
+          "hogwarts",
+          "minastirith",
+          "falcon",
+          "bridge",
+          "sls",
+          "ferrari",
+          "mercedes",
+          "plants",
+          "cola",
+          "dog",
+          "fixtures",
+          "wallart"
+        ]
+      }
+    },
+    {
+      "name": "Production 768px native monitor replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 447,
+            "y": 448
+          },
+          "hit": {
+            "node": "VIS_MonitorDisplaySurface",
+            "assetFamily": "monitor",
+            "semanticId": "monitor",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MonitorDisplaySurface",
+              "TEC_MonitorScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native macbook replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 389,
+            "y": 452
+          },
+          "hit": {
+            "node": "VIS_MacBookDisplaySurface",
+            "assetFamily": "macbook",
+            "semanticId": "macbook",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MacBookDisplaySurface",
+              "VIS_MacBookLid",
+              "TEC_MacBookScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native ipad replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 305,
+            "y": 555
+          },
+          "hit": {
+            "node": "VIS_iPadDisplaySurface",
+            "assetFamily": "ipad",
+            "semanticId": "ipad",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_iPadDisplaySurface",
+              "VIS_iPadBody",
+              "TEC_iPad",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native marshall replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 475,
+            "y": 479
+          },
+          "hit": {
+            "node": "VIS_MarshallGrille",
+            "assetFamily": "marshall",
+            "semanticId": "marshall",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MarshallGrille",
+              "VIS_MarshallBody",
+              "TEC_Marshall",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native piano replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 409,
+            "y": 500
+          },
+          "hit": {
+            "node": "VIS_PianoCaseAndKeys_1",
+            "assetFamily": "piano",
+            "semanticId": "piano",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PianoCaseAndKeys_1",
+              "VIS_PianoBody",
+              "INT_Piano",
+              "INT_PianoRail",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native trashcan replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 502,
+            "y": 518
+          },
+          "hit": {
+            "node": "VIS_TrashCanLidShell",
+            "assetFamily": "trashcan",
+            "semanticId": "trashcan",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_TrashCanLidShell",
+              "VIS_TrashCanLid",
+              "INT_TrashCanLid",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native lightswitch replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 162,
+            "y": 471
+          },
+          "hit": {
+            "node": "VIS_LightSwitchMovingPaddle",
+            "assetFamily": "lightswitch",
+            "semanticId": "lightswitch",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_LightSwitchMovingPaddle",
+              "VIS_LightSwitchRocker",
+              "INT_LightSwitch",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native phone replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 455,
+            "y": 482
+          },
+          "hit": {
+            "node": "VIS_PhoneDisplaySurface",
+            "assetFamily": "phone",
+            "semanticId": "phone",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PhoneDisplaySurface",
+              "VIS_PhoneBody",
+              "TEC_Phone",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native window replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 369,
+            "y": 332
+          },
+          "hit": {
+            "node": "VIS_WindowInsetFaces",
+            "assetFamily": "window",
+            "semanticId": "window",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_WindowInsetFaces",
+              "VIS_WindowFrame",
+              "ENV_WindowFrame",
+              "ENVIRONMENT",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px recorded static C pixels do not open actions",
+      "passed": true,
+      "detail": {
+        "actualPixels": {
+          "plants": {
+            "point": {
+              "x": 284,
+              "y": 355
+            },
+            "hit": {
+              "node": "VIS_PlantCabinet_Material_1",
+              "assetFamily": "plants",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_PlantCabinet_Material_1",
+                "VIS_PlantCabinet",
+                "DEC_Plant_Cabinet",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "eiffel": {
+            "point": {
+              "x": 274,
+              "y": 385
+            },
+            "hit": {
+              "node": "VIS_Eiffel_Material_0",
+              "assetFamily": "eiffel",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Eiffel_Material_0",
+                "VIS_Eiffel",
+                "DSP_EiffelTower_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "hogwarts": {
+            "point": {
+              "x": 214,
+              "y": 405
+            },
+            "hit": {
+              "node": "VIS_Hogwarts_Material_0",
+              "assetFamily": "hogwarts",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Hogwarts_Material_0",
+                "VIS_Hogwarts",
+                "DSP_Castle_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "wallart": {
+            "point": {
+              "x": 594,
+              "y": 415
+            },
+            "hit": {
+              "node": "VIS_WallArt_Material_5",
+              "assetFamily": "wallart",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_WallArt_Material_5",
+                "VIS_WallArt",
+                "DEC_WallArt",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "minastirith": {
+            "point": {
+              "x": 324,
+              "y": 425
+            },
+            "hit": {
+              "node": "VIS_MinasTirith_Material_0",
+              "assetFamily": "minastirith",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MinasTirith_Material_0",
+                "VIS_MinasTirith",
+                "DSP_Architecture_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "bridge": {
+            "point": {
+              "x": 314,
+              "y": 455
+            },
+            "hit": {
+              "node": "VIS_TowerBridge_Material_2",
+              "assetFamily": "bridge",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_TowerBridge_Material_2",
+                "VIS_TowerBridge",
+                "DSP_Bridge_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "falcon": {
+            "point": {
+              "x": 234,
+              "y": 465
+            },
+            "hit": {
+              "node": "VIS_Falcon_Material_1",
+              "assetFamily": "falcon",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Falcon_Material_1",
+                "VIS_Falcon",
+                "DSP_Falcon_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "fixtures": {
+            "point": {
+              "x": 624,
+              "y": 505
+            },
+            "hit": {
+              "node": "VIS_FixtureBedside_Material_0",
+              "assetFamily": "fixtures",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_FixtureBedside_Material_0",
+                "VIS_FixtureBedside",
+                "DEC_Lamp_Bedside",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "cola": {
+            "point": {
+              "x": 294,
+              "y": 535
+            },
+            "hit": {
+              "node": "VIS_Cola_Material_1",
+              "assetFamily": "cola",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Cola_Material_1",
+                "VIS_Cola",
+                "FUR_CoffeeTable",
+                "FURNITURE",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "dog": {
+            "point": {
+              "x": 264,
+              "y": 605
+            },
+            "hit": {
+              "node": "VIS_SleepingDog_Material_0",
+              "assetFamily": "dog",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_SleepingDog_Material_0",
+                "VIS_SleepingDog",
+                "DEC_DogBedProxy",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        },
+        "heroOccludedFamilies": [
+          "sls",
+          "ferrari",
+          "mercedes"
+        ]
+      }
+    },
+    {
+      "name": "Production 768px retract / Back / natural underdesk reopen",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 408,
+            "y": 507
+          },
+          "hit": {
+            "node": "PianoRetractedHitArea",
+            "assetFamily": null,
+            "semanticId": "piano",
+            "runtimeTarget": "PianoRetractedHitArea",
+            "ancestors": [
+              "PianoRetractedHitArea",
+              "",
+              ""
+            ]
+          }
+        },
+        "noSelectorSubstitution": true
+      }
+    },
+    {
+      "name": "Production 390px complete installation without debug or inspection APIs",
+      "passed": true,
+      "detail": {
+        "installedFamilies": [
+          "monitor",
+          "macbook",
+          "marshall",
+          "floor",
+          "walls",
+          "door",
+          "window",
+          "curtains",
+          "desk",
+          "cabinet",
+          "bed",
+          "bedside",
+          "sofa",
+          "chair",
+          "coffee",
+          "sidetable",
+          "beanbag",
+          "rugs",
+          "dogbed",
+          "piano",
+          "ipad",
+          "phone",
+          "trashcan",
+          "lightswitch",
+          "keyboard",
+          "mouse",
+          "headphones",
+          "eiffel",
+          "hogwarts",
+          "minastirith",
+          "falcon",
+          "bridge",
+          "sls",
+          "ferrari",
+          "mercedes",
+          "plants",
+          "cola",
+          "dog",
+          "fixtures",
+          "wallart"
+        ]
+      }
+    },
+    {
+      "name": "Production 390px native monitor replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 228,
+            "y": 362
+          },
+          "hit": {
+            "node": "VIS_MonitorDisplaySurface",
+            "assetFamily": "monitor",
+            "semanticId": "monitor",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MonitorDisplaySurface",
+              "TEC_MonitorScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native macbook replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 198,
+            "y": 365
+          },
+          "hit": {
+            "node": "VIS_MacBookDisplaySurface",
+            "assetFamily": "macbook",
+            "semanticId": "macbook",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MacBookDisplaySurface",
+              "VIS_MacBookLid",
+              "TEC_MacBookScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native ipad replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 154,
+            "y": 419
+          },
+          "hit": {
+            "node": "VIS_iPadDisplaySurface",
+            "assetFamily": "ipad",
+            "semanticId": "ipad",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_iPadDisplaySurface",
+              "VIS_iPadBody",
+              "TEC_iPad",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native marshall replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 243,
+            "y": 379
+          },
+          "hit": {
+            "node": "VIS_MarshallGrille",
+            "assetFamily": "marshall",
+            "semanticId": "marshall",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MarshallGrille",
+              "VIS_MarshallBody",
+              "TEC_Marshall",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native piano replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 208,
+            "y": 390
+          },
+          "hit": {
+            "node": "VIS_PianoCaseAndKeys_0",
+            "assetFamily": "piano",
+            "semanticId": "piano",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PianoCaseAndKeys_0",
+              "VIS_PianoBody",
+              "INT_Piano",
+              "INT_PianoRail",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native trashcan replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 257,
+            "y": 399
+          },
+          "hit": {
+            "node": "VIS_TrashCanLidShell",
+            "assetFamily": "trashcan",
+            "semanticId": "trashcan",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_TrashCanLidShell",
+              "VIS_TrashCanLid",
+              "INT_TrashCanLid",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native lightswitch replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 79,
+            "y": 375
+          },
+          "hit": {
+            "node": "VIS_LightSwitchMovingPaddle",
+            "assetFamily": "lightswitch",
+            "semanticId": "lightswitch",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_LightSwitchMovingPaddle",
+              "VIS_LightSwitchRocker",
+              "INT_LightSwitch",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native phone replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 232,
+            "y": 381
+          },
+          "hit": {
+            "node": "VIS_PhoneDisplaySurface",
+            "assetFamily": "phone",
+            "semanticId": "phone",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PhoneDisplaySurface",
+              "VIS_PhoneBody",
+              "TEC_Phone",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native window replays actual dev entry and controls",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 208,
+            "y": 306
+          },
+          "hit": {
+            "node": "VIS_WindowInsetFaces",
+            "assetFamily": "window",
+            "semanticId": "window",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_WindowInsetFaces",
+              "VIS_WindowFrame",
+              "ENV_WindowFrame",
+              "ENVIRONMENT",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px recorded static C pixels do not open actions",
+      "passed": true,
+      "detail": {
+        "actualPixels": {
+          "hogwarts": {
+            "point": {
+              "x": 119,
+              "y": 345
+            },
+            "hit": {
+              "node": "VIS_Hogwarts_Material_1",
+              "assetFamily": "hogwarts",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Hogwarts_Material_1",
+                "VIS_Hogwarts",
+                "DSP_Castle_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "wallart": {
+            "point": {
+              "x": 309,
+              "y": 345
+            },
+            "hit": {
+              "node": "VIS_WallArt_Material_5",
+              "assetFamily": "wallart",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_WallArt_Material_5",
+                "VIS_WallArt",
+                "DEC_WallArt",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "eiffel": {
+            "point": {
+              "x": 139,
+              "y": 355
+            },
+            "hit": {
+              "node": "VIS_Eiffel_Material_1",
+              "assetFamily": "eiffel",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Eiffel_Material_1",
+                "VIS_Eiffel",
+                "DSP_EiffelTower_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "minastirith": {
+            "point": {
+              "x": 169,
+              "y": 355
+            },
+            "hit": {
+              "node": "VIS_MinasTirithPlinth",
+              "assetFamily": "minastirith",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MinasTirithPlinth",
+                "VIS_MinasTirith",
+                "DSP_Architecture_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "falcon": {
+            "point": {
+              "x": 109,
+              "y": 375
+            },
+            "hit": {
+              "node": "VIS_Falcon_Material_2",
+              "assetFamily": "falcon",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_Falcon_Material_2",
+                "VIS_Falcon",
+                "DSP_Falcon_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "bridge": {
+            "point": {
+              "x": 149,
+              "y": 375
+            },
+            "hit": {
+              "node": "VIS_TowerBridge_Material_1",
+              "assetFamily": "bridge",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_TowerBridge_Material_1",
+                "VIS_TowerBridge",
+                "DSP_Bridge_Bounds",
+                "DISPLAY_MODELS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "plants": {
+            "point": {
+              "x": 79,
+              "y": 405
+            },
+            "hit": {
+              "node": "VIS_PlantSofa_Material_0",
+              "assetFamily": "plants",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_PlantSofa_Material_0",
+                "VIS_PlantSofa",
+                "DEC_Plant_Sofa",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "dog": {
+            "point": {
+              "x": 129,
+              "y": 445
+            },
+            "hit": {
+              "node": "VIS_SleepingDog_Material_0",
+              "assetFamily": "dog",
+              "semanticId": null,
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_SleepingDog_Material_0",
+                "VIS_SleepingDog",
+                "DEC_DogBedProxy",
+                "DECORATIONS",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        },
+        "heroOccludedFamilies": [
+          "sls",
+          "ferrari",
+          "mercedes",
+          "cola",
+          "fixtures"
+        ]
+      }
+    },
+    {
+      "name": "Production 390px retract / Back / natural underdesk reopen",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 207,
+            "y": 393
+          },
+          "hit": {
+            "node": "PianoRetractedHitArea",
+            "assetFamily": null,
+            "semanticId": "piano",
+            "runtimeTarget": "PianoRetractedHitArea",
+            "ancestors": [
+              "PianoRetractedHitArea",
+              "",
+              ""
+            ]
+          }
+        },
+        "noSelectorSubstitution": true
+      }
+    },
+    {
+      "name": "Production eiffel failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production hogwarts failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production minastirith failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production falcon failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production bridge failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production sls failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production ferrari failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production mercedes failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production plants failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production cola failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "ipad": {
+            "point": {
+              "x": 603,
+              "y": 490
+            },
+            "hit": {
+              "node": "VIS_iPadDisplaySurface",
+              "assetFamily": "ipad",
+              "semanticId": "ipad",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_iPadDisplaySurface",
+                "VIS_iPadBody",
+                "TEC_iPad",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          },
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production dog failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production fixtures failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Production wallart failure is labeled and refresh restores exactly one complete manifest",
+      "passed": true,
+      "detail": {
+        "fallbackCountsAsInstalled": false,
+        "devReplayTargets": {
+          "monitor": {
+            "point": {
+              "x": 814,
+              "y": 331
+            },
+            "hit": {
+              "node": "VIS_MonitorDisplaySurface",
+              "assetFamily": "monitor",
+              "semanticId": "monitor",
+              "runtimeTarget": null,
+              "ancestors": [
+                "VIS_MonitorDisplaySurface",
+                "TEC_MonitorScreen",
+                "TECH",
+                "SharkysRoom",
+                "Scene",
+                "",
+                ""
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Exports stay unchanged while browser evidence is collected",
+      "passed": true,
+      "detail": {
+        "monitor": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+        "macbook": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+        "marshall": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+        "floor": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+        "walls": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+        "door": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+        "window": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+        "curtains": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+        "desk": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+        "cabinet": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+        "bed": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+        "bedside": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+        "sofa": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+        "chair": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+        "coffee": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+        "sidetable": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+        "beanbag": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+        "rugs": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+        "dogbed": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+        "piano": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+        "ipad": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+        "phone": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+        "trashcan": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+        "lightswitch": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+        "keyboard": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+        "mouse": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+        "headphones": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+        "eiffel": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+        "hogwarts": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb",
+        "minastirith": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+        "falcon": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+        "bridge": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2",
+        "sls": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+        "ferrari": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+        "mercedes": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+        "plants": "41f517b3c98e013c58afcb11552e42c86be967d392b20c17cc1ef3e024a9b4d4",
+        "cola": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+        "dog": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+        "fixtures": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+        "wallart": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772"
+      }
+    },
+    {
+      "name": "Normal C sessions have no runtime/resource errors; injected failures remain isolated",
+      "passed": true
+    }
+  ],
+  "observations": {
+    "viewports": {},
+    "nativeInputs": [],
+    "baselinePath": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06c/baseline/performance.json",
+    "exportHashesAtStart": {
+      "monitor": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "macbook": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "marshall": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "floor": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "walls": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "door": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "window": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "curtains": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "desk": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "cabinet": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "bed": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "bedside": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "sofa": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "chair": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "coffee": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "sidetable": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "beanbag": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "rugs": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "dogbed": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "piano": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "ipad": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "phone": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "trashcan": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+      "lightswitch": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "keyboard": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "mouse": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "headphones": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+      "eiffel": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+      "hogwarts": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb",
+      "minastirith": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+      "falcon": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+      "bridge": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2",
+      "sls": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+      "ferrari": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+      "mercedes": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+      "plants": "41f517b3c98e013c58afcb11552e42c86be967d392b20c17cc1ef3e024a9b4d4",
+      "cola": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+      "dog": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+      "fixtures": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+      "wallart": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772"
+    },
+    "exportHashesAtEnd": {
+      "monitor": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "macbook": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "marshall": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "floor": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "walls": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "door": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "window": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "curtains": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "desk": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "cabinet": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "bed": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "bedside": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "sofa": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "chair": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "coffee": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "sidetable": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "beanbag": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "rugs": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "dogbed": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "piano": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "ipad": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "phone": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "trashcan": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+      "lightswitch": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "keyboard": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "mouse": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "headphones": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+      "eiffel": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+      "hogwarts": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb",
+      "minastirith": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+      "falcon": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+      "bridge": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2",
+      "sls": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+      "ferrari": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+      "mercedes": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+      "plants": "41f517b3c98e013c58afcb11552e42c86be967d392b20c17cc1ef3e024a9b4d4",
+      "cola": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+      "dog": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+      "fixtures": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+      "wallart": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772"
+    },
+    "video": {
+      "source": "validation/v06c/production/raw-video/page@6fd9c157327e59bb829cab1fe193fd91.webm",
+      "mp4": "validation/v06c/production/v06c-all-interaction.mp4",
+      "exitCode": 0,
+      "error": null
+    }
+  },
+  "runtime": [
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "[.WebGL-0x134000d3e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "[.WebGL-0x134000d3e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "[.WebGL-0x134000d3e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "[.WebGL-0x134000d3e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "phase": "production-768",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "production-390",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-eiffel",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-eiffel",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-eiffel",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-hogwarts",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-hogwarts",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-hogwarts",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-minastirith",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-minastirith",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-minastirith",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-falcon",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-falcon",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-falcon",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-bridge",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-bridge",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-bridge",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-sls",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-sls",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-sls",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-ferrari",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-ferrari",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-ferrari",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-mercedes",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-mercedes",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-mercedes",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-plants",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-plants",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-plants",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-cola",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-cola",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-cola",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-dog",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-dog",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-dog",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-fixtures",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-fixtures",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-fixtures",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-wallart",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "fault-production-wallart",
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "phase": "fault-production-wallart",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    }
+  ],
+  "requests": [],
+  "environment": "Installed Chrome headless ANGLE SwiftShader, DPR1; normal sessions 1440 desktop / 390 touch emulation (+768 for all); inspection desktop only. No physical mobile/GPU/Safari evidence.",
+  "visualStatus": "Technical evidence only; user visual confirmation remains pending.",
+  "inspectionLimit": null
+}

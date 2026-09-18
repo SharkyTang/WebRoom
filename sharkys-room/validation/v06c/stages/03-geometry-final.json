@@ -1,0 +1,88 @@
+{
+  "recordedAt": "2026-09-18T11:46:04.862443+00:00",
+  "command": "node --import tsx --test --test-reporter=tap tests/collection-decor-geometry.test.ts",
+  "exitCode": 0,
+  "tests": 49,
+  "pass": 49,
+  "fail": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "scope": "11 registered C families; actual exported GLB positions/indices/materials. Floor-plant support uses actual plank and recessed substrate geometry; cup contents checked against exported inner glass profile and faceted wall; corrected uniform dog pose. No browser/Blender run by this check.",
+  "log": "validation/v06c/stages/03-geometry-final.log",
+  "logSHA256": "f44925fdc2fd8854ac0fdf69b15372461f57976d81bc3fe7c54ed33f0608a98b",
+  "inputs": [
+    {
+      "family": "eiffel",
+      "file": "public/models/production/eiffel_v06c.glb",
+      "bytes": 364112,
+      "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864"
+    },
+    {
+      "family": "hogwarts",
+      "file": "public/models/production/hogwarts_v06c.glb",
+      "bytes": 140328,
+      "sha256": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb"
+    },
+    {
+      "family": "minastirith",
+      "file": "public/models/production/minastirith_v06c.glb",
+      "bytes": 307428,
+      "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d"
+    },
+    {
+      "family": "falcon",
+      "file": "public/models/production/falcon_v06c.glb",
+      "bytes": 113052,
+      "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833"
+    },
+    {
+      "family": "bridge",
+      "file": "public/models/production/bridge_v06c.glb",
+      "bytes": 299584,
+      "sha256": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2"
+    },
+    {
+      "family": "sls",
+      "file": "public/models/production/sls_v06c.glb",
+      "bytes": 128244,
+      "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d"
+    },
+    {
+      "family": "ferrari",
+      "file": "public/models/production/ferrari_v06c.glb",
+      "bytes": 119244,
+      "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa"
+    },
+    {
+      "family": "mercedes",
+      "file": "public/models/production/mercedes_v06c.glb",
+      "bytes": 119264,
+      "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b"
+    },
+    {
+      "family": "plants",
+      "file": "public/models/production/plants_v06c.glb",
+      "bytes": 447872,
+      "sha256": "c62fcb033c401bb56f29e098f90962584bdd5def40c94b85cd87a644a21c1b09"
+    },
+    {
+      "family": "cola",
+      "file": "public/models/production/cola_v06c.glb",
+      "bytes": 29352,
+      "sha256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109"
+    },
+    {
+      "family": "dog",
+      "file": "public/models/production/dog_v06c.glb",
+      "bytes": 142356,
+      "sha256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d"
+    }
+  ],
+  "floorSupportEvidence": "validation/v06c/stages/floor-support-evidence-r2.json",
+  "notes": [
+    "Original 03-geometry.log, r2/r3 failure logs retained.",
+    "Original window floor sample gap 2.85mm is actual 2.5mm recessed A joint plus 0.35mm pot offset, not bulk floating. 523/525 window samples and 521/521 sofa samples directly meet oak; all uniform-area grid samples and all four quadrants meet oak.",
+    "Cup liquid top originally exceeded inner glass by 0.1124mm; C liquid top radius reduced to .034m by author, test epsilon remains 10 micrometres. Liquid-ice overlap is intentional.",
+    "C dog author uniformly refitted .86 about Y=.085m; real A bed bolster collision now passes."
+  ]
+}

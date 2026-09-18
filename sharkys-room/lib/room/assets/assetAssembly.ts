@@ -114,12 +114,20 @@ export function installAssetFamily(room: Object3D, id: AssetFamily, asset: Objec
       const proxy = unique(anchor, name);
       if (!(proxy instanceof Mesh)) throw new Error(`Missing original proxy primitive: ${name}`);
       return proxy;
-    }) : meshes(anchor);
+    // Later furniture loads must not treat an already installed decor child as a proxy.
+    }) : meshes(anchor).filter(mesh => !mesh.userData.roomAssetFamily);
     return { anchor, root, parent: root.parent!, proxyMeshes };
   });
   const resourceOwner = ownObjectResources(asset);
   const visualOrders = meshes(asset).map(mesh => ({ mesh, renderOrder: mesh.renderOrder }));
-  const originalMeshes = [...new Set(parts.flatMap(({ proxyMeshes }) => proxyMeshes))];
+  // C may retire explicitly unassigned slot proxies. Never suppress a whole group
+  // or a dynamic VIS family; the original frozen Mesh remains and dispose restores it.
+  const retired = (definition.retiredPlaceholderMeshes ?? []).map(name => {
+    const object = unique(room, name);
+    if (!(object instanceof Mesh) || !FROZEN_NODE_RECORDS.some(record => record.name === name) || !name.startsWith('DSP_')) throw new Error(`Not a frozen display placeholder: ${name}`);
+    return object;
+  });
+  const originalMeshes = [...new Set([...parts.flatMap(({ proxyMeshes }) => proxyMeshes), ...retired])];
   const saved = originalMeshes.map(mesh => ({ mesh, material: mesh.material, raycast: mesh.raycast, suppressed: mesh.userData.roomProxySuppressed }));
   const hiddenMaterial = new MeshBasicMaterial({ visible: false });
   hiddenMaterial.name = `WebOnly_Suppressed_${id}_Proxy`;

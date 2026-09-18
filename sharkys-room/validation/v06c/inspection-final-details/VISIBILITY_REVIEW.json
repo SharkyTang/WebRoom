@@ -1,0 +1,133 @@
+{
+  "reviewedAt": "2026-09-18T12:13:14.499Z",
+  "reviewMethod": "Agent opened and visually inspected every listed full-page PNG. Camera-only changes in isolated preview; all original objects remained visible.",
+  "technical": {
+    "primary": {
+      "passed": 18,
+      "failed": 0
+    },
+    "windowWholeSupplement": {
+      "path": "validation/v06c/inspection-final-details-r2/collection-decor-inspection.json",
+      "passed": 6,
+      "failed": 0
+    }
+  },
+  "userVisualConfirmation": "pending",
+  "scope": "Readability and occlusion review only; not user aesthetic approval, hardware validation, or a normal product camera change.",
+  "exports": {
+    "monitor": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+    "macbook": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+    "marshall": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+    "floor": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+    "walls": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+    "door": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+    "window": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+    "curtains": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+    "desk": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+    "cabinet": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+    "bed": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+    "bedside": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+    "sofa": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+    "chair": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+    "coffee": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+    "sidetable": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+    "beanbag": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+    "rugs": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+    "dogbed": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+    "piano": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+    "ipad": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+    "phone": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+    "trashcan": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+    "lightswitch": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+    "keyboard": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+    "mouse": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+    "headphones": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+    "eiffel": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+    "hogwarts": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb",
+    "minastirith": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+    "falcon": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+    "bridge": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2",
+    "sls": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+    "ferrari": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+    "mercedes": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+    "plants": "41f517b3c98e013c58afcb11552e42c86be967d392b20c17cc1ef3e024a9b4d4",
+    "cola": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+    "dog": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+    "fixtures": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+    "wallart": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772"
+  },
+  "findings": [
+    {
+      "item": "Window plant",
+      "status": "clear after repair",
+      "screenshots": [
+        "../inspection-final-details-r2/inspection-plants-window-final-whole.png",
+        "inspection-plants-window-final-pot-clearance.png"
+      ],
+      "observation": "Whole plant including leaf tips and floor pot is visible in r2. Pot rim and soil no longer have the earlier curtain-cut notch. Curtain stays behind pot. Exact clearance is independently measured in final/window-plant-clearance-comparison.json.",
+      "superseded": "inspection-plants-window-final-context.png crops upper leaf tips and is retained as framing evidence."
+    },
+    {
+      "item": "Desk context",
+      "status": "clear",
+      "screenshots": [
+        "inspection-desk-context-final.png"
+      ],
+      "observation": "Desk, Monitor, MacBook, Phone, Marshall, keyboard, mouse, headphones, piano, desk plant, window plant, and trash can are visible together; original layout is retained."
+    },
+    {
+      "item": "Coffee context",
+      "status": "clear",
+      "screenshots": [
+        "inspection-coffee-context.png"
+      ],
+      "observation": "Formal cup and ice, iPad and coffee-table plant are all present on the A coffee table. Close cup details are also in inspection-living-r2."
+    },
+    {
+      "item": "Dog and A dog bed",
+      "status": "clear",
+      "screenshots": [
+        "inspection-dog-and-A-bed.png"
+      ],
+      "observation": "Sleeping dog head, nose, ears, body and curled tail remain inside unchanged A dog bed; raised inspection camera avoids the rim blocking the muzzle."
+    },
+    {
+      "item": "Bedside lamp",
+      "status": "clear",
+      "screenshots": [
+        "inspection-fixtures-bedside-unoccluded.png"
+      ],
+      "observation": "Base, stem, shade and rims fully visible from beside the unchanged headboard. Earlier inspection-fixtures default view was headboard-occluded and is not used as visibility proof."
+    },
+    {
+      "item": "Desk strip",
+      "status": "clear",
+      "screenshots": [
+        "inspection-fixtures-desk-strip-under-rear-wide.png",
+        "inspection-fixtures-desk-strip-under-rear-detail.png"
+      ],
+      "observation": "Thin channel and underside diffuser are visible under the original rear tabletop. Wide view preserves full length and table context; detail view crops the ends intentionally. The neutral dark appearance is consistent with the reserved nonemissive material; no light effect was added."
+    },
+    {
+      "item": "Cabinet strip",
+      "status": "clear",
+      "screenshots": [
+        "inspection-fixtures-cabinet-strip-under-front-wide.png",
+        "inspection-fixtures-cabinet-strip-Hogwarts-underside.png",
+        "inspection-fixtures-cabinet-strip-Eiffel-underside.png",
+        "inspection-fixtures-cabinet-strip-SLS-underside.png",
+        "inspection-fixtures-cabinet-strip-SmallReserved-underside.png"
+      ],
+      "observation": "Four separated underside diffuser segments are visible beneath the top board with original dividers between them. Brightness varies with existing room light; independent material records show black emissive and unchanged actual lights."
+    },
+    {
+      "item": "Lounge lamp and wall art",
+      "status": "clear in prior fixture captures",
+      "screenshots": [
+        "../inspection-fixtures/inspection-fixtures-VIS_FixtureLounge-hero-side.png",
+        "../inspection-fixtures/inspection-wallart-VIS_WallArt-hero-side.png"
+      ],
+      "observation": "These prior images were actually viewed and already clear: full lounge table lamp, framed mountain-and-sun relief. No retake needed."
+    }
+  ]
+}

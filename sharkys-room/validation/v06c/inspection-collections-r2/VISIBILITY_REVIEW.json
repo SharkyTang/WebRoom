@@ -1,0 +1,57 @@
+{
+  "reviewType": "Agent screenshot visibility review; separate from automated technical checks and user visual approval",
+  "technicalSummary": {
+    "passed": 10,
+    "failed": 0
+  },
+  "inspectedFiles": [
+    "inspection-bridge-VIS_TowerBridge-front.png",
+    "inspection-bridge-VIS_TowerBridge-shallow-side.png",
+    "inspection-bridge-VIS_TowerBridge-top-in-slot.png",
+    "inspection-ferrari-VIS_Ferrari-front.png",
+    "inspection-ferrari-VIS_Ferrari-shallow-side.png",
+    "inspection-ferrari-VIS_Ferrari-top-in-slot.png"
+  ],
+  "scope": {
+    "directedOnly": true,
+    "requestedViews": [
+      "bridge-VIS_TowerBridge-front",
+      "bridge-VIS_TowerBridge-shallow-side",
+      "bridge-VIS_TowerBridge-top-in-slot",
+      "ferrari-VIS_Ferrari-front",
+      "ferrari-VIS_Ferrari-shallow-side",
+      "ferrari-VIS_Ferrari-top-in-slot"
+    ],
+    "capturedFamilies": [
+      "bridge",
+      "ferrari"
+    ]
+  },
+  "userVisualConfirmation": "pending",
+  "sceneChanges": "No product source, models, layout, material visibility or original objects changed; only isolated test camera moved.",
+  "findings": [
+    {
+      "family": "bridge",
+      "priorObstruction": "A desk tabletop/carcass, not the door: measured minimum X about -2.05, at Bridge rays on its right end.",
+      "cameraChange": "Camera X capped at -2.1100000715, behind the desk obstruction plane toward cabinet; FOV recomputed for all measured bounds corners.",
+      "review": "All three new screenshots inspected. Both bridge ends, both towers, connecting upper deck, suspension/rail elements and full plinth are visible. No external furniture occludes the model.",
+      "files": [
+        "inspection-bridge-VIS_TowerBridge-front.png",
+        "inspection-bridge-VIS_TowerBridge-shallow-side.png",
+        "inspection-bridge-VIS_TowerBridge-top-in-slot.png"
+      ]
+    },
+    {
+      "family": "ferrari",
+      "priorObstruction": "A sofa upholstery, not office chair: minimum world X=-2.70280350998. The previous test camera was inside/in front of its volume.",
+      "cameraChange": "Camera X capped at -2.75280350998, inside the free gap before cabinet; wider FOV preserves the complete model.",
+      "review": "All three new screenshots inspected. Front/oblique views show the full side silhouette and wings; top-in-slot view shows all four wheels, cockpit/halo, red body, front wing and rear wing. No sofa or other external furniture blocks the car. Wide-angle front views have expected perspective exaggeration.",
+      "files": [
+        "inspection-ferrari-VIS_Ferrari-front.png",
+        "inspection-ferrari-VIS_Ferrari-shallow-side.png",
+        "inspection-ferrari-VIS_Ferrari-top-in-slot.png"
+      ]
+    }
+  ],
+  "limits": "Readability/absence of external obstruction confirmed by this agent from saved real-browser PNGs. This is not user aesthetic approval, a physical-device result, or a normal-product camera capability."
+}

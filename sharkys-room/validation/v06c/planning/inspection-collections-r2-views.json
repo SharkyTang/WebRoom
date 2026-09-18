@@ -1,0 +1,50 @@
+[
+  {
+    "name": "bridge-VIS_TowerBridge-front",
+    "family": "bridge",
+    "angle": "front",
+    "roots": [
+      "VIS_TowerBridge"
+    ]
+  },
+  {
+    "name": "bridge-VIS_TowerBridge-shallow-side",
+    "family": "bridge",
+    "angle": "shallow-side",
+    "roots": [
+      "VIS_TowerBridge"
+    ]
+  },
+  {
+    "name": "bridge-VIS_TowerBridge-top-in-slot",
+    "family": "bridge",
+    "angle": "top-in-slot",
+    "roots": [
+      "VIS_TowerBridge"
+    ]
+  },
+  {
+    "name": "ferrari-VIS_Ferrari-front",
+    "family": "ferrari",
+    "angle": "front",
+    "roots": [
+      "VIS_Ferrari"
+    ]
+  },
+  {
+    "name": "ferrari-VIS_Ferrari-shallow-side",
+    "family": "ferrari",
+    "angle": "shallow-side",
+    "roots": [
+      "VIS_Ferrari"
+    ]
+  },
+  {
+    "name": "ferrari-VIS_Ferrari-top-in-slot",
+    "family": "ferrari",
+    "angle": "top-in-slot",
+    "roots": [
+      "VIS_Ferrari"
+    ]
+  }
+]

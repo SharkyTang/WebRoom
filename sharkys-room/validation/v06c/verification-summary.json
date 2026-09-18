@@ -1,0 +1,285 @@
+{
+  "generatedAt": "2026-09-18T13:48:43.474215+00:00",
+  "scope": "Only authorized v0.6C; current completed A/B baseline; no deployment or subsequent versions",
+  "head": "c83ec37fa37911ab7aa09b7694fce0b6b42f9e5f",
+  "snapshot": {
+    "path": "snapshot.json",
+    "sha256": "4c4b68aa6b75cef646b216bedce05cdf4b7eb7c2b11725c9ae1016d8bf1ce613",
+    "summary": null
+  },
+  "completion": {
+    "modeling": true,
+    "materialsAndEditableBlends": true,
+    "exports": true,
+    "webInstallation": true,
+    "functionalTechnicalChecks": "passed",
+    "performanceMeasurementChecks": "passed with explicit growth",
+    "workingBudget": "2 MB and approximately 55 primitives NOT MET; triangle goal met",
+    "unconditionalTechnicalAcceptance": false,
+    "userVisualApproval": "PENDING for all C assets including provisional Minas Tirith slot",
+    "physicalDevicePerformance": "NOT TESTED",
+    "stoppedAfterDelivery": true
+  },
+  "families": {
+    "old": 27,
+    "C": 13,
+    "installedTotal": 40,
+    "CVisualRoots": 20,
+    "originalSourceNodes": 85,
+    "runtimeNodes": 369,
+    "suppressedProxyMeshes": 70,
+    "interactiveIds": 9
+  },
+  "quality": {
+    "recordedAt": "2026-09-18T13:35:07.533083+00:00",
+    "scope": "Rerun after strict zero-area GLB cleanup; all exit codes collected from actual commands",
+    "results": [
+      {
+        "name": "verify:asset",
+        "command": "npm run verify:asset",
+        "exitCode": 0,
+        "log": "final/verify-asset-optimized.log",
+        "logSHA256": "f86cbd9cb336f8f6c3fb6946100684dc8388e5add9b593fa40266bb96cd56377",
+        "passed": 361,
+        "failed": 0
+      },
+      {
+        "name": "unit",
+        "command": "npm test",
+        "exitCode": 0,
+        "log": "final/unit-tests-optimized.log",
+        "logSHA256": "54f0f498fac87a15d22500e62f153829c1bdaaab1ce71c88593765c61c6f5e4c",
+        "passed": 283,
+        "failed": 0
+      },
+      {
+        "name": "typecheck",
+        "command": "npm run typecheck -- --incremental false",
+        "exitCode": 0,
+        "log": "final/typecheck-optimized.log",
+        "logSHA256": "be58bb9104f58136d18bbe1b9e71ad39fb2acb0b83308cc193c0891e19f0854c"
+      },
+      {
+        "name": "build",
+        "command": "npm run build",
+        "exitCode": 0,
+        "log": "final/build-optimized.log",
+        "logSHA256": "6cd0bed96521ccaefbf4021ad993d08a7ad9e3a2b22e149c58094be1d2b0c3d7",
+        "workdir": "/private/tmp/sharkys-v06c-production-optimized-20260918"
+      }
+    ]
+  },
+  "browserSuites": {
+    "dev": {
+      "path": "all-optimized/collection-decor-browser.json",
+      "sha256": "2b6266338fbbd602a72b704ab8c5948a0eb645f7f2e6d2d0ad0f48f1ab0e6390",
+      "summary": {
+        "passed": 56,
+        "failed": 0
+      }
+    },
+    "production": {
+      "path": "production-optimized/collection-decor-production.json",
+      "sha256": "e9f78795e0c5203441d68b1ae86cd1107688d80e3e5378edb00a26fd8035afac",
+      "summary": {
+        "passed": 51,
+        "failed": 0
+      }
+    },
+    "performance": {
+      "path": "performance-optimized/performance.json",
+      "sha256": "6ee5498263340bec72b27b06ce104fc74a26f41c64bcc404fc0c16348b27db63",
+      "summary": {
+        "passed": 21,
+        "failed": 0
+      }
+    },
+    "legacy": {
+      "path": "final/legacy-regression-summary.json",
+      "sha256": "dbb3c1ce36f8f081fa73a5a8264ecf73425c1be3a10296c665db692812f0b2ad",
+      "summary": {
+        "passed": 154,
+        "failed": 0
+      }
+    }
+  },
+  "geometryCleanup": {
+    "before": {
+      "path": "final/pre-cleanup-visible-geometry.json",
+      "sha256": "c66a3d42a7f97c3f34da88735dfb3e0c116163b2ab175ac1a689c29fe5d7a141",
+      "summary": null
+    },
+    "after": {
+      "path": "final/post-cleanup-visible-geometry.json",
+      "sha256": "2910c227666a18d48a333af2a6cb22e2a8e763d215037d7f5ecdcd4158a86646",
+      "summary": null
+    },
+    "removedStrictZeroAreaTriangles": 1366,
+    "scope": "Deterministic export-only cleanup; editable .blend original topology retained and sourceTriangles explicitly separated",
+    "helperValidation": "optimization/helper-export-cleanup-validation.json",
+    "remainingValidTriangleAttributes": "Exact binary POSITION/NORMAL/UV tuples, winding, material, hierarchy/TRS preserved; no epsilon threshold",
+    "oldProofsRetained": true
+  },
+  "currentLedger": {
+    "path": "final/asset-budget-ledger-optimized.json",
+    "sha256": "f032d375c70380f9df8fa01af32e2bdc3d4634cc084e382219085e6f3af3aeac",
+    "summary": null
+  },
+  "ledgerTotals": {
+    "frozen": {
+      "files": 1,
+      "bytes": 411892,
+      "triangles": 6566,
+      "meshDefinitions": 55,
+      "primitives": 72,
+      "sceneTriangleInstances": 6566,
+      "scenePrimitiveInstances": 72,
+      "materialDefinitionsAcrossFiles": 6,
+      "imageReferences": 0,
+      "embeddedImageBytes": 0,
+      "otherBytes": 411892,
+      "jsonChunkBytes": 61308
+    },
+    "v05": {
+      "files": 3,
+      "bytes": 1119288,
+      "triangles": 22592,
+      "meshDefinitions": 18,
+      "primitives": 18,
+      "sceneTriangleInstances": 22592,
+      "scenePrimitiveInstances": 18,
+      "materialDefinitionsAcrossFiles": 15,
+      "imageReferences": 1,
+      "embeddedImageBytes": 430084,
+      "otherBytes": 689204,
+      "jsonChunkBytes": 21200
+    },
+    "v06A": {
+      "files": 16,
+      "bytes": 2375692,
+      "triangles": 55444,
+      "meshDefinitions": 62,
+      "primitives": 62,
+      "sceneTriangleInstances": 55444,
+      "scenePrimitiveInstances": 62,
+      "materialDefinitionsAcrossFiles": 39,
+      "imageReferences": 17,
+      "embeddedImageBytes": 443596,
+      "otherBytes": 1932096,
+      "jsonChunkBytes": 78424
+    },
+    "v06B": {
+      "files": 8,
+      "bytes": 755684,
+      "triangles": 20240,
+      "meshDefinitions": 28,
+      "primitives": 29,
+      "sceneTriangleInstances": 20240,
+      "scenePrimitiveInstances": 29,
+      "materialDefinitionsAcrossFiles": 23,
+      "imageReferences": 0,
+      "embeddedImageBytes": 0,
+      "otherBytes": 755684,
+      "jsonChunkBytes": 34524
+    },
+    "v06C": {
+      "files": 13,
+      "bytes": 2336368,
+      "triangles": 43442,
+      "meshDefinitions": 66,
+      "primitives": 66,
+      "sceneTriangleInstances": 43442,
+      "scenePrimitiveInstances": 66,
+      "materialDefinitionsAcrossFiles": 51,
+      "imageReferences": 0,
+      "embeddedImageBytes": 0,
+      "otherBytes": 2336368,
+      "jsonChunkBytes": 78104
+    },
+    "beforeCInitialGlbPayload": {
+      "files": 28,
+      "bytes": 4662556,
+      "triangles": 104842,
+      "meshDefinitions": 163,
+      "primitives": 181,
+      "sceneTriangleInstances": 104842,
+      "scenePrimitiveInstances": 181,
+      "materialDefinitionsAcrossFiles": 83,
+      "imageReferences": 18,
+      "embeddedImageBytes": 873680,
+      "otherBytes": 3788876,
+      "jsonChunkBytes": 195456
+    },
+    "afterCInitialGlbPayload": {
+      "files": 41,
+      "bytes": 6998924,
+      "triangles": 148284,
+      "meshDefinitions": 229,
+      "primitives": 247,
+      "sceneTriangleInstances": 148284,
+      "scenePrimitiveInstances": 247,
+      "materialDefinitionsAcrossFiles": 134,
+      "imageReferences": 18,
+      "embeddedImageBytes": 873680,
+      "otherBytes": 6125244,
+      "jsonChunkBytes": 273560
+    },
+    "initialGlbByteIncrease": 2336368,
+    "initialGlbByteIncreasePercent": 50.109167589622515,
+    "cSourcePngBytesNotAdditionalWhenEmbeddedInGlb": 0
+  },
+  "protection": {
+    "review": "final/protected-review.json",
+    "strictUnchanged": 181,
+    "historicalABAndOriginalThreePreserved": true,
+    "productionInputVerification": "final/production-build-verification-optimized.json",
+    "productionInputCount": 84,
+    "unpatchedBuild": true
+  },
+  "performance": {
+    "baseline": "baseline/performance.json",
+    "preCleanup": "performance/performance.json",
+    "current": "performance-optimized/performance.json",
+    "comparison": "final/PERFORMANCE_COMPARISON.md",
+    "limitations": "Same local Chrome153 DPR1 SwiftShader dev sampling, not GPU timing, internet cold load, hardware/mobile or 60 FPS guarantee"
+  },
+  "webEvidence": {
+    "productionHero": "production-optimized/production-hero-1440.png",
+    "fullProductionVideo": "production-optimized/v06c-all-interaction.mp4",
+    "pianoShort": "piano-short-optimized/v06c-piano-underdesk-reopen.mp4",
+    "mediaVerification": "final/delivery-media-optimized.json",
+    "shortActualSeconds": 14.68,
+    "closeups": "EVIDENCE_INDEX.md",
+    "closeupScope": "Isolated test camera only; old furniture remains visible; pre-cleanup closeups remain valid via exact retained surface equivalence"
+  },
+  "resolvedIssues": [
+    "Cup wrongly suppressed when A coffee loaded after C; existing assembly now excludes formal descendants, 49 order cases",
+    "Initial liquid radius slightly exceeded actual inner wall; adjusted",
+    "Initial dog tail crossed A soft surround; uniform pose fit",
+    "Initial window plant crossed curtain; only author geometry narrowed",
+    "Old floating collection proxies require explicit plinth down-extension to actual shelf",
+    "Strict zero-area triangles removed without dropping a valid surface"
+  ],
+  "supersededEvidence": [
+    "inspection-living cup hidden: not accepted as visible",
+    "First architecture/collections closeups occluded or cropped: use r2 indices",
+    "Initial window plant clearance failed: use final clearance and full plant r2",
+    "piano-short first locator failure: use piano-short-optimized",
+    "performance first C pass is pre-cleanup only; compare optimized current result"
+  ],
+  "phaseEvidence": {
+    "baseline": "baseline/",
+    "immediateArchitecture": "stage-architecture/",
+    "immediateCollections": "stage-collections/",
+    "immediateLiving": "stage-living-r2/",
+    "immediateFixtures": "stage-fixtures/",
+    "countsMustNotBeSummedAsUniqueCoverage": true
+  },
+  "undeliveredByScope": [
+    "No new independent light groups or day/night",
+    "No real device content pages, music, rain/snow, playable piano",
+    "No new books without an approved space",
+    "No v0.7/v0.8, deployment, commit or push"
+  ],
+  "nextStep": "Review C visuals and resolve or explicitly accept C cost risks; v0.7A requires separate authorization"
+}

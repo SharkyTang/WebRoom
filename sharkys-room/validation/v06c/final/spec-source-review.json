@@ -1,0 +1,374 @@
+{
+  "reviewedAt": "2026-09-18T12:14:23.566209+00:00",
+  "scope": "Read-only independent direct GLB/JSON/accessor, C statistics/spec and current protected-source comparison. No model, source product, dependency, browser or Blender changes; snapshot archive hash deliberately not re-read.",
+  "baseline": "validation/v06c/planning/protected-inputs-baseline.json",
+  "referenceLedger": "validation/v06c/final/asset-budget-ledger.json",
+  "strictFileCount": 181,
+  "strictUnchanged": 181,
+  "strictChangedOrMissing": [],
+  "archiveRehashed": false,
+  "sharedPipelineChanges": [
+    {
+      "path": "sharkys-room/lib/room/assets/assetAssembly.ts",
+      "category": "shared-C-pipeline-review",
+      "expectedSHA256": "37c8b1183f406f692fe2beefcfd2570779bfbb96cef7c4c25685f8943951d18e",
+      "actualSHA256": "b7e7cc9775103fb5f82f949771e2455bae236044c3d221bfbcd38a241a6b0f3f",
+      "expectedBytes": 14611,
+      "actualBytes": 15261,
+      "unchanged": false
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/assetManifest.ts",
+      "category": "shared-C-pipeline-review",
+      "expectedSHA256": "7f5e78fa47bb58e459436fedb6d9b19022d3576d6595d0c2000f57cd3c1794fb",
+      "actualSHA256": "11e762c9ccea7d980e2f7b466d9bc34a7ed4a8204b74d9427e7b7405c3f50123",
+      "expectedBytes": 7950,
+      "actualBytes": 10923,
+      "unchanged": false
+    }
+  ],
+  "cSpecChecks": [
+    {
+      "family": "eiffel",
+      "actual": {
+        "bytes": 364112,
+        "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+        "triangles": 5996,
+        "meshes": 3,
+        "primitives": 3,
+        "materials": 3,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "hogwarts",
+      "actual": {
+        "bytes": 140328,
+        "sha256": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb",
+        "triangles": 3552,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "minastirith",
+      "actual": {
+        "bytes": 307428,
+        "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+        "triangles": 5280,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "falcon",
+      "actual": {
+        "bytes": 113052,
+        "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+        "triangles": 1916,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "bridge",
+      "actual": {
+        "bytes": 299584,
+        "sha256": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2",
+        "triangles": 5016,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "sls",
+      "actual": {
+        "bytes": 128244,
+        "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+        "triangles": 2176,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "ferrari",
+      "actual": {
+        "bytes": 119244,
+        "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+        "triangles": 2396,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "mercedes",
+      "actual": {
+        "bytes": 119264,
+        "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+        "triangles": 2396,
+        "meshes": 4,
+        "primitives": 4,
+        "materials": 4,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "plants",
+      "actual": {
+        "bytes": 454248,
+        "sha256": "41f517b3c98e013c58afcb11552e42c86be967d392b20c17cc1ef3e024a9b4d4",
+        "triangles": 7944,
+        "meshes": 15,
+        "primitives": 15,
+        "materials": 3,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "cola",
+      "actual": {
+        "bytes": 29352,
+        "sha256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+        "triangles": 896,
+        "meshes": 3,
+        "primitives": 3,
+        "materials": 3,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "dog",
+      "actual": {
+        "bytes": 142356,
+        "sha256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+        "triangles": 4796,
+        "meshes": 3,
+        "primitives": 3,
+        "materials": 3,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "fixtures",
+      "actual": {
+        "bytes": 120244,
+        "sha256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+        "triangles": 1992,
+        "meshes": 8,
+        "primitives": 8,
+        "materials": 5,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "family": "wallart",
+      "actual": {
+        "bytes": 30808,
+        "sha256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772",
+        "triangles": 452,
+        "meshes": 6,
+        "primitives": 6,
+        "materials": 6,
+        "images": 0
+      },
+      "checks": {
+        "statisticsMatchesActualGLB": true,
+        "ledgerMatchesActualGLB": true,
+        "specContainsCurrentGLBSHA": true,
+        "specContainsCurrentGLBBytes": true,
+        "specContainsCurrentBlendBytes": true,
+        "statisticsBlendBytesMatchActual": true,
+        "visualApprovalExplicitlyPending": true,
+        "noCompleteTechnicalApprovalClaim": true,
+        "sourceProvenanceFilePresent": true
+      },
+      "allChecksPass": true
+    }
+  ],
+  "all13CurrentExportsStatisticsAndSpecsSynchronized": true,
+  "productReview": {
+    "reviewed": [
+      "lib/room/assets/assetAssembly.ts",
+      "lib/room/assets/assetManifest.ts",
+      "lib/room/assets/fixtureRegistry.ts",
+      "lib/room/assets/loadProductionAssets.ts",
+      "lib/room/assets/resourceOwnership.ts",
+      "tests/collection-decor-order.test.ts"
+    ],
+    "findings": [],
+    "notes": [
+      "The only modified existing product files in the seven-file pipeline review are manifest and assembly; the new fixture registry is static data.",
+      "Manifest adds only the thirteen authorized C definitions and explicitly scoped unassigned Medium/Small reversible retirement.",
+      "Assembly avoids treating previously installed dynamic VIS descendants as original proxies; explicit retirement validates frozen DSP mesh identity and uses existing saved-state disposal.",
+      "Current static fixture registry does not create lights, state binders or fourth lighting group.",
+      "44 shared-anchor arrival/disposal permutations (including 36 fixture/desk/cabinet permutations) are covered in existing stage 04 evidence; tests were read, not rerun by this review.",
+      "No claim of continuous geometric motion proof or user visual approval; later final browser and performance evidence remains separate."
+    ],
+    "regressionEvidence": "validation/v06c/stages/04-geometry-order.json"
+  },
+  "allStrictProtectedInputsUnchanged": true,
+  "performanceStatus": "pre-cleanup measurement complete; exact-degenerate cleanup and optimized remeasurement in progress",
+  "performanceEvidence": {
+    "baseline": "validation/v06c/baseline/performance.json",
+    "preCleanupC": "validation/v06c/performance/performance.json",
+    "comparison": "validation/v06c/final/PERFORMANCE_COMPARISON.md",
+    "preCleanupHasFrameIntervalRegression": true,
+    "optimizedFinalEvidence": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-09-18T12:34:33.441Z",
+  "mode": "development legacy regression",
+  "execution": "These four suites ran sequentially. Parent may have run a separate functional C browser. No timing in these suites is a controlled C before/after performance benchmark.",
+  "environment": "Installed Google Chrome headless; ANGLE SwiftShader; native browser mouse/touch/keyboard input; physical mobile, hardware GPU and Safari not claimed.",
+  "summary": {
+    "passed": 154,
+    "failed": 0
+  },
+  "suites": [
+    {
+      "name": "piano",
+      "evidence": "validation/v06c/legacy-piano/piano-browser.json",
+      "evidenceSha256": "7e5a20241deaa4647058fd7e548cc529dceb4129575c813e4654ffe6dc860708",
+      "log": "validation/v06c/final/legacy-piano.log",
+      "command": "ROOM_PIANO_CYCLES=20 ROOM_TEST_OUTPUT=validation/v06c/legacy-piano ROOM_TEST_URL=http://127.0.0.1:3000 npm run test:piano",
+      "generatedAt": "2026-09-18T12:17:11.870Z",
+      "origin": "http://127.0.0.1:3000",
+      "summary": {
+        "passed": 10,
+        "failed": 0
+      },
+      "failedChecks": [],
+      "exitCode": 0,
+      "browserClosed": "process exited successfully after finally awaited browser.close()",
+      "configuredCycles": 20,
+      "recordedCycles": 20
+    },
+    {
+      "name": "interactions",
+      "evidence": "validation/v06c/legacy-interactions/interaction_browser.json",
+      "evidenceSha256": "721bf582028d970e049b93eaa8f9beadb044696500a0d8bf157c7ddcff719b20",
+      "log": "validation/v06c/final/legacy-interactions.log",
+      "command": "ROOM_TEST_OUTPUT=validation/v06c/legacy-interactions ROOM_TEST_URL=http://127.0.0.1:3000 npm run test:interactions",
+      "generatedAt": "2026-09-18T12:25:46.429Z",
+      "origin": "http://127.0.0.1:3000",
+      "summary": {
+        "passed": 37,
+        "failed": 0
+      },
+      "failedChecks": [],
+      "exitCode": 0,
+      "browserClosed": "process exited successfully after finally awaited browser.close()"
+    },
+    {
+      "name": "furniture",
+      "evidence": "validation/v06c/legacy-furniture/furniture-browser.json",
+      "evidenceSha256": "11dc605ff24982f50a16f2e49650f266f50fadf9764146c967110d8e75be6f5a",
+      "log": "validation/v06c/final/legacy-furniture.log",
+      "command": "ROOM_TEST_OUTPUT=validation/v06c/legacy-furniture ROOM_TEST_URL=http://127.0.0.1:3000 npm run test:furniture",
+      "generatedAt": "2026-09-18T12:29:57.651Z",
+      "origin": "http://127.0.0.1:3000",
+      "summary": {
+        "passed": 50,
+        "failed": 0
+      },
+      "failedChecks": [],
+      "exitCode": 0,
+      "browserClosed": "process exited successfully after finally awaited browser.close()",
+      "video": {
+        "source": "validation/v06c/legacy-furniture/raw-video/page@e0654b1af728b937b3c1531aa55e8259.webm",
+        "mp4": "validation/v06c/legacy-furniture/interaction_regression.mp4",
+        "exitCode": 0,
+        "error": null
+      }
+    },
+    {
+      "name": "b",
+      "evidence": "validation/v06c/legacy-b/interactive-assets-browser.json",
+      "evidenceSha256": "40888893c09cc4259491e10841084bc384e0ab87283cb95199e2c23af3af1595",
+      "log": "validation/v06c/final/legacy-b.log",
+      "command": "ROOM_B_STAGE=all ROOM_TEST_OUTPUT=validation/v06c/legacy-b ROOM_TEST_URL=http://127.0.0.1:3000 node tests/interactive-assets-browser.mjs",
+      "generatedAt": "2026-09-18T12:34:01.633Z",
+      "origin": "http://127.0.0.1:3000",
+      "summary": {
+        "passed": 57,
+        "failed": 0
+      },
+      "failedChecks": [],
+      "exitCode": 0,
+      "browserClosed": "process exited successfully after finally awaited browser.close()",
+      "video": {
+        "source": "validation/v06c/legacy-b/raw-video/page@71b2f9ae894bf0164a0c26c567626bc5.webm",
+        "mp4": "validation/v06c/legacy-b/v06b-all-interaction.mp4",
+        "exitCode": 0,
+        "error": null
+      }
+    }
+  ],
+  "productOrTestChangesDuringThisRun": [],
+  "visualConfirmation": "User visual confirmation remains pending. Technical pass counts are separate from screenshot appearance approval.",
+  "ownedBrowserState": "All four commanded browser processes exited successfully. No further browser run queued by this agent."
+}

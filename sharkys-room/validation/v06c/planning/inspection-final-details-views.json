@@ -1,0 +1,247 @@
+[
+  {
+    "name": "plants-window-final-context",
+    "family": "plants",
+    "roots": [
+      "VIS_PlantWindow"
+    ],
+    "view": {
+      "position": [
+        1.44,
+        1.05,
+        -1.75
+      ],
+      "target": [
+        1.335,
+        0.615,
+        -2.53
+      ],
+      "fov": 80
+    }
+  },
+  {
+    "name": "plants-window-final-pot-clearance",
+    "family": "plants",
+    "roots": [
+      "VIS_PlantWindow"
+    ],
+    "view": {
+      "position": [
+        1.46,
+        0.45,
+        -2.05
+      ],
+      "target": [
+        1.33,
+        0.15,
+        -2.53
+      ],
+      "fov": 55
+    }
+  },
+  {
+    "name": "desk-context-final",
+    "roots": [
+      "VIS_Desk",
+      "VIS_MonitorBody",
+      "VIS_MonitorDisplaySurface",
+      "VIS_MacBookBase",
+      "VIS_MacBookLid",
+      "VIS_PhoneBody",
+      "VIS_MarshallBody",
+      "VIS_Headphones",
+      "VIS_Keyboard",
+      "VIS_Mouse",
+      "VIS_PlantDesk"
+    ],
+    "view": {
+      "position": [
+        -0.3,
+        2.4,
+        -0.2
+      ],
+      "target": [
+        -0.65,
+        0.8,
+        -1.9
+      ],
+      "fov": 65
+    }
+  },
+  {
+    "name": "coffee-context",
+    "roots": [
+      "VIS_Coffee",
+      "VIS_iPadBody",
+      "VIS_Cola",
+      "VIS_PlantCoffeeTable"
+    ]
+  },
+  {
+    "name": "dog-and-A-bed",
+    "roots": [
+      "VIS_SleepingDog",
+      "VIS_DogBed"
+    ]
+  },
+  {
+    "name": "fixtures-bedside-unoccluded",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureBedside"
+    ],
+    "view": {
+      "position": [
+        3.4,
+        1,
+        -2.48
+      ],
+      "target": [
+        2.97,
+        0.76925,
+        -2.5
+      ],
+      "fov": 50
+    }
+  },
+  {
+    "name": "fixtures-desk-strip-under-rear-wide",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureDeskStrip"
+    ],
+    "view": {
+      "position": [
+        -0.65,
+        0.15,
+        -2.73
+      ],
+      "target": [
+        -0.65,
+        0.667,
+        -2.35
+      ],
+      "fov": 90
+    }
+  },
+  {
+    "name": "fixtures-desk-strip-under-rear-detail",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureDeskStrip"
+    ],
+    "view": {
+      "position": [
+        -0.65,
+        0.43,
+        -2.52
+      ],
+      "target": [
+        -0.65,
+        0.666,
+        -2.35
+      ],
+      "fov": 60
+    }
+  },
+  {
+    "name": "fixtures-cabinet-strip-under-front-wide",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureCabinetStrip"
+    ],
+    "view": {
+      "position": [
+        -1,
+        1.9,
+        -0.675
+      ],
+      "target": [
+        -2.99,
+        2.521,
+        -0.675
+      ],
+      "fov": 70
+    }
+  },
+  {
+    "name": "fixtures-cabinet-strip-Hogwarts-underside",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureCabinetStrip"
+    ],
+    "view": {
+      "position": [
+        -2.5,
+        2.27,
+        0.29
+      ],
+      "target": [
+        -2.99,
+        2.521,
+        0.29
+      ],
+      "fov": 92
+    }
+  },
+  {
+    "name": "fixtures-cabinet-strip-Eiffel-underside",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureCabinetStrip"
+    ],
+    "view": {
+      "position": [
+        -2.5,
+        2.27,
+        -0.99875
+      ],
+      "target": [
+        -2.99,
+        2.521,
+        -0.99875
+      ],
+      "fov": 70
+    }
+  },
+  {
+    "name": "fixtures-cabinet-strip-SLS-underside",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureCabinetStrip"
+    ],
+    "view": {
+      "position": [
+        -2.5,
+        2.27,
+        -1.66
+      ],
+      "target": [
+        -2.99,
+        2.521,
+        -1.66
+      ],
+      "fov": 70
+    }
+  },
+  {
+    "name": "fixtures-cabinet-strip-SmallReserved-underside",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureCabinetStrip"
+    ],
+    "view": {
+      "position": [
+        -2.5,
+        2.27,
+        -2.19625
+      ],
+      "target": [
+        -2.99,
+        2.521,
+        -2.19625
+      ],
+      "fov": 70
+    }
+  }
+]

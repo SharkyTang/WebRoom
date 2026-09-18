@@ -1,0 +1,64 @@
+{
+  "productionUrl": "http://127.0.0.1:3004",
+  "passed": false,
+  "failure": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Pull-out Piano', { exact: true }) to be visible\u001b[22m\n\n    at /Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/tests/collection-piano-recording.mjs:33:108",
+  "events": [
+    {
+      "action": "Click original extended piano",
+      "atMs": 3876.900000035763
+    },
+    {
+      "action": "Piano retracted",
+      "atMs": 7521.100000023842
+    },
+    {
+      "action": "Back to original Hero",
+      "atMs": 9075.600000023842
+    }
+  ],
+  "errors": [],
+  "families": [
+    "monitor",
+    "macbook",
+    "marshall",
+    "floor",
+    "walls",
+    "door",
+    "window",
+    "curtains",
+    "desk",
+    "cabinet",
+    "bed",
+    "bedside",
+    "sofa",
+    "chair",
+    "coffee",
+    "sidetable",
+    "beanbag",
+    "rugs",
+    "dogbed",
+    "piano",
+    "ipad",
+    "phone",
+    "trashcan",
+    "lightswitch",
+    "keyboard",
+    "mouse",
+    "headphones",
+    "eiffel",
+    "hogwarts",
+    "minastirith",
+    "falcon",
+    "bridge",
+    "sls",
+    "ferrari",
+    "mercedes",
+    "plants",
+    "cola",
+    "dog",
+    "fixtures",
+    "wallart"
+  ],
+  "video": "validation/v06c/piano-short/v06c-piano-underdesk-reopen.mp4",
+  "method": "Unmodified production page; real mouse and buttons; underdesk coordinate previously verified by native dev raycast; no selector or synthetic state commands; no inspection camera."
+}

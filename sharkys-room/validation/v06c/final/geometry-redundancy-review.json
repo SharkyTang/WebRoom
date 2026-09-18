@@ -1,0 +1,974 @@
+{
+  "reviewedAt": "2026-09-18T12:44:35.432191+00:00",
+  "method": "Actual C GLB JSON and BIN; exact byte equality for every exported vertex attribute, index payload and material JSON excluding name/extras. Exact zero area only; no epsilon. This identifies storage/redundancy candidates, not occlusion or visually approved deletions. No export modifications or browser rerun.",
+  "families": [
+    {
+      "family": "eiffel",
+      "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Cylinder.136",
+          "material": "MAT_V06C_Eiffel_WarmSteel",
+          "alphaMode": "OPAQUE",
+          "vertices": 9672,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "aeab03e5d9cbb6f1f19ede04978ef7e3023cefb2c574225af58d978b72849c18"
+        },
+        {
+          "mesh": "Cube",
+          "material": "MAT_V06C_Eiffel_Decks",
+          "alphaMode": "OPAQUE",
+          "vertices": 399,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "743587530291b12a1988fc0e633274704f3002013a4311b33f0a1439ed754892"
+        },
+        {
+          "mesh": "Cube.007",
+          "material": "MAT_V06C_Eiffel_DisplayPlinth",
+          "alphaMode": "OPAQUE",
+          "vertices": 57,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "ae3b84473d71d12edddab199bea1db2ca405b967500ed15efff1b6a073e04319"
+        }
+      ]
+    },
+    {
+      "family": "hogwarts",
+      "sha256": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Cone.001",
+          "material": "MAT_V06C_Hogwarts_SlateRoofs",
+          "alphaMode": "OPAQUE",
+          "vertices": 648,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "0efd59312eec4fc9df332c67cf5c913d9867f3785a66023f799b2c4a97dc3291"
+        },
+        {
+          "mesh": "Cube",
+          "material": "MAT_V06C_Hogwarts_Limestone",
+          "alphaMode": "OPAQUE",
+          "vertices": 876,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "27c0c92e9b7d08c521f56a366e11a84da4f87e6c0349fc15dbb980a1d34d0183"
+        },
+        {
+          "mesh": "Cube.002",
+          "material": "MAT_V06C_Hogwarts_Recesses",
+          "alphaMode": "OPAQUE",
+          "vertices": 1980,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 602,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "fd1e011f5a9ee7735ad40e68f3c920742f3cc5f90853f91c1d19a97ea273f411"
+        },
+        {
+          "mesh": "Cube.035",
+          "material": "MAT_V06C_Hogwarts_DisplayPlinth",
+          "alphaMode": "OPAQUE",
+          "vertices": 57,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "eb1368bcb17328d66c2212121169049e0360d569c92e0813b987bed494f4addc"
+        }
+      ]
+    },
+    {
+      "family": "minastirith",
+      "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Cube",
+          "material": "MAT_V06C_MinasTirith_IvoryStone",
+          "alphaMode": "OPAQUE",
+          "vertices": 6600,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "d13572e45f5ea77666164063864eb5ed4ebbec6d48f7aacd74083fd8c06fd917"
+        },
+        {
+          "mesh": "VIS_MinasTirithHouseRoof_Geometry",
+          "material": "MAT_V06C_MinasTirith_SilverRoofs",
+          "alphaMode": "OPAQUE",
+          "vertices": 702,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "22824a0047df806257002ba99dabb22a13d4bb9b60203cfc33f3f3de559b4357"
+        },
+        {
+          "mesh": "VIS_MinasTirithRockSpur_Geometry",
+          "material": "MAT_V06C_MinasTirith_Cliff",
+          "alphaMode": "OPAQUE",
+          "vertices": 1096,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 12,
+          "potentialUncompressedAttributeBytesIfWelded": 384,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "9a44bda553db62a07bb07015f2982008bbd236464ecac70e3c21de29910cd1d4"
+        },
+        {
+          "mesh": "Cube.129",
+          "material": "MAT_V06C_MinasTirith_DisplayPlinth",
+          "alphaMode": "OPAQUE",
+          "vertices": 57,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "dc82eb580c52e8c3bb017cca7976d580e6fa3077cb12fcb180ced7fa132acb4f"
+        }
+      ]
+    },
+    {
+      "family": "falcon",
+      "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Cube.002",
+          "material": "MAT_V06C_Falcon_RedPanels",
+          "alphaMode": "OPAQUE",
+          "vertices": 411,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "98d411f2d511723595830f845afd38b8688364f6b4195b8c0d9188358ad07938"
+        },
+        {
+          "mesh": "Cylinder.002",
+          "material": "MAT_V06C_Falcon_Recesses",
+          "alphaMode": "OPAQUE",
+          "vertices": 1467,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "dd23cd9cfb64d7d2b7cba86561a476e72141e118968e478f0d83f9db856464f0"
+        },
+        {
+          "mesh": "Cylinder",
+          "material": "MAT_V06C_Falcon_AlloyPanels",
+          "alphaMode": "OPAQUE",
+          "vertices": 1080,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "1483da49c18e7eba2cdd72a12fa1e17f54909536b368ec74149e8751bbb77814"
+        },
+        {
+          "mesh": "Cube.006",
+          "material": "MAT_V06C_Falcon_DisplayPlinth",
+          "alphaMode": "OPAQUE",
+          "vertices": 57,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "f527a29bad67394a31198de168d546654366b22a85be28ad5fc7e4deb7ccde64"
+        }
+      ]
+    },
+    {
+      "family": "bridge",
+      "sha256": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Cylinder.077",
+          "material": "MAT_V06C_TowerBridge_BlueSteel",
+          "alphaMode": "OPAQUE",
+          "vertices": 6813,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "dc92a409c2e39609b6f46f4cc90d3b9511ee824e51af7f1d72ecbb059b016518"
+        },
+        {
+          "mesh": "Cube",
+          "material": "MAT_V06C_TowerBridge_Deck",
+          "alphaMode": "OPAQUE",
+          "vertices": 570,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 128,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "bce7b3aa66bbcc867f4bda13c9005a94504a84a47f357efe14197bc859f644b6"
+        },
+        {
+          "mesh": "Cone",
+          "material": "MAT_V06C_TowerBridge_Stone",
+          "alphaMode": "OPAQUE",
+          "vertices": 822,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "0bb8f3a624d1bc1098ee29183fcaa0d162afa74e1dc2199e8a840fd145ba1cd2"
+        },
+        {
+          "mesh": "Cube.017",
+          "material": "MAT_V06C_TowerBridge_DisplayPlinth",
+          "alphaMode": "OPAQUE",
+          "vertices": 57,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "b994a87ccb481e4f04140738d005e22f7c049f08ba0dadb4735a0950e7ee259a"
+        }
+      ]
+    },
+    {
+      "family": "sls",
+      "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Cone.005",
+          "material": "MAT_V06C_SLS_WhiteStages",
+          "alphaMode": "OPAQUE",
+          "vertices": 1128,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "1eb58b497fb708b14e3837eaf69bedeae620d0bbb540ed38b7816b2f2d83b210"
+        },
+        {
+          "mesh": "Cone.007",
+          "material": "MAT_V06C_SLS_InterstageAndEngines",
+          "alphaMode": "OPAQUE",
+          "vertices": 2112,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "79a1359147685b099da8bff923b195b523958e546b2fd2995924ddc8cd860c65"
+        },
+        {
+          "mesh": "Cone",
+          "material": "MAT_V06C_SLS_CoreOrange",
+          "alphaMode": "OPAQUE",
+          "vertices": 144,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "321db31c45f6dfad97f3b5815faef777648f9a82a9a243cfe40b3bacbbe1bf8d"
+        },
+        {
+          "mesh": "Cube",
+          "material": "MAT_V06C_SLS_DisplayPlinth",
+          "alphaMode": "OPAQUE",
+          "vertices": 57,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "1b22e8e9ee57a7708590aef31286901506c6c5de71597590229ac3f018a0518f"
+        }
+      ]
+    },
+    {
+      "family": "ferrari",
+      "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Cone",
+          "material": "MAT_V06C_Ferrari_Body",
+          "alphaMode": "OPAQUE",
+          "vertices": 483,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "d4f69e97ef536c0bfd1d958db6acce28100c88cf297ee56b838d5e6fa789598a"
+        },
+        {
+          "mesh": "Sphere",
+          "material": "MAT_V06C_Ferrari_TyresCockpit",
+          "alphaMode": "OPAQUE",
+          "vertices": 1303,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "735dd93f8d43e75ed05c40330442d3bddb9e18033e09a1827efb719881bc8a0c"
+        },
+        {
+          "mesh": "Cube.005",
+          "material": "MAT_V06C_Ferrari_Accent",
+          "alphaMode": "OPAQUE",
+          "vertices": 1275,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "bab38e324afbc1489ef62d828d697d7bf3684559e56f76a5e03aa74e7840c70f"
+        },
+        {
+          "mesh": "Cube.011",
+          "material": "MAT_V06C_Ferrari_DisplayPlinth",
+          "alphaMode": "OPAQUE",
+          "vertices": 57,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "663b0a344236ee4533040c01023fb4f987941544adc1a3466c0ae2bee3f9aa8e"
+        }
+      ]
+    },
+    {
+      "family": "mercedes",
+      "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Cone",
+          "material": "MAT_V06C_Mercedes_Body",
+          "alphaMode": "OPAQUE",
+          "vertices": 483,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "d4f69e97ef536c0bfd1d958db6acce28100c88cf297ee56b838d5e6fa789598a"
+        },
+        {
+          "mesh": "Sphere",
+          "material": "MAT_V06C_Mercedes_TyresCockpit",
+          "alphaMode": "OPAQUE",
+          "vertices": 1303,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "1d0827b4685667a446105e5c0b144168d4b0dc0ec9ff31364bd0a7a88fcb137d"
+        },
+        {
+          "mesh": "Cube.005",
+          "material": "MAT_V06C_Mercedes_Accent",
+          "alphaMode": "OPAQUE",
+          "vertices": 1275,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "bab38e324afbc1489ef62d828d697d7bf3684559e56f76a5e03aa74e7840c70f"
+        },
+        {
+          "mesh": "Cube.011",
+          "material": "MAT_V06C_Mercedes_DisplayPlinth",
+          "alphaMode": "OPAQUE",
+          "vertices": 57,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "663b0a344236ee4533040c01023fb4f987941544adc1a3466c0ae2bee3f9aa8e"
+        }
+      ]
+    },
+    {
+      "family": "plants",
+      "sha256": "41f517b3c98e013c58afcb11552e42c86be967d392b20c17cc1ef3e024a9b4d4",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "VIS_PlantCabinetCrown_Geometry",
+          "material": "MAT_V06C_Plants_Leaves",
+          "alphaMode": "OPAQUE",
+          "vertices": 1456,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 108,
+          "potentialUncompressedAttributeBytesIfWelded": 3456,
+          "zeroAreaTrianglesExact": 108,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "6bc2eb2e423c40ab887e5abfb4208c23d2df7e5567db6a5f35f24bbf1d9768e1"
+        },
+        {
+          "mesh": "VIS_PlantCabinetPot_Geometry",
+          "material": "MAT_V06C_Plants_Ceramic",
+          "alphaMode": "OPAQUE",
+          "vertices": 170,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "37a8edb89308e1a01cd4815832817c3963ed2f9853fb2811a1ef78d278f904d8"
+        },
+        {
+          "mesh": "Cone",
+          "material": "MAT_V06C_Plants_SoilAndStems",
+          "alphaMode": "OPAQUE",
+          "vertices": 612,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "6a2d03d664ca015f4d6b81605e6fa1ef7742582f9f227004e9fc6b1e81da126a"
+        },
+        {
+          "mesh": "VIS_PlantCoffeeTableCrown_Geometry",
+          "material": "MAT_V06C_Plants_Leaves",
+          "alphaMode": "OPAQUE",
+          "vertices": 1456,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 108,
+          "potentialUncompressedAttributeBytesIfWelded": 3456,
+          "zeroAreaTrianglesExact": 108,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "364a70ac767a00ddf4c3a4088e3a8683a73ea118473bbfc778f6aaf9609b7e45"
+        },
+        {
+          "mesh": "VIS_PlantCoffeeTablePot_Geometry",
+          "material": "MAT_V06C_Plants_Ceramic",
+          "alphaMode": "OPAQUE",
+          "vertices": 170,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "f70bb9de0df8b7b9f2158fc0407ce86b72bb5bc00e907aaaad122ae9b33b547f"
+        },
+        {
+          "mesh": "Cone.001",
+          "material": "MAT_V06C_Plants_SoilAndStems",
+          "alphaMode": "OPAQUE",
+          "vertices": 612,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "3228999a9375d43c754486b8e6cd1690f5d5447be762b1c0f3f4460cbd63d348"
+        },
+        {
+          "mesh": "VIS_PlantDeskCrown_Geometry",
+          "material": "MAT_V06C_Plants_Leaves",
+          "alphaMode": "OPAQUE",
+          "vertices": 1456,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 108,
+          "potentialUncompressedAttributeBytesIfWelded": 3456,
+          "zeroAreaTrianglesExact": 108,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "bff3190a3fce6115bfd6b28c7ed02ebff8847f087293c507d4f7e9b9892a3069"
+        },
+        {
+          "mesh": "VIS_PlantDeskPot_Geometry",
+          "material": "MAT_V06C_Plants_Ceramic",
+          "alphaMode": "OPAQUE",
+          "vertices": 170,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "46fbabe05a6be66183cffa7574058e4fdefe14c295385941b56a5180182210b2"
+        },
+        {
+          "mesh": "Cone.002",
+          "material": "MAT_V06C_Plants_SoilAndStems",
+          "alphaMode": "OPAQUE",
+          "vertices": 612,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "b176b13cabcc5d2c82f8043964377600178601eac93f422612601d10ac156d1c"
+        },
+        {
+          "mesh": "VIS_PlantSofaCrown_Geometry",
+          "material": "MAT_V06C_Plants_Leaves",
+          "alphaMode": "OPAQUE",
+          "vertices": 2080,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 156,
+          "potentialUncompressedAttributeBytesIfWelded": 4992,
+          "zeroAreaTrianglesExact": 156,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "7ef9d1402585a25a24fbd0ce756d3f4eac34be900b4367e844eb250f009689c7"
+        },
+        {
+          "mesh": "VIS_PlantSofaPot_Geometry",
+          "material": "MAT_V06C_Plants_Ceramic",
+          "alphaMode": "OPAQUE",
+          "vertices": 170,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "39e3b59c54fe99f3cf70d2ad18e931a6d75bf85d187c8ccfcbef94c34d6541f9"
+        },
+        {
+          "mesh": "Cone.003",
+          "material": "MAT_V06C_Plants_SoilAndStems",
+          "alphaMode": "OPAQUE",
+          "vertices": 828,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "b45de32127135efe52dd93e97d19daa5fb922a844d8e5b140c0fd2990d2c32b6"
+        },
+        {
+          "mesh": "VIS_PlantWindowCrown_Geometry",
+          "material": "MAT_V06C_Plants_Leaves",
+          "alphaMode": "OPAQUE",
+          "vertices": 2080,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 156,
+          "potentialUncompressedAttributeBytesIfWelded": 4992,
+          "zeroAreaTrianglesExact": 156,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "40ad26cb42fcc9384980c3b108d3ea42b299feb788c851aff0bce0d29c5ce58b"
+        },
+        {
+          "mesh": "VIS_PlantWindowPot_Geometry",
+          "material": "MAT_V06C_Plants_Ceramic",
+          "alphaMode": "OPAQUE",
+          "vertices": 170,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "61d5816a391c040685f3e3593e1bc921f0572720c3e2ea24a2f9f12a3ae28a04"
+        },
+        {
+          "mesh": "Cone.004",
+          "material": "MAT_V06C_Plants_SoilAndStems",
+          "alphaMode": "OPAQUE",
+          "vertices": 828,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "dc2a249ad17a1deda746023d0b8b36d28af53f84add2ebba49beae54311c475b"
+        }
+      ]
+    },
+    {
+      "family": "cola",
+      "sha256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "VIS_ColaGlass_Geometry",
+          "material": "MAT_V06C_Cola_Glass",
+          "alphaMode": "BLEND",
+          "vertices": 226,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "c3c3bbaa99b434e582da707446968d130d4fd5d6b96003c4c3484b65112a1b76"
+        },
+        {
+          "mesh": "Cube",
+          "material": "MAT_V06C_Cola_Ice",
+          "alphaMode": "OPAQUE",
+          "vertices": 216,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "4cf95e61c6d31a6020c97a1fc9676092e90de2f8627cdeba42051aeac07f43d8"
+        },
+        {
+          "mesh": "Cone",
+          "material": "MAT_V06C_Cola_Liquid",
+          "alphaMode": "OPAQUE",
+          "vertices": 192,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "31c7724eabba242b7b362c96bede32818ef072f6aab02efa9f68eff0952ba014"
+        }
+      ]
+    },
+    {
+      "family": "dog",
+      "sha256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Sphere",
+          "material": "MAT_V06C_Dog_GoldenCoat",
+          "alphaMode": "OPAQUE",
+          "vertices": 2275,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "2c8f37cc58667e455a333f6c924dacf9c0f9a330b04cd6073ab4ff22313a93ae"
+        },
+        {
+          "mesh": "Cylinder",
+          "material": "MAT_V06C_Dog_NoseClosedEyes",
+          "alphaMode": "OPAQUE",
+          "vertices": 617,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "8946dc01896b7a6e30bf67cfe6d591be644dfcd3579964eba9f408b5e3a374bf"
+        },
+        {
+          "mesh": "Sphere.008",
+          "material": "MAT_V06C_Dog_EarsMuzzle",
+          "alphaMode": "OPAQUE",
+          "vertices": 542,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "3436c7c442b72f67f80ec10d137d057e90b4aa056d2c81a15457c46cd6c23acf"
+        }
+      ]
+    },
+    {
+      "family": "fixtures",
+      "sha256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [
+        [
+          "MAT_V06C_FixtureBedsideSurface",
+          "MAT_V06C_FixtureCabinetStripSurface",
+          "MAT_V06C_FixtureDeskStripSurface",
+          "MAT_V06C_FixtureLoungeSurface"
+        ]
+      ],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [
+        [
+          "VIS_FixtureBedsideLowerShadeBinding_Geometry:0",
+          "VIS_FixtureLoungeLowerShadeBinding_Geometry:0"
+        ],
+        [
+          "VIS_FixtureBedsideSurface_Geometry:0",
+          "VIS_FixtureLoungeSurface_Geometry:0"
+        ]
+      ],
+      "primitives": [
+        {
+          "mesh": "VIS_FixtureBedsideLowerShadeBinding_Geometry",
+          "material": "MAT_V06C_FixtureBrushedBronze",
+          "alphaMode": "OPAQUE",
+          "vertices": 972,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "cb752597b20962a9bebdce7ad1b97df48d242733adbbdebb2fd788ddad60cd32"
+        },
+        {
+          "mesh": "VIS_FixtureBedsideSurface_Geometry",
+          "material": "MAT_V06C_FixtureBedsideSurface",
+          "alphaMode": "OPAQUE",
+          "vertices": 288,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "0bf0510fdedbbb777f3253fae30a1849a681e014143f2bb9ad42dcf7949ebeeb"
+        },
+        {
+          "mesh": "Cube.013",
+          "material": "MAT_V06C_FixtureBrushedBronze",
+          "alphaMode": "OPAQUE",
+          "vertices": 480,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "69ac7b50372c9ba45546e6f3facd8eefcada0d837c63a8ce340e01e5b2ced76a"
+        },
+        {
+          "mesh": "Cube.011",
+          "material": "MAT_V06C_FixtureCabinetStripSurface",
+          "alphaMode": "OPAQUE",
+          "vertices": 96,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "dd427bbfab2d6de54d1aa743e4e67fbe280161bd0ac74942cf5105fa2b194704"
+        },
+        {
+          "mesh": "Cube.001",
+          "material": "MAT_V06C_FixtureBrushedBronze",
+          "alphaMode": "OPAQUE",
+          "vertices": 120,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 12,
+          "potentialUncompressedAttributeBytesIfWelded": 384,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "450da841e51c2f117e38824d91e8041937e0817fc37b157bbfa0a011deac193f"
+        },
+        {
+          "mesh": "Cube.005",
+          "material": "MAT_V06C_FixtureDeskStripSurface",
+          "alphaMode": "OPAQUE",
+          "vertices": 24,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "c5e5bb445f24c5a2ffb71d99272cb6343c49b987478fa580ab66f7991c1cf624"
+        },
+        {
+          "mesh": "VIS_FixtureLoungeLowerShadeBinding_Geometry",
+          "material": "MAT_V06C_FixtureBrushedBronze",
+          "alphaMode": "OPAQUE",
+          "vertices": 972,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "cb752597b20962a9bebdce7ad1b97df48d242733adbbdebb2fd788ddad60cd32"
+        },
+        {
+          "mesh": "VIS_FixtureLoungeSurface_Geometry",
+          "material": "MAT_V06C_FixtureLoungeSurface",
+          "alphaMode": "OPAQUE",
+          "vertices": 288,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "0bf0510fdedbbb777f3253fae30a1849a681e014143f2bb9ad42dcf7949ebeeb"
+        }
+      ]
+    },
+    {
+      "family": "wallart",
+      "sha256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772",
+      "unreferencedMeshes": [],
+      "unreferencedMaterials": [],
+      "identicalMaterialValueGroupsExcludingNames": [],
+      "identicalGeometryAttributeAndIndexPayloadGroups": [],
+      "primitives": [
+        {
+          "mesh": "Cube",
+          "material": "MAT_V06C_WallArtWalnutFrame",
+          "alphaMode": "OPAQUE",
+          "vertices": 285,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "90673b46d8254ed947191f700871ac4e3185966ccfe1f0e27bd0af60ad5bd9c5"
+        },
+        {
+          "mesh": "VIS_WallArtFarRidge_Geometry",
+          "material": "MAT_V06C_WallArtDistantSage",
+          "alphaMode": "OPAQUE",
+          "vertices": 54,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "655aee2f266e6483a428cf8f8831d97f63769bf8e6d7836db7e7929263818387"
+        },
+        {
+          "mesh": "VIS_WallArtMiddleRidge_Geometry",
+          "material": "MAT_V06C_WallArtMiddleTeal",
+          "alphaMode": "OPAQUE",
+          "vertices": 60,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "974bca67a5cdd38f065686952c82d33d0b0c4fbc6163720b00ec4888812493c9"
+        },
+        {
+          "mesh": "VIS_WallArtMoon_Geometry",
+          "material": "MAT_V06C_WallArtMutedMoon",
+          "alphaMode": "OPAQUE",
+          "vertices": 192,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "c113272aba9d84272d0f8c1cd401ff7e22354f49de8deafd5409d43ce63dea38"
+        },
+        {
+          "mesh": "VIS_WallArtNearRidge_Geometry",
+          "material": "MAT_V06C_WallArtForeground",
+          "alphaMode": "OPAQUE",
+          "vertices": 48,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "8a7096ad9cd94fff345385af51619621b637c86326551cda850ae2f909d685a9"
+        },
+        {
+          "mesh": "Cube.005",
+          "material": "MAT_V06C_WallArtWarmPaper",
+          "alphaMode": "OPAQUE",
+          "vertices": 24,
+          "attributeStrideBytes": 32,
+          "exactDuplicateVertexRecords": 0,
+          "potentialUncompressedAttributeBytesIfWelded": 0,
+          "zeroAreaTrianglesExact": 0,
+          "exactDuplicateTrianglesSameWindingAndAttributes": 0,
+          "geometryByteSignature": "e47b9598e0784bc8870599174895f584817b54e6af4ad4b1e139d11ef0fb6657"
+        }
+      ]
+    }
+  ],
+  "crossFamilyIdenticalGeometryPayloadGroups": [
+    [
+      "ferrari:Cone:0",
+      "mercedes:Cone:0"
+    ],
+    [
+      "ferrari:Cube.005:0",
+      "mercedes:Cube.005:0"
+    ],
+    [
+      "ferrari:Cube.011:0",
+      "mercedes:Cube.011:0"
+    ]
+  ],
+  "crossFamilyIdenticalMaterialValueGroupsExcludingNames": [
+    [
+      "eiffel:MAT_V06C_Eiffel_DisplayPlinth",
+      "hogwarts:MAT_V06C_Hogwarts_DisplayPlinth",
+      "minastirith:MAT_V06C_MinasTirith_DisplayPlinth",
+      "falcon:MAT_V06C_Falcon_DisplayPlinth",
+      "bridge:MAT_V06C_TowerBridge_DisplayPlinth",
+      "sls:MAT_V06C_SLS_DisplayPlinth",
+      "ferrari:MAT_V06C_Ferrari_DisplayPlinth",
+      "mercedes:MAT_V06C_Mercedes_DisplayPlinth"
+    ],
+    [
+      "ferrari:MAT_V06C_Ferrari_TyresCockpit",
+      "mercedes:MAT_V06C_Mercedes_TyresCockpit"
+    ]
+  ]
+}

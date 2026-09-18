@@ -1,0 +1,11 @@
+{
+  "recordedAt": "2026-09-18T12:11:47.287855+00:00",
+  "buildRoot": "/private/tmp/sharkys-v06c-production-20260918-1957",
+  "buildCommand": "npm run build",
+  "buildLog": "validation/v06c/final/build.log",
+  "buildLogSHA256": "5a6c301dc516ec93ace6bae000e3597bcb535e1415704d506f98e04c644f1405",
+  "inputFiles": 84,
+  "changedInputs": [],
+  "unpatchedProductCopy": true,
+  "endpoint": "http://127.0.0.1:3004"
+}

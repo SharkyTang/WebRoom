@@ -1,0 +1,81 @@
+{
+  "version": "0.6C",
+  "family": "cola",
+  "triangles": 896,
+  "meshCount": 3,
+  "uvMeshes": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06C_Cola_Glass",
+    "MAT_V06C_Cola_Ice",
+    "MAT_V06C_Cola_Liquid"
+  ],
+  "roots": {
+    "VIS_Cola": {
+      "anchor": "FUR_CoffeeTable",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.2849999964237213,
+          0.4805000126361847,
+          -0.054999999701976776
+        ],
+        "max": [
+          -0.20499999821186066,
+          0.6255000233650208,
+          0.02500000037252903
+        ]
+      }
+    }
+  },
+  "placement": {
+    "anchor": "FUR_CoffeeTable",
+    "geometryLocalBaseCentre": [
+      -0.245,
+      0.4805,
+      -0.015
+    ],
+    "height": 0.145,
+    "radius": 0.04,
+    "proxyMeshNames": [],
+    "fallback": "Absent cup + existing explicit family fallback status/footer/retry. Coffee table and iPad remain installed. Missing cup is not success.",
+    "liquidTopLocalAboveBase": 0.113,
+    "iceInsideInnerRadius": 0.036,
+    "glassMethod": "alpha-blended thin wall; no physical transmission/refraction system"
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 29352,
+  "blendBytes": 111144,
+  "glbSHA256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+  "gltfPrimitives": 3,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_Cola": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Cola_bounds": true
+  }
+}

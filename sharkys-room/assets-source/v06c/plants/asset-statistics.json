@@ -1,0 +1,520 @@
+{
+  "version": "0.6C",
+  "family": "plants",
+  "triangles": 7308,
+  "meshCount": 15,
+  "uvMeshes": 15,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06C_Plants_Ceramic",
+    "MAT_V06C_Plants_Leaves",
+    "MAT_V06C_Plants_SoilAndStems"
+  ],
+  "roots": {
+    "VIS_PlantCabinet": {
+      "anchor": "DEC_Plant_Cabinet",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.05805762857198715,
+          -0.01464986614882946,
+          -0.06000453978776932
+        ],
+        "max": [
+          0.06981975585222244,
+          0.3177398443222046,
+          0.05541345849633217
+        ]
+      }
+    },
+    "VIS_PlantCoffeeTable": {
+      "anchor": "DEC_Plant_CoffeeTable",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.0422237254679203,
+          0.0003499999875202775,
+          -0.043639663606882095
+        ],
+        "max": [
+          0.05077800154685974,
+          0.2313017100095749,
+          0.04030069708824158
+        ]
+      }
+    },
+    "VIS_PlantDesk": {
+      "anchor": "DEC_Plant_Desk",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.05102033168077469,
+          0.0003499999875202775,
+          -0.052731260657310486
+        ],
+        "max": [
+          0.06135675311088562,
+          0.27932289242744446,
+          0.04869667440652847
+        ]
+      }
+    },
+    "VIS_PlantSofa": {
+      "anchor": "DEC_Plant_Sofa",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.14938803017139435,
+          0.0003499999875202775,
+          -0.14955493807792664
+        ],
+        "max": [
+          0.16925999522209167,
+          0.7691389918327332,
+          0.13433565199375153
+        ]
+      }
+    },
+    "VIS_PlantWindow": {
+      "anchor": "DEC_Plant_Window",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.1456281840801239,
+          0.0003499999875202775,
+          -0.10453499853610992
+        ],
+        "max": [
+          0.16500000655651093,
+          1.23014235496521,
+          0.10453499853610992
+        ]
+      }
+    }
+  },
+  "placement": {
+    "positions": [
+      {
+        "root": "VIS_PlantCabinet",
+        "anchor": "DEC_Plant_Cabinet",
+        "localEnvelope": {
+          "min": [
+            -0.1023000031709671,
+            0,
+            -0.09570000320672989
+          ],
+          "max": [
+            0.1023000031709671,
+            0.3283500075340271,
+            0.09570000320672989
+          ],
+          "size": [
+            0.2046000063419342,
+            0.3283500075340271,
+            0.19140000641345978
+          ]
+        },
+        "supportLocalY": -0.014649866485595704
+      },
+      {
+        "root": "VIS_PlantCoffeeTable",
+        "anchor": "DEC_Plant_CoffeeTable",
+        "localEnvelope": {
+          "min": [
+            -0.07440000027418137,
+            0,
+            -0.06960000097751617
+          ],
+          "max": [
+            0.07440000027418137,
+            0.23880000412464142,
+            0.06960000097751617
+          ],
+          "size": [
+            0.14880000054836273,
+            0.23880000412464142,
+            0.13920000195503235
+          ]
+        },
+        "supportLocalY": 0.00035
+      },
+      {
+        "root": "VIS_PlantDesk",
+        "anchor": "DEC_Plant_Desk",
+        "localEnvelope": {
+          "min": [
+            -0.08990000188350677,
+            0,
+            -0.08410000056028366
+          ],
+          "max": [
+            0.08990000188350677,
+            0.2885499894618988,
+            0.08410000056028366
+          ],
+          "size": [
+            0.17980000376701355,
+            0.2885499894618988,
+            0.16820000112056732
+          ]
+        },
+        "supportLocalY": 0.00035
+      },
+      {
+        "root": "VIS_PlantSofa",
+        "anchor": "DEC_Plant_Sofa",
+        "localEnvelope": {
+          "min": [
+            -0.24799999594688416,
+            0,
+            -0.23199999332427979
+          ],
+          "max": [
+            0.24799999594688416,
+            0.7960000038146973,
+            0.23199999332427979
+          ],
+          "size": [
+            0.4959999918937683,
+            0.7960000038146973,
+            0.46399998664855957
+          ]
+        },
+        "supportLocalY": 0.00035
+      },
+      {
+        "root": "VIS_PlantWindow",
+        "anchor": "DEC_Plant_Window",
+        "localEnvelope": {
+          "min": [
+            -0.3968000113964081,
+            0,
+            -0.37119999527931213
+          ],
+          "max": [
+            0.3968000113964081,
+            1.2735999822616577,
+            0.37119999527931213
+          ],
+          "size": [
+            0.7936000227928162,
+            1.2735999822616577,
+            0.7423999905586243
+          ]
+        },
+        "supportLocalY": 0.00035
+      }
+    ],
+    "reference": "Five original positions; broad closed leaves, no alpha layering/wind; warm ceramic pots"
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "sourceTriangles": 7944,
+  "exportCleanup": {
+    "sourceTriangles": 7944,
+    "exportedTriangles": 7308,
+    "removedZeroAreaTriangles": 636,
+    "removedUnreferencedVertices": 954,
+    "beforeBytes": 454456,
+    "afterBytes": 429400,
+    "primitives": [
+      {
+        "mesh": "VIS_PlantCabinetCrown_Geometry",
+        "meshIndex": 0,
+        "primitiveIndex": 0,
+        "material": 0,
+        "sourceTriangles": 728,
+        "exportedTriangles": 620,
+        "removedZeroAreaTriangles": 108,
+        "sourceVertices": 1456,
+        "exportedVertices": 1294,
+        "removedUnreferencedVertices": 162
+      },
+      {
+        "mesh": "VIS_PlantCabinetPot_Geometry",
+        "meshIndex": 1,
+        "primitiveIndex": 0,
+        "material": 1,
+        "sourceTriangles": 336,
+        "exportedTriangles": 336,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 170,
+        "exportedVertices": 170,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "Cone",
+        "meshIndex": 2,
+        "primitiveIndex": 0,
+        "material": 2,
+        "sourceTriangles": 352,
+        "exportedTriangles": 352,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 612,
+        "exportedVertices": 612,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "VIS_PlantCoffeeTableCrown_Geometry",
+        "meshIndex": 3,
+        "primitiveIndex": 0,
+        "material": 0,
+        "sourceTriangles": 728,
+        "exportedTriangles": 620,
+        "removedZeroAreaTriangles": 108,
+        "sourceVertices": 1456,
+        "exportedVertices": 1294,
+        "removedUnreferencedVertices": 162
+      },
+      {
+        "mesh": "VIS_PlantCoffeeTablePot_Geometry",
+        "meshIndex": 4,
+        "primitiveIndex": 0,
+        "material": 1,
+        "sourceTriangles": 336,
+        "exportedTriangles": 336,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 170,
+        "exportedVertices": 170,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "Cone.001",
+        "meshIndex": 5,
+        "primitiveIndex": 0,
+        "material": 2,
+        "sourceTriangles": 352,
+        "exportedTriangles": 352,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 612,
+        "exportedVertices": 612,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "VIS_PlantDeskCrown_Geometry",
+        "meshIndex": 6,
+        "primitiveIndex": 0,
+        "material": 0,
+        "sourceTriangles": 728,
+        "exportedTriangles": 620,
+        "removedZeroAreaTriangles": 108,
+        "sourceVertices": 1456,
+        "exportedVertices": 1294,
+        "removedUnreferencedVertices": 162
+      },
+      {
+        "mesh": "VIS_PlantDeskPot_Geometry",
+        "meshIndex": 7,
+        "primitiveIndex": 0,
+        "material": 1,
+        "sourceTriangles": 336,
+        "exportedTriangles": 336,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 170,
+        "exportedVertices": 170,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "Cone.002",
+        "meshIndex": 8,
+        "primitiveIndex": 0,
+        "material": 2,
+        "sourceTriangles": 352,
+        "exportedTriangles": 352,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 612,
+        "exportedVertices": 612,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "VIS_PlantSofaCrown_Geometry",
+        "meshIndex": 9,
+        "primitiveIndex": 0,
+        "material": 0,
+        "sourceTriangles": 1040,
+        "exportedTriangles": 884,
+        "removedZeroAreaTriangles": 156,
+        "sourceVertices": 2080,
+        "exportedVertices": 1846,
+        "removedUnreferencedVertices": 234
+      },
+      {
+        "mesh": "VIS_PlantSofaPot_Geometry",
+        "meshIndex": 10,
+        "primitiveIndex": 0,
+        "material": 1,
+        "sourceTriangles": 336,
+        "exportedTriangles": 336,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 170,
+        "exportedVertices": 170,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "Cone.003",
+        "meshIndex": 11,
+        "primitiveIndex": 0,
+        "material": 2,
+        "sourceTriangles": 472,
+        "exportedTriangles": 472,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 828,
+        "exportedVertices": 828,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "VIS_PlantWindowCrown_Geometry",
+        "meshIndex": 12,
+        "primitiveIndex": 0,
+        "material": 0,
+        "sourceTriangles": 1040,
+        "exportedTriangles": 884,
+        "removedZeroAreaTriangles": 156,
+        "sourceVertices": 2080,
+        "exportedVertices": 1846,
+        "removedUnreferencedVertices": 234
+      },
+      {
+        "mesh": "VIS_PlantWindowPot_Geometry",
+        "meshIndex": 13,
+        "primitiveIndex": 0,
+        "material": 1,
+        "sourceTriangles": 336,
+        "exportedTriangles": 336,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 170,
+        "exportedVertices": 170,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "Cone.004",
+        "meshIndex": 14,
+        "primitiveIndex": 0,
+        "material": 2,
+        "sourceTriangles": 472,
+        "exportedTriangles": 472,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 828,
+        "exportedVertices": 828,
+        "removedUnreferencedVertices": 0
+      }
+    ]
+  },
+  "glbBytes": 429400,
+  "blendBytes": 167276,
+  "glbSHA256": "4575c8c7f98e7e8736fb7e2e4734e52e6ac9e5dfa02d028192c6e5c860a3abcb",
+  "gltfPrimitives": 15,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_PlantCabinet": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_PlantCoffeeTable": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_PlantDesk": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_PlantSofa": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_PlantWindow": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_PlantCabinet_bounds": true,
+    "VIS_PlantCoffeeTable_bounds": true,
+    "VIS_PlantDesk_bounds": true,
+    "VIS_PlantSofa_bounds": true,
+    "VIS_PlantWindow_bounds": true
+  }
+}

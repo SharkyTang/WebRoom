@@ -1,0 +1,125 @@
+{
+  "version": "0.6C",
+  "family": "sls",
+  "triangles": 2176,
+  "meshCount": 4,
+  "uvMeshes": 4,
+  "materialCount": 4,
+  "materials": [
+    "MAT_V06C_SLS_CoreOrange",
+    "MAT_V06C_SLS_DisplayPlinth",
+    "MAT_V06C_SLS_InterstageAndEngines",
+    "MAT_V06C_SLS_WhiteStages"
+  ],
+  "roots": {
+    "VIS_SLS": {
+      "anchor": "DSP_TallRocket_Bounds",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.07136697322130203,
+          -0.7446500062942505,
+          -0.14100000262260437
+        ],
+        "max": [
+          0.07136697322130203,
+          0.4305778741836548,
+          0.14100000262260437
+        ]
+      }
+    }
+  },
+  "placement": {
+    "originalAnchor": "DSP_TallRocket_Bounds",
+    "originalParent": "DISPLAY_MODELS",
+    "nominalWorldBounds": {
+      "min": [
+        -3.3849999010562897,
+        0.7599999904632568,
+        -1.8450000435113907
+      ],
+      "max": [
+        -3.064999908208847,
+        2.200000047683716,
+        -1.555000051856041
+      ],
+      "size": [
+        0.3199999928474426,
+        1.440000057220459,
+        0.28999999165534973
+      ]
+    },
+    "compartmentWorldBounds": {
+      "min": [
+        -3.52,
+        0.735,
+        -1.8774999761581421
+      ],
+      "max": [
+        -2.95,
+        2.525,
+        -1.442499976158142
+      ],
+      "size": [
+        0.5699999999999998,
+        1.79,
+        0.43500000000000005
+      ]
+    },
+    "canonicalBox": {
+      "min": [
+        -0.5450000166893005,
+        0.0,
+        -0.27000001072883606
+      ],
+      "max": [
+        0.5450000166893005,
+        4.539999961853027,
+        0.27000001072883606
+      ]
+    },
+    "uniformScale": 0.25321099376469813,
+    "bakedRotationYDegrees": 90,
+    "bodyLocalBottom": -0.7190000286102295,
+    "supportLocalBottom": -0.7446500190734864,
+    "supportExtensionM": 0.02564999046325689,
+    "supportClearanceM": 0.00035,
+    "previewOnly": false,
+    "provisionalSlot": false
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 128244,
+  "blendBytes": 116027,
+  "glbSHA256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_SLS": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_SLS_bounds": true
+  }
+}

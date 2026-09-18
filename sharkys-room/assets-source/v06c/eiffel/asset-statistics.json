@@ -1,0 +1,124 @@
+{
+  "version": "0.6C",
+  "family": "eiffel",
+  "triangles": 5996,
+  "meshCount": 3,
+  "uvMeshes": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06C_Eiffel_Decks",
+    "MAT_V06C_Eiffel_DisplayPlinth",
+    "MAT_V06C_Eiffel_WarmSteel"
+  ],
+  "roots": {
+    "VIS_Eiffel": {
+      "anchor": "DSP_EiffelTower_Bounds",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.2460000067949295,
+          -0.8146499395370483,
+          -0.2460000067949295
+        ],
+        "max": [
+          0.2460000067949295,
+          0.6392223834991455,
+          0.2460000067949295
+        ]
+      }
+    }
+  },
+  "placement": {
+    "originalAnchor": "DSP_EiffelTower_Bounds",
+    "originalParent": "DISPLAY_MODELS",
+    "nominalWorldBounds": {
+      "min": [
+        -3.4749999046325684,
+        0.7499999403953552,
+        -1.3550000190734863
+      ],
+      "max": [
+        -2.9749999046325684,
+        2.349999964237213,
+        -0.6349999904632568
+      ],
+      "size": [
+        0.5,
+        1.600000023841858,
+        0.7200000286102295
+      ]
+    },
+    "compartmentWorldBounds": {
+      "min": [
+        -3.52,
+        0.735,
+        -1.3974999761581421
+      ],
+      "max": [
+        -2.95,
+        2.525,
+        -0.599999976158142
+      ],
+      "size": [
+        0.5699999999999998,
+        1.79,
+        0.7975000000000001
+      ]
+    },
+    "canonicalBox": {
+      "min": [
+        -0.5350000262260437,
+        -0.00645679235458374,
+        -0.5350000262260437
+      ],
+      "max": [
+        0.5350000262260437,
+        3.1600000858306885,
+        0.5350000262260437
+      ]
+    },
+    "uniformScale": 0.4542055852111859,
+    "bakedRotationYDegrees": 90,
+    "bodyLocalBottom": -0.799000011920929,
+    "supportLocalBottom": -0.8146499523162842,
+    "supportExtensionM": 0.015649940395355277,
+    "supportClearanceM": 0.00035,
+    "previewOnly": false,
+    "provisionalSlot": false
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 364112,
+  "blendBytes": 159135,
+  "glbSHA256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+  "gltfPrimitives": 3,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_Eiffel": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Eiffel_bounds": true
+  }
+}

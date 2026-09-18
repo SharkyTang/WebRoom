@@ -1,0 +1,125 @@
+{
+  "version": "0.6C",
+  "family": "mercedes",
+  "triangles": 2396,
+  "meshCount": 4,
+  "uvMeshes": 4,
+  "materialCount": 4,
+  "materials": [
+    "MAT_V06C_Mercedes_Accent",
+    "MAT_V06C_Mercedes_Body",
+    "MAT_V06C_Mercedes_DisplayPlinth",
+    "MAT_V06C_Mercedes_TyresCockpit"
+  ],
+  "roots": {
+    "VIS_Mercedes": {
+      "anchor": "DSP_MercedesAMGF1_Bounds",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.20600000023841858,
+          -0.17965000867843628,
+          -0.3711107671260834
+        ],
+        "max": [
+          0.20600000023841858,
+          0.07469876855611801,
+          0.3711107671260834
+        ]
+      }
+    }
+  },
+  "placement": {
+    "originalAnchor": "DSP_MercedesAMGF1_Bounds",
+    "originalParent": "DISPLAY_MODELS",
+    "nominalWorldBounds": {
+      "min": [
+        -3.4349998980760574,
+        0.14000000059604645,
+        -0.5150000005960464
+      ],
+      "max": [
+        -3.0149999111890793,
+        0.4100000113248825,
+        0.2449999898672104
+      ],
+      "size": [
+        0.41999998688697815,
+        0.27000001072883606,
+        0.7599999904632568
+      ]
+    },
+    "compartmentWorldBounds": {
+      "min": [
+        -3.52,
+        0.095,
+        -0.5399999761581421
+      ],
+      "max": [
+        -2.95,
+        0.665,
+        0.27000002384185784
+      ],
+      "size": [
+        0.5699999999999998,
+        0.5700000000000001,
+        0.8099999999999999
+      ]
+    },
+    "canonicalBox": {
+      "min": [
+        -1.1899999380111694,
+        0.0,
+        -0.6589999794960022
+      ],
+      "max": [
+        1.2000000476837158,
+        0.6774999499320984,
+        0.6589999794960022
+      ]
+    },
+    "uniformScale": 0.30804248825431196,
+    "bakedRotationYDegrees": 90,
+    "bodyLocalBottom": -0.13400000536441803,
+    "supportLocalBottom": -0.1796500059604645,
+    "supportExtensionM": 0.04565000059604646,
+    "supportClearanceM": 0.00035,
+    "previewOnly": false,
+    "provisionalSlot": false
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 119264,
+  "blendBytes": 132263,
+  "glbSHA256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_Mercedes": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Mercedes_bounds": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "technicalSummary": {
+    "passed": 15,
+    "failed": 0
+  },
+  "agentScreenshotReview": "partial; Window plant requires geometric investigation and unobstructed supplementary view",
+  "userVisualConfirmation": "pending",
+  "reviewedFiles": [
+    "inspection-plants-VIS_PlantCabinet-hero-side.png",
+    "inspection-plants-VIS_PlantCoffeeTable-hero-side.png",
+    "inspection-plants-VIS_PlantDesk-hero-side.png",
+    "inspection-plants-VIS_PlantSofa-hero-side.png",
+    "inspection-plants-VIS_PlantWindow-hero-side.png",
+    "inspection-coffee-context.png",
+    "inspection-cola-VIS_Cola-hero-side.png",
+    "inspection-dog-and-A-bed.png",
+    "inspection-dog-VIS_SleepingDog-hero-side.png"
+  ],
+  "findings": [
+    {
+      "item": "Cola",
+      "status": "visible after assembly fix",
+      "observation": "Transparent glass, dark liquid and three ice cubes visible; coffee context contains iPad, cup and small plant only."
+    },
+    {
+      "item": "Dog + A bed",
+      "status": "visible",
+      "observation": "Elevated views show muzzle/nose, both ears, sleeping body and tail inside unchanged A bed."
+    },
+    {
+      "item": "Cabinet/CoffeeTable/Desk/Sofa plants",
+      "status": "visible",
+      "observation": "All four individual pots/stems/leaves reviewed. Desk approach from left avoids MacBook occlusion."
+    },
+    {
+      "item": "Window plant",
+      "status": "investigation required",
+      "observation": "Leaves visible, lower pot still partially hidden by desk/trashcan. Rear rim/soil has a curtain-shaped notch; CPU confirmation required for suspected real curtain-pot intersection.",
+      "measuredWindowPotZ": [
+        -2.744937017560005,
+        -2.315062925219536
+      ],
+      "measuredCurtainZ": [
+        -2.80718457698822,
+        -2.6528154611587524
+      ],
+      "note": "Overlapping AABBs alone are not triangle collision proof. Saved image and overlapping X/Y/Z prompted the model owner to verify."
+    }
+  ],
+  "changesByThisAgent": "Only test camera and material visibility assertions; product/geometry unchanged."
+}

@@ -1,0 +1,13 @@
+{
+  "startedAt": "2026-09-18T11:22:28.260Z",
+  "finishedAt": "2026-09-18T11:22:28.611Z",
+  "command": "node --import tsx --test --test-reporter=tap tests/collection-decor-geometry.test.ts",
+  "exitCode": 0,
+  "tests": 16,
+  "pass": 16,
+  "fail": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "scope": "CPU actual GLB; 3 C families, no Blender/browser; includes placeholder retirement negative cases",
+  "log": "validation/v06c/stages/01-geometry.log"
+}

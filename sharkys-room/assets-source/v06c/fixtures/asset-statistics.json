@@ -1,0 +1,258 @@
+{
+  "version": "0.6C",
+  "family": "fixtures",
+  "triangles": 1992,
+  "meshCount": 8,
+  "uvMeshes": 8,
+  "materialCount": 5,
+  "materials": [
+    "MAT_V06C_FixtureBedsideSurface",
+    "MAT_V06C_FixtureBrushedBronze",
+    "MAT_V06C_FixtureCabinetStripSurface",
+    "MAT_V06C_FixtureDeskStripSurface",
+    "MAT_V06C_FixtureLoungeSurface"
+  ],
+  "roots": {
+    "VIS_FixtureBedside": {
+      "anchor": "DEC_Lamp_Bedside",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.09799999743700027,
+          0.0,
+          -0.09799999743700027
+        ],
+        "max": [
+          0.09799999743700027,
+          0.3785000145435333,
+          0.09799999743700027
+        ]
+      }
+    },
+    "VIS_FixtureLounge": {
+      "anchor": "DEC_Lamp_Lounge",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.09799999743700027,
+          0.0,
+          -0.09799999743700027
+        ],
+        "max": [
+          0.09799999743700027,
+          0.3785000145435333,
+          0.09799999743700027
+        ]
+      }
+    },
+    "VIS_FixtureDeskStrip": {
+      "anchor": "FUR_Desk",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.800000011920929,
+          0.6649999618530273,
+          -0.4050000011920929
+        ],
+        "max": [
+          0.800000011920929,
+          0.6694999933242798,
+          -0.39499998092651367
+        ]
+      }
+    },
+    "VIS_FixtureCabinetStrip": {
+      "anchor": "FUR_DisplayCabinet",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          0.24799999594688416,
+          2.5204999446868896,
+          -1.540000081062317
+        ],
+        "max": [
+          0.2719999849796295,
+          2.5245001316070557,
+          1.9900000095367432
+        ]
+      }
+    }
+  },
+  "placement": {
+    "stateSurface": null,
+    "surfaceRole": "none",
+    "runtimeBinder": "none",
+    "surfaces": {
+      "VIS_FixtureBedsideSurface": "MAT_V06C_FixtureBedsideSurface",
+      "VIS_FixtureLoungeSurface": "MAT_V06C_FixtureLoungeSurface",
+      "VIS_FixtureDeskStripSurface": "MAT_V06C_FixtureDeskStripSurface",
+      "VIS_FixtureCabinetStripSurface": "MAT_V06C_FixtureCabinetStripSurface"
+    },
+    "emissiveRGB": [
+      0,
+      0,
+      0
+    ],
+    "emissionStrength": 0,
+    "tableLampLocalEnvelope": {
+      "min": [
+        -0.098,
+        0,
+        -0.098
+      ],
+      "max": [
+        0.098,
+        0.3785,
+        0.098
+      ]
+    },
+    "deskStripLocalEnvelope": {
+      "min": [
+        -0.8,
+        0.665,
+        -0.405
+      ],
+      "max": [
+        0.8,
+        0.6695,
+        -0.395
+      ]
+    },
+    "cabinetStripLocalX": [
+      0.248,
+      0.272
+    ],
+    "cabinetStripLocalY": [
+      2.5205,
+      2.5245
+    ],
+    "cabinetStripSegmentsZ": [
+      [
+        "Hogwarts",
+        0.39,
+        1.99
+      ],
+      [
+        "Eiffel",
+        -0.4675,
+        0.27
+      ],
+      [
+        "SLS",
+        -0.9475,
+        -0.5725
+      ],
+      [
+        "SmallReserved",
+        -1.54,
+        -1.0525
+      ]
+    ],
+    "candidateGroups": {
+      "Bedside": "Bed: original shade and source share X/Z",
+      "DeskStrip": "Desk candidate; source point light is not relocated",
+      "CabinetStrip": "Cabinet candidate; source point light is not relocated",
+      "Lounge": "Unassigned; not Desk and not a fourth controlled group"
+    },
+    "scope": "Static visible housings and isolated reserved surfaces only; original three lights and master switch unchanged",
+    "needsExportValidation": "Real A panel contact, all B piano poses, four unique surface materials, original lamp envelopes"
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 120244,
+  "blendBytes": 115366,
+  "glbSHA256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+  "gltfPrimitives": 8,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_FixtureBedside": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_FixtureCabinetStrip": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_FixtureDeskStrip": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_FixtureLounge": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_FixtureBedside_bounds": true,
+    "VIS_FixtureLounge_bounds": true,
+    "VIS_FixtureDeskStrip_bounds": true,
+    "VIS_FixtureCabinetStrip_bounds": true
+  }
+}

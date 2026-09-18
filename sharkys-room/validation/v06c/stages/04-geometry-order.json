@@ -1,0 +1,917 @@
+{
+  "indexedAt": "2026-09-18T11:52:12.758Z",
+  "evidence": {
+    "log": {
+      "file": "validation/v06c/stages/04-geometry-order.log",
+      "bytes": 17563,
+      "sha256": "034220b264e12585c32db39e872f11a4021b1a7c358a16ae8841ef5149ac03f0",
+      "modifiedAt": "2026-09-18T11:48:42.583Z",
+      "modifiedAfterTestLog": false
+    },
+    "reportedCommand": "ROOM_REQUIRE_ALL_C=1 node --import tsx --test tests/collection-decor-geometry.test.ts tests/collection-decor-order.test.ts",
+    "reportedExitCode": 0,
+    "exitCodeEvidence": "Root reports original runner returned exit 0; parsed log totals independently match 107 pass/0 fail.",
+    "reranSuites": false
+  },
+  "tests": {
+    "tests": 107,
+    "suites": 2,
+    "pass": 107,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "durationMs": 814.515208
+  },
+  "breakdown": {
+    "geometry": 58,
+    "arrivalOrder": 49,
+    "sharedAnchorArrivalAndDisposalPermutations": 44,
+    "fixtureDeskCabinetPermutations": 36
+  },
+  "inputGLBs": [
+    {
+      "family": "frozen-FINAL",
+      "file": "public/models/sharkys_room_blockout_FINAL.glb",
+      "bytes": 411892,
+      "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "modifiedAt": "2026-09-16T17:01:35.704Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "eiffel",
+      "file": "public/models/production/eiffel_v06c.glb",
+      "bytes": 364112,
+      "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+      "modifiedAt": "2026-09-18T11:18:48.303Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "hogwarts",
+      "file": "public/models/production/hogwarts_v06c.glb",
+      "bytes": 140328,
+      "sha256": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb",
+      "modifiedAt": "2026-09-18T11:18:48.441Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "minastirith",
+      "file": "public/models/production/minastirith_v06c.glb",
+      "bytes": 307428,
+      "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+      "modifiedAt": "2026-09-18T11:20:49.338Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "falcon",
+      "file": "public/models/production/falcon_v06c.glb",
+      "bytes": 113052,
+      "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+      "modifiedAt": "2026-09-18T11:25:45.188Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "bridge",
+      "file": "public/models/production/bridge_v06c.glb",
+      "bytes": 299584,
+      "sha256": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2",
+      "modifiedAt": "2026-09-18T11:25:45.572Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "sls",
+      "file": "public/models/production/sls_v06c.glb",
+      "bytes": 128244,
+      "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+      "modifiedAt": "2026-09-18T11:25:45.631Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "ferrari",
+      "file": "public/models/production/ferrari_v06c.glb",
+      "bytes": 119244,
+      "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+      "modifiedAt": "2026-09-18T11:25:45.708Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "mercedes",
+      "file": "public/models/production/mercedes_v06c.glb",
+      "bytes": 119264,
+      "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+      "modifiedAt": "2026-09-18T11:25:45.786Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "plants",
+      "file": "public/models/production/plants_v06c.glb",
+      "bytes": 447872,
+      "sha256": "c62fcb033c401bb56f29e098f90962584bdd5def40c94b85cd87a644a21c1b09",
+      "modifiedAt": "2026-09-18T11:36:05.625Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "cola",
+      "file": "public/models/production/cola_v06c.glb",
+      "bytes": 29352,
+      "sha256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+      "modifiedAt": "2026-09-18T11:44:05.204Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "dog",
+      "file": "public/models/production/dog_v06c.glb",
+      "bytes": 142356,
+      "sha256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+      "modifiedAt": "2026-09-18T11:38:30.958Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "fixtures",
+      "file": "public/models/production/fixtures_v06c.glb",
+      "bytes": 120244,
+      "sha256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+      "modifiedAt": "2026-09-18T11:48:19.618Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "wallart",
+      "file": "public/models/production/wallart_v06c.glb",
+      "bytes": 30808,
+      "sha256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772",
+      "modifiedAt": "2026-09-18T11:48:19.651Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "cabinet",
+      "file": "public/models/production/cabinet_v06a.glb",
+      "bytes": 220208,
+      "sha256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "modifiedAt": "2026-09-17T17:20:42.373Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "floor",
+      "file": "public/models/production/floor_v06a.glb",
+      "bytes": 563360,
+      "sha256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "modifiedAt": "2026-09-17T17:14:05.659Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "desk",
+      "file": "public/models/production/desk_v06a.glb",
+      "bytes": 203880,
+      "sha256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "modifiedAt": "2026-09-17T17:14:04.478Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "coffee",
+      "file": "public/models/production/coffee_v06a.glb",
+      "bytes": 83120,
+      "sha256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "modifiedAt": "2026-09-17T17:15:27.162Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "dogbed",
+      "file": "public/models/production/dogbed_v06a.glb",
+      "bytes": 61560,
+      "sha256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "modifiedAt": "2026-09-17T17:15:27.260Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "sidetable",
+      "file": "public/models/production/sidetable_v06a.glb",
+      "bytes": 92312,
+      "sha256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "modifiedAt": "2026-09-17T17:15:27.186Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "bedside",
+      "file": "public/models/production/bedside_v06a.glb",
+      "bytes": 108108,
+      "sha256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "modifiedAt": "2026-09-17T17:15:27.021Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "ipad",
+      "file": "public/models/production/ipad_v06b.glb",
+      "bytes": 25776,
+      "sha256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "modifiedAt": "2026-09-18T06:07:55.345Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "family": "piano",
+      "file": "public/models/production/piano_v06b.glb",
+      "bytes": 269144,
+      "sha256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "modifiedAt": "2026-09-18T05:54:59.293Z",
+      "modifiedAfterTestLog": false
+    }
+  ],
+  "codeInputs": [
+    {
+      "file": "tests/collection-decor-geometry.test.ts",
+      "bytes": 42997,
+      "sha256": "22ae51bd13b900c99b9d3c15070f2d6654bc2a585bc0a1ce3c3f4c783b775ee8",
+      "modifiedAt": "2026-09-18T11:44:26.584Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "file": "tests/collection-decor-order.test.ts",
+      "bytes": 12684,
+      "sha256": "2fbc0e696eac3e151b585a708394fc1236f283490df6a3882a8506ea0f2db611",
+      "modifiedAt": "2026-09-18T11:46:33.728Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "file": "lib/room/assets/assetAssembly.ts",
+      "bytes": 15261,
+      "sha256": "b7e7cc9775103fb5f82f949771e2455bae236044c3d221bfbcd38a241a6b0f3f",
+      "modifiedAt": "2026-09-18T11:43:46.083Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "file": "lib/room/assets/assetManifest.ts",
+      "bytes": 10923,
+      "sha256": "11e762c9ccea7d980e2f7b466d9bc34a7ed4a8204b74d9427e7b7405c3f50123",
+      "modifiedAt": "2026-09-18T11:48:41.672Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "file": "lib/room/assets/fixtureRegistry.ts",
+      "bytes": 4492,
+      "sha256": "aba40b81ffeb318b289a79c2a368f3732a12da6539159424d5038dcff522f880",
+      "modifiedAt": "2026-09-18T11:40:44.644Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "file": "scripts/assets/v06c_fixture_geometry.py",
+      "bytes": 11944,
+      "sha256": "2cf96c014dbbe845f40820a78cd6e5ecce04d36283a80ba2e9559959b60dfc2e",
+      "modifiedAt": "2026-09-18T11:40:44.571Z",
+      "modifiedAfterTestLog": false
+    },
+    {
+      "file": "scripts/assets/build_collection_decor.py",
+      "bytes": 27009,
+      "sha256": "2efda9b77391596d19df621e0f35c160773bd753998cf9f22a53fb9ddea1a50f",
+      "modifiedAt": "2026-09-18T11:46:13.886Z",
+      "modifiedAfterTestLog": false
+    }
+  ],
+  "fourthGroupActualExports": [
+    {
+      "family": "fixtures",
+      "file": "public/models/production/fixtures_v06c.glb",
+      "bytes": 120244,
+      "sha256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+      "modifiedAt": "2026-09-18T11:48:19.618Z",
+      "modifiedAfterTestLog": false,
+      "blend": {
+        "file": "blender-assets/fixtures_v06c.blend",
+        "bytes": 115366,
+        "sha256": "63f0633446353c8061f327ab4eb374f48bb01f175f837460c89d1bb53e3ce778",
+        "modifiedAt": "2026-09-18T11:48:19.578Z",
+        "modifiedAfterTestLog": false
+      },
+      "triangles": 1992,
+      "meshes": 8,
+      "primitives": 8,
+      "materials": 5,
+      "images": 0,
+      "externalUris": 0,
+      "cameras": 0,
+      "lights": 0,
+      "animations": 0
+    },
+    {
+      "family": "wallart",
+      "file": "public/models/production/wallart_v06c.glb",
+      "bytes": 30808,
+      "sha256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772",
+      "modifiedAt": "2026-09-18T11:48:19.651Z",
+      "modifiedAfterTestLog": false,
+      "blend": {
+        "file": "blender-assets/wallart_v06c.blend",
+        "bytes": 107362,
+        "sha256": "c7509af861abdd651a02fee4ee321aaa81362da111a6bc60c59b92cf383e3476",
+        "modifiedAt": "2026-09-18T11:48:19.644Z",
+        "modifiedAfterTestLog": false
+      },
+      "triangles": 452,
+      "meshes": 6,
+      "primitives": 6,
+      "materials": 6,
+      "images": 0,
+      "externalUris": 0,
+      "cameras": 0,
+      "lights": 0,
+      "animations": 0
+    }
+  ],
+  "fixtureActualGeometry": [
+    {
+      "root": "VIS_FixtureBedside",
+      "anchor": "DEC_Lamp_Bedside",
+      "surface": "VIS_FixtureBedsideSurface",
+      "localBounds": {
+        "min": [
+          -0.09799999743700027,
+          0,
+          -0.09799999743700027
+        ],
+        "max": [
+          0.09799999743700027,
+          0.3785000145435333,
+          0.09799999743700027
+        ],
+        "size": [
+          0.19599999487400055,
+          0.3785000145435333,
+          0.19599999487400055
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          2.872000031173229,
+          0.5799999833106995,
+          -2.5979999974370003
+        ],
+        "max": [
+          3.0680000260472298,
+          0.9584999978542328,
+          -2.4020000025629997
+        ],
+        "size": [
+          0.19599999487400055,
+          0.3785000145435333,
+          0.19599999487400055
+        ]
+      },
+      "rootPosition": [
+        0,
+        0,
+        0
+      ],
+      "rootQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "rootScale": [
+        1,
+        1,
+        1
+      ],
+      "surfaceMaterials": [
+        {
+          "name": "MAT_V06C_FixtureBedsideSurface",
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "transparent": false,
+          "emissiveMap": false
+        }
+      ],
+      "mappingStatus": "spatial-correspondence",
+      "futureGroup": "bed",
+      "runtimeBinding": null
+    },
+    {
+      "root": "VIS_FixtureLounge",
+      "anchor": "DEC_Lamp_Lounge",
+      "surface": "VIS_FixtureLoungeSurface",
+      "localBounds": {
+        "min": [
+          -0.09799999743700027,
+          0,
+          -0.09799999743700027
+        ],
+        "max": [
+          0.09799999743700027,
+          0.3785000145435333,
+          0.09799999743700027
+        ],
+        "size": [
+          0.19599999487400055,
+          0.3785000145435333,
+          0.19599999487400055
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          0.882000021636486,
+          0.5400000214576721,
+          2.0920000597834587
+        ],
+        "max": [
+          1.0780000165104866,
+          0.9185000360012054,
+          2.2880000546574593
+        ],
+        "size": [
+          0.19599999487400055,
+          0.3785000145435333,
+          0.19599999487400055
+        ]
+      },
+      "rootPosition": [
+        0,
+        0,
+        0
+      ],
+      "rootQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "rootScale": [
+        1,
+        1,
+        1
+      ],
+      "surfaceMaterials": [
+        {
+          "name": "MAT_V06C_FixtureLoungeSurface",
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "transparent": false,
+          "emissiveMap": false
+        }
+      ],
+      "mappingStatus": "unassigned",
+      "futureGroup": null,
+      "runtimeBinding": null
+    },
+    {
+      "root": "VIS_FixtureDeskStrip",
+      "anchor": "FUR_Desk",
+      "surface": "VIS_FixtureDeskStripSurface",
+      "localBounds": {
+        "min": [
+          -0.800000011920929,
+          0.6649999618530273,
+          -0.4050000011920929
+        ],
+        "max": [
+          0.800000011920929,
+          0.6694999933242798,
+          -0.39499998092651367
+        ],
+        "size": [
+          1.600000023841858,
+          0.004500031471252441,
+          0.010000020265579224
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          -1.449999988079071,
+          0.6649999618530273,
+          -2.3550000488758087
+        ],
+        "max": [
+          0.15000003576278687,
+          0.6694999933242798,
+          -2.3450000286102295
+        ],
+        "size": [
+          1.600000023841858,
+          0.004500031471252441,
+          0.010000020265579224
+        ]
+      },
+      "rootPosition": [
+        0,
+        0,
+        0
+      ],
+      "rootQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "rootScale": [
+        1,
+        1,
+        1
+      ],
+      "surfaceMaterials": [
+        {
+          "name": "MAT_V06C_FixtureDeskStripSurface",
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "transparent": false,
+          "emissiveMap": false
+        }
+      ],
+      "mappingStatus": "candidate",
+      "futureGroup": "desk",
+      "runtimeBinding": null
+    },
+    {
+      "root": "VIS_FixtureCabinetStrip",
+      "anchor": "FUR_DisplayCabinet",
+      "surface": "VIS_FixtureCabinetStripSurface",
+      "localBounds": {
+        "min": [
+          0.24799999594688416,
+          2.5204999446868896,
+          -1.540000081062317
+        ],
+        "max": [
+          0.2719999849796295,
+          2.5245001316070557,
+          1.9900000095367432
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          3.53000009059906
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          -3.002000004053116,
+          2.5204999446868896,
+          -2.440000057220459
+        ],
+        "max": [
+          -2.9780000150203705,
+          2.5245001316070557,
+          1.090000033378601
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          3.53000009059906
+        ]
+      },
+      "rootPosition": [
+        0,
+        0,
+        0
+      ],
+      "rootQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "rootScale": [
+        1,
+        1,
+        1
+      ],
+      "surfaceMaterials": [
+        {
+          "name": "MAT_V06C_FixtureCabinetStripSurface",
+          "emissive": [
+            0,
+            0,
+            0
+          ],
+          "transparent": false,
+          "emissiveMap": false
+        }
+      ],
+      "mappingStatus": "candidate",
+      "futureGroup": "cabinet",
+      "runtimeBinding": null
+    }
+  ],
+  "cabinetActualSegments": [
+    {
+      "name": "Hogwarts",
+      "localBounds": {
+        "min": [
+          0.24799999594688416,
+          2.5204999446868896,
+          0.39000001549720764
+        ],
+        "max": [
+          0.2719999849796295,
+          2.5245001316070557,
+          1.9900000095367432
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          1.5999999940395355
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          -3.002000004053116,
+          2.5204999446868896,
+          -0.5099999606609344
+        ],
+        "max": [
+          -2.9780000150203705,
+          2.5245001316070557,
+          1.090000033378601
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          1.5999999940395355
+        ]
+      },
+      "triangles": 72
+    },
+    {
+      "name": "Eiffel",
+      "localBounds": {
+        "min": [
+          0.24799999594688416,
+          2.5204999446868896,
+          -0.4675000011920929
+        ],
+        "max": [
+          0.2719999849796295,
+          2.5245001316070557,
+          0.27000001072883606
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          0.737500011920929
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          -3.002000004053116,
+          2.5204999446868896,
+          -1.367499977350235
+        ],
+        "max": [
+          -2.9780000150203705,
+          2.5245001316070557,
+          -0.629999965429306
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          0.737500011920929
+        ]
+      },
+      "triangles": 72
+    },
+    {
+      "name": "SLS",
+      "localBounds": {
+        "min": [
+          0.24799999594688416,
+          2.5204999446868896,
+          -0.9474999904632568
+        ],
+        "max": [
+          0.2719999849796295,
+          2.5245001316070557,
+          -0.5724999904632568
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          0.375
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          -3.002000004053116,
+          2.5204999446868896,
+          -1.847499966621399
+        ],
+        "max": [
+          -2.9780000150203705,
+          2.5245001316070557,
+          -1.472499966621399
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          0.375
+        ]
+      },
+      "triangles": 72
+    },
+    {
+      "name": "SmallReserved",
+      "localBounds": {
+        "min": [
+          0.24799999594688416,
+          2.5204999446868896,
+          -1.540000081062317
+        ],
+        "max": [
+          0.2719999849796295,
+          2.5245001316070557,
+          -1.0525000095367432
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          0.48750007152557373
+        ]
+      },
+      "worldBounds": {
+        "min": [
+          -3.002000004053116,
+          2.5204999446868896,
+          -2.440000057220459
+        ],
+        "max": [
+          -2.9780000150203705,
+          2.5245001316070557,
+          -1.9524999856948853
+        ],
+        "size": [
+          0.02399998903274536,
+          0.004000186920166016,
+          0.48750007152557373
+        ]
+      },
+      "triangles": 72
+    }
+  ],
+  "pianoClearance": {
+    "source": "Original 04-geometry-order.log; measured from actual exported B body+slide and fixture in 17 poses.",
+    "poses": [
+      {
+        "travelFraction": 0,
+        "stripClearanceLowerBound": 0.2283156332578637,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.25,
+        "stripClearanceLowerBound": 0.3906843991476278,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.5,
+        "stripClearanceLowerBound": 0.5531302478483223,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.75,
+        "stripClearanceLowerBound": 0.7156006864391272,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 1,
+        "stripClearanceLowerBound": 0.8780820655152647,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.07142857142857142,
+        "stripClearanceLowerBound": 0.2746908722646676,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.14285714285714285,
+        "stripClearanceLowerBound": 0.32108152657993994,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.21428571428571427,
+        "stripClearanceLowerBound": 0.36748175819498996,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.2857142857142857,
+        "stripClearanceLowerBound": 0.4138883460440189,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.35714285714285715,
+        "stripClearanceLowerBound": 0.4602993676574214,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.42857142857142855,
+        "stripClearanceLowerBound": 0.5067136047417575,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.5714285714285714,
+        "stripClearanceLowerBound": 0.5995487381597118,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.6428571428571429,
+        "stripClearanceLowerBound": 0.6459686774626573,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.7142857142857143,
+        "stripClearanceLowerBound": 0.6923897743226735,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.7857142857142857,
+        "stripClearanceLowerBound": 0.7388118105445705,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.8571428571428571,
+        "stripClearanceLowerBound": 0.7852346195268559,
+        "desktopVerticalClearance": 0.016999930143356323
+      },
+      {
+        "travelFraction": 0.9285714285714286,
+        "stripClearanceLowerBound": 0.8316580718640455,
+        "desktopVerticalClearance": 0.016999930143356323
+      }
+    ],
+    "minimumStripClearanceLowerBoundMetres": 0.2283156332578637,
+    "minimumDesktopVerticalClearanceMetres": 0.016999930143356323,
+    "requiredMinimumMetres": 0.016,
+    "testThresholdMetres": 0.01599,
+    "meaning": "Strip clearance is the conservative distance lower bound of actual exported bounding boxes; tabletop value is actual vertical clearance. Not an exact closest triangle-pair distance."
+  },
+  "supplementalCabinetGeometry": {
+    "method": "Read actual GLB triangles to index segment extents; does not rerun the 107-test suites. Tests omitted a dedicated cabinet-strip/panel collision assertion, so this new targeted evidence adds it.",
+    "cabinetPanelIntersectionToleranceMetres": 0.00001,
+    "cabinetPanelMeshCount": 14,
+    "cabinetStripTriangleCount": 288,
+    "cabinetStripTrianglesEnteringPanelInteriors": 0,
+    "cabinetPanelIntersectionNames": [],
+    "cabinetSegmentTriangleCountComplete": true,
+    "collectionClearance": [
+      {
+        "family": "eiffel",
+        "stripTriangleIntersectionsWithCollectionBounds": 0,
+        "collectionTop": 2.1892223358154297,
+        "minimumVerticalSeparation": 0.33127760887145996
+      },
+      {
+        "family": "hogwarts",
+        "stripTriangleIntersectionsWithCollectionBounds": 0,
+        "collectionTop": 2.2044999599456787,
+        "minimumVerticalSeparation": 0.31599998474121094
+      },
+      {
+        "family": "minastirith",
+        "stripTriangleIntersectionsWithCollectionBounds": 0,
+        "collectionTop": 1.1630395352840424,
+        "minimumVerticalSeparation": 1.3574604094028473
+      },
+      {
+        "family": "falcon",
+        "stripTriangleIntersectionsWithCollectionBounds": 0,
+        "collectionTop": 0.9423638954758644,
+        "minimumVerticalSeparation": 1.5781360492110252
+      },
+      {
+        "family": "bridge",
+        "stripTriangleIntersectionsWithCollectionBounds": 0,
+        "collectionTop": 0.6029999852180481,
+        "minimumVerticalSeparation": 1.9174999594688416
+      },
+      {
+        "family": "sls",
+        "stripTriangleIntersectionsWithCollectionBounds": 0,
+        "collectionTop": 1.9105778932571411,
+        "minimumVerticalSeparation": 0.6099220514297485
+      },
+      {
+        "family": "ferrari",
+        "stripTriangleIntersectionsWithCollectionBounds": 0,
+        "collectionTop": 0.3496987745165825,
+        "minimumVerticalSeparation": 2.170801170170307
+      },
+      {
+        "family": "mercedes",
+        "stripTriangleIntersectionsWithCollectionBounds": 0,
+        "collectionTop": 0.3496987745165825,
+        "minimumVerticalSeparation": 2.170801170170307
+      }
+    ],
+    "cabinetTopUndersideWorldY": 2.5249998569488525,
+    "cabinetStripTopWorldY": 2.5245001316070557,
+    "cabinetTopContactGapMetres": 0.000499725341796875,
+    "deskTopUndersideWorldY": 0.6699999570846558,
+    "deskStripTopWorldY": 0.6694999933242798,
+    "deskTopContactGapMetres": 0.0004999637603759766
+  },
+  "webValidation": "Still running when this index is written; no browser pass claimed here.",
+  "userVisualConfirmation": "Pending user"
+}

@@ -1,0 +1,86 @@
+{
+  "basis": "Exact zero cross-product in final GLB float POSITION. Candidate direct index removal with all retained position/normal/UV tuples unchanged; compaction is only unreferenced vertex removal. This is not a performed cleanup or Blender/visual regression result. GLB JSON offsets/padding and compression savings not included.",
+  "families": [
+    {
+      "family": "hogwarts",
+      "meshes": [
+        {
+          "mesh": "Cube.002",
+          "zeroTriangles": 602,
+          "unreferencedVerticesAfterIndexFiltering": 60,
+          "indexBytesRemoved": 3612,
+          "attributeBytesRemovedByCompaction": 1920,
+          "totalRawBytesRemoved": 5532
+        }
+      ],
+      "zeroTriangles": 602,
+      "rawBytesRemovable": 5532
+    },
+    {
+      "family": "bridge",
+      "meshes": [
+        {
+          "mesh": "Cube",
+          "zeroTriangles": 128,
+          "unreferencedVerticesAfterIndexFiltering": 40,
+          "indexBytesRemoved": 768,
+          "attributeBytesRemovedByCompaction": 1280,
+          "totalRawBytesRemoved": 2048
+        }
+      ],
+      "zeroTriangles": 128,
+      "rawBytesRemovable": 2048
+    },
+    {
+      "family": "plants",
+      "meshes": [
+        {
+          "mesh": "VIS_PlantCabinetCrown_Geometry",
+          "zeroTriangles": 108,
+          "unreferencedVerticesAfterIndexFiltering": 162,
+          "indexBytesRemoved": 648,
+          "attributeBytesRemovedByCompaction": 5184,
+          "totalRawBytesRemoved": 5832
+        },
+        {
+          "mesh": "VIS_PlantCoffeeTableCrown_Geometry",
+          "zeroTriangles": 108,
+          "unreferencedVerticesAfterIndexFiltering": 162,
+          "indexBytesRemoved": 648,
+          "attributeBytesRemovedByCompaction": 5184,
+          "totalRawBytesRemoved": 5832
+        },
+        {
+          "mesh": "VIS_PlantDeskCrown_Geometry",
+          "zeroTriangles": 108,
+          "unreferencedVerticesAfterIndexFiltering": 162,
+          "indexBytesRemoved": 648,
+          "attributeBytesRemovedByCompaction": 5184,
+          "totalRawBytesRemoved": 5832
+        },
+        {
+          "mesh": "VIS_PlantSofaCrown_Geometry",
+          "zeroTriangles": 156,
+          "unreferencedVerticesAfterIndexFiltering": 234,
+          "indexBytesRemoved": 936,
+          "attributeBytesRemovedByCompaction": 7488,
+          "totalRawBytesRemoved": 8424
+        },
+        {
+          "mesh": "VIS_PlantWindowCrown_Geometry",
+          "zeroTriangles": 156,
+          "unreferencedVerticesAfterIndexFiltering": 234,
+          "indexBytesRemoved": 936,
+          "attributeBytesRemovedByCompaction": 7488,
+          "totalRawBytesRemoved": 8424
+        }
+      ],
+      "zeroTriangles": 636,
+      "rawBytesRemovable": 34344
+    }
+  ],
+  "totals": {
+    "zeroAreaTriangles": 1366,
+    "potentialRawIndexAndAttributeBytes": 41924
+  }
+}

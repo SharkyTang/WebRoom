@@ -1,4 +1,6 @@
-# Sharky's Room — 资产生产与接入指南（v0.5 / v0.6A）
+# Sharky's Room — 资产生产与接入指南（v0.5 / v0.6A/B/C）
+
+**当前说明（2026-09-18）：** 旧三件、A16、B8 已完成，C13 已制作并接入；当前全局技术结论见 [C 交付报告](V06C_COLLECTION_DECOR_REPORT.md) 与 [本轮验证索引](validation/v06c/verification-summary.json)，用户视觉确认仍待完成。第 1–7 节保留 v0.5/A 历史正文，其中“本批”“本文不启动 B/C”、不制作正式狗及恢复 v0.5 等描述仅指当时阶段。当前 C 接续已完成 B，回退点使用 `validation/v06c/snapshot.json`；C 增量见本文末节，当前复验命令见 [README](README.md)。复验输出须使用新目录，不覆盖历史 A/B 证据，也不将旧回退目标当作当前恢复目标。
 
 v0.5 在 v0.4.1 工程中接入 Monitor、MacBook、Marshall，v0.6A 沿用同一装配流程新增房间与主要家具。冻结房间负责空间、语义锚点、相机和机械运动；独立 GLB 只提供锚点局部坐标内的视觉部件。以下保留三件设备的工作流，A 批增量见第 7 节；本文不启动 B/C。
 
@@ -142,3 +144,16 @@ ROOM_TEST_PRODUCTION=1 npm run test:furniture
 有 fallback 页脚时会改变 contain 尺寸，必须等 Canvas/父容器/绘图缓冲稳定后再保存真实像素；共享测试 helper 位于 `tests/helpers/browserReady.mjs`。启动停帧检查先等有界稳定期，再测原有固定窗口，不能把尚未完成的首帧编译/布局过程当成永久绘帧。装配器对已登记 VIS 不透明网格按唯一名称固定绘制顺序，避免异步材质 ID 影响接触边缘；原源网格、透明排序和深度测试保留，卸载恢复 VIS 原值。像素验收仍用默认 AA、全画布 PNG/RGBA 严格相等，不更改相机或材质来适配测试。
 
 回退前先另存当前工作，不覆盖用户的暂存区。开工快照、哈希和恢复说明见 `V06_ASSET_STATUS.md` 与本批报告；通过将快照解压到新的独立目录可比较或恢复 v0.5，不需要 `reset --hard`。完成 A 后等待用户视觉确认，下一批只在明确授权后复用此流程。
+
+
+## v0.6C 增量说明（2026-09-18）
+
+C 仅扩展现有流程，13 个逻辑家族、20 个 identity 根，`decorFamilies` 明确列举。`build-collection-decor.mjs` / `build_collection_decor.py` 生产 C，灯具/墙画造型从 `v06c_fixture_geometry.py` 注册；`.blend` 和 GLB 不含灯源、相机或动画。全部 C 网格有 UV、法线、标准 PBR；独立屏幕/灯面不跨家族合批。精确规格与来源见 `assets-source/v06c/`。
+
+同一原锚点现在允许家具和无旧 proxy 的装饰并存：默认 proxy 搜集会排除已带 `roomAssetFamily` 的正式可视子节点，避免后到的 A 茶几误隐藏 C 可乐。杯子与桌/柜灯带明确 `proxyMeshNames: []`；狗只指定旧身体 mesh，不隐藏 A 狗窝。`collection-decor-order.test.ts` 检查全部相关安装/卸载顺序、材质与资源所有权。此扩展不改变原父级、布局、屏幕状态、九项映射或钢琴入口。
+
+`retiredPlaceholderMeshes` 仅允许明确登记、属于冻结源的 DSP mesh。白城家族暂挂原 Architecture 格；同时可逆抑制两处未分配泛称 Medium/Small 灰盒，身份/变换保留，撤销或失败时完整恢复。它不表示这些空格曾是已完成收藏；具体理由见格位表。
+
+`fixtureRegistry.ts` 只保存静态身份/候选映射。四个表面分别列入 manifest 的 requiredNodes/requiredDescendants，材质独立、emissive 为黑；`stateSurface:null`、`surfaceRole:none`。没有新增 binder、light、总开关语义或组状态。Lounge 保留未分配，后续决定不在 C 实施。
+
+无旧 proxy 的资产加载失败时，整家族缺席并使用已有显式失败提示/刷新重试；不能把“茶几还在”计作“杯子 installed”。C 全家无图片，因此没有新增坏图路径，GLB 404、缺节点、取消/重试与恢复有独立证据；旧三件/A 的坏图断言保留。最终验收见 `V06C_COLLECTION_DECOR_REPORT.md`。

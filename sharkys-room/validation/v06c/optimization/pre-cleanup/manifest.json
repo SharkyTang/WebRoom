@@ -1,0 +1,66 @@
+{
+  "createdAt": "2026-09-18T12:46:26.629907+00:00",
+  "reason": "Non-overwriting C snapshot before strict zero-area triangle cleanup; A/B untouched",
+  "files": {
+    "scripts/assets/build_collection_decor.py": {
+      "bytes": 27226,
+      "sha256": "21631fa009413268e7f55ecb953809184ebbf5ef7d95d759e2952e83b4c3c0c5"
+    },
+    "validation/v06c/final/asset-budget-ledger.json": {
+      "bytes": 124914,
+      "sha256": "b10bf56c99a4c01ad233703bf9ac6c5f736665efed30ca7a4c9747cf250edd87"
+    },
+    "validation/v06c/performance/performance.json": {
+      "bytes": 860511,
+      "sha256": "969197a309f5c6288fc16179e7edea3bbd11d7a7c2a31c60d223dc34f570713c"
+    },
+    "blender-assets/hogwarts_v06c.blend": {
+      "bytes": 147981,
+      "sha256": "f5462e2306a7bbfb903d8aee45b7111211e0b6f4c2219f4c2acaedfe81edb48e"
+    },
+    "public/models/production/hogwarts_v06c.glb": {
+      "bytes": 140328,
+      "sha256": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb"
+    },
+    "assets-source/v06c/hogwarts/asset-statistics.json": {
+      "bytes": 2693,
+      "sha256": "be236517805d5ff2b97a4917df0389201705ba88c870466fc387153ec5d6c5aa"
+    },
+    "assets-source/v06c/hogwarts/ASSET_SPEC.md": {
+      "bytes": 5548,
+      "sha256": "b8a6155e601942187d43cb1aa0de1e70c8bd3961103f97cfb32555dcfbae2f06"
+    },
+    "blender-assets/bridge_v06c.blend": {
+      "bytes": 148511,
+      "sha256": "51cea82e8b3441a1676756c528f5f9e9959c4de62a9976fa54ea61d37af45bd2"
+    },
+    "public/models/production/bridge_v06c.glb": {
+      "bytes": 299584,
+      "sha256": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2"
+    },
+    "assets-source/v06c/bridge/asset-statistics.json": {
+      "bytes": 2715,
+      "sha256": "ccd1702f7dff259c46a0ddeb2d3e1dfbaf00da1f8e72c03832af900900b82f2e"
+    },
+    "assets-source/v06c/bridge/ASSET_SPEC.md": {
+      "bytes": 5514,
+      "sha256": "7c9a13fc37445981d5bcaad315c67f85a2d6a3f0fbb536194db123c67e8187dd"
+    },
+    "blender-assets/plants_v06c.blend": {
+      "bytes": 167118,
+      "sha256": "7243005f4cd61984d7f0a76a520df2d35c873557964bd8b97d7d00375715cd30"
+    },
+    "public/models/production/plants_v06c.glb": {
+      "bytes": 454248,
+      "sha256": "41f517b3c98e013c58afcb11552e42c86be967d392b20c17cc1ef3e024a9b4d4"
+    },
+    "assets-source/v06c/plants/asset-statistics.json": {
+      "bytes": 7011,
+      "sha256": "d3f1f3262227300ae427c4ad309dee89bb22d1e3b0de6d99e259dcd4aa2bfa0d"
+    },
+    "assets-source/v06c/plants/ASSET_SPEC.md": {
+      "bytes": 6744,
+      "sha256": "8e2c8e8277891132fe833382432c82c5f25cecb5c9142a25edf08775e19b7481"
+    }
+  }
+}

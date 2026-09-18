@@ -1,0 +1,43 @@
+{
+  "recordedAt": "2026-09-18T12:44:07.744183+00:00",
+  "productionInputs": 84,
+  "changedSinceFreshProductionBuild": [],
+  "media": [
+    {
+      "file": "production/v06c-all-interaction.mp4",
+      "sha256": "1e703b5cc3d5134d694cab825d0ab098333a5ecd059dbb07c76bb50e587cd922",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 900,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "45.360000",
+        "size": "9945543"
+      }
+    },
+    {
+      "file": "piano-short-final/v06c-piano-underdesk-reopen.mp4",
+      "sha256": "abcd741f34a6a513dd6d5ba39ecba8d2316978427cc1457acd33fb37a02cbc30",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 900,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "15.000000",
+        "size": "2359545"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3929 @@
+{
+  "generatedAt": "2026-09-18T12:48:12.383Z",
+  "method": "Actual GLB. Ignore strictly zero POSITION cross product only; hash all retained triangle attribute tuples, preserving winding, material, node paths and transforms. Triangle order and cyclic corner rotations may differ. Exact binary float equality, no normal rounding tolerance or area epsilon; any mismatch requires explicit review.",
+  "families": [
+    {
+      "family": "eiffel",
+      "file": "public/models/production/eiffel_v06c.glb",
+      "glbSHA256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+      "bytes": 364112,
+      "nodeTransforms": [
+        {
+          "path": "VIS_Eiffel",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Eiffel/VIS_Eiffel_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Eiffel/VIS_Eiffel_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Eiffel/VIS_EiffelPlinth",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_Eiffel/VIS_Eiffel_Material_0#0",
+          "materialName": "MAT_V06C_Eiffel_WarmSteel",
+          "materialSignature": "50e4e3bc14c7774e931b0d8c09a11490f6ddd498b2f188f45c67070cf356bd10",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 5644,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 5644,
+          "retainedTriangleAttributeMultisetSHA256": "bdd9b43153d0279d268fe401738556d6dce5b10b23f45ed13538ecd5f78d048a",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "c675e1e91fe6404ec921edb5fe9c15732bbf110d67b871d67fccd93ab05f0fe3",
+            "POSITION": "b947bf10d776fe3f41dbbbed7965e2e1b9e729a6c31a5712f482b4427ef70b4a",
+            "TEXCOORD_0": "8cd338624aba0fe7500aa8a1556e1e8c555ceb954436f094854377464c751127"
+          }
+        },
+        {
+          "key": "VIS_Eiffel/VIS_Eiffel_Material_1#0",
+          "materialName": "MAT_V06C_Eiffel_Decks",
+          "materialSignature": "e4b2b0b951d662dbe3ef6be2a798634dbe13e7545fd627a36d008001aed647df",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 308,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 308,
+          "retainedTriangleAttributeMultisetSHA256": "0af0fd20b70820d27a5d57dde02c44ef64c709d0f1ab6f0da1a8a92f5149a100",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "e7bdb0654e75ecbfbb603c3f2b10a80f3f62482429844177550b0c495d89a2a9",
+            "POSITION": "44e178969c6b4d8740f6b53c5e0a657d9f5943e0b30473586cf96c2b9386df94",
+            "TEXCOORD_0": "c36f3e38b655ccbd03e258939219cf6a97ccdf6e099b303133b0effe21e9eb13"
+          }
+        },
+        {
+          "key": "VIS_Eiffel/VIS_EiffelPlinth#0",
+          "materialName": "MAT_V06C_Eiffel_DisplayPlinth",
+          "materialSignature": "4baa19d16caa76b668a7be521951509a1de7bb6e5ff7e240862ebba1a8fe4289",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 44,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 44,
+          "retainedTriangleAttributeMultisetSHA256": "67523d229198a67ef62cb05e704f06bab16dc7a9d874828f9cf675c1215c88c8",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "a1cbef347a0d850dbcdc72add339e81b8798607f4da32e41b7c542afa9f2c8a8",
+            "POSITION": "d43023eac573010f4749077a625e00c128aa79739a92d9978692f0fe3d0cc0f5",
+            "TEXCOORD_0": "dcb1f829df32770a04a2a3cb9255f713c25b3c7a320de4db426d659568a923c0"
+          }
+        }
+      ],
+      "retainedTriangles": 5996,
+      "exactDegenerateTriangles": 0
+    },
+    {
+      "family": "hogwarts",
+      "file": "public/models/production/hogwarts_v06c.glb",
+      "glbSHA256": "5c96c54aa6c846fde9140f62cc3ea5c9676182a6c30f14aa8886ae381e28bdeb",
+      "bytes": 140328,
+      "nodeTransforms": [
+        {
+          "path": "VIS_Hogwarts",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Hogwarts/VIS_Hogwarts_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Hogwarts/VIS_Hogwarts_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Hogwarts/VIS_Hogwarts_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Hogwarts/VIS_HogwartsPlinth",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_Hogwarts/VIS_Hogwarts_Material_0#0",
+          "materialName": "MAT_V06C_Hogwarts_SlateRoofs",
+          "materialSignature": "1eb9bc325ed7c594728e098f94ebde0775f19bf23bebaeadab01776c6b4ccee7",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 392,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 392,
+          "retainedTriangleAttributeMultisetSHA256": "ae0e4cc06c0c9c2e4a6304f5db6ca221d95e099eb264740405b4ae06904c528d",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "9e0ed980dadd2d06fac33e384b0794ddbd20a5279e33b8e61b62ebb96c1ef99e",
+            "POSITION": "bc783da012d777ae75534cb726d710f53ad467996008fbc6ccc7fd8d0ad612a4",
+            "TEXCOORD_0": "0027c3e5d4ceef55ac5935517da208621900492b70bb6b022ea5f8cb2f5fc0c1"
+          }
+        },
+        {
+          "key": "VIS_Hogwarts/VIS_Hogwarts_Material_1#0",
+          "materialName": "MAT_V06C_Hogwarts_Limestone",
+          "materialSignature": "bba817260f36de2508138717e3051d30c9f0521364f72bcfa0b801b9088e4638",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 644,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 644,
+          "retainedTriangleAttributeMultisetSHA256": "8322f27dd810bb0d0dbfb4e791cfe6f8781a69c1d73d23885b857ce3d550ef1a",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "0d444790e9c0035b9938e4ae5b6376c05d2baa5a10cdbb2fcc5a4e103ac494a6",
+            "POSITION": "88181acb93309d412c65837f2529fd9f1a6bc31987d814fc1735631a232564e7",
+            "TEXCOORD_0": "fc9899999e7fd22f085223af0db03f14fd0f6857ceb3fc24c0fcc672c17f968e"
+          }
+        },
+        {
+          "key": "VIS_Hogwarts/VIS_Hogwarts_Material_2#0",
+          "materialName": "MAT_V06C_Hogwarts_Recesses",
+          "materialSignature": "be9ae28f79f3369b40796a96cdeced6377e2c554b3a6ab0498d84ca09ceccd35",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 2472,
+          "exactDegenerateTriangles": 602,
+          "retainedTriangles": 1870,
+          "retainedTriangleAttributeMultisetSHA256": "b0435b33d672b7aa1238dcf69ff57953a0af4a311217227668f723f61834042d",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "989e04b267b7ae293d65989ddf349210a5a98dc1cae2e72469f5ed61f5ae2e90",
+            "POSITION": "bce0414707cb154df76c975c080f340ee7dfd56010f563baa9b0be3eb15e6325",
+            "TEXCOORD_0": "20bd03c247f4bb9ea518da355dfe17d0b6a53ef36259e740b216e7a48d9ed924"
+          }
+        },
+        {
+          "key": "VIS_Hogwarts/VIS_HogwartsPlinth#0",
+          "materialName": "MAT_V06C_Hogwarts_DisplayPlinth",
+          "materialSignature": "d4f0aaa6419c8e9a1904d6fa566e59bc1a88bfa63fac104592c67914fc7a4ff5",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 44,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 44,
+          "retainedTriangleAttributeMultisetSHA256": "805b9afaaccd1fc51285b2aaf73480c7937c7feb3afeb373d439174ae48e6b1c",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "b836438e1ab5b4e48b8a739ed0c5c158befbaf679029cb39b7eb2d1e90a94a3f",
+            "POSITION": "8a74c5d343d0a3dc8bbc05cc661d5cd170a830978e55a700c2606dfb265861e6",
+            "TEXCOORD_0": "8cd530a5ae7c3a806fadaaf03e7cfb1915a51751f1758651780faa692300c1e0"
+          }
+        }
+      ],
+      "retainedTriangles": 2950,
+      "exactDegenerateTriangles": 602
+    },
+    {
+      "family": "minastirith",
+      "file": "public/models/production/minastirith_v06c.glb",
+      "glbSHA256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+      "bytes": 307428,
+      "nodeTransforms": [
+        {
+          "path": "VIS_MinasTirith",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_MinasTirith/VIS_MinasTirith_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_MinasTirith/VIS_MinasTirith_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_MinasTirith/VIS_MinasTirith_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_MinasTirith/VIS_MinasTirithPlinth",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_MinasTirith/VIS_MinasTirith_Material_0#0",
+          "materialName": "MAT_V06C_MinasTirith_IvoryStone",
+          "materialSignature": "95bbbbac84004be377f9cc0bb19f84122e4bfd63635a4460419c962a5ccd7c01",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 4204,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 4204,
+          "retainedTriangleAttributeMultisetSHA256": "cb90e8fd4a6daf7d60b8f7d5a8efb20f766889dabc0770922f523b280120b5dc",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "68ade2985a6ba3967de7221caad9c69d7dc3b4cd21daad4d4b71949349bd5d07",
+            "POSITION": "411b948c15446fc7ed5a917e6653cbedb2260b3992fac2c34559780743956359",
+            "TEXCOORD_0": "fd67977682c64ca016e4a52c49935f40c2bd778d47d2ac347c8a747d25b60f23"
+          }
+        },
+        {
+          "key": "VIS_MinasTirith/VIS_MinasTirith_Material_1#0",
+          "materialName": "MAT_V06C_MinasTirith_SilverRoofs",
+          "materialSignature": "39a9ee929a540aa73d795c4451494985ea9105e478764f5b0801a31085779ec9",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 324,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 324,
+          "retainedTriangleAttributeMultisetSHA256": "627393a5630f3c3cfd410bae5291a27d1c2fac53a52b158acf58c7835f279c1d",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "63ac1ddd572ffeb762725726bd30219b96f908b9ce56cf663b8826343d071186",
+            "POSITION": "603a10a02a6470ec1eefc6294ca22a5550f17df6181e0f51b6ef0175eeede903",
+            "TEXCOORD_0": "7aac48e19aefb37a6579e7903cb88d001b5412b819cc69f1611f52ab80d7dc3f"
+          }
+        },
+        {
+          "key": "VIS_MinasTirith/VIS_MinasTirith_Material_2#0",
+          "materialName": "MAT_V06C_MinasTirith_Cliff",
+          "materialSignature": "a1df5f928715a5eee93626ae07440aa0032bda342dc41ba8b981c270369a0c4c",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 708,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 708,
+          "retainedTriangleAttributeMultisetSHA256": "9a9e10ef7af3a65a885dbfac5a637f40ab31568ef9534ecda393b2fa236e04e6",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "dad9cf63786e21861590d19afa171bb90f1d89e6ac3c242dd76a1a03c2e261fb",
+            "POSITION": "43bd4ea1b04d405fd68f61e6d248df0197ed817a0cbcf2b5efb5effd2cb0f472",
+            "TEXCOORD_0": "e6bcaf6a06ee9752871d064f3da31e999eee39c2947e313fc555edb475a88e54"
+          }
+        },
+        {
+          "key": "VIS_MinasTirith/VIS_MinasTirithPlinth#0",
+          "materialName": "MAT_V06C_MinasTirith_DisplayPlinth",
+          "materialSignature": "0119e9ec8e9788f6a29d2d8ce99359d57273c03e6ae6e05de540e9052118143d",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 44,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 44,
+          "retainedTriangleAttributeMultisetSHA256": "06f52fce262e9278494efa883239f6c31828421b77378c272fda12a516a57c1c",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "06fceb5968bbc42c87ae259291511c05e22dde4ff1fcbd546294b5e0ed8ea62c",
+            "POSITION": "849dee6269f1316053497e55fce05b38ae8f6865ab1f605669b0b85c16323f47",
+            "TEXCOORD_0": "6d2a9d8bf2ef1aefea896bd6387a55cd3cef4daa41b3d368484afbde86f62177"
+          }
+        }
+      ],
+      "retainedTriangles": 5280,
+      "exactDegenerateTriangles": 0
+    },
+    {
+      "family": "falcon",
+      "file": "public/models/production/falcon_v06c.glb",
+      "glbSHA256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+      "bytes": 113052,
+      "nodeTransforms": [
+        {
+          "path": "VIS_Falcon",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Falcon/VIS_Falcon_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Falcon/VIS_Falcon_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Falcon/VIS_Falcon_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Falcon/VIS_FalconPlinth",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_Falcon/VIS_Falcon_Material_0#0",
+          "materialName": "MAT_V06C_Falcon_RedPanels",
+          "materialSignature": "0260647e78f7056a17cac0347c4b58986e6c54d09ced2920e4f2d74421702ef3",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 272,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 272,
+          "retainedTriangleAttributeMultisetSHA256": "2ce3b052179eeec150ff145db79b3209ff4218bd87bf39889e077f3d30e2dfc1",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "f60594cbd5ae93da7b5977b096cfb5685b2406b9375d3cebf8ca2422db9602a6",
+            "POSITION": "7e1e83946117310ae35884d3f2d44ac83cb3f49efd81e9edf4d02ba108e34e7d",
+            "TEXCOORD_0": "8c8bf2846a05e31b2663a31b06c8d91d974f51fdb30e54033bd4c81fa3abed47"
+          }
+        },
+        {
+          "key": "VIS_Falcon/VIS_Falcon_Material_1#0",
+          "materialName": "MAT_V06C_Falcon_Recesses",
+          "materialSignature": "858157cdaec29c1f51da509587a41ebb14558366028ca097048195f484b6b025",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 916,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 916,
+          "retainedTriangleAttributeMultisetSHA256": "a95b200f3cefa25d14a2b119fb97a9fb23fc04f7b7306ed7ba2dbfd6649d66a4",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "58ed03bdb7df716a21625f487787bc0984cbe93814a66dd0b10612ff694fcb32",
+            "POSITION": "739c86434c715e6b5bf0e1fcac58749869ed19918c96883a9b6962f017ec7949",
+            "TEXCOORD_0": "ce0befec463f98bc36f49da5ffbcf56ba2f7766088b283041c49c17f33959aab"
+          }
+        },
+        {
+          "key": "VIS_Falcon/VIS_Falcon_Material_2#0",
+          "materialName": "MAT_V06C_Falcon_AlloyPanels",
+          "materialSignature": "b617017486392dede6c4ff1f1770ce42f103360d62a056f2817c5724f26ace92",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 684,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 684,
+          "retainedTriangleAttributeMultisetSHA256": "ae1a85da5fe50683b53143afbaea3038796f76e91f8b7c38a1aa6f52e322aa86",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "90ddb9d8f1fdf7102727fa4e6873d969a67d7156f58e1ebb2441209be157f766",
+            "POSITION": "ed0d0469e534274ec610c74d6135986faa37c395e4d37af1acfed9c8a1b160b7",
+            "TEXCOORD_0": "6fc7e7e4d999a06c4e42eee06f8e933c3bcbc387a4ef1d356bd50402de4e39ea"
+          }
+        },
+        {
+          "key": "VIS_Falcon/VIS_FalconPlinth#0",
+          "materialName": "MAT_V06C_Falcon_DisplayPlinth",
+          "materialSignature": "86f8696f938533ccbb70875ffc035a1558f185a2a5236941cd92e8611af64761",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 44,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 44,
+          "retainedTriangleAttributeMultisetSHA256": "11aa3fee7fde2a405d2f1e230f7414f941be701bdfdca472abf40dc6e2d06554",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "846351f82e668064ef0f81645519d3f1f9f06ad97d2d12b27eb9662e66cec040",
+            "POSITION": "d4498c7c99ab61225d879ffddeef0065fdccfb14242f13bb5f0ecdf7449a04b3",
+            "TEXCOORD_0": "ab0a4e5800e5bbe3c2111e62822899ef079d1b096f0a28d0c26866312668db94"
+          }
+        }
+      ],
+      "retainedTriangles": 1916,
+      "exactDegenerateTriangles": 0
+    },
+    {
+      "family": "bridge",
+      "file": "public/models/production/bridge_v06c.glb",
+      "glbSHA256": "5aad229f02915518229d3ee2a678957e94b0e6df699a16aa2c7af254237b55a2",
+      "bytes": 299584,
+      "nodeTransforms": [
+        {
+          "path": "VIS_TowerBridge",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_TowerBridge/VIS_TowerBridge_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_TowerBridge/VIS_TowerBridge_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_TowerBridge/VIS_TowerBridge_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_TowerBridge/VIS_TowerBridgePlinth",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_TowerBridge/VIS_TowerBridge_Material_0#0",
+          "materialName": "MAT_V06C_TowerBridge_BlueSteel",
+          "materialSignature": "695877bc31315c884102953587858fa8dab897e2d9f1184c484a18b374800775",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 3980,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 3980,
+          "retainedTriangleAttributeMultisetSHA256": "acf5e8ae5e9a355e20d7b1ce7ab451ef4381162f7265dbbd62d2042216b725d6",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "6f254d1792f547619ac9ab56f537497536a3df584bff7cbf4f2f795cfd87d4fe",
+            "POSITION": "d5058811bbbb00ea2db90c77cf5b726b747965ff8cdf2aeb09b040cccd20ef47",
+            "TEXCOORD_0": "a5220a929c60a59eb84f7ac826002fb224c758b0e2eb3f3e78fb3df465e801e2"
+          }
+        },
+        {
+          "key": "VIS_TowerBridge/VIS_TowerBridge_Material_1#0",
+          "materialName": "MAT_V06C_TowerBridge_Deck",
+          "materialSignature": "cc2fa35de8308743947963d8bc1b43596ab00c2126e781761fef8aa523f7b054",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 440,
+          "exactDegenerateTriangles": 128,
+          "retainedTriangles": 312,
+          "retainedTriangleAttributeMultisetSHA256": "b2dbb3c62cbce070ca3f7a63302f01beb3cbc1f237cb3463b541c022b5c37ebd",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "8d32bc47a04435456bc8a35bc31f4c9a0d146fe0b178c6bea6fd0099a517e70d",
+            "POSITION": "ad524ae64c5e119ee44b9c1fbc27b306838cbc5aa5900304fb80804315750b87",
+            "TEXCOORD_0": "ad8ce9db106de154af96edc078721431ea667dd53a0c6f5cbc239fdda1c88111"
+          }
+        },
+        {
+          "key": "VIS_TowerBridge/VIS_TowerBridge_Material_2#0",
+          "materialName": "MAT_V06C_TowerBridge_Stone",
+          "materialSignature": "be9fb2272f6bc38392cddc3f97f397dbd4b68ff4592954f68fefe3058f44b195",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 552,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 552,
+          "retainedTriangleAttributeMultisetSHA256": "f9ec07da7800e1e47c51a9a5a0ca13f52370c7def9e0bdf25cc4a843e13b3697",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "7ddbe2b7466af5c97b62a49b3d1a30a16996dd177a859cd31618fba84de4386f",
+            "POSITION": "c4fab7c1fdaea0908290a31d5ed2a628cd6659e7aed7cdd9a9795d714063b73d",
+            "TEXCOORD_0": "db7081e67f7c4b36bb3a8bdcc82434b0596ef958aeba2c458ee57336c833b8b6"
+          }
+        },
+        {
+          "key": "VIS_TowerBridge/VIS_TowerBridgePlinth#0",
+          "materialName": "MAT_V06C_TowerBridge_DisplayPlinth",
+          "materialSignature": "f9a0df2536da5ffe0f42b5cd6fc99e53953dfacc3cad5849451f7628eb325298",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 44,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 44,
+          "retainedTriangleAttributeMultisetSHA256": "e87a897a7a1289375453bc1ae5572354f68c28022ae2f635b83cf56318469a16",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "01311c875c75d17e0b2222a2c5ba4b1b88835e8479ac65aa18912e0048f0fe4d",
+            "POSITION": "ef64963299d3018c5596a17ea833c7c002a2a739374a8f74c045a1a0ea5d68b1",
+            "TEXCOORD_0": "2e7588eccc2d73339aaa270635fc685df198d6374376b5fa89e8c9888b5f586a"
+          }
+        }
+      ],
+      "retainedTriangles": 4888,
+      "exactDegenerateTriangles": 128
+    },
+    {
+      "family": "sls",
+      "file": "public/models/production/sls_v06c.glb",
+      "glbSHA256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+      "bytes": 128244,
+      "nodeTransforms": [
+        {
+          "path": "VIS_SLS",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_SLS/VIS_SLS_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_SLS/VIS_SLS_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_SLS/VIS_SLS_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_SLS/VIS_SLSPlinth",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_SLS/VIS_SLS_Material_0#0",
+          "materialName": "MAT_V06C_SLS_WhiteStages",
+          "materialSignature": "02b912ecdbebe105c339eb1dbe74a737834b99acec74a9dd6165668ab45d12bc",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 716,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 716,
+          "retainedTriangleAttributeMultisetSHA256": "edb6e78baa32158c86f548aa60b2fcbe96e61379688b6d7637c470d6f1df214f",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "7430129193edc2a113ae9ab37bbce31d4035c2a659bfdcf89b149986e6c51b3b",
+            "POSITION": "28ce36a57512d6aec829f8b464511acc1e877267ed8c3eb79eeb5e77d13a29ec",
+            "TEXCOORD_0": "527a6b7e8a67253380a61db5f9e4bac1c0143d6c0d42b95fb24fabb5ad3f2a95"
+          }
+        },
+        {
+          "key": "VIS_SLS/VIS_SLS_Material_1#0",
+          "materialName": "MAT_V06C_SLS_InterstageAndEngines",
+          "materialSignature": "d5000f364c7d49a20dfcbe5424fbf535feb8a1586340492f4f285d3f729c2087",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 1324,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 1324,
+          "retainedTriangleAttributeMultisetSHA256": "1d2dfb90558199e7285402c65f9a94eda3ead36d16ba59863bd1ecd7daec42f9",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "3eb3056b6b9d0021b22310066b622044267cf27967d3c88ed0c18248a68cc243",
+            "POSITION": "38b40a144dab02f7a342b08ccab3846917b87e41a8f32173a572e5e50dd96732",
+            "TEXCOORD_0": "a42bb17a39bdf77e94373d566bf7acb45060552ef022c0e457f0d7f05dc9da41"
+          }
+        },
+        {
+          "key": "VIS_SLS/VIS_SLS_Material_2#0",
+          "materialName": "MAT_V06C_SLS_CoreOrange",
+          "materialSignature": "e07146d0a947732d866b584afc2181fa9810d0df84ccf1177c413e7e162c7ef9",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 92,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 92,
+          "retainedTriangleAttributeMultisetSHA256": "cd705e9a106c264f78fc9cc0a5d62e686b7a863d0969722f431d4d5e202ce34a",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "13845a365da7c379d6e6f0745151091993cb53acdffc0623c4ea9e879c843faf",
+            "POSITION": "5e3084f9517492f798133abcf643f0c330b179877f63060077ddb257fc7eac46",
+            "TEXCOORD_0": "87c13b37eac8b0105143c73c56351c3bafbc6a0c0d58b4751630f4607932f9a1"
+          }
+        },
+        {
+          "key": "VIS_SLS/VIS_SLSPlinth#0",
+          "materialName": "MAT_V06C_SLS_DisplayPlinth",
+          "materialSignature": "75f78b595fb936a44be62f3cdf8dd1e3fc9c9c566e6d04a4a543a340eda0b5e3",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 44,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 44,
+          "retainedTriangleAttributeMultisetSHA256": "e339666749e62476dd316f84e23bf2b75b56522bea3b364d1e030491c1ce8620",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "dcfa6a1e8a32bc2d08d8ab58adbe71d2ad75b4398eb06a1e157d5c2880451bd1",
+            "POSITION": "6376cb81c3d248223c3b13c3ce0f9dd37cb5d0b8689c7d37e9ce5a397b8d9b81",
+            "TEXCOORD_0": "a7b9158e312ffcfc76dad9f933f481601a8983f1097ee5328230e58d80c27eed"
+          }
+        }
+      ],
+      "retainedTriangles": 2176,
+      "exactDegenerateTriangles": 0
+    },
+    {
+      "family": "ferrari",
+      "file": "public/models/production/ferrari_v06c.glb",
+      "glbSHA256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+      "bytes": 119244,
+      "nodeTransforms": [
+        {
+          "path": "VIS_Ferrari",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Ferrari/VIS_Ferrari_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Ferrari/VIS_Ferrari_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Ferrari/VIS_Ferrari_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Ferrari/VIS_FerrariPlinth",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_Ferrari/VIS_Ferrari_Material_0#0",
+          "materialName": "MAT_V06C_Ferrari_Body",
+          "materialSignature": "57b0df48f8d66e1f0a7214cadb777daefa123b860c68b8fee65fe41c9d0d7a7e",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 512,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 512,
+          "retainedTriangleAttributeMultisetSHA256": "2c02f205836cd94659d35ccbab3b70eb11aa32bceedb54803b5722cff2b68d3c",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "4331a2172be10ff74172a1d14e0241307e2159a2c792cbce95eb3427ea8a5434",
+            "POSITION": "2689dec80b7b30467a9dfc488f85ec79e000576910b6ad1a99e948873e90e68e",
+            "TEXCOORD_0": "da19535c5e215b11e341c00590a35ae2b34cceb59a279e3b0c0cbd32e88ede58"
+          }
+        },
+        {
+          "key": "VIS_Ferrari/VIS_Ferrari_Material_1#0",
+          "materialName": "MAT_V06C_Ferrari_TyresCockpit",
+          "materialSignature": "970c0620b85b22cac7f2ad093f577ade8651470593264a59d4fad7fe12f72868",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 1040,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 1040,
+          "retainedTriangleAttributeMultisetSHA256": "8faf87e4b8802b34e35f0217c9e5960d0e052144ec2888ea84f0704b5484a44b",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "513a1a3b73a818801a0255f426e31b8ee559b98550ac0baa3eb7ae7f312ecc24",
+            "POSITION": "96cdb70fce3f21316748c41adf29d58a44cf8e154a2d3fb6ab5ddb9f3943ef2e",
+            "TEXCOORD_0": "55d1cf3cdb996ed05af3b05f90b1d031799f8e0174f316594e5a02f0ac507076"
+          }
+        },
+        {
+          "key": "VIS_Ferrari/VIS_Ferrari_Material_2#0",
+          "materialName": "MAT_V06C_Ferrari_Accent",
+          "materialSignature": "e9f06a729581905e3e6dbeaecadaa051b18f24fdb8d36ea2e312e594bb65732b",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 800,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 800,
+          "retainedTriangleAttributeMultisetSHA256": "f2c135cdf9ef8b23312457cec6f0d4976f162547a922e55511df3ea8fd14587b",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "c95f5cd8cc7d27c0d06355fe28b96fdd166c3c7e856e81d5fa21b901a46cafb1",
+            "POSITION": "e9739cd8d20e0a62544c04bf8ad453a6a31c734800368a3149d85de305fdc9da",
+            "TEXCOORD_0": "29405cc99c0dfb3fa07d38a8b6411c1c72ae2bbb67b344e305fe909c2cf08161"
+          }
+        },
+        {
+          "key": "VIS_Ferrari/VIS_FerrariPlinth#0",
+          "materialName": "MAT_V06C_Ferrari_DisplayPlinth",
+          "materialSignature": "6367c62d9bad658f77628e40a2f5ff15a7a8f71a8134a1c2ea779d7d17c13a81",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 44,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 44,
+          "retainedTriangleAttributeMultisetSHA256": "7a5d1042d82b0a281c7c345ab09fd62be081480880d4a9b53936862044ebc24b",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "b8b9fbd0c0017f543a8091f45cc2e393b8d03bd06ece0423c689284f7f4e0be9",
+            "POSITION": "27e272cd349bc81fd78c6a5f1fbc17a8f07c01d7170c125dd318c4dd11f00054",
+            "TEXCOORD_0": "bff98b1682260ff2499fc50d1d2254b8eaca30647f10269d0da05d6c5e1a5884"
+          }
+        }
+      ],
+      "retainedTriangles": 2396,
+      "exactDegenerateTriangles": 0
+    },
+    {
+      "family": "mercedes",
+      "file": "public/models/production/mercedes_v06c.glb",
+      "glbSHA256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+      "bytes": 119264,
+      "nodeTransforms": [
+        {
+          "path": "VIS_Mercedes",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Mercedes/VIS_Mercedes_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Mercedes/VIS_Mercedes_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Mercedes/VIS_Mercedes_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Mercedes/VIS_MercedesPlinth",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_Mercedes/VIS_Mercedes_Material_0#0",
+          "materialName": "MAT_V06C_Mercedes_Body",
+          "materialSignature": "70f56092687191e6982d01ec5d14f13747a03217f4458950f13c3d18655d94b3",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 512,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 512,
+          "retainedTriangleAttributeMultisetSHA256": "2c02f205836cd94659d35ccbab3b70eb11aa32bceedb54803b5722cff2b68d3c",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "4331a2172be10ff74172a1d14e0241307e2159a2c792cbce95eb3427ea8a5434",
+            "POSITION": "2689dec80b7b30467a9dfc488f85ec79e000576910b6ad1a99e948873e90e68e",
+            "TEXCOORD_0": "da19535c5e215b11e341c00590a35ae2b34cceb59a279e3b0c0cbd32e88ede58"
+          }
+        },
+        {
+          "key": "VIS_Mercedes/VIS_Mercedes_Material_1#0",
+          "materialName": "MAT_V06C_Mercedes_TyresCockpit",
+          "materialSignature": "92f9871ce23ff55a2394b78fd8c3ce2a9e66b1f3cbf986bb3796225916f189f9",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 1040,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 1040,
+          "retainedTriangleAttributeMultisetSHA256": "8faf87e4b8802b34e35f0217c9e5960d0e052144ec2888ea84f0704b5484a44b",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "513a1a3b73a818801a0255f426e31b8ee559b98550ac0baa3eb7ae7f312ecc24",
+            "POSITION": "96cdb70fce3f21316748c41adf29d58a44cf8e154a2d3fb6ab5ddb9f3943ef2e",
+            "TEXCOORD_0": "55d1cf3cdb996ed05af3b05f90b1d031799f8e0174f316594e5a02f0ac507076"
+          }
+        },
+        {
+          "key": "VIS_Mercedes/VIS_Mercedes_Material_2#0",
+          "materialName": "MAT_V06C_Mercedes_Accent",
+          "materialSignature": "21288c6f38f1ab388990f2edbb49f83e9c545f721017de5f495534b405dbd74c",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 800,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 800,
+          "retainedTriangleAttributeMultisetSHA256": "f2c135cdf9ef8b23312457cec6f0d4976f162547a922e55511df3ea8fd14587b",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "c95f5cd8cc7d27c0d06355fe28b96fdd166c3c7e856e81d5fa21b901a46cafb1",
+            "POSITION": "e9739cd8d20e0a62544c04bf8ad453a6a31c734800368a3149d85de305fdc9da",
+            "TEXCOORD_0": "29405cc99c0dfb3fa07d38a8b6411c1c72ae2bbb67b344e305fe909c2cf08161"
+          }
+        },
+        {
+          "key": "VIS_Mercedes/VIS_MercedesPlinth#0",
+          "materialName": "MAT_V06C_Mercedes_DisplayPlinth",
+          "materialSignature": "b2c1c1cb2ddd3468ba1f7b3e42cd7d0ce2cfc918b4c433bdd9c58fe1716686d3",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 44,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 44,
+          "retainedTriangleAttributeMultisetSHA256": "7a5d1042d82b0a281c7c345ab09fd62be081480880d4a9b53936862044ebc24b",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "b8b9fbd0c0017f543a8091f45cc2e393b8d03bd06ece0423c689284f7f4e0be9",
+            "POSITION": "27e272cd349bc81fd78c6a5f1fbc17a8f07c01d7170c125dd318c4dd11f00054",
+            "TEXCOORD_0": "bff98b1682260ff2499fc50d1d2254b8eaca30647f10269d0da05d6c5e1a5884"
+          }
+        }
+      ],
+      "retainedTriangles": 2396,
+      "exactDegenerateTriangles": 0
+    },
+    {
+      "family": "plants",
+      "file": "public/models/production/plants_v06c.glb",
+      "glbSHA256": "41f517b3c98e013c58afcb11552e42c86be967d392b20c17cc1ef3e024a9b4d4",
+      "bytes": 454248,
+      "nodeTransforms": [
+        {
+          "path": "VIS_PlantCabinet",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantCabinet/VIS_PlantCabinet_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantCabinet/VIS_PlantCabinet_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantCabinet/VIS_PlantCabinet_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantCoffeeTable",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantCoffeeTable/VIS_PlantCoffeeTable_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantCoffeeTable/VIS_PlantCoffeeTable_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantCoffeeTable/VIS_PlantCoffeeTable_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantDesk",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantDesk/VIS_PlantDesk_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantDesk/VIS_PlantDesk_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantDesk/VIS_PlantDesk_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantSofa",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantSofa/VIS_PlantSofa_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantSofa/VIS_PlantSofa_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantSofa/VIS_PlantSofa_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantWindow",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantWindow/VIS_PlantWindow_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantWindow/VIS_PlantWindow_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_PlantWindow/VIS_PlantWindow_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_PlantCabinet/VIS_PlantCabinet_Material_0#0",
+          "materialName": "MAT_V06C_Plants_Leaves",
+          "materialSignature": "8c3ba7acf0e98cbd3b1a5df44c02f219567ee659203edf6b0cfae6bb38fa89d2",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 728,
+          "exactDegenerateTriangles": 108,
+          "retainedTriangles": 620,
+          "retainedTriangleAttributeMultisetSHA256": "d870ffeef1180582d146c2c362ae0a40c37109d29726b0c6d61c7d5d7543ab8f",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "0dd69b3ba18c47fbf2935d7e73acc1e6ab8e82886658b41144d23e862f229285",
+            "POSITION": "68c9e3a0078371dbbe08a918c80c2809020fa8f5e7dfb413ff0b532d63d01821",
+            "TEXCOORD_0": "a9cf47535f2ca88ad501f1f21c03fc6391e75c0cd74fb0001cf716e578628d10"
+          }
+        },
+        {
+          "key": "VIS_PlantCabinet/VIS_PlantCabinet_Material_1#0",
+          "materialName": "MAT_V06C_Plants_Ceramic",
+          "materialSignature": "216d133b7c35b4107d4ec5b78983576a50ba287dff21586cf46f9e52204b46ca",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 336,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 336,
+          "retainedTriangleAttributeMultisetSHA256": "44d6cc632c5e67dc861ad3504c149b3f9f457c8f1c5fcce0783f6f3044626389",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "4ab6b503dcb3240bf66e2982806e08c16f7ea31a6c4205e6b13304d7c13c5183",
+            "POSITION": "04488d3e035e65e4c03d853940201c71c7a8f1b09ee6c317c95e886bb031eecd",
+            "TEXCOORD_0": "64e540cd3b311e7ad05234373ee7dfbfd66533768507f3f14558ea651b49241f"
+          }
+        },
+        {
+          "key": "VIS_PlantCabinet/VIS_PlantCabinet_Material_2#0",
+          "materialName": "MAT_V06C_Plants_SoilAndStems",
+          "materialSignature": "1e3d482d2944c37cf482329c254e416f27f898d79e049385d6f6d79a4ebb0641",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 352,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 352,
+          "retainedTriangleAttributeMultisetSHA256": "be3146e9b44a57e29f629023f36366f89c2f451ab6200974bbba69bab7b3e927",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "7cd39740badd5927d4cfdde6cc5c09eaecdce372c6b7d4021e7066af78f11fe8",
+            "POSITION": "87a4cd43d4d425e9c0eac4a0c44bd3dccd44cd10136363019eea7e858c5ef973",
+            "TEXCOORD_0": "e3ec1add91381a3feb4840dee31fc10c4eb8ad5fbfeb03926f3bc54bb26428bb"
+          }
+        },
+        {
+          "key": "VIS_PlantCoffeeTable/VIS_PlantCoffeeTable_Material_0#0",
+          "materialName": "MAT_V06C_Plants_Leaves",
+          "materialSignature": "8c3ba7acf0e98cbd3b1a5df44c02f219567ee659203edf6b0cfae6bb38fa89d2",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 728,
+          "exactDegenerateTriangles": 108,
+          "retainedTriangles": 620,
+          "retainedTriangleAttributeMultisetSHA256": "62c579fa2eacafceee78731c74b9470b4f86ca069981d8c1bb109e51e17d4aca",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "25f01dfefd69fdbbb8460d63cfa52c2527b98a3939750ec850d142f7c5ce4a54",
+            "POSITION": "37e9b3d87b2d4dd6a0846224f008fddf0ccdfee870a83d1489d11afddddcba1c",
+            "TEXCOORD_0": "2fde31591e5e1253e8388f73bb6e95fd2c7404dc53df9cefc48d67c508ffd4c4"
+          }
+        },
+        {
+          "key": "VIS_PlantCoffeeTable/VIS_PlantCoffeeTable_Material_1#0",
+          "materialName": "MAT_V06C_Plants_Ceramic",
+          "materialSignature": "216d133b7c35b4107d4ec5b78983576a50ba287dff21586cf46f9e52204b46ca",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 336,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 336,
+          "retainedTriangleAttributeMultisetSHA256": "39c53020c945351f5c4f3040540d7deda4e6e922667f56f8183a3ece588d8eb6",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "887229462c1e0219d56772ca863d88a2b081849c6cdcb0511ffab40983c81568",
+            "POSITION": "8052eef3e9023f303096565abeb83e31a6b36278ff7c463178de28d3098c8248",
+            "TEXCOORD_0": "2100cd219ba445a1d7eee9d6660188f603b9fc97be8fcf436dbb0760215da899"
+          }
+        },
+        {
+          "key": "VIS_PlantCoffeeTable/VIS_PlantCoffeeTable_Material_2#0",
+          "materialName": "MAT_V06C_Plants_SoilAndStems",
+          "materialSignature": "1e3d482d2944c37cf482329c254e416f27f898d79e049385d6f6d79a4ebb0641",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 352,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 352,
+          "retainedTriangleAttributeMultisetSHA256": "965cef27c7b9622133ff7a5f6017eb6fe4315a5a044d7864e9a07295822d3451",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "fe2d1388b6673f59ce39727e6e31fc59228d8d9112b9418047577b677aa49124",
+            "POSITION": "eab22fab9e000a0ec6bb3cf0a3f3fed5be824c21cf822aeee54727c19716c437",
+            "TEXCOORD_0": "a4df56d303bc57d3e02ca01ae7fee72c340acf93e28e58927d24230018688207"
+          }
+        },
+        {
+          "key": "VIS_PlantDesk/VIS_PlantDesk_Material_0#0",
+          "materialName": "MAT_V06C_Plants_Leaves",
+          "materialSignature": "8c3ba7acf0e98cbd3b1a5df44c02f219567ee659203edf6b0cfae6bb38fa89d2",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 728,
+          "exactDegenerateTriangles": 108,
+          "retainedTriangles": 620,
+          "retainedTriangleAttributeMultisetSHA256": "796599f649d6a761965d8c6ff16a94d195cf69ef3d9d3c9c9958f7caf96507cf",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "79354c05e7188e0c7cad8c636eb9e29eee42b5aeaacaf34575e6ad042698f5da",
+            "POSITION": "a120999c3a9282ea74796c411e04296ced38418fdaa8d32c4d0535c723311bf8",
+            "TEXCOORD_0": "6c4a02bde04100e0d40accf6d0998ef48edb174a363dcd47e2dcbaeada9aa9c0"
+          }
+        },
+        {
+          "key": "VIS_PlantDesk/VIS_PlantDesk_Material_1#0",
+          "materialName": "MAT_V06C_Plants_Ceramic",
+          "materialSignature": "216d133b7c35b4107d4ec5b78983576a50ba287dff21586cf46f9e52204b46ca",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 336,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 336,
+          "retainedTriangleAttributeMultisetSHA256": "c045001ac833e6db2718638b94f57cf095380b4374f8cd7c0183083ba40bb8d7",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "057c562f6d43884676e0573adde13a37652afac5d1a3cefef797b0a7c52f8dd3",
+            "POSITION": "52199f6f8e10797e920579ff52f415e8447ebd940075113acb39a39fa3bf1743",
+            "TEXCOORD_0": "b2ee1165f76956fa120330def978fa7d75f5edf911ce4f118af402761a64a637"
+          }
+        },
+        {
+          "key": "VIS_PlantDesk/VIS_PlantDesk_Material_2#0",
+          "materialName": "MAT_V06C_Plants_SoilAndStems",
+          "materialSignature": "1e3d482d2944c37cf482329c254e416f27f898d79e049385d6f6d79a4ebb0641",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 352,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 352,
+          "retainedTriangleAttributeMultisetSHA256": "123d870b8a3516a94d475987d3a5610608b7bc7f1bd8275bc9e8d0aeb35a1837",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "f0b179ae994b25bacaaf550dff4d6a33bb17a091c12c1e2ccc33e031bc07ff5a",
+            "POSITION": "7ba12d71cc4b210e4b7fff0e2fe1c35fb20774275e2baca53deb1502197d864e",
+            "TEXCOORD_0": "e6fc30ffae44244e93740ec037e74a8aa2291e61406798aa368233637f8f9444"
+          }
+        },
+        {
+          "key": "VIS_PlantSofa/VIS_PlantSofa_Material_0#0",
+          "materialName": "MAT_V06C_Plants_Leaves",
+          "materialSignature": "8c3ba7acf0e98cbd3b1a5df44c02f219567ee659203edf6b0cfae6bb38fa89d2",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 1040,
+          "exactDegenerateTriangles": 156,
+          "retainedTriangles": 884,
+          "retainedTriangleAttributeMultisetSHA256": "d9fc1130fccd3cf1551b713ac0ea9bcd38f5604a7a44f4bc5cb298ea485c142d",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "521a118fea64d30f48fdc4cba442c8826455506fc3516fe721202ba0ac3f9ef2",
+            "POSITION": "c5ab7cc55ff2c7e85cc50725d642d83d68e97dca6cff967f50ea164b12054694",
+            "TEXCOORD_0": "c4083a646066258c4c8d9a7d3e4b32f4f98af0b845d211c16e434394cda42074"
+          }
+        },
+        {
+          "key": "VIS_PlantSofa/VIS_PlantSofa_Material_1#0",
+          "materialName": "MAT_V06C_Plants_Ceramic",
+          "materialSignature": "216d133b7c35b4107d4ec5b78983576a50ba287dff21586cf46f9e52204b46ca",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 336,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 336,
+          "retainedTriangleAttributeMultisetSHA256": "36c952f78fc9e0c1f51cefa6c3c8b70f77bf1b37775fa74bbdb4606c6c516eb2",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "2717a355d5e489c73c1f762c39e2d5aee2f352b14556f46b6bae15a9679e6727",
+            "POSITION": "880269b74df8a09cb6a616d41136cda8fb53353faaeb3263514fcd4c61ce0814",
+            "TEXCOORD_0": "ca218a179d9f41875dce1fb56a706f257f701d7e608008ff14d382936ab938ef"
+          }
+        },
+        {
+          "key": "VIS_PlantSofa/VIS_PlantSofa_Material_2#0",
+          "materialName": "MAT_V06C_Plants_SoilAndStems",
+          "materialSignature": "1e3d482d2944c37cf482329c254e416f27f898d79e049385d6f6d79a4ebb0641",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 472,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 472,
+          "retainedTriangleAttributeMultisetSHA256": "44f55d456f2b95e9f1f856762ca0303ba1e7a9cb44235eb1bbbaee6a724dd935",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "ae8c062b5e882880c2c7de3dbb3688cef1daaa9eae42064cd067bc703392cb78",
+            "POSITION": "b5616660e2566be048002f928de822978a07c460fbc22dcb2762e3c9a2e8fb56",
+            "TEXCOORD_0": "8d5d83c043db785c23e3ea13cd7ab1604f5f8f0afd7b2246af0fe760a26e522b"
+          }
+        },
+        {
+          "key": "VIS_PlantWindow/VIS_PlantWindow_Material_0#0",
+          "materialName": "MAT_V06C_Plants_Leaves",
+          "materialSignature": "8c3ba7acf0e98cbd3b1a5df44c02f219567ee659203edf6b0cfae6bb38fa89d2",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 1040,
+          "exactDegenerateTriangles": 156,
+          "retainedTriangles": 884,
+          "retainedTriangleAttributeMultisetSHA256": "6c62e3e4c19b994cfad2f71aef4c59762ac12f4252357e65acb527ae928a1c1a",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "97424c6dfc220cb14a46cda63a02c5b968a86653d0bb6d4ee5a0593d81f66673",
+            "POSITION": "bb34c78808504a0554dd4c1683aa1b01373619e6b811892251ad14751d2c6c1b",
+            "TEXCOORD_0": "ada59b20b24a8a5c805fb98a4ae146b005eccdf13130a1364266c72057120e4f"
+          }
+        },
+        {
+          "key": "VIS_PlantWindow/VIS_PlantWindow_Material_1#0",
+          "materialName": "MAT_V06C_Plants_Ceramic",
+          "materialSignature": "216d133b7c35b4107d4ec5b78983576a50ba287dff21586cf46f9e52204b46ca",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 336,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 336,
+          "retainedTriangleAttributeMultisetSHA256": "b2ac0589e1108ed6af2bbe49edd292d6500c04a580f635e4bed2808bde7f9fa2",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "4efa9d1f551e16f1255579f55346b5825968310b4759eb9dfe3fca4a2943f3f1",
+            "POSITION": "cf52a525e5a648c671498d904bacac848564f7029c5690cec41a5bce079b1177",
+            "TEXCOORD_0": "a10e121f580b0bc6d85f1d9ad38fd99dd3da2e9e3be9a2254100d8ecd2bbae3b"
+          }
+        },
+        {
+          "key": "VIS_PlantWindow/VIS_PlantWindow_Material_2#0",
+          "materialName": "MAT_V06C_Plants_SoilAndStems",
+          "materialSignature": "1e3d482d2944c37cf482329c254e416f27f898d79e049385d6f6d79a4ebb0641",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 472,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 472,
+          "retainedTriangleAttributeMultisetSHA256": "140a8e129bc7589a1d5ef248fc8f95d53d2d545d192d7cc4efb4a8fabdf951de",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "971a108cdb60b80d16d9d0dd5b8330f8fb40c189c7dadeeddb8e7b148b4fb500",
+            "POSITION": "05edb27105273b16343f9339dff32603f4b8e503491bc7a4940131ad1937c088",
+            "TEXCOORD_0": "09630e7ee743c3eb4b052ff0e2fae4f562d3f34cc3d6ea970a4fd74d1a890c12"
+          }
+        }
+      ],
+      "retainedTriangles": 7308,
+      "exactDegenerateTriangles": 636
+    },
+    {
+      "family": "cola",
+      "file": "public/models/production/cola_v06c.glb",
+      "glbSHA256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+      "bytes": 29352,
+      "nodeTransforms": [
+        {
+          "path": "VIS_Cola",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Cola/VIS_Cola_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Cola/VIS_Cola_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_Cola/VIS_Cola_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_Cola/VIS_Cola_Material_0#0",
+          "materialName": "MAT_V06C_Cola_Glass",
+          "materialSignature": "6a653716be9ede50020f17ea973e260497ba826e2b1716ec16b1577c01153a4f",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 448,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 448,
+          "retainedTriangleAttributeMultisetSHA256": "457ea9782ca11bb2bdf10a6cfb81fe37ee8abbcdc9c7e972483c0d995bdc9adf",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "b9cd10916f456fc7f11a2960d6ae25aa4eb6da87c99dac5195698298c3a97098",
+            "POSITION": "d6ae4a12bf7d8753a22647fa3c7d211f34566da2929966f48e50da36c0573800",
+            "TEXCOORD_0": "90c37d58906a9c1754e2760ce62d73658aae79b305f775aadd52c150974b3430"
+          }
+        },
+        {
+          "key": "VIS_Cola/VIS_Cola_Material_1#0",
+          "materialName": "MAT_V06C_Cola_Ice",
+          "materialSignature": "a87714051feaff13bda6e663ae96b30898c796c21bb2319b9f3b7aabf3b95902",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 324,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 324,
+          "retainedTriangleAttributeMultisetSHA256": "21ed7d4831e24936f5020f39ed6147d92d67c144173780d09f11d0eb5e443136",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "ef14a16719bd35cc6e608aef9d53758cf08bc7f9ed9c892c6a748a60822be458",
+            "POSITION": "96e2b9dfc5a3e58027073184c8e947925872e55ab8ebdaa53fadbd7d92dd6c89",
+            "TEXCOORD_0": "3d9dfb474a632c5f9c985499e62945672befe1f528f739f23875c81fad517c8b"
+          }
+        },
+        {
+          "key": "VIS_Cola/VIS_Cola_Material_2#0",
+          "materialName": "MAT_V06C_Cola_Liquid",
+          "materialSignature": "53b2d836ea8436a148462574faa2efe5a3302e0c0de92292472de0f1e9bf90af",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 124,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 124,
+          "retainedTriangleAttributeMultisetSHA256": "c7a428946a0838ba145f86a01cda10a8239d5eb0d6d96f81fffecad9fb10fef7",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "f0fc28bed868a32b021519f2f801bb8b0cd075a351c6904a8d88d02fe5ad4784",
+            "POSITION": "39b5fb68d4863a84f4015fdc4f88c56c7a26ad2f326adcc5219ed99a849a18a8",
+            "TEXCOORD_0": "4915f59adc11cc7726579086fff4b5020b950a4989bf735df25ba0c8a67c58a9"
+          }
+        }
+      ],
+      "retainedTriangles": 896,
+      "exactDegenerateTriangles": 0
+    },
+    {
+      "family": "dog",
+      "file": "public/models/production/dog_v06c.glb",
+      "glbSHA256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+      "bytes": 142356,
+      "nodeTransforms": [
+        {
+          "path": "VIS_SleepingDog",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_SleepingDog/VIS_SleepingDog_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_SleepingDog/VIS_SleepingDog_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_SleepingDog/VIS_SleepingDog_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_SleepingDog/VIS_SleepingDog_Material_0#0",
+          "materialName": "MAT_V06C_Dog_GoldenCoat",
+          "materialSignature": "370cf6a2daac21126997a33d2187dd6a1abc66f3b2b763094d86a0d5f5516694",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 3388,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 3388,
+          "retainedTriangleAttributeMultisetSHA256": "be6a8740c0d6193b1adae09bf68ba01c6bc71011a1d0864ea168d8520de34547",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "e72ead2b625d646866ff3a3e741ddf371f3fdaae8eae00ae951e112becb7c14f",
+            "POSITION": "cfd0b0277d36949f8fc3c4c82b5a2eab2560e36a1844917838cc4b2fa3da56cb",
+            "TEXCOORD_0": "c64d1660dd81a024689de3a426637e36c1537ec2519c2a96cd0beadeaab0d25e"
+          }
+        },
+        {
+          "key": "VIS_SleepingDog/VIS_SleepingDog_Material_1#0",
+          "materialName": "MAT_V06C_Dog_NoseClosedEyes",
+          "materialSignature": "2e00e255ebd2cb4dbaebae5d3d0d4fdb57dbeb9709b4a8201a2016756ef39fac",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 528,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 528,
+          "retainedTriangleAttributeMultisetSHA256": "6815e897e78e2a73ade725a7f551535c4fafe20febefe8ce143e7d579750c962",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "a4866a364fdadee80ce7b5f44cebd40b1e09c9e947dbd9b0a38268e66a854109",
+            "POSITION": "74dbc19aca1761e9568914139c6e809ed58728a0843b9c6268f60b142cdf160c",
+            "TEXCOORD_0": "37498265e15e263741e36f65e7d5ed746952b8232dbaaf31c5388aa73f658ad5"
+          }
+        },
+        {
+          "key": "VIS_SleepingDog/VIS_SleepingDog_Material_2#0",
+          "materialName": "MAT_V06C_Dog_EarsMuzzle",
+          "materialSignature": "01647df165e174b08ba434a012e68eed70cd5e58a95364f6a2508c197c865967",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 880,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 880,
+          "retainedTriangleAttributeMultisetSHA256": "4d97a28f6ea58acbf0282cbcc17d02a035febb6e4ee02c1dbd54fec63c12b2bf",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "18b47684c81ef1755774f8435e9018c5945ac5df21143ed8670ef0fa4a817108",
+            "POSITION": "8ad34343c5ddaeb1689f01a4f79a293f620e78777a2ee3784536ed740f2319e1",
+            "TEXCOORD_0": "2cf868bf228bc24f6921209a2ac9e351ec48accd465e1b40f47bddd8e66ccc47"
+          }
+        }
+      ],
+      "retainedTriangles": 4796,
+      "exactDegenerateTriangles": 0
+    },
+    {
+      "family": "fixtures",
+      "file": "public/models/production/fixtures_v06c.glb",
+      "glbSHA256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+      "bytes": 120244,
+      "nodeTransforms": [
+        {
+          "path": "VIS_FixtureBedside",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureBedside/VIS_FixtureBedside_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureBedside/VIS_FixtureBedsideSurface",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureCabinetStrip",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureCabinetStrip/VIS_FixtureCabinetStrip_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureCabinetStrip/VIS_FixtureCabinetStripSurface",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureDeskStrip",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureDeskStrip/VIS_FixtureDeskStrip_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureDeskStrip/VIS_FixtureDeskStripSurface",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureLounge",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureLounge/VIS_FixtureLounge_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_FixtureLounge/VIS_FixtureLoungeSurface",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_FixtureBedside/VIS_FixtureBedside_Material_0#0",
+          "materialName": "MAT_V06C_FixtureBrushedBronze",
+          "materialSignature": "c6b91bb447300a523663f133d4fd88437430f96ebca1263cb673fc1c0cf34f2c",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 624,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 624,
+          "retainedTriangleAttributeMultisetSHA256": "7076369312f38407548881e6682d683a452b43a73c6c8299d14b22dfd692fae2",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "cc3fa21bd2a176905b9c3264979a4c727f70c86df4fd9bcfb7623bcd8f3648bb",
+            "POSITION": "a84ce0cc456ea05a0ded30a56a7af98cdba574924f0c2b47b837924d825ef55a",
+            "TEXCOORD_0": "9fc58511eeb6a982150c5cdbcc729e56d8c84d556148235bb05c73d88a0ef6cb"
+          }
+        },
+        {
+          "key": "VIS_FixtureBedside/VIS_FixtureBedsideSurface#0",
+          "materialName": "MAT_V06C_FixtureBedsideSurface",
+          "materialSignature": "00176154e63d9c36ccb65288b7728349b021f01b2d16ce799c4f00f9b15e44cb",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 192,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 192,
+          "retainedTriangleAttributeMultisetSHA256": "94e468b6181b65b43d06420a600cee7027dc1e63f3d1b1e00f0240296175227b",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "9f701f343e9f00b66a41fc813c39a771b9e87ba2929df5b8c5e0951f6960a460",
+            "POSITION": "90e27bf81a97e7eb44c7e5e031e1f76700539cfe6aa922f1c6023f3f0b87d51c",
+            "TEXCOORD_0": "ef140c4d1b2a1c7e91b03c7bdabe37fca12afdd05fe00354c326e51da5788033"
+          }
+        },
+        {
+          "key": "VIS_FixtureCabinetStrip/VIS_FixtureCabinetStrip_Material_0#0",
+          "materialName": "MAT_V06C_FixtureBrushedBronze",
+          "materialSignature": "c6b91bb447300a523663f133d4fd88437430f96ebca1263cb673fc1c0cf34f2c",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 240,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 240,
+          "retainedTriangleAttributeMultisetSHA256": "c557f9f96dec13fdeb2a965494f08c290dfebdd638f617cd97afc020ff60a9c8",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "43457b7e25c4c94e73ed87e730ac03dae24b6232f89bae3fabecb46438bd44aa",
+            "POSITION": "a8d8feb25459ed06a51684d5d98f7a24d82c1ba906efcb0368417039891527d8",
+            "TEXCOORD_0": "aed5577e15f5afbcd47f2ee67f4b8f6f2fbc57b29b4df65204b62fd275c4142d"
+          }
+        },
+        {
+          "key": "VIS_FixtureCabinetStrip/VIS_FixtureCabinetStripSurface#0",
+          "materialName": "MAT_V06C_FixtureCabinetStripSurface",
+          "materialSignature": "bbe60b07ec85d38fc07c4c9762838ccd72dbc8cb8008f6e5bcb380f55a07c00e",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 48,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 48,
+          "retainedTriangleAttributeMultisetSHA256": "4dc39bcc0bea0d4b1840f49e298bc1ec7ba72595f275622b2dbe7f0dd67c2401",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "802944d1483c4ea4565a4939350c96170b6c06c4eef94e759a88d2b9435dcc81",
+            "POSITION": "6186e106e9fa4124a73752defdf3809aafabf68569d5ac8f6f9a9026611f906c",
+            "TEXCOORD_0": "23450f0ad7993a8fc1ba389fc0a474a009d8386742bd098bd19979306cdb888c"
+          }
+        },
+        {
+          "key": "VIS_FixtureDeskStrip/VIS_FixtureDeskStrip_Material_0#0",
+          "materialName": "MAT_V06C_FixtureBrushedBronze",
+          "materialSignature": "c6b91bb447300a523663f133d4fd88437430f96ebca1263cb673fc1c0cf34f2c",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 60,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 60,
+          "retainedTriangleAttributeMultisetSHA256": "fb58662134c6f88fbf46f657c5b725b0d37dd4edfd90839ef8864338be73323b",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "abba40efca8a1dd4c67d1cf1409fb1a63188f56c932537a03f45594e44cbf696",
+            "POSITION": "cae08526f5a96bed860ac9d4ffbe0301e61eeab0aaf5039152e356964deb6ec5",
+            "TEXCOORD_0": "6ec15abd2580fb51ff8a4dc132e4c152d04ba4b6fe05d11cff62fdf7398efd2a"
+          }
+        },
+        {
+          "key": "VIS_FixtureDeskStrip/VIS_FixtureDeskStripSurface#0",
+          "materialName": "MAT_V06C_FixtureDeskStripSurface",
+          "materialSignature": "dcbe7819035d5433c5166e3491d8a0b8311fdf62badff5720d8fe886ec16571f",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 12,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 12,
+          "retainedTriangleAttributeMultisetSHA256": "fcfafbd181e4c449bb1c0ea1d8de2857293efaba8c8ae839866724961ec69d49",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "e031823d849af1b347c4c7d75f0a333b274e36141a2d74bf7cad9404f3d4a791",
+            "POSITION": "f472e145e323bb572b0287767f255b808bd9003f232b64bd807323740d2f3615",
+            "TEXCOORD_0": "842099e2736d6718d0bbf0b84d20b40f4c85d3e82652fe9a206e32cf85445df9"
+          }
+        },
+        {
+          "key": "VIS_FixtureLounge/VIS_FixtureLounge_Material_0#0",
+          "materialName": "MAT_V06C_FixtureBrushedBronze",
+          "materialSignature": "c6b91bb447300a523663f133d4fd88437430f96ebca1263cb673fc1c0cf34f2c",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 624,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 624,
+          "retainedTriangleAttributeMultisetSHA256": "7076369312f38407548881e6682d683a452b43a73c6c8299d14b22dfd692fae2",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "cc3fa21bd2a176905b9c3264979a4c727f70c86df4fd9bcfb7623bcd8f3648bb",
+            "POSITION": "a84ce0cc456ea05a0ded30a56a7af98cdba574924f0c2b47b837924d825ef55a",
+            "TEXCOORD_0": "9fc58511eeb6a982150c5cdbcc729e56d8c84d556148235bb05c73d88a0ef6cb"
+          }
+        },
+        {
+          "key": "VIS_FixtureLounge/VIS_FixtureLoungeSurface#0",
+          "materialName": "MAT_V06C_FixtureLoungeSurface",
+          "materialSignature": "6f9dd7b393987173157e6ba75ad9ddd6a7c182456425a7bc96c7945e1f1194e7",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 192,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 192,
+          "retainedTriangleAttributeMultisetSHA256": "94e468b6181b65b43d06420a600cee7027dc1e63f3d1b1e00f0240296175227b",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "9f701f343e9f00b66a41fc813c39a771b9e87ba2929df5b8c5e0951f6960a460",
+            "POSITION": "90e27bf81a97e7eb44c7e5e031e1f76700539cfe6aa922f1c6023f3f0b87d51c",
+            "TEXCOORD_0": "ef140c4d1b2a1c7e91b03c7bdabe37fca12afdd05fe00354c326e51da5788033"
+          }
+        }
+      ],
+      "retainedTriangles": 1992,
+      "exactDegenerateTriangles": 0
+    },
+    {
+      "family": "wallart",
+      "file": "public/models/production/wallart_v06c.glb",
+      "glbSHA256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772",
+      "bytes": 30808,
+      "nodeTransforms": [
+        {
+          "path": "VIS_WallArt",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_WallArt/VIS_WallArt_Material_0",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_WallArt/VIS_WallArt_Material_1",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_WallArt/VIS_WallArt_Material_2",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_WallArt/VIS_WallArt_Material_3",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_WallArt/VIS_WallArt_Material_4",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        },
+        {
+          "path": "VIS_WallArt/VIS_WallArt_Material_5",
+          "translation": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "matrix": null
+        }
+      ],
+      "primitives": [
+        {
+          "key": "VIS_WallArt/VIS_WallArt_Material_0#0",
+          "materialName": "MAT_V06C_WallArtWalnutFrame",
+          "materialSignature": "5686cbb18122e4d6d39e125c06bf086c2e603681746984670151bf5aae98852d",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 220,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 220,
+          "retainedTriangleAttributeMultisetSHA256": "c48f658c796924f44503ccbc8cc88f76ba2937f8f5d7bc033d798c80ea656160",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "cb42b99ebee56eadb4e7a710e152aa1fe17bba29b04a2a2755623b6ff98c5fe4",
+            "POSITION": "85dcb2596df67e0c9edb8c2445347f9818559c136b1aed2260078eb007c307fd",
+            "TEXCOORD_0": "e451df7952a67c20fbe445174b3615efab049e6a192383382c3a11efc97828ac"
+          }
+        },
+        {
+          "key": "VIS_WallArt/VIS_WallArt_Material_1#0",
+          "materialName": "MAT_V06C_WallArtDistantSage",
+          "materialSignature": "dc6fc9fb86bc725eb271e96a1a29da73d08673d4628e321f305d45098c7d6e4d",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 32,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 32,
+          "retainedTriangleAttributeMultisetSHA256": "da4414bfe87d3fc51c53fab1b8f75dc160f638c47036edefba08e2c19ed6d426",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "1738073c0d36909c7efce0b828ae8a46c4eeeaf791d79ac04e9d73c8c37b4903",
+            "POSITION": "ce217a7d4ddd9281965479653ee7be230bf30b9ea268ddcac607c4b011529c08",
+            "TEXCOORD_0": "9ec3e89312d42635a0b3c84076b0c14ac2967c3894191559a3c908916d94a383"
+          }
+        },
+        {
+          "key": "VIS_WallArt/VIS_WallArt_Material_2#0",
+          "materialName": "MAT_V06C_WallArtMiddleTeal",
+          "materialSignature": "a9e961d5b3259f11899127a8ad158ad20e8c64b97d64709792d0b2b9a91b9e16",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 36,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 36,
+          "retainedTriangleAttributeMultisetSHA256": "e21114eae1f130382d8525ed8f033d20c96e76bec7a101f52d8e22ece1eefb11",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "6a180e74889cf33077cac0efdc789c97b31df74f0cee2026c66a0c8852df33e0",
+            "POSITION": "7d12050e2c3f64e60fd214c2f413a893ffa7962b4c4845b7e85190863a8a3fe6",
+            "TEXCOORD_0": "9ba754f7c760b3ae8c302677889933055ed574ca17f0aa4b901491a9f72b489f"
+          }
+        },
+        {
+          "key": "VIS_WallArt/VIS_WallArt_Material_3#0",
+          "materialName": "MAT_V06C_WallArtMutedMoon",
+          "materialSignature": "b0d4b0a5dfb3f9a9e235465a016294b13b01e05f6f00c4f627a8bd49e64ebda5",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 124,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 124,
+          "retainedTriangleAttributeMultisetSHA256": "f0c57ee189afdb335ab0dc667a35519ff2b94c9bd5b8e47c5bdad2a3a6e46828",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "bb1d5b2575f7495a1f10db37419d455d30750c068974e3193990ba0589aa1937",
+            "POSITION": "bebf96768033cf5f4b19f9e9598a2171a7a243fd71610bbf551f1bb029edfd0b",
+            "TEXCOORD_0": "3d3fe822835d996d554b32a1ebecff6b0fee3cba558baa801cd1bdd27b923df2"
+          }
+        },
+        {
+          "key": "VIS_WallArt/VIS_WallArt_Material_4#0",
+          "materialName": "MAT_V06C_WallArtForeground",
+          "materialSignature": "94c2d66c501f8eccd74a501a95281ad522d95d7e6fbf3ecdf402cd5219ee5943",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 28,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 28,
+          "retainedTriangleAttributeMultisetSHA256": "b5d0fe34fdb69977e289704975676aad7bac6e9feb76f9468ac4f7402c98afcb",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "4a1975b236129c3f16fac341f21b7044f550cc89e202595a45f78d17316f293b",
+            "POSITION": "c6f7ea1deb00e8e123036909695a02cf6182beaa963ed78b232ae6138348e322",
+            "TEXCOORD_0": "c241718a07c5dfcc3e7b926b20cf0df9219702473823f7e82289c2a7eb15b14b"
+          }
+        },
+        {
+          "key": "VIS_WallArt/VIS_WallArt_Material_5#0",
+          "materialName": "MAT_V06C_WallArtWarmPaper",
+          "materialSignature": "c119824b75caf86564b862add926d935ff6806c17191d6f89efdf409f1e707a3",
+          "attributes": {
+            "NORMAL": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "POSITION": {
+              "type": "VEC3",
+              "componentType": 5126,
+              "normalized": false
+            },
+            "TEXCOORD_0": {
+              "type": "VEC2",
+              "componentType": 5126,
+              "normalized": false
+            }
+          },
+          "totalTriangles": 12,
+          "exactDegenerateTriangles": 0,
+          "retainedTriangles": 12,
+          "retainedTriangleAttributeMultisetSHA256": "00f37d071d1d26c5b4840f50ed970eafa87d66cd305919d764acda1c1c24cbec",
+          "separateAttributeTriangleMultisetSHA256": {
+            "NORMAL": "e031823d849af1b347c4c7d75f0a333b274e36141a2d74bf7cad9404f3d4a791",
+            "POSITION": "b043f4b1f0608398845ed895fd43e901f1436f7aa367f5e7d6ae2241c8c9701b",
+            "TEXCOORD_0": "842099e2736d6718d0bbf0b84d20b40f4c85d3e82652fe9a206e32cf85445df9"
+          }
+        }
+      ],
+      "retainedTriangles": 452,
+      "exactDegenerateTriangles": 0
+    }
+  ],
+  "comparison": null
+}

@@ -1,0 +1,125 @@
+{
+  "version": "0.6C",
+  "family": "falcon",
+  "triangles": 1916,
+  "meshCount": 4,
+  "uvMeshes": 4,
+  "materialCount": 4,
+  "materials": [
+    "MAT_V06C_Falcon_AlloyPanels",
+    "MAT_V06C_Falcon_DisplayPlinth",
+    "MAT_V06C_Falcon_Recesses",
+    "MAT_V06C_Falcon_RedPanels"
+  ],
+  "roots": {
+    "VIS_Falcon": {
+      "anchor": "DSP_Falcon_Bounds",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.23600000143051147,
+          -0.2796499729156494,
+          -0.2641206681728363
+        ],
+        "max": [
+          0.23600000143051147,
+          -0.07263609021902084,
+          0.2641206681728363
+        ]
+      }
+    }
+  },
+  "placement": {
+    "originalAnchor": "DSP_Falcon_Bounds",
+    "originalParent": "DISPLAY_MODELS",
+    "nominalWorldBounds": {
+      "min": [
+        -3.4649998992681503,
+        0.7899999916553497,
+        -0.32999998331069946
+      ],
+      "max": [
+        -2.9849999099969864,
+        1.2399999797344208,
+        0.949999988079071
+      ],
+      "size": [
+        0.47999998927116394,
+        0.44999998807907104,
+        1.2799999713897705
+      ]
+    },
+    "compartmentWorldBounds": {
+      "min": [
+        -3.52,
+        0.735,
+        -0.5399999761581421
+      ],
+      "max": [
+        -2.95,
+        1.315,
+        1.120000023841858
+      ],
+      "size": [
+        0.5699999999999998,
+        0.58,
+        1.6600000000000001
+      ]
+    },
+    "canonicalBox": {
+      "min": [
+        -1.0099999904632568,
+        0.0,
+        -0.75
+      ],
+      "max": [
+        0.8100000023841858,
+        0.5274999737739563,
+        0.8740000128746033
+      ]
+    },
+    "uniformScale": 0.2869458039266321,
+    "bakedRotationYDegrees": 90,
+    "bodyLocalBottom": -0.22399999403953552,
+    "supportLocalBottom": -0.27964998569488525,
+    "supportExtensionM": 0.05564999165534973,
+    "supportClearanceM": 0.00035,
+    "previewOnly": false,
+    "provisionalSlot": false
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 113052,
+  "blendBytes": 119952,
+  "glbSHA256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_Falcon": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Falcon_bounds": true
+  }
+}

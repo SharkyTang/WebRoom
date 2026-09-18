@@ -1,10 +1,16 @@
 /** Production roots are anchor-local, metre-scale glTF Y-up. No adaptation matrix. */
+import { fixtureRegistry } from './fixtureRegistry';
+
 export type AssetPart = { root: string; anchor: string; proxyMeshNames?: readonly string[] };
 export type AssetDefinition = {
   label: string; url: string; prefix: string; parts: readonly AssetPart[];
   stateSurface: string | null; surfaceRole: 'screen' | 'indicator' | 'none';
+  retiredPlaceholderMeshes?: readonly string[];
   requiredNodes: readonly string[]; requiredDescendants: readonly { node: string; root: string }[];
 };
+function decor(id: string, label: string, prefix: string, parts: readonly AssetPart[]): AssetDefinition {
+  return { label, url: `/models/production/${id}_v06c.glb`, prefix, parts, stateSurface: null, surfaceRole: 'none', requiredNodes: parts.map(part => part.root), requiredDescendants: [] };
+}
 function furniture(id: string, label: string, prefix: string, parts: readonly AssetPart[]): AssetDefinition {
   return { label, url: `/models/production/${id}_v06a.glb`, prefix, parts, stateSurface: null, surfaceRole: 'none', requiredNodes: parts.map(part => part.root), requiredDescendants: [] };
 }
@@ -101,11 +107,40 @@ export const assetManifest = {
     parts: [{ root: 'VIS_Headphones', anchor: 'TEC_Headphones' }],
     stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_Headphones'], requiredDescendants: [],
   },
+  eiffel: decor('eiffel', 'Eiffel Tower', 'VIS_Eiffel', [{ root: 'VIS_Eiffel', anchor: 'DSP_EiffelTower_Bounds' }]),
+  hogwarts: decor('hogwarts', 'Hogwarts', 'VIS_Hogwarts', [{ root: 'VIS_Hogwarts', anchor: 'DSP_Castle_Bounds' }]),
+  minastirith: {
+    ...decor('minastirith', 'Minas Tirith', 'VIS_MinasTirith', [{ root: 'VIS_MinasTirith', anchor: 'DSP_Architecture_Bounds' }]),
+    // These two generic slots have no confirmed collectible; retain identities and roll back with this family.
+    retiredPlaceholderMeshes: ['DSP_MediumModel_Bounds', 'DSP_SmallModel_Bounds'],
+  },
+  falcon: decor('falcon', 'Millennium Falcon', 'VIS_Falcon', [{ root: 'VIS_Falcon', anchor: 'DSP_Falcon_Bounds' }]),
+  bridge: decor('bridge', 'Tower Bridge', 'VIS_TowerBridge', [{ root: 'VIS_TowerBridge', anchor: 'DSP_Bridge_Bounds' }]),
+  sls: decor('sls', 'SLS', 'VIS_SLS', [{ root: 'VIS_SLS', anchor: 'DSP_TallRocket_Bounds' }]),
+  ferrari: decor('ferrari', 'Ferrari F1', 'VIS_Ferrari', [{ root: 'VIS_Ferrari', anchor: 'DSP_Vehicle_Bounds' }]),
+  mercedes: decor('mercedes', 'Mercedes-AMG F1', 'VIS_Mercedes', [{ root: 'VIS_Mercedes', anchor: 'DSP_MercedesAMGF1_Bounds' }]),
+  plants: decor('plants', '植物', 'VIS_Plant', [
+    { root: 'VIS_PlantCabinet', anchor: 'DEC_Plant_Cabinet' },
+    { root: 'VIS_PlantCoffeeTable', anchor: 'DEC_Plant_CoffeeTable' },
+    { root: 'VIS_PlantDesk', anchor: 'DEC_Plant_Desk' },
+    { root: 'VIS_PlantSofa', anchor: 'DEC_Plant_Sofa' },
+    { root: 'VIS_PlantWindow', anchor: 'DEC_Plant_Window' },
+  ]),
+  cola: decor('cola', '冰杯可乐', 'VIS_Cola', [{ root: 'VIS_Cola', anchor: 'FUR_CoffeeTable', proxyMeshNames: [] }]),
+  dog: decor('dog', '睡姿小狗', 'VIS_SleepingDog', [{ root: 'VIS_SleepingDog', anchor: 'DEC_DogBedProxy', proxyMeshNames: ['DEC_DogBedProxy_Mesh_1'] }]),
+  fixtures: {
+    ...decor('fixtures', '灯具外壳', 'VIS_Fixture', fixtureRegistry.map(({ root, anchor, proxyMeshNames }) => ({ root, anchor, proxyMeshNames }))),
+    requiredNodes: fixtureRegistry.flatMap(({ root, surface }) => [root, surface]),
+    requiredDescendants: fixtureRegistry.map(({ root, surface }) => ({ node: surface, root })),
+  },
+  wallart: decor('wallart', '墙画', 'VIS_WallArt', [{ root: 'VIS_WallArt', anchor: 'DEC_WallArt' }]),
 } as const satisfies Record<string, AssetDefinition>;
 export type AssetFamily = keyof typeof assetManifest;
 export const assetFamilies = Object.keys(assetManifest) as AssetFamily[];
 // A's membership stays fixed as later authorized batches extend the manifest.
 export const furnitureFamilies: AssetFamily[] = ['floor', 'walls', 'door', 'window', 'curtains', 'desk', 'cabinet', 'bed', 'bedside', 'sofa', 'chair', 'coffee', 'sidetable', 'beanbag', 'rugs', 'dogbed'];
+// C is explicitly enumerated; only the sequentially installed subset is active.
+export const decorFamilies: AssetFamily[] = (['eiffel', 'hogwarts', 'minastirith', 'falcon', 'bridge', 'sls', 'ferrari', 'mercedes', 'plants', 'cola', 'dog', 'fixtures', 'wallart'] as AssetFamily[]).filter(id => id in assetManifest);
 export type AssetLoadState = { status: 'loading' | 'installed' | 'fallback'; error: string | null };
 export type AssetLoadReport = Record<AssetFamily, AssetLoadState>;
 export const initialAssetLoadReport = (): AssetLoadReport => Object.fromEntries(assetFamilies.map(id => [id, { status: 'loading', error: null }])) as AssetLoadReport;

@@ -1,0 +1,12 @@
+{
+  "testOnly": true,
+  "generatedAt": "2026-09-18T11:41:32.051Z",
+  "sourceRoot": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room",
+  "target": "/private/tmp/sharkys-v06c-inspection-20260918-1916",
+  "sourceBridgeSha256": "41801cb50b7e24e744c56e3b05dd1957d33de43b8ebc877052d1cc4cc2314524",
+  "publicAccess": "Symlink to current product public files, used read-only by preview. Do not build assets or install dependencies in this preview.",
+  "dependencies": "Hardlinked installed files; no package install or dependency modifications.",
+  "synchronization": "Stop preview, run sync, restart. public assets are shared read-only; source/manifest changes require sync.",
+  "command": "cd '/private/tmp/sharkys-v06c-inspection-20260918-1916' && npm run dev -- --port 3003",
+  "limitation": "Test camera/inspection evidence supplements, never replaces, normal production acceptance."
+}

@@ -1,0 +1,37 @@
+{
+  "recordedAt": "2026-09-18T12:20:18.515770+00:00",
+  "results": [
+    {
+      "name": "verify:asset",
+      "command": "npm run verify:asset",
+      "exitCode": 0,
+      "passed": 361,
+      "log": "final/verify-asset.log",
+      "logSHA256": "f86cbd9cb336f8f6c3fb6946100684dc8388e5add9b593fa40266bb96cd56377"
+    },
+    {
+      "name": "unit",
+      "command": "npm test",
+      "exitCode": 0,
+      "passed": 283,
+      "failed": 0,
+      "log": "final/unit-tests.log",
+      "logSHA256": "237677d6113a1ceb862c9d39c30d2f9c89f944bca7d7a8a6b74b3db03763750e"
+    },
+    {
+      "name": "typecheck",
+      "command": "npm run typecheck -- --incremental false",
+      "exitCode": 0,
+      "log": "final/typecheck.log",
+      "logSHA256": "be58bb9104f58136d18bbe1b9e71ad39fb2acb0b83308cc193c0891e19f0854c"
+    },
+    {
+      "name": "build",
+      "command": "npm run build",
+      "workdir": "/private/tmp/sharkys-v06c-production-20260918-1957",
+      "exitCode": 0,
+      "log": "final/build.log",
+      "logSHA256": "5a6c301dc516ec93ace6bae000e3597bcb535e1415704d506f98e04c644f1405"
+    }
+  ]
+}

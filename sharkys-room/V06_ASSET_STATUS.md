@@ -1,3 +1,29 @@
+# v0.6 资产状态（2026-09-18，C 实施后）
+
+当前完成旧三件 + A16 + B8 + C13，共 **40 个正式家族**。C 已完成建模、PBR 材质、可编辑 `.blend`、GLB 导出与网页接入；各组制作后即接入局部回归。技术验收证据与用户视觉确认分开记录，**全部 C 外观及白城暂定格位待用户视觉确认**。最终技术结果以 [C 交付报告](V06C_COLLECTION_DECOR_REPORT.md) 与 [本轮验证索引](validation/v06c/verification-summary.json) 为准。
+
+| 范围 | 当前实现与状态 |
+| --- | --- |
+| 旧三件、A16、B8 | 原正式源与导出逐字节保留；原九项交互、共享状态、返回语义、钢琴 0.65 m 机构和桌下直接重开路径保留 |
+| C 八件收藏 | Eiffel、Hogwarts、Minas Tirith、Falcon、Tower Bridge、SLS、Ferrari F1、Mercedes-AMG F1 均制作/安装；格位与实际承托已检查 |
+| C 白城 | 先做格位预览再制作正式七层城墙/城体；独用既有 Architecture 格，不扩柜、不替换 Hogwarts；格位待用户确认 |
+| C 生活装饰 | 原位五盆植物、一杯冰可乐、A 狗窝内静态睡狗、原创墙画均制作/安装；未增加桌面杂物或装饰交互 |
+| C 灯具 | Bedside、Lounge、DeskStrip、CabinetStrip 四处外壳与独立被动表面；完成对应登记，未新增灯光或状态绑定 |
+| 条件书籍 | 没有已确认且不占用现有用途的允许位置，本批不新增；两处无指定收藏的小格留空 |
+| 后续版本 | v0.7/v0.8 未执行，未部署；用户视觉复核后仍须另行授权下一批 |
+
+冻结源仍为 **85 节点**；正常装配 **369 运行时节点 / 70 个可逆抑制 proxy mesh**，没有新增第十个交互入口。181 项严格保护输入与开工快照一致。现有产品源码仅变更 manifest/assembly，新增灯具静态 registry；装配修复防止不同资产到达顺序误隐藏共享锚点下的正式子模型。
+
+C 资源为 **2,336,368 B / 43,442 triangles / 66 primitives / 0 新图片**；全初始 GLB **6,998,924 B**。文件体积、实际绘制、软件渲染采样和纹理估算分开报告。 同条件 Hero calls 137→177，活动动作均值桌面约+10.02%、390触屏仿真约+11.18%；本批只回收严格零面积面，不宣称性能无回退。前置 2 MB / 约 55 primitives 工作目标未达到，不能把通过技术检查等同于无性能成本或真机达标；见 [资源账本](ASSET_BUDGETS.md)。
+
+C 开工 HEAD `c83ec37fa37911ab7aa09b7694fce0b6b42f9e5f` / main，当时 A/B 已由用户提交且工作区干净。非覆盖回退点 `../local-backups/v06c-start-20260918-190519/` 包含 1,510 个文件并逐项校验；详见 `validation/v06c/snapshot.json`。本轮没有 commit、push、依赖升级或部署。
+
+交付：[C 报告](V06C_COLLECTION_DECOR_REPORT.md)、[收藏格位表](V06C_COLLECTION_SLOT_MAP.md)、[灯具对应表](V06C_LIGHT_FIXTURE_MAPPING.md)、`assets-source/v06c/`、`validation/v06c/`。下列 B/A 原文是当时记录，其中“C 未开始”等表述不代表当前状态。
+
+---
+
+## B 批交付时的历史记录（原文保留，以下不是当前 C 状态）
+
 # v0.6 资产状态（2026-09-18，B 实施后）
 
 A：技术完成，视觉确认待用户。B：8 个家族已制作、接入且本轮技术验收通过；用户视觉确认待定，真实设备性能未验收。详细结果见 `V06B_INTERACTIVE_ASSETS_REPORT.md` 与 `validation/v06b/verification-summary.json`。C：未开始。

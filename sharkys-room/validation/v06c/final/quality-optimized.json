@@ -1,0 +1,39 @@
+{
+  "recordedAt": "2026-09-18T13:35:07.533083+00:00",
+  "scope": "Rerun after strict zero-area GLB cleanup; all exit codes collected from actual commands",
+  "results": [
+    {
+      "name": "verify:asset",
+      "command": "npm run verify:asset",
+      "exitCode": 0,
+      "log": "final/verify-asset-optimized.log",
+      "logSHA256": "f86cbd9cb336f8f6c3fb6946100684dc8388e5add9b593fa40266bb96cd56377",
+      "passed": 361,
+      "failed": 0
+    },
+    {
+      "name": "unit",
+      "command": "npm test",
+      "exitCode": 0,
+      "log": "final/unit-tests-optimized.log",
+      "logSHA256": "54f0f498fac87a15d22500e62f153829c1bdaaab1ce71c88593765c61c6f5e4c",
+      "passed": 283,
+      "failed": 0
+    },
+    {
+      "name": "typecheck",
+      "command": "npm run typecheck -- --incremental false",
+      "exitCode": 0,
+      "log": "final/typecheck-optimized.log",
+      "logSHA256": "be58bb9104f58136d18bbe1b9e71ad39fb2acb0b83308cc193c0891e19f0854c"
+    },
+    {
+      "name": "build",
+      "command": "npm run build",
+      "exitCode": 0,
+      "log": "final/build-optimized.log",
+      "logSHA256": "6cd0bed96521ccaefbf4021ad993d08a7ad9e3a2b22e149c58094be1d2b0c3d7",
+      "workdir": "/private/tmp/sharkys-v06c-production-optimized-20260918"
+    }
+  ]
+}

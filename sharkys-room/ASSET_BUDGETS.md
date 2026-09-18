@@ -1,6 +1,77 @@
 # v0.6 资产预算与加载策略
 
-> 历史记录说明（2026-09-18）：下文保留 A 批当时的范围、预算与实测，包含当时“B/C 未授权”的表述。B 现已按本轮独立授权实施；B 最终资源与同条件增量见 `V06B_INTERACTIVE_ASSETS_REPORT.md`、`validation/v06b/final/asset-budget-ledger-optimized.json` 和 `validation/v06b/performance-optimized/`。C 仍未开始。
+## 当前 C 文件实测（2026-09-18）
+
+C 已按本轮独立授权制作并登记13个家族；当前40个正式家族，加冻结 FINAL 共41个初始GLB。以下读取窗边植物修形及严格零面积清理后的实际导出文件，不引用旧审计的“B/C未开始”状态。文件核算和最终独占性能计量已完成；性能无明显回退项未通过，整批技术结果须与 `V06C_COLLECTION_DECOR_REPORT.md` 对应证据一起阅读，用户视觉仍待确认。
+
+依据：`validation/v06c/final/asset-budget-ledger-optimized.json`；复核命令 `ROOM_REQUIRE_ALL_C=1 node scripts/assets/inspect-decor-budgets.mjs`。脚本实际读取GLB JSON、accessor、图片头和物理字节，比较开工快照中原27家与FINAL的SHA；不以生成器统计替代实际文件。若写文件，使用 `--output` 指定新路径，现有证据不会被覆盖。
+
+| C家族 | GLB字节 | 三角面 | meshes / primitives | 材质定义 | 嵌入图片数 / 字节 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| eiffel | 364,112 | 5,996 | 3 / 3 | 3 | 0 / 0 |
+| hogwarts | 135,060 | 2,950 | 4 / 4 | 4 | 0 / 0 |
+| minastirith | 307,428 | 5,280 | 4 / 4 | 4 | 0 / 0 |
+| falcon | 113,052 | 1,916 | 4 / 4 | 4 | 0 / 0 |
+| bridge | 297,804 | 4,888 | 4 / 4 | 4 | 0 / 0 |
+| sls | 128,244 | 2,176 | 4 / 4 | 4 | 0 / 0 |
+| ferrari | 119,244 | 2,396 | 4 / 4 | 4 | 0 / 0 |
+| mercedes | 119,264 | 2,396 | 4 / 4 | 4 | 0 / 0 |
+| plants | 429,400 | 7,308 | 15 / 15 | 3 | 0 / 0 |
+| cola | 29,352 | 896 | 3 / 3 | 3 | 0 / 0 |
+| dog | 142,356 | 4,796 | 3 / 3 | 3 | 0 / 0 |
+| fixtures | 120,244 | 1,992 | 8 / 8 | 5 | 0 / 0 |
+| wallart | 30,808 | 452 | 6 / 6 | 6 | 0 / 0 |
+| **C合计** | **2,336,368** | **43,442** | **66 / 66** | **51** | **0 / 0** |
+
+每家UV和法线随GLB导出；C没有嵌入/外部图片、PNG输入或新增图片尺寸，也没有额外图片请求。C字节分解为容器/块头364 B、JSON及其padding 78,104 B、其余BIN（顶点、索引等和padding）2,257,900 B，合计2,336,368 B；不能把其余BIN笼统写成“纯几何”。
+
+Hogwarts、Bridge、Plants 的可编辑 `.blend` 保留原始拓扑，源三角面分别3,552 / 5,016 / 7,944；最终GLB经 `scripts/assets/v06c_mesh_cleanup.py` 导出后过滤严格零面积面，分别为2,950 / 4,888 / 7,308。共删1,366个退化三角形和1,054个未引用顶点，当前实际GLB比清理前账本减少31,896 B（2,368,264→2,336,368 B）；其余10家GLB保持原字节。当前 `.blend` 的统计与最终导出统计分列，不宣称源面数与最终GLB完全相同。
+
+清理后的13家有效三角POSITION/NORMAL/UV、winding、材质及节点/TRS与清理前精确相同，未用法线容差；全部当前GLB零面积面为0，证据为 `validation/v06c/final/post-cleanup-visible-geometry.json`。旧 `asset-budget-ledger.json` 与 `spec-source-review.json` 保留为清理前历史，不用它们覆盖本段当前数据。
+
+| 初始GLB构成 | 文件数 | 实际字节 |
+| --- | ---: | ---: |
+| 冻结FINAL | 1 | 411,892 |
+| v0.5旧三件 | 3 | 1,119,288 |
+| A | 16 | 2,375,692 |
+| B | 8 | 755,684 |
+| **C前真实基线** | **28** | **4,662,556** |
+| C新增 | 13 | 2,336,368 |
+| **C后初始GLB** | **41** | **6,998,924** |
+
+本批GLB增加 **2,336,368 B（+50.11%）**。旧27家正式GLB与FINAL字节/SHA不变，见 `validation/v06c/final/spec-source-review-optimized.json`。全初始库有148,284个mesh定义三角面和247个primitives，包含FINAL中供回退的旧proxy；这不是当前一帧可见三角面或draw calls。
+
+全初始GLB仍有18份旧嵌入图片、873,680 B；11种唯一图片内容529,203 B，跨GLB重复编码344,477 B。C新增重复图片字节为0；旧重复字节继续存在于实际响应中，不能从文件总量扣除。C零图片不能替代浏览器对纹理UUID、几何缓冲或GPU分配的实测。B四屏运行时Canvas及旧资产纹理不因本账本而改写。
+
+## C工作目标、审查线与性能未达项
+
+`assets-source/v06c/PRODUCTION_PLAN.md` 在制作前给出的内部工作目标是尽量≤65k triangles、≤2 MB和约≤55 primitives；这些不是用户已批准的产品硬上限。本次 **43,442 triangles在目标内，2,336,368 B比2 MB目标多336,368 B，66 primitives比55多11**，必须如实登记，不能写成全部预算达标。
+
+保留原C临时审查线：150k triangles、3 MB模型库增量、同Hero约+60 calls。当前文件/几何低于前两条审查线，最终同Hero实际增加40 calls，也低于+60 calls线；**66 primitives不是+66 calls，三条审查线以内也不能替代无明显性能回退验收**。多根植物与独立灯具表面保持可寻址，不用跨锚点/灯面合并来伪造低成本。
+
+全模型文件约6.999 MB仅为41个GLB未压缩载荷；原路线图5–8 MB关键路径仍需包括JS/CSS、HTTP压缩/缓存和实际加载策略一起测量，不能据此宣称网站首屏总量或互联网冷启动已达到目标。本批沿原初始并行家族校验/原子装配及失败回退方式，没有实现新的延后加载或降低全站画质。
+
+**最终独占性能完成21/21测量协议检查；性能无明显回退项未通过。** 三份原始记录分别为 `validation/v06c/baseline/performance.json`（B后基线）、`validation/v06c/performance/performance.json`（清理前C）及 `validation/v06c/performance-optimized/performance.json`（最终C）。最终模型SHA/字节与优化后账本一致。
+
+| 指标 | B后基线 | 清理前C | 最终C |
+| --- | ---: | ---: | ---: |
+| Hero calls（三尺寸一致） | 137 | 177 | 177 |
+| Hero triangles（三尺寸一致） | 100,256 | 143,108 | 141,742 |
+| 1440px Hero frameMs | 57.933 | 76.962 | 75.307 |
+| 768px Hero frameMs | 50.115 | 68.820 | 68.220 |
+| 390px Hero frameMs | 44.735 | 65.294 | 64.000 |
+| 桌面16动作等权mean ms | 42.786 | 47.050 | 47.074 |
+| 390px16动作等权mean ms | 25.095 | 28.284 | 27.901 |
+| 模型encodedBodySize B | 1,944,043 | 2,461,943 | 2,457,373 |
+| 模型transferSize B | 1,952,443 | 2,474,243 | 2,469,673 |
+
+最终Hero帧间隔较基线增加29.99% / 36.13% / 43.07%，桌面与390px活动mean增加10.02% / 11.18%。回收后Hero样本略低，但桌面活动mean略高、部分focus更高；有限单次SwiftShader软件样本没有统计置信区间，不支持“清理普遍改善性能”的因果结论。确定完成的是文件减少31,896 B、三角面减少1,366且有效表面精确未变，未消除较B基线的帧成本回退。
+
+最终正式资产texture UUID仍22、RGBA8+mip估算仍30,517,944 B，renderer texture计数23不变；这些不是实测VRAM。模型压缩网络也不是JS/CSS等全站首屏；本套件未计时首次ready，390px为触屏仿真而非真机。详细32动作mean/p95、8focus、环境和警告口径见 `validation/v06c/final/PERFORMANCE_COMPARISON.md`。保留当前已验几何，不任意删可见物件或跨独立表面合批；后续成本取舍需审阅外观和目标设备证据，本批不自动扩展范围。
+
+## 历史 A/B 记录范围
+
+B最终资源与当时同条件增量保存在 `V06B_INTERACTIVE_ASSETS_REPORT.md`、`validation/v06b/final/asset-budget-ledger-optimized.json` 和 `validation/v06b/performance-optimized/`。下文为A批当时的原始计划/实测，原“B/C未授权、未开始”文字仅描述历史时点，现时进度以上方C段与最新交付报告为准。保留历史数字及限制，不将其改写为C验收结果。
 
 本次只执行 A 批；B/C 尚未授权。以下审查线在建模前制定，最终实测另表记录，不将计划当成结果。大小统一按十进制 MB；内存同时明确字节与估算方法。
 

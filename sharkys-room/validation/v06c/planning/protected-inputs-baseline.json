@@ -1,0 +1,1956 @@
+{
+  "recordedAt": "2026-09-18T11:14:10.481509+00:00",
+  "purpose": "C protection baseline read from the actual full pre-C A/B workspace snapshot; not old audit or Git HEAD. This file is immutable baseline evidence, not a final unchanged claim.",
+  "snapshotDirectory": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/local-backups/v06c-start-20260918-190519",
+  "snapshotCreatedAt": "2026-09-18T19:05:19.893555+08:00",
+  "snapshotManifestSHA256": "e23ea19b2864cc26ae5d0f3fa3514103f7ce0dab03dfc984603d29ed822391cd",
+  "recordedArchiveSHA256": "51ffc98f5c027031a3745ca05101d01a2c4436cd3ee7ff402f7ee4b0cc1c519b",
+  "archiveHashCheckedByThisStep": false,
+  "scopeNotes": [
+    "Original FINAL, old3, A/B editable sources and exports, old generators, dependency files and historical reports must stay unchanged.",
+    "Shared pipeline files listed for review may receive only explicitly documented necessary C assembly/diagnostic changes; inclusion does not by itself authorize a change.",
+    "All other product source is hashed separately. Old3/A/B runtime screen and mechanism files remain in the strict protected category.",
+    "A subsequent final comparison must read current bytes again; these baseline SHA values do not prove later unchanged state."
+  ],
+  "summary": {
+    "frozen-editable-and-exported-source": {
+      "files": 5,
+      "baselineMatchesSnapshot": 5,
+      "changedOrMissing": []
+    },
+    "historical-reports": {
+      "files": 3,
+      "baselineMatchesSnapshot": 3,
+      "changedOrMissing": []
+    },
+    "dependencies-and-package": {
+      "files": 2,
+      "baselineMatchesSnapshot": 2,
+      "changedOrMissing": []
+    },
+    "protected-product-source": {
+      "files": 28,
+      "baselineMatchesSnapshot": 28,
+      "changedOrMissing": []
+    },
+    "old3-source-assets-specs-statistics": {
+      "files": 9,
+      "baselineMatchesSnapshot": 9,
+      "changedOrMissing": []
+    },
+    "AB-source-assets-specs-statistics": {
+      "files": 62,
+      "baselineMatchesSnapshot": 62,
+      "changedOrMissing": []
+    },
+    "old3-AB-editable-and-exported-assets": {
+      "files": 54,
+      "baselineMatchesSnapshot": 54,
+      "changedOrMissing": []
+    },
+    "shared-C-pipeline-review": {
+      "files": 7,
+      "baselineMatchesSnapshot": 7,
+      "changedOrMissing": []
+    },
+    "frozen-web-source": {
+      "files": 2,
+      "baselineMatchesSnapshot": 2,
+      "changedOrMissing": []
+    },
+    "existing-generators-and-budget-scripts": {
+      "files": 12,
+      "baselineMatchesSnapshot": 12,
+      "changedOrMissing": []
+    },
+    "B-delivery-ledgers-and-protection-proof": {
+      "files": 4,
+      "baselineMatchesSnapshot": 4,
+      "changedOrMissing": []
+    }
+  },
+  "fileCount": 188,
+  "baselineAllInputsMatchSnapshot": true,
+  "inputs": [
+    {
+      "path": "blockout_FINAL/sharkys_room_blockout_FINAL.blend",
+      "category": "frozen-editable-and-exported-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "snapshotBytes": 713580,
+      "baselineCurrentSHA256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "baselineCurrentBytes": 713580,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "blockout_FINAL/sharkys_room_blockout_FINAL.glb",
+      "category": "frozen-editable-and-exported-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "snapshotBytes": 411892,
+      "baselineCurrentSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "baselineCurrentBytes": 411892,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "blockout_FINAL/spatial_freeze_manifest.json",
+      "category": "frozen-editable-and-exported-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "6a57ff0ff4dfbb71127ddeb540edd97aa0d78ed3fe86ff2829b7de695f267f1f",
+      "snapshotBytes": 104396,
+      "baselineCurrentSHA256": "6a57ff0ff4dfbb71127ddeb540edd97aa0d78ed3fe86ff2829b7de695f267f1f",
+      "baselineCurrentBytes": 104396,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "blockout_FINAL/sharkys_room_blockout_FINAL_delivery/sharkys_room_blockout_FINAL.blend",
+      "category": "frozen-editable-and-exported-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "snapshotBytes": 713580,
+      "baselineCurrentSHA256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "baselineCurrentBytes": 713580,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "blockout_FINAL/sharkys_room_blockout_FINAL_delivery/sharkys_room_blockout_FINAL.glb",
+      "category": "frozen-editable-and-exported-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "snapshotBytes": 411892,
+      "baselineCurrentSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "baselineCurrentBytes": 411892,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/POST_V06_INTEGRATION_AUDIT.md",
+      "category": "historical-reports",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "0de879f88c65403d6444c54254b33d9dd84cf9e9514e4e6a5b7b5b02d4c80da0",
+      "snapshotBytes": 26945,
+      "baselineCurrentSHA256": "0de879f88c65403d6444c54254b33d9dd84cf9e9514e4e6a5b7b5b02d4c80da0",
+      "baselineCurrentBytes": 26945,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/V06A_ROOM_FURNITURE_REPORT.md",
+      "category": "historical-reports",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "0a0d27cdf0233797ccfdeb6cc256dab0299838dd48a15584b5190c1ceb4be236",
+      "snapshotBytes": 13736,
+      "baselineCurrentSHA256": "0a0d27cdf0233797ccfdeb6cc256dab0299838dd48a15584b5190c1ceb4be236",
+      "baselineCurrentBytes": 13736,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/V06B_INTERACTIVE_ASSETS_REPORT.md",
+      "category": "historical-reports",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "2789babee69dad1ebbd38b93d2c755041678d30f4afeff650c6b1becb52ba7f5",
+      "snapshotBytes": 28980,
+      "baselineCurrentSHA256": "2789babee69dad1ebbd38b93d2c755041678d30f4afeff650c6b1becb52ba7f5",
+      "baselineCurrentBytes": 28980,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/package-lock.json",
+      "category": "dependencies-and-package",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a6a6bf4ad9ed74bf14f56db1feb2223f5c30723dca176c0576bb4b5b4a5237be",
+      "snapshotBytes": 77332,
+      "baselineCurrentSHA256": "a6a6bf4ad9ed74bf14f56db1feb2223f5c30723dca176c0576bb4b5b4a5237be",
+      "baselineCurrentBytes": 77332,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/package.json",
+      "category": "dependencies-and-package",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "2f35018805732a465ad212b85eacdbacaa23cde167ca98ddee6b43d34d428175",
+      "snapshotBytes": 1365,
+      "baselineCurrentSHA256": "2f35018805732a465ad212b85eacdbacaa23cde167ca98ddee6b43d34d428175",
+      "baselineCurrentBytes": 1365,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/app/globals.css",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "1280f3334ed83eb015b379477939dc3c1786349ddb2a745b4a6e3adf9acc98f2",
+      "snapshotBytes": 5134,
+      "baselineCurrentSHA256": "1280f3334ed83eb015b379477939dc3c1786349ddb2a745b4a6e3adf9acc98f2",
+      "baselineCurrentBytes": 5134,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/app/icon.svg",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "44220e85ed569e24330b1ca44169270ca1aa1436ba8eac03ed7c36b84e20f0c2",
+      "snapshotBytes": 212,
+      "baselineCurrentSHA256": "44220e85ed569e24330b1ca44169270ca1aa1436ba8eac03ed7c36b84e20f0c2",
+      "baselineCurrentBytes": 212,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/app/layout.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "af7915cb3316095531447714011c35318a819b93e6b0c008c0a3269b17125c48",
+      "snapshotBytes": 378,
+      "baselineCurrentSHA256": "af7915cb3316095531447714011c35318a819b93e6b0c008c0a3269b17125c48",
+      "baselineCurrentBytes": 378,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/app/page.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "c1b0a5d73b0f9dadc4c8ce513c16fe27339b7822671cee0d1f4e9a44c2c6ab81",
+      "snapshotBytes": 104,
+      "baselineCurrentSHA256": "c1b0a5d73b0f9dadc4c8ce513c16fe27339b7822671cee0d1f4e9a44c2c6ab81",
+      "baselineCurrentBytes": 104,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/macbook/ASSET_SPEC.md",
+      "category": "old3-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "0cc8a58a758501ea244ed472d2a473f917148d34e1ca657c2c1ab8b2701c1ce3",
+      "snapshotBytes": 4839,
+      "baselineCurrentSHA256": "0cc8a58a758501ea244ed472d2a473f917148d34e1ca657c2c1ab8b2701c1ce3",
+      "baselineCurrentBytes": 4839,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/macbook/asset-statistics.json",
+      "category": "old3-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "6bb79e1654bb9eb0d4b569146a6640439216b61b4ff7a96312efd2689fcc49b8",
+      "snapshotBytes": 2170,
+      "baselineCurrentSHA256": "6bb79e1654bb9eb0d4b569146a6640439216b61b4ff7a96312efd2689fcc49b8",
+      "baselineCurrentBytes": 2170,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/macbook/screen-uv-contract.json",
+      "category": "old3-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a4b300b5e0f3664d4ea6fd85381fff077f5169d99a25a086ac6d2fb06aba7aed",
+      "snapshotBytes": 13109,
+      "baselineCurrentSHA256": "a4b300b5e0f3664d4ea6fd85381fff077f5169d99a25a086ac6d2fb06aba7aed",
+      "baselineCurrentBytes": 13109,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/marshall/ASSET_SPEC.md",
+      "category": "old3-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a35bb2a52b9f10faa588d33b5507308066d43d9aa05aaf6d28191d7db4e36d65",
+      "snapshotBytes": 4491,
+      "baselineCurrentSHA256": "a35bb2a52b9f10faa588d33b5507308066d43d9aa05aaf6d28191d7db4e36d65",
+      "baselineCurrentBytes": 4491,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/marshall/asset-statistics.json",
+      "category": "old3-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "d3847fe67c73ab2a6c4b3d72186821a8b6f8da3552a2337a34ddffe10f1e1d60",
+      "snapshotBytes": 1485,
+      "baselineCurrentSHA256": "d3847fe67c73ab2a6c4b3d72186821a8b6f8da3552a2337a34ddffe10f1e1d60",
+      "baselineCurrentBytes": 1485,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/marshall/woven_grille_basecolor_512.png",
+      "category": "old3-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "3b4f85955e41daecb59969f9e52f3452bbf04d593ecfe9e1fbf6f37579bfcb57",
+      "snapshotBytes": 430084,
+      "baselineCurrentSHA256": "3b4f85955e41daecb59969f9e52f3452bbf04d593ecfe9e1fbf6f37579bfcb57",
+      "baselineCurrentBytes": 430084,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/monitor/ASSET_SPEC.md",
+      "category": "old3-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "6ced75430f76b1fd3bf7745e58f4e71d6f81eb26e1f36ad37d8cec29b9652ccb",
+      "snapshotBytes": 4371,
+      "baselineCurrentSHA256": "6ced75430f76b1fd3bf7745e58f4e71d6f81eb26e1f36ad37d8cec29b9652ccb",
+      "baselineCurrentBytes": 4371,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/monitor/asset-statistics.json",
+      "category": "old3-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "880b19a720bd757160efadc1152fb00b87a3d2178ba46669b855a1a4442bacd3",
+      "snapshotBytes": 2148,
+      "baselineCurrentSHA256": "880b19a720bd757160efadc1152fb00b87a3d2178ba46669b855a1a4442bacd3",
+      "baselineCurrentBytes": 2148,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/monitor/screen-uv-contract.json",
+      "category": "old3-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "790a042d85a0e1008dfce52573a5a92d4525ff8db52c6921985194aa98467b10",
+      "snapshotBytes": 8917,
+      "baselineCurrentSHA256": "790a042d85a0e1008dfce52573a5a92d4525ff8db52c6921985194aa98467b10",
+      "baselineCurrentBytes": 8917,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/A_ARCHITECTURE_PLAN.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "c8afd2cb70741ea8e317fdd8adba90f05ada17c82d0a857b9bf633d854a63658",
+      "snapshotBytes": 9245,
+      "baselineCurrentSHA256": "c8afd2cb70741ea8e317fdd8adba90f05ada17c82d0a857b9bf633d854a63658",
+      "baselineCurrentBytes": 9245,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/architecture-export-audit.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "6027eb7e974d3df1b5a45f50fe4305ad66f3d6f92c2961cacd520ab9c83a19c0",
+      "snapshotBytes": 15409,
+      "baselineCurrentSHA256": "6027eb7e974d3df1b5a45f50fe4305ad66f3d6f92c2961cacd520ab9c83a19c0",
+      "baselineCurrentBytes": 15409,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/beanbag/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "1e521328202b69684d46766d33e984aac4c3785ddf623867f528dd02ea0d6700",
+      "snapshotBytes": 1405,
+      "baselineCurrentSHA256": "1e521328202b69684d46766d33e984aac4c3785ddf623867f528dd02ea0d6700",
+      "baselineCurrentBytes": 1405,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/beanbag/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "1b973e36bfcc8db05e19e26ba33724ac5ff368fca37a27c3c56ed0ca3a182a59",
+      "snapshotBytes": 1617,
+      "baselineCurrentSHA256": "1b973e36bfcc8db05e19e26ba33724ac5ff368fca37a27c3c56ed0ca3a182a59",
+      "baselineCurrentBytes": 1617,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/bed/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "2d78c0209db8c207c09833517d789f43c52f48cee18c7c3b4ad41ebccc479d8e",
+      "snapshotBytes": 1704,
+      "baselineCurrentSHA256": "2d78c0209db8c207c09833517d789f43c52f48cee18c7c3b4ad41ebccc479d8e",
+      "baselineCurrentBytes": 1704,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/bed/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "afe7a4783c6bc45621b49a248f1d6afab4bb71ba301a7c4ac17ecbc9ac1b42ab",
+      "snapshotBytes": 1975,
+      "baselineCurrentSHA256": "afe7a4783c6bc45621b49a248f1d6afab4bb71ba301a7c4ac17ecbc9ac1b42ab",
+      "baselineCurrentBytes": 1975,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/bedside/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "2120849814aa0410dbc9d234de8060772a66318074fc418b25458f287cd6903c",
+      "snapshotBytes": 1023,
+      "baselineCurrentSHA256": "2120849814aa0410dbc9d234de8060772a66318074fc418b25458f287cd6903c",
+      "baselineCurrentBytes": 1023,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/bedside/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "41ec2de0b37e3a41ca6de226f49f0a96d5353537bada38968ab74d992c283f1b",
+      "snapshotBytes": 1640,
+      "baselineCurrentSHA256": "41ec2de0b37e3a41ca6de226f49f0a96d5353537bada38968ab74d992c283f1b",
+      "baselineCurrentBytes": 1640,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/cabinet/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "aa99fa8691990821f5f51f0c49846edd0f9c9a12ee7d9d7be5fa9e1eb77b8d60",
+      "snapshotBytes": 4280,
+      "baselineCurrentSHA256": "aa99fa8691990821f5f51f0c49846edd0f9c9a12ee7d9d7be5fa9e1eb77b8d60",
+      "baselineCurrentBytes": 4280,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/cabinet/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "62cf9fe748303eb8fcc6de3be121832d630e4002a3d88929e466e0ac0aeec011",
+      "snapshotBytes": 9092,
+      "baselineCurrentSHA256": "62cf9fe748303eb8fcc6de3be121832d630e4002a3d88929e466e0ac0aeec011",
+      "baselineCurrentBytes": 9092,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/chair/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "700d586f3af2e5fcc91cde673ba1f1f10a2496f149295b26a164b0628d679e06",
+      "snapshotBytes": 1128,
+      "baselineCurrentSHA256": "700d586f3af2e5fcc91cde673ba1f1f10a2496f149295b26a164b0628d679e06",
+      "baselineCurrentBytes": 1128,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/chair/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "112f729b29f6f009a61954374e1c4a1b7cbe9c247b5adab061176d221f234a28",
+      "snapshotBytes": 1660,
+      "baselineCurrentSHA256": "112f729b29f6f009a61954374e1c4a1b7cbe9c247b5adab061176d221f234a28",
+      "baselineCurrentBytes": 1660,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/coffee/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "1c5e3cc2b14c7ae2c1b7de72d5fc37ee81d2b8ecf244bdb92b38173c950a97cf",
+      "snapshotBytes": 926,
+      "baselineCurrentSHA256": "1c5e3cc2b14c7ae2c1b7de72d5fc37ee81d2b8ecf244bdb92b38173c950a97cf",
+      "baselineCurrentBytes": 926,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/coffee/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a0be1fc96a063c53e96f09360df9b594d13b222c1e507dc718bd4667e044a0b0",
+      "snapshotBytes": 1630,
+      "baselineCurrentSHA256": "a0be1fc96a063c53e96f09360df9b594d13b222c1e507dc718bd4667e044a0b0",
+      "baselineCurrentBytes": 1630,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/curtains/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "b1527031e31e12816768a9222f7c589825c6db247d57374dc7a7aad3c168d1ae",
+      "snapshotBytes": 4089,
+      "baselineCurrentSHA256": "b1527031e31e12816768a9222f7c589825c6db247d57374dc7a7aad3c168d1ae",
+      "baselineCurrentBytes": 4089,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/curtains/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f55d8667681835900448b163e8b0c2547686491896819b025cf2fc9da8175c5e",
+      "snapshotBytes": 2190,
+      "baselineCurrentSHA256": "f55d8667681835900448b163e8b0c2547686491896819b025cf2fc9da8175c5e",
+      "baselineCurrentBytes": 2190,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/desk/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "fb9908a7ebd3f7fdf47d1699fa824a501acdb787319ec2207f087a673d8e9f89",
+      "snapshotBytes": 3817,
+      "baselineCurrentSHA256": "fb9908a7ebd3f7fdf47d1699fa824a501acdb787319ec2207f087a673d8e9f89",
+      "baselineCurrentBytes": 3817,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/desk/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "38b32b4f75fab58da86e506f3b283cfc202c65647fcaffabb8816f992a9c95e9",
+      "snapshotBytes": 3871,
+      "baselineCurrentSHA256": "38b32b4f75fab58da86e506f3b283cfc202c65647fcaffabb8816f992a9c95e9",
+      "baselineCurrentBytes": 3871,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/dogbed/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "bfdb04805d52882f841826ad8bf0e0777a674fd8cb2e01e426397a29f8b3d9bb",
+      "snapshotBytes": 1092,
+      "baselineCurrentSHA256": "bfdb04805d52882f841826ad8bf0e0777a674fd8cb2e01e426397a29f8b3d9bb",
+      "baselineCurrentBytes": 1092,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/dogbed/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "faa7543645a946bbfc134cc26537aa7bfbe29d13cc13b722e833c857950ec57a",
+      "snapshotBytes": 1783,
+      "baselineCurrentSHA256": "faa7543645a946bbfc134cc26537aa7bfbe29d13cc13b722e833c857950ec57a",
+      "baselineCurrentBytes": 1783,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/door/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "8f131b0d7497f8376b85b333108f37fc4fdbc2a75681c021ea2cb8a43c74438d",
+      "snapshotBytes": 3677,
+      "baselineCurrentSHA256": "8f131b0d7497f8376b85b333108f37fc4fdbc2a75681c021ea2cb8a43c74438d",
+      "baselineCurrentBytes": 3677,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/door/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "299f4d418fb61188ca55fce5c2093fa42eeecd760945236dce3f713a31af9b3a",
+      "snapshotBytes": 2328,
+      "baselineCurrentSHA256": "299f4d418fb61188ca55fce5c2093fa42eeecd760945236dce3f713a31af9b3a",
+      "baselineCurrentBytes": 2328,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/floor/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "7bae5a33787df515e7335fc77c30fad4b70ca2f72058e14ece102fe029a774e2",
+      "snapshotBytes": 3244,
+      "baselineCurrentSHA256": "7bae5a33787df515e7335fc77c30fad4b70ca2f72058e14ece102fe029a774e2",
+      "baselineCurrentBytes": 3244,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/floor/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f2934ee935c681c227e8589ffa60f92e70998f1b2d838191a1d17f65689c955b",
+      "snapshotBytes": 1632,
+      "baselineCurrentSHA256": "f2934ee935c681c227e8589ffa60f92e70998f1b2d838191a1d17f65689c955b",
+      "baselineCurrentBytes": 1632,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/rugs/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "89ad53d904644fb8d97e4e5591d020c4a750661b595804869bc47e75aaefd34c",
+      "snapshotBytes": 1074,
+      "baselineCurrentSHA256": "89ad53d904644fb8d97e4e5591d020c4a750661b595804869bc47e75aaefd34c",
+      "baselineCurrentBytes": 1074,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/rugs/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "1f8c087685fd95c5be77e485cc42976064adc2fb72dc58c77f8374c65261f463",
+      "snapshotBytes": 2462,
+      "baselineCurrentSHA256": "1f8c087685fd95c5be77e485cc42976064adc2fb72dc58c77f8374c65261f463",
+      "baselineCurrentBytes": 2462,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/TEXTURE_SOURCES.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "91281d4a5fc9756f3da223eb86fcc5b1f2d43a072983f99e3159554f76ce0f32",
+      "snapshotBytes": 3974,
+      "baselineCurrentSHA256": "91281d4a5fc9756f3da223eb86fcc5b1f2d43a072983f99e3159554f76ce0f32",
+      "baselineCurrentBytes": 3974,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/beanbagweave_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "4f2a56eb1a08eaf624357857e8e707db8e49415340716c92976d7e40b056d9ce",
+      "snapshotBytes": 5487,
+      "baselineCurrentSHA256": "4f2a56eb1a08eaf624357857e8e707db8e49415340716c92976d7e40b056d9ce",
+      "baselineCurrentBytes": 5487,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/bluegreybedding_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "ec96eae1e4096d17a378d8e8a3a374505f9926b208ea70082adb50980e070142",
+      "snapshotBytes": 5580,
+      "baselineCurrentSHA256": "ec96eae1e4096d17a378d8e8a3a374505f9926b208ea70082adb50980e070142",
+      "baselineCurrentBytes": 5580,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/chairfabric_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "1ffdf135362b3d70af1460af65bd140bf03c06c765e3c540180b4f1a6bbccc0e",
+      "snapshotBytes": 5269,
+      "baselineCurrentSHA256": "1ffdf135362b3d70af1460af65bd140bf03c06c765e3c540180b4f1a6bbccc0e",
+      "baselineCurrentBytes": 5269,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/dogbedcushion_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "74f9f6096c0e0d33e58b6b9af41b20139a0091a539d1d05789c9e05a3c48e33d",
+      "snapshotBytes": 6621,
+      "baselineCurrentSHA256": "74f9f6096c0e0d33e58b6b9af41b20139a0091a539d1d05789c9e05a3c48e33d",
+      "baselineCurrentBytes": 6621,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/dogbedupholstery_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "0837dc01ed2ed5d594b4a10aff7165f67ba27bb0fa59f30349619d9d0d29c856",
+      "snapshotBytes": 5410,
+      "baselineCurrentSHA256": "0837dc01ed2ed5d594b4a10aff7165f67ba27bb0fa59f30349619d9d0d29c856",
+      "baselineCurrentBytes": 5410,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/linen_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "4aa3363f53fd74eb46b39b3f24276141af71eafbacdbd4c4c17c561cb11d7b95",
+      "snapshotBytes": 5611,
+      "baselineCurrentSHA256": "4aa3363f53fd74eb46b39b3f24276141af71eafbacdbd4c4c17c561cb11d7b95",
+      "baselineCurrentBytes": 5611,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/rugborder_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "9a20caabf3bf927a5675a05f058f27fac68947081823e4a562752984af348290",
+      "snapshotBytes": 5276,
+      "baselineCurrentSHA256": "9a20caabf3bf927a5675a05f058f27fac68947081823e4a562752984af348290",
+      "baselineCurrentBytes": 5276,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/rugweave_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "63dd9a9ae3c5dd243cc754ed0b1a9755a7637198fa752e9d1dae38e9c13cf49d",
+      "snapshotBytes": 5302,
+      "baselineCurrentSHA256": "63dd9a9ae3c5dd243cc754ed0b1a9755a7637198fa752e9d1dae38e9c13cf49d",
+      "baselineCurrentBytes": 5302,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/taupeupholstery_weave_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "ab7696a2df3a7c5b324af96c745f49b0aac0b4968a747a1d22d8a2d45719d5f4",
+      "snapshotBytes": 5352,
+      "baselineCurrentSHA256": "ab7696a2df3a7c5b324af96c745f49b0aac0b4968a747a1d22d8a2d45719d5f4",
+      "baselineCurrentBytes": 5352,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/shared/warm_oak_basecolor_512.png",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+      "snapshotBytes": 49211,
+      "baselineCurrentSHA256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+      "baselineCurrentBytes": 49211,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/sidetable/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "e990b71f35fd52fae58d5f5efeedd81a8debaaf6a720064b83ad53dfc446f1e8",
+      "snapshotBytes": 980,
+      "baselineCurrentSHA256": "e990b71f35fd52fae58d5f5efeedd81a8debaaf6a720064b83ad53dfc446f1e8",
+      "baselineCurrentBytes": 980,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/sidetable/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "e6d8a2fc3a46fda8241316d5fa1bf59f56fa31db7563fd3e46c3f2681f3e1f21",
+      "snapshotBytes": 1644,
+      "baselineCurrentSHA256": "e6d8a2fc3a46fda8241316d5fa1bf59f56fa31db7563fd3e46c3f2681f3e1f21",
+      "baselineCurrentBytes": 1644,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/sofa/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "751ea966d8bb83c3080bba59c0da1753ba2ebb86a755bd9b2e64879fe8abd006",
+      "snapshotBytes": 1308,
+      "baselineCurrentSHA256": "751ea966d8bb83c3080bba59c0da1753ba2ebb86a755bd9b2e64879fe8abd006",
+      "baselineCurrentBytes": 1308,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/sofa/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "55b8b3bcbb9a0f3367217a45c2c1ca1e6d30c36eee730a308116dd7070f46082",
+      "snapshotBytes": 1651,
+      "baselineCurrentSHA256": "55b8b3bcbb9a0f3367217a45c2c1ca1e6d30c36eee730a308116dd7070f46082",
+      "baselineCurrentBytes": 1651,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/walls/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "7bb3a78483f8f919fd16f4e3f800b381e3e2693f565a5ee61af25689bfe3b751",
+      "snapshotBytes": 3616,
+      "baselineCurrentSHA256": "7bb3a78483f8f919fd16f4e3f800b381e3e2693f565a5ee61af25689bfe3b751",
+      "baselineCurrentBytes": 3616,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/walls/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "cb4cbc816c35c571fc9d7489f4fcc2ba471c02a23c3fc8da227edc6a14143897",
+      "snapshotBytes": 2095,
+      "baselineCurrentSHA256": "cb4cbc816c35c571fc9d7489f4fcc2ba471c02a23c3fc8da227edc6a14143897",
+      "baselineCurrentBytes": 2095,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/window/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a6221dbb2fb1abf2c1c2bccdf9f37f07a4e69321a0fbe65543ad030e33eff2d8",
+      "snapshotBytes": 3511,
+      "baselineCurrentSHA256": "a6221dbb2fb1abf2c1c2bccdf9f37f07a4e69321a0fbe65543ad030e33eff2d8",
+      "baselineCurrentBytes": 3511,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06a/window/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "9416fa20d78afc847ca112299085616bc86e366523d84b6a126b1ccab7cbd63f",
+      "snapshotBytes": 1485,
+      "baselineCurrentSHA256": "9416fa20d78afc847ca112299085616bc86e366523d84b6a126b1ccab7cbd63f",
+      "baselineCurrentBytes": 1485,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/PRODUCTION_PLAN.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "aff7660a6ac1af449dcbfb5bf4d089fb992ea9fc5c2015f8637dc9660b77da66",
+      "snapshotBytes": 1371,
+      "baselineCurrentSHA256": "aff7660a6ac1af449dcbfb5bf4d089fb992ea9fc5c2015f8637dc9660b77da66",
+      "baselineCurrentBytes": 1371,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/headphones/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "48690902a33745c7d2d23c5852f41567ff0080ed0a300fcee74dd7b255216ea1",
+      "snapshotBytes": 1144,
+      "baselineCurrentSHA256": "48690902a33745c7d2d23c5852f41567ff0080ed0a300fcee74dd7b255216ea1",
+      "baselineCurrentBytes": 1144,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/headphones/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "158fb3bf02aa74b602610687a44c9051ff6db6d5c7b4688227ed493c004a1fac",
+      "snapshotBytes": 1412,
+      "baselineCurrentSHA256": "158fb3bf02aa74b602610687a44c9051ff6db6d5c7b4688227ed493c004a1fac",
+      "baselineCurrentBytes": 1412,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/ipad/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "ff92429c252083dcd1b53fc26168bc9c0eb4d10bc8f5b88c011697bb4e1e9706",
+      "snapshotBytes": 1419,
+      "baselineCurrentSHA256": "ff92429c252083dcd1b53fc26168bc9c0eb4d10bc8f5b88c011697bb4e1e9706",
+      "baselineCurrentBytes": 1419,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/ipad/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "3a9ee3b6c5953d73cf34181a812c257d602684a2e2534fbeae5a2b053d885b90",
+      "snapshotBytes": 1375,
+      "baselineCurrentSHA256": "3a9ee3b6c5953d73cf34181a812c257d602684a2e2534fbeae5a2b053d885b90",
+      "baselineCurrentBytes": 1375,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/keyboard/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "41bf48d3d2b28b3ae172c7ffcadc085bb89067d3b68bf48125a71d000ff7f2c0",
+      "snapshotBytes": 1507,
+      "baselineCurrentSHA256": "41bf48d3d2b28b3ae172c7ffcadc085bb89067d3b68bf48125a71d000ff7f2c0",
+      "baselineCurrentBytes": 1507,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/keyboard/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "6edee6d7803fc4f9a263b17258cf3c1de4d285cc04919bf9bc770c685da9ab26",
+      "snapshotBytes": 1398,
+      "baselineCurrentSHA256": "6edee6d7803fc4f9a263b17258cf3c1de4d285cc04919bf9bc770c685da9ab26",
+      "baselineCurrentBytes": 1398,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/lightswitch/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "6e2bb809a2afc54e4d16a48ee68c0e72b7e15e29a6d42c77ec1209fa53a9891e",
+      "snapshotBytes": 1319,
+      "baselineCurrentSHA256": "6e2bb809a2afc54e4d16a48ee68c0e72b7e15e29a6d42c77ec1209fa53a9891e",
+      "baselineCurrentBytes": 1319,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/lightswitch/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "699ade1b067ab90a55138cdf6c638b4599571fab4e757ba657e95205b5a624fa",
+      "snapshotBytes": 2125,
+      "baselineCurrentSHA256": "699ade1b067ab90a55138cdf6c638b4599571fab4e757ba657e95205b5a624fa",
+      "baselineCurrentBytes": 2125,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/mouse/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "1ae144b8741794b27b332cdf155fa45f1d5ccbe809599259359b58ee014296f2",
+      "snapshotBytes": 1272,
+      "baselineCurrentSHA256": "1ae144b8741794b27b332cdf155fa45f1d5ccbe809599259359b58ee014296f2",
+      "baselineCurrentBytes": 1272,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/mouse/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f0afd0aafaa92282cac110a4fe65ba7b48d6c42c66565a8d4d6f1f853ed98d9d",
+      "snapshotBytes": 1383,
+      "baselineCurrentSHA256": "f0afd0aafaa92282cac110a4fe65ba7b48d6c42c66565a8d4d6f1f853ed98d9d",
+      "baselineCurrentBytes": 1383,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/phone/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "24954d29f389408ef31acad38eacd4896d9494009a35d3f1eb93cde629672a16",
+      "snapshotBytes": 1629,
+      "baselineCurrentSHA256": "24954d29f389408ef31acad38eacd4896d9494009a35d3f1eb93cde629672a16",
+      "baselineCurrentBytes": 1629,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/phone/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "2e1e7e1c74620d6b95c905b5c99a335157c5266161d3feedcd276fd164e06e84",
+      "snapshotBytes": 1393,
+      "baselineCurrentSHA256": "2e1e7e1c74620d6b95c905b5c99a335157c5266161d3feedcd276fd164e06e84",
+      "baselineCurrentBytes": 1393,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/piano/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "38cf13d3b2c2f35993e00bdfa08db6a38741613400097952d38b74be6f93138d",
+      "snapshotBytes": 2038,
+      "baselineCurrentSHA256": "38cf13d3b2c2f35993e00bdfa08db6a38741613400097952d38b74be6f93138d",
+      "baselineCurrentBytes": 2038,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/piano/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "8a71ed202d3cfbadc8d32524f2f5b8fce992ab8255cde86fde3e6442b836bc56",
+      "snapshotBytes": 2100,
+      "baselineCurrentSHA256": "8a71ed202d3cfbadc8d32524f2f5b8fce992ab8255cde86fde3e6442b836bc56",
+      "baselineCurrentBytes": 2100,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/trashcan/ASSET_SPEC.md",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "8a9e3b4561c46cd3bce698362f8365bf1e0f38233e4dc832a8957e02b805c51f",
+      "snapshotBytes": 1171,
+      "baselineCurrentSHA256": "8a9e3b4561c46cd3bce698362f8365bf1e0f38233e4dc832a8957e02b805c51f",
+      "baselineCurrentBytes": 1171,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/assets-source/v06b/trashcan/asset-statistics.json",
+      "category": "AB-source-assets-specs-statistics",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "04435c3df7f9fce4d9b320f895462b6270822026c08c4eae536c1ed48635a930",
+      "snapshotBytes": 2056,
+      "baselineCurrentSHA256": "04435c3df7f9fce4d9b320f895462b6270822026c08c4eae536c1ed48635a930",
+      "baselineCurrentBytes": 2056,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/beanbag_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "caf2d7786410a7757bebd856dee0e229c9b42cf1b6958f3c3749da4378312711",
+      "snapshotBytes": 116602,
+      "baselineCurrentSHA256": "caf2d7786410a7757bebd856dee0e229c9b42cf1b6958f3c3749da4378312711",
+      "baselineCurrentBytes": 116602,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/bed_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a4a8c0d496f3cd1353dbda3277326c31ac9cd71e374b0dcad0a86cb82ba77036",
+      "snapshotBytes": 260641,
+      "baselineCurrentSHA256": "a4a8c0d496f3cd1353dbda3277326c31ac9cd71e374b0dcad0a86cb82ba77036",
+      "baselineCurrentBytes": 260641,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/bedside_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "ad8293e76f74a9e52c771ad6eeda92c72357c2fb04b09b40531de4b009c0a3c2",
+      "snapshotBytes": 173249,
+      "baselineCurrentSHA256": "ad8293e76f74a9e52c771ad6eeda92c72357c2fb04b09b40531de4b009c0a3c2",
+      "baselineCurrentBytes": 173249,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/cabinet_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "d0ff6bce668902aed3435dbfab2c4ed0c0dd68b192430804f6c9f9e86d73ef5d",
+      "snapshotBytes": 212011,
+      "baselineCurrentSHA256": "d0ff6bce668902aed3435dbfab2c4ed0c0dd68b192430804f6c9f9e86d73ef5d",
+      "baselineCurrentBytes": 212011,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/chair_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "9ae9a1f44676e374f0fb86067649b40ee04bf7e427c5381bea527543cd7172c9",
+      "snapshotBytes": 186584,
+      "baselineCurrentSHA256": "9ae9a1f44676e374f0fb86067649b40ee04bf7e427c5381bea527543cd7172c9",
+      "baselineCurrentBytes": 186584,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/coffee_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "ef304bf634d17eb023fd460a94122a3b3ec4d2fa0cffb52502e62f59d9ad0c17",
+      "snapshotBytes": 160975,
+      "baselineCurrentSHA256": "ef304bf634d17eb023fd460a94122a3b3ec4d2fa0cffb52502e62f59d9ad0c17",
+      "baselineCurrentBytes": 160975,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/curtains_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "8f3e3dc1c83eea03e31dc2d2d80f1cb16d1ec82958d203186418deff102ac7d2",
+      "snapshotBytes": 144144,
+      "baselineCurrentSHA256": "8f3e3dc1c83eea03e31dc2d2d80f1cb16d1ec82958d203186418deff102ac7d2",
+      "baselineCurrentBytes": 144144,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/desk_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f82bbbc93e30cf673552ca66ffea79ff96b513340c1b9aaa10e8dc58cab93a66",
+      "snapshotBytes": 204810,
+      "baselineCurrentSHA256": "f82bbbc93e30cf673552ca66ffea79ff96b513340c1b9aaa10e8dc58cab93a66",
+      "baselineCurrentBytes": 204810,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/dogbed_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "e98d4498738ada9bf76fb36de4f9b34561656267f5c391383a44a4c47d818216",
+      "snapshotBytes": 125702,
+      "baselineCurrentSHA256": "e98d4498738ada9bf76fb36de4f9b34561656267f5c391383a44a4c47d818216",
+      "baselineCurrentBytes": 125702,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/door_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "860b74a4f055659f85ca706a6bbfe5ab31e22fd0bcc6ab5bd3afcce3b2c6de5e",
+      "snapshotBytes": 180174,
+      "baselineCurrentSHA256": "860b74a4f055659f85ca706a6bbfe5ab31e22fd0bcc6ab5bd3afcce3b2c6de5e",
+      "baselineCurrentBytes": 180174,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/floor_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "cee4f2e65ef1e926d058a23505d06205502b4e79d2c78a14e4d7512de04b40f3",
+      "snapshotBytes": 283532,
+      "baselineCurrentSHA256": "cee4f2e65ef1e926d058a23505d06205502b4e79d2c78a14e4d7512de04b40f3",
+      "baselineCurrentBytes": 283532,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/headphones_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "7f6771d0dc81435b93ddeb266ae3d0e4fd32e630757cc065e470fdfb2900abf9",
+      "snapshotBytes": 131793,
+      "baselineCurrentSHA256": "7f6771d0dc81435b93ddeb266ae3d0e4fd32e630757cc065e470fdfb2900abf9",
+      "baselineCurrentBytes": 131793,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/ipad_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "0ec8a7d39a645d72188066777a41dab0128ba563618686d66d0a293b4272085a",
+      "snapshotBytes": 111267,
+      "baselineCurrentSHA256": "0ec8a7d39a645d72188066777a41dab0128ba563618686d66d0a293b4272085a",
+      "baselineCurrentBytes": 111267,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/keyboard_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "d8845bc70f989e40d161c079c1398081017fe0178b6f20bb04c6f4fb86f124e7",
+      "snapshotBytes": 148778,
+      "baselineCurrentSHA256": "d8845bc70f989e40d161c079c1398081017fe0178b6f20bb04c6f4fb86f124e7",
+      "baselineCurrentBytes": 148778,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/lightswitch_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "3cb4e2d557719902f26737e495f381993486b416ada1b1ea1e497309f2ce587b",
+      "snapshotBytes": 108992,
+      "baselineCurrentSHA256": "3cb4e2d557719902f26737e495f381993486b416ada1b1ea1e497309f2ce587b",
+      "baselineCurrentBytes": 108992,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/macbook_pilot.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "5622096fcc53bf675e30f24ac0a6ba968fa1a577a3740150e5822cd61fa14261",
+      "snapshotBytes": 283600,
+      "baselineCurrentSHA256": "5622096fcc53bf675e30f24ac0a6ba968fa1a577a3740150e5822cd61fa14261",
+      "baselineCurrentBytes": 283600,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/marshall_pilot.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "b66e3236c6ffa064cc45343f74afbe4c20bc390ed0388f6735cd0221d5ab935f",
+      "snapshotBytes": 599495,
+      "baselineCurrentSHA256": "b66e3236c6ffa064cc45343f74afbe4c20bc390ed0388f6735cd0221d5ab935f",
+      "baselineCurrentBytes": 599495,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/monitor_pilot.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "c1d55f0366ea1d8027b9031d32d1b076bca4b0d553a261270a7fb101d43ca6ac",
+      "snapshotBytes": 153805,
+      "baselineCurrentSHA256": "c1d55f0366ea1d8027b9031d32d1b076bca4b0d553a261270a7fb101d43ca6ac",
+      "baselineCurrentBytes": 153805,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/mouse_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "852e52f9adfccf9b013d2240378198fd9bac575a02f7a03b39484f808d05e5b8",
+      "snapshotBytes": 127341,
+      "baselineCurrentSHA256": "852e52f9adfccf9b013d2240378198fd9bac575a02f7a03b39484f808d05e5b8",
+      "baselineCurrentBytes": 127341,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/phone_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "36ca8ca6c352e9bb5958ae5e9bc1892bea06d95436ecb3a15bdb0855679f0199",
+      "snapshotBytes": 120622,
+      "baselineCurrentSHA256": "36ca8ca6c352e9bb5958ae5e9bc1892bea06d95436ecb3a15bdb0855679f0199",
+      "baselineCurrentBytes": 120622,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/piano_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "85ecbbb60d1fb114e27336f0e782e3e8eef9938723763e5d25c66b88f992b527",
+      "snapshotBytes": 162210,
+      "baselineCurrentSHA256": "85ecbbb60d1fb114e27336f0e782e3e8eef9938723763e5d25c66b88f992b527",
+      "baselineCurrentBytes": 162210,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/rugs_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "4e84dc4f36904acae552908d237088392f03ece760ec4b66f5cc3cc2b0c62e24",
+      "snapshotBytes": 115570,
+      "baselineCurrentSHA256": "4e84dc4f36904acae552908d237088392f03ece760ec4b66f5cc3cc2b0c62e24",
+      "baselineCurrentBytes": 115570,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/sidetable_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "95b4ab9cb752088abe96994c8c3a645534909b634f2b32c01fab978c606ca98b",
+      "snapshotBytes": 164899,
+      "baselineCurrentSHA256": "95b4ab9cb752088abe96994c8c3a645534909b634f2b32c01fab978c606ca98b",
+      "baselineCurrentBytes": 164899,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/sofa_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a753addc7e76260b73b0f0db43377beba31b72e63b9f30410a70ed4452258bfb",
+      "snapshotBytes": 186283,
+      "baselineCurrentSHA256": "a753addc7e76260b73b0f0db43377beba31b72e63b9f30410a70ed4452258bfb",
+      "baselineCurrentBytes": 186283,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/trashcan_v06b.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "d1853da0b978c9fb3ad0ddc255219a4a55f07fb89fc79e7422733e83f4a0544c",
+      "snapshotBytes": 123049,
+      "baselineCurrentSHA256": "d1853da0b978c9fb3ad0ddc255219a4a55f07fb89fc79e7422733e83f4a0544c",
+      "baselineCurrentBytes": 123049,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/walls_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "073f64812fcbf154747e0fb381105ee9782038291172bcd04d321539da34c552",
+      "snapshotBytes": 113708,
+      "baselineCurrentSHA256": "073f64812fcbf154747e0fb381105ee9782038291172bcd04d321539da34c552",
+      "baselineCurrentBytes": 113708,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/blender-assets/window_v06a.blend",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "39ec2ad7dea0c9ef4209a40909cb14d829c0ef0ed4a705676e0e084a73a11216",
+      "snapshotBytes": 128553,
+      "baselineCurrentSHA256": "39ec2ad7dea0c9ef4209a40909cb14d829c0ef0ed4a705676e0e084a73a11216",
+      "baselineCurrentBytes": 128553,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/CameraController.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "84b03a96361bc11afe3a37783d5dc050c818498f5d2a657019b48af3fe6dd820",
+      "snapshotBytes": 1302,
+      "baselineCurrentSHA256": "84b03a96361bc11afe3a37783d5dc050c818498f5d2a657019b48af3fe6dd820",
+      "baselineCurrentBytes": 1302,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/DebugBridge.tsx",
+      "category": "shared-C-pipeline-review",
+      "changePolicy": "changes-require-explicit-C-scope-and-regression-review",
+      "snapshotSHA256": "41801cb50b7e24e744c56e3b05dd1957d33de43b8ebc877052d1cc4cc2314524",
+      "snapshotBytes": 3263,
+      "baselineCurrentSHA256": "41801cb50b7e24e744c56e3b05dd1957d33de43b8ebc877052d1cc4cc2314524",
+      "baselineCurrentBytes": 3263,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/DebugPanel.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "0c6c58701eba5123a9230f1fac78cf7915307a88114eef585536524edef0486e",
+      "snapshotBytes": 1986,
+      "baselineCurrentSHA256": "0c6c58701eba5123a9230f1fac78cf7915307a88114eef585536524edef0486e",
+      "baselineCurrentBytes": 1986,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/HeroCamera.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "1782252fc9facbafec82497b7f3a81b9e1aaba055ea986de5947c5506ac9b35b",
+      "snapshotBytes": 855,
+      "baselineCurrentSHA256": "1782252fc9facbafec82497b7f3a81b9e1aaba055ea986de5947c5506ac9b35b",
+      "baselineCurrentBytes": 855,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/HoverHighlight.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "213de681315bb19e40dfa34e4050850a643d09ee899561847a947c57487af208",
+      "snapshotBytes": 1700,
+      "baselineCurrentSHA256": "213de681315bb19e40dfa34e4050850a643d09ee899561847a947c57487af208",
+      "baselineCurrentBytes": 1700,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/InteractionManager.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "024415e50d67e1f3002688a4289f4c13cb9c58ce48bfac42fca1cffa1d5939a1",
+      "snapshotBytes": 876,
+      "baselineCurrentSHA256": "024415e50d67e1f3002688a4289f4c13cb9c58ce48bfac42fca1cffa1d5939a1",
+      "baselineCurrentBytes": 876,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/InteractionOverlay.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "81eed1e9e83a38ecc9cd05892f4a2820ad011c2b440c5d4a69173a5f3a3bee8b",
+      "snapshotBytes": 3586,
+      "baselineCurrentSHA256": "81eed1e9e83a38ecc9cd05892f4a2820ad011c2b440c5d4a69173a5f3a3bee8b",
+      "baselineCurrentBytes": 3586,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/LoadingScreen.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "5fc0469cb5cc7d039b36846a71da8ab778a7d81a8b6ea25d8f4201af092b54d4",
+      "snapshotBytes": 574,
+      "baselineCurrentSHA256": "5fc0469cb5cc7d039b36846a71da8ab778a7d81a8b6ea25d8f4201af092b54d4",
+      "baselineCurrentBytes": 574,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/PianoRetractedHitArea.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "7b8030ebcf58578dc2efcc14aa9b59a544b22c0b7f5fa4f299b987ee0a4980ae",
+      "snapshotBytes": 665,
+      "baselineCurrentSHA256": "7b8030ebcf58578dc2efcc14aa9b59a544b22c0b7f5fa4f299b987ee0a4980ae",
+      "baselineCurrentBytes": 665,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/RoomApp.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "4ff87b8b1c726862b3fabb08278937ce9ad89df22f2d1cd35e30590a46e318c3",
+      "snapshotBytes": 5594,
+      "baselineCurrentSHA256": "4ff87b8b1c726862b3fabb08278937ce9ad89df22f2d1cd35e30590a46e318c3",
+      "baselineCurrentBytes": 5594,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/RoomCanvas.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "b46a8ca278d2c1bcd2b1d4c437ee8fb80619b7e069c4e3f25e94e2a876ed885d",
+      "snapshotBytes": 2082,
+      "baselineCurrentSHA256": "b46a8ca278d2c1bcd2b1d4c437ee8fb80619b7e069c4e3f25e94e2a876ed885d",
+      "baselineCurrentBytes": 2082,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/RoomModel.tsx",
+      "category": "shared-C-pipeline-review",
+      "changePolicy": "changes-require-explicit-C-scope-and-regression-review",
+      "snapshotSHA256": "62eeed2a3b386149ed8744504959ed3f823a33140fb837a585c804e93cafdc75",
+      "snapshotBytes": 725,
+      "baselineCurrentSHA256": "62eeed2a3b386149ed8744504959ed3f823a33140fb837a585c804e93cafdc75",
+      "baselineCurrentBytes": 725,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/components/room/RoomScene.tsx",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "fada704dcb614a81b3a8baec4c47708ccb762c84852473cc3fa3a4aa9fc0e6e1",
+      "snapshotBytes": 4218,
+      "baselineCurrentSHA256": "fada704dcb614a81b3a8baec4c47708ccb762c84852473cc3fa3a4aa9fc0e6e1",
+      "baselineCurrentBytes": 4218,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/animationConstants.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "16518a245a20eeb1e21cb89ee53f0098490c953c5764583103738c4a25bdaee2",
+      "snapshotBytes": 875,
+      "baselineCurrentSHA256": "16518a245a20eeb1e21cb89ee53f0098490c953c5764583103738c4a25bdaee2",
+      "baselineCurrentBytes": 875,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/cameraAnimation.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "198fc2b4a69954bd247f91f3028316808b30b3288e45a12f9a5d0aa0e9a32bd4",
+      "snapshotBytes": 4098,
+      "baselineCurrentSHA256": "198fc2b4a69954bd247f91f3028316808b30b3288e45a12f9a5d0aa0e9a32bd4",
+      "baselineCurrentBytes": 4098,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/debugHitTest.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "fdf4f5ab3c40653cc204503299a945327a38f3ee3226797b23661211f143ab5b",
+      "snapshotBytes": 1241,
+      "baselineCurrentSHA256": "fdf4f5ab3c40653cc204503299a945327a38f3ee3226797b23661211f143ab5b",
+      "baselineCurrentBytes": 1241,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/diagnostics.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "c0ef461369ee95678c0977e87cde157fd91244893c657bb3eed23c835859b438",
+      "snapshotBytes": 5041,
+      "baselineCurrentSHA256": "c0ef461369ee95678c0977e87cde157fd91244893c657bb3eed23c835859b438",
+      "baselineCurrentBytes": 5041,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/focusViews.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "8eb938d0fe9420a52374f293378b8fff37526b8522c71ba0fd48b6614dd0bdaf",
+      "snapshotBytes": 2766,
+      "baselineCurrentSHA256": "8eb938d0fe9420a52374f293378b8fff37526b8522c71ba0fd48b6614dd0bdaf",
+      "baselineCurrentBytes": 2766,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/frozenSceneManifest.json",
+      "category": "frozen-web-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "84b793cdaba786d647ccde41e4c653ef64a4bcf3d0afd9d693f49a0064521f53",
+      "snapshotBytes": 27894,
+      "baselineCurrentSHA256": "84b793cdaba786d647ccde41e4c653ef64a4bcf3d0afd9d693f49a0064521f53",
+      "baselineCurrentBytes": 27894,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/interactionState.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "ad490e983cafbe51b76172c1ef3a956ae66d17bf9ccc1bfa81084ddea21cbfa1",
+      "snapshotBytes": 7058,
+      "baselineCurrentSHA256": "ad490e983cafbe51b76172c1ef3a956ae66d17bf9ccc1bfa81084ddea21cbfa1",
+      "baselineCurrentBytes": 7058,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/interactiveObjects.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "6ce9b8f83b27e2a681c854cbab5e7bc530056557c1d250a1be11259915e536c5",
+      "snapshotBytes": 2322,
+      "baselineCurrentSHA256": "6ce9b8f83b27e2a681c854cbab5e7bc530056557c1d250a1be11259915e536c5",
+      "baselineCurrentBytes": 2322,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/mechanisms.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "4ce8537211d7dd28d1c11deb8ac6297cc22971b68c650c6daae58923026abd56",
+      "snapshotBytes": 14850,
+      "baselineCurrentSHA256": "4ce8537211d7dd28d1c11deb8ac6297cc22971b68c650c6daae58923026abd56",
+      "baselineCurrentBytes": 14850,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/pianoInteraction.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "c87f22e59d153fb49d2972acf4387c3c10b88b5a593657c322aa0da1b995c757",
+      "snapshotBytes": 727,
+      "baselineCurrentSHA256": "c87f22e59d153fb49d2972acf4387c3c10b88b5a593657c322aa0da1b995c757",
+      "baselineCurrentBytes": 727,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/sceneConstants.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "4218f7cf600663a773cf3fcadba4795510c1e896ee3da67c63c1af13457d449c",
+      "snapshotBytes": 787,
+      "baselineCurrentSHA256": "4218f7cf600663a773cf3fcadba4795510c1e896ee3da67c63c1af13457d449c",
+      "baselineCurrentBytes": 787,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/visibleHitPoints.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "cb47b7fe0c22c4a4bfc6952abeddc44352dce8298093f1082f4c8938b01fc3fd",
+      "snapshotBytes": 2751,
+      "baselineCurrentSHA256": "cb47b7fe0c22c4a4bfc6952abeddc44352dce8298093f1082f4c8938b01fc3fd",
+      "baselineCurrentBytes": 2751,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/assetAssembly.ts",
+      "category": "shared-C-pipeline-review",
+      "changePolicy": "changes-require-explicit-C-scope-and-regression-review",
+      "snapshotSHA256": "37c8b1183f406f692fe2beefcfd2570779bfbb96cef7c4c25685f8943951d18e",
+      "snapshotBytes": 14611,
+      "baselineCurrentSHA256": "37c8b1183f406f692fe2beefcfd2570779bfbb96cef7c4c25685f8943951d18e",
+      "baselineCurrentBytes": 14611,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/assetDiagnostics.ts",
+      "category": "shared-C-pipeline-review",
+      "changePolicy": "changes-require-explicit-C-scope-and-regression-review",
+      "snapshotSHA256": "be188f38d61e553e450ae130d319a05b76e225aca44fd44e8268863f61d9eede",
+      "snapshotBytes": 2286,
+      "baselineCurrentSHA256": "be188f38d61e553e450ae130d319a05b76e225aca44fd44e8268863f61d9eede",
+      "baselineCurrentBytes": 2286,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/assetManifest.ts",
+      "category": "shared-C-pipeline-review",
+      "changePolicy": "changes-require-explicit-C-scope-and-regression-review",
+      "snapshotSHA256": "7f5e78fa47bb58e459436fedb6d9b19022d3576d6595d0c2000f57cd3c1794fb",
+      "snapshotBytes": 7950,
+      "baselineCurrentSHA256": "7f5e78fa47bb58e459436fedb6d9b19022d3576d6595d0c2000f57cd3c1794fb",
+      "baselineCurrentBytes": 7950,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/loadProductionAssets.ts",
+      "category": "shared-C-pipeline-review",
+      "changePolicy": "changes-require-explicit-C-scope-and-regression-review",
+      "snapshotSHA256": "1c382a82d0c292ecac187c1bafdd2f2156ee42f64320218a66df1a6b0db3ab7a",
+      "snapshotBytes": 2445,
+      "baselineCurrentSHA256": "1c382a82d0c292ecac187c1bafdd2f2156ee42f64320218a66df1a6b0db3ab7a",
+      "baselineCurrentBytes": 2445,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/resourceOwnership.ts",
+      "category": "shared-C-pipeline-review",
+      "changePolicy": "changes-require-explicit-C-scope-and-regression-review",
+      "snapshotSHA256": "8d732851ff8c6a75cc5673ab78b94b17ec83f4a12218ced92dbc8f90d9d69661",
+      "snapshotBytes": 1294,
+      "baselineCurrentSHA256": "8d732851ff8c6a75cc5673ab78b94b17ec83f4a12218ced92dbc8f90d9d69661",
+      "baselineCurrentBytes": 1294,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/screenTextures.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "3471ac453d483c21ec9813c570722250b844dc09404f26da7e187466cf7cf307",
+      "snapshotBytes": 3921,
+      "baselineCurrentSHA256": "3471ac453d483c21ec9813c570722250b844dc09404f26da7e187466cf7cf307",
+      "baselineCurrentBytes": 3921,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/sharkys_room_blockout_FINAL.glb",
+      "category": "frozen-web-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "snapshotBytes": 411892,
+      "baselineCurrentSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "baselineCurrentBytes": 411892,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/beanbag_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "snapshotBytes": 30256,
+      "baselineCurrentSHA256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "baselineCurrentBytes": 30256,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/bed_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "snapshotBytes": 251988,
+      "baselineCurrentSHA256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "baselineCurrentBytes": 251988,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/bedside_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "snapshotBytes": 108108,
+      "baselineCurrentSHA256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "baselineCurrentBytes": 108108,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/cabinet_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "snapshotBytes": 220208,
+      "baselineCurrentSHA256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "baselineCurrentBytes": 220208,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/chair_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "snapshotBytes": 170448,
+      "baselineCurrentSHA256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "baselineCurrentBytes": 170448,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/coffee_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "snapshotBytes": 83120,
+      "baselineCurrentSHA256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "baselineCurrentBytes": 83120,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/curtains_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "snapshotBytes": 131452,
+      "baselineCurrentSHA256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "baselineCurrentBytes": 131452,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/desk_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "snapshotBytes": 203880,
+      "baselineCurrentSHA256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "baselineCurrentBytes": 203880,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/dogbed_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "snapshotBytes": 61560,
+      "baselineCurrentSHA256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "baselineCurrentBytes": 61560,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/door_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "snapshotBytes": 125612,
+      "baselineCurrentSHA256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "baselineCurrentBytes": 125612,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/floor_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "snapshotBytes": 563360,
+      "baselineCurrentSHA256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "baselineCurrentBytes": 563360,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/headphones_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+      "snapshotBytes": 81196,
+      "baselineCurrentSHA256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+      "baselineCurrentBytes": 81196,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/ipad_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "snapshotBytes": 25776,
+      "baselineCurrentSHA256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "baselineCurrentBytes": 25776,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/keyboard_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "snapshotBytes": 206320,
+      "baselineCurrentSHA256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "baselineCurrentBytes": 206320,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/lightswitch_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "snapshotBytes": 27244,
+      "baselineCurrentSHA256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "baselineCurrentBytes": 27244,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/macbook_pilot.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "snapshotBytes": 445776,
+      "baselineCurrentSHA256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "baselineCurrentBytes": 445776,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/marshall_pilot.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "snapshotBytes": 577608,
+      "baselineCurrentSHA256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "baselineCurrentBytes": 577608,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/monitor_pilot.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "snapshotBytes": 95904,
+      "baselineCurrentSHA256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "baselineCurrentBytes": 95904,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/mouse_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "snapshotBytes": 49428,
+      "baselineCurrentSHA256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "baselineCurrentBytes": 49428,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/phone_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "snapshotBytes": 39068,
+      "baselineCurrentSHA256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "baselineCurrentBytes": 39068,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/piano_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "snapshotBytes": 269144,
+      "baselineCurrentSHA256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "baselineCurrentBytes": 269144,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/rugs_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "snapshotBytes": 50264,
+      "baselineCurrentSHA256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "baselineCurrentBytes": 50264,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/sidetable_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "snapshotBytes": 92312,
+      "baselineCurrentSHA256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "baselineCurrentBytes": 92312,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/sofa_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "snapshotBytes": 173668,
+      "baselineCurrentSHA256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "baselineCurrentBytes": 173668,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/trashcan_v06b.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+      "snapshotBytes": 57508,
+      "baselineCurrentSHA256": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+      "baselineCurrentBytes": 57508,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/walls_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "snapshotBytes": 39828,
+      "baselineCurrentSHA256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "baselineCurrentBytes": 39828,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/public/models/production/window_v06a.glb",
+      "category": "old3-AB-editable-and-exported-assets",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "snapshotBytes": 69628,
+      "baselineCurrentSHA256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "baselineCurrentBytes": 69628,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build-assets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "1f48d7865169e5739d43c08dfa1d2a616311b44c47d4bda4639f635c46cd739b",
+      "snapshotBytes": 901,
+      "baselineCurrentSHA256": "1f48d7865169e5739d43c08dfa1d2a616311b44c47d4bda4639f635c46cd739b",
+      "baselineCurrentBytes": 901,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build-interactive-assets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "fd683961ececb4c46d7b75d8b367af089d1c0140c891440e9bbfa250907a4c52",
+      "snapshotBytes": 954,
+      "baselineCurrentSHA256": "fd683961ececb4c46d7b75d8b367af089d1c0140c891440e9bbfa250907a4c52",
+      "baselineCurrentBytes": 954,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build-room-assets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "933e0939d8858082ff7438cdd101f0b53ebfaa53ce42a9b11f464fbeb58ba43f",
+      "snapshotBytes": 1409,
+      "baselineCurrentSHA256": "933e0939d8858082ff7438cdd101f0b53ebfaa53ce42a9b11f464fbeb58ba43f",
+      "baselineCurrentBytes": 1409,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build_architecture_assets.py",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "be315c8bd84ec5cb8cecd8713f30e51e0efc94db7769ca297fa27649a4c689e0",
+      "snapshotBytes": 12388,
+      "baselineCurrentSHA256": "be315c8bd84ec5cb8cecd8713f30e51e0efc94db7769ca297fa27649a4c689e0",
+      "baselineCurrentBytes": 12388,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build_furniture_assets.py",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "40d3fd0b3821bfb204a8063ccab5efc7348a52385daa553ecb6e5e9b8f4d3627",
+      "snapshotBytes": 20262,
+      "baselineCurrentSHA256": "40d3fd0b3821bfb204a8063ccab5efc7348a52385daa553ecb6e5e9b8f4d3627",
+      "baselineCurrentBytes": 20262,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build_interactive_assets.py",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "6b97318d64f3b6f19877ff94df49468e9ca92dc752de1476072641e8f177b80f",
+      "snapshotBytes": 18932,
+      "baselineCurrentSHA256": "6b97318d64f3b6f19877ff94df49468e9ca92dc752de1476072641e8f177b80f",
+      "baselineCurrentBytes": 18932,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/build_production_assets.py",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "7e7301be4aa46b31a7d38beb7f1b79e65884a2680810835361e38d89ae5a0369",
+      "snapshotBytes": 17820,
+      "baselineCurrentSHA256": "7e7301be4aa46b31a7d38beb7f1b79e65884a2680810835361e38d89ae5a0369",
+      "baselineCurrentBytes": 17820,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/inspect-interactive-budgets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "f60401101264bc4e576a4db84abb8894873035d29899e435f988ea94a612bad6",
+      "snapshotBytes": 19038,
+      "baselineCurrentSHA256": "f60401101264bc4e576a4db84abb8894873035d29899e435f988ea94a612bad6",
+      "baselineCurrentBytes": 19038,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/inspect-room-budgets.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "e87addd56bfb27a30116e3b9a12d941b30b8202ad399cece5c6e64ffcce71625",
+      "snapshotBytes": 3471,
+      "baselineCurrentSHA256": "e87addd56bfb27a30116e3b9a12d941b30b8202ad399cece5c6e64ffcce71625",
+      "baselineCurrentBytes": 3471,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/inspect_architecture_export.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "939aa4611f1783265060feb38476fb61cf5ee9f2e7b62d873953798e450e5e4e",
+      "snapshotBytes": 6306,
+      "baselineCurrentSHA256": "939aa4611f1783265060feb38476fb61cf5ee9f2e7b62d873953798e450e5e4e",
+      "baselineCurrentBytes": 6306,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/inspect_export_contract.mjs",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "7d4fc9efd4baf07833f71012723dd8d8839136a85fe21d45c062cb193c6adaa0",
+      "snapshotBytes": 4060,
+      "baselineCurrentSHA256": "7d4fc9efd4baf07833f71012723dd8d8839136a85fe21d45c062cb193c6adaa0",
+      "baselineCurrentBytes": 4060,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/scripts/assets/v06a_blender_common.py",
+      "category": "existing-generators-and-budget-scripts",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "b3e270ef769488178d810ecb06f7a9e5ecb16cc4e60c0f1e91a0932e09fe5eda",
+      "snapshotBytes": 10042,
+      "baselineCurrentSHA256": "b3e270ef769488178d810ecb06f7a9e5ecb16cc4e60c0f1e91a0932e09fe5eda",
+      "baselineCurrentBytes": 10042,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/types/room.ts",
+      "category": "protected-product-source",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "2fa0e2196bb8f2aa1d1f047d3a8e17aaf40728e62d2fd30f352e5b0442e63831",
+      "snapshotBytes": 912,
+      "baselineCurrentSHA256": "2fa0e2196bb8f2aa1d1f047d3a8e17aaf40728e62d2fd30f352e5b0442e63831",
+      "baselineCurrentBytes": 912,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/validation/v06b/protected-inputs-review.json",
+      "category": "B-delivery-ledgers-and-protection-proof",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "5347d7b766b02c47bd991bb94977bd0be16fea2b514f8e6d5c5857dcecf61b86",
+      "snapshotBytes": 68253,
+      "baselineCurrentSHA256": "5347d7b766b02c47bd991bb94977bd0be16fea2b514f8e6d5c5857dcecf61b86",
+      "baselineCurrentBytes": 68253,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/validation/v06b/final/PERFORMANCE_COMPARISON.md",
+      "category": "B-delivery-ledgers-and-protection-proof",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "18f00474746f50131e33f71fc979af758fda2f39b0e1da88f2400fe6b0d2ec31",
+      "snapshotBytes": 3465,
+      "baselineCurrentSHA256": "18f00474746f50131e33f71fc979af758fda2f39b0e1da88f2400fe6b0d2ec31",
+      "baselineCurrentBytes": 3465,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/validation/v06b/final/asset-budget-ledger-optimized.json",
+      "category": "B-delivery-ledgers-and-protection-proof",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "e141a0dc1c6bf18b10601f3786bc3515ce95484fbb568352eba217afe095971a",
+      "snapshotBytes": 69992,
+      "baselineCurrentSHA256": "e141a0dc1c6bf18b10601f3786bc3515ce95484fbb568352eba217afe095971a",
+      "baselineCurrentBytes": 69992,
+      "baselineMatchesSnapshot": true
+    },
+    {
+      "path": "sharkys-room/validation/v06b/final/asset-budget-ledger.json",
+      "category": "B-delivery-ledgers-and-protection-proof",
+      "changePolicy": "must-remain-byte-identical",
+      "snapshotSHA256": "569b62e5bd5c394ea174bfb152dc6f2e31dbe55406a3792f46b69e59e578f1c7",
+      "snapshotBytes": 69992,
+      "baselineCurrentSHA256": "569b62e5bd5c394ea174bfb152dc6f2e31dbe55406a3792f46b69e59e578f1c7",
+      "baselineCurrentBytes": 69992,
+      "baselineMatchesSnapshot": true
+    }
+  ]
+}

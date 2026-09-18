@@ -1,0 +1,22 @@
+[
+  {
+    "name": "plants-window-final-whole",
+    "family": "plants",
+    "roots": [
+      "VIS_PlantWindow"
+    ],
+    "view": {
+      "position": [
+        1.44,
+        1,
+        -1.35
+      ],
+      "target": [
+        1.335,
+        0.64,
+        -2.53
+      ],
+      "fov": 78
+    }
+  }
+]

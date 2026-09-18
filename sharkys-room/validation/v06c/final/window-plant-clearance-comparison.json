@@ -1,0 +1,265 @@
+{
+  "recordedAt": "2026-09-18T12:02:03.739317+00:00",
+  "beforeEvidence": "validation/v06c/stages/window-plant-clearance-before.json",
+  "beforeLog": "validation/v06c/stages/window-plant-clearance-before.log",
+  "afterEvidence": "validation/v06c/stages/window-plant-clearance-after.json",
+  "afterLog": "validation/v06c/stages/window-plant-clearance-after.log",
+  "beforeTestResult": {
+    "tests": 4,
+    "passed": 3,
+    "failed": 1
+  },
+  "afterTestResult": {
+    "tests": 4,
+    "passed": 4,
+    "failed": 0
+  },
+  "oldBounds": {
+    "min": [
+      1.0909791588783264,
+      0.0003499999875202775,
+      -2.7692878544330597
+    ],
+    "max": [
+      1.6008160412311554,
+      1.23014235496521,
+      -2.315062925219536
+    ],
+    "size": [
+      0.509836882352829,
+      1.2297923549776897,
+      0.45422492921352386
+    ]
+  },
+  "newBounds": {
+    "min": [
+      1.1843718588352203,
+      0.0003499999875202775,
+      -2.6345349699258804
+    ],
+    "max": [
+      1.4950000494718552,
+      1.23014235496521,
+      -2.4254649728536606
+    ],
+    "size": [
+      0.3106281906366348,
+      1.2297923549776897,
+      0.20906999707221985
+    ]
+  },
+  "originalAnchorUnchanged": true,
+  "protectedInputsUnchanged": true,
+  "otherFourPlantsUnchanged": true,
+  "otherFourPlantSignatures": [
+    {
+      "root": "VIS_PlantCabinet",
+      "beforeSignature": "514e124703c8491efdacc4a255eb31760e117737675d29e5e0096a48e9d5d5ff",
+      "afterSignature": "514e124703c8491efdacc4a255eb31760e117737675d29e5e0096a48e9d5d5ff",
+      "unchanged": true
+    },
+    {
+      "root": "VIS_PlantCoffeeTable",
+      "beforeSignature": "8991b3905e332311bb499e5f439b1ed4528bcb62cfc79bd582128564f86cb1d5",
+      "afterSignature": "8991b3905e332311bb499e5f439b1ed4528bcb62cfc79bd582128564f86cb1d5",
+      "unchanged": true
+    },
+    {
+      "root": "VIS_PlantDesk",
+      "beforeSignature": "3126f148e23768a884c96642be1db3e4838324f8a7dd11de0ea121d3ec1af054",
+      "afterSignature": "3126f148e23768a884c96642be1db3e4838324f8a7dd11de0ea121d3ec1af054",
+      "unchanged": true
+    },
+    {
+      "root": "VIS_PlantSofa",
+      "beforeSignature": "45e800525393244d22ff3a77ef618512d5f88bebd1157be539dad84d6bf8d4ee",
+      "afterSignature": "45e800525393244d22ff3a77ef618512d5f88bebd1157be539dad84d6bf8d4ee",
+      "unchanged": true
+    }
+  ],
+  "beforeParts": [
+    {
+      "mesh": "VIS_PlantWindow_Material_0",
+      "materials": [
+        "MAT_V06C_Plants_Leaves"
+      ],
+      "bounds": {
+        "min": [
+          1.0909791588783264,
+          0.45418083667755127,
+          -2.7692878544330597
+        ],
+        "max": [
+          1.6008160412311554,
+          1.23014235496521,
+          -2.323399782180786
+        ],
+        "size": [
+          0.509836882352829,
+          0.7759615182876587,
+          0.44588807225227356
+        ]
+      },
+      "minZVertex": [
+        1.352448670193553,
+        0.5240776538848877,
+        -2.7692878544330597
+      ],
+      "curtainPlaneClearance": -0.12428783625364304,
+      "vertexCount": 2080
+    },
+    {
+      "mesh": "VIS_PlantWindow_Material_1",
+      "materials": [
+        "MAT_V06C_Plants_Ceramic"
+      ],
+      "bounds": {
+        "min": [
+          1.1150629967451096,
+          0.0003499999875202775,
+          -2.744937017560005
+        ],
+        "max": [
+          1.544937089085579,
+          0.4221983850002289,
+          -2.315062925219536
+        ],
+        "size": [
+          0.42987409234046936,
+          0.4218483850127086,
+          0.42987409234046936
+        ]
+      },
+      "minZVertex": [
+        1.3300000429153442,
+        0.4221983850002289,
+        -2.744937017560005
+      ],
+      "curtainPlaneClearance": -0.09993699938058853,
+      "vertexCount": 170
+    },
+    {
+      "mesh": "VIS_PlantWindow_Material_2",
+      "materials": [
+        "MAT_V06C_Plants_SoilAndStems"
+      ],
+      "bounds": {
+        "min": [
+          1.1427281647920609,
+          0.40719839930534363,
+          -2.717271849513054
+        ],
+        "max": [
+          1.5172719210386276,
+          1.1355600357055664,
+          -2.342728093266487
+        ],
+        "size": [
+          0.3745437562465668,
+          0.7283616364002228,
+          0.3745437562465668
+        ]
+      },
+      "minZVertex": [
+        1.3300000429153442,
+        0.41719838976860046,
+        -2.717271849513054
+      ],
+      "curtainPlaneClearance": -0.07227183133363724,
+      "vertexCount": 828
+    }
+  ],
+  "afterParts": [
+    {
+      "mesh": "VIS_PlantWindow_Material_0",
+      "materials": [
+        "MAT_V06C_Plants_Leaves"
+      ],
+      "bounds": {
+        "min": [
+          1.1843718588352203,
+          0.32305097579956055,
+          -2.6114646270871162
+        ],
+        "max": [
+          1.4950000494718552,
+          1.23014235496521,
+          -2.459663726389408
+        ],
+        "size": [
+          0.3106281906366348,
+          0.9070913791656494,
+          0.15180090069770813
+        ]
+      },
+      "minZVertex": [
+        1.3436773121356964,
+        0.40433061122894287,
+        -2.6114646270871162
+      ],
+      "curtainPlaneClearance": 0.033535391092300415,
+      "vertexCount": 2080
+    },
+    {
+      "mesh": "VIS_PlantWindow_Material_1",
+      "materials": [
+        "MAT_V06C_Plants_Ceramic"
+      ],
+      "bounds": {
+        "min": [
+          1.2254650443792343,
+          0.0003499999875202775,
+          -2.6345349699258804
+        ],
+        "max": [
+          1.4345350414514542,
+          0.2856048047542572,
+          -2.4254649728536606
+        ],
+        "size": [
+          0.20906999707221985,
+          0.2852548047667369,
+          0.20906999707221985
+        ]
+      },
+      "minZVertex": [
+        1.3300000429153442,
+        0.2856048047542572,
+        -2.6345349699258804
+      ],
+      "curtainPlaneClearance": 0.010465048253536224,
+      "vertexCount": 170
+    },
+    {
+      "mesh": "VIS_PlantWindow_Material_2",
+      "materials": [
+        "MAT_V06C_Plants_SoilAndStems"
+      ],
+      "bounds": {
+        "min": [
+          1.2389200404286385,
+          0.27060478925704956,
+          -2.6210799738764763
+        ],
+        "max": [
+          1.42108004540205,
+          1.1176257133483887,
+          -2.4389199689030647
+        ],
+        "size": [
+          0.18216000497341156,
+          0.8470209240913391,
+          0.18216000497341156
+        ]
+      },
+      "minZVertex": [
+        1.3300000429153442,
+        0.2806047797203064,
+        -2.6210799738764763
+      ],
+      "curtainPlaneClearance": 0.02392004430294037,
+      "vertexCount": 828
+    }
+  ],
+  "limits": "Separating-plane proof uses actual exported vertex bounds; before failure alone does not assert exact triangle penetration. Final curtain minimum gap exceeds 1 mm and bed/desk remain separated. Visual screenshots are separate evidence."
+}

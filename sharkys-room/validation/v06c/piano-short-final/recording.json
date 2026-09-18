@@ -1,0 +1,72 @@
+{
+  "productionUrl": "http://127.0.0.1:3004",
+  "passed": true,
+  "failure": null,
+  "events": [
+    {
+      "action": "Click original extended piano",
+      "atMs": 3844.099999964237
+    },
+    {
+      "action": "Piano retracted",
+      "atMs": 7474.799999952316
+    },
+    {
+      "action": "Back to original Hero",
+      "atMs": 8961.299999952316
+    },
+    {
+      "action": "Click natural underdesk location without selector",
+      "atMs": 9996.399999976158
+    },
+    {
+      "action": "Piano reopened",
+      "atMs": 12294.799999952316
+    }
+  ],
+  "errors": [],
+  "families": [
+    "monitor",
+    "macbook",
+    "marshall",
+    "floor",
+    "walls",
+    "door",
+    "window",
+    "curtains",
+    "desk",
+    "cabinet",
+    "bed",
+    "bedside",
+    "sofa",
+    "chair",
+    "coffee",
+    "sidetable",
+    "beanbag",
+    "rugs",
+    "dogbed",
+    "piano",
+    "ipad",
+    "phone",
+    "trashcan",
+    "lightswitch",
+    "keyboard",
+    "mouse",
+    "headphones",
+    "eiffel",
+    "hogwarts",
+    "minastirith",
+    "falcon",
+    "bridge",
+    "sls",
+    "ferrari",
+    "mercedes",
+    "plants",
+    "cola",
+    "dog",
+    "fixtures",
+    "wallart"
+  ],
+  "video": "validation/v06c/piano-short-final/v06c-piano-underdesk-reopen.mp4",
+  "method": "Unmodified production page; real mouse and buttons; underdesk coordinate previously verified by native dev raycast; no selector or synthetic state commands; no inspection camera."
+}

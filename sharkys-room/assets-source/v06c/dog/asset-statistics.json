@@ -1,0 +1,77 @@
+{
+  "version": "0.6C",
+  "family": "dog",
+  "triangles": 4796,
+  "meshCount": 3,
+  "uvMeshes": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06C_Dog_EarsMuzzle",
+    "MAT_V06C_Dog_GoldenCoat",
+    "MAT_V06C_Dog_NoseClosedEyes"
+  ],
+  "roots": {
+    "VIS_SleepingDog": {
+      "anchor": "DEC_DogBedProxy",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.2708998918533325,
+          0.08499999344348907,
+          -0.11781999468803406
+        ],
+        "max": [
+          0.3138999938964844,
+          0.25699999928474426,
+          0.1536736637353897
+        ]
+      }
+    }
+  },
+  "placement": {
+    "anchor": "DEC_DogBedProxy",
+    "suppressedOnly": [
+      "DEC_DogBedProxy_Mesh_1"
+    ],
+    "preserved": "A VIS_DogBed cushion and surround",
+    "pose": "Static curled/resting, floppy ears and closed eyes; no bones/animation",
+    "reference": "Golden-brown sleeping dog in existing room reference; stylized approximate dog, not a claim about the user real pet",
+    "poseUniformScale": 0.86,
+    "poseScaleOriginY": 0.085
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 142356,
+  "blendBytes": 164094,
+  "glbSHA256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+  "gltfPrimitives": 3,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_SleepingDog": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_SleepingDog_bounds": true
+  }
+}

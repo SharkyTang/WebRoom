@@ -1,0 +1,184 @@
+{
+  "version": "0.6C",
+  "family": "bridge",
+  "triangles": 4888,
+  "meshCount": 4,
+  "uvMeshes": 4,
+  "materialCount": 4,
+  "materials": [
+    "MAT_V06C_TowerBridge_BlueSteel",
+    "MAT_V06C_TowerBridge_Deck",
+    "MAT_V06C_TowerBridge_DisplayPlinth",
+    "MAT_V06C_TowerBridge_Stone"
+  ],
+  "roots": {
+    "VIS_TowerBridge": {
+      "anchor": "DSP_Bridge_Bounds",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.119439035654068,
+          -0.2846499979496002,
+          -0.6002195477485657
+        ],
+        "max": [
+          0.119439035654068,
+          0.22299998998641968,
+          0.6002195477485657
+        ]
+      }
+    }
+  },
+  "placement": {
+    "originalAnchor": "DSP_Bridge_Bounds",
+    "originalParent": "DISPLAY_MODELS",
+    "nominalWorldBounds": {
+      "min": [
+        -3.459999904036522,
+        0.14000000059604645,
+        -2.2199999690055847
+      ],
+      "max": [
+        -2.989999905228615,
+        0.6199999898672104,
+        -0.8199999928474426
+      ],
+      "size": [
+        0.4699999988079071,
+        0.47999998927116394,
+        1.399999976158142
+      ]
+    },
+    "compartmentWorldBounds": {
+      "min": [
+        -3.52,
+        0.095,
+        -2.4699999761581424
+      ],
+      "max": [
+        -2.95,
+        0.665,
+        -0.599999976158142
+      ],
+      "size": [
+        0.5699999999999998,
+        0.5700000000000001,
+        1.8700000000000003
+      ]
+    },
+    "canonicalBox": {
+      "min": [
+        -1.590000033378601,
+        0.0,
+        -0.3100000023841858
+      ],
+      "max": [
+        1.590000033378601,
+        1.2299998998641968,
+        0.3100000023841858
+      ]
+    },
+    "uniformScale": 0.3756097779537811,
+    "bakedRotationYDegrees": 90,
+    "bodyLocalBottom": -0.23899999463558197,
+    "supportLocalBottom": -0.2846499952316284,
+    "supportExtensionM": 0.04565000059604646,
+    "supportClearanceM": 0.00035,
+    "previewOnly": false,
+    "provisionalSlot": false
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "sourceTriangles": 5016,
+  "exportCleanup": {
+    "sourceTriangles": 5016,
+    "exportedTriangles": 4888,
+    "removedZeroAreaTriangles": 128,
+    "removedUnreferencedVertices": 40,
+    "beforeBytes": 299792,
+    "afterBytes": 297804,
+    "primitives": [
+      {
+        "mesh": "Cylinder.077",
+        "meshIndex": 0,
+        "primitiveIndex": 0,
+        "material": 0,
+        "sourceTriangles": 3980,
+        "exportedTriangles": 3980,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 6813,
+        "exportedVertices": 6813,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "Cube",
+        "meshIndex": 1,
+        "primitiveIndex": 0,
+        "material": 1,
+        "sourceTriangles": 440,
+        "exportedTriangles": 312,
+        "removedZeroAreaTriangles": 128,
+        "sourceVertices": 570,
+        "exportedVertices": 530,
+        "removedUnreferencedVertices": 40
+      },
+      {
+        "mesh": "Cone",
+        "meshIndex": 2,
+        "primitiveIndex": 0,
+        "material": 2,
+        "sourceTriangles": 552,
+        "exportedTriangles": 552,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 822,
+        "exportedVertices": 822,
+        "removedUnreferencedVertices": 0
+      },
+      {
+        "mesh": "Cube.017",
+        "meshIndex": 3,
+        "primitiveIndex": 0,
+        "material": 3,
+        "sourceTriangles": 44,
+        "exportedTriangles": 44,
+        "removedZeroAreaTriangles": 0,
+        "sourceVertices": 57,
+        "exportedVertices": 57,
+        "removedUnreferencedVertices": 0
+      }
+    ]
+  },
+  "glbBytes": 297804,
+  "blendBytes": 148410,
+  "glbSHA256": "606b8012f1aa52f9b9be0a380e3adea31424b46d53bdeb42a5d302e10e399ae9",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_TowerBridge": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_TowerBridge_bounds": true
+  }
+}

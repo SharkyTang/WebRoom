@@ -1,0 +1,106 @@
+{
+  "version": "0.6C",
+  "family": "wallart",
+  "triangles": 452,
+  "meshCount": 6,
+  "uvMeshes": 6,
+  "materialCount": 6,
+  "materials": [
+    "MAT_V06C_WallArtDistantSage",
+    "MAT_V06C_WallArtForeground",
+    "MAT_V06C_WallArtMiddleTeal",
+    "MAT_V06C_WallArtMutedMoon",
+    "MAT_V06C_WallArtWalnutFrame",
+    "MAT_V06C_WallArtWarmPaper"
+  ],
+  "roots": {
+    "VIS_WallArt": {
+      "anchor": "DEC_WallArt",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.42899999022483826,
+          -0.4390000104904175,
+          -0.0139999995008111
+        ],
+        "max": [
+          0.42899999022483826,
+          0.4390000104904175,
+          0.01599999889731407
+        ]
+      }
+    }
+  },
+  "placement": {
+    "anchor": "DEC_WallArt",
+    "frontNormalYUp": [
+      0,
+      0,
+      1
+    ],
+    "localEnvelope": {
+      "min": [
+        -0.429,
+        -0.439,
+        -0.014
+      ],
+      "max": [
+        0.429,
+        0.439,
+        0.016
+      ]
+    },
+    "originalEnvelope": {
+      "min": [
+        -0.43,
+        -0.44,
+        -0.0175
+      ],
+      "max": [
+        0.43,
+        0.44,
+        0.0175
+      ]
+    },
+    "artwork": "Original layered mountains and muted moon made with shallow closed polygons",
+    "externalImages": [],
+    "textures": 0,
+    "personalText": false,
+    "newInteractions": false
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 30808,
+  "blendBytes": 107362,
+  "glbSHA256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772",
+  "gltfPrimitives": 6,
+  "textureCount": 0,
+  "exportRootTransforms": {
+    "VIS_WallArt": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_WallArt_bounds": true
+  }
+}
