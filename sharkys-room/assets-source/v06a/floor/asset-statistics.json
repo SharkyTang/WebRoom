@@ -1,0 +1,79 @@
+{
+  "version": "0.6A",
+  "family": "floor",
+  "triangles": 8712,
+  "meshCount": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06A_FloorOak",
+    "MAT_V06A_FloorSeam",
+    "MAT_V06A_PlatformEdge"
+  ],
+  "uvMeshes": 3,
+  "roots": {
+    "VIS_Floor": {
+      "anchor": "ENV_Floor",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -3.690000057220459,
+          -0.11999999731779099,
+          -2.990000009536743
+        ],
+        "max": [
+          3.690000057220459,
+          0.0,
+          2.990000009536743
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 563360,
+  "blendBytes": 283532,
+  "glbSHA256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+  "gltfPrimitives": 3,
+  "textureCount": 1,
+  "embeddedImageBytes": 49211,
+  "exportRootTransforms": {
+    "VIS_Floor": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "warm_oak_basecolor_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 49211
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 1048576,
+  "decodedTextureBytesWithMipmapsEstimate": 1398101,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Floor_bounds": true
+  }
+}

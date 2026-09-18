@@ -1,6 +1,6 @@
 import { Material, Mesh, MeshBasicMaterial, MeshStandardMaterial, Object3D, PerspectiveCamera, Texture } from 'three';
 import { FROZEN_NODE_RECORDS, HERO_CAMERA_NAME } from '../sceneConstants';
-import { assetFamilies, assetManifest, type AssetFamily } from './assetManifest';
+import { assetFamilies, assetManifest, type AssetDefinition, type AssetFamily } from './assetManifest';
 import { ownObjectResources } from './resourceOwnership';
 import { createScreenTexture, type ScreenTexture } from './screenTextures';
 
@@ -27,6 +27,15 @@ function belongsTo(node: Object3D, root: Object3D): boolean {
   return false;
 }
 
+/** GLB completion order must not decide opaque contact-edge rasterization. */
+function stabilizeVisualDrawOrder(registry: Map<AssetFamily, Installed>) {
+  const opaque = [...registry.values()].flatMap(family => family.roots.flatMap(meshes))
+    .filter(mesh => meshMaterials(mesh).every(material => !material.transparent))
+    .sort((a, b) => a.name < b.name ? -1 : a.name > b.name ? 1 : 0);
+  // Keep depth testing and the original/transparent render order intact.
+  opaque.forEach((mesh, index) => { mesh.renderOrder = index + 1; });
+}
+
 /** Shared by pre-install and runtime validation so detached or mis-parented surfaces fail both. */
 function validateRequiredHierarchy(id: AssetFamily, scope: Object3D): string[] {
   const errors: string[] = [];
@@ -44,14 +53,18 @@ export function validateAssetFamily(id: AssetFamily, asset: Object3D): string[] 
   const definition = assetManifest[id];
   const errors = validateRequiredHierarchy(id, asset);
   const partRoots = definition.parts.map(part => unique(asset, part.root)).filter((root): root is Object3D => Boolean(root));
+  const names = new Set<string>();
   asset.traverse(node => {
     if (node === asset) return;
+    if (names.has(node.name)) errors.push(`Duplicate visual node ${node.name}`);
+    names.add(node.name);
     if (!node.name.startsWith(definition.prefix)) errors.push(`Unregistered visual node ${node.name}`);
     if (!partRoots.some(root => belongsTo(node, root))) errors.push(`Visual outside declared parts: ${node.name}`);
   });
   for (const part of definition.parts) {
     const root = unique(asset, part.root);
     if (!root) continue;
+    if (!meshes(root).length) errors.push(`Empty visual part ${part.root}`);
     if (!near(root.position.toArray(), [0, 0, 0]) || !near(root.quaternion.toArray(), [0, 0, 0, 1]) || !near(root.scale.toArray(), [1, 1, 1])) errors.push(`Nonidentity anchor-local root ${part.root}`);
     if (root.parent !== asset) errors.push(`Part must be a direct export root: ${part.root}`);
   }
@@ -61,9 +74,15 @@ export function validateAssetFamily(id: AssetFamily, asset: Object3D): string[] 
     const position = mesh.geometry.attributes.position, uv = mesh.geometry.attributes.uv;
     if (!position || !uv || uv.count !== position.count) errors.push(`Missing UV/position ${mesh.name}`);
     if (!meshMaterials(mesh).every(material => material instanceof MeshStandardMaterial)) errors.push(`Non-PBR material ${mesh.name}`);
+    for (const material of meshMaterials(mesh)) for (const value of Object.values(material)) if (value instanceof Texture) {
+      const image = value.image as { width?: number; height?: number } | undefined;
+      if (!(image?.width && image?.height)) errors.push(`Texture missing or undecoded: ${mesh.name}`);
+    }
   }
-  const surface = unique(asset, definition.stateSurface);
-  if (!surface || !meshes(surface).length) errors.push(`No state surface ${definition.stateSurface}`);
+  if (definition.stateSurface) {
+    const surface = unique(asset, definition.stateSurface);
+    if (!surface || !meshes(surface).length) errors.push(`No state surface ${definition.stateSurface}`);
+  }
   if (id === 'marshall') {
     const grille = unique(asset, 'VIS_MarshallGrille');
     if (!grille || !meshes(grille).some(mesh => meshMaterials(mesh).some(material => {
@@ -85,20 +104,26 @@ export function installAssetFamily(room: Object3D, id: AssetFamily, asset: Objec
   if (failures.length) throw new Error(failures.join('; '));
   const registry = installed.get(room) ?? new Map<AssetFamily, Installed>();
   if (registry.has(id)) throw new Error(`Asset already installed: ${id}`);
-  const definition = assetManifest[id];
+  const definition: AssetDefinition = assetManifest[id];
   if (!sourceIdentities.has(room)) sourceIdentities.set(room, new Map(FROZEN_NODE_RECORDS.map(record => [record.name, room.getObjectByName(record.name)!])));
   const parts = definition.parts.map(part => {
     const anchor = unique(room, part.anchor), root = unique(asset, part.root)!;
     if (!anchor) throw new Error(`Missing or duplicate original anchor: ${part.anchor}`);
     if (room.getObjectByName(part.root)) throw new Error(`Visual root already present: ${part.root}`);
-    return { anchor, root, parent: root.parent! };
+    const proxyMeshes = part.proxyMeshNames ? part.proxyMeshNames.map(name => {
+      const proxy = unique(anchor, name);
+      if (!(proxy instanceof Mesh)) throw new Error(`Missing original proxy primitive: ${name}`);
+      return proxy;
+    }) : meshes(anchor);
+    return { anchor, root, parent: root.parent!, proxyMeshes };
   });
   const resourceOwner = ownObjectResources(asset);
-  const originalMeshes = parts.flatMap(({ anchor }) => meshes(anchor));
+  const visualOrders = meshes(asset).map(mesh => ({ mesh, renderOrder: mesh.renderOrder }));
+  const originalMeshes = [...new Set(parts.flatMap(({ proxyMeshes }) => proxyMeshes))];
   const saved = originalMeshes.map(mesh => ({ mesh, material: mesh.material, raycast: mesh.raycast, suppressed: mesh.userData.roomProxySuppressed }));
   const hiddenMaterial = new MeshBasicMaterial({ visible: false });
   hiddenMaterial.name = `WebOnly_Suppressed_${id}_Proxy`;
-  const surfaceMeshes = meshes(unique(asset, definition.stateSurface)!);
+  const surfaceMeshes = definition.stateSurface ? meshes(unique(asset, definition.stateSurface)!) : [];
   const surfaceOriginals = surfaceMeshes.map(mesh => ({ mesh, material: mesh.material }));
   const ownedStateMaterials: MeshStandardMaterial[] = [];
   let screen: ScreenTexture | undefined;
@@ -116,6 +141,7 @@ export function installAssetFamily(room: Object3D, id: AssetFamily, asset: Objec
         else mesh.userData.roomProxySuppressed = suppressed;
       });
       surfaceOriginals.forEach(({ mesh, material }) => { mesh.material = material; });
+      visualOrders.forEach(({ mesh, renderOrder }) => { mesh.renderOrder = renderOrder; });
       hiddenMaterial.dispose(); ownedStateMaterials.forEach(material => material.dispose()); screen?.dispose();
       if (ownsAsset) resourceOwner.dispose();
       if (registry.get(id) === record) registry.delete(id);
@@ -143,6 +169,7 @@ export function installAssetFamily(room: Object3D, id: AssetFamily, asset: Objec
       anchor.add(root);
     });
     registry.set(id, record); installed.set(room, registry);
+    stabilizeVisualDrawOrder(registry);
     room.updateMatrixWorld(true);
     ownsAsset = true;
     return record;
@@ -179,7 +206,11 @@ export function validateAssembly(room: Object3D) {
   if (!(camera instanceof PerspectiveCamera) || !expected || !near([camera.fov * Math.PI / 180, camera.aspect, camera.near, camera.far], [expected.yfov, expected.aspectRatio, expected.znear, expected.zfar])) errors.push('Source Hero projection changed');
   for (const [id, family] of registry ?? []) {
     errors.push(...validateRequiredHierarchy(id, room));
-    for (const part of assetManifest[id].parts) if (unique(room, part.root)?.parent?.name !== part.anchor) errors.push(`Assembly parent changed: ${part.root}`);
+    for (const part of assetManifest[id].parts) {
+      const root = unique(room, part.root);
+      if (root?.parent?.name !== part.anchor) errors.push(`Assembly parent changed: ${part.root}`);
+      if (root && (!near(root.position.toArray(), [0, 0, 0]) || !near(root.quaternion.toArray(), [0, 0, 0, 1]) || !near(root.scale.toArray(), [1, 1, 1]))) errors.push(`Visual root transform changed: ${part.root}`);
+    }
     family.roots.forEach(root => root.traverse(node => {
       if (node.userData.roomAssetFamily !== id || !node.name.startsWith(assetManifest[id].prefix)) errors.push(`Unregistered visual: ${node.name}`);
     }));

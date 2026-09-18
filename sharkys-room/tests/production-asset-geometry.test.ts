@@ -333,7 +333,7 @@ describe('v0.5 production geometry installed on the actual frozen anchors', () =
     });
     const sourceSpeaker = node(room, 'TEC_Marshall') as Mesh;
     const sourceMaterial = sourceSpeaker.material;
-    const loaded = await loadProductionAssets(room, new AbortController().signal);
+    const loaded = await loadProductionAssets(room, new AbortController().signal, families);
     assert.equal(loaded.report.monitor.status, 'installed');
     assert.equal(loaded.report.macbook.status, 'installed');
     assert.equal(loaded.report.marshall.status, 'fallback');
@@ -345,7 +345,7 @@ describe('v0.5 production geometry installed on the actual frozen anchors', () =
     loaded.dispose();
     assert.deepEqual(snapshot(room), initial);
     assert.equal(validateScene(room).ok, true);
-    const retry = await loadProductionAssets(room, new AbortController().signal);
+    const retry = await loadProductionAssets(room, new AbortController().signal, families);
     assert.equal(retry.report.monitor.status, 'installed', 'Unmounting removes registry ownership for the next mount');
     assert.equal(retry.report.macbook.status, 'installed');
     retry.dispose();
@@ -362,7 +362,7 @@ describe('v0.5 production geometry installed on the actual frozen anchors', () =
       const family = families.find(candidate => path.includes(candidate))!;
       pending.push(() => resolve(new Response(new Uint8Array(getAsset(family).bytes), { status: 200 })));
     }));
-    const loading = loadProductionAssets(room, controller.signal);
+    const loading = loadProductionAssets(room, controller.signal, families);
     assert.equal(pending.length, 3);
     controller.abort();
     pending.forEach(settle => settle());
@@ -385,7 +385,7 @@ describe('v0.5 production geometry installed on the actual frozen anchors', () =
       if (family === 'monitor') return Promise.resolve(response());
       return new Promise<Response>(resolve => { pending.push(() => resolve(response())); });
     });
-    const loading = loadProductionAssets(room, controller.signal);
+    const loading = loadProductionAssets(room, controller.signal, families);
     for (let turn = 0; turn < 30 && !room.getObjectByName('VIS_MonitorBody'); turn++) await new Promise<void>(resolve => setImmediate(resolve));
     assert.ok(room.getObjectByName('VIS_MonitorBody'), 'Monitor completes while the other model responses are still pending');
     assert.equal(pending.length, 2);

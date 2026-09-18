@@ -1,0 +1,13 @@
+[
+  {
+    "name": "piano-development",
+    "script": "test:piano",
+    "output": "piano",
+    "env": {
+      "ROOM_PIANO_CYCLES": "20"
+    },
+    "startedAt": "2026-09-17T17:24:21.632Z",
+    "finishedAt": "2026-09-17T17:28:05.684Z",
+    "exitCode": 1
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-09-17T17:39:37.182Z",
+  "origin": "http://127.0.0.1:3001",
+  "mode": "production",
+  "browser": "Installed Chrome, Playwright headless, ANGLE SwiftShader, DPR1",
+  "limitation": "Touch emulation, not a physical phone. Safari and real GPU not tested.",
+  "summary": {
+    "passed": 0,
+    "failed": 1
+  },
+  "checks": [
+    {
+      "name": "Production asset suite setup",
+      "passed": false,
+      "error": "AssertionError [ERR_ASSERTION]: Production coordinates must come from a passing development run\n\n1 !== 0\n\n    at file:///Users/shaoqitang/Documents/ChatGPT/%E7%BD%91%E9%A1%B5%E5%B0%8F%E5%B1%8B/sharkys-room/tests/production-assets-browser.mjs:186:12"
+    }
+  ],
+  "observations": {},
+  "runtime": [],
+  "requests": []
+}

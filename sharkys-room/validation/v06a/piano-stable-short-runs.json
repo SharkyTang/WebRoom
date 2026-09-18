@@ -1,0 +1,294 @@
+{
+  "startedAt": "2026-09-17T18:01:45.553Z",
+  "runs": [
+    {
+      "command": "ROOM_REPRO_RUN=stable-1 node validation/v06a/piano-compare-repro.mjs",
+      "startedAt": "2026-09-17T18:01:45.553Z",
+      "finishedAt": "2026-09-17T18:02:05.708Z",
+      "exitCode": 0,
+      "debugGL": {
+        "attributes": {
+          "alpha": true,
+          "antialias": true,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "low-power",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": false,
+          "xrCompatible": false
+        },
+        "samples": 4,
+        "depthBits": 24
+      },
+      "normalGL": {
+        "attributes": {
+          "alpha": true,
+          "antialias": true,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "low-power",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": false,
+          "xrCompatible": false
+        },
+        "samples": 4,
+        "depthBits": 24
+      },
+      "pairs": [
+        {
+          "name": "initial",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        },
+        {
+          "name": "retracted-native",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        },
+        {
+          "name": "retracted-delayed",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        },
+        {
+          "name": "after-semantic-hovers",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        }
+      ]
+    },
+    {
+      "command": "ROOM_REPRO_RUN=stable-2 node validation/v06a/piano-compare-repro.mjs",
+      "startedAt": "2026-09-17T18:02:05.708Z",
+      "finishedAt": "2026-09-17T18:02:25.773Z",
+      "exitCode": 0,
+      "debugGL": {
+        "attributes": {
+          "alpha": true,
+          "antialias": true,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "low-power",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": false,
+          "xrCompatible": false
+        },
+        "samples": 4,
+        "depthBits": 24
+      },
+      "normalGL": {
+        "attributes": {
+          "alpha": true,
+          "antialias": true,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "low-power",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": false,
+          "xrCompatible": false
+        },
+        "samples": 4,
+        "depthBits": 24
+      },
+      "pairs": [
+        {
+          "name": "initial",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        },
+        {
+          "name": "retracted-native",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        },
+        {
+          "name": "retracted-delayed",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        },
+        {
+          "name": "after-semantic-hovers",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        }
+      ]
+    },
+    {
+      "command": "ROOM_REPRO_RUN=stable-3 node validation/v06a/piano-compare-repro.mjs",
+      "startedAt": "2026-09-17T18:02:25.773Z",
+      "finishedAt": "2026-09-17T18:02:45.999Z",
+      "exitCode": 0,
+      "debugGL": {
+        "attributes": {
+          "alpha": true,
+          "antialias": true,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "low-power",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": false,
+          "xrCompatible": false
+        },
+        "samples": 4,
+        "depthBits": 24
+      },
+      "normalGL": {
+        "attributes": {
+          "alpha": true,
+          "antialias": true,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "low-power",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": false,
+          "stencil": false,
+          "xrCompatible": false
+        },
+        "samples": 4,
+        "depthBits": 24
+      },
+      "pairs": [
+        {
+          "name": "initial",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        },
+        {
+          "name": "retracted-native",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        },
+        {
+          "name": "retracted-delayed",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        },
+        {
+          "name": "after-semantic-hovers",
+          "pngBytesEqual": true,
+          "rgbaEqual": true,
+          "width": 1080,
+          "height": 720,
+          "changedPixels": 0,
+          "maxChannelDelta": 0,
+          "entryChanges": 0,
+          "entryPixels": 0,
+          "meanChangedMaxDelta": 0,
+          "bounds": null,
+          "tiles": {}
+        }
+      ]
+    }
+  ],
+  "finishedAt": "2026-09-17T18:02:45.999Z"
+}

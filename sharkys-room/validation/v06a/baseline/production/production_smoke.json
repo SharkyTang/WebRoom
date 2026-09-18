@@ -1,0 +1,163 @@
+{
+  "generatedAt": "2026-09-17T16:51:46.119Z",
+  "origin": "http://127.0.0.1:3001",
+  "browser": "Installed Google Chrome, Playwright headless, ANGLE SwiftShader",
+  "summary": {
+    "passed": 7,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Production desktop starts, loads GLB, and renders the ready state",
+      "passed": true,
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720
+      },
+      "hasDebugApi": false,
+      "text": "A ROOM IN PROGRESS\nSharky’s Room.\nINTERACTION PROTOTYPE\nv0.5 / ASSET PILOT\n\n点击或轻点物件，探索房间\n也可通过右侧选择器打开物件\n\n选择物件\nExplore objects…\nMonitor\nMacBook\niPad\nMarshall\nPiano\nTrash can\nLight switch\nPhone\nWindow"
+    },
+    {
+      "name": "Production ignores ?debug=1 and exposes no developer-only API/panel",
+      "passed": true,
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720
+      },
+      "hasDebugApi": false,
+      "text": "A ROOM IN PROGRESS\nSharky’s Room.\nINTERACTION PROTOTYPE\nv0.5 / ASSET PILOT\n\n点击或轻点物件，探索房间\n也可通过右侧选择器打开物件\n\n选择物件\nExplore objects…\nMonitor\nMacBook\niPad\nMarshall\nPiano\nTrash can\nLight switch\nPhone\nWindow"
+    },
+    {
+      "name": "Production desktop remains fixed after drag, wheel, and WASD input",
+      "passed": true,
+      "comparedCanvasBytes": 193365,
+      "identical": true
+    },
+    {
+      "name": "Production desktop supports native Monitor focus and Back without a diagnostic API",
+      "passed": true,
+      "focusedTitle": "Projects",
+      "returned": true
+    },
+    {
+      "name": "Production 390px mobile displays the room without overflow or diagnostics",
+      "passed": true,
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "canvas": {
+        "x": 15,
+        "y": 280.203125,
+        "width": 360,
+        "height": 240
+      },
+      "hasDebugApi": false,
+      "text": "A ROOM IN PROGRESS\nSharky’s Room.\nINTERACTION PROTOTYPE\nv0.5 / ASSET PILOT\n\n点击或轻点物件，探索房间\n也可通过右侧选择器打开物件\n\n选择物件\nExplore objects…\nMonitor\nMacBook\niPad\nMarshall\nPiano\nTrash can\nLight switch\nPhone\nWindow"
+    },
+    {
+      "name": "Production mobile exposes all nine non-hover choices, native Window controls and visible Back",
+      "passed": true,
+      "choices": [
+        "ipad",
+        "lightswitch",
+        "macbook",
+        "marshall",
+        "monitor",
+        "phone",
+        "piano",
+        "trashcan",
+        "window"
+      ],
+      "selectedWeather": "Snowy",
+      "returned": true
+    },
+    {
+      "name": "Production has successful asset responses and no browser runtime errors",
+      "passed": true,
+      "glbResponses": [
+        {
+          "phase": "production-desktop",
+          "status": 200,
+          "url": "http://127.0.0.1:3001/models/sharkys_room_blockout_FINAL.glb"
+        },
+        {
+          "phase": "production-desktop",
+          "status": 200,
+          "url": "http://127.0.0.1:3001/models/sharkys_room_blockout_FINAL.glb"
+        },
+        {
+          "phase": "production-mobile",
+          "status": 200,
+          "url": "http://127.0.0.1:3001/models/sharkys_room_blockout_FINAL.glb"
+        }
+      ],
+      "consoleErrors": 0,
+      "failedRequests": 0
+    }
+  ],
+  "consoleMessages": [
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x12c000e6800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x12c000e6800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x12c000e6800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x12c000e6800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "phase": "production-desktop",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "production-mobile",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    }
+  ],
+  "failedRequests": [],
+  "glbResponses": [
+    {
+      "phase": "production-desktop",
+      "status": 200,
+      "url": "http://127.0.0.1:3001/models/sharkys_room_blockout_FINAL.glb"
+    },
+    {
+      "phase": "production-desktop",
+      "status": 200,
+      "url": "http://127.0.0.1:3001/models/sharkys_room_blockout_FINAL.glb"
+    },
+    {
+      "phase": "production-mobile",
+      "status": 200,
+      "url": "http://127.0.0.1:3001/models/sharkys_room_blockout_FINAL.glb"
+    }
+  ]
+}

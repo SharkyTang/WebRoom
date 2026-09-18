@@ -1,0 +1,70 @@
+{
+  "version": "0.6A",
+  "family": "window",
+  "triangles": 2256,
+  "meshCount": 2,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06A_WindowGraphite",
+    "MAT_V06A_WindowSatinRebate"
+  ],
+  "uvMeshes": 2,
+  "roots": {
+    "VIS_WindowFrame": {
+      "anchor": "ENV_WindowFrame",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -2.740000009536743,
+          0.85999995470047,
+          -0.06499999761581421
+        ],
+        "max": [
+          1.3899999856948853,
+          2.820000171661377,
+          0.06499999761581421
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 69628,
+  "blendBytes": 128553,
+  "glbSHA256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+  "gltfPrimitives": 2,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_WindowFrame": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [],
+  "decodedTextureBytesRGBA8Estimate": 0,
+  "decodedTextureBytesWithMipmapsEstimate": 0,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_WindowFrame_bounds": true
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "version": "0.6A",
+  "family": "bed",
+  "triangles": 7260,
+  "meshCount": 5,
+  "materialCount": 5,
+  "materials": [
+    "MAT_V06A_BeddingSeams",
+    "MAT_V06A_BlueGreyBedding",
+    "MAT_V06A_Graphite",
+    "MAT_V06A_Linen",
+    "MAT_V06A_WarmOak"
+  ],
+  "uvMeshes": 5,
+  "roots": {
+    "VIS_Bed": {
+      "anchor": "FUR_Bed",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.8500000238418579,
+          0.0,
+          -1.100000023841858
+        ],
+        "max": [
+          0.8500000238418579,
+          1.0399999618530273,
+          1.0199999809265137
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 251988,
+  "blendBytes": 260641,
+  "glbSHA256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+  "gltfPrimitives": 5,
+  "textureCount": 3,
+  "embeddedImageBytes": 60402,
+  "exportRootTransforms": {
+    "VIS_Bed": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "bluegreybedding_weave_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 5580
+    },
+    {
+      "name": "linen_weave_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 5611
+    },
+    {
+      "name": "warm_oak_basecolor_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 49211
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 3145728,
+  "decodedTextureBytesWithMipmapsEstimate": 4194304,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Bed_bounds": true
+  }
+}

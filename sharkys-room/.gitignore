@@ -1,4 +1,7 @@
 node_modules/
 .next/
 *.tsbuildinfo
+__pycache__/
+*.pyc
 validation/v05/raw-video/
+validation/v06a/raw-video/

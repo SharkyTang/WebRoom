@@ -1,0 +1,78 @@
+{
+  "version": "0.6A",
+  "family": "sidetable",
+  "triangles": 1216,
+  "meshCount": 2,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06A_Graphite",
+    "MAT_V06A_WarmOak"
+  ],
+  "uvMeshes": 2,
+  "roots": {
+    "VIS_SideTable": {
+      "anchor": "FUR_SideTable",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.23999999463558197,
+          -0.26999998092651367,
+          -0.23999999463558197
+        ],
+        "max": [
+          0.23999999463558197,
+          0.26999998092651367,
+          0.23999999463558197
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 92312,
+  "blendBytes": 164899,
+  "glbSHA256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+  "gltfPrimitives": 2,
+  "textureCount": 1,
+  "embeddedImageBytes": 49211,
+  "exportRootTransforms": {
+    "VIS_SideTable": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "warm_oak_basecolor_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 49211
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 1048576,
+  "decodedTextureBytesWithMipmapsEstimate": 1398101,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_SideTable_bounds": true
+  }
+}

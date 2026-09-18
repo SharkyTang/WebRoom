@@ -1,0 +1,10 @@
+{
+  "command": "ROOM_PIANO_CYCLES=20 ROOM_TEST_OUTPUT=validation/v06a/piano node tests/piano-discoverability-browser.mjs",
+  "cwd": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room",
+  "startedAt": "2026-09-17T18:03:26.562Z",
+  "finishedAt": "2026-09-17T18:07:17.918Z",
+  "exitCode": 0,
+  "signal": null,
+  "testScriptSHA256": "f6d8d61fec408cbdf61c7ed86e327bfc297fa6ae9c078214a28edda03c280e89",
+  "runtimeAssemblySHA256": "849ef4bdef7c44b328a7f2c5502dcc9a9d9674861f6440337018cab26fe181d9"
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "name": "verify-asset",
+    "command": "npm",
+    "args": [
+      "run",
+      "verify:asset"
+    ],
+    "startedAt": "2026-09-17T16:45:21.118Z",
+    "finishedAt": "2026-09-17T16:45:21.264Z",
+    "exitCode": 0
+  },
+  {
+    "name": "typecheck",
+    "command": "npm",
+    "args": [
+      "run",
+      "typecheck"
+    ],
+    "startedAt": "2026-09-17T16:45:21.264Z",
+    "finishedAt": "2026-09-17T16:45:21.947Z",
+    "exitCode": 0
+  },
+  {
+    "name": "unit-tests",
+    "command": "npm",
+    "args": [
+      "test"
+    ],
+    "startedAt": "2026-09-17T16:45:21.947Z",
+    "finishedAt": "2026-09-17T16:45:23.908Z",
+    "exitCode": 0
+  },
+  {
+    "name": "production-build",
+    "command": "npm",
+    "args": [
+      "run",
+      "build"
+    ],
+    "startedAt": "2026-09-17T16:45:23.908Z",
+    "finishedAt": "2026-09-17T16:45:26.481Z",
+    "exitCode": 0
+  },
+  {
+    "name": "production-assets-development",
+    "command": "/opt/homebrew/Cellar/node/26.0.0/bin/node",
+    "args": [
+      "tests/production-assets-browser.mjs"
+    ],
+    "startedAt": "2026-09-17T16:45:26.481Z",
+    "finishedAt": "2026-09-17T16:46:43.659Z",
+    "exitCode": 0
+  },
+  {
+    "name": "piano-development",
+    "command": "/opt/homebrew/Cellar/node/26.0.0/bin/node",
+    "args": [
+      "tests/piano-discoverability-browser.mjs"
+    ],
+    "startedAt": "2026-09-17T16:46:43.660Z",
+    "finishedAt": "2026-09-17T16:48:07.587Z",
+    "exitCode": 0
+  },
+  {
+    "name": "browser",
+    "command": "/opt/homebrew/Cellar/node/26.0.0/bin/node",
+    "args": [
+      "tests/browser-validation.mjs"
+    ],
+    "startedAt": "2026-09-17T16:48:07.587Z",
+    "finishedAt": "2026-09-17T16:49:15.634Z",
+    "exitCode": 0
+  },
+  {
+    "name": "interactions",
+    "command": "/opt/homebrew/Cellar/node/26.0.0/bin/node",
+    "args": [
+      "tests/interaction-browser.mjs"
+    ],
+    "startedAt": "2026-09-17T16:49:15.635Z",
+    "finishedAt": "2026-09-17T16:51:33.740Z",
+    "exitCode": 0
+  },
+  {
+    "name": "production-smoke",
+    "command": "/opt/homebrew/Cellar/node/26.0.0/bin/node",
+    "args": [
+      "tests/production-smoke.mjs"
+    ],
+    "startedAt": "2026-09-17T16:51:33.741Z",
+    "finishedAt": "2026-09-17T16:51:46.126Z",
+    "exitCode": 0
+  },
+  {
+    "name": "piano-production",
+    "command": "/opt/homebrew/Cellar/node/26.0.0/bin/node",
+    "args": [
+      "tests/piano-discoverability-browser.mjs"
+    ],
+    "startedAt": "2026-09-17T16:51:46.126Z",
+    "finishedAt": "2026-09-17T16:52:06.752Z",
+    "exitCode": 0
+  },
+  {
+    "name": "production-assets-production",
+    "command": "/opt/homebrew/Cellar/node/26.0.0/bin/node",
+    "args": [
+      "tests/production-assets-browser.mjs"
+    ],
+    "startedAt": "2026-09-17T16:52:06.752Z",
+    "finishedAt": "2026-09-17T16:52:35.262Z",
+    "exitCode": 0
+  }
+]

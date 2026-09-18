@@ -1,0 +1,85 @@
+{
+  "version": "0.6A",
+  "family": "dogbed",
+  "triangles": 2048,
+  "meshCount": 2,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06A_DogBedCushion",
+    "MAT_V06A_DogBedUpholstery"
+  ],
+  "uvMeshes": 2,
+  "roots": {
+    "VIS_DogBed": {
+      "anchor": "DEC_DogBedProxy",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.5450000166893005,
+          0.0,
+          -0.3700000047683716
+        ],
+        "max": [
+          0.5450000166893005,
+          0.19300000369548798,
+          0.3700000047683716
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 61560,
+  "blendBytes": 125702,
+  "glbSHA256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+  "gltfPrimitives": 2,
+  "textureCount": 2,
+  "embeddedImageBytes": 12031,
+  "exportRootTransforms": {
+    "VIS_DogBed": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "dogbedcushion_weave_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 6621
+    },
+    {
+      "name": "dogbedupholstery_weave_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 5410
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 2097152,
+  "decodedTextureBytesWithMipmapsEstimate": 2796203,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_DogBed_bounds": true
+  }
+}

@@ -1,6 +1,6 @@
-# Sharky's Room — 资产生产与接入指南（v0.5）
+# Sharky's Room — 资产生产与接入指南（v0.5 / v0.6A）
 
-本轮在 v0.4.1 工程中接入 Monitor、MacBook、Marshall。冻结房间负责空间、语义锚点、相机和机械运动；独立 GLB 只提供锚点局部坐标内的视觉部件。此流程可供后续已获授权的资产使用，本文不启动下一版本。
+v0.5 在 v0.4.1 工程中接入 Monitor、MacBook、Marshall，v0.6A 沿用同一装配流程新增房间与主要家具。冻结房间负责空间、语义锚点、相机和机械运动；独立 GLB 只提供锚点局部坐标内的视觉部件。以下保留三件设备的工作流，A 批增量见第 7 节；本文不启动 B/C。
 
 ## 1. 文件与复现
 
@@ -38,7 +38,7 @@ npm run build
 3. 确定哪些部件随哪个原锚点运动。为独立屏幕/指示灯建独立节点和材质，不依赖子节点数组顺序。
 4. 优先轮廓、厚度、倒角和近景可辨细节。重复键帽/旋钮按材质合并；织物用合理尺寸纹理。不要逐键增加材质或逐孔堆几何。
 
-本轮只使用已有房间参考图作造型参考，不将它们复制为贴图。三件几何和织物 PNG 均为本项目原创程序化制作，未下载产品模型、字标或纹理。型号和尺寸均不声称是实物规格。
+v0.5 只使用已有房间参考图作造型参考，不将它们复制为贴图。三件几何和织物 PNG 均为本项目原创程序化制作，未下载产品模型、字标或纹理。型号和尺寸均不声称是实物规格。
 
 ## 3. 坐标与部件合同
 
@@ -88,26 +88,57 @@ MacBook 闭合四元数 `[0,0,0,1]`，打开仍使用原 `TEC_MacBookScreen` 四
 
 ## 6. 验收命令与证据
 
-启动开发服务 3000 后，顺序执行：
-
-```sh
-ROOM_TEST_OUTPUT=validation/v05/v03-regression npm run test:browser
-ROOM_TEST_OUTPUT=validation/v05/v04-regression npm run test:interactions
-ROOM_TEST_OUTPUT=validation/v05/piano npm run test:piano
-npm run test:assets
-ROOM_ASSET_PERFORMANCE_ONLY=1 ROOM_TEST_OUTPUT=validation/v05/performance npm run test:assets
-```
+开发服务使用 3000，生产服务使用当前构建的 3001。本批统一执行第 7 节命令，把证据保存到 `validation/v06a/`；旧版测试脚本保留的默认输出路径用于兼容，不应覆盖 `validation/v05/` 等历史交付。
 
 性能单独采样期间不要并行构建或运行其他浏览器套件。默认测试用已安装 Chrome 与 ANGLE SwiftShader，DPR1；`CHROME_PATH`、`ROOM_TEST_URL` 可改路径/地址。触屏为 390×844 仿真。改路径或浏览器后须在报告标注环境差异。
 
-完成 `npm run build` 并用当前构建重启生产服务 3001 后：
+生产钢琴与资产专项使用开发专项记录的实际可见几何/桌下入口像素，以真实 mouse/touch 操作，并断言没有调试 API。正式资产专项通过 `ROOM_ASSET_DEV_EVIDENCE` 指向本批开发 JSON；钢琴专项使用同一 `ROOM_TEST_OUTPUT` 目录读取开发坐标。
+
+必须同时检查 source 契约和 assembly 契约。85 是原节点数；v0.5 运行时为 142，A 批增加登记过的可视节点，以本批实际装配报告为准。不能把原检查删掉，也不能强行把运行时总数固定成 85。屏幕方向、接触关系、近景材质、真实点击和钢琴重开要查看浏览器证据，不能只看单元测试。未测的真实手机、Safari 和硬件 GPU 应保持“未测试”。
+
+## 7. v0.6A 房间与家具增量
+
+A 批集中登记 16 个家族：floor、walls、door、window、curtains、desk、cabinet、bed、bedside、sofa、chair、coffee、sidetable、beanbag、rugs、dogbed。每件具体 roots、原锚点、原包络、承托高度、UV 和素材来源见 `assets-source/v06a/{family}/ASSET_SPEC.md`。空间基准为 `validation/v06a/planning/frozen-space-contract.json` 和 `blender-solid-components.json`，不能将整桌 AABB 当作实心体，也不能将展示柜的不对称原点重新居中。
 
 ```sh
-ROOM_TEST_OUTPUT=validation/v05/production npm run test:production
-ROOM_TEST_OUTPUT=validation/v05/piano ROOM_TEST_PRODUCTION=1 npm run test:piano
-ROOM_TEST_PRODUCTION=1 npm run test:assets
+npm run assets:build:room
+npm run assets:build:room -- desk floor
 ```
 
-后两项使用开发专项记录的实际可见几何/桌下入口像素，在生产环境用真实 mouse/touch 操作，并断言没有调试 API。正式资产专项默认读取 `validation/v05/production-assets-browser.json`；自定义开发证据位置时，使用 `ROOM_ASSET_DEV_EVIDENCE=/绝对路径/production-assets-browser.json` 指定。钢琴专项使用同一 `ROOM_TEST_OUTPUT` 目录读取开发坐标。
+`build-room-assets.mjs` 分派 `build_architecture_assets.py` 与 `build_furniture_assets.py`，两者复用 `v06a_blender_common.py`；生成 `blender-assets/{family}_v06a.blend`、`public/models/production/{family}_v06a.glb` 与 `asset-statistics.json`。所有根为 identity，按原锚点局部空间导出。生成器会覆盖所选家族的产物，需保留手工编辑的副本。Blender 导出后在新场景回读根、包络、三角面与 UV。
 
-必须同时检查 source 契约和 assembly 契约。85 是原节点数；加入正式部件后当前运行时为 142，不能把原检查删掉，也不能强行把运行时总数固定成 85。屏幕方向、接触关系、近景材质、真实点击和钢琴重开要查看浏览器证据，不能只看单元测试。未测的真实手机、Safari 和硬件 GPU 应保持“未测试”。
+静态家族使用 `stateSurface: null`、`surfaceRole: 'none'`，不分配屏幕或电源材质绑定。带多根的门、墙、窗帘、地毯仍按家族原子安装。所有声明根必须非空，所有 VIS 名称唯一，贴图完成解码后才抑制旧几何。Window 正式窗框沿原 `ENV_WindowFrame` 解析语义，独立玻璃保持旧策略。
+
+狗窝原 Group 内混有狗占位。`parts.proxyMeshNames` 只抑制 `DEC_DogBedProxy_Mesh`，`DEC_DogBedProxy_Mesh_1` 保留；不能隐藏整个 Group，也不能在本批制作正式狗。家族撤销时恢复原材质、raycast 与显示标记。
+
+木纹与布纹在各 GLB 内按图像与材质去重；多个 GLB 的同源纹理仍各自嵌入、各自拥有，不建立跨家族可误释放的全局材质缓存。实际重复字节、纹理对象和 RGBA+mip 估算列在 `ASSET_BUDGETS.md`，不把 PNG 压缩大小当作显存。
+
+最终验证（先启动当前开发服务）：
+
+```sh
+npm run verify:asset
+npm run typecheck
+npm test
+npm run build
+ROOM_TEST_OUTPUT=validation/v06a/v03-regression npm run test:browser
+ROOM_TEST_OUTPUT=validation/v06a/v04-regression npm run test:interactions
+ROOM_PIANO_CYCLES=20 ROOM_TEST_OUTPUT=validation/v06a/piano npm run test:piano
+ROOM_TEST_OUTPUT=validation/v06a/v05-assets npm run test:assets
+npm run test:furniture
+ROOM_FURNITURE_PERFORMANCE_ONLY=1 npm run test:furniture
+```
+
+性能模式必须独占浏览器/GPU，并避免并行 Blender/构建。当前生产构建重启 3001 后：
+
+```sh
+ROOM_TEST_OUTPUT=validation/v06a/production npm run test:production
+ROOM_TEST_OUTPUT=validation/v06a/piano ROOM_TEST_PRODUCTION=1 npm run test:piano
+ROOM_TEST_OUTPUT=validation/v06a/v05-assets ROOM_TEST_PRODUCTION=1 ROOM_ASSET_DEV_EVIDENCE=validation/v06a/v05-assets/production-assets-browser.json npm run test:assets
+ROOM_TEST_PRODUCTION=1 npm run test:furniture
+```
+
+新专项记录所有 A 家族的单独 404、代表性嵌入图片损坏、完整回退及真实刷新重试、导航取消和重复加载。正常模式三视口真实操作；生产模式读取开发版记录的可见几何像素且拒绝 debug API。故障回退的检查通过只说明可恢复，不计为正式外观通过。录像和截图在 `validation/v06a/`。
+
+有 fallback 页脚时会改变 contain 尺寸，必须等 Canvas/父容器/绘图缓冲稳定后再保存真实像素；共享测试 helper 位于 `tests/helpers/browserReady.mjs`。启动停帧检查先等有界稳定期，再测原有固定窗口，不能把尚未完成的首帧编译/布局过程当成永久绘帧。装配器对已登记 VIS 不透明网格按唯一名称固定绘制顺序，避免异步材质 ID 影响接触边缘；原源网格、透明排序和深度测试保留，卸载恢复 VIS 原值。像素验收仍用默认 AA、全画布 PNG/RGBA 严格相等，不更改相机或材质来适配测试。
+
+回退前先另存当前工作，不覆盖用户的暂存区。开工快照、哈希和恢复说明见 `V06_ASSET_STATUS.md` 与本批报告；通过将快照解压到新的独立目录可比较或恢复 v0.5，不需要 `reset --hard`。完成 A 后等待用户视觉确认，下一批只在明确授权后复用此流程。

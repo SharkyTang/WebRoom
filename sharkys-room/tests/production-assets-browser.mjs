@@ -1,3 +1,4 @@
+import { waitForCanvasReady } from './helpers/browserReady.mjs';
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -89,6 +90,8 @@ async function waitState(page, expected) {
   }, expected, { timeout: 15000 });
 }
 async function pointFor(page, id, { production = families.includes(id) } = {}) {
+  const readiness = await waitForCanvasReady(page, { interactionId: id });
+  (observations.canvasReadiness ??= []).push(readiness);
   const result = await page.evaluate(({ id, production }) => {
     const api = window.__ROOM_DEBUG__, canvas = document.querySelector('canvas'), bounds = canvas.getBoundingClientRect();
     function inspect(point) {
@@ -233,7 +236,7 @@ try {
     assert.equal(initial.validation.ok, true);
     assert.equal(initial.assembly.sourceNodeCount, 85);
     assert(initial.assembly.runtimeNodeCount > initial.assembly.sourceNodeCount);
-    assert.deepEqual([...initial.assembly.installedFamilies].sort(), [...families].sort());
+    assert.deepEqual([...initial.assembly.installedFamilies].sort(), Object.keys(initial.assets).sort());
     assert(initial.assembly.suppressedProxyMeshes.length > 0);
     for (const family of families) {
       const visual = initial.assetVisuals[family];
@@ -358,7 +361,7 @@ try {
     for (let cycle = 0; cycle < 20; cycle++) {
       const opened = await activate(reduced, 'macbook'); hinge(opened.state, reducedInitial, 'open');
       const closed = await back(reduced, reducedHero); hinge(closed, reducedInitial, 'closed');
-      assert.deepEqual([...closed.assembly.installedFamilies].sort(), [...families].sort());
+      assert.deepEqual([...closed.assembly.installedFamilies].sort(), Object.keys(closed.assets).sort());
       cycles.push({ cycle: cycle + 1, point: opened.target.point, open: opened.state.mechanical.transforms.macbook, closed: closed.mechanical.transforms.macbook });
     }
     observations.macbookCycles = cycles; return { cycles: cycles.length, nativeInput: true, reducedMotion: true };
@@ -463,7 +466,7 @@ try {
       for (let cycle = 0; cycle < 3; cycle++) {
         await page.goto(`${origin}/?debug=1&demand=1`, { waitUntil: 'domcontentloaded' });
         const state = await ready(page);
-        assert.equal(state.assembly.ok, true); assert.deepEqual([...state.assembly.installedFamilies].sort(), [...families].sort());
+        assert.equal(state.assembly.ok, true); assert.deepEqual([...state.assembly.installedFamilies].sort(), Object.keys(state.assets).sort());
         installs.push({ runtimeNodeCount: state.assembly.runtimeNodeCount, suppressedProxyMeshes: state.assembly.suppressedProxyMeshes });
         await page.goto('about:blank');
       }

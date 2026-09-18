@@ -1,6 +1,6 @@
-# Sharky's Room — v0.5 Final Asset Pipeline Pilot
+# Sharky's Room — v0.6A Room & Furniture
 
-在 v0.4.1 基础上接入 Monitor、MacBook、Marshall 三件独立正式资产，提供可编辑 Blender 源与可复现导出脚本。保留冻结 FINAL、48mm Hero、3:2 contain、九项交互和钢琴桌下重新打开入口。
+在现有 v0.5 基础上接入房间与主要家具的 16 个独立资产家族，保留 Monitor、MacBook、Marshall 三件正式资产。提供可编辑 Blender 源、原创纹理与可复现导出脚本；保留冻结 FINAL、48mm Hero、3:2 contain、九项交互和钢琴桌下重新打开入口。本次只执行 A 批，B/C 仍保留占位外观。
 
 ## 启动
 
@@ -53,31 +53,35 @@ npm run build
 另开终端启动开发服务器后：
 
 ```bash
-npm run test:browser
-npm run test:interactions
-npm run test:piano
-npm run test:assets
+ROOM_TEST_OUTPUT=validation/v06a/v03-regression npm run test:browser
+ROOM_TEST_OUTPUT=validation/v06a/v04-regression npm run test:interactions
+ROOM_PIANO_CYCLES=20 ROOM_TEST_OUTPUT=validation/v06a/piano npm run test:piano
+ROOM_TEST_OUTPUT=validation/v06a/v05-assets npm run test:assets
+npm run test:furniture
 ```
 
 另开终端启动生产服务器（3001）后：
 
 ```bash
-npm run test:production
-ROOM_TEST_OUTPUT=validation/v05/piano ROOM_TEST_PRODUCTION=1 npm run test:piano
-ROOM_TEST_PRODUCTION=1 npm run test:assets
+ROOM_TEST_OUTPUT=validation/v06a/production npm run test:production
+ROOM_TEST_OUTPUT=validation/v06a/piano ROOM_TEST_PRODUCTION=1 npm run test:piano
+ROOM_TEST_OUTPUT=validation/v06a/v05-assets ROOM_TEST_PRODUCTION=1 ROOM_ASSET_DEV_EVIDENCE=validation/v06a/v05-assets/production-assets-browser.json npm run test:assets
+ROOM_TEST_PRODUCTION=1 npm run test:furniture
 ```
 
 浏览器测试默认使用 macOS Chrome；其他路径可设置 `CHROME_PATH`，服务地址可设置 `ROOM_TEST_URL`。Playwright 使用 ANGLE SwiftShader 软件 WebGL，触屏为浏览器模拟，不等同于真实手机性能验收。
 
-生产钢琴专项需要先运行 `ROOM_TEST_OUTPUT=validation/v05/piano npm run test:piano` 生成坐标；正式资产生产专项需要先运行开发版 `npm run test:assets`。性能独立采样使用 `ROOM_ASSET_PERFORMANCE_ONLY=1 ROOM_TEST_OUTPUT=validation/v05/performance npm run test:assets`，避免与其他浏览器/构建并行。
+生产钢琴专项需要先运行 `ROOM_PIANO_CYCLES=20 ROOM_TEST_OUTPUT=validation/v06a/piano npm run test:piano` 生成坐标。两种资产生产专项都先运行对应开发专项；使用自定义证据目录时设 `ROOM_ASSET_DEV_EVIDENCE` 或 `ROOM_FURNITURE_DEV_EVIDENCE` 指向实际 JSON。A 批性能独立采样使用 `ROOM_FURNITURE_PERFORMANCE_ONLY=1 npm run test:furniture`，避免与其他浏览器、Blender 或构建并行。详细命令见接入指南。
 
 ## 正式资产
 
-三件 `.blend` 在 `blender-assets/`，网页 GLB 在 `public/models/production/`，尺寸、材质、授权与统计在 `assets-source/`。两块屏幕使用运行时 CanvasTexture，Marshall 使用独立小指示灯。
+19 个家族的 `.blend` 在 `blender-assets/`，网页 GLB 在 `public/models/production/`。v0.5 文件使用 `_pilot`，A 批使用 `_v06a` 后缀；A 批尺寸、材质、UV、来源与统计在 `assets-source/v06a/`。两块屏幕仍使用运行时 CanvasTexture，Marshall 仍使用独立小指示灯。狗窝只替换床垫 proxy，原狗身体和头的占位保留至 C 批。
 
 ```sh
 npm run assets:build                # 需要 Blender，重建源文件及 GLB
 npm run assets:build -- monitor     # 只重建一个家族
+npm run assets:build:room           # 重建 A 批 16 个家族
+npm run assets:build:room -- desk floor  # 只重建指定 A 批家族
 node scripts/assets/inspect_export_contract.mjs
 ```
 
@@ -106,9 +110,10 @@ node scripts/assets/inspect_export_contract.mjs
 - `tests/`：保留的 v0.3 契约／浏览器覆盖，加相机、机构、状态机与完整交互测试。
 - `validation/v041/`：钢琴专项截图、回归结果、构建日志与冻结资产完整性证据；v0.4 历史结果仍在 `validation/v04/`。
 - `validation/v05/`：v0.4.1 实测基线、新资产截图/录像、20轮开合、故障回退与性能记录。
+- `validation/v06a/`：本次真实 v0.5 开工基线、空间快照、A 批截图/录像、故障回退与性能增量。
 
-浏览器回归可设置 `ROOM_TEST_OUTPUT` 将结果保存到指定目录。生产钢琴专项使用 `ROOM_TEST_PRODUCTION=1 npm run test:piano`（先运行开发专项生成坐标记录）。
+浏览器回归按上述命令把结果保存到 `validation/v06a/`，保留旧版证据。生产钢琴专项使用 `ROOM_TEST_OUTPUT=validation/v06a/piano ROOM_TEST_PRODUCTION=1 npm run test:piano`（先运行开发专项生成坐标记录）。
 
-本次交付见 [FINAL_ASSET_PIPELINE_REPORT.md](FINAL_ASSET_PIPELINE_REPORT.md)。历史报告保留：[v0.4.1 钢琴修复](V0.4.1_PIANO_DISCOVERABILITY_REPORT.md)、[v0.4 交互](INTERACTION_PROTOTYPE_REPORT.md)、[v0.3 基础](WEB_FOUNDATION_REPORT.md)。
+本次交付见 [v0.6A 房间与家具报告](V06A_ROOM_FURNITURE_REPORT.md)、[资产状态](V06_ASSET_STATUS.md) 和 [资产预算](ASSET_BUDGETS.md)。历史报告保留：[v0.5 三件资产](FINAL_ASSET_PIPELINE_REPORT.md)、[v0.4.1 钢琴修复](V0.4.1_PIANO_DISCOVERABILITY_REPORT.md)、[v0.4 交互](INTERACTION_PROTOTYPE_REPORT.md)、[v0.3 基础](WEB_FOUNDATION_REPORT.md)。
 
-本轮停在 v0.5 技术交付，视觉效果待用户确认，不自动进入 v0.6。
+本轮停在 v0.6A 技术交付，视觉效果待用户确认。v0.6B / v0.6C 未开始。

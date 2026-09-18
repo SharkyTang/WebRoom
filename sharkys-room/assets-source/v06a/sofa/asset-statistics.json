@@ -1,0 +1,79 @@
+{
+  "version": "0.6A",
+  "family": "sofa",
+  "triangles": 6064,
+  "meshCount": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06A_Graphite",
+    "MAT_V06A_TaupeSeams",
+    "MAT_V06A_TaupeUpholstery"
+  ],
+  "uvMeshes": 3,
+  "roots": {
+    "VIS_Sofa": {
+      "anchor": "FUR_Sofa",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.9850000143051147,
+          0.021000001579523087,
+          -0.4399999976158142
+        ],
+        "max": [
+          0.9850000143051147,
+          0.9200000166893005,
+          0.4350000023841858
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 173668,
+  "blendBytes": 186283,
+  "glbSHA256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+  "gltfPrimitives": 3,
+  "textureCount": 1,
+  "embeddedImageBytes": 5352,
+  "exportRootTransforms": {
+    "VIS_Sofa": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "taupeupholstery_weave_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 5352
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 1048576,
+  "decodedTextureBytesWithMipmapsEstimate": 1398101,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Sofa_bounds": true
+  }
+}

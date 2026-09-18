@@ -1,0 +1,1258 @@
+{
+  "generatedAt": "2026-09-17T18:13:55.708Z",
+  "summary": {
+    "passed": 7,
+    "failed": 0
+  },
+  "samples": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "canvas": {
+        "width": 1080,
+        "height": 720
+      },
+      "baseline": {
+        "fps": 37.442112524280894,
+        "frameMs": 26.707894736214694,
+        "calls": 84,
+        "triangles": 28902
+      },
+      "current": {
+        "fps": 19.725811223870622,
+        "frameMs": 50.69500000029803,
+        "calls": 121,
+        "triangles": 80666
+      },
+      "addedCalls": 37,
+      "intervalDeltaMs": 23.987105264083336,
+      "firstReadyMs": 2177.100000023842,
+      "allNineteenInstalledMs": 1528.9000000059605,
+      "baselineFirstReadyMs": 1536,
+      "baselineAllThreeInstalledMs": 1530.7000000178814,
+      "network": {
+        "encodedBodySize": 1741116,
+        "transferSize": 1747116,
+        "decodedBodySize": 3906872
+      },
+      "baselineNetwork": {
+        "encodedBodySize": 699006,
+        "transferSize": 700206,
+        "decodedBodySize": 1531180
+      },
+      "modelRequestCount": 20,
+      "rendererMemory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureLedger": {
+        "instances": [
+          {
+            "family": "monitor",
+            "uuid": "ba17682d-f3eb-4723-80a0-8457cb154039",
+            "name": "Runtime_monitor_CanvasScreen",
+            "width": 1024,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 2796203
+          },
+          {
+            "family": "macbook",
+            "uuid": "c73d48f9-e2f3-4d68-850b-23cb13b04e6c",
+            "name": "Runtime_macbook_CanvasScreen",
+            "width": 512,
+            "height": 320,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 873814
+          },
+          {
+            "family": "marshall",
+            "uuid": "5614af70-9490-4700-9cbc-0363f9ff434f",
+            "name": "woven_grille_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "floor",
+            "uuid": "5514009c-957c-4794-b6af-d323866d57fb",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "door",
+            "uuid": "9deee2ac-e726-4a5e-93db-eb2040e1d250",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "desk",
+            "uuid": "794b4e05-2b6b-49fa-9ea2-2728a04d2548",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "cabinet",
+            "uuid": "66545ab0-73ab-428c-9e39-2e8f460bcd48",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bed",
+            "uuid": "3ef1e317-7274-4674-8bfb-81bb2550b48c",
+            "name": "bluegreybedding_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bed",
+            "uuid": "4a1dd129-a50d-46c9-9c29-3a3681bd9617",
+            "name": "linen_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bed",
+            "uuid": "7e5aee29-8a82-4907-9fed-f40fd3802a44",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bedside",
+            "uuid": "0d8fad33-d263-4a33-808d-be7831d2196b",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "sofa",
+            "uuid": "4bc3e927-ec89-477b-9f58-3fb96eddb2c8",
+            "name": "taupeupholstery_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "chair",
+            "uuid": "e6b5b682-f7f3-4f13-937b-a084cbe3617e",
+            "name": "chairfabric_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "coffee",
+            "uuid": "961fc583-d4d6-4006-abab-8bbe58e99222",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "sidetable",
+            "uuid": "85e60a91-b884-4edc-84a2-4690feabee56",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "beanbag",
+            "uuid": "8b8d1771-93b7-43a9-a19d-991eab85136c",
+            "name": "beanbagweave_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "rugs",
+            "uuid": "ca2f1081-053b-4a9d-a115-54f39af162d8",
+            "name": "rugborder_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "rugs",
+            "uuid": "771b8d5f-22f2-498b-a8d8-98673eb3a619",
+            "name": "rugweave_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "dogbed",
+            "uuid": "cd4095f5-9ff1-43ae-a23c-602d022cb34f",
+            "name": "dogbedcushion_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "dogbed",
+            "uuid": "8ec25f90-215d-44f1-8de8-901863b4bb96",
+            "name": "dogbedupholstery_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          }
+        ],
+        "reportedInstances": 20,
+        "uniqueTextureUuids": 20,
+        "estimatedUniqueRGBABytesWithMipmaps": 28835853,
+        "rendererMemory": {
+          "geometries": 152,
+          "textures": 21
+        },
+        "limits": "UUIDs identify renderer texture objects; mipmapped RGBA estimates are not measured GPU allocations."
+      }
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "canvas": {
+        "width": 688,
+        "height": 458
+      },
+      "baseline": {
+        "fps": 52.76782158471273,
+        "frameMs": 18.950943396338882,
+        "calls": 84,
+        "triangles": 28902
+      },
+      "current": {
+        "fps": 24.67429924946584,
+        "frameMs": 40.52800000071525,
+        "calls": 121,
+        "triangles": 80666
+      },
+      "addedCalls": 37,
+      "intervalDeltaMs": 21.57705660437637,
+      "firstReadyMs": 435.80000001192093,
+      "allNineteenInstalledMs": 430.90000000596046,
+      "baselineFirstReadyMs": null,
+      "baselineAllThreeInstalledMs": null,
+      "network": {
+        "encodedBodySize": 1741116,
+        "transferSize": 1747116,
+        "decodedBodySize": 3906872
+      },
+      "baselineNetwork": {
+        "encodedBodySize": 699006,
+        "transferSize": 700206,
+        "decodedBodySize": 1531180
+      },
+      "modelRequestCount": 20,
+      "rendererMemory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureLedger": {
+        "instances": [
+          {
+            "family": "monitor",
+            "uuid": "6b61f927-1dcd-4224-b600-c7bd2edea20a",
+            "name": "Runtime_monitor_CanvasScreen",
+            "width": 1024,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 2796203
+          },
+          {
+            "family": "macbook",
+            "uuid": "7db0a56a-3bc1-4689-a7ed-cadf50b30ef8",
+            "name": "Runtime_macbook_CanvasScreen",
+            "width": 512,
+            "height": 320,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 873814
+          },
+          {
+            "family": "marshall",
+            "uuid": "5efa8b42-7860-4339-ba3c-58c6aad35649",
+            "name": "woven_grille_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "floor",
+            "uuid": "15abf307-17db-4183-8dfa-6ae9dc9e6e19",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "door",
+            "uuid": "2e1eab70-b537-48eb-aaf4-721237447b0c",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "desk",
+            "uuid": "ca1a5db7-e3f6-441f-8484-3ec2b0abdf14",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "cabinet",
+            "uuid": "7bddb158-f8f0-4174-91a1-bf85d175269a",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bed",
+            "uuid": "f7d62e8e-bc49-4927-acc3-221f3cccd2d4",
+            "name": "bluegreybedding_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bed",
+            "uuid": "2deecc8e-7319-49d7-8dbc-6640c58f1e2f",
+            "name": "linen_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bed",
+            "uuid": "87adbfa2-f6c6-44a4-b7ce-5f4ed3400b2d",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bedside",
+            "uuid": "789163d5-34fc-4489-ade3-70f86472b753",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "sofa",
+            "uuid": "98ce8a07-9fc9-46c7-b489-911497fde49c",
+            "name": "taupeupholstery_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "chair",
+            "uuid": "0b397e18-3bc9-4622-b69c-ae8ae3bea1c1",
+            "name": "chairfabric_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "coffee",
+            "uuid": "9dff976d-6cd3-42c9-96b2-45310bd39496",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "sidetable",
+            "uuid": "47a47f77-cd8b-4dd2-93d8-ed3ed8260383",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "beanbag",
+            "uuid": "12adb714-6281-48fc-a23a-5e319503b4e6",
+            "name": "beanbagweave_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "rugs",
+            "uuid": "ead6c353-3c00-4203-974f-3d2912e6e383",
+            "name": "rugborder_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "rugs",
+            "uuid": "58ec3c40-357e-4248-94c0-3e3c9fb4f4d0",
+            "name": "rugweave_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "dogbed",
+            "uuid": "ec2f7e6d-b0a8-4b5c-a642-f0e010d327ec",
+            "name": "dogbedcushion_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "dogbed",
+            "uuid": "175b66b1-ed91-4e61-b7d7-b3db029a767b",
+            "name": "dogbedupholstery_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          }
+        ],
+        "reportedInstances": 20,
+        "uniqueTextureUuids": 20,
+        "estimatedUniqueRGBABytesWithMipmaps": 28835853,
+        "rendererMemory": {
+          "geometries": 152,
+          "textures": 21
+        },
+        "limits": "UUIDs identify renderer texture objects; mipmapped RGBA estimates are not measured GPU allocations."
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "canvas": {
+        "width": 360,
+        "height": 240
+      },
+      "baseline": {
+        "fps": 59.99400060029758,
+        "frameMs": 16.668333333233985,
+        "calls": 84,
+        "triangles": 28902
+      },
+      "current": {
+        "fps": 28.01661675135932,
+        "frameMs": 35.693103449098,
+        "calls": 121,
+        "triangles": 80666
+      },
+      "addedCalls": 37,
+      "intervalDeltaMs": 19.024770115864012,
+      "firstReadyMs": 442,
+      "allNineteenInstalledMs": 437.30000001192093,
+      "baselineFirstReadyMs": 424.5,
+      "baselineAllThreeInstalledMs": 419.59999999403954,
+      "network": {
+        "encodedBodySize": 1741116,
+        "transferSize": 1747116,
+        "decodedBodySize": 3906872
+      },
+      "baselineNetwork": {
+        "encodedBodySize": 699006,
+        "transferSize": 700206,
+        "decodedBodySize": 1531180
+      },
+      "modelRequestCount": 20,
+      "rendererMemory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureLedger": {
+        "instances": [
+          {
+            "family": "monitor",
+            "uuid": "8332f4d4-57ad-4bc3-979b-f4346c28131d",
+            "name": "Runtime_monitor_CanvasScreen",
+            "width": 1024,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 2796203
+          },
+          {
+            "family": "macbook",
+            "uuid": "d47b1444-c4ae-4dfd-aa82-33d35747c728",
+            "name": "Runtime_macbook_CanvasScreen",
+            "width": 512,
+            "height": 320,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 873814
+          },
+          {
+            "family": "marshall",
+            "uuid": "c2106914-a691-4ec0-b78b-b14c987c9c9f",
+            "name": "woven_grille_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "floor",
+            "uuid": "00a997fa-0d0e-4260-b56b-06e77a6fad2d",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "door",
+            "uuid": "02f5d999-d1e6-43a9-bc88-9d92750a8e7f",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "desk",
+            "uuid": "24f6ec55-170e-46e2-98d9-07bed9286447",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "cabinet",
+            "uuid": "44710965-edde-45ee-a7ef-b6e28af3506b",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bed",
+            "uuid": "2a3472cb-a15a-483b-a710-2d0e20e06886",
+            "name": "bluegreybedding_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bed",
+            "uuid": "a179ec3a-93e2-48ce-a3c9-9763891a28bb",
+            "name": "linen_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bed",
+            "uuid": "7d5eeb4e-0342-4f81-95c0-45f575971772",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "bedside",
+            "uuid": "34edf719-7050-4140-ae05-c40b976ef983",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "sofa",
+            "uuid": "ee59e70c-5691-4e39-9a38-73245a496c36",
+            "name": "taupeupholstery_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "chair",
+            "uuid": "06042721-2a84-4c82-a41d-55564d7734eb",
+            "name": "chairfabric_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "coffee",
+            "uuid": "f1f47751-d50f-4015-b516-b29c240f80d6",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "sidetable",
+            "uuid": "a5634722-9e35-427a-aea9-eb865e88ff3a",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "beanbag",
+            "uuid": "1fcf0bb1-6f3c-4346-88dd-3506a74db093",
+            "name": "beanbagweave_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "rugs",
+            "uuid": "07bbe487-2ea5-426b-a52d-a867a1010286",
+            "name": "rugborder_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "rugs",
+            "uuid": "6eba278e-1c76-4f9a-b3d9-13d3b6377749",
+            "name": "rugweave_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "dogbed",
+            "uuid": "35eed7ea-1510-4b0f-9eba-e9076070660b",
+            "name": "dogbedcushion_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          },
+          {
+            "family": "dogbed",
+            "uuid": "9ac24931-5f60-40e9-b6b9-074ec0a45894",
+            "name": "dogbedupholstery_weave_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          }
+        ],
+        "reportedInstances": 20,
+        "uniqueTextureUuids": 20,
+        "estimatedUniqueRGBABytesWithMipmaps": 28835853,
+        "rendererMemory": {
+          "geometries": 152,
+          "textures": 21
+        },
+        "limits": "UUIDs identify renderer texture objects; mipmapped RGBA estimates are not measured GPU allocations."
+      }
+    }
+  ],
+  "activity": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "actions": [
+        {
+          "label": "monitor: Hero to focus and mechanism",
+          "baseline": {
+            "mean": 28.5125,
+            "median": 28.100000023841858,
+            "p95": 34.900000005960464,
+            "max": 48.89999997615814
+          },
+          "current": {
+            "mean": 40.05625000037253,
+            "median": 40.80000001192093,
+            "p95": 52.099999994039536,
+            "max": 54.80000001192093
+          }
+        },
+        {
+          "label": "monitor: Back including mechanism exit",
+          "baseline": {
+            "mean": 32.96923076877227,
+            "median": 31.599999994039536,
+            "p95": 42.599999994039536,
+            "max": 54.19999998807907
+          },
+          "current": {
+            "mean": 36.63529411834829,
+            "median": 33.69999998807907,
+            "p95": 51.900000005960464,
+            "max": 52.400000005960464
+          }
+        },
+        {
+          "label": "macbook: Hero to focus and mechanism",
+          "baseline": {
+            "mean": 33.844285713774816,
+            "median": 34.5,
+            "p95": 39.400000005960464,
+            "max": 44.400000005960464
+          },
+          "current": {
+            "mean": 38.09677419258702,
+            "median": 32.80000001192093,
+            "p95": 53.30000001192093,
+            "max": 54.29999998211861
+          }
+        },
+        {
+          "label": "macbook: Back including mechanism exit",
+          "baseline": {
+            "mean": 35.80384615350228,
+            "median": 35.599999994039536,
+            "p95": 40.39999997615814,
+            "max": 46
+          },
+          "current": {
+            "mean": 38.57499999987582,
+            "median": 33.80000001192093,
+            "p95": 54.69999998807907,
+            "max": 55.599999994039536
+          }
+        },
+        {
+          "label": "marshall: Hero to focus and mechanism",
+          "baseline": {
+            "mean": 30.47906976591709,
+            "median": 30.69999998807907,
+            "p95": 34.099999994039536,
+            "max": 34.400000005960464
+          },
+          "current": {
+            "mean": 42.19333333174388,
+            "median": 47.19999998807907,
+            "p95": 53.79999998211861,
+            "max": 54
+          }
+        },
+        {
+          "label": "marshall: Back including mechanism exit",
+          "baseline": {
+            "mean": 33.66562499944121,
+            "median": 33.19999998807907,
+            "p95": 37.20000001788139,
+            "max": 59.599999994039536
+          },
+          "current": {
+            "mean": 38.3448275862069,
+            "median": 32.5,
+            "p95": 53.599999994039536,
+            "max": 54.5
+          }
+        },
+        {
+          "label": "piano: Hero to focus and mechanism",
+          "baseline": {
+            "mean": 32.831506851193026,
+            "median": 33,
+            "p95": 37.099999994039536,
+            "max": 40.10000002384186
+          },
+          "current": {
+            "mean": 44.90943395922769,
+            "median": 41.39999997615814,
+            "p95": 56,
+            "max": 57.599999994039536
+          }
+        },
+        {
+          "label": "piano: Back including mechanism exit",
+          "baseline": {
+            "mean": 35.39999999923091,
+            "median": 36.099999994039536,
+            "p95": 38.5,
+            "max": 42.79999998211861
+          },
+          "current": {
+            "mean": 49.804545454003595,
+            "median": 50.400000005960464,
+            "p95": 58.099999994039536,
+            "max": 58.400000005960464
+          }
+        }
+      ],
+      "focus": [
+        {
+          "id": "monitor",
+          "baseline": {
+            "fps": 28.91037782890272,
+            "frameMs": 34.58965517220826,
+            "calls": 25,
+            "triangles": 8400
+          },
+          "current": {
+            "fps": 30.261616556737113,
+            "frameMs": 33.045161289553484,
+            "calls": 31,
+            "triangles": 27614
+          }
+        },
+        {
+          "id": "macbook",
+          "baseline": {
+            "fps": 27.362454802769292,
+            "frameMs": 36.546428571854314,
+            "calls": 23,
+            "triangles": 15548
+          },
+          "current": {
+            "fps": 30.032939352318323,
+            "frameMs": 33.296774194125206,
+            "calls": 36,
+            "triangles": 35366
+          }
+        },
+        {
+          "id": "marshall",
+          "baseline": {
+            "fps": 29.70591147620847,
+            "frameMs": 33.663333333532016,
+            "calls": 21,
+            "triangles": 8416
+          },
+          "current": {
+            "fps": 34.43526170879673,
+            "frameMs": 29.039999999318805,
+            "calls": 28,
+            "triangles": 24930
+          }
+        },
+        {
+          "id": "piano",
+          "baseline": {
+            "fps": 29.69708968556129,
+            "frameMs": 33.67333333293597,
+            "calls": 32,
+            "triangles": 20188
+          },
+          "current": {
+            "fps": 24.657264030563052,
+            "frameMs": 40.55599999904632,
+            "calls": 51,
+            "triangles": 46924
+          }
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "actions": [
+        {
+          "label": "monitor: Hero to focus and mechanism",
+          "baseline": {
+            "mean": 16.659740259895077,
+            "median": 16.69999998807907,
+            "p95": 17.599999994039536,
+            "max": 45.20000001788139
+          },
+          "current": {
+            "mean": 24.03962264139697,
+            "median": 17.399999976158142,
+            "p95": 36.89999997615814,
+            "max": 51.599999994039536
+          }
+        },
+        {
+          "label": "monitor: Back including mechanism exit",
+          "baseline": {
+            "mean": 16.445569620102265,
+            "median": 16.69999998807907,
+            "p95": 17.399999976158142,
+            "max": 17.5
+          },
+          "current": {
+            "mean": 20.5859375,
+            "median": 16.700000017881393,
+            "p95": 35.70000001788139,
+            "max": 36.80000001192093
+          }
+        },
+        {
+          "label": "macbook: Hero to focus and mechanism",
+          "baseline": {
+            "mean": 16.477622378330963,
+            "median": 16.5,
+            "p95": 17.100000023841858,
+            "max": 17.5
+          },
+          "current": {
+            "mean": 19.88620689742524,
+            "median": 16.30000001192093,
+            "p95": 35.5,
+            "max": 37.5
+          }
+        },
+        {
+          "label": "macbook: Back including mechanism exit",
+          "baseline": {
+            "mean": 16.65803571444537,
+            "median": 16.69999998807907,
+            "p95": 16.80000001192093,
+            "max": 17.69999998807907
+          },
+          "current": {
+            "mean": 20.119354838645588,
+            "median": 16.700000017881393,
+            "p95": 36.10000002384186,
+            "max": 37
+          }
+        },
+        {
+          "label": "marshall: Hero to focus and mechanism",
+          "baseline": {
+            "mean": 16.561538462455456,
+            "median": 16.599999994039536,
+            "p95": 16.700000017881393,
+            "max": 16.799999982118607
+          },
+          "current": {
+            "mean": 23.869230770720886,
+            "median": 17.299999982118607,
+            "p95": 35.89999997615814,
+            "max": 39.19999998807907
+          }
+        },
+        {
+          "label": "marshall: Back including mechanism exit",
+          "baseline": {
+            "mean": 16.665151515241824,
+            "median": 16.69999998807907,
+            "p95": 16.80000001192093,
+            "max": 16.80000001192093
+          },
+          "current": {
+            "mean": 22.07600000023842,
+            "median": 16.80000001192093,
+            "p95": 35.900000005960464,
+            "max": 36.5
+          }
+        },
+        {
+          "label": "piano: Hero to focus and mechanism",
+          "baseline": {
+            "mean": 16.516783215574453,
+            "median": 16.599999994039536,
+            "p95": 16.700000017881393,
+            "max": 17.099999994039536
+          },
+          "current": {
+            "mean": 22.510576924165854,
+            "median": 18.799999982118607,
+            "p95": 35.900000005960464,
+            "max": 39.70000001788139
+          }
+        },
+        {
+          "label": "piano: Back including mechanism exit",
+          "baseline": {
+            "mean": 16.668181818091508,
+            "median": 16.69999998807907,
+            "p95": 16.80000001192093,
+            "max": 17
+          },
+          "current": {
+            "mean": 27.13999999985099,
+            "median": 26,
+            "p95": 36.900000005960464,
+            "max": 37.29999998211861
+          }
+        }
+      ],
+      "focus": [
+        {
+          "id": "monitor",
+          "baseline": {
+            "fps": 60.02755363187918,
+            "frameMs": 16.659016393247185,
+            "calls": 25,
+            "triangles": 8400
+          },
+          "current": {
+            "fps": 59.96402158740499,
+            "frameMs": 16.676666666567318,
+            "calls": 31,
+            "triangles": 27614
+          }
+        },
+        {
+          "id": "macbook",
+          "baseline": {
+            "fps": 60.003934684593425,
+            "frameMs": 16.665573770394086,
+            "calls": 23,
+            "triangles": 15548
+          },
+          "current": {
+            "fps": 59.99803285208544,
+            "frameMs": 16.667213114558663,
+            "calls": 36,
+            "triangles": 35366
+          }
+        },
+        {
+          "id": "marshall",
+          "baseline": {
+            "fps": 60.009837678307946,
+            "frameMs": 16.663934426229503,
+            "calls": 21,
+            "triangles": 8416
+          },
+          "current": {
+            "fps": 59.99400060029757,
+            "frameMs": 16.66833333323399,
+            "calls": 28,
+            "triangles": 24930
+          }
+        },
+        {
+          "id": "piano",
+          "baseline": {
+            "fps": 60.009837678307946,
+            "frameMs": 16.663934426229503,
+            "calls": 32,
+            "triangles": 20188
+          },
+          "current": {
+            "fps": 53.49712700582638,
+            "frameMs": 18.69259259270297,
+            "calls": 51,
+            "triangles": 46924
+          }
+        }
+      ]
+    }
+  ],
+  "fallbacks": [
+    {
+      "family": "floor",
+      "kind": "404",
+      "firstFallbackMs": 435.89999997615814,
+      "firstReadyMs": 440.89999997615814,
+      "retryAllInstalledMs": 409.40000000596046,
+      "retryReadyMs": 413.09999999403954,
+      "fallbackVisualMeshes": 0,
+      "otherFamilies": 18,
+      "retryFamilies": 19
+    },
+    {
+      "family": "bed",
+      "kind": "corrupt-image",
+      "firstFallbackMs": 459.90000000596046,
+      "firstReadyMs": 465.40000000596046,
+      "retryAllInstalledMs": 413.2999999821186,
+      "retryReadyMs": 884.5999999940395,
+      "fallbackVisualMeshes": 0,
+      "otherFamilies": 18,
+      "retryFamilies": 19
+    }
+  ],
+  "modelFileBytes": 3906872,
+  "modelBreakdown": {
+    "embeddedImages": [
+      {
+        "model": "/models/production/marshall_pilot.glb",
+        "name": "woven_grille_basecolor_512",
+        "mimeType": "image/png",
+        "bytes": 430084,
+        "sha256": "3b4f85955e41daecb59969f9e52f3452bbf04d593ecfe9e1fbf6f37579bfcb57"
+      },
+      {
+        "model": "/models/production/floor_v06a.glb",
+        "name": "warm_oak_basecolor_512",
+        "mimeType": "image/png",
+        "bytes": 49211,
+        "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4"
+      },
+      {
+        "model": "/models/production/door_v06a.glb",
+        "name": "warm_oak_basecolor_512",
+        "mimeType": "image/png",
+        "bytes": 49211,
+        "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4"
+      },
+      {
+        "model": "/models/production/desk_v06a.glb",
+        "name": "warm_oak_basecolor_512",
+        "mimeType": "image/png",
+        "bytes": 49211,
+        "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4"
+      },
+      {
+        "model": "/models/production/cabinet_v06a.glb",
+        "name": "warm_oak_basecolor_512",
+        "mimeType": "image/png",
+        "bytes": 49211,
+        "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4"
+      },
+      {
+        "model": "/models/production/bed_v06a.glb",
+        "name": "bluegreybedding_weave_512",
+        "mimeType": "image/png",
+        "bytes": 5580,
+        "sha256": "ec96eae1e4096d17a378d8e8a3a374505f9926b208ea70082adb50980e070142"
+      },
+      {
+        "model": "/models/production/bed_v06a.glb",
+        "name": "linen_weave_512",
+        "mimeType": "image/png",
+        "bytes": 5611,
+        "sha256": "4aa3363f53fd74eb46b39b3f24276141af71eafbacdbd4c4c17c561cb11d7b95"
+      },
+      {
+        "model": "/models/production/bed_v06a.glb",
+        "name": "warm_oak_basecolor_512",
+        "mimeType": "image/png",
+        "bytes": 49211,
+        "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4"
+      },
+      {
+        "model": "/models/production/bedside_v06a.glb",
+        "name": "warm_oak_basecolor_512",
+        "mimeType": "image/png",
+        "bytes": 49211,
+        "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4"
+      },
+      {
+        "model": "/models/production/sofa_v06a.glb",
+        "name": "taupeupholstery_weave_512",
+        "mimeType": "image/png",
+        "bytes": 5352,
+        "sha256": "ab7696a2df3a7c5b324af96c745f49b0aac0b4968a747a1d22d8a2d45719d5f4"
+      },
+      {
+        "model": "/models/production/chair_v06a.glb",
+        "name": "chairfabric_weave_512",
+        "mimeType": "image/png",
+        "bytes": 5269,
+        "sha256": "1ffdf135362b3d70af1460af65bd140bf03c06c765e3c540180b4f1a6bbccc0e"
+      },
+      {
+        "model": "/models/production/coffee_v06a.glb",
+        "name": "warm_oak_basecolor_512",
+        "mimeType": "image/png",
+        "bytes": 49211,
+        "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4"
+      },
+      {
+        "model": "/models/production/sidetable_v06a.glb",
+        "name": "warm_oak_basecolor_512",
+        "mimeType": "image/png",
+        "bytes": 49211,
+        "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4"
+      },
+      {
+        "model": "/models/production/beanbag_v06a.glb",
+        "name": "beanbagweave_weave_512",
+        "mimeType": "image/png",
+        "bytes": 5487,
+        "sha256": "4f2a56eb1a08eaf624357857e8e707db8e49415340716c92976d7e40b056d9ce"
+      },
+      {
+        "model": "/models/production/rugs_v06a.glb",
+        "name": "rugborder_weave_512",
+        "mimeType": "image/png",
+        "bytes": 5276,
+        "sha256": "9a20caabf3bf927a5675a05f058f27fac68947081823e4a562752984af348290"
+      },
+      {
+        "model": "/models/production/rugs_v06a.glb",
+        "name": "rugweave_weave_512",
+        "mimeType": "image/png",
+        "bytes": 5302,
+        "sha256": "63dd9a9ae3c5dd243cc754ed0b1a9755a7637198fa752e9d1dae38e9c13cf49d"
+      },
+      {
+        "model": "/models/production/dogbed_v06a.glb",
+        "name": "dogbedcushion_weave_512",
+        "mimeType": "image/png",
+        "bytes": 6621,
+        "sha256": "74f9f6096c0e0d33e58b6b9af41b20139a0091a539d1d05789c9e05a3c48e33d"
+      },
+      {
+        "model": "/models/production/dogbed_v06a.glb",
+        "name": "dogbedupholstery_weave_512",
+        "mimeType": "image/png",
+        "bytes": 5410,
+        "sha256": "0837dc01ed2ed5d594b4a10aff7165f67ba27bb0fa59f30349619d9d0d29c856"
+      }
+    ],
+    "embeddedImageCount": 18,
+    "embeddedImageBytes": 873680,
+    "uniqueEncodedImageContents": 11,
+    "uniqueEncodedImageBytes": 529203,
+    "nonImageGLBBytes": 3033192,
+    "note": "Raw GLB byte split. Non-image remainder includes geometry, JSON, materials, hierarchy, padding and container data; it is not geometry alone. Same embedded image content in different GLBs is counted in actual delivered bytes, even if its source-content ledger deduplicates."
+  },
+  "limits": "Frame intervals include diagnostics and are not isolated CPU/GPU time. Per-family texture dimensions estimate memory, with no unproven cross-family sharing. Local warm-server timings are not internet cold starts."
+}

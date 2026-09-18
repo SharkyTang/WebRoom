@@ -1,6 +1,6 @@
 {
   "name": "sharkys-room",
-  "version": "0.5.0",
+  "version": "0.6.0-a.0",
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
@@ -14,7 +14,9 @@
     "test:piano": "node tests/piano-discoverability-browser.mjs",
     "test:interactions": "node tests/interaction-browser.mjs",
     "assets:build": "node scripts/assets/build-assets.mjs",
-    "test:assets": "node tests/production-assets-browser.mjs"
+    "test:assets": "node tests/production-assets-browser.mjs",
+    "assets:build:room": "node scripts/assets/build-room-assets.mjs",
+    "test:furniture": "node tests/furniture-browser.mjs"
   },
   "dependencies": {
     "@react-three/drei": "10.7.8",

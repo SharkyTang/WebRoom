@@ -1,0 +1,107 @@
+{
+  "version": "0.6A",
+  "family": "walls",
+  "triangles": 1296,
+  "meshCount": 4,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06A_WallLowerTrim",
+    "MAT_V06A_WarmPlaster"
+  ],
+  "uvMeshes": 4,
+  "roots": {
+    "VIS_WallLeft": {
+      "anchor": "ENV_Wall_Left",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.09000000357627869,
+          0.0,
+          -2.9000000953674316
+        ],
+        "max": [
+          0.09000000357627869,
+          3.0,
+          2.8999998569488525
+        ]
+      }
+    },
+    "VIS_WallRight": {
+      "anchor": "ENV_Wall_Right",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -3.690000057220459,
+          0.0,
+          -0.09000000357627869
+        ],
+        "max": [
+          3.690000057220459,
+          3.0,
+          0.09000000357627869
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 39828,
+  "blendBytes": 113708,
+  "glbSHA256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_WallLeft": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_WallRight": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [],
+  "decodedTextureBytesRGBA8Estimate": 0,
+  "decodedTextureBytesWithMipmapsEstimate": 0,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_WallLeft_bounds": true,
+    "VIS_WallRight_bounds": true
+  }
+}

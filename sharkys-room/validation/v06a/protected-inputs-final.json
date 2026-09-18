@@ -1,0 +1,102 @@
+{
+  "generatedAt": "2026-09-17T17:21:00.850Z",
+  "files": [
+    {
+      "path": "../blockout_FINAL/sharkys_room_blockout_FINAL.blend",
+      "bytes": 713580,
+      "sha256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "currentSHA256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720",
+      "unchanged": true
+    },
+    {
+      "path": "../blockout_FINAL/sharkys_room_blockout_FINAL.glb",
+      "bytes": 411892,
+      "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "currentSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "unchanged": true
+    },
+    {
+      "path": "public/models/sharkys_room_blockout_FINAL.glb",
+      "bytes": 411892,
+      "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "currentSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+      "unchanged": true
+    },
+    {
+      "path": "lib/room/frozenSceneManifest.json",
+      "bytes": 27894,
+      "sha256": "84b793cdaba786d647ccde41e4c653ef64a4bcf3d0afd9d693f49a0064521f53",
+      "currentSHA256": "84b793cdaba786d647ccde41e4c653ef64a4bcf3d0afd9d693f49a0064521f53",
+      "unchanged": true
+    },
+    {
+      "path": "blender-assets/monitor_pilot.blend",
+      "bytes": 153805,
+      "sha256": "c1d55f0366ea1d8027b9031d32d1b076bca4b0d553a261270a7fb101d43ca6ac",
+      "currentSHA256": "c1d55f0366ea1d8027b9031d32d1b076bca4b0d553a261270a7fb101d43ca6ac",
+      "unchanged": true
+    },
+    {
+      "path": "public/models/production/monitor_pilot.glb",
+      "bytes": 95904,
+      "sha256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "currentSHA256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "unchanged": true
+    },
+    {
+      "path": "assets-source/monitor/ASSET_SPEC.md",
+      "bytes": 4371,
+      "sha256": "6ced75430f76b1fd3bf7745e58f4e71d6f81eb26e1f36ad37d8cec29b9652ccb",
+      "currentSHA256": "6ced75430f76b1fd3bf7745e58f4e71d6f81eb26e1f36ad37d8cec29b9652ccb",
+      "unchanged": true
+    },
+    {
+      "path": "blender-assets/macbook_pilot.blend",
+      "bytes": 283600,
+      "sha256": "5622096fcc53bf675e30f24ac0a6ba968fa1a577a3740150e5822cd61fa14261",
+      "currentSHA256": "5622096fcc53bf675e30f24ac0a6ba968fa1a577a3740150e5822cd61fa14261",
+      "unchanged": true
+    },
+    {
+      "path": "public/models/production/macbook_pilot.glb",
+      "bytes": 445776,
+      "sha256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "currentSHA256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "unchanged": true
+    },
+    {
+      "path": "assets-source/macbook/ASSET_SPEC.md",
+      "bytes": 4839,
+      "sha256": "0cc8a58a758501ea244ed472d2a473f917148d34e1ca657c2c1ab8b2701c1ce3",
+      "currentSHA256": "0cc8a58a758501ea244ed472d2a473f917148d34e1ca657c2c1ab8b2701c1ce3",
+      "unchanged": true
+    },
+    {
+      "path": "blender-assets/marshall_pilot.blend",
+      "bytes": 599495,
+      "sha256": "b66e3236c6ffa064cc45343f74afbe4c20bc390ed0388f6735cd0221d5ab935f",
+      "currentSHA256": "b66e3236c6ffa064cc45343f74afbe4c20bc390ed0388f6735cd0221d5ab935f",
+      "unchanged": true
+    },
+    {
+      "path": "public/models/production/marshall_pilot.glb",
+      "bytes": 577608,
+      "sha256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "currentSHA256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "unchanged": true
+    },
+    {
+      "path": "assets-source/marshall/ASSET_SPEC.md",
+      "bytes": 4491,
+      "sha256": "a35bb2a52b9f10faa588d33b5507308066d43d9aa05aaf6d28191d7db4e36d65",
+      "currentSHA256": "a35bb2a52b9f10faa588d33b5507308066d43d9aa05aaf6d28191d7db4e36d65",
+      "unchanged": true
+    }
+  ],
+  "allProtectedUnchanged": true,
+  "expectedChangedRegistrations": [
+    "package.json",
+    "package-lock.json",
+    "lib/room/assets/assetManifest.ts"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": "0.6A",
+  "family": "coffee",
+  "triangles": 1052,
+  "meshCount": 2,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06A_Graphite",
+    "MAT_V06A_WarmOak"
+  ],
+  "uvMeshes": 2,
+  "roots": {
+    "VIS_Coffee": {
+      "anchor": "FUR_CoffeeTable",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.550000011920929,
+          0.021000012755393982,
+          -0.32499998807907104
+        ],
+        "max": [
+          0.550000011920929,
+          0.47999998927116394,
+          0.32499998807907104
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 83120,
+  "blendBytes": 160975,
+  "glbSHA256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+  "gltfPrimitives": 2,
+  "textureCount": 1,
+  "embeddedImageBytes": 49211,
+  "exportRootTransforms": {
+    "VIS_Coffee": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "warm_oak_basecolor_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 49211
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 1048576,
+  "decodedTextureBytesWithMipmapsEstimate": 1398101,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Coffee_bounds": true
+  }
+}

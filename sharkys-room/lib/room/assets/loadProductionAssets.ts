@@ -1,11 +1,11 @@
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { LoadingManager, type Group, type Object3D } from 'three';
-import { assetFamilies, assetManifest, initialAssetLoadReport, type AssetLoadReport } from './assetManifest';
+import { assetFamilies, assetManifest, initialAssetLoadReport, type AssetFamily, type AssetLoadReport } from './assetManifest';
 import { installAssetFamily, validateAssembly } from './assetAssembly';
 import { ownObjectResources } from './resourceOwnership';
 
 /** Initial-load transaction: every family settles before the interaction runtime can attach. */
-export async function loadProductionAssets(room: Object3D, signal: AbortSignal) {
+export async function loadProductionAssets(room: Object3D, signal: AbortSignal, selectedFamilies: readonly AssetFamily[] = assetFamilies) {
   const report: AssetLoadReport = initialAssetLoadReport();
   const installations: ReturnType<typeof installAssetFamily>[] = [];
   let disposed = false;
@@ -16,7 +16,7 @@ export async function loadProductionAssets(room: Object3D, signal: AbortSignal) 
   };
   // Abort can arrive while image decoding continues, so each continuation checks it too.
   signal.addEventListener('abort', dispose, { once: true });
-  await Promise.all(assetFamilies.map(async id => {
+  await Promise.all(selectedFamilies.map(async id => {
     let asset: Group | undefined;
     try {
       const response = await fetch(assetManifest[id].url, { signal });

@@ -1,0 +1,6391 @@
+{
+  "note": "Read-only RAF timeline after old ready condition; no input or application state mutation.",
+  "samples": [
+    {
+      "at": 0.699999988079071,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 3,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 20.69999998807907,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 356.89999997615814,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 370,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 386.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 403.89999997615814,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 420.59999999403954,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 437.39999997615814,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 453.19999998807907,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 470.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 486.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 503.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 520.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 537.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 554.0999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 570.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 586.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 602.8999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 619.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 636.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 653,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 670.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 686.6999999880791,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 703.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 719.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 736.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 752.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 770.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 786.1999999880791,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 803.2999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 820.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 837.0999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 853.8999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 870.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 886.2999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 904,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 919.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 937.2999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 954,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 969.6999999880791,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 987.1999999880791,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1003.8999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1020.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1037.199999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1053.8999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1070.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1086.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1103.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1120.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1137.199999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1153.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1170.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1186.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1203.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1220.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1237.0999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1253.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1269.8999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1286.0999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1303.699999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1320.2999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1337,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1353.699999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1369.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1387.0999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1402.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1420.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1437.0999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1452.699999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1470.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1487.0999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1503.699999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1519.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1537.199999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1553.8999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1570.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1587.2999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1603.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1620.8999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1637,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1653.199999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1670.699999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1686.5,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1704,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1719.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1736.2999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1754,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1770,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1787.0999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1803.2999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1819.199999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1836.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1853.699999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1869.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1886.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1902.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1919.7999999821186,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1936.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1953.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1970.3999999761581,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 1986.5999999940395,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    },
+    {
+      "at": 2002.699999988079,
+      "frames": 4,
+      "assets": {
+        "monitor": "installed",
+        "macbook": "installed",
+        "marshall": "installed",
+        "floor": "installed",
+        "walls": "installed",
+        "door": "installed",
+        "window": "installed",
+        "curtains": "installed",
+        "desk": "installed",
+        "cabinet": "installed",
+        "bed": "installed",
+        "bedside": "installed",
+        "sofa": "installed",
+        "chair": "installed",
+        "coffee": "installed",
+        "sidetable": "installed",
+        "beanbag": "installed",
+        "rugs": "installed",
+        "dogbed": "installed"
+      },
+      "memory": {
+        "geometries": 152,
+        "textures": 21
+      },
+      "textureUpdates": {
+        "monitor": [
+          1
+        ],
+        "macbook": [
+          1
+        ]
+      },
+      "canvas": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "parent": {
+        "x": 180,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1260,
+        "bottom": 818,
+        "left": 180
+      },
+      "buffer": [
+        1080,
+        720
+      ],
+      "phase": "idle"
+    }
+  ]
+}

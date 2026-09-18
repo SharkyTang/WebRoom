@@ -1,0 +1,297 @@
+{
+  "generatedAt": "2026-09-17T18:18:09.048Z",
+  "status": "v0.6A TECHNICAL COMPLETE; VISUAL REVIEW PENDING USER CONFIRMATION; B/C NOT STARTED",
+  "quality": [
+    {
+      "name": "verify-asset",
+      "command": "npm",
+      "args": [
+        "run",
+        "verify:asset"
+      ],
+      "startedAt": "2026-09-17T18:01:37.217Z",
+      "finishedAt": "2026-09-17T18:01:37.357Z",
+      "exitCode": 0
+    },
+    {
+      "name": "typecheck",
+      "command": "npm",
+      "args": [
+        "run",
+        "typecheck"
+      ],
+      "startedAt": "2026-09-17T18:01:37.359Z",
+      "finishedAt": "2026-09-17T18:01:38.384Z",
+      "exitCode": 0
+    },
+    {
+      "name": "unit-tests",
+      "command": "npm",
+      "args": [
+        "test"
+      ],
+      "startedAt": "2026-09-17T18:01:38.384Z",
+      "finishedAt": "2026-09-17T18:01:40.381Z",
+      "exitCode": 0
+    },
+    {
+      "name": "production-build",
+      "command": "npm",
+      "args": [
+        "run",
+        "build"
+      ],
+      "startedAt": "2026-09-17T18:01:40.381Z",
+      "finishedAt": "2026-09-17T18:01:43.768Z",
+      "exitCode": 0
+    }
+  ],
+  "suites": [
+    {
+      "command": "npm run test:browser",
+      "evidence": "v03-regression/browser_validation.json",
+      "generatedAt": "2026-09-17T18:04:56.224Z",
+      "passed": 34,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:interactions",
+      "evidence": "v04-regression/interaction_browser.json",
+      "generatedAt": "2026-09-17T18:10:34.321Z",
+      "passed": 37,
+      "failed": 0
+    },
+    {
+      "command": "ROOM_PIANO_CYCLES=20 npm run test:piano",
+      "evidence": "piano/piano-browser.json",
+      "generatedAt": "2026-09-17T18:07:17.907Z",
+      "passed": 10,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:assets",
+      "evidence": "v05-assets/production-assets-browser.json",
+      "generatedAt": "2026-09-17T18:05:20.813Z",
+      "passed": 18,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:production",
+      "evidence": "production/production_smoke.json",
+      "generatedAt": "2026-09-17T18:11:08.919Z",
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "command": "ROOM_TEST_PRODUCTION=1 npm run test:piano",
+      "evidence": "piano/piano-production.json",
+      "generatedAt": "2026-09-17T18:11:43.481Z",
+      "passed": 3,
+      "failed": 0
+    },
+    {
+      "command": "ROOM_TEST_PRODUCTION=1 npm run test:assets",
+      "evidence": "v05-assets/production-assets-production.json",
+      "generatedAt": "2026-09-17T18:07:54.646Z",
+      "passed": 8,
+      "failed": 0
+    },
+    {
+      "command": "npm run test:furniture",
+      "evidence": "furniture-browser.json",
+      "generatedAt": "2026-09-17T18:06:48.304Z",
+      "passed": 50,
+      "failed": 0
+    },
+    {
+      "command": "ROOM_TEST_PRODUCTION=1 npm run test:furniture",
+      "evidence": "furniture-production.json",
+      "generatedAt": "2026-09-17T18:10:02.631Z",
+      "passed": 24,
+      "failed": 0
+    },
+    {
+      "command": "ROOM_FURNITURE_PERFORMANCE_ONLY=1 npm run test:furniture",
+      "evidence": "furniture-performance.json",
+      "generatedAt": "2026-09-17T18:13:55.708Z",
+      "passed": 7,
+      "failed": 0
+    }
+  ],
+  "browserChecks": 198,
+  "twentyPianoCycles": true,
+  "strictAntialiasedColdComparisons": 12,
+  "protectedInputsUnchanged": 13,
+  "protectedWebContracts": [
+    {
+      "path": "components/room/RoomCanvas.tsx",
+      "sha256": "b46a8ca278d2c1bcd2b1d4c437ee8fb80619b7e069c4e3f25e94e2a876ed885d",
+      "unchanged": true
+    },
+    {
+      "path": "components/room/RoomScene.tsx",
+      "sha256": "fada704dcb614a81b3a8baec4c47708ccb762c84852473cc3fa3a4aa9fc0e6e1",
+      "unchanged": true
+    },
+    {
+      "path": "components/room/HeroCamera.tsx",
+      "sha256": "1782252fc9facbafec82497b7f3a81b9e1aaba055ea986de5947c5506ac9b35b",
+      "unchanged": true
+    },
+    {
+      "path": "components/room/CameraController.tsx",
+      "sha256": "84b03a96361bc11afe3a37783d5dc050c818498f5d2a657019b48af3fe6dd820",
+      "unchanged": true
+    },
+    {
+      "path": "components/room/PianoRetractedHitArea.tsx",
+      "sha256": "7b8030ebcf58578dc2efcc14aa9b59a544b22c0b7f5fa4f299b987ee0a4980ae",
+      "unchanged": true
+    },
+    {
+      "path": "components/room/InteractionManager.tsx",
+      "sha256": "024415e50d67e1f3002688a4289f4c13cb9c58ce48bfac42fca1cffa1d5939a1",
+      "unchanged": true
+    },
+    {
+      "path": "components/room/InteractionOverlay.tsx",
+      "sha256": "81eed1e9e83a38ecc9cd05892f4a2820ad011c2b440c5d4a69173a5f3a3bee8b",
+      "unchanged": true
+    },
+    {
+      "path": "lib/room/pianoInteraction.ts",
+      "sha256": "c87f22e59d153fb49d2972acf4387c3c10b88b5a593657c322aa0da1b995c757",
+      "unchanged": true
+    },
+    {
+      "path": "lib/room/focusViews.ts",
+      "sha256": "8eb938d0fe9420a52374f293378b8fff37526b8522c71ba0fd48b6614dd0bdaf",
+      "unchanged": true
+    },
+    {
+      "path": "lib/room/interactiveObjects.ts",
+      "sha256": "6ce9b8f83b27e2a681c854cbab5e7bc530056557c1d250a1be11259915e536c5",
+      "unchanged": true
+    },
+    {
+      "path": "lib/room/mechanisms.ts",
+      "sha256": "4ce8537211d7dd28d1c11deb8ac6297cc22971b68c650c6daae58923026abd56",
+      "unchanged": true
+    },
+    {
+      "path": "lib/room/cameraAnimation.ts",
+      "sha256": "198fc2b4a69954bd247f91f3028316808b30b3288e45a12f9a5d0aa0e9a32bd4",
+      "unchanged": true
+    },
+    {
+      "path": "lib/room/animationConstants.ts",
+      "sha256": "16518a245a20eeb1e21cb89ee53f0098490c953c5764583103738c4a25bdaee2",
+      "unchanged": true
+    },
+    {
+      "path": "lib/room/interactionState.ts",
+      "sha256": "ad490e983cafbe51b76172c1ef3a956ae66d17bf9ccc1bfa81084ddea21cbfa1",
+      "unchanged": true
+    },
+    {
+      "path": "lib/room/sceneConstants.ts",
+      "sha256": "4218f7cf600663a773cf3fcadba4795510c1e896ee3da67c63c1af13457d449c",
+      "unchanged": true
+    }
+  ],
+  "exports": [
+    {
+      "family": "floor",
+      "sha256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "bytes": 563360
+    },
+    {
+      "family": "walls",
+      "sha256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "bytes": 39828
+    },
+    {
+      "family": "door",
+      "sha256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "bytes": 125612
+    },
+    {
+      "family": "window",
+      "sha256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "bytes": 69628
+    },
+    {
+      "family": "curtains",
+      "sha256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "bytes": 131452
+    },
+    {
+      "family": "desk",
+      "sha256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "bytes": 203880
+    },
+    {
+      "family": "cabinet",
+      "sha256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "bytes": 220208
+    },
+    {
+      "family": "bed",
+      "sha256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "bytes": 251988
+    },
+    {
+      "family": "bedside",
+      "sha256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "bytes": 108108
+    },
+    {
+      "family": "sofa",
+      "sha256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "bytes": 173668
+    },
+    {
+      "family": "chair",
+      "sha256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "bytes": 170448
+    },
+    {
+      "family": "coffee",
+      "sha256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "bytes": 83120
+    },
+    {
+      "family": "sidetable",
+      "sha256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "bytes": 92312
+    },
+    {
+      "family": "beanbag",
+      "sha256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "bytes": 30256
+    },
+    {
+      "family": "rugs",
+      "sha256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "bytes": 50264
+    },
+    {
+      "family": "dogbed",
+      "sha256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "bytes": 61560
+    }
+  ],
+  "budget": {
+    "bytes": 2375692,
+    "triangles": 55444,
+    "primitives": 62,
+    "embeddedImageBytes": 443596,
+    "otherBytes": 1932096,
+    "imageCopies": 17,
+    "uniqueImages": 10,
+    "uniqueImageBytes": 99119,
+    "repeatedEmbeddedBytes": 344477,
+    "estimatedRGBABytesWithMipmaps": 23767717
+  },
+  "history": "Earlier failed attempts and diagnosis are retained separately. This index points to the final accepted result JSONs, not to superseded runner metadata."
+}

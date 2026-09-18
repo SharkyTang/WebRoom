@@ -1,0 +1,107 @@
+{
+  "version": "0.6A",
+  "family": "curtains",
+  "triangles": 5400,
+  "meshCount": 4,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06A_CurtainHeader",
+    "MAT_V06A_CurtainLinen"
+  ],
+  "uvMeshes": 4,
+  "roots": {
+    "VIS_CurtainLeft": {
+      "anchor": "ENV_Curtain_Left",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.15000000596046448,
+          -1.3989392518997192,
+          -0.08500000089406967
+        ],
+        "max": [
+          0.15000000596046448,
+          1.409999966621399,
+          0.08500000089406967
+        ]
+      }
+    },
+    "VIS_CurtainRight": {
+      "anchor": "ENV_Curtain_Right",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.15000000596046448,
+          -1.3989392518997192,
+          -0.08500000089406967
+        ],
+        "max": [
+          0.15000000596046448,
+          1.409999966621399,
+          0.08500000089406967
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 131452,
+  "blendBytes": 144144,
+  "glbSHA256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_CurtainLeft": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_CurtainRight": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [],
+  "decodedTextureBytesRGBA8Estimate": 0,
+  "decodedTextureBytesWithMipmapsEstimate": 0,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_CurtainLeft_bounds": true,
+    "VIS_CurtainRight_bounds": true
+  }
+}

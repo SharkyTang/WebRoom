@@ -1,0 +1,494 @@
+{
+  "generatedAt": "2026-09-17T18:04:06.609Z",
+  "assets": [
+    {
+      "family": "floor",
+      "file": "public/models/production/floor_v06a.glb",
+      "sha256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "bytes": 563360,
+      "embeddedImageBytes": 49211,
+      "otherBytes": 514149,
+      "triangles": 8712,
+      "primitives": 3,
+      "materials": 3,
+      "images": [
+        {
+          "name": "warm_oak_basecolor_512",
+          "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+          "width": 512,
+          "height": 512,
+          "bytes": 49211,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "walls",
+      "file": "public/models/production/walls_v06a.glb",
+      "sha256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "bytes": 39828,
+      "embeddedImageBytes": 0,
+      "otherBytes": 39828,
+      "triangles": 1296,
+      "primitives": 4,
+      "materials": 2,
+      "images": [],
+      "estimatedRGBABytesWithMipmaps": 0
+    },
+    {
+      "family": "door",
+      "file": "public/models/production/door_v06a.glb",
+      "sha256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "bytes": 125612,
+      "embeddedImageBytes": 49211,
+      "otherBytes": 76401,
+      "triangles": 2072,
+      "primitives": 2,
+      "materials": 2,
+      "images": [
+        {
+          "name": "warm_oak_basecolor_512",
+          "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+          "width": 512,
+          "height": 512,
+          "bytes": 49211,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "window",
+      "file": "public/models/production/window_v06a.glb",
+      "sha256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "bytes": 69628,
+      "embeddedImageBytes": 0,
+      "otherBytes": 69628,
+      "triangles": 2256,
+      "primitives": 2,
+      "materials": 2,
+      "images": [],
+      "estimatedRGBABytesWithMipmaps": 0
+    },
+    {
+      "family": "curtains",
+      "file": "public/models/production/curtains_v06a.glb",
+      "sha256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "bytes": 131452,
+      "embeddedImageBytes": 0,
+      "otherBytes": 131452,
+      "triangles": 5400,
+      "primitives": 4,
+      "materials": 2,
+      "images": [],
+      "estimatedRGBABytesWithMipmaps": 0
+    },
+    {
+      "family": "desk",
+      "file": "public/models/production/desk_v06a.glb",
+      "sha256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "bytes": 203880,
+      "embeddedImageBytes": 49211,
+      "otherBytes": 154669,
+      "triangles": 4520,
+      "primitives": 8,
+      "materials": 3,
+      "images": [
+        {
+          "name": "warm_oak_basecolor_512",
+          "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+          "width": 512,
+          "height": 512,
+          "bytes": 49211,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "cabinet",
+      "file": "public/models/production/cabinet_v06a.glb",
+      "sha256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "bytes": 220208,
+      "embeddedImageBytes": 49211,
+      "otherBytes": 170997,
+      "triangles": 4460,
+      "primitives": 14,
+      "materials": 2,
+      "images": [
+        {
+          "name": "warm_oak_basecolor_512",
+          "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+          "width": 512,
+          "height": 512,
+          "bytes": 49211,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "bed",
+      "file": "public/models/production/bed_v06a.glb",
+      "sha256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "bytes": 251988,
+      "embeddedImageBytes": 60402,
+      "otherBytes": 191586,
+      "triangles": 7260,
+      "primitives": 5,
+      "materials": 5,
+      "images": [
+        {
+          "name": "bluegreybedding_weave_512",
+          "sha256": "ec96eae1e4096d17a378d8e8a3a374505f9926b208ea70082adb50980e070142",
+          "width": 512,
+          "height": 512,
+          "bytes": 5580,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        },
+        {
+          "name": "linen_weave_512",
+          "sha256": "4aa3363f53fd74eb46b39b3f24276141af71eafbacdbd4c4c17c561cb11d7b95",
+          "width": 512,
+          "height": 512,
+          "bytes": 5611,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        },
+        {
+          "name": "warm_oak_basecolor_512",
+          "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+          "width": 512,
+          "height": 512,
+          "bytes": 49211,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 4194303
+    },
+    {
+      "family": "bedside",
+      "file": "public/models/production/bedside_v06a.glb",
+      "sha256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "bytes": 108108,
+      "embeddedImageBytes": 49211,
+      "otherBytes": 58897,
+      "triangles": 1752,
+      "primitives": 2,
+      "materials": 2,
+      "images": [
+        {
+          "name": "warm_oak_basecolor_512",
+          "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+          "width": 512,
+          "height": 512,
+          "bytes": 49211,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "sofa",
+      "file": "public/models/production/sofa_v06a.glb",
+      "sha256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "bytes": 173668,
+      "embeddedImageBytes": 5352,
+      "otherBytes": 168316,
+      "triangles": 6064,
+      "primitives": 3,
+      "materials": 3,
+      "images": [
+        {
+          "name": "taupeupholstery_weave_512",
+          "sha256": "ab7696a2df3a7c5b324af96c745f49b0aac0b4968a747a1d22d8a2d45719d5f4",
+          "width": 512,
+          "height": 512,
+          "bytes": 5352,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "chair",
+      "file": "public/models/production/chair_v06a.glb",
+      "sha256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "bytes": 170448,
+      "embeddedImageBytes": 5269,
+      "otherBytes": 165179,
+      "triangles": 5116,
+      "primitives": 3,
+      "materials": 3,
+      "images": [
+        {
+          "name": "chairfabric_weave_512",
+          "sha256": "1ffdf135362b3d70af1460af65bd140bf03c06c765e3c540180b4f1a6bbccc0e",
+          "width": 512,
+          "height": 512,
+          "bytes": 5269,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "coffee",
+      "file": "public/models/production/coffee_v06a.glb",
+      "sha256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "bytes": 83120,
+      "embeddedImageBytes": 49211,
+      "otherBytes": 33909,
+      "triangles": 1052,
+      "primitives": 2,
+      "materials": 2,
+      "images": [
+        {
+          "name": "warm_oak_basecolor_512",
+          "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+          "width": 512,
+          "height": 512,
+          "bytes": 49211,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "sidetable",
+      "file": "public/models/production/sidetable_v06a.glb",
+      "sha256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "bytes": 92312,
+      "embeddedImageBytes": 49211,
+      "otherBytes": 43101,
+      "triangles": 1216,
+      "primitives": 2,
+      "materials": 2,
+      "images": [
+        {
+          "name": "warm_oak_basecolor_512",
+          "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+          "width": 512,
+          "height": 512,
+          "bytes": 49211,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "beanbag",
+      "file": "public/models/production/beanbag_v06a.glb",
+      "sha256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "bytes": 30256,
+      "embeddedImageBytes": 5487,
+      "otherBytes": 24769,
+      "triangles": 976,
+      "primitives": 2,
+      "materials": 2,
+      "images": [
+        {
+          "name": "beanbagweave_weave_512",
+          "sha256": "4f2a56eb1a08eaf624357857e8e707db8e49415340716c92976d7e40b056d9ce",
+          "width": 512,
+          "height": 512,
+          "bytes": 5487,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 1398101
+    },
+    {
+      "family": "rugs",
+      "file": "public/models/production/rugs_v06a.glb",
+      "sha256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "bytes": 50264,
+      "embeddedImageBytes": 10578,
+      "otherBytes": 39686,
+      "triangles": 1244,
+      "primitives": 4,
+      "materials": 2,
+      "images": [
+        {
+          "name": "rugborder_weave_512",
+          "sha256": "9a20caabf3bf927a5675a05f058f27fac68947081823e4a562752984af348290",
+          "width": 512,
+          "height": 512,
+          "bytes": 5276,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        },
+        {
+          "name": "rugweave_weave_512",
+          "sha256": "63dd9a9ae3c5dd243cc754ed0b1a9755a7637198fa752e9d1dae38e9c13cf49d",
+          "width": 512,
+          "height": 512,
+          "bytes": 5302,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 2796202
+    },
+    {
+      "family": "dogbed",
+      "file": "public/models/production/dogbed_v06a.glb",
+      "sha256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "bytes": 61560,
+      "embeddedImageBytes": 12031,
+      "otherBytes": 49529,
+      "triangles": 2048,
+      "primitives": 2,
+      "materials": 2,
+      "images": [
+        {
+          "name": "dogbedcushion_weave_512",
+          "sha256": "74f9f6096c0e0d33e58b6b9af41b20139a0091a539d1d05789c9e05a3c48e33d",
+          "width": 512,
+          "height": 512,
+          "bytes": 6621,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        },
+        {
+          "name": "dogbedupholstery_weave_512",
+          "sha256": "0837dc01ed2ed5d594b4a10aff7165f67ba27bb0fa59f30349619d9d0d29c856",
+          "width": 512,
+          "height": 512,
+          "bytes": 5410,
+          "estimatedRGBABytesWithMipmaps": 1398101
+        }
+      ],
+      "estimatedRGBABytesWithMipmaps": 2796202
+    }
+  ],
+  "totals": {
+    "bytes": 2375692,
+    "triangles": 55444,
+    "primitives": 62,
+    "embeddedImageBytes": 443596,
+    "otherBytes": 1932096,
+    "imageCopies": 17,
+    "uniqueImages": 10,
+    "uniqueImageBytes": 99119,
+    "repeatedEmbeddedBytes": 344477,
+    "estimatedRGBABytesWithMipmaps": 23767717
+  },
+  "uniqueImages": [
+    {
+      "name": "warm_oak_basecolor_512",
+      "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4",
+      "width": 512,
+      "height": 512,
+      "bytes": 49211,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "floor",
+        "door",
+        "desk",
+        "cabinet",
+        "bed",
+        "bedside",
+        "coffee",
+        "sidetable"
+      ]
+    },
+    {
+      "name": "bluegreybedding_weave_512",
+      "sha256": "ec96eae1e4096d17a378d8e8a3a374505f9926b208ea70082adb50980e070142",
+      "width": 512,
+      "height": 512,
+      "bytes": 5580,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "bed"
+      ]
+    },
+    {
+      "name": "linen_weave_512",
+      "sha256": "4aa3363f53fd74eb46b39b3f24276141af71eafbacdbd4c4c17c561cb11d7b95",
+      "width": 512,
+      "height": 512,
+      "bytes": 5611,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "bed"
+      ]
+    },
+    {
+      "name": "taupeupholstery_weave_512",
+      "sha256": "ab7696a2df3a7c5b324af96c745f49b0aac0b4968a747a1d22d8a2d45719d5f4",
+      "width": 512,
+      "height": 512,
+      "bytes": 5352,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "sofa"
+      ]
+    },
+    {
+      "name": "chairfabric_weave_512",
+      "sha256": "1ffdf135362b3d70af1460af65bd140bf03c06c765e3c540180b4f1a6bbccc0e",
+      "width": 512,
+      "height": 512,
+      "bytes": 5269,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "chair"
+      ]
+    },
+    {
+      "name": "beanbagweave_weave_512",
+      "sha256": "4f2a56eb1a08eaf624357857e8e707db8e49415340716c92976d7e40b056d9ce",
+      "width": 512,
+      "height": 512,
+      "bytes": 5487,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "beanbag"
+      ]
+    },
+    {
+      "name": "rugborder_weave_512",
+      "sha256": "9a20caabf3bf927a5675a05f058f27fac68947081823e4a562752984af348290",
+      "width": 512,
+      "height": 512,
+      "bytes": 5276,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "rugs"
+      ]
+    },
+    {
+      "name": "rugweave_weave_512",
+      "sha256": "63dd9a9ae3c5dd243cc754ed0b1a9755a7637198fa752e9d1dae38e9c13cf49d",
+      "width": 512,
+      "height": 512,
+      "bytes": 5302,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "rugs"
+      ]
+    },
+    {
+      "name": "dogbedcushion_weave_512",
+      "sha256": "74f9f6096c0e0d33e58b6b9af41b20139a0091a539d1d05789c9e05a3c48e33d",
+      "width": 512,
+      "height": 512,
+      "bytes": 6621,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "dogbed"
+      ]
+    },
+    {
+      "name": "dogbedupholstery_weave_512",
+      "sha256": "0837dc01ed2ed5d594b4a10aff7165f67ba27bb0fa59f30349619d9d0d29c856",
+      "width": 512,
+      "height": 512,
+      "bytes": 5410,
+      "estimatedRGBABytesWithMipmaps": 1398101,
+      "families": [
+        "dogbed"
+      ]
+    }
+  ],
+  "limits": "GLB disk bytes include embedded textures; no external image requests. Identical image hashes across GLBs are repeated deliveries and independently owned texture instances. RGBA plus mip estimate is not actual GPU VRAM; renderer texture UUIDs and HTTP transfer sizes are measured separately in furniture-performance.json."
+}

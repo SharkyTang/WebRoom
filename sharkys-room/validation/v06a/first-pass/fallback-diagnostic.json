@@ -1,0 +1,1334 @@
+[
+  {
+    "i": 0,
+    "before": {
+      "at": 2268.0999999940395,
+      "point": {
+        "x": 849,
+        "y": 344
+      },
+      "hit": {
+        "node": "VIS_MonitorDisplaySurface",
+        "assetFamily": "monitor",
+        "semanticId": "monitor",
+        "runtimeTarget": null,
+        "ancestors": [
+          "VIS_MonitorDisplaySurface",
+          "TEC_MonitorScreen",
+          "TECH",
+          "SharkysRoom",
+          "Scene",
+          "",
+          ""
+        ]
+      },
+      "rect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1289.6875,
+        "bottom": 818,
+        "left": 209.6875
+      },
+      "parentRect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1020.609375,
+        "height": 680.40625,
+        "top": 98,
+        "right": 1230.296875,
+        "bottom": 778.40625,
+        "left": 209.6875
+      },
+      "width": 1080,
+      "height": 720,
+      "interaction": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "extended",
+        "macbookState": "open",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "time": 12,
+        "weather": "Sunny",
+        "reducedMotion": true,
+        "returnRequested": false,
+        "error": null
+      }
+    },
+    "trace": [
+      {
+        "type": "pointerdown",
+        "at": 2526.2000000178814,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "pointerup",
+        "at": 2527.800000011921,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "click",
+        "at": 2529,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      }
+    ],
+    "interaction": {
+      "activeObject": "window",
+      "hoveredObject": null,
+      "interactionPhase": "focused",
+      "isCameraBusy": false,
+      "pianoState": "extended",
+      "macbookState": "open",
+      "trashState": "closed",
+      "lightsState": "on",
+      "marshallPower": "off",
+      "time": 12,
+      "weather": "Sunny",
+      "reducedMotion": true,
+      "returnRequested": false,
+      "error": null
+    }
+  },
+  {
+    "i": 1,
+    "before": {
+      "at": 921.4000000059605,
+      "point": {
+        "x": 849,
+        "y": 344
+      },
+      "hit": {
+        "node": "VIS_MonitorDisplaySurface",
+        "assetFamily": "monitor",
+        "semanticId": "monitor",
+        "runtimeTarget": null,
+        "ancestors": [
+          "VIS_MonitorDisplaySurface",
+          "TEC_MonitorScreen",
+          "TECH",
+          "SharkysRoom",
+          "Scene",
+          "",
+          ""
+        ]
+      },
+      "rect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1289.6875,
+        "bottom": 818,
+        "left": 209.6875
+      },
+      "parentRect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1020.609375,
+        "height": 680.40625,
+        "top": 98,
+        "right": 1230.296875,
+        "bottom": 778.40625,
+        "left": 209.6875
+      },
+      "width": 1080,
+      "height": 720,
+      "interaction": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "extended",
+        "macbookState": "open",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "time": 12,
+        "weather": "Sunny",
+        "reducedMotion": true,
+        "returnRequested": false,
+        "error": null
+      }
+    },
+    "trace": [
+      {
+        "type": "pointerdown",
+        "at": 1162.800000011921,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "pointerup",
+        "at": 1164.4000000059605,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "click",
+        "at": 1165.6000000238419,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      }
+    ],
+    "interaction": {
+      "activeObject": "window",
+      "hoveredObject": null,
+      "interactionPhase": "focused",
+      "isCameraBusy": false,
+      "pianoState": "extended",
+      "macbookState": "open",
+      "trashState": "closed",
+      "lightsState": "on",
+      "marshallPower": "off",
+      "time": 12,
+      "weather": "Sunny",
+      "reducedMotion": true,
+      "returnRequested": false,
+      "error": null
+    }
+  },
+  {
+    "i": 2,
+    "before": {
+      "at": 909.7999999821186,
+      "point": {
+        "x": 849,
+        "y": 344
+      },
+      "hit": {
+        "node": "VIS_MonitorDisplaySurface",
+        "assetFamily": "monitor",
+        "semanticId": "monitor",
+        "runtimeTarget": null,
+        "ancestors": [
+          "VIS_MonitorDisplaySurface",
+          "TEC_MonitorScreen",
+          "TECH",
+          "SharkysRoom",
+          "Scene",
+          "",
+          ""
+        ]
+      },
+      "rect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1289.6875,
+        "bottom": 818,
+        "left": 209.6875
+      },
+      "parentRect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1020.609375,
+        "height": 680.40625,
+        "top": 98,
+        "right": 1230.296875,
+        "bottom": 778.40625,
+        "left": 209.6875
+      },
+      "width": 1080,
+      "height": 720,
+      "interaction": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "extended",
+        "macbookState": "open",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "time": 12,
+        "weather": "Sunny",
+        "reducedMotion": true,
+        "returnRequested": false,
+        "error": null
+      }
+    },
+    "trace": [
+      {
+        "type": "pointerdown",
+        "at": 1149,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "pointerup",
+        "at": 1150.5999999940395,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "click",
+        "at": 1151.7999999821186,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      }
+    ],
+    "interaction": {
+      "activeObject": "window",
+      "hoveredObject": null,
+      "interactionPhase": "focused",
+      "isCameraBusy": false,
+      "pianoState": "extended",
+      "macbookState": "open",
+      "trashState": "closed",
+      "lightsState": "on",
+      "marshallPower": "off",
+      "time": 12,
+      "weather": "Sunny",
+      "reducedMotion": true,
+      "returnRequested": false,
+      "error": null
+    }
+  },
+  {
+    "i": 3,
+    "before": {
+      "at": 909.6999999880791,
+      "point": {
+        "x": 849,
+        "y": 344
+      },
+      "hit": {
+        "node": "VIS_MonitorDisplaySurface",
+        "assetFamily": "monitor",
+        "semanticId": "monitor",
+        "runtimeTarget": null,
+        "ancestors": [
+          "VIS_MonitorDisplaySurface",
+          "TEC_MonitorScreen",
+          "TECH",
+          "SharkysRoom",
+          "Scene",
+          "",
+          ""
+        ]
+      },
+      "rect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1289.6875,
+        "bottom": 818,
+        "left": 209.6875
+      },
+      "parentRect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1020.609375,
+        "height": 680.40625,
+        "top": 98,
+        "right": 1230.296875,
+        "bottom": 778.40625,
+        "left": 209.6875
+      },
+      "width": 1080,
+      "height": 720,
+      "interaction": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "extended",
+        "macbookState": "open",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "time": 12,
+        "weather": "Sunny",
+        "reducedMotion": true,
+        "returnRequested": false,
+        "error": null
+      }
+    },
+    "trace": [
+      {
+        "type": "pointerdown",
+        "at": 1187.5,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "pointerup",
+        "at": 1189.0999999940395,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "click",
+        "at": 1190.300000011921,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      }
+    ],
+    "interaction": {
+      "activeObject": "window",
+      "hoveredObject": null,
+      "interactionPhase": "focused",
+      "isCameraBusy": false,
+      "pianoState": "extended",
+      "macbookState": "open",
+      "trashState": "closed",
+      "lightsState": "on",
+      "marshallPower": "off",
+      "time": 12,
+      "weather": "Sunny",
+      "reducedMotion": true,
+      "returnRequested": false,
+      "error": null
+    }
+  },
+  {
+    "i": 4,
+    "before": {
+      "at": 926.2999999821186,
+      "point": {
+        "x": 849,
+        "y": 344
+      },
+      "hit": {
+        "node": "VIS_MonitorDisplaySurface",
+        "assetFamily": "monitor",
+        "semanticId": "monitor",
+        "runtimeTarget": null,
+        "ancestors": [
+          "VIS_MonitorDisplaySurface",
+          "TEC_MonitorScreen",
+          "TECH",
+          "SharkysRoom",
+          "Scene",
+          "",
+          ""
+        ]
+      },
+      "rect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1289.6875,
+        "bottom": 818,
+        "left": 209.6875
+      },
+      "parentRect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1020.609375,
+        "height": 680.40625,
+        "top": 98,
+        "right": 1230.296875,
+        "bottom": 778.40625,
+        "left": 209.6875
+      },
+      "width": 1080,
+      "height": 720,
+      "interaction": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "extended",
+        "macbookState": "open",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "time": 12,
+        "weather": "Sunny",
+        "reducedMotion": true,
+        "returnRequested": false,
+        "error": null
+      }
+    },
+    "trace": [
+      {
+        "type": "pointerdown",
+        "at": 1160.0999999940395,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "pointerup",
+        "at": 1161.699999988079,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "click",
+        "at": 1162.7999999821186,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      }
+    ],
+    "interaction": {
+      "activeObject": "window",
+      "hoveredObject": null,
+      "interactionPhase": "focused",
+      "isCameraBusy": false,
+      "pianoState": "extended",
+      "macbookState": "open",
+      "trashState": "closed",
+      "lightsState": "on",
+      "marshallPower": "off",
+      "time": 12,
+      "weather": "Sunny",
+      "reducedMotion": true,
+      "returnRequested": false,
+      "error": null
+    }
+  },
+  {
+    "i": 5,
+    "before": {
+      "at": 908.2999999821186,
+      "point": {
+        "x": 849,
+        "y": 344
+      },
+      "hit": {
+        "node": "VIS_MonitorDisplaySurface",
+        "assetFamily": "monitor",
+        "semanticId": "monitor",
+        "runtimeTarget": null,
+        "ancestors": [
+          "VIS_MonitorDisplaySurface",
+          "TEC_MonitorScreen",
+          "TECH",
+          "SharkysRoom",
+          "Scene",
+          "",
+          ""
+        ]
+      },
+      "rect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1080,
+        "height": 720,
+        "top": 98,
+        "right": 1289.6875,
+        "bottom": 818,
+        "left": 209.6875
+      },
+      "parentRect": {
+        "x": 209.6875,
+        "y": 98,
+        "width": 1020.609375,
+        "height": 680.40625,
+        "top": 98,
+        "right": 1230.296875,
+        "bottom": 778.40625,
+        "left": 209.6875
+      },
+      "width": 1080,
+      "height": 720,
+      "interaction": {
+        "activeObject": null,
+        "hoveredObject": null,
+        "interactionPhase": "idle",
+        "isCameraBusy": false,
+        "pianoState": "extended",
+        "macbookState": "open",
+        "trashState": "closed",
+        "lightsState": "on",
+        "marshallPower": "off",
+        "time": 12,
+        "weather": "Sunny",
+        "reducedMotion": true,
+        "returnRequested": false,
+        "error": null
+      }
+    },
+    "trace": [
+      {
+        "type": "pointerdown",
+        "at": 1147.0999999940395,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "pointerup",
+        "at": 1148.699999988079,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639.3125,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      },
+      {
+        "type": "click",
+        "at": 1149.7999999821186,
+        "x": 849,
+        "y": 344,
+        "offsetX": 639,
+        "offsetY": 246,
+        "rect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "parentRect": {
+          "x": 209.6875,
+          "y": 98,
+          "width": 1020.609375,
+          "height": 680.40625,
+          "top": 98,
+          "right": 1230.296875,
+          "bottom": 778.40625,
+          "left": 209.6875
+        },
+        "width": 1020,
+        "height": 680,
+        "hit": {
+          "node": "VIS_WindowInsetFaces",
+          "assetFamily": "window",
+          "semanticId": "window",
+          "runtimeTarget": null,
+          "ancestors": [
+            "VIS_WindowInsetFaces",
+            "VIS_WindowFrame",
+            "ENV_WindowFrame",
+            "ENVIRONMENT",
+            "SharkysRoom",
+            "Scene",
+            "",
+            ""
+          ]
+        },
+        "active": null
+      }
+    ],
+    "interaction": {
+      "activeObject": "window",
+      "hoveredObject": null,
+      "interactionPhase": "focused",
+      "isCameraBusy": false,
+      "pianoState": "extended",
+      "macbookState": "open",
+      "trashState": "closed",
+      "lightsState": "on",
+      "marshallPower": "off",
+      "time": 12,
+      "weather": "Sunny",
+      "reducedMotion": true,
+      "returnRequested": false,
+      "error": null
+    }
+  }
+]

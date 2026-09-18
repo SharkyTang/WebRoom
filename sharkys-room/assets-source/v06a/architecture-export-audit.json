@@ -1,0 +1,544 @@
+{
+  "scope": "Actual v0.6A architecture GLB bytes; no asset mutation",
+  "toleranceMetres": 0.000001,
+  "families": {
+    "floor": {
+      "singleSided": true,
+      "sourceComponentCount": 0,
+      "envelopes": [
+        {
+          "root": "VIS_Floor",
+          "anchor": "ENV_Floor",
+          "checkedVertices": 14316,
+          "insideSourceEnvelope": true
+        }
+      ],
+      "primitives": [
+        {
+          "node": "VIS_FloorCutawayPlinth",
+          "triangles": 16,
+          "signedVolume": 4.238889193653052,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_FloorJointSubstrate",
+          "triangles": 16,
+          "signedVolume": 0.7344609975457859,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_FloorOakPlanks",
+          "triangles": 8680,
+          "signedVolume": 0.7064628223500551,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 395,
+          "badTopTriangles": 0
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    "desk": {
+      "singleSided": true,
+      "sourceComponentCount": 4,
+      "envelopes": [
+        {
+          "root": "VIS_Desk",
+          "anchor": "FUR_Desk",
+          "checkedVertices": 3797,
+          "insideSourceEnvelope": true
+        }
+      ],
+      "primitives": [
+        {
+          "node": "VIS_DeskSolid_0_WoodTop",
+          "triangles": 300,
+          "signedVolume": 0.16066481968600516,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_DeskSolid_1_Handles",
+          "triangles": 324,
+          "signedVolume": 0.0000060312870915012,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_DeskSolid_1_RecessedToe",
+          "triangles": 188,
+          "signedVolume": 0.0061128821094507055,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_DeskSolid_1_WoodCarcassAndDrawers",
+          "triangles": 1504,
+          "signedVolume": 0.03492498100906257,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_DeskSolid_2_Handles",
+          "triangles": 324,
+          "signedVolume": 0.0000060312875648683675,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_DeskSolid_2_RecessedToe",
+          "triangles": 188,
+          "signedVolume": 0.006112882109450703,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_DeskSolid_2_WoodCarcassAndDrawers",
+          "triangles": 1504,
+          "signedVolume": 0.03492498066078912,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_DeskSolid_3_RearBrace.001",
+          "triangles": 188,
+          "signedVolume": 0.011062306092987122,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    "walls": {
+      "singleSided": true,
+      "sourceComponentCount": 0,
+      "envelopes": [
+        {
+          "root": "VIS_WallLeft",
+          "anchor": "ENV_Wall_Left",
+          "checkedVertices": 360,
+          "insideSourceEnvelope": true
+        },
+        {
+          "root": "VIS_WallRight",
+          "anchor": "ENV_Wall_Right",
+          "checkedVertices": 504,
+          "insideSourceEnvelope": true
+        }
+      ],
+      "primitives": [
+        {
+          "node": "VIS_WallLeftPlaster",
+          "triangles": 324,
+          "signedVolume": 2.652879780454243,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_WallLeftSkirting",
+          "triangles": 216,
+          "signedVolume": 0.0726611009886963,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_WallRightPlaster",
+          "triangles": 432,
+          "signedVolume": 2.501627079073721,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_WallRightSkirting",
+          "triangles": 324,
+          "signedVolume": 0.11289248830734429,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    "door": {
+      "singleSided": true,
+      "sourceComponentCount": 0,
+      "envelopes": [
+        {
+          "root": "VIS_DoorBody",
+          "anchor": "ENV_Door",
+          "checkedVertices": 1252,
+          "insideSourceEnvelope": true
+        },
+        {
+          "root": "VIS_DoorHandle",
+          "anchor": "DEC_DoorHandle",
+          "checkedVertices": 652,
+          "insideSourceEnvelope": true
+        }
+      ],
+      "primitives": [
+        {
+          "node": "VIS_DoorPanelAndFrame",
+          "triangles": 1316,
+          "signedVolume": 0.13036383204204835,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_DoorHandleLever",
+          "triangles": 756,
+          "signedVolume": 0.000043942127317397985,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    "window": {
+      "singleSided": true,
+      "sourceComponentCount": 0,
+      "envelopes": [
+        {
+          "root": "VIS_WindowFrame",
+          "anchor": "ENV_WindowFrame",
+          "checkedVertices": 1668,
+          "insideSourceEnvelope": true
+        }
+      ],
+      "primitives": [
+        {
+          "node": "VIS_WindowInsetFaces",
+          "triangles": 1128,
+          "signedVolume": 0.011410272943154273,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_WindowStructuralProfiles",
+          "triangles": 1128,
+          "signedVolume": 0.1269346639313701,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    "curtains": {
+      "singleSided": true,
+      "sourceComponentCount": 0,
+      "envelopes": [
+        {
+          "root": "VIS_CurtainLeft",
+          "anchor": "ENV_Curtain_Left",
+          "checkedVertices": 1733,
+          "insideSourceEnvelope": true
+        },
+        {
+          "root": "VIS_CurtainRight",
+          "anchor": "ENV_Curtain_Right",
+          "checkedVertices": 1733,
+          "insideSourceEnvelope": true
+        }
+      ],
+      "primitives": [
+        {
+          "node": "VIS_CurtainLeftFoldedLinen",
+          "triangles": 2512,
+          "signedVolume": 0.0024721920437775773,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CurtainLeftGatheredHeader",
+          "triangles": 188,
+          "signedVolume": 0.0012003726423535763,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CurtainRightFoldedLinen",
+          "triangles": 2512,
+          "signedVolume": 0.0024721920437775773,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CurtainRightGatheredHeader",
+          "triangles": 188,
+          "signedVolume": 0.0012003726423535763,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        }
+      ],
+      "errors": [],
+      "pass": true
+    },
+    "cabinet": {
+      "singleSided": true,
+      "sourceComponentCount": 13,
+      "envelopes": [
+        {
+          "root": "VIS_Cabinet",
+          "anchor": "FUR_DisplayCabinet",
+          "checkedVertices": 4015,
+          "insideSourceEnvelope": true
+        }
+      ],
+      "primitives": [
+        {
+          "node": "VIS_CabinetBackOakPanels",
+          "triangles": 2160,
+          "signedVolume": 0.23222943754569184,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetBackSubstrate",
+          "triangles": 44,
+          "signedVolume": 0.05846049445300522,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_01",
+          "triangles": 188,
+          "signedVolume": 0.12477040645610074,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_02",
+          "triangles": 188,
+          "signedVolume": 0.12477040645746337,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_03",
+          "triangles": 188,
+          "signedVolume": 0.15606453250109614,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_04",
+          "triangles": 188,
+          "signedVolume": 0.15606464756530522,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_05",
+          "triangles": 188,
+          "signedVolume": 0.1560649136915795,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_06",
+          "triangles": 188,
+          "signedVolume": 0.07411497285876896,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_07",
+          "triangles": 188,
+          "signedVolume": 0.08997161273248895,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_08",
+          "triangles": 188,
+          "signedVolume": 0.047768262935917606,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_09",
+          "triangles": 188,
+          "signedVolume": 0.047768390479476834,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_10",
+          "triangles": 188,
+          "signedVolume": 0.013189322350467741,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_11",
+          "triangles": 188,
+          "signedVolume": 0.020873367803644037,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        },
+        {
+          "node": "VIS_CabinetPanel_12",
+          "triangles": 188,
+          "signedVolume": 0.02087336780364359,
+          "openEdges": 0,
+          "inconsistentEdges": 0,
+          "normalDisagreements": 0,
+          "degenerateTriangles": 0,
+          "topTriangles": 0,
+          "badTopTriangles": 0
+        }
+      ],
+      "errors": [],
+      "pass": true
+    }
+  },
+  "pass": true
+}

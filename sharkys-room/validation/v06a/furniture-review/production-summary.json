@@ -1,0 +1,81 @@
+{
+  "families": [
+    {
+      "family": "bed",
+      "triangles": 7260,
+      "glbBytes": 251988,
+      "gltfPrimitives": 5,
+      "glbSHA256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "textureCount": 3
+    },
+    {
+      "family": "bedside",
+      "triangles": 1752,
+      "glbBytes": 108108,
+      "gltfPrimitives": 2,
+      "glbSHA256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "textureCount": 1
+    },
+    {
+      "family": "sofa",
+      "triangles": 6064,
+      "glbBytes": 173668,
+      "gltfPrimitives": 3,
+      "glbSHA256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "textureCount": 1
+    },
+    {
+      "family": "chair",
+      "triangles": 5116,
+      "glbBytes": 170448,
+      "gltfPrimitives": 3,
+      "glbSHA256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "textureCount": 1
+    },
+    {
+      "family": "coffee",
+      "triangles": 1052,
+      "glbBytes": 83120,
+      "gltfPrimitives": 2,
+      "glbSHA256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "textureCount": 1
+    },
+    {
+      "family": "sidetable",
+      "triangles": 1216,
+      "glbBytes": 92312,
+      "gltfPrimitives": 2,
+      "glbSHA256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "textureCount": 1
+    },
+    {
+      "family": "beanbag",
+      "triangles": 976,
+      "glbBytes": 30256,
+      "gltfPrimitives": 2,
+      "glbSHA256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "textureCount": 1
+    },
+    {
+      "family": "rugs",
+      "triangles": 1244,
+      "glbBytes": 50264,
+      "gltfPrimitives": 4,
+      "glbSHA256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "textureCount": 2
+    },
+    {
+      "family": "dogbed",
+      "triangles": 2048,
+      "glbBytes": 61560,
+      "gltfPrimitives": 2,
+      "glbSHA256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "textureCount": 2
+    }
+  ],
+  "triangles": 26728,
+  "glbBytes": 1021724,
+  "primitives": 25,
+  "allRoundtripsPass": true,
+  "allMaterialsSingleSided": true
+}

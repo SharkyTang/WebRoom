@@ -1,0 +1,128 @@
+{
+  "recordedAt": "2026-09-17T16:45:21.117Z",
+  "node": "v26.0.0",
+  "package": {
+    "name": "sharkys-room",
+    "version": "0.5.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev --hostname 127.0.0.1",
+      "build": "next build",
+      "start": "next start --hostname 127.0.0.1",
+      "typecheck": "tsc --noEmit",
+      "verify:asset": "node scripts/verify-asset.mjs",
+      "test:browser": "node tests/browser-validation.mjs",
+      "test": "node --import tsx --test tests/*.test.ts",
+      "test:production": "node tests/production-smoke.mjs",
+      "test:piano": "node tests/piano-discoverability-browser.mjs",
+      "test:interactions": "node tests/interaction-browser.mjs",
+      "assets:build": "node scripts/assets/build-assets.mjs",
+      "test:assets": "node tests/production-assets-browser.mjs"
+    },
+    "dependencies": {
+      "@react-three/drei": "10.7.8",
+      "@react-three/fiber": "9.7.0",
+      "gsap": "3.15.0",
+      "next": "16.3.5",
+      "react": "19.2.8",
+      "react-dom": "19.2.8",
+      "three": "0.186.0"
+    },
+    "devDependencies": {
+      "@playwright/test": "^1.58.0",
+      "@types/node": "^24.10.0",
+      "@types/react": "^19.2.0",
+      "@types/react-dom": "^19.2.0",
+      "@types/three": "^0.185.0",
+      "tsx": "^4.21.0",
+      "typescript": "^5.9.3"
+    },
+    "engines": {
+      "node": ">=20.9.0"
+    },
+    "type": "module"
+  },
+  "files": [
+    {
+      "path": "../blockout_FINAL/sharkys_room_blockout_FINAL.blend",
+      "bytes": 713580,
+      "sha256": "fbf6ed79e728867947fb293b9ebb70d314c2289517e9837cc3085f69fe334720"
+    },
+    {
+      "path": "../blockout_FINAL/sharkys_room_blockout_FINAL.glb",
+      "bytes": 411892,
+      "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2"
+    },
+    {
+      "path": "public/models/sharkys_room_blockout_FINAL.glb",
+      "bytes": 411892,
+      "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2"
+    },
+    {
+      "path": "lib/room/frozenSceneManifest.json",
+      "bytes": 27894,
+      "sha256": "84b793cdaba786d647ccde41e4c653ef64a4bcf3d0afd9d693f49a0064521f53"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1233,
+      "sha256": "fe922d5eb0cf344047970fc03760ea96c8efe98e14875eb7bf3a9f8ee683dceb"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 77324,
+      "sha256": "5f9b2f0d1102fa3f0f4469e83c01477a13e7bf06e8ef7513061bc56bf038bc97"
+    },
+    {
+      "path": "lib/room/assets/assetManifest.ts",
+      "bytes": 2269,
+      "sha256": "7aa33f1a825f4d8f17594ac730f473561bfa35d6fdf918ccf574afa0cfd241ad"
+    },
+    {
+      "path": "blender-assets/monitor_pilot.blend",
+      "bytes": 153805,
+      "sha256": "c1d55f0366ea1d8027b9031d32d1b076bca4b0d553a261270a7fb101d43ca6ac"
+    },
+    {
+      "path": "public/models/production/monitor_pilot.glb",
+      "bytes": 95904,
+      "sha256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5"
+    },
+    {
+      "path": "assets-source/monitor/ASSET_SPEC.md",
+      "bytes": 4371,
+      "sha256": "6ced75430f76b1fd3bf7745e58f4e71d6f81eb26e1f36ad37d8cec29b9652ccb"
+    },
+    {
+      "path": "blender-assets/macbook_pilot.blend",
+      "bytes": 283600,
+      "sha256": "5622096fcc53bf675e30f24ac0a6ba968fa1a577a3740150e5822cd61fa14261"
+    },
+    {
+      "path": "public/models/production/macbook_pilot.glb",
+      "bytes": 445776,
+      "sha256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286"
+    },
+    {
+      "path": "assets-source/macbook/ASSET_SPEC.md",
+      "bytes": 4839,
+      "sha256": "0cc8a58a758501ea244ed472d2a473f917148d34e1ca657c2c1ab8b2701c1ce3"
+    },
+    {
+      "path": "blender-assets/marshall_pilot.blend",
+      "bytes": 599495,
+      "sha256": "b66e3236c6ffa064cc45343f74afbe4c20bc390ed0388f6735cd0221d5ab935f"
+    },
+    {
+      "path": "public/models/production/marshall_pilot.glb",
+      "bytes": 577608,
+      "sha256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907"
+    },
+    {
+      "path": "assets-source/marshall/ASSET_SPEC.md",
+      "bytes": 4491,
+      "sha256": "a35bb2a52b9f10faa588d33b5507308066d43d9aa05aaf6d28191d7db4e36d65"
+    }
+  ],
+  "note": "Read-only source ledger. Git state and rollback point are recorded by the parent task; this runner performs no Git mutation."
+}

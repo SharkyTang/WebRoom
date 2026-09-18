@@ -1,0 +1,79 @@
+{
+  "version": "0.6A",
+  "family": "chair",
+  "triangles": 5116,
+  "meshCount": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06A_ChairFabric",
+    "MAT_V06A_ChairGraphite",
+    "MAT_V06A_ChairRubber"
+  ],
+  "uvMeshes": 3,
+  "roots": {
+    "VIS_Chair": {
+      "anchor": "FUR_OfficeChair",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.26750001311302185,
+          0.01599999889731407,
+          -0.2831200361251831
+        ],
+        "max": [
+          0.2929999828338623,
+          1.0399999618530273,
+          0.2831200361251831
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 170448,
+  "blendBytes": 186584,
+  "glbSHA256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+  "gltfPrimitives": 3,
+  "textureCount": 1,
+  "embeddedImageBytes": 5269,
+  "exportRootTransforms": {
+    "VIS_Chair": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "chairfabric_weave_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 5269
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 1048576,
+  "decodedTextureBytesWithMipmapsEstimate": 1398101,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Chair_bounds": true
+  }
+}

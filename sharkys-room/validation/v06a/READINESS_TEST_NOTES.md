@@ -1,0 +1,13 @@
+# Browser readiness revalidation
+
+Only test code changed. `tests/helpers/browserReady.mjs` is shared by the furniture and v0.5 asset pixel finders and the initial v0.4 demand test. It observes terminal asset reports, canvas/parent dimensions, drawing buffer dimensions, repeated projection/ray results where needed, and resource counters. The demand startup call additionally requires a bounded 250 ms quiet period. Readiness must finish within 10 seconds; an always-rendering demand scene still fails.
+
+The v0.4 test retains its original initial 300 ms wait, all three 500 ms frame-equality windows, and `animated > idleEnd + 2` assertion unchanged. The complete readiness-specific rerun recorded **37/37 passed**. Observed strict counts were initial idle **5 → 5**, focus **15 → 15**, and return **25 → 25**. The focus advanced by ten rendered frames. Startup observation completed in approximately 526 ms with matching 1080×720 canvas/parent/buffer, 152 geometries and 21 textures.
+
+Its earlier **36/37** failure (initial frames **3 → 6**) is preserved in `first-pass/v04-regression/`. Short read-only two-second traces, both with a single page and with three continuous diagnostic background pages as in the old suite, did not reproduce that finite late-frame transition. Therefore this record does not claim canvas resizing was proven to cause that particular failure. The original `ready` is a controller/asset readiness signal; source code calls `onReady()` before `invalidate()`, so it does not assert that every scheduled startup draw has finished. The additional bounded condition separates startup completion from the unchanged idle assertions.
+
+The separate fallback-coordinate race was directly reproduced and documented in `FURNITURE_RUN_NOTES.md`: saved pixels were obtained before a known container resize completed. The same shared condition is now applied before native pixel acquisition in the old v0.5 asset suite. Its earlier failure is preserved in `first-pass/v05-assets/`.
+
+Complete v0.5 asset reruns: **18/18 development**, then **8/8 production**, using the new successful development evidence. The original mouse/touch actions, twenty MacBook cycles, precise transforms, per-family fallback assertions and power/texture checks were retained. No selector or store setter replaced a required visible-geometry click.
+
+Accepted result files: `v04-regression/interaction_browser.json`, `v05-assets/production-assets-browser.json`, and `v05-assets/production-assets-production.json`; adjacent current logs contain the actual rerun output. Performance was disabled in the development asset rerun and is measured separately under an exclusive window.

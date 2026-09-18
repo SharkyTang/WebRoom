@@ -20,3 +20,6 @@ __pycache__/
 *.log
 *.blend[0-9]*
 blockout_v01/review/previous_iteration.blend
+
+# Local recovery snapshots
+/local-backups/

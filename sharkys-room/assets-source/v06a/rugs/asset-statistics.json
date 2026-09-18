@@ -1,0 +1,122 @@
+{
+  "version": "0.6A",
+  "family": "rugs",
+  "triangles": 1244,
+  "meshCount": 4,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06A_RugBorder",
+    "MAT_V06A_RugWeave"
+  ],
+  "uvMeshes": 4,
+  "roots": {
+    "VIS_RugWorkstation": {
+      "anchor": "DEC_Rug_Workstation",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -1.4700000286102295,
+          -0.00800000037997961,
+          -1.0
+        ],
+        "max": [
+          1.4700000286102295,
+          0.00800000037997961,
+          1.0
+        ]
+      }
+    },
+    "VIS_RugLounge": {
+      "anchor": "DEC_Rug_Lounge",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -1.4100000858306885,
+          -0.012000000104308128,
+          -0.8849999904632568
+        ],
+        "max": [
+          1.4100000858306885,
+          0.009000000543892384,
+          0.8849999904632568
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 50264,
+  "blendBytes": 115570,
+  "glbSHA256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+  "gltfPrimitives": 4,
+  "textureCount": 2,
+  "embeddedImageBytes": 10578,
+  "exportRootTransforms": {
+    "VIS_RugLounge": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_RugWorkstation": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "rugborder_weave_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 5276
+    },
+    {
+      "name": "rugweave_weave_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 5302
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 2097152,
+  "decodedTextureBytesWithMipmapsEstimate": 2796203,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_RugWorkstation_bounds": true,
+    "VIS_RugLounge_bounds": true
+  }
+}

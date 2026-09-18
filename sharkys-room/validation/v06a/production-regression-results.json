@@ -1,0 +1,34 @@
+[
+  {
+    "name": "production",
+    "script": "test:production",
+    "output": "production",
+    "env": {},
+    "startedAt": "2026-09-17T17:39:02.140Z",
+    "finishedAt": "2026-09-17T17:39:15.537Z",
+    "exitCode": 0
+  },
+  {
+    "name": "piano-production",
+    "script": "test:piano",
+    "output": "piano",
+    "env": {
+      "ROOM_TEST_PRODUCTION": "1"
+    },
+    "startedAt": "2026-09-17T17:39:15.538Z",
+    "finishedAt": "2026-09-17T17:39:36.629Z",
+    "exitCode": 0
+  },
+  {
+    "name": "v05-assets-production",
+    "script": "test:assets",
+    "output": "v05-assets",
+    "env": {
+      "ROOM_TEST_PRODUCTION": "1",
+      "ROOM_ASSET_DEV_EVIDENCE": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06a/v05-assets/production-assets-browser.json"
+    },
+    "startedAt": "2026-09-17T17:39:36.629Z",
+    "finishedAt": "2026-09-17T17:39:37.192Z",
+    "exitCode": 1
+  }
+]

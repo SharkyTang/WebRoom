@@ -1,0 +1,115 @@
+{
+  "version": "0.6A",
+  "family": "door",
+  "triangles": 2072,
+  "meshCount": 2,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06A_DoorOak",
+    "MAT_V06A_DoorSatinBrass"
+  ],
+  "uvMeshes": 2,
+  "roots": {
+    "VIS_DoorBody": {
+      "anchor": "ENV_Door",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.03750000149011612,
+          -1.065000057220459,
+          -0.4949999749660492
+        ],
+        "max": [
+          0.03750000149011612,
+          1.065000057220459,
+          0.4949999749660492
+        ]
+      }
+    },
+    "VIS_DoorHandle": {
+      "anchor": "DEC_DoorHandle",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.020500000566244125,
+          -0.01600000075995922,
+          -0.05249999836087227
+        ],
+        "max": [
+          0.02800000086426735,
+          0.01600000075995922,
+          0.05249999836087227
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 125612,
+  "blendBytes": 180174,
+  "glbSHA256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+  "gltfPrimitives": 2,
+  "textureCount": 1,
+  "embeddedImageBytes": 49211,
+  "exportRootTransforms": {
+    "VIS_DoorBody": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_DoorHandle": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "warm_oak_basecolor_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 49211
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 1048576,
+  "decodedTextureBytesWithMipmapsEstimate": 1398101,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_DoorBody_bounds": true,
+    "VIS_DoorHandle_bounds": true
+  }
+}

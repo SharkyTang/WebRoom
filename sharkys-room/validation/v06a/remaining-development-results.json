@@ -1,0 +1,20 @@
+[
+  {
+    "name": "v03-regression",
+    "script": "test:browser",
+    "output": "v03-regression",
+    "env": {},
+    "startedAt": "2026-09-17T17:30:14.359Z",
+    "finishedAt": "2026-09-17T17:31:28.778Z",
+    "exitCode": 0
+  },
+  {
+    "name": "v04-regression",
+    "script": "test:interactions",
+    "output": "v04-regression",
+    "env": {},
+    "startedAt": "2026-09-17T17:31:28.779Z",
+    "finishedAt": "2026-09-17T17:34:22.024Z",
+    "exitCode": 1
+  }
+]

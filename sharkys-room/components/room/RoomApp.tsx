@@ -42,8 +42,8 @@ export default function RoomApp() {
   const onError = useCallback((message: string) => { setError(message); setStatus('error'); }, []);
   const onReady = useCallback(() => { setProgress(100); setStatus('ready'); }, []);
   const onSelect = useCallback((id: InteractionId | null) => { if (id) void store.activate(id); }, [store]);
-  return <main className="room-app" data-room-status={status} data-interaction-phase={interaction.interactionPhase} data-asset-monitor={assets.monitor.status} data-asset-macbook={assets.macbook.status} data-asset-marshall={assets.marshall.status}>
-    <header className="page-header"><div><span className="eyebrow">A ROOM IN PROGRESS</span><h1>Sharky’s Room<span>.</span></h1></div><span className="phase">INTERACTION PROTOTYPE<br /><b>v0.5 / ASSET PILOT</b></span></header>
+  return <main className="room-app" data-room-status={status} data-interaction-phase={interaction.interactionPhase} {...Object.fromEntries(assetFamilies.map(id => [`data-asset-${id}`, assets[id].status]))}>
+    <header className="page-header"><div><span className="eyebrow">A ROOM IN PROGRESS</span><h1>Sharky’s Room<span>.</span></h1></div><span className="phase">INTERACTION PROTOTYPE<br /><b>v0.6A / ROOM &amp; FURNITURE</b></span></header>
     <section className="room-stage" aria-label="Sharky's frozen room blockout">
       <div className="canvas-frame"><RoomCanvas assets={assets} onAssets={setAssets} visualizeHitAreas={visualizeHitAreas} debug={debug} demandDiagnostics={demandDiagnostics} status={status} validation={validation} hovered={interaction.hoveredObject} selected={interaction.activeObject} interaction={interaction} store={store} performance={performance} onProgress={setProgress} onValidation={setValidation} onReady={onReady} onError={onError} onHover={store.hover} onSelect={onSelect} onPerformance={setPerformance}/></div>
       {status !== 'ready' && <LoadingScreen progress={progress} error={error} />}

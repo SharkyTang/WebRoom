@@ -24,7 +24,7 @@ export function describeAssetVisuals(room: Object3D) {
     }))) ?? [];
     return [id, { meshes, triangles, materials: materials.size, textures: [...textures].map(texture => {
       const image = texture.image as { width?: number; height?: number } | undefined;
-      return { name: texture.name, width: image?.width ?? 0, height: image?.height ?? 0, colorSpace: texture.colorSpace, estimatedRGBABytesWithMipmaps: Math.ceil((image?.width ?? 0) * (image?.height ?? 0) * 4 * 4 / 3) };
+      return { uuid: texture.uuid, name: texture.name, width: image?.width ?? 0, height: image?.height ?? 0, colorSpace: texture.colorSpace, estimatedRGBABytesWithMipmaps: Math.ceil((image?.width ?? 0) * (image?.height ?? 0) * 4 * 4 / 3) };
     }), stateSurfaces, materialState }];
   }));
 }

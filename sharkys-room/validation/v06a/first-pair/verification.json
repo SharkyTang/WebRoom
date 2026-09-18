@@ -1,0 +1,873 @@
+{
+  "recordedAt": "2026-09-17T17:05:10.258Z",
+  "before": {
+    "rendererMemory": {
+      "geometries": 101,
+      "textures": 6
+    },
+    "assets": {
+      "monitor": {
+        "status": "installed",
+        "error": null
+      },
+      "macbook": {
+        "status": "installed",
+        "error": null
+      },
+      "marshall": {
+        "status": "installed",
+        "error": null
+      },
+      "floor": {
+        "status": "installed",
+        "error": null
+      },
+      "walls": {
+        "status": "fallback",
+        "error": "墙面 model HTTP 404"
+      },
+      "door": {
+        "status": "fallback",
+        "error": "门 model HTTP 404"
+      },
+      "window": {
+        "status": "fallback",
+        "error": "窗框 model HTTP 404"
+      },
+      "curtains": {
+        "status": "fallback",
+        "error": "窗帘 model HTTP 404"
+      },
+      "desk": {
+        "status": "installed",
+        "error": null
+      },
+      "cabinet": {
+        "status": "fallback",
+        "error": "展示柜 model HTTP 404"
+      },
+      "bed": {
+        "status": "fallback",
+        "error": "床 model HTTP 404"
+      },
+      "bedside": {
+        "status": "fallback",
+        "error": "床头柜 model HTTP 404"
+      },
+      "sofa": {
+        "status": "fallback",
+        "error": "沙发 model HTTP 404"
+      },
+      "chair": {
+        "status": "fallback",
+        "error": "办公椅 model HTTP 404"
+      },
+      "coffee": {
+        "status": "fallback",
+        "error": "茶几 model HTTP 404"
+      },
+      "sidetable": {
+        "status": "fallback",
+        "error": "小圆边桌 model HTTP 404"
+      },
+      "beanbag": {
+        "status": "fallback",
+        "error": "Beanbag model HTTP 404"
+      },
+      "rugs": {
+        "status": "fallback",
+        "error": "地毯 model HTTP 404"
+      },
+      "dogbed": {
+        "status": "fallback",
+        "error": "狗窝 model HTTP 404"
+      }
+    },
+    "assembly": {
+      "ok": true,
+      "errors": [],
+      "sourceNodeCount": 85,
+      "runtimeNodeCount": 159,
+      "installedFamilies": [
+        "monitor",
+        "macbook",
+        "floor",
+        "desk",
+        "marshall"
+      ],
+      "suppressedProxyMeshes": [
+        "TEC_MonitorBody",
+        "TEC_MonitorScreen",
+        "TEC_MacBookBase",
+        "TEC_MacBookScreen_Mesh",
+        "TEC_MacBookScreen_Mesh_1",
+        "ENV_Floor",
+        "FUR_Desk",
+        "TEC_Marshall"
+      ]
+    },
+    "assetVisuals": {
+      "monitor": {
+        "meshes": 4,
+        "triangles": 3348,
+        "materials": 4,
+        "textures": [
+          {
+            "uuid": "c9534d8b-8697-475c-aa75-7a2e6fc0388d",
+            "name": "Runtime_monitor_CanvasScreen",
+            "width": 1024,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 2796203
+          }
+        ],
+        "stateSurfaces": [
+          {
+            "name": "VIS_MonitorDisplaySurface",
+            "material": "Runtime_monitor_screen",
+            "emissiveIntensity": 1,
+            "mapName": "Runtime_monitor_CanvasScreen",
+            "textureUpdates": 1
+          }
+        ],
+        "materialState": [
+          {
+            "mesh": "VIS_MonitorHousing",
+            "name": "MAT_Monitor_CharcoalPolymer",
+            "color": "424a4f",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorRecessDetails",
+            "name": "MAT_Monitor_Recesses",
+            "color": "181e22",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorStand",
+            "name": "MAT_Monitor_SatinGraphite",
+            "color": "798185",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MonitorDisplaySurface",
+            "name": "Runtime_monitor_screen",
+            "color": "ffffff",
+            "emissive": "ffffff",
+            "emissiveIntensity": 1
+          }
+        ]
+      },
+      "macbook": {
+        "meshes": 9,
+        "triangles": 14780,
+        "materials": 6,
+        "textures": [
+          {
+            "uuid": "b2436f9f-952e-4aa2-a253-1cd902cd11e2",
+            "name": "Runtime_macbook_CanvasScreen",
+            "width": 512,
+            "height": 320,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 873814
+          }
+        ],
+        "stateSurfaces": [
+          {
+            "name": "VIS_MacBookDisplaySurface",
+            "material": "Runtime_macbook_screen",
+            "emissiveIntensity": 1,
+            "mapName": "Runtime_macbook_CanvasScreen",
+            "textureUpdates": 1
+          }
+        ],
+        "materialState": [
+          {
+            "mesh": "VIS_MacBookChassis",
+            "name": "MAT_MacBook_SatinAluminum",
+            "color": "c2c9ce",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MacBookKeyboardWell",
+            "name": "MAT_MacBook_BlackGlassBezel",
+            "color": "14191f",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MacBookKeysAndPorts",
+            "name": "MAT_MacBook_GraphiteKeys",
+            "color": "2e3338",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MacBookMachinedDetails",
+            "name": "MAT_MacBook_MachinedEdge",
+            "color": "d4dade",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MacBookTrackpad",
+            "name": "MAT_MacBook_Trackpad",
+            "color": "afb7bd",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MacBookCamera",
+            "name": "MAT_MacBook_GraphiteKeys",
+            "color": "2e3338",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MacBookDisplaySurface",
+            "name": "Runtime_macbook_screen",
+            "color": "ffffff",
+            "emissive": "ffffff",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MacBookLidBezel",
+            "name": "MAT_MacBook_BlackGlassBezel",
+            "color": "14191f",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MacBookLidHousing",
+            "name": "MAT_MacBook_SatinAluminum",
+            "color": "c2c9ce",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          }
+        ]
+      },
+      "marshall": {
+        "meshes": 5,
+        "triangles": 4464,
+        "materials": 5,
+        "textures": [
+          {
+            "uuid": "99008a6b-cf09-4280-93fd-dac723e7f54f",
+            "name": "woven_grille_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          }
+        ],
+        "stateSurfaces": [
+          {
+            "name": "VIS_MarshallPowerIndicator",
+            "material": "Runtime_marshall_indicator",
+            "emissiveIntensity": 0,
+            "mapName": null,
+            "textureUpdates": 0
+          }
+        ],
+        "materialState": [
+          {
+            "mesh": "VIS_MarshallBrassTrimAndDials",
+            "name": "MAT_Marshall_BrushedBrass",
+            "color": "cdaa6f",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MarshallCabinet",
+            "name": "MAT_Marshall_WarmCharcoal",
+            "color": "45403a",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MarshallControlAndFeet",
+            "name": "MAT_Marshall_ControlAndFeet",
+            "color": "242826",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MarshallGrille",
+            "name": "MAT_Marshall_WovenGrille",
+            "color": "ffffff",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_MarshallPowerIndicator",
+            "name": "Runtime_marshall_indicator",
+            "color": "395746",
+            "emissive": "87dcad",
+            "emissiveIntensity": 0
+          }
+        ]
+      },
+      "floor": {
+        "meshes": 3,
+        "triangles": 8712,
+        "materials": 3,
+        "textures": [
+          {
+            "uuid": "c9f15f55-865c-4eac-a169-c83070ed47bf",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          }
+        ],
+        "stateSurfaces": [],
+        "materialState": [
+          {
+            "mesh": "VIS_FloorCutawayPlinth",
+            "name": "MAT_V06A_PlatformEdge",
+            "color": "52453b",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_FloorJointSubstrate",
+            "name": "MAT_V06A_FloorSeam",
+            "color": "3c3024",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_FloorOakPlanks",
+            "name": "MAT_V06A_FloorOak",
+            "color": "ffffff",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          }
+        ]
+      },
+      "walls": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "door": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "window": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "curtains": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "desk": {
+        "meshes": 8,
+        "triangles": 4520,
+        "materials": 3,
+        "textures": [
+          {
+            "uuid": "b708543d-8743-495f-b785-d505a7b1cae9",
+            "name": "warm_oak_basecolor_512",
+            "width": 512,
+            "height": 512,
+            "colorSpace": "srgb",
+            "estimatedRGBABytesWithMipmaps": 1398102
+          }
+        ],
+        "stateSurfaces": [],
+        "materialState": [
+          {
+            "mesh": "VIS_DeskSolid_0_WoodTop",
+            "name": "MAT_V06A_DeskOak",
+            "color": "ffffff",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_DeskSolid_1_Handles",
+            "name": "MAT_V06A_DeskBrushedHandles",
+            "color": "655f57",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_DeskSolid_1_RecessedToe",
+            "name": "MAT_V06A_DeskStructure",
+            "color": "3e3a37",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_DeskSolid_1_WoodCarcassAndDrawers",
+            "name": "MAT_V06A_DeskOak",
+            "color": "ffffff",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_DeskSolid_2_Handles",
+            "name": "MAT_V06A_DeskBrushedHandles",
+            "color": "655f57",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_DeskSolid_2_RecessedToe",
+            "name": "MAT_V06A_DeskStructure",
+            "color": "3e3a37",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_DeskSolid_2_WoodCarcassAndDrawers",
+            "name": "MAT_V06A_DeskOak",
+            "color": "ffffff",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          },
+          {
+            "mesh": "VIS_DeskSolid_3_RearBrace001",
+            "name": "MAT_V06A_DeskStructure",
+            "color": "3e3a37",
+            "emissive": "000000",
+            "emissiveIntensity": 1
+          }
+        ]
+      },
+      "cabinet": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "bed": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "bedside": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "sofa": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "chair": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "coffee": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "sidetable": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "beanbag": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "rugs": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      },
+      "dogbed": {
+        "meshes": 0,
+        "triangles": 0,
+        "materials": 0,
+        "textures": [],
+        "stateSurfaces": [],
+        "materialState": []
+      }
+    },
+    "status": "ready",
+    "validation": {
+      "ok": true,
+      "missingNodes": [],
+      "missingTargets": [],
+      "errors": [],
+      "nodeCount": 85,
+      "meshCount": 72,
+      "sourceMeshCount": 55,
+      "triangleCount": 6566,
+      "materialCount": 6,
+      "mappings": [
+        {
+          "id": "monitor",
+          "label": "Monitor",
+          "nodeNames": [
+            "TEC_MonitorBody",
+            "TEC_MonitorScreen"
+          ],
+          "targetName": "TGT_Monitor",
+          "targetPosition": [
+            -0.41999998688697815,
+            1.2000000476837158,
+            -2.0799999237060547
+          ]
+        },
+        {
+          "id": "macbook",
+          "label": "MacBook",
+          "nodeNames": [
+            "TEC_MacBookBase",
+            "TEC_MacBookScreen"
+          ],
+          "targetName": "TGT_MacBook",
+          "targetPosition": [
+            -1.5,
+            0.9399999976158142,
+            -1.9700000286102295
+          ]
+        },
+        {
+          "id": "ipad",
+          "label": "iPad",
+          "nodeNames": [
+            "TEC_iPad"
+          ],
+          "targetName": "TGT_iPad",
+          "targetPosition": [
+            -0.6600000262260437,
+            0.5,
+            1.1799999475479126
+          ]
+        },
+        {
+          "id": "marshall",
+          "label": "Marshall",
+          "nodeNames": [
+            "TEC_Marshall"
+          ],
+          "targetName": "TGT_Marshall",
+          "targetPosition": [
+            0.38999998569488525,
+            0.8849999904632568,
+            -2.059999942779541
+          ]
+        },
+        {
+          "id": "piano",
+          "label": "Piano",
+          "nodeNames": [
+            "INT_PianoRail",
+            "INT_Piano"
+          ],
+          "targetName": "TGT_Piano",
+          "targetPosition": [
+            -0.6499999761581421,
+            0.6000000238418579,
+            -1.2899999618530273
+          ]
+        },
+        {
+          "id": "trashcan",
+          "label": "Trash can",
+          "nodeNames": [
+            "INT_TrashCanBody",
+            "INT_TrashCanLid"
+          ],
+          "targetName": "TGT_TrashCan",
+          "targetPosition": [
+            1.1200000047683716,
+            0.46000000834465027,
+            -1.7999999523162842
+          ]
+        },
+        {
+          "id": "lightswitch",
+          "label": "Light switch",
+          "nodeNames": [
+            "INT_LightSwitch"
+          ],
+          "targetName": "TGT_LightSwitch",
+          "targetPosition": [
+            -3.5399999618530273,
+            1.2000000476837158,
+            1.4700000286102295
+          ]
+        },
+        {
+          "id": "phone",
+          "label": "Phone",
+          "nodeNames": [
+            "TEC_Phone"
+          ],
+          "targetName": "TGT_Phone",
+          "targetPosition": [
+            0.1599999964237213,
+            0.8399999737739563,
+            -1.75
+          ]
+        },
+        {
+          "id": "window",
+          "label": "Window",
+          "nodeNames": [
+            "ENV_WindowFrame",
+            "ENV_WindowGlass"
+          ],
+          "targetName": "TGT_Window",
+          "targetPosition": [
+            -0.675000011920929,
+            1.840000033378601,
+            -2.9000000953674316
+          ]
+        }
+      ]
+    },
+    "hovered": null,
+    "selected": null,
+    "performance": null,
+    "interaction": {
+      "activeObject": null,
+      "hoveredObject": null,
+      "interactionPhase": "idle",
+      "isCameraBusy": false,
+      "pianoState": "extended",
+      "macbookState": "open",
+      "trashState": "closed",
+      "lightsState": "on",
+      "marshallPower": "off",
+      "time": 12,
+      "weather": "Sunny",
+      "reducedMotion": false,
+      "returnRequested": false,
+      "error": null
+    },
+    "pianoRetractedHitAreaActive": false,
+    "mechanical": {
+      "macbookState": "open",
+      "trashState": "closed",
+      "pianoState": "extended",
+      "lightsState": "on",
+      "marshallPower": "off",
+      "transforms": {
+        "macbook": {
+          "position": [
+            -1.5,
+            0.7760000228881836,
+            -1.9774999618530273
+          ],
+          "quaternion": [
+            -0.7933533787727356,
+            0,
+            0,
+            0.6087614297866821
+          ],
+          "rotation": [
+            -1.8325958201049855,
+            0,
+            0
+          ]
+        },
+        "trash": {
+          "position": [
+            1.1200000047683716,
+            0.4740000069141388,
+            -1.9930000305175781
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "piano": {
+          "position": [
+            -0.6499999761581421,
+            0.6000000238418579,
+            -1.2899999618530273
+          ],
+          "quaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "switch": {
+          "position": [
+            -3.5390000343322754,
+            1.2000000476837158,
+            1.4700000286102295
+          ],
+          "quaternion": [
+            0,
+            0,
+            0.06975648552179337,
+            0.9975640773773193
+          ],
+          "rotation": [
+            0,
+            0,
+            0.13962636763260747
+          ]
+        }
+      },
+      "lightValues": {
+        "LGT_CabinetProxy": 5.172535650486599,
+        "LGT_DeskProxy": 0.716197243913529,
+        "LGT_BedProxy": 0.954929658551372
+      },
+      "baseLightValues": {
+        "LGT_Ambient": 1,
+        "LGT_WindowKey": 15.915494309189532
+      },
+      "screenValues": {},
+      "sourceEndpoints": {
+        "macbookOpenX": -1.8325958201049855,
+        "trashOpenX": -1.7453292519943295,
+        "switchOnZ": 0.13962636763260747,
+        "switchOffZ": -0.13962636763260747,
+        "pianoRetractedZ": -1.9399999618530273,
+        "pianoExtendedZ": -1.2899999618530273,
+        "pianoTravel": 0.65
+      }
+    },
+    "cameraAnimation": {
+      "position": [
+        7.891778469085693,
+        7.609460353851318,
+        10.294089317321777
+      ],
+      "quaternion": [
+        -0.22637604716554904,
+        0.31229574177456654,
+        0.07689316051044089,
+        0.9194088848550981
+      ],
+      "fov": 28.072486791188595,
+      "aspect": 1.5,
+      "near": 0.05000000074505806,
+      "far": 100,
+      "zoom": 1,
+      "hero": {
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100,
+        "zoom": 1
+      },
+      "focusedObject": null,
+      "busy": false
+    },
+    "renderFrames": 4,
+    "camera": {
+      "name": "CAM_Hero_FINAL",
+      "position": [
+        7.891778469085693,
+        7.609460353851318,
+        10.294089317321777
+      ],
+      "quaternion": [
+        -0.22637604716554904,
+        0.31229574177456654,
+        0.07689316051044089,
+        0.9194088848550981
+      ],
+      "fov": 28.072486791188595,
+      "aspect": 1.5,
+      "near": 0.05000000074505806,
+      "far": 100
+    }
+  },
+  "reentry": {
+    "point": {
+      "x": 755,
+      "y": 418
+    },
+    "hit": {
+      "node": "PianoRetractedHitArea",
+      "assetFamily": null,
+      "semanticId": "piano",
+      "runtimeTarget": "PianoRetractedHitArea",
+      "ancestors": [
+        "PianoRetractedHitArea",
+        "",
+        ""
+      ]
+    }
+  },
+  "pageErrors": [],
+  "scope": "Intermediate desk/floor only; remaining A families still in production. This is not final A acceptance."
+}

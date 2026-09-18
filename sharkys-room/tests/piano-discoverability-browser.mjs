@@ -3,12 +3,16 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 // All changes use native mouse/touch/keyboard input. Diagnostics only observe.
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const { PNG } = createRequire(import.meta.url)(path.join(root, 'node_modules/playwright-core/lib/utilsBundle.js'));
 const output = process.env.ROOM_TEST_OUTPUT ?? path.join(root, 'validation/v041');
 const production = process.env.ROOM_TEST_PRODUCTION === '1';
 const origin = process.env.ROOM_TEST_URL ?? (production ? 'http://127.0.0.1:3001' : 'http://127.0.0.1:3000');
+const pianoCycles = Number(process.env.ROOM_PIANO_CYCLES ?? 4);
+assert(Number.isInteger(pianoCycles) && pianoCycles >= 4 && pianoCycles <= 100, 'ROOM_PIANO_CYCLES must be an integer from 4 to 100');
 const checks = [], errors = [], observations = {};
 await fs.mkdir(output, { recursive: true });
 const browser = await chromium.launch({
@@ -50,6 +54,45 @@ async function open({ touch = false, debug = true, wire = false, reduced = false
   await page.goto(`${origin}/${debug ? `?debug=1&demand=1${wire ? '&hitareas=1' : ''}` : ''}`, { waitUntil: 'domcontentloaded' });
   await page.waitForSelector('[data-room-status="ready"]', { timeout: 60000 });
   return page;
+}
+const glSettings = page => page.locator('canvas').evaluate(canvas => {
+  const gl = canvas.getContext('webgl2');
+  return { attributes: gl.getContextAttributes(), samples: gl.getParameter(gl.SAMPLES), depthBits: gl.getParameter(gl.DEPTH_BITS) };
+});
+async function compareCanvas(debugPage, normalPage, prefix) {
+  for (const page of [debugPage, normalPage]) {
+    await page.mouse.move(0, 0);
+    await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+  }
+  const a = await debugPage.locator('canvas').screenshot({ style: '.debug-panel { visibility: hidden !important; }' });
+  const b = await normalPage.locator('canvas').screenshot();
+  const left = PNG.sync.read(a), right = PNG.sync.read(b);
+  assert.deepEqual([left.width, left.height], [right.width, right.height]);
+  const diff = new PNG({ width: left.width, height: left.height });
+  const changed = [];
+  let maxChannelDelta = 0;
+  for (let index = 0; index < left.data.length; index += 4) {
+    let delta = 0;
+    for (let channel = 0; channel < 4; channel++) delta = Math.max(delta, Math.abs(left.data[index + channel] - right.data[index + channel]));
+    if (delta) {
+      changed.push({ x: index / 4 % left.width, y: Math.floor(index / 4 / left.width), debug: [...left.data.subarray(index, index + 4)], normal: [...right.data.subarray(index, index + 4)] });
+      maxChannelDelta = Math.max(maxChannelDelta, delta);
+    }
+    const shade = Math.round((left.data[index] + left.data[index + 1] + left.data[index + 2]) / 12);
+    diff.data[index] = delta ? 255 : shade; diff.data[index + 1] = delta ? 0 : shade; diff.data[index + 2] = delta ? 0 : shade; diff.data[index + 3] = 255;
+  }
+  await Promise.all([
+    fs.writeFile(path.join(output, `${prefix}-debug.png`), a),
+    fs.writeFile(path.join(output, `${prefix}-normal.png`), b),
+    fs.writeFile(path.join(output, `${prefix}-diff.png`), PNG.sync.write(diff)),
+  ]);
+  return {
+    width: left.width, height: left.height, pngBytesEqual: a.equals(b), rgbaEqual: changed.length === 0,
+    changedPixels: changed.length, maxChannelDelta, changed,
+    region: { x: 0, y: 0, width: left.width, height: left.height, scope: 'entire canvas including the Piano entry' },
+    debugGL: await glSettings(debugPage), normalGL: await glSettings(normalPage),
+    debugState: await snap(debugPage),
+  };
 }
 function endpoint(s, state) {
   assert.equal(s.interaction.pianoState, state);
@@ -149,9 +192,9 @@ try {
       await input(page, point); await settled(page); endpoint(await snap(page), 'extended');
       observations.focusedSamples = await endSampling(page);
     }, page);
-    await check('Four Hero rediscovery cycles ignore competing clicks and preserve exact endpoints/camera', async () => {
+    await check(`${pianoCycles} Hero rediscovery cycles ignore competing clicks and preserve exact endpoints/camera`, async () => {
       observations.cycles = [];
-      for (let cycle = 0; cycle < 4; cycle++) {
+      for (let cycle = 0; cycle < pianoCycles; cycle++) {
         await startSampling(page); await retract(page); await back(page, hero);
         const point = await proxyPoint(page); observations.desktop.proxy = point;
         await page.mouse.move(point.x, point.y);
@@ -169,7 +212,7 @@ try {
         await input(page, visible); await settled(page); endpoint(await snap(page), 'retracted');
         await input(page, await proxyPoint(page)); await settled(page); endpoint(await snap(page), 'extended');
       }
-      return { cycles: 4, exactHero: true, travel: .65 };
+      return { cycles: pianoCycles, exactHero: true, travel: .65 };
     }, page);
     await check('Retracted proxy does not steal desktop, chair, floor or other semantic hover targets', async () => {
       await retract(page); await back(page, hero);
@@ -242,19 +285,31 @@ try {
       assert.equal((await snap(reduced)).interaction.reducedMotion, true); await back(reduced, hero);
     }, reduced);
     await reduced.context().close();
-    await check('Normal rendering reveals no hit box or debug UI; same pixels as hidden-proxy debug mode', async () => {
-      // Both pages share the exact retracted Hero state and have no hover tint.
-      await page.getByRole('combobox').selectOption('piano'); await settled(page); endpoint(await snap(page), 'retracted'); await back(page, hero); await page.mouse.move(0, 0);
+    await check('Normal antialiased rendering has no hit box/debug UI and exactly matches hidden-debug whole-canvas PNG/RGBA', async () => {
+      // The normal renderer settings are used on both independent pages. Record
+      // decoded pixels as well as encoded PNG bytes; neither permits a tolerance.
+      await input(page, (await points(page)).piano); await settled(page); endpoint(await snap(page), 'retracted'); await back(page, hero);
       const normal = await open({ debug: false });
       await input(normal, initialPiano); await settled(normal); await retract(normal); await back(normal); await normal.mouse.move(0, 0);
       assert.equal(await normal.evaluate(() => Boolean(window.__ROOM_DEBUG__)), false);
       assert.equal(await normal.locator('.debug-panel').count(), 0);
-      // Element screenshots include overlapping DOM; mask only the developer panel.
-      const hiddenDebugCanvas = await page.locator('canvas').screenshot({ style: '.debug-panel { visibility: hidden !important; }' });
-      assert(hiddenDebugCanvas.equals(await normal.locator('canvas').screenshot()), 'Normal/debug-hidden canvas differs');
+      observations.normalMSAAComparison = await compareCanvas(page, normal, 'normal-msaa-observation');
+      assert.equal(observations.normalMSAAComparison.debugGL.attributes.antialias, true);
+      assert.equal(observations.normalMSAAComparison.normalGL.attributes.antialias, true);
+      assert.ok(observations.normalMSAAComparison.debugGL.samples > 0);
+      assert.ok(observations.normalMSAAComparison.normalGL.samples > 0);
+      assert.equal(observations.normalMSAAComparison.rgbaEqual, true, 'Normal/debug-hidden whole-canvas RGBA differs');
+      assert.equal(observations.normalMSAAComparison.pngBytesEqual, true, 'Normal/debug-hidden canvas PNG bytes differ');
       await input(normal, observations.desktop.proxy); await settled(normal);
       await normal.getByText('Piano: extended', { exact: true }).waitFor();
       await normal.context().close();
+
+      return {
+        normalAAUnmodified: true, normalMSAAChangedPixels: observations.normalMSAAComparison.changedPixels,
+        pngBytesEqual: observations.normalMSAAComparison.pngBytesEqual,
+        region: observations.normalMSAAComparison.region,
+        noDebugUIOrAPI: true, nativeReopen: true,
+      };
     }, page);
   }
   await check('No browser runtime or asset errors', () => { assert.deepEqual(errors, []); });

@@ -1,0 +1,78 @@
+{
+  "version": "0.6A",
+  "family": "beanbag",
+  "triangles": 976,
+  "meshCount": 2,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06A_BeanbagSeam",
+    "MAT_V06A_BeanbagWeave"
+  ],
+  "uvMeshes": 2,
+  "roots": {
+    "VIS_Beanbag": {
+      "anchor": "FUR_BeanBag",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.3836660385131836,
+          0.0,
+          -0.4080083966255188
+        ],
+        "max": [
+          0.3836660385131836,
+          0.7502963542938232,
+          0.3640083968639374
+        ]
+      }
+    }
+  },
+  "sourceComponents": [],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 30256,
+  "blendBytes": 116602,
+  "glbSHA256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+  "gltfPrimitives": 2,
+  "textureCount": 1,
+  "embeddedImageBytes": 5487,
+  "exportRootTransforms": {
+    "VIS_Beanbag": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "beanbagweave_weave_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 5487
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 1048576,
+  "decodedTextureBytesWithMipmapsEstimate": 1398101,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Beanbag_bounds": true
+  }
+}

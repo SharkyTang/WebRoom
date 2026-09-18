@@ -1,0 +1,45 @@
+[
+  {
+    "name": "verify-asset",
+    "command": "npm",
+    "args": [
+      "run",
+      "verify:asset"
+    ],
+    "startedAt": "2026-09-17T18:01:37.217Z",
+    "finishedAt": "2026-09-17T18:01:37.357Z",
+    "exitCode": 0
+  },
+  {
+    "name": "typecheck",
+    "command": "npm",
+    "args": [
+      "run",
+      "typecheck"
+    ],
+    "startedAt": "2026-09-17T18:01:37.359Z",
+    "finishedAt": "2026-09-17T18:01:38.384Z",
+    "exitCode": 0
+  },
+  {
+    "name": "unit-tests",
+    "command": "npm",
+    "args": [
+      "test"
+    ],
+    "startedAt": "2026-09-17T18:01:38.384Z",
+    "finishedAt": "2026-09-17T18:01:40.381Z",
+    "exitCode": 0
+  },
+  {
+    "name": "production-build",
+    "command": "npm",
+    "args": [
+      "run",
+      "build"
+    ],
+    "startedAt": "2026-09-17T18:01:40.381Z",
+    "finishedAt": "2026-09-17T18:01:43.768Z",
+    "exitCode": 0
+  }
+]

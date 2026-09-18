@@ -1,3 +1,4 @@
+import { waitForCanvasReady } from './helpers/browserReady.mjs';
 import { chromium } from '@playwright/test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -533,6 +534,7 @@ try {
   await demand.goto(`${origin}/?debug=1&demand=1`, { waitUntil: 'domcontentloaded' });
   await ready(demand);
   await check('Demand rendering stops while idle, advances during GSAP focus and stops after animation', async () => {
+    observations.demandStartup = await waitForCanvasReady(demand, { quietMs: 250 });
     // These bounded observation windows measure frame inactivity, not animation timing.
     await demand.waitForTimeout(300);
     const idleStart = (await snapshot(demand)).renderFrames;

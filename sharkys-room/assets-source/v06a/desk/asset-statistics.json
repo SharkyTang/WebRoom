@@ -1,0 +1,184 @@
+{
+  "version": "0.6A",
+  "family": "desk",
+  "triangles": 4520,
+  "meshCount": 8,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06A_DeskBrushedHandles",
+    "MAT_V06A_DeskOak",
+    "MAT_V06A_DeskStructure"
+  ],
+  "uvMeshes": 8,
+  "roots": {
+    "VIS_Desk": {
+      "anchor": "FUR_Desk",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -1.4000000953674316,
+          0.0,
+          -0.4099999964237213
+        ],
+        "max": [
+          1.4000000953674316,
+          0.7400000095367432,
+          0.4099999964237213
+        ]
+      }
+    }
+  },
+  "sourceComponents": [
+    {
+      "node": "VIS_DeskSolid_0_Top",
+      "sourceComponentIndex": 0,
+      "sourceMin": [
+        -1.4000000953674316,
+        0.6699999570846558,
+        -0.4099999964237213
+      ],
+      "sourceMax": [
+        1.4000000953674316,
+        0.7400000095367432,
+        0.4099999964237213
+      ],
+      "localBoxYUp": {
+        "min": [
+          -1.4000000953674316,
+          0.6699999570846558,
+          -0.4099999964237213
+        ],
+        "max": [
+          1.4000000953674316,
+          0.7400000095367432,
+          0.4099999964237213
+        ]
+      }
+    },
+    {
+      "node": "VIS_DeskSolid_1_LeftPedestal",
+      "sourceComponentIndex": 1,
+      "sourceMin": [
+        -1.3735849857330322,
+        0.0,
+        -0.375
+      ],
+      "sourceMax": [
+        -0.9509434103965759,
+        0.6700000166893005,
+        0.32499998807907104
+      ],
+      "localBoxYUp": {
+        "min": [
+          -1.3735849857330322,
+          0.0,
+          -0.375
+        ],
+        "max": [
+          -0.9509434103965759,
+          0.6700000166893005,
+          0.32499998807907104
+        ]
+      }
+    },
+    {
+      "node": "VIS_DeskSolid_2_RightPedestal",
+      "sourceComponentIndex": 2,
+      "sourceMin": [
+        0.9509434103965759,
+        0.0,
+        -0.375
+      ],
+      "sourceMax": [
+        1.3735849857330322,
+        0.6700000166893005,
+        0.32499998807907104
+      ],
+      "localBoxYUp": {
+        "min": [
+          0.9509434103965759,
+          0.0,
+          -0.375
+        ],
+        "max": [
+          1.3735849857330322,
+          0.6700000166893005,
+          0.32499998807907104
+        ]
+      }
+    },
+    {
+      "node": "VIS_DeskSolid_3_RearBrace",
+      "sourceComponentIndex": 3,
+      "sourceMin": [
+        -0.9245283007621765,
+        0.5450000166893005,
+        -0.39000001549720764
+      ],
+      "sourceMax": [
+        0.9245283007621765,
+        0.6450000405311584,
+        -0.33000001311302185
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.9245283007621765,
+          0.5450000166893005,
+          -0.39000001549720764
+        ],
+        "max": [
+          0.9245283007621765,
+          0.6450000405311584,
+          -0.33000001311302185
+        ]
+      }
+    }
+  ],
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 203880,
+  "blendBytes": 204810,
+  "glbSHA256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+  "gltfPrimitives": 8,
+  "textureCount": 1,
+  "embeddedImageBytes": 49211,
+  "exportRootTransforms": {
+    "VIS_Desk": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "images": [
+    {
+      "name": "warm_oak_basecolor_512",
+      "mimeType": "image/png",
+      "width": 512,
+      "height": 512,
+      "encodedBytes": 49211
+    }
+  ],
+  "decodedTextureBytesRGBA8Estimate": 1048576,
+  "decodedTextureBytesWithMipmapsEstimate": 1398101,
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Desk_bounds": true
+  }
+}

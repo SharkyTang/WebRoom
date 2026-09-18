@@ -1,0 +1,40 @@
+import { chromium } from '@playwright/test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+const output = 'validation/v06a/first-pair';
+await fs.mkdir(output, { recursive: true });
+const browser = await chromium.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: true, args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] });
+try {
+  const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 });
+  const pageErrors = []; page.on('pageerror', error => pageErrors.push(error.message));
+  await page.goto('http://127.0.0.1:3000/?debug=1&demand=1');
+  await page.waitForSelector('[data-room-status="ready"]', { timeout: 60000 });
+  const snap = () => page.evaluate(() => window.__ROOM_DEBUG__.snapshot());
+  const before = await snap();
+  for (const id of ['monitor', 'macbook', 'marshall', 'desk', 'floor']) assert.equal(before.assets[id].status, 'installed', `${id} must have formal geometry`);
+  assert.equal(before.assembly.ok, true); assert.equal(before.validation.ok, true);
+  await page.screenshot({ path: `${output}/hero-desk-floor.png` });
+  const enter = async () => {
+    const p = await page.evaluate(() => window.__ROOM_DEBUG__.projected().piano);
+    const hit = await page.evaluate(p => window.__ROOM_DEBUG__.hitTest(p.x, p.y), p);
+    assert.equal(hit.semanticId, 'piano');
+    await page.mouse.click(p.x, p.y);
+    await page.waitForSelector('[data-interaction-phase="focused"]');
+    return { point: p, hit };
+  };
+  await enter();
+  await page.screenshot({ path: `${output}/piano-extended.png` });
+  await page.getByRole('button', { name: 'Toggle piano', exact: true }).click();
+  await page.waitForFunction(() => window.__ROOM_DEBUG__.snapshot().interaction.pianoState === 'retracted');
+  await page.waitForSelector('[data-interaction-phase="focused"]');
+  await page.screenshot({ path: `${output}/piano-retracted.png` });
+  await page.getByRole('button', { name: 'Back', exact: true }).click();
+  await page.waitForSelector('[data-interaction-phase="idle"]');
+  const reentry = await enter();
+  assert.equal(reentry.hit.runtimeTarget, 'PianoRetractedHitArea');
+  assert.equal((await snap()).interaction.pianoState, 'extended');
+  await page.screenshot({ path: `${output}/piano-reopened.png` });
+  assert.deepEqual(pageErrors, []);
+  await fs.writeFile(`${output}/verification.json`, JSON.stringify({ recordedAt: new Date().toISOString(), before, reentry, pageErrors, scope: 'Intermediate desk/floor only; remaining A families still in production. This is not final A acceptance.' }, null, 2));
+  console.log('Desk/floor installed; source/assembly pass; actual piano retract / Back / undertray reopen pass.');
+} finally { await browser.close(); }
