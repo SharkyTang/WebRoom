@@ -1,0 +1,103 @@
+{
+  "version": "0.6B",
+  "family": "lightswitch",
+  "triangles": 832,
+  "meshCount": 4,
+  "uvMeshes": 4,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06B_LightSwitch_InsetAndMark",
+    "MAT_V06B_LightSwitch_IvoryPolymer"
+  ],
+  "roots": {
+    "VIS_LightSwitchPlate": {
+      "anchor": "DEC_LightSwitchPlate",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.012500000186264515,
+          -0.08900000154972076,
+          -0.05900000035762787
+        ],
+        "max": [
+          0.014499999582767487,
+          0.08900000154972076,
+          0.05900000035762787
+        ]
+      }
+    },
+    "VIS_LightSwitchRocker": {
+      "anchor": "INT_LightSwitch",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.009999999776482582,
+          -0.04800000041723251,
+          -0.03150000050663948
+        ],
+        "max": [
+          0.01080000028014183,
+          0.04800000041723251,
+          0.03150000050663948
+        ]
+      }
+    }
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 27244,
+  "blendBytes": 108992,
+  "glbSHA256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_LightSwitchPlate": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_LightSwitchRocker": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_LightSwitchPlate_bounds": true,
+    "VIS_LightSwitchRocker_bounds": true
+  }
+}

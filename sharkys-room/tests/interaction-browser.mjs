@@ -545,14 +545,17 @@ try {
     const point = (await hitPoints(demand)).monitor;
     await demand.mouse.click(point.x, point.y);
     await settled(demand, 'monitor');
-    await demand.waitForTimeout(250);
+    // React/R3F may deliver the final invalidated frame after the logical state
+    // settles under software-renderer load. Observe bounded visual quiescence;
+    // the independent 500ms zero-frame assertion below still rejects a loop.
+    observations.demandFocusedReady = await waitForCanvasReady(demand, { quietMs: 250, timeoutMs: 20_000 });
     const animated = (await snapshot(demand)).renderFrames;
     assert(animated > idleEnd + 2, 'GSAP focus did not invalidate frames');
     await demand.waitForTimeout(500);
     const focusedIdle = (await snapshot(demand)).renderFrames;
     assert.equal(focusedIdle, animated, 'Focused demand Canvas is still rendering after animations settled');
     await hero(demand, cameraPose(before.camera));
-    await demand.waitForTimeout(300);
+    observations.demandReturnedReady = await waitForCanvasReady(demand, { quietMs: 250, timeoutMs: 20_000 });
     const returnEnd = (await snapshot(demand)).renderFrames;
     await demand.waitForTimeout(500);
     assert.equal((await snapshot(demand)).renderFrames, returnEnd, 'Returning leaves an always-running render loop');

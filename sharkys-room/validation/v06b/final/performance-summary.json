@@ -1,0 +1,121 @@
+{
+  "summary": {
+    "passed": 21,
+    "failed": 0
+  },
+  "hero": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "before": {
+        "fps": 20.44392523388212,
+        "frameMs": 48.914285713718044,
+        "calls": 121,
+        "triangles": 80666
+      },
+      "firstB": {
+        "fps": 16.383962991142422,
+        "frameMs": 61.035294119049524,
+        "calls": 137,
+        "triangles": 105800
+      },
+      "finalB": {
+        "fps": 17.292727447797375,
+        "frameMs": 57.82777777645324,
+        "calls": 137,
+        "triangles": 100256
+      },
+      "frameMsDelta": 8.913492062735195,
+      "framePercentDelta": 18.222676530336003,
+      "keyboardRefinementMsDelta": -3.2075163425962856
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "before": {
+        "fps": 24.105679298873863,
+        "frameMs": 41.4839999985695,
+        "calls": 121,
+        "triangles": 80666
+      },
+      "firstB": {
+        "fps": 19.48747929545867,
+        "frameMs": 51.314999997615814,
+        "calls": 137,
+        "triangles": 105800
+      },
+      "finalB": {
+        "fps": 20.22731650957535,
+        "frameMs": 49.43809523752758,
+        "calls": 137,
+        "triangles": 100256
+      },
+      "frameMsDelta": 7.954095238958075,
+      "framePercentDelta": 19.173886894302278,
+      "keyboardRefinementMsDelta": -1.8769047600882374
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "before": {
+        "fps": 28.122575640356132,
+        "frameMs": 35.558620689244115,
+        "calls": 121,
+        "triangles": 80666
+      },
+      "firstB": {
+        "fps": 21.425788858341043,
+        "frameMs": 46.67272727326914,
+        "calls": 137,
+        "triangles": 105800
+      },
+      "finalB": {
+        "fps": 22.682445759368832,
+        "frameMs": 44.08695652173914,
+        "calls": 137,
+        "triangles": 100256
+      },
+      "frameMsDelta": 8.528335832495024,
+      "framePercentDelta": 23.98387695357009,
+      "keyboardRefinementMsDelta": -2.5857707515299992
+    }
+  ],
+  "networkBeforeAfter": [
+    {
+      "transferSize": 1747116,
+      "encodedBodySize": 1741116,
+      "decodedBodySize": 3906872
+    },
+    {
+      "transferSize": 1952443,
+      "encodedBodySize": 1944043,
+      "decodedBodySize": 4662556
+    }
+  ],
+  "textureBeforeAfter": [
+    {
+      "uniqueTextureObjects": 20,
+      "estimatedRGBABytesWithMipmaps": 28835853
+    },
+    {
+      "uniqueTextureObjects": 22,
+      "estimatedRGBABytesWithMipmaps": 30517944
+    }
+  ],
+  "rendererMemoryBeforeAfter": [
+    {
+      "geometries": 152,
+      "textures": 21
+    },
+    {
+      "geometries": 181,
+      "textures": 23
+    }
+  ]
+}

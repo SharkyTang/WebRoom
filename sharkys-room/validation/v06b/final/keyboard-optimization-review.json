@@ -1,0 +1,65 @@
+{
+  "recordedAt": "2026-09-18T07:06:08.978979+00:00",
+  "scope": "CPU-only read-only review of the actual pre-optimization and optimized keyboard GLBs. No Blender, browser, render or build was run. This file records the immediately preceding completed checks; only file hashes were refreshed when saving it.",
+  "before": {
+    "path": "/var/folders/dw/b62m5m1j0ygdwflpyv2mqykc0000gn/T/sharkys-v06b-production-cqi7s4au/sharkys-room/public/models/production/keyboard_v06b.glb",
+    "resolvedPath": "/private/var/folders/dw/b62m5m1j0ygdwflpyv2mqykc0000gn/T/sharkys-v06b-production-cqi7s4au/sharkys-room/public/models/production/keyboard_v06b.glb",
+    "bytes": 269152,
+    "sha256": "0209f6a8055e6b0c44633a03c76e7826e422ad859bfcdf31fddf57f67880eb4e"
+  },
+  "after": {
+    "path": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/public/models/production/keyboard_v06b.glb",
+    "resolvedPath": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/public/models/production/keyboard_v06b.glb",
+    "bytes": 206320,
+    "sha256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8"
+  },
+  "measurementMethod": {
+    "loader": "tests/helpers/productionGlb.ts reads the actual GLB binary geometry with Three GLTFLoader; no generator statistics were used.",
+    "selection": "Exported keyboard meshes whose material name contains CaseAndFeet are the opaque chassis/feet; other meshes contain the keycaps and accent keys.",
+    "triangleNormals": "Compute geometric face normals from indexed POSITION vertices. Flat downward bottoms have normal.y < -0.999; flat tops have normal.y > 0.999; X/Z main sides have abs(normal.x/z) > 0.999.",
+    "coverageSamples": "For each of 168 original flat bottom triangles, inspect its three vertices and centroid: 672 samples including duplicate shared vertices. At each X/Z coordinate, raycast downward from local Y=0.05 and upward from local Y=-0.05 against the current opaque CaseAndFeet mesh. Require the sample Y to be below the first top hit and above the first bottom hit.",
+    "coverThickness": "The top hit Y minus each original bottom sample Y, in anchor-local glTF Y-up metres.",
+    "staticCodeReview": "Only non-CaseAndFeet keycap objects are processed. The deletion predicate is web(face.normal)[1] < -0.999; visible top and primary side directions cannot match. Bevel segments changed from two to one before deletion."
+  },
+  "results": {
+    "preOptimizationKeycapTriangles": 9072,
+    "optimizedKeycapTriangles": 3528,
+    "flatBottomTrianglesBefore": 168,
+    "flatBottomTrianglesAfter": 0,
+    "bottomTrianglesReviewed": 168,
+    "verticesAndCentroidsSampled": 672,
+    "samplesNotEnclosedByOpaqueCase": 0,
+    "minimumCaseCoverMetres": 0.0014999988488852908,
+    "maximumCaseCoverMetres": 0.002499999012798078,
+    "topTriangles": {
+      "before": 168,
+      "after": 168
+    },
+    "mainXFacingSideTriangles": {
+      "before": 336,
+      "after": 336
+    },
+    "mainZFacingSideTriangles": {
+      "before": 336,
+      "after": 336
+    },
+    "allVerticalSideTrianglesIncludingRoundedCorners": {
+      "before": 2016,
+      "after": 1344,
+      "interpretation": "Rounded corner tessellation decreases with bevel segments 2 to 1; main planar side counts stay unchanged."
+    },
+    "chassisMaterial": {
+      "transparent": false,
+      "opacity": 1,
+      "side": "FrontSide (0)"
+    },
+    "overallKeyboardGLB": {
+      "trianglesBefore": 9692,
+      "trianglesAfter": 4148,
+      "bytesBefore": 269152,
+      "bytesAfter": 206320
+    }
+  },
+  "conclusion": "All 672 reviewed flat-bottom samples are hidden inside the opaque chassis with 1.5 to 2.5 mm cover. The 168 upward top triangles and both sets of 336 main side triangles are retained. The change removes concealed bottom faces and simplifies bevel tessellation without deleting a visible top or primary side face.",
+  "limits": "This is a geometric CPU review, not a visual approval or a new renderer performance measurement. The sample count includes repeated shared vertices; it is not 672 unique points."
+}

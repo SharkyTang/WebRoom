@@ -1,0 +1,103 @@
+{
+  "version": "0.6B",
+  "family": "trashcan",
+  "triangles": 1912,
+  "meshCount": 3,
+  "uvMeshes": 3,
+  "materialCount": 2,
+  "materials": [
+    "MAT_V06B_TrashCan_InnerLiner",
+    "MAT_V06B_TrashCan_WarmEnamel"
+  ],
+  "roots": {
+    "VIS_TrashCanBody": {
+      "anchor": "INT_TrashCanBody",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.1899999976158142,
+          -0.2240000069141388,
+          -0.1899999976158142
+        ],
+        "max": [
+          0.1899999976158142,
+          0.2240000069141388,
+          0.1899999976158142
+        ]
+      }
+    },
+    "VIS_TrashCanLid": {
+      "anchor": "INT_TrashCanLid",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.19200000166893005,
+          -0.026000000536441803,
+          -0.0
+        ],
+        "max": [
+          0.19200000166893005,
+          0.010999999940395355,
+          0.38499999046325684
+        ]
+      }
+    }
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 57508,
+  "blendBytes": 123049,
+  "glbSHA256": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_TrashCanBody": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_TrashCanLid": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_TrashCanBody_bounds": true,
+    "VIS_TrashCanLid_bounds": true
+  }
+}

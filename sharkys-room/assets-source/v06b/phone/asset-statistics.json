@@ -1,0 +1,67 @@
+{
+  "version": "0.6B",
+  "family": "phone",
+  "triangles": 1220,
+  "meshCount": 4,
+  "uvMeshes": 4,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06B_Phone_Display",
+    "MAT_V06B_Phone_GlassAndRubber",
+    "MAT_V06B_Phone_SatinFrameAndStand"
+  ],
+  "roots": {
+    "VIS_PhoneBody": {
+      "anchor": "TEC_Phone",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.05300000682473183,
+          -0.10522635281085968,
+          -0.08364301174879074
+        ],
+        "max": [
+          0.05299999937415123,
+          0.0820000022649765,
+          0.02004058100283146
+        ]
+      }
+    }
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 39068,
+  "blendBytes": 120622,
+  "glbSHA256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+  "gltfPrimitives": 4,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_PhoneBody": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_PhoneBody_bounds": true
+  }
+}

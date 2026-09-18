@@ -59,10 +59,53 @@ export const assetManifest = {
   beanbag: furniture('beanbag', 'Beanbag', 'VIS_Beanbag', [{ root: 'VIS_Beanbag', anchor: 'FUR_BeanBag' }]),
   rugs: furniture('rugs', '地毯', 'VIS_Rug', [{ root: 'VIS_RugWorkstation', anchor: 'DEC_Rug_Workstation' }, { root: 'VIS_RugLounge', anchor: 'DEC_Rug_Lounge' }]),
   dogbed: furniture('dogbed', '狗窝', 'VIS_DogBed', [{ root: 'VIS_DogBed', anchor: 'DEC_DogBedProxy', proxyMeshNames: ['DEC_DogBedProxy_Mesh'] }]),
+  piano: {
+    label: 'Piano', url: '/models/production/piano_v06b.glb', prefix: 'VIS_Piano',
+    parts: [{ root: 'VIS_PianoBody', anchor: 'INT_Piano' }, { root: 'VIS_PianoSlide', anchor: 'INT_PianoRail', proxyMeshNames: [] }],
+    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_PianoBody', 'VIS_PianoSlide'], requiredDescendants: [],
+  },
+  ipad: {
+    label: 'iPad', url: '/models/production/ipad_v06b.glb', prefix: 'VIS_iPad',
+    parts: [{ root: 'VIS_iPadBody', anchor: 'TEC_iPad' }],
+    stateSurface: 'VIS_iPadDisplaySurface', surfaceRole: 'screen', requiredNodes: ['VIS_iPadBody', 'VIS_iPadDisplaySurface'],
+    requiredDescendants: [{ node: 'VIS_iPadDisplaySurface', root: 'VIS_iPadBody' }],
+  },
+  phone: {
+    label: 'Phone', url: '/models/production/phone_v06b.glb', prefix: 'VIS_Phone',
+    parts: [{ root: 'VIS_PhoneBody', anchor: 'TEC_Phone' }],
+    stateSurface: 'VIS_PhoneDisplaySurface', surfaceRole: 'screen', requiredNodes: ['VIS_PhoneBody', 'VIS_PhoneDisplaySurface', 'VIS_PhoneStand'],
+    requiredDescendants: [{ node: 'VIS_PhoneDisplaySurface', root: 'VIS_PhoneBody' }, { node: 'VIS_PhoneStand', root: 'VIS_PhoneBody' }],
+  },
+  trashcan: {
+    label: 'Trash can', url: '/models/production/trashcan_v06b.glb', prefix: 'VIS_TrashCan',
+    parts: [{ root: 'VIS_TrashCanBody', anchor: 'INT_TrashCanBody' }, { root: 'VIS_TrashCanLid', anchor: 'INT_TrashCanLid' }],
+    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_TrashCanBody', 'VIS_TrashCanLid'], requiredDescendants: [],
+  },
+  lightswitch: {
+    label: 'Light switch', url: '/models/production/lightswitch_v06b.glb', prefix: 'VIS_LightSwitch',
+    parts: [{ root: 'VIS_LightSwitchPlate', anchor: 'DEC_LightSwitchPlate' }, { root: 'VIS_LightSwitchRocker', anchor: 'INT_LightSwitch' }],
+    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_LightSwitchPlate', 'VIS_LightSwitchRocker'], requiredDescendants: [],
+  },
+  keyboard: {
+    label: 'Keyboard', url: '/models/production/keyboard_v06b.glb', prefix: 'VIS_Keyboard',
+    parts: [{ root: 'VIS_Keyboard', anchor: 'TEC_Keyboard' }],
+    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_Keyboard'], requiredDescendants: [],
+  },
+  mouse: {
+    label: 'Mouse', url: '/models/production/mouse_v06b.glb', prefix: 'VIS_Mouse',
+    parts: [{ root: 'VIS_Mouse', anchor: 'TEC_Mouse' }],
+    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_Mouse'], requiredDescendants: [],
+  },
+  headphones: {
+    label: 'Headphones', url: '/models/production/headphones_v06b.glb', prefix: 'VIS_Headphones',
+    parts: [{ root: 'VIS_Headphones', anchor: 'TEC_Headphones' }],
+    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_Headphones'], requiredDescendants: [],
+  },
 } as const satisfies Record<string, AssetDefinition>;
 export type AssetFamily = keyof typeof assetManifest;
 export const assetFamilies = Object.keys(assetManifest) as AssetFamily[];
-export const furnitureFamilies = assetFamilies.filter(id => !(['monitor', 'macbook', 'marshall'] as string[]).includes(id));
+// A's membership stays fixed as later authorized batches extend the manifest.
+export const furnitureFamilies: AssetFamily[] = ['floor', 'walls', 'door', 'window', 'curtains', 'desk', 'cabinet', 'bed', 'bedside', 'sofa', 'chair', 'coffee', 'sidetable', 'beanbag', 'rugs', 'dogbed'];
 export type AssetLoadState = { status: 'loading' | 'installed' | 'fallback'; error: string | null };
 export type AssetLoadReport = Record<AssetFamily, AssetLoadState>;
 export const initialAssetLoadReport = (): AssetLoadReport => Object.fromEntries(assetFamilies.map(id => [id, { status: 'loading', error: null }])) as AssetLoadReport;

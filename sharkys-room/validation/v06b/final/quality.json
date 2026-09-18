@@ -1,0 +1,34 @@
+[
+  {
+    "name": "verify-asset",
+    "command": [
+      "npm",
+      "run",
+      "verify:asset"
+    ],
+    "exitCode": 0,
+    "seconds": 0.1645338535308838
+  },
+  {
+    "name": "unit-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exitCode": 0,
+    "seconds": 1.9524860382080078
+  },
+  {
+    "name": "typecheck",
+    "command": [
+      "npm",
+      "run",
+      "typecheck",
+      "--",
+      "--incremental",
+      "false"
+    ],
+    "exitCode": 0,
+    "seconds": 1.1788749694824219
+  }
+]

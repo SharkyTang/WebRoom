@@ -1,6 +1,6 @@
-# Sharky's Room — v0.6A Room & Furniture
+# Sharky's Room — v0.6B Interactive Assets
 
-在现有 v0.5 基础上接入房间与主要家具的 16 个独立资产家族，保留 Monitor、MacBook、Marshall 三件正式资产。提供可编辑 Blender 源、原创纹理与可复现导出脚本；保留冻结 FINAL、48mm Hero、3:2 contain、九项交互和钢琴桌下重新打开入口。本次只执行 A 批，B/C 仍保留占位外观。
+在旧三件与 A16 基础上增量接入 B8：钢琴/滑轨、iPad、Phone/支架、垃圾桶、实体开关、键盘、鼠标、耳机/架，共 27 个正式资产家族。提供可编辑 Blender 源、独立 GLB、规格与可复现导出脚本；冻结 FINAL、48mm Hero、3:2 contain、九项交互、既有机构/返回与桌下钢琴重开入口保持原样。A 技术完成，B 已接入且本轮技术验收通过；详细结果及性能限制见 B 报告，视觉待用户确认。C 尚未开始。
 
 ## 启动
 
@@ -50,39 +50,39 @@ npm test
 npm run build
 ```
 
-另开终端启动开发服务器后：
+另开终端启动开发服务器后（输出目录请用未使用的新目录）：
 
 ```bash
-ROOM_TEST_OUTPUT=validation/v06a/v03-regression npm run test:browser
-ROOM_TEST_OUTPUT=validation/v06a/v04-regression npm run test:interactions
-ROOM_PIANO_CYCLES=20 ROOM_TEST_OUTPUT=validation/v06a/piano npm run test:piano
-ROOM_TEST_OUTPUT=validation/v06a/v05-assets npm run test:assets
-npm run test:furniture
+ROOM_REQUIRE_ALL_B=1 node --import tsx --test tests/interactive-asset-geometry.test.ts
+ROOM_B_STAGE=all ROOM_TEST_OUTPUT=validation/v06b/recheck-all node tests/interactive-assets-browser.mjs
+ROOM_PIANO_CYCLES=20 ROOM_TEST_OUTPUT=validation/v06b/recheck-piano npm run test:piano
+ROOM_TEST_OUTPUT=validation/v06b/recheck-interactions npm run test:interactions
+ROOM_TEST_OUTPUT=validation/v06b/recheck-furniture npm run test:furniture
 ```
 
-另开终端启动生产服务器（3001）后：
+新构建的生产服务器（3001）启动后，用同轮开发证据重放：
 
 ```bash
-ROOM_TEST_OUTPUT=validation/v06a/production npm run test:production
-ROOM_TEST_OUTPUT=validation/v06a/piano ROOM_TEST_PRODUCTION=1 npm run test:piano
-ROOM_TEST_OUTPUT=validation/v06a/v05-assets ROOM_TEST_PRODUCTION=1 ROOM_ASSET_DEV_EVIDENCE=validation/v06a/v05-assets/production-assets-browser.json npm run test:assets
-ROOM_TEST_PRODUCTION=1 npm run test:furniture
+ROOM_TEST_PRODUCTION=1 ROOM_B_STAGE=all ROOM_B_DEV_EVIDENCE=validation/v06b/recheck-all/interactive-assets-browser.json ROOM_TEST_OUTPUT=validation/v06b/recheck-production ROOM_TEST_URL=http://127.0.0.1:3001 node tests/interactive-assets-browser.mjs
 ```
 
-浏览器测试默认使用 macOS Chrome；其他路径可设置 `CHROME_PATH`，服务地址可设置 `ROOM_TEST_URL`。Playwright 使用 ANGLE SwiftShader 软件 WebGL，触屏为浏览器模拟，不等同于真实手机性能验收。
+本轮现有证据在 `validation/v06b/`，完整索引见 B 报告。浏览器默认 macOS Chrome/ANGLE SwiftShader，触屏为仿真；可以通过 `CHROME_PATH`、`ROOM_TEST_URL` 选择浏览器和本地服务。生产包不暴露诊断 API，使用真实像素、页面状态和相同资产哈希复核。
 
-生产钢琴专项需要先运行 `ROOM_PIANO_CYCLES=20 ROOM_TEST_OUTPUT=validation/v06a/piano npm run test:piano` 生成坐标。两种资产生产专项都先运行对应开发专项；使用自定义证据目录时设 `ROOM_ASSET_DEV_EVIDENCE` 或 `ROOM_FURNITURE_DEV_EVIDENCE` 指向实际 JSON。A 批性能独立采样使用 `ROOM_FURNITURE_PERFORMANCE_ONLY=1 npm run test:furniture`，避免与其他浏览器、Blender 或构建并行。详细命令见接入指南。
+```bash
+node scripts/assets/inspect-interactive-budgets.mjs  # 直接读取实际 GLB 的资源账本
+ROOM_TEST_OUTPUT=validation/v06b/recheck-performance node tests/interactive-assets-performance.mjs
+```
+
+性能比较必须独占浏览器/渲染任务。开工前 A19 基线已保存在 `validation/v06b/baseline/performance.json`；当前 B 场景不能冒充开工基线。测量区分 GLB 文件字节、Resource Timing 网络字节、纹理展开估算与软件渲染帧间隔，不代替真机验收。
 
 ## 正式资产
 
-19 个家族的 `.blend` 在 `blender-assets/`，网页 GLB 在 `public/models/production/`。v0.5 文件使用 `_pilot`，A 批使用 `_v06a` 后缀；A 批尺寸、材质、UV、来源与统计在 `assets-source/v06a/`。两块屏幕仍使用运行时 CanvasTexture，Marshall 仍使用独立小指示灯。狗窝只替换床垫 proxy，原狗身体和头的占位保留至 C 批。
+27 个家族的 `.blend` 在 `blender-assets/`，网页 GLB 在 `public/models/production/`。旧三件使用 `_pilot`，A 使用 `_v06a`，B 使用 `_v06b`；尺寸、材质、UV、来源与统计分别在 `assets-source/v06a/`、`assets-source/v06b/`。四块屏幕独立使用 CanvasTexture，Marshall 仍仅保留电源反馈。狗身体/头、收藏等 C 占位继续保留。
 
 ```sh
-npm run assets:build                # 需要 Blender，重建源文件及 GLB
-npm run assets:build -- monitor     # 只重建一个家族
-npm run assets:build:room           # 重建 A 批 16 个家族
-npm run assets:build:room -- desk floor  # 只重建指定 A 批家族
-node scripts/assets/inspect_export_contract.mjs
+node scripts/assets/build-interactive-assets.mjs piano  # 只重建指定 B 家族
+node scripts/assets/build-interactive-assets.mjs        # 重建 B8；不会重做 A/旧三件
+node scripts/assets/inspect-interactive-budgets.mjs
 ```
 
 生成会覆盖所选家族的生成文件，手工编辑前先另存副本。加载/贴图失败时按家族保留完整灰盒，页脚显示原因提示及“刷新重试”；重试从初始状态重新加载。正式模型成功后旧灰盒不渲染也不接收点击，原语义与机械锚点继续保留。详见 [ASSET_PIPELINE_GUIDE.md](ASSET_PIPELINE_GUIDE.md)。
@@ -110,10 +110,9 @@ node scripts/assets/inspect_export_contract.mjs
 - `tests/`：保留的 v0.3 契约／浏览器覆盖，加相机、机构、状态机与完整交互测试。
 - `validation/v041/`：钢琴专项截图、回归结果、构建日志与冻结资产完整性证据；v0.4 历史结果仍在 `validation/v04/`。
 - `validation/v05/`：v0.4.1 实测基线、新资产截图/录像、20轮开合、故障回退与性能记录。
-- `validation/v06a/`：本次真实 v0.5 开工基线、空间快照、A 批截图/录像、故障回退与性能增量。
+- `validation/v06a/`：保留的 A 批历史基线、空间快照、截图/录像、故障回退与性能增量。
+- `validation/v06b/`：本轮工作区快照校验、A19 开工基线、四组局部回归、B 全量故障/生产验证、截图/录像与同环境增量。
 
-浏览器回归按上述命令把结果保存到 `validation/v06a/`，保留旧版证据。生产钢琴专项使用 `ROOM_TEST_OUTPUT=validation/v06a/piano ROOM_TEST_PRODUCTION=1 npm run test:piano`（先运行开发专项生成坐标记录）。
+B 交付见 [V06B_INTERACTIVE_ASSETS_REPORT.md](V06B_INTERACTIVE_ASSETS_REPORT.md)、[V06_ASSET_STATUS.md](V06_ASSET_STATUS.md) 和 `validation/v06b/`。历史报告保留：[A 房间家具](V06A_ROOM_FURNITURE_REPORT.md)、[整合审计](POST_V06_INTEGRATION_AUDIT.md)、[旧三件](FINAL_ASSET_PIPELINE_REPORT.md)。
 
-本次交付见 [v0.6A 房间与家具报告](V06A_ROOM_FURNITURE_REPORT.md)、[资产状态](V06_ASSET_STATUS.md) 和 [资产预算](ASSET_BUDGETS.md)。历史报告保留：[v0.5 三件资产](FINAL_ASSET_PIPELINE_REPORT.md)、[v0.4.1 钢琴修复](V0.4.1_PIANO_DISCOVERABILITY_REPORT.md)、[v0.4 交互](INTERACTION_PROTOTYPE_REPORT.md)、[v0.3 基础](WEB_FOUNDATION_REPORT.md)。
-
-本轮停在 v0.6A 技术交付，视觉效果待用户确认。v0.6B / v0.6C 未开始。
+包含未提交 A 与未跟踪成果的本地回退快照见 `validation/v06b/snapshot.json`。没有提交、推送、部署或更新依赖。本轮停在 B 交付，用户视觉确认单独记录；后续 C 仅为建议，尚未执行。

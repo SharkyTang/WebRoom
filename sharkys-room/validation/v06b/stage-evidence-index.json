@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-18T06:32:18.298917+00:00",
+  "scope": "Index of completed v0.6B stage evidence only. Does not certify final B acceptance or user visual approval.",
+  "pathBase": "sharkys-room project root",
+  "baseline": {
+    "qualitySource": "validation/v06b/baseline/quality.json",
+    "qualityChecks": [
+      {
+        "name": "verify-asset",
+        "command": [
+          "npm",
+          "run",
+          "verify:asset"
+        ],
+        "exitCode": 0,
+        "log": "validation/v06b/baseline/verify-asset.log"
+      },
+      {
+        "name": "unit-tests",
+        "command": [
+          "npm",
+          "test"
+        ],
+        "exitCode": 0,
+        "log": "validation/v06b/baseline/unit-tests.log"
+      },
+      {
+        "name": "typecheck",
+        "command": [
+          "npm",
+          "run",
+          "typecheck",
+          "--",
+          "--incremental",
+          "false"
+        ],
+        "exitCode": 0,
+        "log": "validation/v06b/baseline/typecheck.log"
+      },
+      {
+        "name": "build",
+        "command": [
+          "npm",
+          "run",
+          "build"
+        ],
+        "cwd": "/private/tmp/sharkys-v06b-baseline-7tb9w8jv/sharkys-room",
+        "exitCode": 0,
+        "log": "validation/v06b/baseline/build.log"
+      }
+    ],
+    "unitTestSummary": {
+      "path": "validation/v06b/baseline/unit-tests.log",
+      "summary": {
+        "tests": 133,
+        "pass": 133,
+        "fail": 0,
+        "skipped": 0
+      }
+    },
+    "performance": {
+      "path": "validation/v06b/baseline/performance.json",
+      "generatedAt": "2026-09-18T06:01:30.529Z",
+      "summary": {
+        "passed": 20,
+        "failed": 0
+      },
+      "mode": "pre-B baseline"
+    },
+    "pianoRegression": {
+      "path": "validation/v06b/baseline/piano-current/piano-browser.json",
+      "generatedAt": "2026-09-18T05:56:58.872Z",
+      "summary": {
+        "passed": 10,
+        "failed": 0
+      },
+      "mode": "development"
+    },
+    "performanceLimits": "Headless Chrome ANGLE SwiftShader DPR1, touch emulation; these are current-session baseline observations, not hardware-device performance acceptance."
+  },
+  "stages": [
+    {
+      "stage": "piano",
+      "finalPassingDirectory": "validation/v06b/stage-piano-r2",
+      "technicalStatus": "stage_regression_passed",
+      "browser": {
+        "path": "validation/v06b/stage-piano-r2/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:06:40.328Z",
+        "summary": {
+          "passed": 14,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "log": "validation/v06b/stages/01-piano-browser-r2.log",
+      "geometry": {
+        "path": "validation/v06b/stages/01-piano-geometry.log",
+        "summary": {
+          "tests": 6,
+          "pass": 6,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "familiesPresentDuringRun": 20,
+      "testedFamilies": [
+        "piano"
+      ],
+      "viewports": [
+        "390",
+        "1440"
+      ],
+      "screenshots": {
+        "hero1440": "validation/v06b/stage-piano-r2/hero-1440.png",
+        "hero390": "validation/v06b/stage-piano-r2/hero-390.png",
+        "pianoHalf": "validation/v06b/stage-piano-r2/1440-piano-half-observation.png",
+        "pianoUnderdeskReopen": "validation/v06b/stage-piano-r2/1440-piano-reopened.png"
+      },
+      "mp4": "validation/v06b/stage-piano-r2/v06b-piano-interaction.mp4",
+      "userVisualConfirmation": "pending"
+    },
+    {
+      "stage": "screens",
+      "finalPassingDirectory": "validation/v06b/stage-screens",
+      "technicalStatus": "stage_regression_passed",
+      "browser": {
+        "path": "validation/v06b/stage-screens/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:11:47.337Z",
+        "summary": {
+          "passed": 16,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "log": "validation/v06b/stages/02-screens-browser.log",
+      "geometry": {
+        "path": "validation/v06b/stages/02-screens-geometry-r2.log",
+        "summary": {
+          "tests": 18,
+          "pass": 18,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "familiesPresentDuringRun": 22,
+      "testedFamilies": [
+        "ipad",
+        "phone"
+      ],
+      "viewports": [
+        "390",
+        "1440"
+      ],
+      "screenshots": {
+        "hero1440": "validation/v06b/stage-screens/hero-1440.png",
+        "hero390": "validation/v06b/stage-screens/hero-390.png",
+        "pianoHalf": "validation/v06b/stage-screens/1440-piano-half-observation.png",
+        "pianoUnderdeskReopen": "validation/v06b/stage-screens/1440-piano-reopened.png"
+      },
+      "mp4": "validation/v06b/stage-screens/v06b-screens-interaction.mp4",
+      "userVisualConfirmation": "pending"
+    },
+    {
+      "stage": "mechanisms",
+      "finalPassingDirectory": "validation/v06b/stage-mechanisms-r3",
+      "technicalStatus": "stage_regression_passed",
+      "browser": {
+        "path": "validation/v06b/stage-mechanisms-r3/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:19:06.786Z",
+        "summary": {
+          "passed": 18,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "log": "validation/v06b/stages/03-mechanisms-browser-r3.log",
+      "geometry": {
+        "path": "validation/v06b/stages/03-mechanisms-geometry-r2.log",
+        "summary": {
+          "tests": 27,
+          "pass": 27,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "familiesPresentDuringRun": 24,
+      "testedFamilies": [
+        "trashcan",
+        "lightswitch"
+      ],
+      "viewports": [
+        "390",
+        "1440"
+      ],
+      "screenshots": {
+        "hero1440": "validation/v06b/stage-mechanisms-r3/hero-1440.png",
+        "hero390": "validation/v06b/stage-mechanisms-r3/hero-390.png",
+        "pianoHalf": "validation/v06b/stage-mechanisms-r3/1440-piano-half-observation.png",
+        "pianoUnderdeskReopen": "validation/v06b/stage-mechanisms-r3/1440-piano-reopened.png"
+      },
+      "mp4": "validation/v06b/stage-mechanisms-r3/v06b-mechanisms-interaction.mp4",
+      "userVisualConfirmation": "pending"
+    },
+    {
+      "stage": "accessories",
+      "finalPassingDirectory": "validation/v06b/stage-accessories-r2",
+      "technicalStatus": "stage_regression_passed",
+      "browser": {
+        "path": "validation/v06b/stage-accessories-r2/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:26:42.841Z",
+        "summary": {
+          "passed": 22,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "log": "validation/v06b/stages/04-accessories-browser-r2.log",
+      "geometry": {
+        "path": "validation/v06b/stages/04-accessories-geometry-r2.log",
+        "summary": {
+          "tests": 39,
+          "pass": 39,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "familiesPresentDuringRun": 27,
+      "testedFamilies": [
+        "keyboard",
+        "mouse",
+        "headphones"
+      ],
+      "viewports": [
+        "390",
+        "1440"
+      ],
+      "screenshots": {
+        "hero1440": "validation/v06b/stage-accessories-r2/hero-1440.png",
+        "hero390": "validation/v06b/stage-accessories-r2/hero-390.png",
+        "pianoHalf": "validation/v06b/stage-accessories-r2/1440-piano-half-observation.png",
+        "pianoUnderdeskReopen": "validation/v06b/stage-accessories-r2/1440-piano-reopened.png"
+      },
+      "mp4": "validation/v06b/stage-accessories-r2/v06b-accessories-interaction.mp4",
+      "userVisualConfirmation": "pending"
+    }
+  ],
+  "historicalFailuresAndRevisions": [
+    {
+      "id": "baseline-server-not-running",
+      "category": "tool_environment",
+      "status": "resolved",
+      "loggedObservation": "ERR_CONNECTION_REFUSED at http://127.0.0.1:3000",
+      "failedEvidence": {
+        "path": "validation/v06b/baseline/piano/piano-browser.json",
+        "generatedAt": "2026-09-18T05:47:08.575Z",
+        "summary": {
+          "passed": 0,
+          "failed": 1
+        },
+        "mode": "development"
+      },
+      "successfulRetry": {
+        "path": "validation/v06b/baseline/piano-current/piano-browser.json",
+        "generatedAt": "2026-09-18T05:56:58.872Z",
+        "summary": {
+          "passed": 10,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "productFailure": false
+    },
+    {
+      "id": "blender-first-launch",
+      "category": "tool_environment",
+      "status": "resolved",
+      "loggedObservation": "Arch_ValidateAssumptions / ARCH_CACHE_LINE_SIZE warning followed by writing blender.crash.txt. The persisted log does not independently establish the sandbox as the cause.",
+      "log": "validation/v06b/stages/01-piano-build.log",
+      "reportedContext": "Main-agent task described this as Blender sandbox/launch failure; root-cause attribution is not reconstructed from the crash line.",
+      "successfulExport": {
+        "path": "validation/v06b/stages/01-piano-build-final.log",
+        "family": "piano",
+        "glbSHA256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+        "glbBytes": 269144,
+        "triangles": 6260
+      },
+      "productFailure": false
+    },
+    {
+      "id": "blender-python-import",
+      "category": "build_script",
+      "status": "resolved",
+      "loggedObservation": "ModuleNotFoundError: No module named 'build_production_assets'",
+      "log": "validation/v06b/stages/01-piano-build-retry.log",
+      "successfulExport": {
+        "path": "validation/v06b/stages/01-piano-build-final.log",
+        "family": "piano",
+        "glbSHA256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+        "glbBytes": 269144,
+        "triangles": 6260
+      },
+      "productFailure": false
+    },
+    {
+      "id": "piano-reentry-test-assumption",
+      "category": "test_harness",
+      "status": "resolved",
+      "loggedObservation": "Test incorrectly expected extended after a second natural piano entry; actual retracted matches the frozen enter-toggle behavior.",
+      "failedEvidence": {
+        "path": "validation/v06b/stage-piano/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:02:31.603Z",
+        "summary": {
+          "passed": 4,
+          "failed": 1
+        },
+        "mode": "development"
+      },
+      "resolution": "Test now records actual entry state and uses the existing native Toggle control to prepare the next full travel cycle. Product mechanism unchanged.",
+      "successfulRetry": {
+        "path": "validation/v06b/stage-piano-r2/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:06:40.328Z",
+        "summary": {
+          "passed": 14,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "productFailure": false
+    },
+    {
+      "id": "trash-rotation-negative-zero",
+      "category": "test_harness",
+      "status": "resolved",
+      "loggedObservation": "Strict equality rejected actual -0 against expected 0 for the closed trash-lid rotation.",
+      "failedEvidence": {
+        "path": "validation/v06b/stage-mechanisms/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:14:30.463Z",
+        "summary": {
+          "passed": 1,
+          "failed": 1
+        },
+        "mode": "development"
+      },
+      "resolution": "Closed rotation uses absolute epsilon < 1e-10; original pivot and state assertions remain.",
+      "successfulRetry": {
+        "path": "validation/v06b/stage-mechanisms-r2/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:16:51.846Z",
+        "summary": {
+          "passed": 18,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "productFailure": false
+    },
+    {
+      "id": "phone-stand-below-desktop",
+      "category": "B_geometry_defect",
+      "status": "fixed_and_regressed",
+      "loggedObservation": "Phone stand min Y 0.7379230225316086 m was below allowed desktop Y 0.7400000095367432 m (about 2.08 mm).",
+      "failedEvidence": {
+        "path": "validation/v06b/stages/02-screens-geometry.log",
+        "summary": {
+          "tests": 18,
+          "pass": 17,
+          "fail": 1,
+          "skipped": 0
+        }
+      },
+      "successfulGeometryRetry": {
+        "path": "validation/v06b/stages/02-screens-geometry-r2.log",
+        "summary": {
+          "tests": 18,
+          "pass": 18,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "successfulBrowser": {
+        "path": "validation/v06b/stage-screens/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:11:47.337Z",
+        "summary": {
+          "passed": 16,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "rebuild": {
+        "path": "validation/v06b/stages/02-phone-build-r2.log",
+        "family": "phone",
+        "glbSHA256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+        "glbBytes": 39068,
+        "triangles": 1220
+      },
+      "productFailure": true
+    },
+    {
+      "id": "lightswitch-coplanar-visual-artifact",
+      "category": "B_visual_revision",
+      "status": "reported_fixed_and_regressed",
+      "reportedObservation": "Main agent reported coplanar flashing on the switch plate and reduced the B plate thickness.",
+      "observationSource": "Main-agent coordination message; no automated assertion in the persisted logs independently detects coplanar flashing.",
+      "beforeScreenshot": "validation/v06b/stage-mechanisms-r2/focus-1440-lightswitch.png",
+      "afterScreenshot": "validation/v06b/stage-mechanisms-r3/focus-1440-lightswitch.png",
+      "rebuild": {
+        "path": "validation/v06b/stages/03-lightswitch-build-r2.log",
+        "family": "lightswitch",
+        "glbSHA256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+        "glbBytes": 27244,
+        "triangles": 832
+      },
+      "successfulGeometryRetry": {
+        "path": "validation/v06b/stages/03-mechanisms-geometry-r2.log",
+        "summary": {
+          "tests": 27,
+          "pass": 27,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "successfulBrowser": {
+        "path": "validation/v06b/stage-mechanisms-r3/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:19:06.786Z",
+        "summary": {
+          "passed": 18,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "userVisualConfirmation": "pending"
+    },
+    {
+      "id": "mouse-lower-body-visual-refinement",
+      "category": "B_visual_revision",
+      "status": "reported_refined_and_regressed",
+      "reportedObservation": "Main agent requested recording the mouse lower-body visual improvement. Both the first and revised accessory browser runs passed; this is not an automated test failure.",
+      "observationSource": "Main-agent task plus separate build and browser records; the logs substantiate a changed export and successful regression, not user visual approval.",
+      "beforeExport": {
+        "path": "validation/v06b/stages/04-accessories-build.log",
+        "family": "mouse",
+        "glbSHA256": "b87a74b0656a72954c34b0d55d9f30436ca45fa3b23d2c9d73a7708eb4655d23",
+        "glbBytes": 32580,
+        "triangles": 1032
+      },
+      "afterExport": {
+        "path": "validation/v06b/stages/04-mouse-build-r2.log",
+        "family": "mouse",
+        "glbSHA256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+        "glbBytes": 49428,
+        "triangles": 1820
+      },
+      "beforeBrowser": {
+        "path": "validation/v06b/stage-accessories/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:23:26.437Z",
+        "summary": {
+          "passed": 22,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "successfulBrowser": {
+        "path": "validation/v06b/stage-accessories-r2/interactive-assets-browser.json",
+        "generatedAt": "2026-09-18T06:26:42.841Z",
+        "summary": {
+          "passed": 22,
+          "failed": 0
+        },
+        "mode": "development"
+      },
+      "successfulGeometryRetry": {
+        "path": "validation/v06b/stages/04-accessories-geometry-r2.log",
+        "summary": {
+          "tests": 39,
+          "pass": 39,
+          "fail": 0,
+          "skipped": 0
+        }
+      },
+      "beforeScreenshot": "validation/v06b/stage-accessories/focus-1440-monitor.png",
+      "afterScreenshot": "validation/v06b/stage-accessories-r2/focus-1440-monitor.png",
+      "userVisualConfirmation": "pending"
+    }
+  ],
+  "counts": {
+    "finalStageBrowserPassed": 70,
+    "finalStageBrowserFailed": 0,
+    "note": "70 successful assertions across four overlapping stage suites; not 70 unique product requirements and not the all-suite result."
+  },
+  "fullBatchAcceptance": {
+    "status": "in_progress_not_certified_by_this_index",
+    "basis": "Main agent reported the all suite running while requesting this index. Its result is intentionally not marked complete here.",
+    "userVisualConfirmation": "pending",
+    "nextVersionStarted": false
+  }
+}

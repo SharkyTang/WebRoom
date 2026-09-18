@@ -1,0 +1,455 @@
+{
+  "method": "Three independent new contexts, original inputs and 1.5 second frame observations; no product mutations",
+  "trials": [
+    {
+      "samples": [
+        {
+          "at": 4762.899999976158,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4846.099999964237,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4928.199999988079,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5009.899999976158,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5090.399999976158,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5171,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5252.399999976158,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5333.699999988079,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5416.5,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5499.199999988079,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5580.299999952316,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5661.099999964237,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5742.599999964237,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5825.599999964237,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5907.5,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5989.699999988079,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 6070.099999964237,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 6149.799999952316,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 6230.899999976158,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 6312,
+          "frames": 33,
+          "phase": "focused",
+          "hover": null
+        }
+      ],
+      "ready": {
+        "id": null,
+        "samples": 17,
+        "mismatched": 0,
+        "elapsedMs": 265.89999997615814,
+        "quietMs": 250,
+        "renderFrames": 33,
+        "rendererMemory": {
+          "geometries": 181,
+          "textures": 23
+        },
+        "rect": {
+          "x": 180,
+          "y": 98,
+          "width": 1080,
+          "height": 720,
+          "top": 98,
+          "right": 1260,
+          "bottom": 818,
+          "left": 180
+        },
+        "point": null
+      },
+      "start": 33,
+      "end": 33,
+      "stable": true
+    },
+    {
+      "samples": [
+        {
+          "at": 3447.199999988079,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3528.300000011921,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3609.800000011921,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3690.199999988079,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3770.199999988079,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3849.600000023842,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3929.5,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4009.899999976158,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4090.199999988079,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4170.399999976158,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4251.199999988079,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4332,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4412.300000011921,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4493.5,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4574.899999976158,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4656.800000011921,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4738.600000023842,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4818.600000023842,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4898.600000023842,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4980.5,
+          "frames": 35,
+          "phase": "focused",
+          "hover": null
+        }
+      ],
+      "ready": {
+        "id": null,
+        "samples": 17,
+        "mismatched": 0,
+        "elapsedMs": 259.39999997615814,
+        "quietMs": 250,
+        "renderFrames": 35,
+        "rendererMemory": {
+          "geometries": 181,
+          "textures": 23
+        },
+        "rect": {
+          "x": 180,
+          "y": 98,
+          "width": 1080,
+          "height": 720,
+          "top": 98,
+          "right": 1260,
+          "bottom": 818,
+          "left": 180
+        },
+        "point": null
+      },
+      "start": 35,
+      "end": 35,
+      "stable": true
+    },
+    {
+      "samples": [
+        {
+          "at": 3496,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3578.300000011921,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3660.5,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3742.2000000476837,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3822,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3903.100000023842,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 3983.900000035763,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4065.600000023842,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4145.900000035763,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4226.900000035763,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4307.200000047684,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4388.200000047684,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4469.100000023842,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4550.100000023842,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4632.600000023842,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4715.400000035763,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4795.900000035763,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4876.100000023842,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 4956.800000011921,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        },
+        {
+          "at": 5038.300000011921,
+          "frames": 34,
+          "phase": "focused",
+          "hover": null
+        }
+      ],
+      "ready": {
+        "id": null,
+        "samples": 17,
+        "mismatched": 0,
+        "elapsedMs": 266.5999999642372,
+        "quietMs": 250,
+        "renderFrames": 34,
+        "rendererMemory": {
+          "geometries": 181,
+          "textures": 23
+        },
+        "rect": {
+          "x": 180,
+          "y": 98,
+          "width": 1080,
+          "height": 720,
+          "top": 98,
+          "right": 1260,
+          "bottom": 818,
+          "left": 180
+        },
+        "point": null
+      },
+      "start": 34,
+      "end": 34,
+      "stable": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "path": "/var/folders/dw/b62m5m1j0ygdwflpyv2mqykc0000gn/T/sharkys-v06b-production-cqi7s4au/sharkys-room",
+  "createdAt": 1789712930.716635,
+  "method": "Current final source/public copied to isolated build directory; existing node_modules hardlinked, no installation. Live dev cache remains separate.",
+  "protectedDependencyHashes": {
+    "package.json": "2f35018805732a465ad212b85eacdbacaa23cde167ca98ddee6b43d34d428175",
+    "package-lock.json": "a6a6bf4ad9ed74bf14f56db1feb2223f5c30723dca176c0576bb4b5b4a5237be"
+  },
+  "command": "npm run build",
+  "exitCode": 0,
+  "seconds": 7.017404079437256,
+  "buildId": "YPJ2mRCdBPoMBSmCFJd41"
+}

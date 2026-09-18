@@ -1,0 +1,75 @@
+[
+  {
+    "name": "interactions-r2",
+    "command": [
+      "npm",
+      "run",
+      "test:interactions"
+    ],
+    "env": {
+      "ROOM_TEST_OUTPUT": "validation/v06b/interactions-r2"
+    },
+    "exitCode": 0,
+    "seconds": 179.97613787651062
+  },
+  {
+    "name": "furniture",
+    "command": [
+      "npm",
+      "run",
+      "test:furniture"
+    ],
+    "env": {
+      "ROOM_TEST_OUTPUT": "validation/v06b/furniture"
+    },
+    "exitCode": 0,
+    "seconds": 172.20382475852966
+  },
+  {
+    "name": "b-production",
+    "command": [
+      "node",
+      "tests/interactive-assets-browser.mjs"
+    ],
+    "env": {
+      "ROOM_TEST_PRODUCTION": "1",
+      "ROOM_B_STAGE": "all",
+      "ROOM_B_DEV_EVIDENCE": "validation/v06b/all/interactive-assets-browser.json",
+      "ROOM_TEST_OUTPUT": "validation/v06b/production",
+      "ROOM_TEST_URL": "http://127.0.0.1:3001"
+    },
+    "exitCode": 0,
+    "seconds": 134.38137912750244
+  },
+  {
+    "name": "piano-production",
+    "command": [
+      "npm",
+      "run",
+      "test:piano"
+    ],
+    "env": {
+      "ROOM_TEST_PRODUCTION": "1",
+      "ROOM_TEST_OUTPUT": "validation/v06b/piano",
+      "ROOM_TEST_URL": "http://127.0.0.1:3001"
+    },
+    "exitCode": 0,
+    "seconds": 21.552756309509277
+  },
+  {
+    "name": "furniture-production",
+    "command": [
+      "npm",
+      "run",
+      "test:furniture"
+    ],
+    "env": {
+      "ROOM_TEST_PRODUCTION": "1",
+      "ROOM_FURNITURE_DEV_EVIDENCE": "validation/v06b/furniture/furniture-browser.json",
+      "ROOM_TEST_OUTPUT": "validation/v06b/furniture-production",
+      "ROOM_TEST_URL": "http://127.0.0.1:3001"
+    },
+    "exitCode": 0,
+    "seconds": 80.79573321342468
+  }
+]

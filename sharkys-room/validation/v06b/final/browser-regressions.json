@@ -1,0 +1,29 @@
+[
+  {
+    "name": "piano",
+    "command": [
+      "npm",
+      "run",
+      "test:piano"
+    ],
+    "env": {
+      "ROOM_TEST_OUTPUT": "validation/v06b/piano",
+      "ROOM_PIANO_CYCLES": "20"
+    },
+    "exitCode": 0,
+    "seconds": 228.83343315124512
+  },
+  {
+    "name": "interactions",
+    "command": [
+      "npm",
+      "run",
+      "test:interactions"
+    ],
+    "env": {
+      "ROOM_TEST_OUTPUT": "validation/v06b/interactions"
+    },
+    "exitCode": 1,
+    "seconds": 188.46516728401184
+  }
+]

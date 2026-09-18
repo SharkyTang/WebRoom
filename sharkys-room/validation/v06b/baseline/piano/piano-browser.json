@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-18T05:47:08.575Z",
+  "origin": "http://127.0.0.1:3000",
+  "mode": "development",
+  "summary": {
+    "passed": 0,
+    "failed": 1
+  },
+  "checks": [
+    {
+      "name": "Browser setup/execution",
+      "passed": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3000/?debug=1&demand=1\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3000/?debug=1&demand=1\", waiting until \"domcontentloaded\"\u001b[22m\n\n    at open (/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/tests/piano-discoverability-browser.mjs:54:14)\n    at async file:///Users/shaoqitang/Documents/ChatGPT/%E7%BD%91%E9%A1%B5%E5%B0%8F%E5%B1%8B/sharkys-room/tests/piano-discoverability-browser.mjs:178:18"
+    }
+  ],
+  "errors": [
+    "http://127.0.0.1:3000/?debug=1&demand=1: net::ERR_CONNECTION_REFUSED"
+  ],
+  "observations": {}
+}

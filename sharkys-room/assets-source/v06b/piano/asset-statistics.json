@@ -1,0 +1,105 @@
+{
+  "version": "0.6B",
+  "family": "piano",
+  "triangles": 6260,
+  "meshCount": 5,
+  "uvMeshes": 5,
+  "materialCount": 4,
+  "materials": [
+    "MAT_V06B_Piano_Ebony",
+    "MAT_V06B_Piano_Ivory",
+    "MAT_V06B_Piano_SatinCasing",
+    "MAT_V06B_Piano_SlideMetal"
+  ],
+  "roots": {
+    "VIS_PianoBody": {
+      "anchor": "INT_Piano",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.6669999957084656,
+          -0.04749999940395355,
+          -0.17550000548362732
+        ],
+        "max": [
+          0.6669999957084656,
+          0.05300000309944153,
+          0.17799998819828033
+        ]
+      }
+    },
+    "VIS_PianoSlide": {
+      "anchor": "INT_PianoRail",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.6690000295639038,
+          -0.04999999701976776,
+          -0.1770000010728836
+        ],
+        "max": [
+          0.6690000295639038,
+          -0.017999999225139618,
+          0.1770000010728836
+        ]
+      }
+    }
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 269144,
+  "blendBytes": 162210,
+  "glbSHA256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+  "gltfPrimitives": 5,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_PianoBody": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_PianoSlide": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_PianoBody_bounds": true,
+    "VIS_PianoSlide_bounds": true
+  }
+}

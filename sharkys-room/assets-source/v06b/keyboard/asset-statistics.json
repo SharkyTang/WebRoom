@@ -1,0 +1,67 @@
+{
+  "version": "0.6B",
+  "family": "keyboard",
+  "triangles": 4148,
+  "meshCount": 3,
+  "uvMeshes": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06B_Keyboard_AccentKeys",
+    "MAT_V06B_Keyboard_CaseAndFeet",
+    "MAT_V06B_Keyboard_Keycaps"
+  ],
+  "roots": {
+    "VIS_Keyboard": {
+      "anchor": "TEC_Keyboard",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.21899999678134918,
+          -0.025499999523162842,
+          -0.07699999958276749
+        ],
+        "max": [
+          0.21899999678134918,
+          0.013500000350177288,
+          0.07699999958276749
+        ]
+      }
+    }
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 206320,
+  "blendBytes": 148778,
+  "glbSHA256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+  "gltfPrimitives": 3,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_Keyboard": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Keyboard_bounds": true
+  }
+}

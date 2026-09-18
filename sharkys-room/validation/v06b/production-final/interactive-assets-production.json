@@ -1,0 +1,1381 @@
+{
+  "generatedAt": "2026-09-18T07:23:09.233Z",
+  "stage": "all",
+  "mode": "production",
+  "origin": "http://127.0.0.1:3002",
+  "families": [
+    "monitor",
+    "macbook",
+    "marshall",
+    "floor",
+    "walls",
+    "door",
+    "window",
+    "curtains",
+    "desk",
+    "cabinet",
+    "bed",
+    "bedside",
+    "sofa",
+    "chair",
+    "coffee",
+    "sidetable",
+    "beanbag",
+    "rugs",
+    "dogbed",
+    "piano",
+    "ipad",
+    "phone",
+    "trashcan",
+    "lightswitch",
+    "keyboard",
+    "mouse",
+    "headphones"
+  ],
+  "selectedFamilies": [
+    "piano",
+    "ipad",
+    "phone",
+    "trashcan",
+    "lightswitch",
+    "keyboard",
+    "mouse",
+    "headphones"
+  ],
+  "summary": {
+    "passed": 44,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "Production 1440px all manifest families installed and debug absent",
+      "passed": true,
+      "detail": {
+        "installedFamilies": [
+          "monitor",
+          "macbook",
+          "marshall",
+          "floor",
+          "walls",
+          "door",
+          "window",
+          "curtains",
+          "desk",
+          "cabinet",
+          "bed",
+          "bedside",
+          "sofa",
+          "chair",
+          "coffee",
+          "sidetable",
+          "beanbag",
+          "rugs",
+          "dogbed",
+          "piano",
+          "ipad",
+          "phone",
+          "trashcan",
+          "lightswitch",
+          "keyboard",
+          "mouse",
+          "headphones"
+        ]
+      }
+    },
+    {
+      "name": "Production 1440px native monitor recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 819,
+            "y": 344
+          },
+          "hit": {
+            "node": "VIS_MonitorDisplaySurface",
+            "assetFamily": "monitor",
+            "semanticId": "monitor",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MonitorDisplaySurface",
+              "TEC_MonitorScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native macbook recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 729,
+            "y": 351
+          },
+          "hit": {
+            "node": "VIS_MacBookDisplaySurface",
+            "assetFamily": "macbook",
+            "semanticId": "macbook",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MacBookDisplaySurface",
+              "VIS_MacBookLid",
+              "TEC_MacBookScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native ipad recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 596,
+            "y": 513
+          },
+          "hit": {
+            "node": "VIS_iPadDisplaySurface",
+            "assetFamily": "ipad",
+            "semanticId": "ipad",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_iPadDisplaySurface",
+              "VIS_iPadBody",
+              "TEC_iPad",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native marshall recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 863,
+            "y": 394
+          },
+          "hit": {
+            "node": "VIS_MarshallGrille",
+            "assetFamily": "marshall",
+            "semanticId": "marshall",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MarshallGrille",
+              "VIS_MarshallBody",
+              "TEC_Marshall",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native piano recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 759,
+            "y": 427
+          },
+          "hit": {
+            "node": "VIS_PianoCaseAndKeys_0",
+            "assetFamily": "piano",
+            "semanticId": "piano",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PianoCaseAndKeys_0",
+              "VIS_PianoBody",
+              "INT_Piano",
+              "INT_PianoRail",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native trashcan recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 906,
+            "y": 454
+          },
+          "hit": {
+            "node": "VIS_TrashCanLidShell",
+            "assetFamily": "trashcan",
+            "semanticId": "trashcan",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_TrashCanLidShell",
+              "VIS_TrashCanLid",
+              "INT_TrashCanLid",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native lightswitch recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 372,
+            "y": 381
+          },
+          "hit": {
+            "node": "VIS_LightSwitchMovingPaddle",
+            "assetFamily": "lightswitch",
+            "semanticId": "lightswitch",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_LightSwitchMovingPaddle",
+              "VIS_LightSwitchRocker",
+              "INT_LightSwitch",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native phone recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 831,
+            "y": 399
+          },
+          "hit": {
+            "node": "VIS_PhoneDisplaySurface",
+            "assetFamily": "phone",
+            "semanticId": "phone",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PhoneDisplaySurface",
+              "VIS_PhoneBody",
+              "TEC_Phone",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px native window recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 701,
+            "y": 163
+          },
+          "hit": {
+            "node": "VIS_WindowInsetFaces",
+            "assetFamily": "window",
+            "semanticId": "window",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_WindowInsetFaces",
+              "VIS_WindowFrame",
+              "ENV_WindowFrame",
+              "ENVIRONMENT",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px keyboard remains a static accessory",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 773,
+            "y": 395
+          },
+          "hit": {
+            "node": "VIS_KeyboardMerged_1",
+            "assetFamily": "keyboard",
+            "semanticId": null,
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_KeyboardMerged_1",
+              "VIS_Keyboard",
+              "TEC_Keyboard",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px mouse remains a static accessory",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 805,
+            "y": 405
+          },
+          "hit": {
+            "node": "VIS_MouseShell",
+            "assetFamily": "mouse",
+            "semanticId": null,
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MouseShell",
+              "VIS_Mouse",
+              "TEC_Mouse",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px headphones remains a static accessory",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 853,
+            "y": 403
+          },
+          "hit": {
+            "node": "VIS_HeadphonesMerged_0",
+            "assetFamily": "headphones",
+            "semanticId": null,
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_HeadphonesMerged_0",
+              "VIS_Headphones",
+              "TEC_Headphones",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 1440px retract, Back, natural underdesk reopen",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 757,
+            "y": 437
+          },
+          "hit": {
+            "node": "PianoRetractedHitArea",
+            "assetFamily": null,
+            "semanticId": "piano",
+            "runtimeTarget": "PianoRetractedHitArea",
+            "ancestors": [
+              "PianoRetractedHitArea",
+              "",
+              ""
+            ]
+          }
+        },
+        "noExploreObjects": true
+      }
+    },
+    {
+      "name": "Production 768px all manifest families installed and debug absent",
+      "passed": true,
+      "detail": {
+        "installedFamilies": [
+          "monitor",
+          "macbook",
+          "marshall",
+          "floor",
+          "walls",
+          "door",
+          "window",
+          "curtains",
+          "desk",
+          "cabinet",
+          "bed",
+          "bedside",
+          "sofa",
+          "chair",
+          "coffee",
+          "sidetable",
+          "beanbag",
+          "rugs",
+          "dogbed",
+          "piano",
+          "ipad",
+          "phone",
+          "trashcan",
+          "lightswitch",
+          "keyboard",
+          "mouse",
+          "headphones"
+        ]
+      }
+    },
+    {
+      "name": "Production 768px native monitor recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 447,
+            "y": 448
+          },
+          "hit": {
+            "node": "VIS_MonitorDisplaySurface",
+            "assetFamily": "monitor",
+            "semanticId": "monitor",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MonitorDisplaySurface",
+              "TEC_MonitorScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native macbook recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 389,
+            "y": 452
+          },
+          "hit": {
+            "node": "VIS_MacBookDisplaySurface",
+            "assetFamily": "macbook",
+            "semanticId": "macbook",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MacBookDisplaySurface",
+              "VIS_MacBookLid",
+              "TEC_MacBookScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native ipad recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 305,
+            "y": 555
+          },
+          "hit": {
+            "node": "VIS_iPadDisplaySurface",
+            "assetFamily": "ipad",
+            "semanticId": "ipad",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_iPadDisplaySurface",
+              "VIS_iPadBody",
+              "TEC_iPad",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native marshall recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 475,
+            "y": 479
+          },
+          "hit": {
+            "node": "VIS_MarshallGrille",
+            "assetFamily": "marshall",
+            "semanticId": "marshall",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MarshallGrille",
+              "VIS_MarshallBody",
+              "TEC_Marshall",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native piano recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 409,
+            "y": 500
+          },
+          "hit": {
+            "node": "VIS_PianoCaseAndKeys_1",
+            "assetFamily": "piano",
+            "semanticId": "piano",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PianoCaseAndKeys_1",
+              "VIS_PianoBody",
+              "INT_Piano",
+              "INT_PianoRail",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native trashcan recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 502,
+            "y": 518
+          },
+          "hit": {
+            "node": "VIS_TrashCanLidShell",
+            "assetFamily": "trashcan",
+            "semanticId": "trashcan",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_TrashCanLidShell",
+              "VIS_TrashCanLid",
+              "INT_TrashCanLid",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native lightswitch recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 162,
+            "y": 471
+          },
+          "hit": {
+            "node": "VIS_LightSwitchMovingPaddle",
+            "assetFamily": "lightswitch",
+            "semanticId": "lightswitch",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_LightSwitchMovingPaddle",
+              "VIS_LightSwitchRocker",
+              "INT_LightSwitch",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native phone recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 455,
+            "y": 482
+          },
+          "hit": {
+            "node": "VIS_PhoneDisplaySurface",
+            "assetFamily": "phone",
+            "semanticId": "phone",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PhoneDisplaySurface",
+              "VIS_PhoneBody",
+              "TEC_Phone",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px native window recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 369,
+            "y": 332
+          },
+          "hit": {
+            "node": "VIS_WindowInsetFaces",
+            "assetFamily": "window",
+            "semanticId": "window",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_WindowInsetFaces",
+              "VIS_WindowFrame",
+              "ENV_WindowFrame",
+              "ENVIRONMENT",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px keyboard remains a static accessory",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 417,
+            "y": 476
+          },
+          "hit": {
+            "node": "VIS_KeyboardMerged_2",
+            "assetFamily": "keyboard",
+            "semanticId": null,
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_KeyboardMerged_2",
+              "VIS_Keyboard",
+              "TEC_Keyboard",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px mouse remains a static accessory",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 437,
+            "y": 487
+          },
+          "hit": {
+            "node": "VIS_MouseShell",
+            "assetFamily": "mouse",
+            "semanticId": null,
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MouseShell",
+              "VIS_Mouse",
+              "TEC_Mouse",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px headphones remains a static accessory",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 473,
+            "y": 492
+          },
+          "hit": {
+            "node": "VIS_HeadphonesMerged_0",
+            "assetFamily": "headphones",
+            "semanticId": null,
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_HeadphonesMerged_0",
+              "VIS_Headphones",
+              "TEC_Headphones",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 768px retract, Back, natural underdesk reopen",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 408,
+            "y": 507
+          },
+          "hit": {
+            "node": "PianoRetractedHitArea",
+            "assetFamily": null,
+            "semanticId": "piano",
+            "runtimeTarget": "PianoRetractedHitArea",
+            "ancestors": [
+              "PianoRetractedHitArea",
+              "",
+              ""
+            ]
+          }
+        },
+        "noExploreObjects": true
+      }
+    },
+    {
+      "name": "Production 390px all manifest families installed and debug absent",
+      "passed": true,
+      "detail": {
+        "installedFamilies": [
+          "monitor",
+          "macbook",
+          "marshall",
+          "floor",
+          "walls",
+          "door",
+          "window",
+          "curtains",
+          "desk",
+          "cabinet",
+          "bed",
+          "bedside",
+          "sofa",
+          "chair",
+          "coffee",
+          "sidetable",
+          "beanbag",
+          "rugs",
+          "dogbed",
+          "piano",
+          "ipad",
+          "phone",
+          "trashcan",
+          "lightswitch",
+          "keyboard",
+          "mouse",
+          "headphones"
+        ]
+      }
+    },
+    {
+      "name": "Production 390px native monitor recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 228,
+            "y": 362
+          },
+          "hit": {
+            "node": "VIS_MonitorDisplaySurface",
+            "assetFamily": "monitor",
+            "semanticId": "monitor",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MonitorDisplaySurface",
+              "TEC_MonitorScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native macbook recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 198,
+            "y": 365
+          },
+          "hit": {
+            "node": "VIS_MacBookDisplaySurface",
+            "assetFamily": "macbook",
+            "semanticId": "macbook",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MacBookDisplaySurface",
+              "VIS_MacBookLid",
+              "TEC_MacBookScreen",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native ipad recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 154,
+            "y": 419
+          },
+          "hit": {
+            "node": "VIS_iPadDisplaySurface",
+            "assetFamily": "ipad",
+            "semanticId": "ipad",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_iPadDisplaySurface",
+              "VIS_iPadBody",
+              "TEC_iPad",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native marshall recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 243,
+            "y": 379
+          },
+          "hit": {
+            "node": "VIS_MarshallGrille",
+            "assetFamily": "marshall",
+            "semanticId": "marshall",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MarshallGrille",
+              "VIS_MarshallBody",
+              "TEC_Marshall",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native piano recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 208,
+            "y": 390
+          },
+          "hit": {
+            "node": "VIS_PianoCaseAndKeys_0",
+            "assetFamily": "piano",
+            "semanticId": "piano",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PianoCaseAndKeys_0",
+              "VIS_PianoBody",
+              "INT_Piano",
+              "INT_PianoRail",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native trashcan recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 257,
+            "y": 399
+          },
+          "hit": {
+            "node": "VIS_TrashCanLidShell",
+            "assetFamily": "trashcan",
+            "semanticId": "trashcan",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_TrashCanLidShell",
+              "VIS_TrashCanLid",
+              "INT_TrashCanLid",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native lightswitch recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 79,
+            "y": 375
+          },
+          "hit": {
+            "node": "VIS_LightSwitchMovingPaddle",
+            "assetFamily": "lightswitch",
+            "semanticId": "lightswitch",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_LightSwitchMovingPaddle",
+              "VIS_LightSwitchRocker",
+              "INT_LightSwitch",
+              "INTERACTIVE",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native phone recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 232,
+            "y": 381
+          },
+          "hit": {
+            "node": "VIS_PhoneDisplaySurface",
+            "assetFamily": "phone",
+            "semanticId": "phone",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_PhoneDisplaySurface",
+              "VIS_PhoneBody",
+              "TEC_Phone",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px native window recorded formal pixel and Back",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 208,
+            "y": 306
+          },
+          "hit": {
+            "node": "VIS_WindowInsetFaces",
+            "assetFamily": "window",
+            "semanticId": "window",
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_WindowInsetFaces",
+              "VIS_WindowFrame",
+              "ENV_WindowFrame",
+              "ENVIRONMENT",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px keyboard remains a static accessory",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 211,
+            "y": 378
+          },
+          "hit": {
+            "node": "VIS_KeyboardMerged_1",
+            "assetFamily": "keyboard",
+            "semanticId": null,
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_KeyboardMerged_1",
+              "VIS_Keyboard",
+              "TEC_Keyboard",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px mouse remains a static accessory",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 223,
+            "y": 383
+          },
+          "hit": {
+            "node": "VIS_MouseShell",
+            "assetFamily": "mouse",
+            "semanticId": null,
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_MouseShell",
+              "VIS_Mouse",
+              "TEC_Mouse",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px headphones remains a static accessory",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 241,
+            "y": 384
+          },
+          "hit": {
+            "node": "VIS_HeadphonesMerged_0",
+            "assetFamily": "headphones",
+            "semanticId": null,
+            "runtimeTarget": null,
+            "ancestors": [
+              "VIS_HeadphonesMerged_0",
+              "VIS_Headphones",
+              "TEC_Headphones",
+              "TECH",
+              "SharkysRoom",
+              "Scene",
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Production 390px retract, Back, natural underdesk reopen",
+      "passed": true,
+      "detail": {
+        "target": {
+          "point": {
+            "x": 207,
+            "y": 393
+          },
+          "hit": {
+            "node": "PianoRetractedHitArea",
+            "assetFamily": null,
+            "semanticId": "piano",
+            "runtimeTarget": "PianoRetractedHitArea",
+            "ancestors": [
+              "PianoRetractedHitArea",
+              "",
+              ""
+            ]
+          }
+        },
+        "noExploreObjects": true
+      }
+    },
+    {
+      "name": "Current exported assets remain unchanged throughout the evidence run",
+      "passed": true,
+      "detail": {
+        "monitor": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+        "macbook": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+        "marshall": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+        "floor": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+        "walls": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+        "door": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+        "window": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+        "curtains": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+        "desk": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+        "cabinet": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+        "bed": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+        "bedside": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+        "sofa": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+        "chair": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+        "coffee": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+        "sidetable": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+        "beanbag": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+        "rugs": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+        "dogbed": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+        "piano": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+        "ipad": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+        "phone": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+        "trashcan": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+        "lightswitch": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+        "keyboard": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+        "mouse": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+        "headphones": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d"
+      }
+    },
+    {
+      "name": "Normal B sessions have no runtime or resource failures; expected injected faults stay isolated",
+      "passed": true
+    }
+  ],
+  "observations": {
+    "viewports": {},
+    "nativeInputs": [],
+    "exportHashesAtStart": {
+      "monitor": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "macbook": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "marshall": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "floor": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "walls": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "door": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "window": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "curtains": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "desk": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "cabinet": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "bed": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "bedside": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "sofa": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "chair": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "coffee": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "sidetable": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "beanbag": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "rugs": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "dogbed": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "piano": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "ipad": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "phone": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "trashcan": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+      "lightswitch": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "keyboard": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "mouse": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "headphones": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d"
+    },
+    "exportHashesAtEnd": {
+      "monitor": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "macbook": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "marshall": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "floor": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "walls": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "door": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "window": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "curtains": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "desk": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "cabinet": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "bed": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "bedside": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "sofa": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "chair": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "coffee": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "sidetable": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "beanbag": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "rugs": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "dogbed": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "piano": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "ipad": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "phone": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "trashcan": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+      "lightswitch": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "keyboard": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "mouse": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "headphones": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d"
+    },
+    "video": {
+      "source": "validation/v06b/production-final/raw-video/page@ca517c36bd99d55ae53a0c4f087ecfba.webm",
+      "mp4": "validation/v06b/production-final/v06b-all-interaction.mp4",
+      "exitCode": 0,
+      "error": null
+    }
+  },
+  "runtime": [
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "[.WebGL-0x10c000d8000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "[.WebGL-0x10c000d8000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "[.WebGL-0x10c000d8000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "phase": "production-1440",
+      "type": "warning",
+      "text": "[.WebGL-0x10c000d8000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "phase": "production-768",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    },
+    {
+      "phase": "production-390",
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+    }
+  ],
+  "requests": [],
+  "environment": "Installed Chrome headless ANGLE SwiftShader, DPR1, 1440 desktop/768 tablet-sized/390 touch emulation. No physical mobile, hardware GPU or Safari validation.",
+  "visualStatus": "Technical interaction evidence only; user aesthetic/visual confirmation remains pending."
+}

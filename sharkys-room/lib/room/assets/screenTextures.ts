@@ -1,13 +1,13 @@
 import { CanvasTexture, SRGBColorSpace } from 'three';
 
-export type ScreenId = 'monitor' | 'macbook';
+export type ScreenId = 'monitor' | 'macbook' | 'ipad' | 'phone';
 export type ScreenTexture = { texture: CanvasTexture; setActive: (active: boolean) => void; dispose: () => void };
 
 /** Static canvas is painted only when the content state changes, never on a frame loop. */
 export function createScreenTexture(id: ScreenId): ScreenTexture {
   const canvas = document.createElement('canvas');
-  canvas.width = id === 'monitor' ? 1024 : 512;
-  canvas.height = id === 'monitor' ? 512 : 320;
+  canvas.width = id === 'phone' ? 256 : id === 'monitor' ? 1024 : 512;
+  canvas.height = id === 'phone' ? 512 : id === 'ipad' ? 360 : id === 'monitor' ? 512 : 320;
   const context = canvas.getContext('2d');
   if (!context) throw new Error('Canvas 2D screen creation failed');
   const texture = new CanvasTexture(canvas);
@@ -22,6 +22,21 @@ export function createScreenTexture(id: ScreenId): ScreenTexture {
     previous = active;
     const ctx = context!;
     const w = canvas.width, h = canvas.height, s = w / 1024;
+    if (id === 'ipad' || id === 'phone') {
+      // Deliberately limited prototype titles, not device OS or real content pages.
+      const portrait = id === 'phone', margin = portrait ? 24 : 38;
+      ctx.fillStyle = '#182c38'; ctx.fillRect(0, 0, w, h);
+      ctx.fillStyle = '#d9aa7e'; ctx.fillRect(margin, 42, 28, 4);
+      ctx.fillStyle = '#b7c6d0'; ctx.font = '12px Arial'; ctx.fillText('SHARKY’S ROOM', margin, 77);
+      ctx.fillStyle = '#f6eee4'; ctx.font = `500 ${portrait ? 30 : 40}px Arial`;
+      ctx.fillText(id === 'ipad' ? 'Memories' : 'Contact', margin, h * .43);
+      ctx.fillStyle = '#b7c6d0'; ctx.font = '15px Arial'; ctx.fillText('Coming soon.', margin, h * .43 + 32);
+      ctx.strokeStyle = '#516471'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(margin, h * .70); ctx.lineTo(w - margin, h * .70); ctx.stroke();
+      ctx.fillStyle = active ? '#efb77e' : '#859ba8'; ctx.font = '11px Arial';
+      ctx.fillText(active ? 'SELECTED / PREVIEW' : 'SELECT TO EXPLORE', margin, h - 36);
+      texture.userData.contentUpdates++; texture.needsUpdate = true;
+      return;
+    }
     ctx.fillStyle = '#101d29'; ctx.fillRect(0, 0, w, h);
     const gradient = ctx.createLinearGradient(0, 0, w, h);
     gradient.addColorStop(0, '#203648'); gradient.addColorStop(1, '#101923');

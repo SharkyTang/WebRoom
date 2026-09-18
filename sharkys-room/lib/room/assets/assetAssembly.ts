@@ -2,7 +2,7 @@ import { Material, Mesh, MeshBasicMaterial, MeshStandardMaterial, Object3D, Pers
 import { FROZEN_NODE_RECORDS, HERO_CAMERA_NAME } from '../sceneConstants';
 import { assetFamilies, assetManifest, type AssetDefinition, type AssetFamily } from './assetManifest';
 import { ownObjectResources } from './resourceOwnership';
-import { createScreenTexture, type ScreenTexture } from './screenTextures';
+import { createScreenTexture, type ScreenId, type ScreenTexture } from './screenTextures';
 
 export type AssetBinding = { meshes: Mesh[]; screen?: ScreenTexture };
 type Installed = { roots: Object3D[]; binding: AssetBinding; suppressed: Mesh[]; dispose: () => void };
@@ -148,7 +148,7 @@ export function installAssetFamily(room: Object3D, id: AssetFamily, asset: Objec
     },
   };
   try {
-    if (definition.surfaceRole === 'screen' && typeof document !== 'undefined') screen = createScreenTexture(id as 'monitor' | 'macbook');
+    if (definition.surfaceRole === 'screen' && typeof document !== 'undefined') screen = createScreenTexture(id as ScreenId);
     record.binding.screen = screen;
     surfaceMeshes.forEach(mesh => {
       const copies = meshMaterials(mesh).map(original => {

@@ -1,0 +1,289 @@
+{
+  "generatedAt": "2026-09-18T15:25:30.010698+08:00",
+  "technicalStatus": "B implemented; functional/asset/browser technical validation passed with disclosed software-rendering performance increase; real-device performance unverified",
+  "userVisualStatus": "pending user confirmation",
+  "AStatus": "technical complete; visually unconfirmed; protected inputs unchanged",
+  "CStatus": "not started; no continued authorization",
+  "rollback": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/local-backups/v06b-start-20260918-134334",
+  "head": "9cf802250b5823ef1b30fc7ab4f45d3265496ccc",
+  "gitIndexUnchanged": true,
+  "protectedInputCount": 142,
+  "allProtectedInputsUnchanged": true,
+  "quality": [
+    {
+      "name": "verify-asset-optimized",
+      "command": [
+        "npm",
+        "run",
+        "verify:asset"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "unit-tests-optimized",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0
+    },
+    {
+      "name": "typecheck-optimized",
+      "command": [
+        "npm",
+        "run",
+        "typecheck",
+        "--",
+        "--incremental",
+        "false"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "qualityCounts": {
+    "assetContract": 361,
+    "unitTests": 172,
+    "BGeometrySubsetOfUnitTests": 39
+  },
+  "productionBuild": {
+    "path": "/var/folders/dw/b62m5m1j0ygdwflpyv2mqykc0000gn/T/sharkys-v06b-production-final-hd01oiko/sharkys-room",
+    "method": "Final keyboard-refined source/public copied; installed dependency hardlinks, no install",
+    "createdAt": 1789715084.517382,
+    "command": "npm run build",
+    "exitCode": 0,
+    "buildId": "M2z6Vzd_8okDagjqhYb1Z"
+  },
+  "finalProductionOrigin": "http://127.0.0.1:3002",
+  "evidence": [
+    {
+      "name": "b-development",
+      "scope": "final assets",
+      "summary": {
+        "passed": 57,
+        "failed": 0
+      },
+      "path": "validation/v06b/all-final/interactive-assets-browser.json",
+      "sha256": "a858491945913a097fb1e19d37bba3671ee992a74158c090cb544e9d31d1ad3a"
+    },
+    {
+      "name": "b-production",
+      "scope": "final optimized build",
+      "summary": {
+        "passed": 44,
+        "failed": 0
+      },
+      "path": "validation/v06b/production-final/interactive-assets-production.json",
+      "sha256": "fecf4cf708a057213cde9d64a4e46d0d8551f2444416b31b755d85f0f446021b"
+    },
+    {
+      "name": "performance",
+      "scope": "final assets",
+      "summary": {
+        "passed": 21,
+        "failed": 0
+      },
+      "path": "validation/v06b/performance-optimized/performance.json",
+      "sha256": "94272bf2727a852350078f01c4f9976960c6a6e1b42ecc5624235762c687a76e"
+    },
+    {
+      "name": "piano",
+      "scope": "before static keyboard optimization",
+      "summary": {
+        "passed": 10,
+        "failed": 0
+      },
+      "path": "validation/v06b/piano/piano-browser.json",
+      "sha256": "81916c6f64ce8a1b4ede802ac1155abade5e92dc1e55b67889375314ac8cefe6"
+    },
+    {
+      "name": "interactions",
+      "scope": "before static keyboard optimization",
+      "summary": {
+        "passed": 37,
+        "failed": 0
+      },
+      "path": "validation/v06b/interactions-r2/interaction_browser.json",
+      "sha256": "5901909cf9938f5b29dc2b8a1a089641b35ace3a806a5805de70b3743080a8db"
+    },
+    {
+      "name": "furniture",
+      "scope": "before static keyboard optimization",
+      "summary": {
+        "passed": 50,
+        "failed": 0
+      },
+      "path": "validation/v06b/furniture/furniture-browser.json",
+      "sha256": "e8b37f673fd756170ee167f761b9a5619dbbfdf18019f2bb0bce1f5d1ecc3639"
+    },
+    {
+      "name": "piano-production",
+      "scope": "first B production build before static keyboard optimization",
+      "summary": {
+        "passed": 3,
+        "failed": 0
+      },
+      "path": "validation/v06b/piano/piano-production.json",
+      "sha256": "262b19769671c1f6875624d69644b52c5fc01678663d0791136d41601d92fb8c"
+    },
+    {
+      "name": "furniture-production",
+      "scope": "first B production build before static keyboard optimization",
+      "summary": {
+        "passed": 24,
+        "failed": 0
+      },
+      "path": "validation/v06b/furniture-production/furniture-production.json",
+      "sha256": "1768cb4e5b9be8c85020340b4cf7d2548363060fffc9df49f38c7032da42db41"
+    },
+    {
+      "name": "stage-piano",
+      "scope": "immediate integration before next group",
+      "summary": {
+        "passed": 14,
+        "failed": 0
+      },
+      "path": "validation/v06b/stage-piano-r2/interactive-assets-browser.json",
+      "sha256": "e560480e3426d36dc350d615f3ae6cb05ee2afc9c02798c401877319efeed57d"
+    },
+    {
+      "name": "stage-screens",
+      "scope": "immediate integration before next group",
+      "summary": {
+        "passed": 16,
+        "failed": 0
+      },
+      "path": "validation/v06b/stage-screens/interactive-assets-browser.json",
+      "sha256": "27c219fc345d0e42a5b1878f12837d7196048e17231b240d601571a707dffd40"
+    },
+    {
+      "name": "stage-mechanisms",
+      "scope": "immediate integration before next group",
+      "summary": {
+        "passed": 18,
+        "failed": 0
+      },
+      "path": "validation/v06b/stage-mechanisms-r3/interactive-assets-browser.json",
+      "sha256": "ba3ec541d471e703114d54e13b1cd0950b7dba07bf7bb67d132ac1c3a4856208"
+    },
+    {
+      "name": "stage-accessories",
+      "scope": "immediate integration before next group",
+      "summary": {
+        "passed": 22,
+        "failed": 0
+      },
+      "path": "validation/v06b/stage-accessories-r2/interactive-assets-browser.json",
+      "sha256": "0d8a9cceccb6ba0b695326831649fd2231f3c2a03a4bdceea29854c730827e45"
+    }
+  ],
+  "videos": [
+    {
+      "mp4": "validation/v06b/all-final/v06b-all-interaction.mp4",
+      "rawWebm": "validation/v06b/all-final/raw-video/page@de5a1de973d71584613ec6ccae709256.webm",
+      "seconds": 64.8,
+      "bytes": 12958821,
+      "sha256": "e7b10528c8097a29d3db749542b7615cf0d48843de0fa2d7458609e12f36440a"
+    },
+    {
+      "mp4": "validation/v06b/production-final/v06b-all-interaction.mp4",
+      "rawWebm": "validation/v06b/production-final/raw-video/page@ca517c36bd99d55ae53a0c4f087ecfba.webm",
+      "seconds": 44.88,
+      "bytes": 10023994,
+      "sha256": "2916032c52ec229099620cc80b92cda2275a321797f38d64df4a381302b8a531"
+    }
+  ],
+  "resourceTotals": {
+    "frozen": {
+      "files": 1,
+      "bytes": 411892,
+      "triangles": 6566,
+      "primitives": 72,
+      "sceneTriangleInstances": 6566,
+      "scenePrimitiveInstances": 72,
+      "materialDefinitionsAcrossFiles": 6,
+      "imageReferences": 0,
+      "embeddedImageBytes": 0,
+      "otherBytes": 411892,
+      "jsonChunkBytes": 61308
+    },
+    "v05": {
+      "files": 3,
+      "bytes": 1119288,
+      "triangles": 22592,
+      "primitives": 18,
+      "sceneTriangleInstances": 22592,
+      "scenePrimitiveInstances": 18,
+      "materialDefinitionsAcrossFiles": 15,
+      "imageReferences": 1,
+      "embeddedImageBytes": 430084,
+      "otherBytes": 689204,
+      "jsonChunkBytes": 21200
+    },
+    "v06A": {
+      "files": 16,
+      "bytes": 2375692,
+      "triangles": 55444,
+      "primitives": 62,
+      "sceneTriangleInstances": 55444,
+      "scenePrimitiveInstances": 62,
+      "materialDefinitionsAcrossFiles": 39,
+      "imageReferences": 17,
+      "embeddedImageBytes": 443596,
+      "otherBytes": 1932096,
+      "jsonChunkBytes": 78424
+    },
+    "v06B": {
+      "files": 8,
+      "bytes": 755684,
+      "triangles": 20240,
+      "primitives": 29,
+      "sceneTriangleInstances": 20240,
+      "scenePrimitiveInstances": 29,
+      "materialDefinitionsAcrossFiles": 23,
+      "imageReferences": 0,
+      "embeddedImageBytes": 0,
+      "otherBytes": 755684,
+      "jsonChunkBytes": 34524
+    },
+    "beforeBInitialGlbPayload": {
+      "files": 20,
+      "bytes": 3906872,
+      "triangles": 84602,
+      "primitives": 152,
+      "sceneTriangleInstances": 84602,
+      "scenePrimitiveInstances": 152,
+      "materialDefinitionsAcrossFiles": 60,
+      "imageReferences": 18,
+      "embeddedImageBytes": 873680,
+      "otherBytes": 3033192,
+      "jsonChunkBytes": 160932
+    },
+    "afterBInitialGlbPayload": {
+      "files": 28,
+      "bytes": 4662556,
+      "triangles": 104842,
+      "primitives": 181,
+      "sceneTriangleInstances": 104842,
+      "scenePrimitiveInstances": 181,
+      "materialDefinitionsAcrossFiles": 83,
+      "imageReferences": 18,
+      "embeddedImageBytes": 873680,
+      "otherBytes": 3788876,
+      "jsonChunkBytes": 195456
+    },
+    "initialGlbByteIncrease": 755684
+  },
+  "performance": "final/PERFORMANCE_COMPARISON.md",
+  "performanceLimits": [
+    "Chrome/ANGLE SwiftShader; DPR 1; same-environment single-run observations",
+    "Hero frame intervals +18.2% to +24.0% versus pre-B A19 after keyboard optimization",
+    "Hardware GPU, Safari, real phones/tablets, internet cold load, and precise VRAM not verified"
+  ],
+  "finalCommands": [
+    "ROOM_B_STAGE=all ROOM_TEST_OUTPUT=validation/v06b/all-final node tests/interactive-assets-browser.mjs",
+    "ROOM_TEST_PRODUCTION=1 ROOM_B_STAGE=all ROOM_B_DEV_EVIDENCE=validation/v06b/all-final/interactive-assets-browser.json ROOM_TEST_OUTPUT=validation/v06b/production-final ROOM_TEST_URL=http://127.0.0.1:3002 node tests/interactive-assets-browser.mjs",
+    "ROOM_TEST_OUTPUT=validation/v06b/performance-optimized ROOM_TEST_URL=http://127.0.0.1:3000 node tests/interactive-assets-performance.mjs"
+  ],
+  "reportSha256": "2789babee69dad1ebbd38b93d2c755041678d30f4afeff650c6b1becb52ba7f5",
+  "stop": "Delivered B only; no C, real content pages, music, day/night, independent lights, dependency changes, commit, push or deployment."
+}

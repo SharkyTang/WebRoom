@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-09-18T15:25:29.948317+08:00",
+  "comparedTo": "Full pre-B working snapshot; not Git HEAD",
+  "originalFilesChecked": 978,
+  "existingFilesChanged": [
+    {
+      "path": "sharkys-room/README.md",
+      "before": "e6769ef645532d5c75053b22c49197a16a61075eff599955e354ea53198ef3b2",
+      "after": "584be8f7f2c166eac52a55d925ec33614180f9332d0fe73fcf9fd2c01989ec37"
+    },
+    {
+      "path": "sharkys-room/V06_ASSET_STATUS.md",
+      "before": "ec7936eefad289c6160ae3ee48bc94ad2df2a3e6f85654b3a52e7996ea02b1b0",
+      "after": "dc1db64381341b6ec65695050f30b05a90796a25f92105526a539106339618cd"
+    },
+    {
+      "path": "sharkys-room/ASSET_BUDGETS.md",
+      "before": "a4fc1e8a189e1ddda4ca1bc4c1445b1b6f22427c506f38af7d97bddf01ce3260",
+      "after": "64db64584dc3c1f5707f83e968a240b45226a76d0319a7999998cf58767af782"
+    },
+    {
+      "path": "sharkys-room/tests/interaction-browser.mjs",
+      "before": "8320df3f40d28e5caf4d46535ca276f811672267f79e88ed2dde15899e713438",
+      "after": "8da639d89fc7554df09b835c2a507b317d7f289387a6e91ba427629da8dc1c08"
+    },
+    {
+      "path": "sharkys-room/tests/furniture-browser.mjs",
+      "before": "c098fd28062e0ca7cc75a094225d9cc945d8ede88dc85c8319e44fe590cc4505",
+      "after": "6e2eb20e5100024f519e8a20f3d2bb94df294efa5507103882286bc445480ae4"
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/assetManifest.ts",
+      "before": "82e9d79318c02cfb13c094bc7483787ba8938d7b900244be96533afca7b59a11",
+      "after": "7f5e78fa47bb58e459436fedb6d9b19022d3576d6595d0c2000f57cd3c1794fb"
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/screenTextures.ts",
+      "before": "376ce3a3a2d3d3485eaf680f2983c0e755139e5b38c9337e9d597087202bdd9c",
+      "after": "3471ac453d483c21ec9813c570722250b844dc09404f26da7e187466cf7cf307"
+    },
+    {
+      "path": "sharkys-room/lib/room/assets/assetAssembly.ts",
+      "before": "849ef4bdef7c44b328a7f2c5502dcc9a9d9674861f6440337018cab26fe181d9",
+      "after": "37c8b1183f406f692fe2beefcfd2570779bfbb96cef7c4c25685f8943951d18e"
+    }
+  ],
+  "originalFilesMissing": [],
+  "allOtherOriginalFilesUnchanged": true,
+  "gitIndexEntriesUnchanged": true,
+  "head": "9cf802250b5823ef1b30fc7ab4f45d3265496ccc",
+  "headUnchanged": true,
+  "protectedInputCount": 142,
+  "allProtectedInputsRecheckedUnchanged": true,
+  "gitIndexComparisonCommand": "git ls-files --stage from entire original repository"
+}

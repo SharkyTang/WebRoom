@@ -1,0 +1,67 @@
+{
+  "version": "0.6B",
+  "family": "headphones",
+  "triangles": 3292,
+  "meshCount": 3,
+  "uvMeshes": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06B_Headphones_SatinCasing",
+    "MAT_V06B_Headphones_SoftPads",
+    "MAT_V06B_Headphones_StandAlloy"
+  ],
+  "roots": {
+    "VIS_Headphones": {
+      "anchor": "TEC_Headphones",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.12299998104572296,
+          -0.014499999582767487,
+          -0.05849999934434891
+        ],
+        "max": [
+          0.12299999594688416,
+          0.2160000056028366,
+          0.05849999934434891
+        ]
+      }
+    }
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 81196,
+  "blendBytes": 131793,
+  "glbSHA256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+  "gltfPrimitives": 3,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_Headphones": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Headphones_bounds": true
+  }
+}

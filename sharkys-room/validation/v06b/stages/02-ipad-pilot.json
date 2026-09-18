@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "hit": {
+    "node": "VIS_iPadDisplaySurface",
+    "assetFamily": "ipad",
+    "semanticId": "ipad",
+    "runtimeTarget": null,
+    "ancestors": [
+      "VIS_iPadDisplaySurface",
+      "VIS_iPadBody",
+      "TEC_iPad",
+      "TECH",
+      "SharkysRoom",
+      "Scene",
+      "",
+      ""
+    ]
+  },
+  "before": {
+    "meshes": 3,
+    "triangles": 756,
+    "materials": 3,
+    "textures": [
+      {
+        "uuid": "8d615e69-dc55-4c5f-9e00-8daf4c2d1a7e",
+        "name": "Runtime_ipad_CanvasScreen",
+        "width": 512,
+        "height": 360,
+        "colorSpace": "srgb",
+        "estimatedRGBABytesWithMipmaps": 983040
+      }
+    ],
+    "stateSurfaces": [
+      {
+        "name": "VIS_iPadDisplaySurface",
+        "material": "Runtime_ipad_screen",
+        "emissiveIntensity": 1,
+        "mapName": "Runtime_ipad_CanvasScreen",
+        "textureUpdates": 1
+      }
+    ],
+    "materialState": [
+      {
+        "mesh": "VIS_iPadBezelAndCamera",
+        "name": "MAT_V06B_iPad_GlassBezel",
+        "color": "161d23",
+        "emissive": "000000",
+        "emissiveIntensity": 1
+      },
+      {
+        "mesh": "VIS_iPadDisplaySurface",
+        "name": "Runtime_ipad_screen",
+        "color": "ffffff",
+        "emissive": "ffffff",
+        "emissiveIntensity": 1
+      },
+      {
+        "mesh": "VIS_iPadHousing",
+        "name": "MAT_V06B_iPad_SatinAlloy",
+        "color": "99a2a8",
+        "emissive": "000000",
+        "emissiveIntensity": 1
+      }
+    ]
+  },
+  "active": {
+    "meshes": 3,
+    "triangles": 756,
+    "materials": 3,
+    "textures": [
+      {
+        "uuid": "8d615e69-dc55-4c5f-9e00-8daf4c2d1a7e",
+        "name": "Runtime_ipad_CanvasScreen",
+        "width": 512,
+        "height": 360,
+        "colorSpace": "srgb",
+        "estimatedRGBABytesWithMipmaps": 983040
+      }
+    ],
+    "stateSurfaces": [
+      {
+        "name": "VIS_iPadDisplaySurface",
+        "material": "Runtime_ipad_screen",
+        "emissiveIntensity": 3,
+        "mapName": "Runtime_ipad_CanvasScreen",
+        "textureUpdates": 2
+      }
+    ],
+    "materialState": [
+      {
+        "mesh": "VIS_iPadBezelAndCamera",
+        "name": "MAT_V06B_iPad_GlassBezel",
+        "color": "161d23",
+        "emissive": "000000",
+        "emissiveIntensity": 1
+      },
+      {
+        "mesh": "VIS_iPadDisplaySurface",
+        "name": "Runtime_ipad_screen",
+        "color": "ffffff",
+        "emissive": "ffffff",
+        "emissiveIntensity": 3
+      },
+      {
+        "mesh": "VIS_iPadHousing",
+        "name": "MAT_V06B_iPad_SatinAlloy",
+        "color": "99a2a8",
+        "emissive": "000000",
+        "emissiveIntensity": 1
+      }
+    ]
+  },
+  "returned": {
+    "meshes": 3,
+    "triangles": 756,
+    "materials": 3,
+    "textures": [
+      {
+        "uuid": "8d615e69-dc55-4c5f-9e00-8daf4c2d1a7e",
+        "name": "Runtime_ipad_CanvasScreen",
+        "width": 512,
+        "height": 360,
+        "colorSpace": "srgb",
+        "estimatedRGBABytesWithMipmaps": 983040
+      }
+    ],
+    "stateSurfaces": [
+      {
+        "name": "VIS_iPadDisplaySurface",
+        "material": "Runtime_ipad_screen",
+        "emissiveIntensity": 1,
+        "mapName": "Runtime_ipad_CanvasScreen",
+        "textureUpdates": 3
+      }
+    ],
+    "materialState": [
+      {
+        "mesh": "VIS_iPadBezelAndCamera",
+        "name": "MAT_V06B_iPad_GlassBezel",
+        "color": "161d23",
+        "emissive": "000000",
+        "emissiveIntensity": 1
+      },
+      {
+        "mesh": "VIS_iPadDisplaySurface",
+        "name": "Runtime_ipad_screen",
+        "color": "ffffff",
+        "emissive": "ffffff",
+        "emissiveIntensity": 1
+      },
+      {
+        "mesh": "VIS_iPadHousing",
+        "name": "MAT_V06B_iPad_SatinAlloy",
+        "color": "99a2a8",
+        "emissive": "000000",
+        "emissiveIntensity": 1
+      }
+    ]
+  }
+}

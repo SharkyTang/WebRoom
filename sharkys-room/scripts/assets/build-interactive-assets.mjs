@@ -1,0 +1,12 @@
+import {existsSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+const allowed=['piano','ipad','phone','trashcan','lightswitch','keyboard','mouse','headphones'];
+const selected=process.argv.slice(2);
+if(selected.some(id=>!allowed.includes(id)))throw new Error(`Expected B family: ${allowed.join(', ')}`);
+const blender=process.env.BLENDER_BIN??(existsSync('/Applications/Blender.app/Contents/MacOS/Blender')?'/Applications/Blender.app/Contents/MacOS/Blender':'blender');
+const result=spawnSync(blender,['--background','--factory-startup','--python-exit-code','1','--python',path.join(project,'scripts/assets/build_interactive_assets.py'),'--',...(selected.length?selected:allowed)],{cwd:project,stdio:'inherit'});
+if(result.error)throw result.error;
+process.exitCode=result.status??1;

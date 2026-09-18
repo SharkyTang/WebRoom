@@ -1,0 +1,67 @@
+{
+  "version": "0.6B",
+  "family": "mouse",
+  "triangles": 1820,
+  "meshCount": 3,
+  "uvMeshes": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06B_Mouse_ButtonsAndSole",
+    "MAT_V06B_Mouse_CurvedShell",
+    "MAT_V06B_Mouse_ScrollWheel"
+  ],
+  "roots": {
+    "VIS_Mouse": {
+      "anchor": "TEC_Mouse",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.03200000151991844,
+          -0.025499999523162842,
+          -0.050999999046325684
+        ],
+        "max": [
+          0.03200000151991844,
+          0.016004595905542374,
+          0.050999999046325684
+        ]
+      }
+    }
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 49428,
+  "blendBytes": 127341,
+  "glbSHA256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+  "gltfPrimitives": 3,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_Mouse": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_Mouse_bounds": true
+  }
+}

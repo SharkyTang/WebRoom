@@ -1,5 +1,7 @@
 # v0.6 资产预算与加载策略
 
+> 历史记录说明（2026-09-18）：下文保留 A 批当时的范围、预算与实测，包含当时“B/C 未授权”的表述。B 现已按本轮独立授权实施；B 最终资源与同条件增量见 `V06B_INTERACTIVE_ASSETS_REPORT.md`、`validation/v06b/final/asset-budget-ledger-optimized.json` 和 `validation/v06b/performance-optimized/`。C 仍未开始。
+
 本次只执行 A 批；B/C 尚未授权。以下审查线在建模前制定，最终实测另表记录，不将计划当成结果。大小统一按十进制 MB；内存同时明确字节与估算方法。
 
 ## 开工基线

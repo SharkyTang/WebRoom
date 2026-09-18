@@ -1,0 +1,41 @@
+[
+  {
+    "name": "verify-asset",
+    "command": [
+      "npm",
+      "run",
+      "verify:asset"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "unit-tests",
+    "command": [
+      "npm",
+      "test"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "typecheck",
+    "command": [
+      "npm",
+      "run",
+      "typecheck",
+      "--",
+      "--incremental",
+      "false"
+    ],
+    "exitCode": 0
+  },
+  {
+    "name": "build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "cwd": "/private/tmp/sharkys-v06b-baseline-7tb9w8jv/sharkys-room",
+    "exitCode": 0
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "version": "0.6B",
+  "family": "ipad",
+  "triangles": 756,
+  "meshCount": 3,
+  "uvMeshes": 3,
+  "materialCount": 3,
+  "materials": [
+    "MAT_V06B_iPad_Display",
+    "MAT_V06B_iPad_GlassBezel",
+    "MAT_V06B_iPad_SatinAlloy"
+  ],
+  "roots": {
+    "VIS_iPadBody": {
+      "anchor": "TEC_iPad",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.12399999797344208,
+          -0.007500000298023224,
+          -0.08900000154972076
+        ],
+        "max": [
+          0.12399999797344208,
+          0.009800000116229057,
+          0.08900000154972076
+        ]
+      }
+    }
+  },
+  "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
+  "glbBytes": 25776,
+  "blendBytes": 111267,
+  "glbSHA256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+  "gltfPrimitives": 3,
+  "textureCount": 0,
+  "embeddedImageBytes": 0,
+  "exportRootTransforms": {
+    "VIS_iPadBody": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    }
+  },
+  "roundtripChecks": {
+    "meshCount": true,
+    "triangles": true,
+    "uvEveryMesh": true,
+    "sameRoots": true,
+    "VIS_iPadBody_bounds": true
+  }
+}
