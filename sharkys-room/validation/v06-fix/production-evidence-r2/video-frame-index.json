@@ -1,0 +1,42 @@
+{
+  "source": "visual-interaction-demo.mp4",
+  "frames": [
+    {
+      "name": "12-piano-mid-travel",
+      "seconds": 16.270808167000002,
+      "file": "unselected-12-piano-mid-travel.png",
+      "accepted": false
+    },
+    {
+      "name": "13-trash-mid-close",
+      "seconds": 33.505233458,
+      "file": "unselected-13-trash-mid-close.png",
+      "accepted": false
+    },
+    {
+      "name": "14-trash-closed-transition",
+      "seconds": 33.795233458000006,
+      "file": "unselected-14-trash-closed-transition.png",
+      "accepted": false
+    }
+  ],
+  "method": "Decoded frames from unmodified native production interaction recording; approximate intermediate animation moments, not authored poses or exact 50-percent geometry assertions.",
+  "review": "Direct video timestamps were visually reviewed. These are actual intermediate poses, not exact 50-percent assertions; exact endpoint/half-travel positions are covered by geometry tests.",
+  "accepted": [
+    {
+      "file": "piano-frame-15.25.png",
+      "videoSeconds": 15.25,
+      "state": "retracting, intermediate travel"
+    },
+    {
+      "file": "trash-frame-32.35.png",
+      "videoSeconds": 32.35,
+      "state": "closing, partially open"
+    },
+    {
+      "file": "trash-frame-32.57.png",
+      "videoSeconds": 32.57,
+      "state": "closed at start of original return sequence"
+    }
+  ]
+}

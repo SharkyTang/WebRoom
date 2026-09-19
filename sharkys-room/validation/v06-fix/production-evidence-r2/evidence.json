@@ -1,0 +1,87 @@
+{
+  "origin": "http://127.0.0.1:3005",
+  "production": true,
+  "inspectionAPI": false,
+  "nativeInputsOnly": true,
+  "events": [
+    {
+      "name": "01-default-overview",
+      "elapsedMs": 4193.497708000001
+    },
+    {
+      "name": "02-room-rotation",
+      "elapsedMs": 7494.464249999999
+    },
+    {
+      "name": "piano-enter",
+      "elapsedMs": 9201.20675
+    },
+    {
+      "name": "03-piano-extended",
+      "elapsedMs": 11713.460208
+    },
+    {
+      "name": "04-piano-connection-side",
+      "elapsedMs": 15136.531874999999
+    },
+    {
+      "name": "piano-retract-start",
+      "elapsedMs": 15930.808167000001
+    },
+    {
+      "name": "05-piano-retracted",
+      "elapsedMs": 16644.856125000002
+    },
+    {
+      "name": "piano-extend-start",
+      "elapsedMs": 17014.844917000002
+    },
+    {
+      "name": "06-underdesk-entry",
+      "elapsedMs": 20327.490250000003
+    },
+    {
+      "name": "native-underdesk-reopen",
+      "elapsedMs": 20695.192042000002
+    },
+    {
+      "name": "07-underdesk-reopened",
+      "elapsedMs": 22988.446708000003
+    },
+    {
+      "name": "piano-outside-exit",
+      "elapsedMs": 23282.605167
+    },
+    {
+      "name": "trash-open",
+      "elapsedMs": 24423.798042000002
+    },
+    {
+      "name": "08-trash-open-full",
+      "elapsedMs": 27768.423083
+    },
+    {
+      "name": "09-trash-hinge-side",
+      "elapsedMs": 29438.035708000003
+    },
+    {
+      "name": "10-trash-cavity-other-side",
+      "elapsedMs": 31946.056333
+    },
+    {
+      "name": "trash-outside-close",
+      "elapsedMs": 33205.233458
+    },
+    {
+      "name": "11-outside-return",
+      "elapsedMs": 34855.605167
+    }
+  ],
+  "errors": [],
+  "conversion": {
+    "source": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/raw-video/page@b6582bc43da0020a448b1dee7d862c7f.webm",
+    "mp4": "validation/v06-fix/production-evidence-r2/visual-interaction-demo.mp4",
+    "status": 0,
+    "error": null
+  }
+}

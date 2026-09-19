@@ -89,6 +89,29 @@ def piano():
             runners.append(cylinder('VIS_Piano_RunnerFastener',(x,-.032,z),.004,.002,metal,slide,axis=(1,0,0),vertices=12))
     group_materials('VIS_PianoCaseAndKeys_', parts)
     combine('VIS_PianoSlideHardware', runners)
+    # v0.6 visual repair: the original inner slide is unchanged. Outer hardware
+    # attaches to the actual A tabletop; the middle stage follows half the rail travel.
+    mount = root('VIS_PianoFixedMount', 'FUR_Desk')
+    middle = root('VIS_PianoMiddleStage', 'FUR_Desk')
+    middle.parent = mount
+    fixed_parts, middle_parts = [], []
+    for side in (-1, 1):
+        # Anchor-local Y is world Y for FUR_Desk. Closed length .410m,
+        # each extension .325m: outer/middle overlap remains .085m at full travel.
+        fixed_parts.append(box('VIS_PianoOuterRailWeb',(side*.698,.567,.010),(.004,.054,.410),metal,mount,.0005,1))
+        for y in (.542,.592):
+            fixed_parts.append(box('VIS_PianoOuterRailFlange',(side*.685,.0+y,.010),(.030,.004,.410),metal,mount,.0005,1))
+        for z in (-.135,.155):
+            fixed_parts.append(box('VIS_PianoDeskMountPlate',(side*.712,.66765,z),(.055,.004,.056),metal,mount,.001,1))
+            fixed_parts.append(box('VIS_PianoDeskMountDrop',(side*.713,.630,z),(.016,.075,.026),metal,mount,.001,1))
+            fixed_parts.append(box('VIS_PianoDeskMountFoot',(side*.703,.596,z),(.038,.008,.032),metal,mount,.001,1))
+            for dz in (-.018,.018):
+                fixed_parts.append(cylinder('VIS_PianoMountBolt',(side*.725,.664,z+dz),.004,.004,metal,mount,vertices=12))
+        middle_parts.append(box('VIS_PianoMiddleWeb',(side*.687,.567,.335),(.004,.037,.410),metal,middle,.0004,1))
+        for y in (.550,.584):
+            middle_parts.append(box('VIS_PianoMiddleFlange',(side*.6775,y,.335),(.023,.003,.410),metal,middle,.0004,1))
+    combine('VIS_PianoFixedHardware',fixed_parts)
+    combine('VIS_PianoMiddleHardware',middle_parts)
 
 
 def ipad():
@@ -163,12 +186,42 @@ def trashcan():
     for face in bowl.data.polygons:
         if face.index>=6*48: face.material_index=1
     # Original lid pivot is the rear edge; all authored vertices extend toward +Z.
-    cover=[cylinder('VIS_TrashCanCover',(0,0,.193),.192,.022,shell,lid,vertices=48),
-        box('VIS_TrashCanHinge',(0,0,.007),(.10,.020,.014),shell,lid,.003,3)]
+    cover=[cylinder('VIS_TrashCanCover',(0,0,.193),.192,.022,shell,lid,vertices=48)]
     combine('VIS_TrashCanLidShell',cover)
+    # The old cover starts only 1mm in front of the axis. Bore the concealed rear
+    # edge so the real 5mm axle can pass without intersecting the moving casing.
+    casing=bpy.data.objects['VIS_TrashCanLidShell']
+    cutter=cylinder('VIS_TrashCanTemporaryAxleBore',(0,0,0),.0034,.074,shell,lid,axis=(1,0,0),vertices=32)
+    bpy.context.view_layer.objects.active=casing
+    bore=casing.modifiers.new('Actual axle bore','BOOLEAN');bore.operation='DIFFERENCE';bore.solver='EXACT';bore.object=cutter
+    bpy.ops.object.modifier_apply(modifier=bore.name)
+    bpy.data.objects.remove(cutter,do_unlink=True)
     # Small inset skirt bridges the old 11.5mm visual gap without moving either pivot.
     # Its outer radius .176 is inside the .178+ mouth, leaving radial clearance.
     lathe('VIS_TrashCanLidInnerSkirt',[(.172,-.011),(.172,-.026),(.176,-.026),(.176,-.011),(.172,-.011)],inside,lid,(0,0,.193))
+    # Read the original sibling anchors: the axis stays exactly where FINAL authored it.
+    data=SOURCE.read_bytes(); doc=json.loads(data[20:20+struct.unpack_from('<I',data,12)[0]])
+    anchors={n['name']:n.get('translation',[0,0,0]) for n in doc['nodes']}
+    axis_y=anchors['INT_TrashCanLid'][1]-anchors['INT_TrashCanBody'][1]
+    axis_z=anchors['INT_TrashCanLid'][2]-anchors['INT_TrashCanBody'][2]
+    def tube(name,center,length,parent):
+        obj=lathe(name,[(.007,-length/2),(.007,length/2),(.0034,length/2),(.0034,-length/2),(.007,-length/2)],shell,parent,segments=24)
+        for vertex in obj.data.vertices:
+            x,y,z=web(vertex.co)
+            vertex.co=xyz((center[0]+y,center[1]-x,center[2]+z))
+        obj.data.update()
+        return obj
+    fixed=[]
+    for side in (-1,1):
+        fixed.append(box('VIS_TrashCanHingeFoot',(side*.062,.200,axis_z+.008),(.016,.018,.030),shell,body,.001,1))
+        fixed.append(box('VIS_TrashCanHingeSupport',(side*.062,axis_y-.027,axis_z-.007),(.012,.052,.012),shell,body,.001,1))
+        fixed.append(tube('VIS_TrashCanFixedBarrel',(side*.062,axis_y,axis_z),.020,body))
+    fixed.append(cylinder('VIS_TrashCanAxle',(0,axis_y,axis_z),.0025,.148,inside,body,axis=(1,0,0),vertices=16))
+    combine('VIS_TrashCanFixedHinge',fixed)
+    bpy.data.objects['VIS_TrashCanFixedHinge'].data.name='VIS_TrashCanFixedHinge_Geometry'
+    moving=[tube('VIS_TrashCanMovingBarrel',(0,0,0),.098,lid),
+        box('VIS_TrashCanHingeNeck',(0,.001,.015),(.060,.008,.024),shell,lid,.001,1)]
+    combine('VIS_TrashCanMovingKnuckle',moving)
 
 
 def lightswitch():

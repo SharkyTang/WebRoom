@@ -9,6 +9,39 @@ type Operation = 'focus' | 'home' | 'enter' | 'exit' | 'toggle';
 type Call = { operation: Operation; id: InteractionId | null; reduced: boolean; complete: () => void };
 const flush = () => new Promise<void>(resolve => setImmediate(resolve));
 
+describe('scene outside-click contract', () => {
+  it('resets the current view without entering/toggling mechanisms and queues a requested exit', async () => {
+    const fixture = runtimeFixture(); const store = createInteractionStore(); const detach = store.attach(fixture.runtime);
+    await store.activate('piano'); const before = store.getSnapshot(); fixture.hold.add('focus');
+    const reset = store.resetView(); assert(store.getSnapshot().isCameraBusy);
+    await store.toggle('piano'); await store.resetView(); await store.sceneClick(null);
+    assert.equal(fixture.count('enter'),1); assert.equal(fixture.count('toggle'),0); assert.equal(fixture.count('focus'),2);
+    assert(store.getSnapshot().returnRequested); assert.equal(store.getSnapshot().pianoState,before.pianoState);
+    fixture.finish('focus'); await reset;
+    assert.equal(fixture.count('exit'),1); assert.equal(fixture.count('home'),1); assert.equal(store.getSnapshot().activeObject,null); detach();
+  });
+  it('serializes overview reset with activation and survives disposal during reset', async () => {
+    const fixture = runtimeFixture(['home']); const store = createInteractionStore(); const detach = store.attach(fixture.runtime);
+    const reset = store.resetView(); await store.activate('monitor'); assert.equal(fixture.count('focus'),0);
+    detach(); await reset; assert.deepEqual(fixture.disposalCounts(),{camera:1,mechanisms:1});
+  });
+  it('returns through mechanical exit and never activates a different object on the same click', async () => {
+    const fixture = runtimeFixture(); const store = createInteractionStore(); const detach = store.attach(fixture.runtime);
+    await store.sceneClick('trashcan'); await store.sceneClick('phone');
+    assert.equal(store.getSnapshot().activeObject, null);
+    assert.deepEqual(fixture.calls.map(x=>[x.operation,x.id]), [['focus','trashcan'],['enter','trashcan'],['exit','trashcan'],['home',null]]);
+    await store.sceneClick('phone'); assert.equal(store.getSnapshot().activeObject, 'phone'); detach();
+  });
+  it('queues a background click during focus and preserves same-object toggles', async () => {
+    const fixture = runtimeFixture(['focus']); const store = createInteractionStore(); const detach = store.attach(fixture.runtime);
+    const focus = store.sceneClick('piano'); await store.sceneClick(null); await store.sceneClick('ipad');
+    assert(store.getSnapshot().returnRequested); assert.equal(fixture.count('focus'),1);
+    fixture.finish('focus'); await focus; assert.equal(fixture.count('home'),1); assert.equal(store.getSnapshot().activeObject,null);
+    fixture.hold.delete('focus'); await store.sceneClick('piano'); await store.sceneClick('piano');
+    assert.equal(fixture.count('toggle'),1); assert.equal(store.getSnapshot().activeObject,'piano'); detach();
+  });
+});
+
 /** Controlled promises model frames still in flight without timing-sensitive sleeps. */
 function runtimeFixture(held: Operation[] = []) {
   const hold = new Set(held);

@@ -67,8 +67,8 @@ export const assetManifest = {
   dogbed: furniture('dogbed', '狗窝', 'VIS_DogBed', [{ root: 'VIS_DogBed', anchor: 'DEC_DogBedProxy', proxyMeshNames: ['DEC_DogBedProxy_Mesh'] }]),
   piano: {
     label: 'Piano', url: '/models/production/piano_v06b.glb', prefix: 'VIS_Piano',
-    parts: [{ root: 'VIS_PianoBody', anchor: 'INT_Piano' }, { root: 'VIS_PianoSlide', anchor: 'INT_PianoRail', proxyMeshNames: [] }],
-    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_PianoBody', 'VIS_PianoSlide'], requiredDescendants: [],
+    parts: [{ root: 'VIS_PianoBody', anchor: 'INT_Piano' }, { root: 'VIS_PianoSlide', anchor: 'INT_PianoRail', proxyMeshNames: [] }, { root: 'VIS_PianoFixedMount', anchor: 'FUR_Desk', proxyMeshNames: [] }],
+    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_PianoBody', 'VIS_PianoSlide', 'VIS_PianoFixedMount', 'VIS_PianoFixedHardware', 'VIS_PianoMiddleStage', 'VIS_PianoMiddleHardware'], requiredDescendants: [{ node: 'VIS_PianoMiddleStage', root: 'VIS_PianoFixedMount' }, { node: 'VIS_PianoMiddleHardware', root: 'VIS_PianoMiddleStage' }, { node: 'VIS_PianoFixedHardware', root: 'VIS_PianoFixedMount' }],
   },
   ipad: {
     label: 'iPad', url: '/models/production/ipad_v06b.glb', prefix: 'VIS_iPad',
@@ -85,7 +85,7 @@ export const assetManifest = {
   trashcan: {
     label: 'Trash can', url: '/models/production/trashcan_v06b.glb', prefix: 'VIS_TrashCan',
     parts: [{ root: 'VIS_TrashCanBody', anchor: 'INT_TrashCanBody' }, { root: 'VIS_TrashCanLid', anchor: 'INT_TrashCanLid' }],
-    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_TrashCanBody', 'VIS_TrashCanLid'], requiredDescendants: [],
+    stateSurface: null, surfaceRole: 'none', requiredNodes: ['VIS_TrashCanBody', 'VIS_TrashCanLid', 'VIS_TrashCanFixedHinge', 'VIS_TrashCanMovingKnuckle'], requiredDescendants: [{ node: 'VIS_TrashCanFixedHinge', root: 'VIS_TrashCanBody' }, { node: 'VIS_TrashCanMovingKnuckle', root: 'VIS_TrashCanLid' }],
   },
   lightswitch: {
     label: 'Light switch', url: '/models/production/lightswitch_v06b.glb', prefix: 'VIS_LightSwitch',

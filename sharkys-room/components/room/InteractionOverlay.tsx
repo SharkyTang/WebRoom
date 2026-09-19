@@ -8,7 +8,7 @@ export function InteractionOverlay({ state, store }: { state: InteractionState; 
   useEffect(() => { if (state.activeObject) back.current?.focus({ preventScroll: true }); }, [state.activeObject]);
   if (!state.activeObject) return null;
   const id = state.activeObject;
-  const ready = state.interactionPhase === 'focused';
+  const ready = state.interactionPhase === 'focused' && !state.isCameraBusy;
   return <aside className="interaction-overlay" aria-label={`${interactiveObjects[id].label} interaction`} data-interaction={id}>
     <div className="overlay-heading"><h2>{headings[id]}</h2><button ref={back} onClick={() => void store.back()} aria-label="Back" disabled={state.interactionPhase === 'returning'}>← Back</button></div>
     <p className="prototype-caption">Interaction prototype</p>

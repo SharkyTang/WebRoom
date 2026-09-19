@@ -1,0 +1,415 @@
+{
+  "at": "2026-09-19T05:37:17.193Z",
+  "origin": "http://127.0.0.1:3000",
+  "conditions": "Chrome headless ANGLE SwiftShader, DPR1, original quality, continuous development diagnostics; 3 serial runs, 4s/view after warmup. Not hardware GPU FPS.",
+  "models": [
+    {
+      "id": "monitor",
+      "bytes": 95904,
+      "sha256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5"
+    },
+    {
+      "id": "macbook",
+      "bytes": 445776,
+      "sha256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286"
+    },
+    {
+      "id": "marshall",
+      "bytes": 577608,
+      "sha256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907"
+    },
+    {
+      "id": "floor",
+      "bytes": 563360,
+      "sha256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0"
+    },
+    {
+      "id": "walls",
+      "bytes": 39828,
+      "sha256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e"
+    },
+    {
+      "id": "door",
+      "bytes": 125612,
+      "sha256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944"
+    },
+    {
+      "id": "window",
+      "bytes": 69628,
+      "sha256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1"
+    },
+    {
+      "id": "curtains",
+      "bytes": 131452,
+      "sha256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca"
+    },
+    {
+      "id": "desk",
+      "bytes": 203880,
+      "sha256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca"
+    },
+    {
+      "id": "cabinet",
+      "bytes": 220208,
+      "sha256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4"
+    },
+    {
+      "id": "bed",
+      "bytes": 251988,
+      "sha256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3"
+    },
+    {
+      "id": "bedside",
+      "bytes": 108108,
+      "sha256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a"
+    },
+    {
+      "id": "sofa",
+      "bytes": 173668,
+      "sha256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840"
+    },
+    {
+      "id": "chair",
+      "bytes": 170448,
+      "sha256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591"
+    },
+    {
+      "id": "coffee",
+      "bytes": 83120,
+      "sha256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3"
+    },
+    {
+      "id": "sidetable",
+      "bytes": 92312,
+      "sha256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7"
+    },
+    {
+      "id": "beanbag",
+      "bytes": 30256,
+      "sha256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628"
+    },
+    {
+      "id": "rugs",
+      "bytes": 50264,
+      "sha256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac"
+    },
+    {
+      "id": "dogbed",
+      "bytes": 61560,
+      "sha256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5"
+    },
+    {
+      "id": "piano",
+      "bytes": 384668,
+      "sha256": "d66a1b8ced6be6f07a152b081c2d6bdac5399a05f13d40880c093cca51d5148a"
+    },
+    {
+      "id": "ipad",
+      "bytes": 25776,
+      "sha256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba"
+    },
+    {
+      "id": "phone",
+      "bytes": 39068,
+      "sha256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e"
+    },
+    {
+      "id": "trashcan",
+      "bytes": 88696,
+      "sha256": "617c9a04dc05f6b042dcd35491e2101840d9404c8862f9ce335766d56a839b1a"
+    },
+    {
+      "id": "lightswitch",
+      "bytes": 27244,
+      "sha256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99"
+    },
+    {
+      "id": "keyboard",
+      "bytes": 206320,
+      "sha256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8"
+    },
+    {
+      "id": "mouse",
+      "bytes": 49428,
+      "sha256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0"
+    },
+    {
+      "id": "headphones",
+      "bytes": 81196,
+      "sha256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d"
+    },
+    {
+      "id": "eiffel",
+      "bytes": 364112,
+      "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864"
+    },
+    {
+      "id": "hogwarts",
+      "bytes": 135060,
+      "sha256": "934f91ddf9e9e6bb2b3650aa3042c7b1a978105aa1b012082da455a90a88c4a6"
+    },
+    {
+      "id": "minastirith",
+      "bytes": 307428,
+      "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d"
+    },
+    {
+      "id": "falcon",
+      "bytes": 113052,
+      "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833"
+    },
+    {
+      "id": "bridge",
+      "bytes": 297804,
+      "sha256": "606b8012f1aa52f9b9be0a380e3adea31424b46d53bdeb42a5d302e10e399ae9"
+    },
+    {
+      "id": "sls",
+      "bytes": 128244,
+      "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d"
+    },
+    {
+      "id": "ferrari",
+      "bytes": 119244,
+      "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa"
+    },
+    {
+      "id": "mercedes",
+      "bytes": 119264,
+      "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b"
+    },
+    {
+      "id": "plants",
+      "bytes": 429400,
+      "sha256": "4575c8c7f98e7e8736fb7e2e4734e52e6ac9e5dfa02d028192c6e5c860a3abcb"
+    },
+    {
+      "id": "cola",
+      "bytes": 29352,
+      "sha256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109"
+    },
+    {
+      "id": "dog",
+      "bytes": 142356,
+      "sha256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d"
+    },
+    {
+      "id": "fixtures",
+      "bytes": 120244,
+      "sha256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f"
+    },
+    {
+      "id": "wallart",
+      "bytes": 30808,
+      "sha256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772"
+    }
+  ],
+  "samples": [
+    {
+      "width": 1440,
+      "run": 0,
+      "views": {
+        "hero": {
+          "intervalMs": 75.70133647169811,
+          "performance": {
+            "fps": 13.138138138579073,
+            "frameMs": 76.1142857117312,
+            "calls": 182,
+            "triangles": 145610
+          },
+          "memory": {
+            "geometries": 252,
+            "textures": 23
+          },
+          "textures": 22
+        },
+        "piano": {
+          "intervalMs": 47.75553819047621,
+          "performance": {
+            "fps": 20.81062332722608,
+            "frameMs": 48.052380953516284,
+            "calls": 66,
+            "triangles": 63936
+          },
+          "memory": {
+            "geometries": 252,
+            "textures": 23
+          },
+          "textures": 22
+        },
+        "trashcan": {
+          "intervalMs": 26.214761986928114,
+          "performance": {
+            "fps": 38.1157154031024,
+            "frameMs": 26.23589743559177,
+            "calls": 32,
+            "triangles": 29110
+          },
+          "memory": {
+            "geometries": 252,
+            "textures": 23
+          },
+          "textures": 22
+        }
+      },
+      "hero": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "width": 1440,
+      "run": 1,
+      "views": {
+        "hero": {
+          "intervalMs": 77.15610657692308,
+          "performance": {
+            "fps": 12.936610607560308,
+            "frameMs": 77.30000000275098,
+            "calls": 182,
+            "triangles": 145610
+          },
+          "memory": {
+            "geometries": 252,
+            "textures": 23
+          },
+          "textures": 22
+        },
+        "piano": {
+          "intervalMs": 49.53074999999996,
+          "performance": {
+            "fps": 20.237062733964553,
+            "frameMs": 49.41428571655638,
+            "calls": 66,
+            "triangles": 63936
+          },
+          "memory": {
+            "geometries": 253,
+            "textures": 23
+          },
+          "textures": 22
+        },
+        "trashcan": {
+          "intervalMs": 28.25102992957745,
+          "performance": {
+            "fps": 35.419126329048076,
+            "frameMs": 28.23333333267105,
+            "calls": 32,
+            "triangles": 29110
+          },
+          "memory": {
+            "geometries": 252,
+            "textures": 23
+          },
+          "textures": 22
+        }
+      },
+      "hero": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    },
+    {
+      "width": 1440,
+      "run": 2,
+      "views": {
+        "hero": {
+          "intervalMs": 80.21772083999997,
+          "performance": {
+            "fps": 12.617684169513328,
+            "frameMs": 79.25384615476317,
+            "calls": 182,
+            "triangles": 145610
+          },
+          "memory": {
+            "geometries": 253,
+            "textures": 23
+          },
+          "textures": 22
+        },
+        "piano": {
+          "intervalMs": 52.10705248051941,
+          "performance": {
+            "fps": 19.17545541706615,
+            "frameMs": 52.15000000000001,
+            "calls": 66,
+            "triangles": 63936
+          },
+          "memory": {
+            "geometries": 252,
+            "textures": 23
+          },
+          "textures": 22
+        },
+        "trashcan": {
+          "intervalMs": 28.6548898857143,
+          "performance": {
+            "fps": 34.70844902898404,
+            "frameMs": 28.811428570747385,
+            "calls": 32,
+            "triangles": 29110
+          },
+          "memory": {
+            "geometries": 252,
+            "textures": 23
+          },
+          "textures": 22
+        }
+      },
+      "hero": {
+        "name": "CAM_Hero_FINAL",
+        "position": [
+          7.891778469085693,
+          7.609460353851318,
+          10.294089317321777
+        ],
+        "quaternion": [
+          -0.22637604716554904,
+          0.31229574177456654,
+          0.07689316051044089,
+          0.9194088848550981
+        ],
+        "fov": 28.072486791188595,
+        "aspect": 1.5,
+        "near": 0.05000000074505806,
+        "far": 100
+      }
+    }
+  ],
+  "medians": {
+    "1440": {
+      "hero": 77.15610657692308,
+      "piano": 49.53074999999996,
+      "trashcan": 28.25102992957745
+    }
+  },
+  "errors": []
+}

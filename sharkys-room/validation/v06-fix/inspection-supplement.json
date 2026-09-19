@@ -1,0 +1,102 @@
+[
+  {
+    "name": "falcon-clearance-view",
+    "family": "falcon",
+    "roots": [
+      "VIS_Falcon"
+    ],
+    "view": {
+      "position": [
+        -2.82,
+        1.01,
+        0.31
+      ],
+      "target": [
+        -3.225,
+        0.84,
+        0.31
+      ],
+      "fov": 98
+    }
+  },
+  {
+    "name": "bedside-left-gap",
+    "family": "bedside",
+    "roots": [
+      "VIS_Bedside"
+    ],
+    "view": {
+      "position": [
+        2.05,
+        0.9,
+        -2.54
+      ],
+      "target": [
+        2.95,
+        0.35,
+        -2.52
+      ],
+      "fov": 55
+    }
+  },
+  {
+    "name": "bedside-lamp-gap",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureBedside"
+    ],
+    "view": {
+      "position": [
+        2.4,
+        1.1,
+        -2.3
+      ],
+      "target": [
+        2.97,
+        0.77,
+        -2.5
+      ],
+      "fov": 45
+    }
+  },
+  {
+    "name": "desk-strip-underside",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureDeskStrip"
+    ],
+    "view": {
+      "position": [
+        -0.65,
+        0.42,
+        -1.6
+      ],
+      "target": [
+        -0.65,
+        0.667,
+        -2.35
+      ],
+      "fov": 88
+    }
+  },
+  {
+    "name": "cabinet-strip-underside",
+    "family": "fixtures",
+    "roots": [
+      "VIS_FixtureCabinetStrip"
+    ],
+    "view": {
+      "position": [
+        -1.4,
+        2.35,
+        -0.675
+      ],
+      "target": [
+        -2.99,
+        2.522,
+        -0.675
+      ],
+      "fov": 80
+    }
+  }
+]

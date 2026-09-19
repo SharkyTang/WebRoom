@@ -48,7 +48,7 @@ export function createInteractionStore() {
 
   async function returnHome() {
     if (!runtime || !state.activeObject || state.interactionPhase === 'returning') return;
-    if (state.interactionPhase === 'focusing' || state.interactionPhase === 'interacting') {
+    if (state.isCameraBusy || state.interactionPhase === 'focusing' || state.interactionPhase === 'interacting') {
       publish({ returnRequested: true });
       return;
     }
@@ -65,7 +65,7 @@ export function createInteractionStore() {
   }
 
   async function toggle(id: 'piano' | 'lightswitch' | 'marshall') {
-    if (!runtime || state.activeObject !== id || state.interactionPhase !== 'focused') return;
+    if (!runtime || state.isCameraBusy || state.activeObject !== id || state.interactionPhase !== 'focused') return;
     const token = generation; const owner = runtime;
     publish({ interactionPhase: 'interacting', hoveredObject: null });
     try {
@@ -79,7 +79,7 @@ export function createInteractionStore() {
   }
 
   async function activate(id: InteractionId) {
-    if (!runtime) return;
+    if (!runtime || state.isCameraBusy) return;
     if (state.activeObject) {
       if (state.activeObject === id && toggles.has(id)) await toggle(id as 'piano' | 'lightswitch' | 'marshall');
       return;
@@ -97,6 +97,19 @@ export function createInteractionStore() {
       publish({ interactionPhase: 'focused' });
       if (state.returnRequested) await returnHome();
     } catch (error) { if (current(token)) fail(error); }
+  }
+
+  async function resetView() {
+    if (!runtime || state.isCameraBusy || !['idle', 'hovering', 'focused'].includes(state.interactionPhase)) return;
+    const token = generation, owner = runtime, id = state.activeObject;
+    publish({ isCameraBusy: true, hoveredObject: null });
+    try {
+      if (id) await owner.camera.focus(id, state.reducedMotion);
+      else await owner.camera.home(state.reducedMotion);
+      if (!current(token)) return;
+      publish({ isCameraBusy: false, interactionPhase: id ? 'focused' : 'idle' });
+      if (state.returnRequested) await returnHome();
+    } catch (error) { if (current(token)) { publish({ isCameraBusy: false }); fail(error); } }
   }
 
   return {
@@ -118,9 +131,13 @@ export function createInteractionStore() {
       if (state.hoveredObject === id) return;
       publish({ hoveredObject: id, interactionPhase: id ? 'hovering' : 'idle' });
     },
-    activate, back: returnHome, toggle,
-    setTime: (time: number) => { if (state.activeObject === 'window' && state.interactionPhase === 'focused' && Number.isFinite(time)) publish({ time: Math.min(24, Math.max(0, time)) }); },
-    setWeather: (weather: Weather) => { if (state.activeObject === 'window' && state.interactionPhase === 'focused' && weatherOptions.includes(weather)) publish({ weather }); },
+    activate, back: returnHome, toggle, resetView,
+    sceneClick: async (id: InteractionId | null) => {
+      if (state.activeObject && id !== state.activeObject) await returnHome();
+      else if (id) await activate(id);
+    },
+    setTime: (time: number) => { if (!state.isCameraBusy && state.activeObject === 'window' && state.interactionPhase === 'focused' && Number.isFinite(time)) publish({ time: Math.min(24, Math.max(0, time)) }); },
+    setWeather: (weather: Weather) => { if (!state.isCameraBusy && state.activeObject === 'window' && state.interactionPhase === 'focused' && weatherOptions.includes(weather)) publish({ weather }); },
     setReducedMotion: (reducedMotion: boolean) => publish({ reducedMotion }),
     mechanicalSnapshot: () => runtime?.mechanisms.snapshot() ?? null,
     cameraSnapshot: () => runtime?.camera.snapshot() ?? null,

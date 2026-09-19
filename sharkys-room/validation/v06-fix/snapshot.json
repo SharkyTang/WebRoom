@@ -1,0 +1,18 @@
+{
+  "directory": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/local-backups/v06-fix-start-20260919-120407",
+  "archive": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/local-backups/v06-fix-start-20260919-120407/workspace.tar.gz",
+  "archiveBytes": 940669018,
+  "archiveSHA256": "5236fde07674cd1a4b243e0e4fc6be86ebef6da9c70026c9b84d8fc3c825f7c5",
+  "verifiedFiles": 2440,
+  "restorableSourceBytes": 1006637683,
+  "excluded": [
+    ".DS_Store",
+    ".git",
+    ".next",
+    "__pycache__",
+    "local-backups",
+    "node_modules",
+    "*.tsbuildinfo",
+    "*.pyc"
+  ]
+}

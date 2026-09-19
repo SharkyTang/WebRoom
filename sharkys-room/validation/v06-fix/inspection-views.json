@@ -1,0 +1,201 @@
+[
+  {
+    "name": "current-monitor",
+    "family": "monitor",
+    "roots": [
+      "VIS_MonitorBody",
+      "VIS_MonitorDisplaySurface"
+    ]
+  },
+  {
+    "name": "current-macbook",
+    "family": "macbook",
+    "roots": [
+      "VIS_MacBookBase",
+      "VIS_MacBookLid"
+    ]
+  },
+  {
+    "name": "current-marshall",
+    "family": "marshall",
+    "roots": [
+      "VIS_MarshallBody"
+    ]
+  },
+  {
+    "name": "current-floor",
+    "family": "floor",
+    "roots": [
+      "VIS_Floor"
+    ]
+  },
+  {
+    "name": "current-walls",
+    "family": "walls",
+    "roots": [
+      "VIS_WallLeft",
+      "VIS_WallRight"
+    ]
+  },
+  {
+    "name": "current-door",
+    "family": "door",
+    "roots": [
+      "VIS_DoorBody",
+      "VIS_DoorHandle"
+    ]
+  },
+  {
+    "name": "current-window",
+    "family": "window",
+    "roots": [
+      "VIS_WindowFrame"
+    ]
+  },
+  {
+    "name": "current-curtains",
+    "family": "curtains",
+    "roots": [
+      "VIS_CurtainLeft",
+      "VIS_CurtainRight"
+    ]
+  },
+  {
+    "name": "current-desk",
+    "family": "desk",
+    "roots": [
+      "VIS_Desk"
+    ]
+  },
+  {
+    "name": "current-cabinet",
+    "family": "cabinet",
+    "roots": [
+      "VIS_Cabinet"
+    ]
+  },
+  {
+    "name": "current-bed",
+    "family": "bed",
+    "roots": [
+      "VIS_Bed"
+    ]
+  },
+  {
+    "name": "current-bedside",
+    "family": "bedside",
+    "roots": [
+      "VIS_Bedside"
+    ]
+  },
+  {
+    "name": "current-sofa",
+    "family": "sofa",
+    "roots": [
+      "VIS_Sofa"
+    ]
+  },
+  {
+    "name": "current-chair",
+    "family": "chair",
+    "roots": [
+      "VIS_Chair"
+    ]
+  },
+  {
+    "name": "current-coffee",
+    "family": "coffee",
+    "roots": [
+      "VIS_Coffee"
+    ]
+  },
+  {
+    "name": "current-sidetable",
+    "family": "sidetable",
+    "roots": [
+      "VIS_SideTable"
+    ]
+  },
+  {
+    "name": "current-beanbag",
+    "family": "beanbag",
+    "roots": [
+      "VIS_Beanbag"
+    ]
+  },
+  {
+    "name": "current-rugs",
+    "family": "rugs",
+    "roots": [
+      "VIS_RugWorkstation",
+      "VIS_RugLounge"
+    ]
+  },
+  {
+    "name": "current-dogbed",
+    "family": "dogbed",
+    "roots": [
+      "VIS_DogBed"
+    ]
+  },
+  {
+    "name": "current-piano",
+    "family": "piano",
+    "roots": [
+      "VIS_PianoBody",
+      "VIS_PianoSlide",
+      "VIS_PianoFixedMount"
+    ]
+  },
+  {
+    "name": "current-ipad",
+    "family": "ipad",
+    "roots": [
+      "VIS_iPadBody"
+    ]
+  },
+  {
+    "name": "current-phone",
+    "family": "phone",
+    "roots": [
+      "VIS_PhoneBody"
+    ]
+  },
+  {
+    "name": "current-trashcan",
+    "family": "trashcan",
+    "roots": [
+      "VIS_TrashCanBody",
+      "VIS_TrashCanLid"
+    ]
+  },
+  {
+    "name": "current-lightswitch",
+    "family": "lightswitch",
+    "roots": [
+      "VIS_LightSwitchPlate",
+      "VIS_LightSwitchRocker"
+    ]
+  },
+  {
+    "name": "current-keyboard",
+    "family": "keyboard",
+    "roots": [
+      "VIS_Keyboard"
+    ]
+  },
+  {
+    "name": "current-mouse",
+    "family": "mouse",
+    "roots": [
+      "VIS_Mouse"
+    ]
+  },
+  {
+    "name": "current-headphones",
+    "family": "headphones",
+    "roots": [
+      "VIS_Headphones"
+    ]
+  }
+]

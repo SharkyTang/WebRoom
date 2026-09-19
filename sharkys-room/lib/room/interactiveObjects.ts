@@ -43,6 +43,7 @@ export const requiredTargetNames = Object.values(interactiveObjects).map(({ targ
 /** Web-owned raycast targets, never part of requiredNodeNames or the frozen GLB. */
 export const runtimeInteractionTargets = {
   PianoRetractedHitArea: 'piano',
+  VIS_PianoFixedMount: 'piano',
 } as const satisfies Record<string, InteractionId>;
 
 const semanticIdByNode = new Map<string, InteractionId>(

@@ -61,9 +61,11 @@ function bounds(scope: Object3D, frame?: Object3D, include?: (mesh: Mesh) => boo
   assert.equal(box.isEmpty(), false, `${scope.name} must contain actual exported triangles`);
   return box;
 }
-function familyBounds(room: Object3D, id: BFamily, frame?: Object3D) {
+function originalPianoBodyBounds(room: Object3D, frame?: Object3D) {
   const box = new Box3();
-  for (const part of definitions[id].parts) box.union(bounds(node(room, part.root), frame));
+  // The new stationary desk mounts have their own strict mounting corridor test.
+  // Preserve the original body/keys/inner-slide envelope without enlarging it.
+  for (const root of ['VIS_PianoBody', 'VIS_PianoSlide']) box.union(bounds(node(room, root), frame));
   return box;
 }
 function install(ids: readonly string[] = registered) {
@@ -203,11 +205,11 @@ describe('v0.6B actual production geometry and assembly', () => {
       assert.equal(node(room, 'VIS_PianoSlide').parent, rail);
       const clearances: number[] = [];
       try {
-        assertBoxContains(allowed, familyBounds(room, 'piano', piano), 'Complete B piano including keys and rails');
+        assertBoxContains(allowed, originalPianoBodyBounds(room, piano), 'Original B piano including keys and inner rails');
         for (const fraction of fractions) {
           rail.position.z = initial.z - .65 + fraction * .65;
           room.updateMatrixWorld(true);
-          const box = familyBounds(room, 'piano');
+          const box = originalPianoBodyBounds(room);
           clearances.push(underside - box.max.y);
           assert.ok(underside - box.max.y >= .01599, `Piano/table underside clearance at ${fraction}: ${underside - box.max.y}m`);
           const interior = box.clone().expandByScalar(-.000001);
@@ -326,7 +328,7 @@ describe('v0.6B actual production geometry and assembly', () => {
       try {
         const body = node(room, 'VIS_TrashCanBody'), anchor = node(room, 'INT_TrashCanBody');
         const allowed = bounds(node(source, 'INT_TrashCanBody'), node(source, 'INT_TrashCanBody'));
-        assertBoxContains(allowed, bounds(body, anchor), 'Trash body');
+        assertBoxContains(allowed, bounds(node(room, 'VIS_TrashCanHollowShell'), anchor), 'Original continuous trash body; fixed hinge checked in its separate corridor');
         for (const [x, z] of [[0, 0], [-.06, 0], [.06, 0], [0, -.06], [0, .06]]) {
           const hits = rayInFrame(body, anchor, new Vector3(x, .3, z), new Vector3(0, -1, 0));
           assert.ok(hits.length, 'Open cavity must still have an actual bottom');
@@ -342,7 +344,7 @@ describe('v0.6B actual production geometry and assembly', () => {
     it('Trash lid: exported rear-edge frame inherits the original hinge, opens repeatedly and closes on exit', async () => {
       const { room, dispose } = install(['trashcan']);
       const hinge = node(room, 'INT_TrashCanLid'), pivot = hinge.position.clone(), lid = node(room, 'VIS_TrashCanLid');
-      const local = bounds(lid, hinge);
+      const local = bounds(lid, hinge, mesh => !belongsTo(mesh, node(room, 'VIS_TrashCanMovingKnuckle')));
       // The source pivot lies at its rear edge, with the complete lid extending +Z.
       assert.ok(local.min.z >= -.00001 && local.max.z > .37 && local.max.z <= .3861);
       assert.ok(local.min.x >= -.1931 && local.max.x <= .1931);
@@ -355,7 +357,7 @@ describe('v0.6B actual production geometry and assembly', () => {
           assert.equal(controller.snapshot().trashState, 'open');
           assert.ok(Math.abs(hinge.rotation.x + 100 * Math.PI / 180) < 1e-7);
           assert.ok(hinge.position.equals(pivot));
-          assert.ok(bounds(lid, hinge).getSize(new Vector3()).distanceTo(originalSize) < 1e-7);
+          assert.ok(bounds(lid, hinge, mesh => !belongsTo(mesh, node(room, 'VIS_TrashCanMovingKnuckle'))).getSize(new Vector3()).distanceTo(originalSize) < 1e-7);
           assert.equal(lid.parent, hinge);
           await controller.exit('trashcan', true);
           assert.equal(controller.snapshot().trashState, 'closed');

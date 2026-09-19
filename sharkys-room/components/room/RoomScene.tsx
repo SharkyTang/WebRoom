@@ -50,7 +50,7 @@ export function RoomScene(props: RoomCanvasProps) {
   }, [onError,onProgress,onValidation,onAssets]);
   const camera=room?.getObjectByName(HERO_CAMERA_NAME);
   return <><hemisphereLight args={['#ecf2ff','#656875',1.6]} />
-    {room && camera instanceof PerspectiveCamera && <><HeroCamera source={camera} /><CameraController runtimeCleanup={runtimeCleanup} room={room} store={props.store} onReady={props.onReady}/><HoverHighlight room={room} hovered={props.hovered}/><RoomModel scene={room} hovered={props.hovered} onHover={props.onHover} onSelect={props.onSelect} pianoHitAreaActive={props.status === 'ready' && isPianoRetractedHitAreaActive(props.interaction)} visualizeHitAreas={props.debug && props.visualizeHitAreas}/></>}
+    {room && camera instanceof PerspectiveCamera && <><HeroCamera source={camera} /><CameraController runtimeCleanup={runtimeCleanup} room={room} store={props.store} onReady={props.onReady}/><HoverHighlight room={room} hovered={props.hovered}/><RoomModel scene={room} hovered={props.hovered} onHover={props.onHover} pianoHitAreaActive={props.status === 'ready' && isPianoRetractedHitAreaActive(props.interaction)} visualizeHitAreas={props.debug && props.visualizeHitAreas}/></>}
     {props.debug && <DebugBridge room={room} {...props} />}
   </>;
 }

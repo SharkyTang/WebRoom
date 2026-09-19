@@ -1,0 +1,7 @@
+{
+  "at": "2026-09-19T05:26:39.117Z",
+  "count": 89,
+  "allCurrentSourceHashesMatch": true,
+  "buildOnlyTypeDeclaration": "The isolated production build generates its own next-env.d.ts; the user working copy stays unchanged.",
+  "production": "/private/tmp/sharkys-v06-fix-production-1789793258931"
+}

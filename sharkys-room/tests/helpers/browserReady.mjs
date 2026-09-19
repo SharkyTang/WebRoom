@@ -4,6 +4,7 @@ export async function waitForCanvasReady(page, { interactionId = null, quietMs =
     const start = performance.now();
     let previous = '', stable = 0, samples = 0, mismatched = 0;
     let previousFrames = -1, lastFrameChange = start;
+    let point = null, pointView = '', projectionMs = 0;
     return new Promise((resolve, reject) => {
       function sample() {
         const canvas = document.querySelector('canvas'), api = window.__ROOM_DEBUG__;
@@ -18,8 +19,17 @@ export async function waitForCanvasReady(page, { interactionId = null, quietMs =
           && Math.abs(canvas.height - rect.height * devicePixelRatio) < 1.1;
         const assetsReady = state.status === 'ready'
           && Object.values(state.assets).every(asset => ['installed', 'fallback'].includes(asset.status));
-        const point = consistent && interactionId ? api.projected()[interactionId] : null;
-        const hit = point ? api.hitTest(point.x, point.y) : null;
+        // Full-scene projected() searches all nine visible targets and can take
+        // seconds in a crowded closeup. Reuse its candidate only while the exact
+        // camera/rectangle is unchanged; independently raycast it every sample.
+        const view = JSON.stringify({camera:state.camera,rect:rect.toJSON()});
+        if (consistent && interactionId && (view !== pointView || !point)) {
+          const beforeProjection = performance.now();
+          point = api.projected()[interactionId]; pointView = view;
+          projectionMs += performance.now() - beforeProjection;
+        }
+        const hit = consistent && point ? api.hitTest(point.x, point.y) : null;
+        if (point && hit?.semanticId !== interactionId) { point = null; pointView = ''; }
         const key = JSON.stringify({ x: rect.x, y: rect.y, width: rect.width, height: rect.height,
           bufferWidth: canvas.width, bufferHeight: canvas.height, point, semanticId: hit?.semanticId,
           rendererMemory: state.rendererMemory });
@@ -33,7 +43,7 @@ export async function waitForCanvasReady(page, { interactionId = null, quietMs =
         // This optional startup quiet period is bounded. An always-running
         // renderer fails readiness; the independent 500ms assertions still run.
         if (stable >= 3 && now - lastFrameChange >= quietMs) return resolve({
-          id: interactionId, samples, mismatched, elapsedMs: now - start,
+          id: interactionId, samples, mismatched, elapsedMs: now - start, projectionMs,
           quietMs, renderFrames: state.renderFrames, rendererMemory: state.rendererMemory,
           rect: rect.toJSON(), point,
         });

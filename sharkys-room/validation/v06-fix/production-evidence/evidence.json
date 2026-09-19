@@ -1,0 +1,87 @@
+{
+  "origin": "http://127.0.0.1:3005",
+  "production": true,
+  "inspectionAPI": false,
+  "nativeInputsOnly": true,
+  "events": [
+    {
+      "name": "01-default-overview",
+      "elapsedMs": 2874.46675
+    },
+    {
+      "name": "02-room-rotation",
+      "elapsedMs": 5819.429209
+    },
+    {
+      "name": "piano-enter",
+      "elapsedMs": 7530.613874999999
+    },
+    {
+      "name": "03-piano-extended",
+      "elapsedMs": 9970.571834
+    },
+    {
+      "name": "04-piano-connection-side",
+      "elapsedMs": 12743.843917
+    },
+    {
+      "name": "piano-retract-start",
+      "elapsedMs": 13551.365875
+    },
+    {
+      "name": "05-piano-retracted",
+      "elapsedMs": 14227.076959
+    },
+    {
+      "name": "piano-extend-start",
+      "elapsedMs": 14477.784875
+    },
+    {
+      "name": "06-underdesk-entry",
+      "elapsedMs": 17714.237875
+    },
+    {
+      "name": "native-underdesk-reopen",
+      "elapsedMs": 18050.493584000003
+    },
+    {
+      "name": "07-underdesk-reopened",
+      "elapsedMs": 20349.783875
+    },
+    {
+      "name": "piano-outside-exit",
+      "elapsedMs": 20639.811584000003
+    },
+    {
+      "name": "trash-open",
+      "elapsedMs": 21764.242
+    },
+    {
+      "name": "08-trash-open-full",
+      "elapsedMs": 24060.352833999998
+    },
+    {
+      "name": "09-trash-hinge-side",
+      "elapsedMs": 25666.838917
+    },
+    {
+      "name": "10-trash-cavity-other-side",
+      "elapsedMs": 28021.834209
+    },
+    {
+      "name": "trash-outside-close",
+      "elapsedMs": 29234.05575
+    },
+    {
+      "name": "11-outside-return",
+      "elapsedMs": 30956.588499999998
+    }
+  ],
+  "errors": [],
+  "conversion": {
+    "source": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence/raw-video/page@c447bd7eb42e713368ffd0af65c1653d.webm",
+    "mp4": "validation/v06-fix/production-evidence/visual-interaction-demo.mp4",
+    "status": 0,
+    "error": null
+  }
+}

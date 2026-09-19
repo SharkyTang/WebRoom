@@ -34,7 +34,16 @@ assert.deepEqual([...assetFamilies].sort(), [...expectedOld, ...decorFamilies].s
 const baselinePath = process.env.ROOM_C_PERFORMANCE_BASELINE_FILE ?? path.join(root, 'validation/v06c/baseline/performance.json');
 const baseline = JSON.parse(await fs.readFile(baselinePath, 'utf8'));
 assert.equal(baseline.summary.failed, 0); assert.deepEqual([...baseline.families].sort(), [...expectedOld].sort(), 'Use the current pre-C 27-family baseline');
-for (const model of baseline.modelFiles) assert.equal(createHash('sha256').update(await fs.readFile(path.join(root, 'public', model.url))).digest('hex'), model.sha256, `Protected pre-C export changed: ${model.url}`);
+// A later explicitly scoped repair may supply a verified before/after ledger for
+// exactly piano/trashcan. Every other historical asset hash remains mandatory.
+const repairLedger = process.env.ROOM_VISUAL_FIX_LEDGER ? JSON.parse(await fs.readFile(process.env.ROOM_VISUAL_FIX_LEDGER,'utf8')) : null;
+for (const model of baseline.modelFiles) {
+  const current = createHash('sha256').update(await fs.readFile(path.join(root, 'public', model.url))).digest('hex');
+  if (current === model.sha256) continue;
+  const repair = repairLedger?.assets.find(item => item.url === model.url && item.changed);
+  assert(repair && ['piano','trashcan'].includes(repair.id), `Protected pre-C export changed: ${model.url}`);
+  assert.equal(repair.beforeSHA256,model.sha256); assert.equal(repair.afterSHA256,current);
+}
 const titles = { monitor: 'Projects', macbook: 'About / Education', ipad: 'Memories', phone: 'Contact', marshall: 'Music', piano: 'Piano', trashcan: 'Deleted ideas', lightswitch: 'Room lights', window: 'Environment' };
 const desktop = { width: 1440, height: 900 }, tablet = { width: 768, height: 1024 }, mobile = { width: 390, height: 844 };
 const viewports = stage === 'all' ? [desktop, tablet, mobile] : [desktop, mobile];

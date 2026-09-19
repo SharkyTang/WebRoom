@@ -6,12 +6,13 @@
 
 - 源：`blender-assets/piano_v06b.blend`；导出：`public/models/production/piano_v06b.glb`。
 - 重建：`node scripts/assets/build-interactive-assets.mjs piano`，仅覆盖这个 B 家族产物。
-- `VIS_PianoBody` → `INT_Piano`；`VIS_PianoSlide` → `INT_PianoRail`。两个导出根均恒等；没有轨道动画/相机/光源，网页父节点继续承担原 0.65 m 行程。
+- `VIS_PianoBody` → `INT_Piano`；`VIS_PianoSlide` → `INT_PianoRail`；2026-09-19 修整增加 `VIS_PianoFixedMount` → 原 `FUR_Desk`。三个导出根均恒等；没有导出动画/相机/光源，网页父节点继续承担原 0.65 m 行程。
 - 原局部包络 x±0.67、y[-0.05,0.054]、z±0.18 m；新白键先降低，黑键最高约 y=0.053 m。A 桌板底面实际世界 y≈0.66999996，琴父节点世界 y≈0.60000002；新几何不侵入原约16mm净空。
 - A0–C8 共 52 个白键和 36 个黑键，键缝由几何间隔形成；控制区只表现按钮/旋钮，没有逐键对象交互、音频或假播放状态。
-- 前唇、侧颊、抽拉托板、侧滑条及紧固件都在原包络内。滑条随既有活动轨道运动；不新增固定轨道锚点，也不模拟第二套机构。
+- 原琴体、琴键、托板及内滑轨的 position/normal/UV/index 缓冲保持逐项一致。新固定支架、外轨与紧固件属于桌子子节点；中轨 `VIS_PianoMiddleStage` 的位置由原 `INT_PianoRail` 位移除以二推导，不新增机构状态或时间线。
+- 安装支架最高面距实际 A 桌底约 0.35 mm；只有固定安装件进入该桌底连接范围，原琴体约 16 mm 净空继续执行。外轨/中轨最小轴向重叠约 85 mm，中轨/内轨约 57 mm；33 个行程采样同时检查桌板、柜体、横撑、椅子和灯带。
 - 四种标准 PBR：缎面深灰琴体、象牙白键、黑键、哑金属抽拉/控制细节；UV 随模型导出，无嵌入/外部贴图。重复键/按钮在同一个可动根内按材质合并，屏幕不适用。
-- 实际初次导出：6,260 三角面、5 网格/primitive、4 材质、269,144 B GLB；以后以 `asset-statistics.json` 及实际 GLB 读回为准。
+- B 初次导出：6,260 三角面、5 primitives、4 材质、269,144 B。2026-09-19 当前修整导出：9,268 三角面、7 primitives、4 材质、384,668 B、0 纹理；以 `asset-statistics.json` 与实际 GLB 读回为准。
 - 退出、首次演示、机构端点、桌下 `PianoRetractedHitArea` 全部沿用；本批不修改布局或扩大点击区。
 
 验收须读实际导出几何与原 A 桌/椅，在收回/半收/展开及多点采样中检查碰撞，并在网页验证正式可见琴键命中及“收回 → Back → 桌下重开”。制作/加载成功不替代这些验收。

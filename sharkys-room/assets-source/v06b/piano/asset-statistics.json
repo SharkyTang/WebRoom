@@ -1,9 +1,9 @@
 {
   "version": "0.6B",
   "family": "piano",
-  "triangles": 6260,
-  "meshCount": 5,
-  "uvMeshes": 5,
+  "triangles": 9268,
+  "meshCount": 7,
+  "uvMeshes": 7,
   "materialCount": 4,
   "materials": [
     "MAT_V06B_Piano_Ebony",
@@ -71,17 +71,53 @@
           0.1770000010728836
         ]
       }
+    },
+    "VIS_PianoFixedMount": {
+      "anchor": "FUR_Desk",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localBoxYUp": {
+        "min": [
+          -0.7394999861717224,
+          0.5399999618530273,
+          -0.19499999284744263
+        ],
+        "max": [
+          0.7394999861717224,
+          0.6696499586105347,
+          0.5400000214576721
+        ]
+      }
     }
   },
   "sourceSHA256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2",
-  "glbBytes": 269144,
-  "blendBytes": 162210,
-  "glbSHA256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
-  "gltfPrimitives": 5,
+  "glbBytes": 384668,
+  "blendBytes": 204234,
+  "glbSHA256": "d66a1b8ced6be6f07a152b081c2d6bdac5399a05f13d40880c093cca51d5148a",
+  "gltfPrimitives": 7,
   "textureCount": 0,
   "embeddedImageBytes": 0,
   "exportRootTransforms": {
     "VIS_PianoBody": {
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null
+    },
+    "VIS_PianoFixedMount": {
       "translation": null,
       "rotation": null,
       "scale": null,
@@ -100,6 +136,7 @@
     "uvEveryMesh": true,
     "sameRoots": true,
     "VIS_PianoBody_bounds": true,
-    "VIS_PianoSlide_bounds": true
+    "VIS_PianoSlide_bounds": true,
+    "VIS_PianoFixedMount_bounds": true
   }
 }

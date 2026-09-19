@@ -1,0 +1,2002 @@
+{
+  "at": "2026-09-19T05:44:44.653Z",
+  "snapshot": {
+    "directory": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/local-backups/v06-fix-start-20260919-120407",
+    "archive": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/local-backups/v06-fix-start-20260919-120407/workspace.tar.gz",
+    "archiveBytes": 940669018,
+    "archiveSHA256": "5236fde07674cd1a4b243e0e4fc6be86ebef6da9c70026c9b84d8fc3c825f7c5",
+    "verifiedFiles": 2440,
+    "restorableSourceBytes": 1006637683,
+    "excluded": [
+      ".DS_Store",
+      ".git",
+      ".next",
+      "__pycache__",
+      "local-backups",
+      "node_modules",
+      "*.tsbuildinfo",
+      "*.pyc"
+    ]
+  },
+  "assets": [
+    {
+      "id": "monitor",
+      "url": "/models/production/monitor_pilot.glb",
+      "before": {
+        "bytes": 95904,
+        "triangles": 3348,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5"
+      },
+      "after": {
+        "bytes": 95904,
+        "triangles": 3348,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5"
+      },
+      "beforeSHA256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "afterSHA256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "macbook",
+      "url": "/models/production/macbook_pilot.glb",
+      "before": {
+        "bytes": 445776,
+        "triangles": 14780,
+        "primitives": 9,
+        "materials": 6,
+        "textures": 0,
+        "sha256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286"
+      },
+      "after": {
+        "bytes": 445776,
+        "triangles": 14780,
+        "primitives": 9,
+        "materials": 6,
+        "textures": 0,
+        "sha256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286"
+      },
+      "beforeSHA256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "afterSHA256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "marshall",
+      "url": "/models/production/marshall_pilot.glb",
+      "before": {
+        "bytes": 577608,
+        "triangles": 4464,
+        "primitives": 5,
+        "materials": 5,
+        "textures": 1,
+        "sha256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907"
+      },
+      "after": {
+        "bytes": 577608,
+        "triangles": 4464,
+        "primitives": 5,
+        "materials": 5,
+        "textures": 1,
+        "sha256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907"
+      },
+      "beforeSHA256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "afterSHA256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "floor",
+      "url": "/models/production/floor_v06a.glb",
+      "before": {
+        "bytes": 563360,
+        "triangles": 8712,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 1,
+        "sha256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0"
+      },
+      "after": {
+        "bytes": 563360,
+        "triangles": 8712,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 1,
+        "sha256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0"
+      },
+      "beforeSHA256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "afterSHA256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "walls",
+      "url": "/models/production/walls_v06a.glb",
+      "before": {
+        "bytes": 39828,
+        "triangles": 1296,
+        "primitives": 4,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e"
+      },
+      "after": {
+        "bytes": 39828,
+        "triangles": 1296,
+        "primitives": 4,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e"
+      },
+      "beforeSHA256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "afterSHA256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "door",
+      "url": "/models/production/door_v06a.glb",
+      "before": {
+        "bytes": 125612,
+        "triangles": 2072,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944"
+      },
+      "after": {
+        "bytes": 125612,
+        "triangles": 2072,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944"
+      },
+      "beforeSHA256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "afterSHA256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "window",
+      "url": "/models/production/window_v06a.glb",
+      "before": {
+        "bytes": 69628,
+        "triangles": 2256,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1"
+      },
+      "after": {
+        "bytes": 69628,
+        "triangles": 2256,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1"
+      },
+      "beforeSHA256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "afterSHA256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "curtains",
+      "url": "/models/production/curtains_v06a.glb",
+      "before": {
+        "bytes": 131452,
+        "triangles": 5400,
+        "primitives": 4,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca"
+      },
+      "after": {
+        "bytes": 131452,
+        "triangles": 5400,
+        "primitives": 4,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca"
+      },
+      "beforeSHA256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "afterSHA256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "desk",
+      "url": "/models/production/desk_v06a.glb",
+      "before": {
+        "bytes": 203880,
+        "triangles": 4520,
+        "primitives": 8,
+        "materials": 3,
+        "textures": 1,
+        "sha256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca"
+      },
+      "after": {
+        "bytes": 203880,
+        "triangles": 4520,
+        "primitives": 8,
+        "materials": 3,
+        "textures": 1,
+        "sha256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca"
+      },
+      "beforeSHA256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "afterSHA256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "cabinet",
+      "url": "/models/production/cabinet_v06a.glb",
+      "before": {
+        "bytes": 220208,
+        "triangles": 4460,
+        "primitives": 14,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4"
+      },
+      "after": {
+        "bytes": 220208,
+        "triangles": 4460,
+        "primitives": 14,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4"
+      },
+      "beforeSHA256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "afterSHA256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "bed",
+      "url": "/models/production/bed_v06a.glb",
+      "before": {
+        "bytes": 251988,
+        "triangles": 7260,
+        "primitives": 5,
+        "materials": 5,
+        "textures": 3,
+        "sha256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3"
+      },
+      "after": {
+        "bytes": 251988,
+        "triangles": 7260,
+        "primitives": 5,
+        "materials": 5,
+        "textures": 3,
+        "sha256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3"
+      },
+      "beforeSHA256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "afterSHA256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "bedside",
+      "url": "/models/production/bedside_v06a.glb",
+      "before": {
+        "bytes": 108108,
+        "triangles": 1752,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a"
+      },
+      "after": {
+        "bytes": 108108,
+        "triangles": 1752,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a"
+      },
+      "beforeSHA256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "afterSHA256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "sofa",
+      "url": "/models/production/sofa_v06a.glb",
+      "before": {
+        "bytes": 173668,
+        "triangles": 6064,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 1,
+        "sha256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840"
+      },
+      "after": {
+        "bytes": 173668,
+        "triangles": 6064,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 1,
+        "sha256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840"
+      },
+      "beforeSHA256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "afterSHA256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "chair",
+      "url": "/models/production/chair_v06a.glb",
+      "before": {
+        "bytes": 170448,
+        "triangles": 5116,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 1,
+        "sha256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591"
+      },
+      "after": {
+        "bytes": 170448,
+        "triangles": 5116,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 1,
+        "sha256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591"
+      },
+      "beforeSHA256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "afterSHA256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "coffee",
+      "url": "/models/production/coffee_v06a.glb",
+      "before": {
+        "bytes": 83120,
+        "triangles": 1052,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3"
+      },
+      "after": {
+        "bytes": 83120,
+        "triangles": 1052,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3"
+      },
+      "beforeSHA256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "afterSHA256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "sidetable",
+      "url": "/models/production/sidetable_v06a.glb",
+      "before": {
+        "bytes": 92312,
+        "triangles": 1216,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7"
+      },
+      "after": {
+        "bytes": 92312,
+        "triangles": 1216,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7"
+      },
+      "beforeSHA256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "afterSHA256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "beanbag",
+      "url": "/models/production/beanbag_v06a.glb",
+      "before": {
+        "bytes": 30256,
+        "triangles": 976,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628"
+      },
+      "after": {
+        "bytes": 30256,
+        "triangles": 976,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 1,
+        "sha256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628"
+      },
+      "beforeSHA256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "afterSHA256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "rugs",
+      "url": "/models/production/rugs_v06a.glb",
+      "before": {
+        "bytes": 50264,
+        "triangles": 1244,
+        "primitives": 4,
+        "materials": 2,
+        "textures": 2,
+        "sha256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac"
+      },
+      "after": {
+        "bytes": 50264,
+        "triangles": 1244,
+        "primitives": 4,
+        "materials": 2,
+        "textures": 2,
+        "sha256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac"
+      },
+      "beforeSHA256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "afterSHA256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "dogbed",
+      "url": "/models/production/dogbed_v06a.glb",
+      "before": {
+        "bytes": 61560,
+        "triangles": 2048,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 2,
+        "sha256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5"
+      },
+      "after": {
+        "bytes": 61560,
+        "triangles": 2048,
+        "primitives": 2,
+        "materials": 2,
+        "textures": 2,
+        "sha256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5"
+      },
+      "beforeSHA256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "afterSHA256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "piano",
+      "url": "/models/production/piano_v06b.glb",
+      "before": {
+        "bytes": 269144,
+        "triangles": 6260,
+        "primitives": 5,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51"
+      },
+      "after": {
+        "bytes": 384668,
+        "triangles": 9268,
+        "primitives": 7,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "d66a1b8ced6be6f07a152b081c2d6bdac5399a05f13d40880c093cca51d5148a"
+      },
+      "beforeSHA256": "8a7a4c3d4858406b8ea09552c3ec8fb822a30ce2c6a9b0605d57e1ac41a9ce51",
+      "afterSHA256": "d66a1b8ced6be6f07a152b081c2d6bdac5399a05f13d40880c093cca51d5148a",
+      "changed": true,
+      "delta": {
+        "bytes": 115524,
+        "triangles": 3008,
+        "primitives": 2,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "ipad",
+      "url": "/models/production/ipad_v06b.glb",
+      "before": {
+        "bytes": 25776,
+        "triangles": 756,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba"
+      },
+      "after": {
+        "bytes": 25776,
+        "triangles": 756,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba"
+      },
+      "beforeSHA256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "afterSHA256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "phone",
+      "url": "/models/production/phone_v06b.glb",
+      "before": {
+        "bytes": 39068,
+        "triangles": 1220,
+        "primitives": 4,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e"
+      },
+      "after": {
+        "bytes": 39068,
+        "triangles": 1220,
+        "primitives": 4,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e"
+      },
+      "beforeSHA256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "afterSHA256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "trashcan",
+      "url": "/models/production/trashcan_v06b.glb",
+      "before": {
+        "bytes": 57508,
+        "triangles": 1912,
+        "primitives": 4,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d"
+      },
+      "after": {
+        "bytes": 88696,
+        "triangles": 2772,
+        "primitives": 7,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "617c9a04dc05f6b042dcd35491e2101840d9404c8862f9ce335766d56a839b1a"
+      },
+      "beforeSHA256": "9fcbb4685461868fb3eae75e5d9b459b3080af2d27f0f9d42801310c5896056d",
+      "afterSHA256": "617c9a04dc05f6b042dcd35491e2101840d9404c8862f9ce335766d56a839b1a",
+      "changed": true,
+      "delta": {
+        "bytes": 31188,
+        "triangles": 860,
+        "primitives": 3,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "lightswitch",
+      "url": "/models/production/lightswitch_v06b.glb",
+      "before": {
+        "bytes": 27244,
+        "triangles": 832,
+        "primitives": 4,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99"
+      },
+      "after": {
+        "bytes": 27244,
+        "triangles": 832,
+        "primitives": 4,
+        "materials": 2,
+        "textures": 0,
+        "sha256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99"
+      },
+      "beforeSHA256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "afterSHA256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "keyboard",
+      "url": "/models/production/keyboard_v06b.glb",
+      "before": {
+        "bytes": 206320,
+        "triangles": 4148,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8"
+      },
+      "after": {
+        "bytes": 206320,
+        "triangles": 4148,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8"
+      },
+      "beforeSHA256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "afterSHA256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "mouse",
+      "url": "/models/production/mouse_v06b.glb",
+      "before": {
+        "bytes": 49428,
+        "triangles": 1820,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0"
+      },
+      "after": {
+        "bytes": 49428,
+        "triangles": 1820,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0"
+      },
+      "beforeSHA256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "afterSHA256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "headphones",
+      "url": "/models/production/headphones_v06b.glb",
+      "before": {
+        "bytes": 81196,
+        "triangles": 3292,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d"
+      },
+      "after": {
+        "bytes": 81196,
+        "triangles": 3292,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d"
+      },
+      "beforeSHA256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+      "afterSHA256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "eiffel",
+      "url": "/models/production/eiffel_v06c.glb",
+      "before": {
+        "bytes": 364112,
+        "triangles": 5996,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864"
+      },
+      "after": {
+        "bytes": 364112,
+        "triangles": 5996,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864"
+      },
+      "beforeSHA256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+      "afterSHA256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "hogwarts",
+      "url": "/models/production/hogwarts_v06c.glb",
+      "before": {
+        "bytes": 135060,
+        "triangles": 2950,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "934f91ddf9e9e6bb2b3650aa3042c7b1a978105aa1b012082da455a90a88c4a6"
+      },
+      "after": {
+        "bytes": 135060,
+        "triangles": 2950,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "934f91ddf9e9e6bb2b3650aa3042c7b1a978105aa1b012082da455a90a88c4a6"
+      },
+      "beforeSHA256": "934f91ddf9e9e6bb2b3650aa3042c7b1a978105aa1b012082da455a90a88c4a6",
+      "afterSHA256": "934f91ddf9e9e6bb2b3650aa3042c7b1a978105aa1b012082da455a90a88c4a6",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "minastirith",
+      "url": "/models/production/minastirith_v06c.glb",
+      "before": {
+        "bytes": 307428,
+        "triangles": 5280,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d"
+      },
+      "after": {
+        "bytes": 307428,
+        "triangles": 5280,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d"
+      },
+      "beforeSHA256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+      "afterSHA256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "falcon",
+      "url": "/models/production/falcon_v06c.glb",
+      "before": {
+        "bytes": 113052,
+        "triangles": 1916,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833"
+      },
+      "after": {
+        "bytes": 113052,
+        "triangles": 1916,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833"
+      },
+      "beforeSHA256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+      "afterSHA256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "bridge",
+      "url": "/models/production/bridge_v06c.glb",
+      "before": {
+        "bytes": 297804,
+        "triangles": 4888,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "606b8012f1aa52f9b9be0a380e3adea31424b46d53bdeb42a5d302e10e399ae9"
+      },
+      "after": {
+        "bytes": 297804,
+        "triangles": 4888,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "606b8012f1aa52f9b9be0a380e3adea31424b46d53bdeb42a5d302e10e399ae9"
+      },
+      "beforeSHA256": "606b8012f1aa52f9b9be0a380e3adea31424b46d53bdeb42a5d302e10e399ae9",
+      "afterSHA256": "606b8012f1aa52f9b9be0a380e3adea31424b46d53bdeb42a5d302e10e399ae9",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "sls",
+      "url": "/models/production/sls_v06c.glb",
+      "before": {
+        "bytes": 128244,
+        "triangles": 2176,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d"
+      },
+      "after": {
+        "bytes": 128244,
+        "triangles": 2176,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d"
+      },
+      "beforeSHA256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+      "afterSHA256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "ferrari",
+      "url": "/models/production/ferrari_v06c.glb",
+      "before": {
+        "bytes": 119244,
+        "triangles": 2396,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa"
+      },
+      "after": {
+        "bytes": 119244,
+        "triangles": 2396,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa"
+      },
+      "beforeSHA256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+      "afterSHA256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "mercedes",
+      "url": "/models/production/mercedes_v06c.glb",
+      "before": {
+        "bytes": 119264,
+        "triangles": 2396,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b"
+      },
+      "after": {
+        "bytes": 119264,
+        "triangles": 2396,
+        "primitives": 4,
+        "materials": 4,
+        "textures": 0,
+        "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b"
+      },
+      "beforeSHA256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+      "afterSHA256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "plants",
+      "url": "/models/production/plants_v06c.glb",
+      "before": {
+        "bytes": 429400,
+        "triangles": 7308,
+        "primitives": 15,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "4575c8c7f98e7e8736fb7e2e4734e52e6ac9e5dfa02d028192c6e5c860a3abcb"
+      },
+      "after": {
+        "bytes": 429400,
+        "triangles": 7308,
+        "primitives": 15,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "4575c8c7f98e7e8736fb7e2e4734e52e6ac9e5dfa02d028192c6e5c860a3abcb"
+      },
+      "beforeSHA256": "4575c8c7f98e7e8736fb7e2e4734e52e6ac9e5dfa02d028192c6e5c860a3abcb",
+      "afterSHA256": "4575c8c7f98e7e8736fb7e2e4734e52e6ac9e5dfa02d028192c6e5c860a3abcb",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "cola",
+      "url": "/models/production/cola_v06c.glb",
+      "before": {
+        "bytes": 29352,
+        "triangles": 896,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109"
+      },
+      "after": {
+        "bytes": 29352,
+        "triangles": 896,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109"
+      },
+      "beforeSHA256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+      "afterSHA256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "dog",
+      "url": "/models/production/dog_v06c.glb",
+      "before": {
+        "bytes": 142356,
+        "triangles": 4796,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d"
+      },
+      "after": {
+        "bytes": 142356,
+        "triangles": 4796,
+        "primitives": 3,
+        "materials": 3,
+        "textures": 0,
+        "sha256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d"
+      },
+      "beforeSHA256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+      "afterSHA256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "fixtures",
+      "url": "/models/production/fixtures_v06c.glb",
+      "before": {
+        "bytes": 120244,
+        "triangles": 1992,
+        "primitives": 8,
+        "materials": 5,
+        "textures": 0,
+        "sha256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f"
+      },
+      "after": {
+        "bytes": 120244,
+        "triangles": 1992,
+        "primitives": 8,
+        "materials": 5,
+        "textures": 0,
+        "sha256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f"
+      },
+      "beforeSHA256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+      "afterSHA256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    },
+    {
+      "id": "wallart",
+      "url": "/models/production/wallart_v06c.glb",
+      "before": {
+        "bytes": 30808,
+        "triangles": 452,
+        "primitives": 6,
+        "materials": 6,
+        "textures": 0,
+        "sha256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772"
+      },
+      "after": {
+        "bytes": 30808,
+        "triangles": 452,
+        "primitives": 6,
+        "materials": 6,
+        "textures": 0,
+        "sha256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772"
+      },
+      "beforeSHA256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772",
+      "afterSHA256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772",
+      "changed": false,
+      "delta": {
+        "bytes": 0,
+        "triangles": 0,
+        "primitives": 0,
+        "materials": 0,
+        "textures": 0
+      }
+    }
+  ],
+  "totals": {
+    "before": {
+      "bytes": 6587032,
+      "triangles": 141718,
+      "primitives": 175,
+      "materials": 128,
+      "textures": 18
+    },
+    "after": {
+      "bytes": 6733744,
+      "triangles": 145586,
+      "primitives": 180,
+      "materials": 128,
+      "textures": 18
+    },
+    "delta": {
+      "bytes": 146712,
+      "triangles": 3868,
+      "primitives": 5,
+      "materials": 0,
+      "textures": 0
+    }
+  },
+  "protectedFiles": [
+    {
+      "file": "V06C_COLLECTION_SLOT_MAP.md",
+      "sha256": "f4f5fa84058f0ccfa43c5c4e20c079c3cd8c72fa4dc7040ff1ea4264ab179d8e"
+    },
+    {
+      "file": "V06C_LIGHT_FIXTURE_MAPPING.md",
+      "sha256": "3c1a43ec6bb6c31e5eb349cd4982ac56fb13582117ef806b402145b6139aefc8"
+    },
+    {
+      "file": "next-env.d.ts",
+      "sha256": "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc"
+    },
+    {
+      "file": "next.config.ts",
+      "sha256": "af46a9c794f7117fa86cad5061ecc3ed3f31e6967ca946858738c664d6d1df42"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "a6a6bf4ad9ed74bf14f56db1feb2223f5c30723dca176c0576bb4b5b4a5237be"
+    },
+    {
+      "file": "package.json",
+      "sha256": "5423df35c0568bf1fb6d09c0ec79c0e83754f31a73b08d4c387d8066fd778956"
+    },
+    {
+      "file": "assets-source/source-anchor-measurements.json",
+      "sha256": "91d2eb96f23d40bfd848c8dec087780432e7eb3375ae662efe8b0aa63d5cd4d5"
+    },
+    {
+      "file": "assets-source/macbook/ASSET_SPEC.md",
+      "sha256": "0cc8a58a758501ea244ed472d2a473f917148d34e1ca657c2c1ab8b2701c1ce3"
+    },
+    {
+      "file": "assets-source/macbook/asset-statistics.json",
+      "sha256": "6bb79e1654bb9eb0d4b569146a6640439216b61b4ff7a96312efd2689fcc49b8"
+    },
+    {
+      "file": "assets-source/macbook/screen-uv-contract.json",
+      "sha256": "a4b300b5e0f3664d4ea6fd85381fff077f5169d99a25a086ac6d2fb06aba7aed"
+    },
+    {
+      "file": "assets-source/marshall/ASSET_SPEC.md",
+      "sha256": "a35bb2a52b9f10faa588d33b5507308066d43d9aa05aaf6d28191d7db4e36d65"
+    },
+    {
+      "file": "assets-source/marshall/asset-statistics.json",
+      "sha256": "d3847fe67c73ab2a6c4b3d72186821a8b6f8da3552a2337a34ddffe10f1e1d60"
+    },
+    {
+      "file": "assets-source/marshall/woven_grille_basecolor_512.png",
+      "sha256": "3b4f85955e41daecb59969f9e52f3452bbf04d593ecfe9e1fbf6f37579bfcb57"
+    },
+    {
+      "file": "assets-source/monitor/ASSET_SPEC.md",
+      "sha256": "6ced75430f76b1fd3bf7745e58f4e71d6f81eb26e1f36ad37d8cec29b9652ccb"
+    },
+    {
+      "file": "assets-source/monitor/asset-statistics.json",
+      "sha256": "880b19a720bd757160efadc1152fb00b87a3d2178ba46669b855a1a4442bacd3"
+    },
+    {
+      "file": "assets-source/monitor/screen-uv-contract.json",
+      "sha256": "790a042d85a0e1008dfce52573a5a92d4525ff8db52c6921985194aa98467b10"
+    },
+    {
+      "file": "assets-source/v06a/A_ARCHITECTURE_PLAN.md",
+      "sha256": "c8afd2cb70741ea8e317fdd8adba90f05ada17c82d0a857b9bf633d854a63658"
+    },
+    {
+      "file": "assets-source/v06a/architecture-export-audit.json",
+      "sha256": "6027eb7e974d3df1b5a45f50fe4305ad66f3d6f92c2961cacd520ab9c83a19c0"
+    },
+    {
+      "file": "assets-source/v06a/beanbag/ASSET_SPEC.md",
+      "sha256": "1e521328202b69684d46766d33e984aac4c3785ddf623867f528dd02ea0d6700"
+    },
+    {
+      "file": "assets-source/v06a/beanbag/asset-statistics.json",
+      "sha256": "1b973e36bfcc8db05e19e26ba33724ac5ff368fca37a27c3c56ed0ca3a182a59"
+    },
+    {
+      "file": "assets-source/v06a/bed/ASSET_SPEC.md",
+      "sha256": "2d78c0209db8c207c09833517d789f43c52f48cee18c7c3b4ad41ebccc479d8e"
+    },
+    {
+      "file": "assets-source/v06a/bed/asset-statistics.json",
+      "sha256": "afe7a4783c6bc45621b49a248f1d6afab4bb71ba301a7c4ac17ecbc9ac1b42ab"
+    },
+    {
+      "file": "assets-source/v06a/bedside/ASSET_SPEC.md",
+      "sha256": "2120849814aa0410dbc9d234de8060772a66318074fc418b25458f287cd6903c"
+    },
+    {
+      "file": "assets-source/v06a/bedside/asset-statistics.json",
+      "sha256": "41ec2de0b37e3a41ca6de226f49f0a96d5353537bada38968ab74d992c283f1b"
+    },
+    {
+      "file": "assets-source/v06a/cabinet/ASSET_SPEC.md",
+      "sha256": "aa99fa8691990821f5f51f0c49846edd0f9c9a12ee7d9d7be5fa9e1eb77b8d60"
+    },
+    {
+      "file": "assets-source/v06a/cabinet/asset-statistics.json",
+      "sha256": "62cf9fe748303eb8fcc6de3be121832d630e4002a3d88929e466e0ac0aeec011"
+    },
+    {
+      "file": "assets-source/v06a/chair/ASSET_SPEC.md",
+      "sha256": "700d586f3af2e5fcc91cde673ba1f1f10a2496f149295b26a164b0628d679e06"
+    },
+    {
+      "file": "assets-source/v06a/chair/asset-statistics.json",
+      "sha256": "112f729b29f6f009a61954374e1c4a1b7cbe9c247b5adab061176d221f234a28"
+    },
+    {
+      "file": "assets-source/v06a/coffee/ASSET_SPEC.md",
+      "sha256": "1c5e3cc2b14c7ae2c1b7de72d5fc37ee81d2b8ecf244bdb92b38173c950a97cf"
+    },
+    {
+      "file": "assets-source/v06a/coffee/asset-statistics.json",
+      "sha256": "a0be1fc96a063c53e96f09360df9b594d13b222c1e507dc718bd4667e044a0b0"
+    },
+    {
+      "file": "assets-source/v06a/curtains/ASSET_SPEC.md",
+      "sha256": "b1527031e31e12816768a9222f7c589825c6db247d57374dc7a7aad3c168d1ae"
+    },
+    {
+      "file": "assets-source/v06a/curtains/asset-statistics.json",
+      "sha256": "f55d8667681835900448b163e8b0c2547686491896819b025cf2fc9da8175c5e"
+    },
+    {
+      "file": "assets-source/v06a/desk/ASSET_SPEC.md",
+      "sha256": "fb9908a7ebd3f7fdf47d1699fa824a501acdb787319ec2207f087a673d8e9f89"
+    },
+    {
+      "file": "assets-source/v06a/desk/asset-statistics.json",
+      "sha256": "38b32b4f75fab58da86e506f3b283cfc202c65647fcaffabb8816f992a9c95e9"
+    },
+    {
+      "file": "assets-source/v06a/dogbed/ASSET_SPEC.md",
+      "sha256": "bfdb04805d52882f841826ad8bf0e0777a674fd8cb2e01e426397a29f8b3d9bb"
+    },
+    {
+      "file": "assets-source/v06a/dogbed/asset-statistics.json",
+      "sha256": "faa7543645a946bbfc134cc26537aa7bfbe29d13cc13b722e833c857950ec57a"
+    },
+    {
+      "file": "assets-source/v06a/door/ASSET_SPEC.md",
+      "sha256": "8f131b0d7497f8376b85b333108f37fc4fdbc2a75681c021ea2cb8a43c74438d"
+    },
+    {
+      "file": "assets-source/v06a/door/asset-statistics.json",
+      "sha256": "299f4d418fb61188ca55fce5c2093fa42eeecd760945236dce3f713a31af9b3a"
+    },
+    {
+      "file": "assets-source/v06a/floor/ASSET_SPEC.md",
+      "sha256": "7bae5a33787df515e7335fc77c30fad4b70ca2f72058e14ece102fe029a774e2"
+    },
+    {
+      "file": "assets-source/v06a/floor/asset-statistics.json",
+      "sha256": "f2934ee935c681c227e8589ffa60f92e70998f1b2d838191a1d17f65689c955b"
+    },
+    {
+      "file": "assets-source/v06a/rugs/ASSET_SPEC.md",
+      "sha256": "89ad53d904644fb8d97e4e5591d020c4a750661b595804869bc47e75aaefd34c"
+    },
+    {
+      "file": "assets-source/v06a/rugs/asset-statistics.json",
+      "sha256": "1f8c087685fd95c5be77e485cc42976064adc2fb72dc58c77f8374c65261f463"
+    },
+    {
+      "file": "assets-source/v06a/shared/TEXTURE_SOURCES.md",
+      "sha256": "91281d4a5fc9756f3da223eb86fcc5b1f2d43a072983f99e3159554f76ce0f32"
+    },
+    {
+      "file": "assets-source/v06a/shared/beanbagweave_weave_512.png",
+      "sha256": "4f2a56eb1a08eaf624357857e8e707db8e49415340716c92976d7e40b056d9ce"
+    },
+    {
+      "file": "assets-source/v06a/shared/bluegreybedding_weave_512.png",
+      "sha256": "ec96eae1e4096d17a378d8e8a3a374505f9926b208ea70082adb50980e070142"
+    },
+    {
+      "file": "assets-source/v06a/shared/chairfabric_weave_512.png",
+      "sha256": "1ffdf135362b3d70af1460af65bd140bf03c06c765e3c540180b4f1a6bbccc0e"
+    },
+    {
+      "file": "assets-source/v06a/shared/dogbedcushion_weave_512.png",
+      "sha256": "74f9f6096c0e0d33e58b6b9af41b20139a0091a539d1d05789c9e05a3c48e33d"
+    },
+    {
+      "file": "assets-source/v06a/shared/dogbedupholstery_weave_512.png",
+      "sha256": "0837dc01ed2ed5d594b4a10aff7165f67ba27bb0fa59f30349619d9d0d29c856"
+    },
+    {
+      "file": "assets-source/v06a/shared/linen_weave_512.png",
+      "sha256": "4aa3363f53fd74eb46b39b3f24276141af71eafbacdbd4c4c17c561cb11d7b95"
+    },
+    {
+      "file": "assets-source/v06a/shared/rugborder_weave_512.png",
+      "sha256": "9a20caabf3bf927a5675a05f058f27fac68947081823e4a562752984af348290"
+    },
+    {
+      "file": "assets-source/v06a/shared/rugweave_weave_512.png",
+      "sha256": "63dd9a9ae3c5dd243cc754ed0b1a9755a7637198fa752e9d1dae38e9c13cf49d"
+    },
+    {
+      "file": "assets-source/v06a/shared/taupeupholstery_weave_512.png",
+      "sha256": "ab7696a2df3a7c5b324af96c745f49b0aac0b4968a747a1d22d8a2d45719d5f4"
+    },
+    {
+      "file": "assets-source/v06a/shared/warm_oak_basecolor_512.png",
+      "sha256": "a4b8c54927da733f9f050d07762dd7e981187c0cc638ecbd384ebccfb0c62cf4"
+    },
+    {
+      "file": "assets-source/v06a/sidetable/ASSET_SPEC.md",
+      "sha256": "e990b71f35fd52fae58d5f5efeedd81a8debaaf6a720064b83ad53dfc446f1e8"
+    },
+    {
+      "file": "assets-source/v06a/sidetable/asset-statistics.json",
+      "sha256": "e6d8a2fc3a46fda8241316d5fa1bf59f56fa31db7563fd3e46c3f2681f3e1f21"
+    },
+    {
+      "file": "assets-source/v06a/sofa/ASSET_SPEC.md",
+      "sha256": "751ea966d8bb83c3080bba59c0da1753ba2ebb86a755bd9b2e64879fe8abd006"
+    },
+    {
+      "file": "assets-source/v06a/sofa/asset-statistics.json",
+      "sha256": "55b8b3bcbb9a0f3367217a45c2c1ca1e6d30c36eee730a308116dd7070f46082"
+    },
+    {
+      "file": "assets-source/v06a/walls/ASSET_SPEC.md",
+      "sha256": "7bb3a78483f8f919fd16f4e3f800b381e3e2693f565a5ee61af25689bfe3b751"
+    },
+    {
+      "file": "assets-source/v06a/walls/asset-statistics.json",
+      "sha256": "cb4cbc816c35c571fc9d7489f4fcc2ba471c02a23c3fc8da227edc6a14143897"
+    },
+    {
+      "file": "assets-source/v06a/window/ASSET_SPEC.md",
+      "sha256": "a6221dbb2fb1abf2c1c2bccdf9f37f07a4e69321a0fbe65543ad030e33eff2d8"
+    },
+    {
+      "file": "assets-source/v06a/window/asset-statistics.json",
+      "sha256": "9416fa20d78afc847ca112299085616bc86e366523d84b6a126b1ccab7cbd63f"
+    },
+    {
+      "file": "assets-source/v06b/PRODUCTION_PLAN.md",
+      "sha256": "aff7660a6ac1af449dcbfb5bf4d089fb992ea9fc5c2015f8637dc9660b77da66"
+    },
+    {
+      "file": "assets-source/v06b/headphones/ASSET_SPEC.md",
+      "sha256": "48690902a33745c7d2d23c5852f41567ff0080ed0a300fcee74dd7b255216ea1"
+    },
+    {
+      "file": "assets-source/v06b/headphones/asset-statistics.json",
+      "sha256": "158fb3bf02aa74b602610687a44c9051ff6db6d5c7b4688227ed493c004a1fac"
+    },
+    {
+      "file": "assets-source/v06b/ipad/ASSET_SPEC.md",
+      "sha256": "ff92429c252083dcd1b53fc26168bc9c0eb4d10bc8f5b88c011697bb4e1e9706"
+    },
+    {
+      "file": "assets-source/v06b/ipad/asset-statistics.json",
+      "sha256": "3a9ee3b6c5953d73cf34181a812c257d602684a2e2534fbeae5a2b053d885b90"
+    },
+    {
+      "file": "assets-source/v06b/keyboard/ASSET_SPEC.md",
+      "sha256": "41bf48d3d2b28b3ae172c7ffcadc085bb89067d3b68bf48125a71d000ff7f2c0"
+    },
+    {
+      "file": "assets-source/v06b/keyboard/asset-statistics.json",
+      "sha256": "6edee6d7803fc4f9a263b17258cf3c1de4d285cc04919bf9bc770c685da9ab26"
+    },
+    {
+      "file": "assets-source/v06b/lightswitch/ASSET_SPEC.md",
+      "sha256": "6e2bb809a2afc54e4d16a48ee68c0e72b7e15e29a6d42c77ec1209fa53a9891e"
+    },
+    {
+      "file": "assets-source/v06b/lightswitch/asset-statistics.json",
+      "sha256": "699ade1b067ab90a55138cdf6c638b4599571fab4e757ba657e95205b5a624fa"
+    },
+    {
+      "file": "assets-source/v06b/mouse/ASSET_SPEC.md",
+      "sha256": "1ae144b8741794b27b332cdf155fa45f1d5ccbe809599259359b58ee014296f2"
+    },
+    {
+      "file": "assets-source/v06b/mouse/asset-statistics.json",
+      "sha256": "f0afd0aafaa92282cac110a4fe65ba7b48d6c42c66565a8d4d6f1f853ed98d9d"
+    },
+    {
+      "file": "assets-source/v06b/phone/ASSET_SPEC.md",
+      "sha256": "24954d29f389408ef31acad38eacd4896d9494009a35d3f1eb93cde629672a16"
+    },
+    {
+      "file": "assets-source/v06b/phone/asset-statistics.json",
+      "sha256": "2e1e7e1c74620d6b95c905b5c99a335157c5266161d3feedcd276fd164e06e84"
+    },
+    {
+      "file": "assets-source/v06c/PRODUCTION_PLAN.md",
+      "sha256": "eb286c6b7b99766802218765783286e26fc1d90813ef6062986e9ab14869c0de"
+    },
+    {
+      "file": "assets-source/v06c/README.md",
+      "sha256": "389824a98483366d989ca0ca10bbb26f85da2f5b34b89c1a57ee4887528df146"
+    },
+    {
+      "file": "assets-source/v06c/write-specs.mjs",
+      "sha256": "141142e85a0dfa74c1f51b0055b7d357b9583a8f141d57a7b8126b8d3e6e9185"
+    },
+    {
+      "file": "assets-source/v06c/bridge/ASSET_SPEC.md",
+      "sha256": "7a203d8a1883c8e351fc71f46120af20f7b7cc5dd6f6105db4a381f36e390e19"
+    },
+    {
+      "file": "assets-source/v06c/bridge/asset-statistics.json",
+      "sha256": "0f5d2e88d72b9cc25f918a1f4927a4c3ab916aa0796df586b0e4e7a9cf7a628b"
+    },
+    {
+      "file": "assets-source/v06c/cola/ASSET_SPEC.md",
+      "sha256": "83e63b85e4edc8abaf75c4d5fd4b32255a493585f193c41359c7e3baf9e540a7"
+    },
+    {
+      "file": "assets-source/v06c/cola/asset-statistics.json",
+      "sha256": "61907a811730dd98642c0197e000eb6b8b3caec836e41a739eb56cd20be2fe6d"
+    },
+    {
+      "file": "assets-source/v06c/dog/ASSET_SPEC.md",
+      "sha256": "0a04f13ff84bab6177864cd0717234de191692706362c8b439c7d958c175e397"
+    },
+    {
+      "file": "assets-source/v06c/dog/asset-statistics.json",
+      "sha256": "0fa7bae7518ce67437565b3c261fd7fcec94d0d7a9d78a1e9614df0906b9e38a"
+    },
+    {
+      "file": "assets-source/v06c/eiffel/ASSET_SPEC.md",
+      "sha256": "7675437b069526fcb4a0b82db533dcb9e14ce9b2c5168b9815f290d723b94f09"
+    },
+    {
+      "file": "assets-source/v06c/eiffel/asset-statistics.json",
+      "sha256": "0bc831a13573f4010abfdb05e2fa6ad69b2b2f56e51e63c7ca383294d017d0af"
+    },
+    {
+      "file": "assets-source/v06c/falcon/ASSET_SPEC.md",
+      "sha256": "e953a8d89e1b5503f5c2dda797e139718a299a061d1af0a343bd83822f292484"
+    },
+    {
+      "file": "assets-source/v06c/falcon/asset-statistics.json",
+      "sha256": "a67a88a191801131feaddafb22eb6f024b0c7ef1cbceafec14818a5a5a55add9"
+    },
+    {
+      "file": "assets-source/v06c/ferrari/ASSET_SPEC.md",
+      "sha256": "eb3b6c2f18092a2a0e22058c221c3abc4faf655ffe271661d7339601af80bfad"
+    },
+    {
+      "file": "assets-source/v06c/ferrari/asset-statistics.json",
+      "sha256": "882d4bc00424f823bedd6c90bb662b280a47d52749ac16cc366917f24708ec13"
+    },
+    {
+      "file": "assets-source/v06c/fixtures/ASSET_SPEC.md",
+      "sha256": "4c7efc8f7b9323414c1828b7a2617687ae7fcde7da3343d003959767e359b999"
+    },
+    {
+      "file": "assets-source/v06c/fixtures/asset-statistics.json",
+      "sha256": "e8e5fbf3b16db02462048feaffd52938f7a2fe59f47d2d63bafb750a1a49af84"
+    },
+    {
+      "file": "assets-source/v06c/hogwarts/ASSET_SPEC.md",
+      "sha256": "04b3887ba6ec5190cb88aad25f09438e0b40cd280b722cfe095e65548a98b383"
+    },
+    {
+      "file": "assets-source/v06c/hogwarts/asset-statistics.json",
+      "sha256": "82719e66b5c57378a2f2c334bc82d47330a20df8e2341b6270638427a36b04e3"
+    },
+    {
+      "file": "assets-source/v06c/mercedes/ASSET_SPEC.md",
+      "sha256": "d39586829e5a16500db38169193c6c53cc9a545e5612e702057efe4325c828c6"
+    },
+    {
+      "file": "assets-source/v06c/mercedes/asset-statistics.json",
+      "sha256": "4e91fc195b6ff90d04765e3e7d4f2c02eb042403a5af8ff99f1a0c14c4a6b019"
+    },
+    {
+      "file": "assets-source/v06c/minastirith/ASSET_SPEC.md",
+      "sha256": "143e3d9f66fd6fff7f09df57ca811dff134a8ae8d90963043ba5cb76f7fd6974"
+    },
+    {
+      "file": "assets-source/v06c/minastirith/asset-statistics.json",
+      "sha256": "53f6c3c4527fb2e115763c9f772d4184e8bf26fa5e036194edd278266684cb9d"
+    },
+    {
+      "file": "assets-source/v06c/plants/ASSET_SPEC.md",
+      "sha256": "517979ce19853d9bc9eb9b90661d3b6497b9637b90467bd1f905cee9573abce6"
+    },
+    {
+      "file": "assets-source/v06c/plants/asset-statistics.json",
+      "sha256": "1e65099534da6e4b6d517e6e86ef04095bf24f3f3effc4a5e866be870f4e495b"
+    },
+    {
+      "file": "assets-source/v06c/sls/ASSET_SPEC.md",
+      "sha256": "bda94f0111579e594066194a36fd7f174fd251bc376c6beea42b4f9b8d654fd1"
+    },
+    {
+      "file": "assets-source/v06c/sls/asset-statistics.json",
+      "sha256": "5c81b8f97671bc6915fee290202e05c3190c1a8a06321e2f1481b9199507399b"
+    },
+    {
+      "file": "assets-source/v06c/wallart/ASSET_SPEC.md",
+      "sha256": "9d972face20d03470ad78fe97f915bf13e2f3d2ea69d56eae836c60e94b2d4ed"
+    },
+    {
+      "file": "assets-source/v06c/wallart/asset-statistics.json",
+      "sha256": "6e4030bae76aa085cd3316fb6c0bff0e9e04976cc5e140287c848e65ac28b8da"
+    },
+    {
+      "file": "blender-assets/beanbag_v06a.blend",
+      "sha256": "caf2d7786410a7757bebd856dee0e229c9b42cf1b6958f3c3749da4378312711"
+    },
+    {
+      "file": "blender-assets/bed_v06a.blend",
+      "sha256": "a4a8c0d496f3cd1353dbda3277326c31ac9cd71e374b0dcad0a86cb82ba77036"
+    },
+    {
+      "file": "blender-assets/bedside_v06a.blend",
+      "sha256": "ad8293e76f74a9e52c771ad6eeda92c72357c2fb04b09b40531de4b009c0a3c2"
+    },
+    {
+      "file": "blender-assets/bridge_v06c.blend",
+      "sha256": "ede5ad5d759c9d107d838c0ba77f94ad3c2aadc6fc1d8c7860909f58d2ffdc1f"
+    },
+    {
+      "file": "blender-assets/cabinet_v06a.blend",
+      "sha256": "d0ff6bce668902aed3435dbfab2c4ed0c0dd68b192430804f6c9f9e86d73ef5d"
+    },
+    {
+      "file": "blender-assets/chair_v06a.blend",
+      "sha256": "9ae9a1f44676e374f0fb86067649b40ee04bf7e427c5381bea527543cd7172c9"
+    },
+    {
+      "file": "blender-assets/coffee_v06a.blend",
+      "sha256": "ef304bf634d17eb023fd460a94122a3b3ec4d2fa0cffb52502e62f59d9ad0c17"
+    },
+    {
+      "file": "blender-assets/cola_v06c.blend",
+      "sha256": "aad5be098fc13ee68d0770269e243385987d4d6f5eb2bb55bf22bb24a1dc8e10"
+    },
+    {
+      "file": "blender-assets/curtains_v06a.blend",
+      "sha256": "8f3e3dc1c83eea03e31dc2d2d80f1cb16d1ec82958d203186418deff102ac7d2"
+    },
+    {
+      "file": "blender-assets/desk_v06a.blend",
+      "sha256": "f82bbbc93e30cf673552ca66ffea79ff96b513340c1b9aaa10e8dc58cab93a66"
+    },
+    {
+      "file": "blender-assets/dog_v06c.blend",
+      "sha256": "e8888c3a7eaaca1c1a59a25145ea7db096aef6a389bf6c965767d5832ae924e9"
+    },
+    {
+      "file": "blender-assets/dogbed_v06a.blend",
+      "sha256": "e98d4498738ada9bf76fb36de4f9b34561656267f5c391383a44a4c47d818216"
+    },
+    {
+      "file": "blender-assets/door_v06a.blend",
+      "sha256": "860b74a4f055659f85ca706a6bbfe5ab31e22fd0bcc6ab5bd3afcce3b2c6de5e"
+    },
+    {
+      "file": "blender-assets/eiffel_v06c.blend",
+      "sha256": "d439ee3fe7bf0b3fbbb59ca41efe6047223059f0e54827dbfb8a092d7727f25e"
+    },
+    {
+      "file": "blender-assets/falcon_v06c.blend",
+      "sha256": "badbec6bda72e9bb0e84f1c8aeb103c2f8a1dd4103089b77f705affa3d696836"
+    },
+    {
+      "file": "blender-assets/ferrari_v06c.blend",
+      "sha256": "15b7a9b9fc39f642d3890fcdb23d14e0285e327a0395eef65d301557b0ef6505"
+    },
+    {
+      "file": "blender-assets/fixtures_v06c.blend",
+      "sha256": "63f0633446353c8061f327ab4eb374f48bb01f175f837460c89d1bb53e3ce778"
+    },
+    {
+      "file": "blender-assets/floor_v06a.blend",
+      "sha256": "cee4f2e65ef1e926d058a23505d06205502b4e79d2c78a14e4d7512de04b40f3"
+    },
+    {
+      "file": "blender-assets/headphones_v06b.blend",
+      "sha256": "7f6771d0dc81435b93ddeb266ae3d0e4fd32e630757cc065e470fdfb2900abf9"
+    },
+    {
+      "file": "blender-assets/hogwarts_v06c.blend",
+      "sha256": "3777a259d1fa9b09ca8dc12d67c5344205e184e7a18c122c6009a0fb7ee042de"
+    },
+    {
+      "file": "blender-assets/ipad_v06b.blend",
+      "sha256": "0ec8a7d39a645d72188066777a41dab0128ba563618686d66d0a293b4272085a"
+    },
+    {
+      "file": "blender-assets/keyboard_v06b.blend",
+      "sha256": "d8845bc70f989e40d161c079c1398081017fe0178b6f20bb04c6f4fb86f124e7"
+    },
+    {
+      "file": "blender-assets/lightswitch_v06b.blend",
+      "sha256": "3cb4e2d557719902f26737e495f381993486b416ada1b1ea1e497309f2ce587b"
+    },
+    {
+      "file": "blender-assets/macbook_pilot.blend",
+      "sha256": "5622096fcc53bf675e30f24ac0a6ba968fa1a577a3740150e5822cd61fa14261"
+    },
+    {
+      "file": "blender-assets/marshall_pilot.blend",
+      "sha256": "b66e3236c6ffa064cc45343f74afbe4c20bc390ed0388f6735cd0221d5ab935f"
+    },
+    {
+      "file": "blender-assets/mercedes_v06c.blend",
+      "sha256": "53899ec41e4e309fc1ccb57e1000465cc6e95e8933cbfac6b293f99a1f2720b2"
+    },
+    {
+      "file": "blender-assets/minastirith_v06c.blend",
+      "sha256": "cf81dd143707eba5c1d4b7cbbb1693d22eb1f88976180bb52559101b5348c723"
+    },
+    {
+      "file": "blender-assets/monitor_pilot.blend",
+      "sha256": "c1d55f0366ea1d8027b9031d32d1b076bca4b0d553a261270a7fb101d43ca6ac"
+    },
+    {
+      "file": "blender-assets/mouse_v06b.blend",
+      "sha256": "852e52f9adfccf9b013d2240378198fd9bac575a02f7a03b39484f808d05e5b8"
+    },
+    {
+      "file": "blender-assets/phone_v06b.blend",
+      "sha256": "36ca8ca6c352e9bb5958ae5e9bc1892bea06d95436ecb3a15bdb0855679f0199"
+    },
+    {
+      "file": "blender-assets/plants_v06c.blend",
+      "sha256": "cde3c626665083069a6d76edb5e3846f1b60b95250e5edcf2a613e5891bcda2e"
+    },
+    {
+      "file": "blender-assets/rugs_v06a.blend",
+      "sha256": "4e84dc4f36904acae552908d237088392f03ece760ec4b66f5cc3cc2b0c62e24"
+    },
+    {
+      "file": "blender-assets/sidetable_v06a.blend",
+      "sha256": "95b4ab9cb752088abe96994c8c3a645534909b634f2b32c01fab978c606ca98b"
+    },
+    {
+      "file": "blender-assets/sls_v06c.blend",
+      "sha256": "2ffb5049c4bfb275abb36347c78b4892ead3a0d34973fa92f6c524f03ce87b26"
+    },
+    {
+      "file": "blender-assets/sofa_v06a.blend",
+      "sha256": "a753addc7e76260b73b0f0db43377beba31b72e63b9f30410a70ed4452258bfb"
+    },
+    {
+      "file": "blender-assets/wallart_v06c.blend",
+      "sha256": "c7509af861abdd651a02fee4ee321aaa81362da111a6bc60c59b92cf383e3476"
+    },
+    {
+      "file": "blender-assets/walls_v06a.blend",
+      "sha256": "073f64812fcbf154747e0fb381105ee9782038291172bcd04d321539da34c552"
+    },
+    {
+      "file": "blender-assets/window_v06a.blend",
+      "sha256": "39ec2ad7dea0c9ef4209a40909cb14d829c0ef0ed4a705676e0e084a73a11216"
+    },
+    {
+      "file": "lib/room/cameraAnimation.ts",
+      "sha256": "198fc2b4a69954bd247f91f3028316808b30b3288e45a12f9a5d0aa0e9a32bd4"
+    },
+    {
+      "file": "lib/room/focusViews.ts",
+      "sha256": "8eb938d0fe9420a52374f293378b8fff37526b8522c71ba0fd48b6614dd0bdaf"
+    },
+    {
+      "file": "lib/room/frozenSceneManifest.json",
+      "sha256": "84b793cdaba786d647ccde41e4c653ef64a4bcf3d0afd9d693f49a0064521f53"
+    },
+    {
+      "file": "lib/room/mechanisms.ts",
+      "sha256": "4ce8537211d7dd28d1c11deb8ac6297cc22971b68c650c6daae58923026abd56"
+    },
+    {
+      "file": "lib/room/pianoInteraction.ts",
+      "sha256": "c87f22e59d153fb49d2972acf4387c3c10b88b5a593657c322aa0da1b995c757"
+    },
+    {
+      "file": "lib/room/assets/fixtureRegistry.ts",
+      "sha256": "aba40b81ffeb318b289a79c2a368f3732a12da6539159424d5038dcff522f880"
+    },
+    {
+      "file": "lib/room/assets/screenTextures.ts",
+      "sha256": "3471ac453d483c21ec9813c570722250b844dc09404f26da7e187466cf7cf307"
+    },
+    {
+      "file": "public/models/sharkys_room_blockout_FINAL.glb",
+      "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2"
+    },
+    {
+      "file": "public/models/production/beanbag_v06a.glb",
+      "sha256": "5269f6848d9f6d7c126b5934f893b8fe8a13070f5ffa18e62ad78cf5bfa07628"
+    },
+    {
+      "file": "public/models/production/bed_v06a.glb",
+      "sha256": "7c48d4f41817409458e280f99c07aa88df52bc5e841771a0023664551e78c7d3"
+    },
+    {
+      "file": "public/models/production/bedside_v06a.glb",
+      "sha256": "f251954663025abdef558433254c19afb1180a0acab21c612af209a20567a43a"
+    },
+    {
+      "file": "public/models/production/bridge_v06c.glb",
+      "sha256": "606b8012f1aa52f9b9be0a380e3adea31424b46d53bdeb42a5d302e10e399ae9"
+    },
+    {
+      "file": "public/models/production/cabinet_v06a.glb",
+      "sha256": "f202a82bb9d0b08696ef2b56e65cf4c647490d91192ef5830ee0df37222874b4"
+    },
+    {
+      "file": "public/models/production/chair_v06a.glb",
+      "sha256": "48110e2fbd7fffa15ddf350bad13e3e6f139c325f40d06f686afaf1dc353a591"
+    },
+    {
+      "file": "public/models/production/coffee_v06a.glb",
+      "sha256": "af032953b9aff310f99ed255bd57fa45d082139390153bdbfbf275537af187d3"
+    },
+    {
+      "file": "public/models/production/cola_v06c.glb",
+      "sha256": "777befe2380d9e2ed40738441ab9ec26a07949a7f1da5f6f8286195ea1d25109"
+    },
+    {
+      "file": "public/models/production/curtains_v06a.glb",
+      "sha256": "cf71a05a106cc90f12b60f0acf65c8873774b5957d29a84d3f7cd988d56a1cca"
+    },
+    {
+      "file": "public/models/production/desk_v06a.glb",
+      "sha256": "8bcf1ffcbc71b48e67d8a25d2c95e309a41a76c00c656113440dce3abb3fadca"
+    },
+    {
+      "file": "public/models/production/dog_v06c.glb",
+      "sha256": "61182573896ec1442e4a4ed71b5df4bed4d98a90ccdb859cf68595f6ae41fc5d"
+    },
+    {
+      "file": "public/models/production/dogbed_v06a.glb",
+      "sha256": "074ec9a27bff1ae19ba0069fbb98d7ca72021b27a9d0e03d6c140546e74085b5"
+    },
+    {
+      "file": "public/models/production/door_v06a.glb",
+      "sha256": "959ac9e588a19bd43f1097937cb432af38f6b7caa76268d025150f8accc25944"
+    },
+    {
+      "file": "public/models/production/eiffel_v06c.glb",
+      "sha256": "6c8ef3cc7441ee5dd38cc41bbd46f6c13ced1bb095aead22b0075cf9a3d8d864"
+    },
+    {
+      "file": "public/models/production/falcon_v06c.glb",
+      "sha256": "a69b487cfcc675c647dc56893385a378208b7a47aab535ae44bb529a19e9b833"
+    },
+    {
+      "file": "public/models/production/ferrari_v06c.glb",
+      "sha256": "f5a24caa07a52d8168c991280f93cd675f52c63547671941d19457b1e48de5fa"
+    },
+    {
+      "file": "public/models/production/fixtures_v06c.glb",
+      "sha256": "3b23cd742184e4a6f8ffc7461c897bbd5d4a49a892eb19f746e2f489bd335e9f"
+    },
+    {
+      "file": "public/models/production/floor_v06a.glb",
+      "sha256": "dcdbfa138e022dad68243818f8baaaf8a04bf560df3f8f9a76662e5af21ebfd0"
+    },
+    {
+      "file": "public/models/production/headphones_v06b.glb",
+      "sha256": "a9503e870968db4db37e9914f3e84f3e6926d053b0eb93434ecb6856fea0086d"
+    },
+    {
+      "file": "public/models/production/hogwarts_v06c.glb",
+      "sha256": "934f91ddf9e9e6bb2b3650aa3042c7b1a978105aa1b012082da455a90a88c4a6"
+    },
+    {
+      "file": "public/models/production/ipad_v06b.glb",
+      "sha256": "ad0455414f0548ebfa09392e450d7060e8cb8aaac2b6b89e47f642561de443ba"
+    },
+    {
+      "file": "public/models/production/keyboard_v06b.glb",
+      "sha256": "e51e8a04e846d9f8a9a56b12c7105a67b86fdbb388ba872d2a2e7a9843a44df8"
+    },
+    {
+      "file": "public/models/production/lightswitch_v06b.glb",
+      "sha256": "6b4d1cf7f63ca22a5a99ac36ea61e3cf5b21d69ef15cdbe2f74e269e635d3b99"
+    },
+    {
+      "file": "public/models/production/macbook_pilot.glb",
+      "sha256": "92e137c0a5223643017400bf8af0c7acb6d604b5f0f6028bd6ec9a3d1fbcc286"
+    },
+    {
+      "file": "public/models/production/marshall_pilot.glb",
+      "sha256": "e4120b139e4c442f86ddaa4ce266dd13cdbd4a3b1f3235d3a5923477765a7907"
+    },
+    {
+      "file": "public/models/production/mercedes_v06c.glb",
+      "sha256": "2f6d1caa872c534dadf8603431695cf18693e8db9f8c0b3cf7975ad6b128583b"
+    },
+    {
+      "file": "public/models/production/minastirith_v06c.glb",
+      "sha256": "ecb4baa2cf92c1d77d49d80770d0cdcff696acad4a5b31067d5af19a71d2c51d"
+    },
+    {
+      "file": "public/models/production/monitor_pilot.glb",
+      "sha256": "a43ee4d56bc6d695c80c04344247a0fb2616fac74a3bd311d7ff640bbf9938d5"
+    },
+    {
+      "file": "public/models/production/mouse_v06b.glb",
+      "sha256": "e2b207d3bcac00e6aca3270142f857c057f63c42ab82701c317f3784b780cba0"
+    },
+    {
+      "file": "public/models/production/phone_v06b.glb",
+      "sha256": "3924790aeeb67b324c8bdc7bc801990d2aa75f887c61cbf50812819e0beca93e"
+    },
+    {
+      "file": "public/models/production/plants_v06c.glb",
+      "sha256": "4575c8c7f98e7e8736fb7e2e4734e52e6ac9e5dfa02d028192c6e5c860a3abcb"
+    },
+    {
+      "file": "public/models/production/rugs_v06a.glb",
+      "sha256": "4fc5856059f1c67092e3942a68396e610f849735874193a4dac07e860b9a2fac"
+    },
+    {
+      "file": "public/models/production/sidetable_v06a.glb",
+      "sha256": "93350edb63c0df7f31193d9782510bb68b6e506b8ade7b4107ff680f5dd582a7"
+    },
+    {
+      "file": "public/models/production/sls_v06c.glb",
+      "sha256": "bd35d2021988a1cfd045ea264ea0a01968969bccc72bfe4fe94526384f71308d"
+    },
+    {
+      "file": "public/models/production/sofa_v06a.glb",
+      "sha256": "67d7d9409fe38fca608a2bb2c6a11bbe27660821cd43c34a0cd185fa3c88c840"
+    },
+    {
+      "file": "public/models/production/wallart_v06c.glb",
+      "sha256": "355a2e23a5a6b5ca4c9fda32e2803f7d9db9c6b501d92d6677affbda2a04f772"
+    },
+    {
+      "file": "public/models/production/walls_v06a.glb",
+      "sha256": "53671e422e8138a790da08a504f47fd5f6f3bc282d66b323a34c69640572ef8e"
+    },
+    {
+      "file": "public/models/production/window_v06a.glb",
+      "sha256": "fc48b0b9bff414c8ec0ecc8875fd5bac8c57f33b5feb86c29b2e17f61eb50bb1"
+    }
+  ],
+  "protectedFileCount": 187,
+  "sourceGLB": {
+    "bytes": 411892,
+    "sha256": "f34b3c665ba7b08e583325bef5e3c2024f45e43ebb12a6735aa3b13a97758da2"
+  },
+  "scope": "Only piano and trashcan visual exports/source revised; 38 other families and listed inputs match the complete start snapshot."
+}

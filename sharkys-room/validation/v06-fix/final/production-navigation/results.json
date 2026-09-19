@@ -1,0 +1,265 @@
+{
+  "stage": "all",
+  "production": true,
+  "origin": "http://127.0.0.1:3005",
+  "checks": [
+    {
+      "name": "1440: room drag, bounded zoom, exact reset",
+      "passed": true
+    },
+    {
+      "name": "1440: monitor panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "1440: macbook panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "1440: ipad panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "1440: marshall panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "1440: piano panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "1440: trashcan panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "1440: lightswitch panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "1440: phone panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "1440: window panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "1440: outside click during focus queues original return",
+      "passed": true
+    },
+    {
+      "name": "768: room drag, bounded zoom, exact reset",
+      "passed": true
+    },
+    {
+      "name": "768: monitor panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "768: macbook panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "768: ipad panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "768: marshall panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "768: piano panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "768: trashcan panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "768: lightswitch panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "768: phone panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "768: window panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "768: outside click during focus queues original return",
+      "passed": true
+    },
+    {
+      "name": "390: room drag, bounded zoom, exact reset",
+      "passed": true
+    },
+    {
+      "name": "390: monitor panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "390: macbook panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "390: ipad panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "390: marshall panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "390: piano panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "390: trashcan panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "390: lightswitch panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "390: phone panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "390: window panel isolation, navigation and outside return",
+      "passed": true
+    },
+    {
+      "name": "390: outside click during focus queues original return",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "poses": {
+    "390": {},
+    "768": {},
+    "1440": {}
+  },
+  "outsideInputs": {
+    "390": {
+      "monitor": {
+        "x": 19,
+        "y": 284
+      },
+      "macbook": {
+        "x": 19,
+        "y": 284
+      },
+      "ipad": {
+        "x": 19,
+        "y": 284
+      },
+      "marshall": {
+        "x": 19,
+        "y": 284
+      },
+      "piano": {
+        "x": 19,
+        "y": 284
+      },
+      "trashcan": {
+        "x": 19,
+        "y": 284
+      },
+      "lightswitch": {
+        "x": 19,
+        "y": 284
+      },
+      "phone": {
+        "x": 19,
+        "y": 284
+      },
+      "window": {
+        "x": 139,
+        "y": 464
+      }
+    },
+    "768": {
+      "monitor": {
+        "x": 44,
+        "y": 295
+      },
+      "macbook": {
+        "x": 44,
+        "y": 295
+      },
+      "ipad": {
+        "x": 44,
+        "y": 295
+      },
+      "marshall": {
+        "x": 44,
+        "y": 295
+      },
+      "piano": {
+        "x": 44,
+        "y": 295
+      },
+      "trashcan": {
+        "x": 44,
+        "y": 295
+      },
+      "lightswitch": {
+        "x": 44,
+        "y": 295
+      },
+      "phone": {
+        "x": 44,
+        "y": 295
+      },
+      "window": {
+        "x": 284,
+        "y": 635
+      }
+    },
+    "1440": {
+      "monitor": {
+        "x": 184,
+        "y": 102
+      },
+      "macbook": {
+        "x": 184,
+        "y": 102
+      },
+      "ipad": {
+        "x": 184,
+        "y": 102
+      },
+      "marshall": {
+        "x": 184,
+        "y": 102
+      },
+      "piano": {
+        "x": 184,
+        "y": 102
+      },
+      "trashcan": {
+        "x": 184,
+        "y": 102
+      },
+      "lightswitch": {
+        "x": 184,
+        "y": 102
+      },
+      "phone": {
+        "x": 184,
+        "y": 102
+      },
+      "window": {
+        "x": 544,
+        "y": 642
+      }
+    }
+  },
+  "summary": {
+    "passed": 33,
+    "failed": 0
+  }
+}

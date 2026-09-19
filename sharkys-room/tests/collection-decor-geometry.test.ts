@@ -530,7 +530,8 @@ describe('v0.6C real GLB geometry, original anchors and reversible assembly', ()
         rail.position.z = initial.z - .65 + fraction * .65;
         room.updateMatrixWorld(true);
         // Both moving roots matter: testing INT_Piano alone would miss VIS_PianoSlide.
-        const movingTriangles = definitions.piano.parts.flatMap(part => triangles(node(room, part.root)));
+        // Stationary mounting hardware is covered by the separate 33-pose repair contract.
+        const movingTriangles = definitions.piano.parts.filter(part => part.anchor === 'INT_Piano' || part.anchor === 'INT_PianoRail').flatMap(part => triangles(node(room, part.root)));
         const pianoBox = new Box3(); for (const tri of movingTriangles) for (const point of [tri.a, tri.b, tri.c]) pianoBox.expandByPoint(point);
         for (const triangle of movingTriangles) assert.equal(stripBox.clone().expandByScalar(-EPS).intersectsTriangle(triangle), false, `Desk strip enters B geometry at ${fraction}`);
         for (const triangle of stripTriangles) assert.equal(pianoBox.clone().expandByScalar(-EPS).intersectsTriangle(triangle), false, `Desk strip crosses B envelope at ${fraction}`);

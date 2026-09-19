@@ -1,0 +1,195 @@
+{
+  "at": "2026-09-19T05:44:33.529Z",
+  "technical": "passed within the documented environment",
+  "userVisual": "pending in all four groups",
+  "unit": 296,
+  "assetChecks": 361,
+  "evidence": [
+    {
+      "name": "原九项交互与共享状态",
+      "path": "validation/v06-fix/final/interactions/interaction_browser.json",
+      "passed": 37,
+      "failed": 0
+    },
+    {
+      "name": "A 家具网页回归",
+      "path": "validation/v06-fix/final/furniture-r2/furniture-browser.json",
+      "passed": 50,
+      "failed": 0
+    },
+    {
+      "name": "B 交互资产网页回归",
+      "path": "validation/v06-fix/final/b/interactive-assets-browser.json",
+      "passed": 57,
+      "failed": 0
+    },
+    {
+      "name": "C 收藏装饰网页回归",
+      "path": "validation/v06-fix/final/c/collection-decor-browser.json",
+      "passed": 56,
+      "failed": 0
+    },
+    {
+      "name": "钢琴发现路径（含 20 轮连续重开）",
+      "path": "validation/v06-fix/final/piano-r2/piano-browser.json",
+      "passed": 10,
+      "failed": 0
+    },
+    {
+      "name": "导航、退出、页面空白及面板隔离 / 三宽度",
+      "path": "validation/v06-fix/final/navigation-r3/results.json",
+      "passed": 42,
+      "failed": 0
+    },
+    {
+      "name": "双指、取消、拖出画布、减少动画与刷新",
+      "path": "validation/v06-fix/final/gestures-r3/results.json",
+      "passed": 8,
+      "failed": 0
+    },
+    {
+      "name": "最终生产导航与退出 / 三宽度",
+      "path": "validation/v06-fix/final/production-navigation-r2/results.json",
+      "passed": 36,
+      "failed": 0
+    },
+    {
+      "name": "最终生产 A/B/C 安装、九项路径及故障恢复",
+      "path": "validation/v06-fix/final/production-c-r2/collection-decor-production.json",
+      "passed": 51,
+      "failed": 0
+    },
+    {
+      "name": "全部资产隔离网页检查 / 补拍",
+      "path": "validation/v06-fix/final/inspection/collection-decor-inspection.json",
+      "passed": 72,
+      "failed": 0
+    },
+    {
+      "name": "被遮挡资产补拍与保护检查",
+      "path": "validation/v06-fix/final/inspection-supplement/collection-decor-inspection.json",
+      "passed": 10,
+      "failed": 0
+    }
+  ],
+  "lifecycle": {
+    "cycles": 20,
+    "passed": true
+  },
+  "performance": {
+    "comparisons": [
+      {
+        "width": 1440,
+        "view": "hero",
+        "beforeMs": 80.24097833999993,
+        "afterMs": 77.15610657692308,
+        "changePercent": -3.8445091608997117,
+        "source": "performance-r3-1440"
+      },
+      {
+        "width": 1440,
+        "view": "piano",
+        "beforeMs": 50.1389348875,
+        "afterMs": 49.53074999999996,
+        "changePercent": -1.212999216805588,
+        "source": "performance-r3-1440"
+      },
+      {
+        "width": 1440,
+        "view": "trashcan",
+        "beforeMs": 30.396639204545476,
+        "afterMs": 28.25102992957745,
+        "changePercent": -7.058705604029991,
+        "source": "performance-r3-1440"
+      },
+      {
+        "width": 768,
+        "view": "hero",
+        "beforeMs": 71.66070089285729,
+        "afterMs": 66.8546555666666,
+        "changePercent": -6.706668043027387,
+        "source": "performance-r3-768"
+      },
+      {
+        "width": 768,
+        "view": "piano",
+        "beforeMs": 37.85717885849054,
+        "afterMs": 33.425929166666656,
+        "changePercent": -11.705176733817957,
+        "source": "performance-r3-768"
+      },
+      {
+        "width": 768,
+        "view": "trashcan",
+        "beforeMs": 18.074232166666636,
+        "afterMs": 16.71347534583333,
+        "changePercent": -7.528711639230123,
+        "source": "performance-r3-768"
+      },
+      {
+        "width": 390,
+        "view": "hero",
+        "beforeMs": 66.8431666666666,
+        "afterMs": 64.71188238709686,
+        "changePercent": -3.188484905567124,
+        "source": "performance-r2"
+      },
+      {
+        "width": 390,
+        "view": "piano",
+        "beforeMs": 28.051843531468435,
+        "afterMs": 28.455853723404235,
+        "changePercent": 1.4402268837788945,
+        "source": "performance-r2"
+      },
+      {
+        "width": 390,
+        "view": "trashcan",
+        "beforeMs": 16.705057466666645,
+        "afterMs": 16.705770312500075,
+        "changePercent": 0.004267245622191496,
+        "source": "performance-r2"
+      }
+    ],
+    "conditions": "Chrome headless ANGLE SwiftShader, DPR1, original quality, continuous development diagnostics; 3 serial runs, 4s/view after warmup. Not hardware GPU FPS.",
+    "desktopRemeasurement": "1440px r2 startup overlapped the final gesture suite by about eight seconds; it is excluded. Use the independent 3-run r3 desktop sample. 768/390 r2 were after all other browser suites completed.",
+    "tabletInvestigation": {
+      "initialMedianMs": 40.124318330000094,
+      "initialChangePercent": 5.988664607006444,
+      "repeatMedianMs": 33.425929166666656,
+      "repeatChangePercent": -11.705176733817957,
+      "conclusion": "The initial 5.99 percent increase did not reproduce in three independent serial repeats. Keep both rounds. No quality or product changes between these rounds; timing variance is not an optimization claim."
+    }
+  },
+  "protectedFileCount": 187,
+  "productionSourceVerification": {
+    "at": "2026-09-19T05:26:39.117Z",
+    "count": 89,
+    "allCurrentSourceHashesMatch": true,
+    "buildOnlyTypeDeclaration": "The isolated production build generates its own next-env.d.ts; the user working copy stays unchanged.",
+    "production": "/private/tmp/sharkys-v06-fix-production-1789793258931"
+  },
+  "video": {
+    "source": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/raw-video/page@b6582bc43da0020a448b1dee7d862c7f.webm",
+    "mp4": "validation/v06-fix/production-evidence-r2/visual-interaction-demo.mp4",
+    "status": 0,
+    "error": null
+  },
+  "intermediateFrames": [
+    {
+      "file": "piano-frame-15.25.png",
+      "videoSeconds": 15.25,
+      "state": "retracting, intermediate travel"
+    },
+    {
+      "file": "trash-frame-32.35.png",
+      "videoSeconds": 32.35,
+      "state": "closing, partially open"
+    },
+    {
+      "file": "trash-frame-32.57.png",
+      "videoSeconds": 32.57,
+      "state": "closed at start of original return sequence"
+    }
+  ]
+}

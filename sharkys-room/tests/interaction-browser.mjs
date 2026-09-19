@@ -370,7 +370,7 @@ try {
     return { point, state: after.interaction };
   }, page);
 
-  await check('Rapid competing object clicks preserve one focus and exact mechanical/return transforms', async () => {
+  await check('Rapid competing scene clicks queue return without switching objects and keep exact transforms', async () => {
     await hero(page, heroPose);
     const points = await hitPoints(page);
     if (points.macbook) await page.mouse.click(points.macbook.x, points.macbook.y);
@@ -380,11 +380,9 @@ try {
     const competing = ['piano', 'monitor', 'trashcan', 'macbook', 'phone', 'window'].filter((id) => points[id]);
     assert(competing.length >= 3, 'Need multiple visible objects for conflicting physical clicks');
     for (const id of competing) await page.mouse.click(points[id].x, points[id].y);
-    await settled(page, 'macbook');
-    const open = await snapshot(page);
-    assert.equal(open.interaction.activeObject, 'macbook');
-    hingeEndpoint(open.mechanical, 'macbook', 'open', 'MacBook after competing clicks');
-    const after = await hero(page, heroPose);
+    await waitState(page, { activeObject: null, interactionPhase: 'idle', isCameraBusy: false });
+    const after = await snapshot(page);
+    assert.deepEqual(cameraPose(after.camera), heroPose);
     hingeEndpoint(after.mechanical, 'macbook', 'closed', 'MacBook after rapid clicks and Back');
     return { firstPhase: first.interaction.interactionPhase, state: after.interaction };
   }, page);

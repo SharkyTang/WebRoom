@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "name": "reduced=false: two-finger dolly/rotate and cancellation never exit or toggle",
+      "passed": true
+    },
+    {
+      "name": "reduced=false: dragging actual piano does not toggle; Escape during a drag releases camera ownership",
+      "passed": true
+    },
+    {
+      "name": "reduced=false: five-pixel click jitter still exits and held gestures cannot leak into next view",
+      "passed": true
+    },
+    {
+      "name": "reduced=false: resize/reload preserves forty families and has no duplicated resources",
+      "passed": true
+    },
+    {
+      "name": "reduced=true: two-finger dolly/rotate and cancellation never exit or toggle",
+      "passed": true
+    },
+    {
+      "name": "reduced=true: dragging actual piano does not toggle; Escape during a drag releases camera ownership",
+      "passed": true
+    },
+    {
+      "name": "reduced=true: five-pixel click jitter still exits and held gestures cannot leak into next view",
+      "passed": true
+    },
+    {
+      "name": "reduced=true: resize/reload preserves forty families and has no duplicated resources",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "passed": 8,
+    "failed": 0
+  }
+}

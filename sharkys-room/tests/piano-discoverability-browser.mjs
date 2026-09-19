@@ -192,7 +192,7 @@ try {
       await input(page, point); await settled(page); endpoint(await snap(page), 'extended');
       observations.focusedSamples = await endSampling(page);
     }, page);
-    await check(`${pianoCycles} Hero rediscovery cycles ignore competing clicks and preserve exact endpoints/camera`, async () => {
+    await check(`${pianoCycles} Hero rediscovery cycles preserve exact endpoints/camera`, async () => {
       observations.cycles = [];
       for (let cycle = 0; cycle < pianoCycles; cycle++) {
         await startSampling(page); await retract(page); await back(page, hero);
@@ -201,7 +201,10 @@ try {
         await page.locator('.page-footer p').filter({ hasText: 'Pull-out Piano' }).waitFor();
         assert.equal((await snap(page)).hovered, 'piano');
         if (cycle === 0) await screenshot(page, 'piano_retracted_hover.png');
-        await page.mouse.click(point.x, point.y, { clickCount: 4, delay: 15 });
+        // One deliberate rediscovery click. Repeated clicks at a fixed screen
+        // pixel can hit outside the piano once focus moves the camera; the v0.6
+        // repair intentionally queues Back for those (covered by interaction-browser).
+        await input(page, point);
         await settled(page); endpoint(await snap(page), 'extended');
         observations.cycles.push(await endSampling(page));
         if (cycle === 0) await screenshot(page, 'piano_extended.png');
