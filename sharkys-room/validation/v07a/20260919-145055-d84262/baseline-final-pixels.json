@@ -1,0 +1,487 @@
+{
+  "method": "Decoded whole screenshot RGBA comparison at identical native navigation points, DPR1; no tolerance/no image rewriting",
+  "count": 60,
+  "identical": 60,
+  "comparison": [
+    {
+      "name": "1440-hero.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-ipad-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-ipad.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-lightswitch-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-lightswitch.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-macbook-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-macbook.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-marshall-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-marshall.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-monitor-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-monitor.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-phone-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-phone.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-piano-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-piano.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-room-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-trashcan-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-trashcan.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-window-rotated.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "1440-window.png",
+      "width": 1440,
+      "height": 900,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-hero.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-ipad-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-ipad.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-lightswitch-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-lightswitch.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-macbook-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-macbook.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-marshall-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-marshall.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-monitor-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-monitor.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-phone-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-phone.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-piano-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-piano.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-room-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-trashcan-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-trashcan.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-window-rotated.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "390-window.png",
+      "width": 390,
+      "height": 844,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-hero.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-ipad-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-ipad.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-lightswitch-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-lightswitch.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-macbook-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-macbook.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-marshall-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-marshall.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-monitor-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-monitor.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-phone-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-phone.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-piano-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-piano.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-room-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-trashcan-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-trashcan.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-window-rotated.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "768-window.png",
+      "width": 768,
+      "height": 1024,
+      "dimensionsEqual": true,
+      "changedPixels": 0,
+      "maxChannelDelta": 0
+    }
+  ]
+}

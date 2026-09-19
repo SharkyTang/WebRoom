@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-09-19T15:25:21.449691+08:00",
+  "addedImplementationTestAndDocCount": 25,
+  "files": [
+    {
+      "path": "V07A_BASELINE.md",
+      "change": "added",
+      "bytes": 5167,
+      "sha256": "4a6f1ff1f7b3a80aafd68e4a1b8df4b7231004b0a87eb3963ba1277ecdbf43f7"
+    },
+    {
+      "path": "V07A_CONTENT_REPORT.md",
+      "change": "added",
+      "bytes": 10537,
+      "sha256": "b87173aa46ff9a82d8131e94f3195ad263cff5646ec6ffe2c425d8d0e1ea6424"
+    },
+    {
+      "path": "V07A_FILE_CHANGES.md",
+      "change": "added",
+      "bytes": 4087,
+      "sha256": "4f057867c6c14da148a03ea2e87fa55b43c5c9a1a6a332e53bf98448a681c4f8"
+    },
+    {
+      "path": "content/room/contact.json",
+      "change": "added",
+      "bytes": 38,
+      "sha256": "caf69286c5d14220cfb3c8afee874ce3372155011b69c4399b44b81e6310c6fa"
+    },
+    {
+      "path": "content/room/media.json",
+      "change": "added",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "content/room/memories.json",
+      "change": "added",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "content/room/profile.json",
+      "change": "added",
+      "bytes": 39,
+      "sha256": "3aeb435210d6bf3e929d4cf49711883998324e5ccf7ca2231eb456008c770e32"
+    },
+    {
+      "path": "content/room/projects.json",
+      "change": "added",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "content/room/site.json",
+      "change": "added",
+      "bytes": 63,
+      "sha256": "0811a474aac05a13b4ec8916ddc84dd14d16e0ab740458fc0fa59b1c3040445a"
+    },
+    {
+      "path": "docs/content/CONTENT_APPROVAL_REGISTER.md",
+      "change": "added",
+      "bytes": 1780,
+      "sha256": "45d19a5254d0398e6fce1281f9fa54fb95bd192e929a9c7103435d340c49673f"
+    },
+    {
+      "path": "docs/content/CONTENT_GAPS.md",
+      "change": "added",
+      "bytes": 2490,
+      "sha256": "96088579c571da1a07d81547b6ff8eb552c3ce03f922da68a86c62ef1a91c237"
+    },
+    {
+      "path": "docs/content/CONTENT_INVENTORY.md",
+      "change": "added",
+      "bytes": 1395,
+      "sha256": "7cd99e4f888b9711307e167a0a402c38c6f8e51501f90ccfc443d5895311e674"
+    },
+    {
+      "path": "docs/content/CONTENT_SCHEMA.md",
+      "change": "added",
+      "bytes": 7937,
+      "sha256": "a3abc4f0260df23544ec33ec5ce50e6b1fa28c1367b204ffe7013918be663b9f"
+    },
+    {
+      "path": "docs/content/CONTENT_UPDATE_GUIDE.md",
+      "change": "added",
+      "bytes": 4348,
+      "sha256": "2d9a28cc12829a445762a58fe8b3f401fadaed71ebfffc5918b06e4181eb9a4d"
+    },
+    {
+      "path": "docs/content/approved-records.json",
+      "change": "added",
+      "bytes": 41,
+      "sha256": "eb34016113243d4672a3c5964a68b86ea9c719d262c48f6372c5b5765340f603"
+    },
+    {
+      "path": "lib/content/publication.server.ts",
+      "change": "added",
+      "bytes": 9110,
+      "sha256": "5fc1f9d07ce5cf2d5b1a81c0bc72bc98095707eda30061691ad2ad9db8bad3d2"
+    },
+    {
+      "path": "lib/content/repository.ts",
+      "change": "added",
+      "bytes": 4530,
+      "sha256": "3fb4bd5b87e158141a9e4c961d68d7bdd878748f74b184296f924151256975ca"
+    },
+    {
+      "path": "lib/content/selectors.ts",
+      "change": "added",
+      "bytes": 1724,
+      "sha256": "3fa791ea4f86212b99cb467d99f027ee8df814755b78a10cda782f463ed43823"
+    },
+    {
+      "path": "lib/content/source.server.ts",
+      "change": "added",
+      "bytes": 1162,
+      "sha256": "45870a4817dbd12efc10f7bcb6d3d90eb7e406bf69eb97fb3acd6ded786b2900"
+    },
+    {
+      "path": "lib/content/types.ts",
+      "change": "added",
+      "bytes": 3635,
+      "sha256": "183c970b7ac400ac259b9e3ddf15dc1c3457a185d153367d005754c8dca85e45"
+    },
+    {
+      "path": "lib/content/validate.ts",
+      "change": "added",
+      "bytes": 14328,
+      "sha256": "dfb6c1c6f8d1131cf9d33ca7ec9c8338508c97e46df9b57570552c0342120ba8"
+    },
+    {
+      "path": "scripts/validate-content.ts",
+      "change": "added",
+      "bytes": 1181,
+      "sha256": "e856e6d07c1392663fb489341a6461f583f7abc2a85787b5797125eafdb982eb"
+    },
+    {
+      "path": "tests/content/fixtures/content.ts",
+      "change": "added",
+      "bytes": 3664,
+      "sha256": "01ae8f34e52bd46ccf000e80e763652a1311c39c8eb5632fc919819247964246"
+    },
+    {
+      "path": "tests/content.test.ts",
+      "change": "added",
+      "bytes": 15565,
+      "sha256": "ef4386327de3234c8d9c6471a84a99151da7832c81b41125eb416475ce9b4c66"
+    },
+    {
+      "path": "tests/v07a-production-browser.mjs",
+      "change": "added",
+      "bytes": 9001,
+      "sha256": "dcf61185a39992478fb00c152f367cb840bd6fc3ddf92f18d55530f0ff8d86f0"
+    }
+  ],
+  "originalUnstagedDiffUnchanged": true,
+  "originalStagedDiffUnchanged": true,
+  "headUnchanged": true,
+  "evidenceDirectory": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v07a/20260919-145055-d84262"
+}

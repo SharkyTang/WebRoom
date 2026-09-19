@@ -1,6 +1,6 @@
 # v0.6 用户视觉确认
 
-打开 [当前生产构建预览](http://127.0.0.1:3005/)，刷新后检查。下面只收集视觉和操作手感意见；技术测试结果另见 [实施报告](V06_VISUAL_INTERACTION_FIX_REPORT.md)。四组均为 **待用户视觉确认**，可以部分通过。
+打开 [当前生产构建预览](http://127.0.0.1:3005/)，刷新后检查。下面只收集视觉和操作手感意见；技术测试结果另见 [实施报告](V06_VISUAL_INTERACTION_FIX_REPORT.md)。用户于 **2026-09-19** 在本任务中回复“通过”，本批四组均已记录为 **用户视觉确认通过**。下列操作与截图保留作为确认依据。
 
 [35 秒真实网页操作录屏](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/visual-interaction-demo.mp4)。录屏来自无 debug/检查 API 的生产构建，全部操作使用原生鼠标、滚轮与按钮。
 
@@ -10,7 +10,7 @@
 
 ![真实网页总览旋转](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/02-room-rotation.png)
 
-记录：待确认。可回复“第 1 组通过”或“第 1 组需调整：物件、方向、速度/距离”。
+记录：**通过**。确认日期：2026-09-19；依据：用户在本任务中回复“通过”。
 
 ## 2. 外部退出与面板操作
 
@@ -18,7 +18,7 @@
 
 [退出后的默认总览](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/11-outside-return.png)；录屏展示钢琴外部退出和垃圾桶退出关盖。
 
-记录：待确认。可回复“第 2 组通过”或“第 2 组需调整：点击位置、之前操作、实际结果”。
+记录：**通过**。确认日期：2026-09-19；依据：用户在本任务中回复“通过”。
 
 ## 3. 钢琴与桌子的连接
 
@@ -28,7 +28,7 @@
 
 [收回状态](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/05-piano-retracted.png) · [行程中间的真实录屏帧](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/piano-frame-15.25.png) · [桌下重新打开](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/07-underdesk-reopened.png)。中间帧不声称恰好 50%；精确半行程和两端由 33 点几何测试核验。
 
-记录：待确认。可回复“第 3 组通过”或“第 3 组需调整：收回/中途/拉出、左右哪侧、连接位置”。
+记录：**通过**。确认日期：2026-09-19；依据：用户在本任务中回复“通过”。
 
 ## 4. 垃圾桶桶身、桶口与翻盖
 
@@ -38,6 +38,6 @@
 
 [侧面铰链](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/09-trash-hinge-side.png) · [抬高后的内腔](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/10-trash-cavity-other-side.png) · [开合中间帧](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/trash-frame-32.35.png) · [闭合帧](/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v06-fix/production-evidence-r2/trash-frame-32.57.png)。内腔沿用现有较暗的材质与照明，深浅观感仍需确认。
 
-记录：待确认。可回复“第 4 组通过”或“第 4 组需调整：闭合/半开/全开、间隙或铰链位置”。
+记录：**通过**。确认日期：2026-09-19；依据：用户在本任务中回复“通过”。
 
 其余 40 组资产的具体位置与精修候选见 [逐物件清单](V06_ASSET_DETAIL_REVIEW.md)。本批交付后停止，不自动开始精修、后续版本或部署。

@@ -1,0 +1,20 @@
+{
+  "projectRoot": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room",
+  "repositoryRoot": "/Users/shaoqitang/Documents/ChatGPT/网页小屋",
+  "existingServer": {
+    "pid": 85161,
+    "cwd": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room",
+    "url": "http://127.0.0.1:3000",
+    "mode": "development"
+  },
+  "uncommittedBefore": [
+    "V06_ASSET_DETAIL_REVIEW.md",
+    "V06_VISUAL_CONFIRMATION.md",
+    "V06_VISUAL_INTERACTION_FIX_REPORT.md",
+    "validation/v06-fix/final/ACCEPTANCE_SUMMARY.json"
+  ],
+  "existingContentModule": false,
+  "existingContentUI": false,
+  "approvedPersonalRecords": 0,
+  "notes": "Snapshot archived and extracted before any product file addition; new modules are unbound."
+}

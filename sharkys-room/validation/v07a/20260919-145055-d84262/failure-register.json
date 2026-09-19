@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-09-19T15:19:57.624392+08:00",
+  "records": [
+    {
+      "kind": "snapshot tooling",
+      "path": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/local-backups/v07a-start-20260919-144950-8f70ae/verification-failed.json",
+      "resolved": "A separate complete snapshot was created and verified before product writes."
+    },
+    {
+      "kind": "browser sandbox",
+      "path": "validation/v07a/20260919-145055-d84262/baseline/navigation.log",
+      "resolved": "Reran with native Chrome permissions; baseline/navigation-r2 passed."
+    },
+    {
+      "kind": "test TypeScript",
+      "path": "validation/v07a/20260919-145055-d84262/typecheck-r1.log",
+      "resolved": "Removed a redundant narrowed comparison in new content test; typecheck-r3 passed."
+    },
+    {
+      "kind": "production server sandbox",
+      "path": "validation/v07a/20260919-145055-d84262/production-server.log",
+      "resolved": "Loopback listen EPERM; started only the isolated production preview with permission."
+    }
+  ],
+  "supersededSuccessfulEvidence": [
+    {
+      "path": "build-r1.log",
+      "reason": "Final unknown-domain/source error guards added; current final inputs are build-r2.log and build-inputs.json"
+    },
+    {
+      "path": "content-tests-r1.log",
+      "reason": "65 tests before two final guard cases; final is 67 in content-tests-r2.log"
+    },
+    {
+      "path": "unit-r1.log",
+      "reason": "361 before final guard cases; final unit-r2 is 363"
+    }
+  ]
+}

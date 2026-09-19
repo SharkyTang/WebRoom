@@ -1,0 +1,102 @@
+{
+  "origin": "http://127.0.0.1:3108",
+  "generatedAt": "2026-09-19T07:22:31.718Z",
+  "production": true,
+  "nativeInputsOnly": true,
+  "pianoEvidence": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v07a/20260919-145055-d84262/final/piano/piano-browser.json",
+  "navigationEvidence": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v07a/20260919-145055-d84262/final/navigation/results.json",
+  "checks": [
+    {
+      "name": "Production installs all forty families and exposes no room debug/inspection API",
+      "passed": true
+    },
+    {
+      "name": "Native overview rotation, wheel zoom and view reset remain usable",
+      "passed": true
+    },
+    {
+      "name": "Original piano first sequence, retract, Back and natural under-desk reopening",
+      "passed": true
+    },
+    {
+      "name": "Window slider/weather controls remain isolated and persist through four device visits",
+      "passed": true
+    },
+    {
+      "name": "Marshall explicit off survives exit/refocus and total-light control remains usable",
+      "passed": true
+    },
+    {
+      "name": "Trash lid/hinge opens, reset works, and first outside click only exits",
+      "passed": true
+    },
+    {
+      "name": "No new content/debug route, source JSON, local approval register or test fixture is downloadable",
+      "passed": true
+    },
+    {
+      "name": "Every loaded GLB byte matches the current protected source",
+      "passed": true
+    }
+  ],
+  "events": [
+    {
+      "name": "01-overview",
+      "elapsedMs": 2942.032792
+    },
+    {
+      "name": "02-overview-rotated",
+      "elapsedMs": 4976.18975
+    },
+    {
+      "name": "03-piano-connection",
+      "elapsedMs": 10539.902917
+    },
+    {
+      "name": "04-piano-retracted",
+      "elapsedMs": 12496.33
+    },
+    {
+      "name": "05-underdesk-entry",
+      "elapsedMs": 13853.428167
+    },
+    {
+      "name": "06-underdesk-reopened",
+      "elapsedMs": 16192.422083000001
+    },
+    {
+      "name": "07-device-monitor",
+      "elapsedMs": 21226.617875
+    },
+    {
+      "name": "07-device-macbook",
+      "elapsedMs": 25235.258458
+    },
+    {
+      "name": "07-device-ipad",
+      "elapsedMs": 28672.401625
+    },
+    {
+      "name": "07-device-phone",
+      "elapsedMs": 31665.742583
+    },
+    {
+      "name": "08-trash-hinge",
+      "elapsedMs": 49068.364917
+    },
+    {
+      "name": "09-returned-overview",
+      "elapsedMs": 51987.350958
+    }
+  ],
+  "errors": [],
+  "video": {
+    "raw": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v07a/20260919-145055-d84262/production-room/raw-video/page@8b0b8ca611aa40c7853bf8c92ac8bd6e.webm",
+    "mp4": "/Users/shaoqitang/Documents/ChatGPT/网页小屋/sharkys-room/validation/v07a/20260919-145055-d84262/production-room/room-regression.mp4",
+    "conversionExitCode": 0
+  },
+  "summary": {
+    "passed": 8,
+    "failed": 0
+  }
+}
